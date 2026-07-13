@@ -47,11 +47,12 @@ def _default_state() -> dict:
         "slots":           {},
         "reports":         {},
         "error": {
-            "active":     False,
-            "last_error": "",
+            "active":         False,
+            "last_error":     "",
+            "website_status": "Normal",  # WebsiteStatus.value — diperbarui setiap siklus
         },
         # Diisi oleh monitoring loop, dibaca oleh /status handler
         "startup_time":    "",   # ISO 8601, diisi sekali saat bot start
-        "last_check_time": "",   # ISO 8601, diperbarui setiap siklus sukses
+        "last_check_time": "",   # ISO 8601, diperbarui setiap siklus (sukses maupun gagal)
         "months":          [],   # Daftar bulan yang sedang dimonitor
     }

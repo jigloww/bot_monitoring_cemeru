@@ -2,20 +2,23 @@
 Modul monitoring website Semeru.
 
 Bertanggung jawab untuk:
-- HTTP request ke website Semeru
-- Parsing halaman kuota
+- Parsing halaman kuota (tidak berubah)
 - Resolving daftar bulan yang di-monitor
+
+Cara pengambilan HTML didelegasikan ke:
+    bot.clients.playwright_client.fetch_html()
+
+Jika website client perlu diganti, hanya clients/ yang perlu dimodifikasi.
+Parser di modul ini tidak perlu diubah.
 """
 from __future__ import annotations
 
 import html
 import re
-import urllib.parse
-import urllib.request
-import urllib.error
 
 from datetime import datetime
 
+from bot.clients.playwright_client import fetch_html
 from bot.constants import (
     BASE_URL,
     QUOTA_ENDPOINT,
@@ -27,46 +30,12 @@ from bot.constants import (
 
 
 # ==================================================
-# HTTP
-# ==================================================
-
-def http_request(
-    url:  str,
-    data: dict[str, str] | None = None,
-) -> str:
-    """Lakukan HTTP request ke URL dengan header browser-like."""
-    encoded_data = None
-
-    if data is not None:
-        encoded_data = urllib.parse.urlencode(data).encode("utf-8")
-
-    request = urllib.request.Request(
-        url,
-        data=encoded_data,
-        headers={
-            "User-Agent": (
-                "Mozilla/5.0 "
-                "(Windows NT 10.0; Win64; x64) "
-                "AppleWebKit/537.36 "
-                "(KHTML, like Gecko) "
-                "Chrome/126 Safari/537.36"
-            ),
-            "Referer":          BASE_URL,
-            "X-Requested-With": "XMLHttpRequest",
-        },
-    )
-
-    with urllib.request.urlopen(request, timeout=30) as response:
-        return response.read().decode("utf-8", "ignore")
-
-
-# ==================================================
-# PARSING
+# PARSING — tidak berubah dari versi sebelumnya
 # ==================================================
 
 def fetch_available_months() -> list[str]:
     """Ambil daftar bulan yang tersedia dari halaman utama website."""
-    body   = http_request(BASE_URL)
+    body   = fetch_html(BASE_URL)
     months = re.findall(r'<option[^>]+value="(\d{4}-\d{2})"', body)
     return list(dict.fromkeys(months))
 
@@ -157,7 +126,7 @@ def parse_quota_table(body: str, year_month: str) -> list[QuotaSlot]:
 
 def fetch_month_quota(year_month: str) -> list[QuotaSlot]:
     """Ambil kuota untuk satu bulan tertentu dari API website."""
-    body = http_request(
+    body = fetch_html(
         QUOTA_ENDPOINT,
         {
             "action":     "kapasitas",
@@ -178,6 +147,9 @@ def get_current_slots(months: list[str]) -> dict[str, int]:
 
     Returns:
         dict dengan key iso_date (str) dan value quota (int).
+
+    Raises:
+        WebsiteError: Jika website tidak dapat diakses.
     """
     result: dict[str, int] = {}
 
@@ -202,6 +174,9 @@ def resolve_months(
     - Jika CHECK_MONTHS di .env terisi, gunakan itu.
     - Jika kosong, gunakan bulan sekarang + bulan depan
       (hanya yang tersedia di website).
+
+    Raises:
+        WebsiteError: Jika gagal mengambil daftar bulan dari website.
     """
     if configured_months.strip():
         return [
@@ -232,7 +207,7 @@ def resolve_months(
         month
         for month in available_months
         if month in target_months
-    ]
+    ][:max_months]
 
 
 def format_month(year_month: str) -> str:

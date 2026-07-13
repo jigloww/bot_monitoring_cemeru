@@ -1,63 +1,96 @@
 """
 Message builders untuk Semeru Quota Bot.
 
-Semua fungsi di sini hanya membangun string pesan —
-tidak ada side-effect (tidak mengirim ke Telegram).
+Semua fungsi hanya membangun string pesan — tidak ada side-effect.
 
-Kategorisasi:
-    AKTIF (dipanggil di main loop):
-        build_daily_report()
-        build_change_messages()
-        build_error_message()
-        build_recovery_message()
+Push Message (aktif di main loop):
+    build_daily_report()        — morning / night report
+    build_change_messages()     — quota alert
+    build_error_message()       — website error (sekali per incident)
+    build_suspended_message()   — monitoring suspended (sekali per incident)
+    build_recovery_message()    — website recovery (sekali per incident)
 
-    DISIMPAN — tidak aktif di main loop saat ini:
-        build_startup_message()     → dipakai saat Pull Message /status fase 2
-        build_heartbeat_message()   → dipakai saat Pull Message /status fase 2
-        format_uptime()             → helper untuk heartbeat message
+Pull Message (/status):
+    build_status_message()      — respons command /status
+
+Disimpan (tidak aktif di main loop):
+    build_startup_message()     — placeholder fase berikutnya
+    build_heartbeat_message()   — placeholder fase berikutnya
+    format_uptime()             — helper
 """
 from __future__ import annotations
 
 from datetime import datetime
 
-from bot.constants import LOCAL_TZ
-from bot.monitor import format_month
+from bot.constants      import LOCAL_TZ
+from bot.monitor        import format_month
+from bot.website_status import WebsiteStatus
 
 
 # ==================================================
-# AKTIF: Push Message
+# HELPER
+# ==================================================
+
+def format_uptime(seconds: int) -> str:
+    """Format detik menjadi string uptime yang mudah dibaca."""
+    days,    seconds = divmod(seconds, 86400)
+    hours,   seconds = divmod(seconds, 3600)
+    minutes, _       = divmod(seconds, 60)
+
+    parts: list[str] = []
+    if days:    parts.append(f"{days} hari")
+    if hours:   parts.append(f"{hours} jam")
+    if minutes: parts.append(f"{minutes} menit")
+
+    return " ".join(parts) if parts else "Kurang dari 1 menit"
+
+
+def _fmt_time(dt: datetime) -> str:
+    return dt.strftime("%d-%m-%Y %H:%M WIB")
+
+
+# ==================================================
+# PUSH MESSAGE — aktif di main loop
 # ==================================================
 
 def build_daily_report(
-    title:         str,
-    months:        list[str],
-    current_slots: dict[str, int],
+    title:          str,
+    months:         list[str],
+    current_slots:  dict[str, int],
+    website_status: WebsiteStatus = WebsiteStatus.NORMAL,
 ) -> str:
-    """Bangun pesan laporan harian (morning/night report)."""
+    """
+    Bangun pesan laporan harian (morning/night report).
+
+    Jika website_status bukan NORMAL, tampilkan pesan error
+    sebagai pengganti data kuota agar laporan tidak menyesatkan.
+    """
     lines: list[str] = [title, ""]
 
-    grouped: dict[str, list[tuple[str, int]]] = {}
-
-    for date_str, quota in current_slots.items():
-        month = date_str[:7]
-        grouped.setdefault(month, []).append((date_str, quota))
-
-    for month in months:
-        lines.append(f"📅 {format_month(month)}")
-        entries = grouped.get(month, [])
-
-        if not entries:
-            lines.append("❌ Tidak ada kuota tersedia")
-        else:
-            for date_str, quota in sorted(entries):
-                lines.append(f"✅ {date_str} - {quota} kuota")
-
+    if not website_status.is_ok:
+        lines.append(f"⚠️ Data kuota tidak dapat diperbarui.")
+        lines.append(f"Penyebab: {website_status.value}")
         lines.append("")
+    else:
+        grouped: dict[str, list[tuple[str, int]]] = {}
 
-    lines.append(
-        datetime.now(LOCAL_TZ).strftime("🕒 %d %b %Y %H:%M WIB")
-    )
+        for date_str, quota in current_slots.items():
+            month = date_str[:7]
+            grouped.setdefault(month, []).append((date_str, quota))
 
+        for month in months:
+            lines.append(f"📅 {format_month(month)}")
+            entries = grouped.get(month, [])
+
+            if not entries:
+                lines.append("❌ Tidak ada kuota tersedia")
+            else:
+                for date_str, quota in sorted(entries):
+                    lines.append(f"✅ {date_str} - {quota} kuota")
+
+            lines.append("")
+
+    lines.append(datetime.now(LOCAL_TZ).strftime("🕒 %d %b %Y %H:%M WIB"))
     return "\n".join(lines)
 
 
@@ -115,131 +148,88 @@ def build_change_messages(
     return messages
 
 
-def build_error_message(error_text: str, now: datetime) -> str:
-    """Bangun pesan notifikasi website error (dikirim sekali)."""
-    return (
-        "🚨 BOT ERROR\n\n"
-        "━━━━━━━━━━━━━━━━━━\n\n"
-        "Website Semeru tidak dapat diakses.\n\n"
-        f"🕒 Error Time\n"
-        f"{now.strftime('%d-%m-%Y %H:%M:%S')} WIB\n\n"
-        f"📄 Detail\n"
-        f"{error_text}\n\n"
-        "━━━━━━━━━━━━━━━━━━\n\n"
-        "⚠️ Bot akan mencoba kembali secara otomatis."
-    )
+def build_error_message(
+    status: WebsiteStatus,
+    now:    datetime,
+) -> str:
+    """
+    Bangun pesan notifikasi website error (dikirim sekali per incident).
+    Menyertakan penyebab spesifik berdasarkan WebsiteStatus.
+    """
+    return "\n".join([
+        "🚨 WEBSITE ERROR",
+        "",
+        "━━━━━━━━━━━━━━━━━━",
+        "",
+        "🔴 Penyebab",
+        status.value,
+        "",
+        "🕒 Waktu",
+        _fmt_time(now),
+        "",
+        "━━━━━━━━━━━━━━━━━━",
+        "",
+        "⚠️ Bot tidak dapat mengambil data kuota.",
+        "Monitoring akan dicoba kembali secara otomatis.",
+    ])
+
+
+def build_suspended_message(
+    status: WebsiteStatus,
+    now:    datetime,
+) -> str:
+    """
+    Bangun pesan monitoring suspended (dikirim sekali per incident,
+    bersamaan dengan build_error_message).
+    """
+    return "\n".join([
+        "⚠️ MONITORING SUSPENDED",
+        "",
+        "━━━━━━━━━━━━━━━━━━",
+        "",
+        "Monitoring sementara tidak dapat dilakukan.",
+        "",
+        "Penyebab:",
+        status.value,
+        "",
+        "━━━━━━━━━━━━━━━━━━",
+        "",
+        "Bot akan mencoba kembali secara otomatis.",
+    ])
 
 
 def build_recovery_message(now: datetime) -> str:
-    """Bangun pesan notifikasi website recovery (dikirim sekali)."""
-    return (
-        "✅ RECOVERY\n\n"
-        "━━━━━━━━━━━━━━━━━━\n\n"
-        "Website Semeru kembali normal.\n\n"
-        f"🕒 Recovery Time\n"
-        f"{now.strftime('%d-%m-%Y %H:%M:%S')} WIB\n\n"
-        "━━━━━━━━━━━━━━━━━━\n\n"
-        "🟢 Monitoring dilanjutkan."
-    )
+    """Bangun pesan notifikasi website recovery (dikirim sekali per incident)."""
+    return "\n".join([
+        "✅ WEBSITE RECOVERY",
+        "",
+        "━━━━━━━━━━━━━━━━━━",
+        "",
+        "Website Semeru kembali dapat diakses.",
+        "",
+        "🕒 Recovery Time",
+        _fmt_time(now),
+        "",
+        "━━━━━━━━━━━━━━━━━━",
+        "",
+        "🟢 Monitoring kuota kembali berjalan.",
+    ])
 
 
 # ==================================================
-# DISIMPAN — tidak dipanggil di main loop saat ini.
-# Direncanakan untuk Pull Message fase berikutnya.
-# Contoh penggunaan: command /status di Telegram.
+# PULL MESSAGE — /status
 # ==================================================
-
-def format_uptime(seconds: int) -> str:
-    """Format detik menjadi string uptime yang mudah dibaca."""
-    days,    seconds  = divmod(seconds, 86400)
-    hours,   seconds  = divmod(seconds, 3600)
-    minutes, _        = divmod(seconds, 60)
-
-    parts: list[str] = []
-
-    if days:
-        parts.append(f"{days} hari")
-    if hours:
-        parts.append(f"{hours} jam")
-    if minutes:
-        parts.append(f"{minutes} menit")
-
-    return " ".join(parts) if parts else "Kurang dari 1 menit"
-
-
-def build_startup_message(months: list[str], now: datetime) -> str:
-    """
-    [DISIMPAN] Pesan saat bot pertama kali dijalankan.
-    Tidak lagi dikirim secara otomatis.
-    Dapat dipakai untuk Pull Message /status fase berikutnya.
-    """
-    month_lines = "\n".join(f"• {month}" for month in months)
-    time_text   = now.strftime("%d-%m-%Y %H:%M:%S")
-
-    return (
-        "🤖 Semeru Quota Bot\n\n"
-        "━━━━━━━━━━━━━━━━\n\n"
-        "🟢 Bot berhasil dijalankan.\n\n"
-        f"🕒 Waktu : {time_text}\n\n"
-        "📅 Monitoring:\n"
-        f"{month_lines}\n\n"
-        "━━━━━━━━━━━━━━━━\n\n"
-        "✅ Siap melakukan monitoring."
-    )
-
-
-def build_heartbeat_message(
-    months:       list[str],
-    startup_time: datetime,
-    last_check:   datetime,
-    slot_count:   int,
-) -> str:
-    """
-    [DISIMPAN] Pesan heartbeat harian.
-    Tidak lagi dikirim secara otomatis.
-    Dapat dipakai untuk Pull Message /status fase berikutnya.
-    """
-    uptime      = format_uptime(int((last_check - startup_time).total_seconds()))
-    month_lines = "\n".join(f"• {month}" for month in months)
-
-    return (
-        "❤️ Daily Heartbeat\n\n"
-        "━━━━━━━━━━━━━━━━\n\n"
-        "🤖 Semeru Quota Bot\n\n"
-        "🟢 Status : Running\n"
-        f"⏱ Uptime : {uptime}\n\n"
-        f"🕒 Last Check : "
-        f"{last_check.strftime('%d-%m-%Y %H:%M:%S')} WIB\n\n"
-        "📅 Monitoring\n"
-        f"{month_lines}\n\n"
-        f"🎯 Available Slot : {slot_count}\n\n"
-        "━━━━━━━━━━━━━━━━\n\n"
-        "✅ Bot berjalan normal."
-    )
-
 
 def build_status_message(
-    months:        list[str],
-    current_slots: dict[str, int],
-    last_check:    datetime | None,
-    website_ok:    bool,
-    startup_time:  datetime | None,
-    now:           datetime,
+    months:         list[str],
+    current_slots:  dict[str, int],
+    last_check:     datetime | None,
+    website_status: WebsiteStatus,
+    startup_time:   datetime | None,
+    now:            datetime,
 ) -> str:
-    """
-    Pesan status lengkap untuk command /status.
-
-    Respons mencakup:
-        - Status Bot   (selalu Running, karena bot sedang aktif)
-        - Status Website (Normal / Error)
-        - Bulan yang di-monitor
-        - Last Check
-        - Uptime
-        - Available Slot
-    """
-    website_label = "Normal" if website_ok else "Error"
-    website_icon  = "🟢" if website_ok else "🔴"
-    slot_count    = len(current_slots)
+    """Pesan status lengkap untuk command /status."""
+    slot_count = len(current_slots)
 
     month_lines = (
         "\n".join(f"• {format_month(m)}" for m in months)
@@ -256,6 +246,9 @@ def build_status_message(
         if startup_time else "Tidak diketahui"
     )
 
+    # Slot count: tampilkan "Tidak dapat dibaca" saat website error
+    slot_str = str(slot_count) if website_status.is_ok else "Tidak dapat dibaca"
+
     return "\n".join([
         "🤖 Semeru Quota Bot",
         "",
@@ -264,8 +257,8 @@ def build_status_message(
         "🟢 Status Bot",
         "Running",
         "",
-        f"{website_icon} Website",
-        website_label,
+        f"{website_status.icon} Website",
+        website_status.value,
         "",
         "📅 Monitoring",
         month_lines,
@@ -277,10 +270,52 @@ def build_status_message(
         uptime_str,
         "",
         "🎟 Available Slot",
-        str(slot_count),
+        slot_str,
         "",
         "━━━━━━━━━━━━━━━━━━",
         "",
         "✅ Bot berjalan normal.",
     ])
 
+
+# ==================================================
+# DISIMPAN — tidak dipanggil di main loop saat ini
+# ==================================================
+
+def build_startup_message(months: list[str], now: datetime) -> str:
+    """[DISIMPAN] Pesan startup — tidak dikirim otomatis."""
+    month_lines = "\n".join(f"• {month}" for month in months)
+    return (
+        "🤖 Semeru Quota Bot\n\n"
+        "━━━━━━━━━━━━━━━━\n\n"
+        "🟢 Bot berhasil dijalankan.\n\n"
+        f"🕒 Waktu : {now.strftime('%d-%m-%Y %H:%M:%S')}\n\n"
+        "📅 Monitoring:\n"
+        f"{month_lines}\n\n"
+        "━━━━━━━━━━━━━━━━\n\n"
+        "✅ Siap melakukan monitoring."
+    )
+
+
+def build_heartbeat_message(
+    months:       list[str],
+    startup_time: datetime,
+    last_check:   datetime,
+    slot_count:   int,
+) -> str:
+    """[DISIMPAN] Pesan heartbeat — tidak dikirim otomatis."""
+    uptime      = format_uptime(int((last_check - startup_time).total_seconds()))
+    month_lines = "\n".join(f"• {month}" for month in months)
+    return (
+        "❤️ Daily Heartbeat\n\n"
+        "━━━━━━━━━━━━━━━━\n\n"
+        "🤖 Semeru Quota Bot\n\n"
+        "🟢 Status : Running\n"
+        f"⏱ Uptime : {uptime}\n\n"
+        f"🕒 Last Check : {last_check.strftime('%d-%m-%Y %H:%M:%S')} WIB\n\n"
+        "📅 Monitoring\n"
+        f"{month_lines}\n\n"
+        f"🎯 Available Slot : {slot_count}\n\n"
+        "━━━━━━━━━━━━━━━━\n\n"
+        "✅ Bot berjalan normal."
+    )

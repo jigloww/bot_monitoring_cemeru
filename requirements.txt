@@ -1,2 +1,3 @@
-# This project currently uses only the Python Standard Library.
-# No external packages are required. 
+playwright>=1.44
+playwright-stealth>=2.0
+requests>=2.31

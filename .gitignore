@@ -5,8 +5,8 @@ venv/
 .env
 
 # Python cache
-__pycache__/
 *.pyc
+**/__pycache__/
 
 # VS Code
 .vscode/
@@ -19,7 +19,12 @@ Thumbs.db
 
 # Runtime data
 data/semeru_quota_state.json
+data/browser_profile/
 
 # Log files
 logs/
 *.log
+
+# Playwright
+playwright-report/
+test-results/
