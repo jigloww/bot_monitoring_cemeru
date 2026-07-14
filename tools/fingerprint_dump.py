@@ -412,7 +412,7 @@ def main() -> int:
         "fingerprint": data,
     }
     save_json(result, out_path)
-    log.info("Saved → %s", out_path)
+    log.info("Saved: %s", out_path)
     return 0
 
 
