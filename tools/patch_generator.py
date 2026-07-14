@@ -1,17 +1,18 @@
 """
 tools/patch_generator.py — Generate evidence-based Playwright patches from fingerprint diffs.
 
-Reads a diff JSON (from compare_fingerprint.py --json-out) or two fingerprint files.
+Reads a diff JSON (from compare_fingerprint.py) or two fingerprint files.
 Generates ONLY patches for confirmed differences — no guessing.
 
-Output:
+Output files (written to the same directory as --output):
     patches.py        — Python Playwright init_script code
     patches_init.js   — JavaScript to inject via add_init_script
     patches.md        — Markdown explanation
+    patches.json      — Machine-readable patch list
 
 Usage:
-    python tools/patch_generator.py --diff tools/output/compare_diff.json
-    python tools/patch_generator.py --ref tools/output/fingerprint_real.json --test tools/output/fingerprint_playwright.json
+    python tools/patch_generator.py --diff compare_diff.json --output reports/patches/patches.json
+    python tools/patch_generator.py --ref fingerprint_real.json --test fingerprint_playwright.json --output patches.json
 """
 from __future__ import annotations
 import argparse, sys
@@ -234,18 +235,26 @@ def render_markdown(patches: list[dict], ref_label: str, test_label: str) -> str
 # ══════════════════════════════════════════════════════════════════
 
 def build_parser() -> argparse.ArgumentParser:
-    p = argparse.ArgumentParser(description="Generate evidence-based Playwright patches from fingerprint diffs.")
+    p = argparse.ArgumentParser(
+        description="Generate evidence-based Playwright patches from fingerprint diffs.",
+        formatter_class=argparse.RawDescriptionHelpFormatter,
+        epilog="""
+Examples:
+  python tools/patch_generator.py --diff compare_diff.json --output reports/patches/patches.json
+  python tools/patch_generator.py --ref fingerprint_real.json --test fingerprint_playwright.json --output patches.json
+"""
+    )
     g = p.add_mutually_exclusive_group(required=True)
-    g.add_argument("--diff", help="Diff JSON from compare_fingerprint.py --json-out")
+    g.add_argument("--diff", help="Diff JSON from compare_fingerprint.py (with .json extension)")
     g.add_argument("--ref",  help="Reference fingerprint JSON (use with --test)")
-    p.add_argument("--test", help="Test fingerprint JSON")
-    p.add_argument("--out-dir", default="")
+    p.add_argument("--test", help="Test fingerprint JSON (required when --ref is used)")
+    add_output_arg(p, default="")  # e.g. --output reports/patches/patches.json
     return p
 
 
 def main() -> int:
     args = build_parser().parse_args()
-    out  = Path(args.out_dir) if args.out_dir else ensure_output_dir()
+    out  = Path(args.output).parent if args.output else ensure_output_dir()
 
     if args.diff:
         diff_data  = load_json(Path(args.diff))

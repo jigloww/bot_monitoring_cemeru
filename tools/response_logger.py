@@ -5,7 +5,8 @@ Focuses on: cf-ray, cf-cache-status, server, cf-mitigated, set-cookie,
             content-security-policy, report-to, nel, alt-svc.
 
 Usage:
-    python tools/response_logger.py --url https://bromotenggersemeru.id --wait 15000
+    python tools/response_logger.py --url https://bromotenggersemeru.id --output reports/network/response_headers.json
+    python tools/response_logger.py --url https://target.com --wait 15000 --output response_headers.json
 """
 from __future__ import annotations
 import argparse, sys, time
@@ -13,8 +14,17 @@ from dataclasses import dataclass, field
 from pathlib import Path
 sys.path.insert(0, str(Path(__file__).parent.parent))
 from playwright.sync_api import sync_playwright, Response
-from tools._shared import (BrowserConfig, ensure_output_dir, launch_browser,
-                            save_json, setup_logging, add_browser_args)
+from tools._shared import (
+    BrowserConfig,
+    OUTPUT_DIR,
+    ensure_output_dir,
+    launch_browser,
+    navigate,
+    save_json,
+    setup_logging,
+    add_browser_args,
+    add_output_arg
+)
 
 log = setup_logging("response_logger")
 
@@ -93,7 +103,7 @@ def attach_response_logger(page, records: list[ResponseRecord]) -> None:
 def build_parser() -> argparse.ArgumentParser:
     p = argparse.ArgumentParser(description="Capture and log CF-specific HTTP response headers.")
     add_browser_args(p)
-    p.add_argument("--out-dir", default="")
+    add_output_arg(p, default="")  # e.g. --output reports/network/response_headers.json
     return p
 
 
@@ -102,7 +112,8 @@ def main() -> int:
     headless = not args.no_headless
     cfg      = BrowserConfig(channel=args.channel, headless=headless, profile=args.profile,
                              url=args.url, wait_ms=args.wait)
-    out      = Path(args.out_dir) if args.out_dir else ensure_output_dir()
+    out_file = Path(args.output) if args.output else ensure_output_dir() / "response_headers.json"
+    out_file.parent.mkdir(parents=True, exist_ok=True)
     records: list[ResponseRecord] = []
 
     with sync_playwright() as pw:
@@ -115,7 +126,7 @@ def main() -> int:
         finally:
             handle.close()
 
-    path = out / "response_headers.json"
+    path = out_file
     save_json([r.__dict__ for r in records], path)
     log.info("Saved → %s  (%d responses)", path, len(records))
 

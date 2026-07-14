@@ -5,15 +5,16 @@ Shows: what improved, what regressed, overall score delta.
 
 Usage:
     python tools/patch_validator.py \
-        --before tools/output/fingerprint_playwright.json \
-        --after  tools/output/fingerprint_patched.json \
-        --ref    tools/output/fingerprint_real.json
+        --before fingerprint_playwright.json \
+        --after  fingerprint_patched.json \
+        --ref    fingerprint_real.json \
+        --output reports/validator/patch_validation.json
 """
 from __future__ import annotations
 import argparse, sys
 from pathlib import Path
 sys.path.insert(0, str(Path(__file__).parent.parent))
-from tools._shared import ensure_output_dir, load_json, save_json, setup_logging
+from tools._shared import add_output_arg, ensure_output_dir, load_json, save_json, setup_logging
 from tools.compare_fingerprint import flatten, vals_equal, KB
 from tools.browser_score import score, render_report, to_dict
 
@@ -137,7 +138,7 @@ def build_parser() -> argparse.ArgumentParser:
     p.add_argument("--before", required=True, help="Pre-patch fingerprint JSON")
     p.add_argument("--after",  required=True, help="Post-patch fingerprint JSON")
     p.add_argument("--ref",    required=True, help="Reference (real Chrome) fingerprint JSON")
-    p.add_argument("--out-dir", default="")
+    add_output_arg(p, default="")  # e.g. --output reports/validator/patch_validation.json
     return p
 
 
@@ -164,10 +165,12 @@ def main() -> int:
     text   = render_validation(result, label_before, label_after, label_ref)
     print(text)
 
-    out = Path(args.out_dir) if args.out_dir else ensure_output_dir()
-    save_json(result, out / "validation_report.json")
-    save_text(text,   out / "validation_report.txt")
-    log.info("Saved → %s", out / "validation_report.json")
+    out_file = Path(args.output) if args.output else ensure_output_dir() / "validation_report.json"
+    out      = out_file.parent
+    out.mkdir(parents=True, exist_ok=True)
+    save_json(result, out_file)
+    save_text(text,   out_file.with_suffix(".txt"))
+    log.info("Saved → %s", out_file)
     return 0
 
 

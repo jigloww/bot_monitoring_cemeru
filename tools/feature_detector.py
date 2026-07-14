@@ -4,8 +4,8 @@ tools/feature_detector.py — Detect browser feature availability and experiment
 Collects Chrome-specific, deprecated, experimental, and standard APIs.
 
 Usage:
-    python tools/feature_detector.py --output tools/output/features.json
-    python tools/feature_detector.py --channel chrome --no-headless
+    python tools/feature_detector.py --output reports/features/features.json
+    python tools/feature_detector.py --channel chrome --no-headless --output features.json
 """
 from __future__ import annotations
 import argparse, sys
@@ -20,145 +20,149 @@ log = setup_logging("feature_detector")
 _FEATURES_JS = """async () => {
     const S  = (fn,fb=null)=>{try{return fn();}catch(e){return fb;}};
     const A  = async(fn,fb=null)=>{try{return await fn();}catch(e){return fb;}};
-    const def = v => typeof v !== 'undefined';
+
+    // exists(fn) — safe API availability check via arrow-function wrapper.
+    // Catches both ReferenceError (API undefined globally) and TypeError.
+    // Usage: exists(()=>Worker)  exists(()=>navigator.bluetooth)
+    const exists = (fn) => { try { return typeof fn() !== 'undefined'; } catch(e) { return false; } };
 
     // ── Standard APIs ─────────────────────────────────────────
     const standard = {
-        fetch:                def(fetch),
-        AbortController:      def(AbortController),
-        Worker:               def(Worker),
-        SharedWorker:         def(SharedWorker),
-        ServiceWorker:        def(navigator.serviceWorker),
-        WebSocket:            def(WebSocket),
-        EventSource:          def(EventSource),
-        WebAssembly:          def(WebAssembly),
-        SharedArrayBuffer:    def(SharedArrayBuffer),
-        Atomics:              def(Atomics),
-        BigInt:               def(BigInt),
-        Proxy:                def(Proxy),
-        Reflect:              def(Reflect),
-        Symbol:               def(Symbol),
-        Map:                  def(Map),
-        Set:                  def(Set),
-        WeakMap:              def(WeakMap),
-        WeakSet:              def(WeakSet),
-        WeakRef:              def(WeakRef),
-        FinalizationRegistry: def(FinalizationRegistry),
-        structuredClone:      def(structuredClone),
-        queueMicrotask:       def(queueMicrotask),
-        requestIdleCallback:  def(requestIdleCallback),
-        requestAnimationFrame:def(requestAnimationFrame),
+        fetch:                exists(()=>fetch),
+        AbortController:      exists(()=>AbortController),
+        Worker:               exists(()=>Worker),
+        SharedWorker:         exists(()=>SharedWorker),
+        ServiceWorker:        exists(()=>navigator.serviceWorker),
+        WebSocket:            exists(()=>WebSocket),
+        EventSource:          exists(()=>EventSource),
+        WebAssembly:          exists(()=>WebAssembly),
+        SharedArrayBuffer:    exists(()=>SharedArrayBuffer),
+        Atomics:              exists(()=>Atomics),
+        BigInt:               exists(()=>BigInt),
+        Proxy:                exists(()=>Proxy),
+        Reflect:              exists(()=>Reflect),
+        Symbol:               exists(()=>Symbol),
+        Map:                  exists(()=>Map),
+        Set:                  exists(()=>Set),
+        WeakMap:              exists(()=>WeakMap),
+        WeakSet:              exists(()=>WeakSet),
+        WeakRef:              exists(()=>WeakRef),
+        FinalizationRegistry: exists(()=>FinalizationRegistry),
+        structuredClone:      exists(()=>structuredClone),
+        queueMicrotask:       exists(()=>queueMicrotask),
+        requestIdleCallback:  exists(()=>requestIdleCallback),
+        requestAnimationFrame:exists(()=>requestAnimationFrame),
     };
 
     // ── Observer APIs ─────────────────────────────────────────
     const observers = {
-        IntersectionObserver:  def(IntersectionObserver),
-        ResizeObserver:        def(ResizeObserver),
-        MutationObserver:      def(MutationObserver),
-        PerformanceObserver:   def(PerformanceObserver),
-        ReportingObserver:     def(ReportingObserver),
+        IntersectionObserver:  exists(()=>IntersectionObserver),
+        ResizeObserver:        exists(()=>ResizeObserver),
+        MutationObserver:      exists(()=>MutationObserver),
+        PerformanceObserver:   exists(()=>PerformanceObserver),
+        ReportingObserver:     exists(()=>ReportingObserver),
     };
 
     // ── Storage APIs ──────────────────────────────────────────
     const storage_apis = {
         localStorage:       S(()=>{localStorage.setItem('_t','1');localStorage.removeItem('_t');return true;},false),
-        sessionStorage:     def(sessionStorage),
-        indexedDB:          def(indexedDB),
-        caches:             def(caches),
-        cookieStore:        def(cookieStore),
-        FileSystem:         def(FileSystemHandle),
+        sessionStorage:     exists(()=>sessionStorage),
+        indexedDB:          exists(()=>indexedDB),
+        caches:             exists(()=>caches),
+        cookieStore:        exists(()=>cookieStore),
+        FileSystem:         exists(()=>FileSystemHandle),
     };
 
     // ── Crypto ────────────────────────────────────────────────
     const crypto_apis = {
-        crypto:         def(crypto),
-        subtle:         def(crypto?.subtle),
+        crypto:         exists(()=>crypto),
+        subtle:         exists(()=>crypto.subtle),
         getRandomValues:typeof crypto?.getRandomValues==='function',
         randomUUID:     typeof crypto?.randomUUID==='function',
     };
 
     // ── Media APIs ────────────────────────────────────────────
     const media_apis = {
-        MediaRecorder:         def(MediaRecorder),
-        MediaSource:           def(MediaSource),
-        ManagedMediaSource:    def(ManagedMediaSource),
-        AudioContext:          def(AudioContext),
-        OfflineAudioContext:   def(OfflineAudioContext),
-        VideoDecoder:          def(VideoDecoder),
-        VideoEncoder:          def(VideoEncoder),
-        PictureInPicture:      def(document.pictureInPictureEnabled),
-        MediaCapabilities:     def(navigator.mediaCapabilities),
-        ImageCapture:          def(ImageCapture),
-        CanvasCaptureMediaStreamTrack: def(CanvasCaptureMediaStreamTrack),
+        MediaRecorder:         exists(()=>MediaRecorder),
+        MediaSource:           exists(()=>MediaSource),
+        ManagedMediaSource:    exists(()=>ManagedMediaSource),
+        AudioContext:          exists(()=>AudioContext),
+        OfflineAudioContext:   exists(()=>OfflineAudioContext),
+        VideoDecoder:          exists(()=>VideoDecoder),
+        VideoEncoder:          exists(()=>VideoEncoder),
+        PictureInPicture:      S(()=>document.pictureInPictureEnabled, false),
+        MediaCapabilities:     exists(()=>navigator.mediaCapabilities),
+        ImageCapture:          exists(()=>ImageCapture),
+        CanvasCaptureMediaStreamTrack: exists(()=>CanvasCaptureMediaStreamTrack),
     };
 
     // ── Graphics APIs ─────────────────────────────────────────
     const graphics_apis = {
         WebGL:            S(()=>!!document.createElement('canvas').getContext('webgl')),
         WebGL2:           S(()=>!!document.createElement('canvas').getContext('webgl2')),
-        WebGPU:           def(navigator.gpu),
-        OffscreenCanvas:  def(OffscreenCanvas),
-        Path2D:           def(Path2D),
+        WebGPU:           exists(()=>navigator.gpu),
+        OffscreenCanvas:  exists(()=>OffscreenCanvas),
+        Path2D:           exists(()=>Path2D),
     };
 
     // ── Chrome-specific APIs ──────────────────────────────────
     const chrome_specific = {
-        chrome_present:        def(window.chrome),
-        chrome_runtime:        def(window.chrome?.runtime),
+        chrome_present:        exists(()=>window.chrome),
+        chrome_runtime:        exists(()=>window.chrome.runtime),
         chrome_loadTimes:      typeof window.chrome?.loadTimes==='function',
         chrome_csi:            typeof window.chrome?.csi==='function',
-        chrome_app:            def(window.chrome?.app),
-        chrome_cast:           def(window.chrome?.cast),
-        chrome_webstore:       def(window.chrome?.webstore),
-        chrome_accessibilityFeatures: def(window.chrome?.accessibilityFeatures),
-        chrome_commands:       def(window.chrome?.commands),
+        chrome_app:            exists(()=>window.chrome.app),
+        chrome_cast:           exists(()=>window.chrome.cast),
+        chrome_webstore:       exists(()=>window.chrome.webstore),
+        chrome_accessibilityFeatures: exists(()=>window.chrome.accessibilityFeatures),
+        chrome_commands:       exists(()=>window.chrome.commands),
     };
 
     // ── Hardware APIs ─────────────────────────────────────────
     const hardware = {
-        bluetooth:   def(navigator.bluetooth),
-        usb:         def(navigator.usb),
-        serial:      def(navigator.serial),
-        hid:         def(navigator.hid),
-        nfc:         def(navigator.nfc),
-        keyboard:    def(navigator.keyboard),
+        bluetooth:   exists(()=>navigator.bluetooth),
+        usb:         exists(()=>navigator.usb),
+        serial:      exists(()=>navigator.serial),
+        hid:         exists(()=>navigator.hid),
+        nfc:         exists(()=>navigator.nfc),
+        keyboard:    exists(()=>navigator.keyboard),
         gamepad:     typeof navigator.getGamepads==='function',
         vibrate:     typeof navigator.vibrate==='function',
-        clipboard:   def(navigator.clipboard),
-        credentials: def(navigator.credentials),
-        gpu:         def(navigator.gpu),
+        clipboard:   exists(()=>navigator.clipboard),
+        credentials: exists(()=>navigator.credentials),
+        gpu:         exists(()=>navigator.gpu),
     };
 
     // ── Sensor APIs ───────────────────────────────────────────
     const sensors = {
-        Accelerometer:     def(Accelerometer),
-        Gyroscope:         def(Gyroscope),
-        Magnetometer:      def(Magnetometer),
-        AbsoluteOrientationSensor: def(AbsoluteOrientationSensor),
-        AmbientLightSensor: def(AmbientLightSensor),
+        Accelerometer:     exists(()=>Accelerometer),
+        Gyroscope:         exists(()=>Gyroscope),
+        Magnetometer:      exists(()=>Magnetometer),
+        AbsoluteOrientationSensor: exists(()=>AbsoluteOrientationSensor),
+        AmbientLightSensor: exists(()=>AmbientLightSensor),
     };
 
     // ── Communication ─────────────────────────────────────────
     const communication = {
-        WebRTC:             def(RTCPeerConnection),
-        BroadcastChannel:   def(BroadcastChannel),
-        MessageChannel:     def(MessageChannel),
-        Notification:       def(Notification),
-        Push:               def(PushManager),
-        BackgroundFetch:    def(BackgroundFetchManager),
-        BackgroundSync:     def(SyncManager),
+        WebRTC:             exists(()=>RTCPeerConnection),
+        BroadcastChannel:   exists(()=>BroadcastChannel),
+        MessageChannel:     exists(()=>MessageChannel),
+        Notification:       exists(()=>Notification),
+        Push:               exists(()=>PushManager),
+        BackgroundFetch:    exists(()=>BackgroundFetchManager),
+        BackgroundSync:     exists(()=>SyncManager),
     };
 
     // ── Payments ──────────────────────────────────────────────
     const payments = {
-        PaymentRequest:     def(PaymentRequest),
-        PaymentHandler:     def(PaymentRequestEvent),
+        PaymentRequest:     exists(()=>PaymentRequest),
+        PaymentHandler:     exists(()=>PaymentRequestEvent),
     };
 
     // ── CSS ───────────────────────────────────────────────────
     const css_features = {
-        paintWorklet:  def(CSS.paintWorklet),
-        highlights:    def(CSS.highlights),
+        paintWorklet:  exists(()=>CSS.paintWorklet),
+        highlights:    exists(()=>CSS.highlights),
         supports_grid: S(()=>CSS.supports('display:grid')),
         supports_has:  S(()=>CSS.supports('selector(:has(a))')),
         supports_container: S(()=>CSS.supports('container-type:inline-size')),
@@ -166,12 +170,12 @@ _FEATURES_JS = """async () => {
         supports_layer:     S(()=>CSS.supports('@layer foo{}')),
     };
 
-    // ── Deprecated / legacy ───────────────────────────────────
+    // ── Deprecated / legacy (all wrapped in exists to avoid ReferenceError) ─
     const deprecated = {
-        appCache:           def(applicationCache),
-        webkitSpeechRec:    def(webkitSpeechRecognition),
-        webkitIndexedDB:    def(webkitIndexedDB),
-        webkitRequestAnimationFrame: def(webkitRequestAnimationFrame),
+        appCache:           exists(()=>applicationCache),
+        webkitSpeechRec:    exists(()=>webkitSpeechRecognition),
+        webkitIndexedDB:    exists(()=>webkitIndexedDB),
+        webkitRequestAnimationFrame: exists(()=>webkitRequestAnimationFrame),
     };
 
     // ── Permission states ─────────────────────────────────────

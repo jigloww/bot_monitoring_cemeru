@@ -2,8 +2,10 @@
 tools/network_logger.py — Capture all browser network traffic and save as HAR + JSON.
 
 Usage:
-    python tools/network_logger.py --url https://bromotenggersemeru.id --wait 20000
-    python tools/network_logger.py --url https://target.com --channel chrome --no-headless
+    python tools/network_logger.py --url https://bromotenggersemeru.id --output reports/network/network.json
+    python tools/network_logger.py --url https://target.com --channel chrome --no-headless --output network.json
+
+--output specifies the JSON path; HAR is saved alongside with .har extension.
 """
 from __future__ import annotations
 import argparse, json, sys, time
@@ -12,7 +14,17 @@ from datetime import datetime, timezone
 from pathlib import Path
 sys.path.insert(0, str(Path(__file__).parent.parent))
 from playwright.sync_api import sync_playwright, Request, Response
-from tools._shared import BrowserConfig, OUTPUT_DIR, ensure_output_dir, launch_browser, navigate, save_json, setup_logging, add_browser_args
+from tools._shared import (
+    BrowserConfig,
+    OUTPUT_DIR,
+    ensure_output_dir,
+    launch_browser,
+    navigate,
+    save_json,
+    setup_logging,
+    add_browser_args,
+    add_output_arg
+)
 
 log = setup_logging("network_logger")
 
@@ -165,7 +177,7 @@ def to_har(entries: list[NetworkEntry], page_url: str) -> dict:
 def build_parser() -> argparse.ArgumentParser:
     p = argparse.ArgumentParser(description="Log all browser network traffic (HAR + JSON).")
     add_browser_args(p)
-    p.add_argument("--out-dir", default="", help="Output directory")
+    add_output_arg(p, default="")  # e.g. --output reports/network/network.json
     return p
 
 
@@ -174,7 +186,9 @@ def main() -> int:
     headless = not args.no_headless
     cfg      = BrowserConfig(channel=args.channel, headless=headless, profile=args.profile,
                              url=args.url, wait_ms=args.wait)
-    out      = Path(args.out_dir) if args.out_dir else ensure_output_dir()
+    out_file = Path(args.output) if args.output else ensure_output_dir() / "network_log.json"
+    out      = out_file.parent
+    out.mkdir(parents=True, exist_ok=True)
     entries: list[NetworkEntry] = []
 
     log.info("Recording network traffic for: %s", cfg.url)
@@ -190,12 +204,12 @@ def main() -> int:
     log.info("Captured %d network entries", len(entries))
 
     # Save JSON
-    json_path = out / "network_log.json"
+    json_path = out_file
     save_json([e.__dict__ for e in entries], json_path)
     log.info("Saved JSON → %s", json_path)
 
-    # Save HAR
-    har_path = out / "network.har"
+    # Save HAR alongside JSON with .har extension
+    har_path = json_path.with_suffix(".har")
     save_json(to_har(entries, cfg.url), har_path)
     log.info("Saved HAR  → %s", har_path)
 

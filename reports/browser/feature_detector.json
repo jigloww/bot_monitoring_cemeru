@@ -1,0 +1,150 @@
+{
+    "_meta": {
+        "tool": "feature_detector.py",
+        "collected_at": "2026-07-14T00:17:19.256862",
+        "channel": "chrome",
+        "url": "about:blank"
+    },
+    "features": {
+        "standard": {
+            "fetch": true,
+            "AbortController": true,
+            "Worker": true,
+            "SharedWorker": true,
+            "ServiceWorker": false,
+            "WebSocket": true,
+            "EventSource": true,
+            "WebAssembly": true,
+            "SharedArrayBuffer": false,
+            "Atomics": true,
+            "BigInt": true,
+            "Proxy": true,
+            "Reflect": true,
+            "Symbol": true,
+            "Map": true,
+            "Set": true,
+            "WeakMap": true,
+            "WeakSet": true,
+            "WeakRef": true,
+            "FinalizationRegistry": true,
+            "structuredClone": true,
+            "queueMicrotask": true,
+            "requestIdleCallback": true,
+            "requestAnimationFrame": true
+        },
+        "observers": {
+            "IntersectionObserver": true,
+            "ResizeObserver": true,
+            "MutationObserver": true,
+            "PerformanceObserver": true,
+            "ReportingObserver": true
+        },
+        "storage": {
+            "localStorage": false,
+            "sessionStorage": false,
+            "indexedDB": true,
+            "caches": false,
+            "cookieStore": false,
+            "FileSystem": false
+        },
+        "crypto": {
+            "crypto": true,
+            "subtle": false,
+            "getRandomValues": true,
+            "randomUUID": false
+        },
+        "media": {
+            "MediaRecorder": true,
+            "MediaSource": true,
+            "ManagedMediaSource": false,
+            "AudioContext": true,
+            "OfflineAudioContext": true,
+            "VideoDecoder": false,
+            "VideoEncoder": false,
+            "PictureInPicture": true,
+            "MediaCapabilities": true,
+            "ImageCapture": false,
+            "CanvasCaptureMediaStreamTrack": true
+        },
+        "graphics": {
+            "WebGL": true,
+            "WebGL2": true,
+            "WebGPU": false,
+            "OffscreenCanvas": true,
+            "Path2D": true
+        },
+        "chrome": {
+            "chrome_present": true,
+            "chrome_runtime": false,
+            "chrome_loadTimes": true,
+            "chrome_csi": true,
+            "chrome_app": true,
+            "chrome_cast": false,
+            "chrome_webstore": false,
+            "chrome_accessibilityFeatures": false,
+            "chrome_commands": false
+        },
+        "hardware": {
+            "bluetooth": false,
+            "usb": false,
+            "serial": false,
+            "hid": false,
+            "nfc": false,
+            "keyboard": false,
+            "gamepad": true,
+            "vibrate": true,
+            "clipboard": false,
+            "credentials": false,
+            "gpu": false
+        },
+        "sensors": {
+            "Accelerometer": false,
+            "Gyroscope": false,
+            "Magnetometer": false,
+            "AbsoluteOrientationSensor": false,
+            "AmbientLightSensor": false
+        },
+        "communication": {
+            "WebRTC": true,
+            "BroadcastChannel": true,
+            "MessageChannel": true,
+            "Notification": true,
+            "Push": true,
+            "BackgroundFetch": true,
+            "BackgroundSync": true
+        },
+        "payments": {
+            "PaymentRequest": false,
+            "PaymentHandler": false
+        },
+        "css": {
+            "paintWorklet": false,
+            "highlights": true,
+            "supports_grid": true,
+            "supports_has": true,
+            "supports_container": true,
+            "supports_subgrid": true,
+            "supports_layer": false
+        },
+        "deprecated": {
+            "appCache": false,
+            "webkitSpeechRec": true,
+            "webkitIndexedDB": false,
+            "webkitRequestAnimationFrame": true
+        },
+        "permissions": {
+            "notifications": "denied",
+            "camera": "denied",
+            "microphone": "denied",
+            "clipboard-read": "denied",
+            "clipboard-write": "denied",
+            "geolocation": "denied"
+        },
+        "counts": {
+            "window_keys": 223,
+            "navigator_keys": 0,
+            "window_own": 980,
+            "navigator_own": 36
+        }
+    }
+}

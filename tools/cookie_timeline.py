@@ -4,7 +4,8 @@ tools/cookie_timeline.py — Monitor cookies continuously, detect CF cookie life
 Tracks cf_clearance, __cf_bm, cf_chl_* — creation, deletion, expiration.
 
 Usage:
-    python tools/cookie_timeline.py --url https://bromotenggersemeru.id --duration 60
+    python tools/cookie_timeline.py --url https://bromotenggersemeru.id --output reports/cookies/cookies_timeline.json
+    python tools/cookie_timeline.py --url https://target.com --duration 120 --output timeline.json
 """
 from __future__ import annotations
 import argparse, sys, time
@@ -12,8 +13,17 @@ from dataclasses import dataclass
 from pathlib import Path
 sys.path.insert(0, str(Path(__file__).parent.parent))
 from playwright.sync_api import sync_playwright
-from tools._shared import (BrowserConfig, CF_COOKIES, ensure_output_dir,
-                            launch_browser, save_json, setup_logging, add_browser_args)
+from tools._shared import (
+    BrowserConfig,
+    OUTPUT_DIR,
+    ensure_output_dir,
+    launch_browser,
+    navigate,
+    save_json,
+    setup_logging,
+    add_browser_args,
+    add_output_arg
+)
 
 log = setup_logging("cookie_timeline")
 
@@ -102,7 +112,7 @@ def build_parser() -> argparse.ArgumentParser:
     add_browser_args(p)
     p.add_argument("--duration", type=int, default=60, help="Monitoring duration in seconds")
     p.add_argument("--interval", type=int, default=1000, help="Poll interval in ms (default: 1000)")
-    p.add_argument("--out-dir",  default="")
+    add_output_arg(p, default="")  # e.g. --output reports/cookies/cookies_timeline.json
     return p
 
 
@@ -111,7 +121,7 @@ def main() -> int:
     args     = build_parser().parse_args()
     headless = not args.no_headless
     cfg      = BrowserConfig(channel=args.channel, headless=headless, profile=args.profile, url=args.url, wait_ms=0)
-    out      = Path(args.out_dir) if args.out_dir else ensure_output_dir()
+    out_file = Path(args.output) if args.output else ensure_output_dir() / "cookies_timeline.json"
 
     with sync_playwright() as pw:
         handle, page, is_persistent = launch_browser(pw, cfg)
@@ -122,7 +132,8 @@ def main() -> int:
         finally:
             handle.close()
 
-    path = out / "cookies_timeline.json"
+    path = out_file
+    path.parent.mkdir(parents=True, exist_ok=True)
     save_json([dataclasses.asdict(e) for e in events], path)
     log.info("Saved → %s  (%d events)", path, len(events))
 

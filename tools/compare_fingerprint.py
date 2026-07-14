@@ -1,9 +1,15 @@
 """
 tools/compare_fingerprint.py — Recursive fingerprint comparison with multi-format export.
 
+Input:  two JSON files from fingerprint_dump.py
+Output: summary, diffs with recommendations, priority patches
+Format: determined by --output file extension (.json .txt .md .html)
+
 Usage:
-    python tools/compare_fingerprint.py tools/output/fingerprint_real.json tools/output/fingerprint_playwright.json
-    python tools/compare_fingerprint.py A.json B.json --html --markdown --json-out
+    python tools/compare_fingerprint.py fingerprint_real.json fingerprint_playwright.json
+    python tools/compare_fingerprint.py A.json B.json --output reports/comparison/comparison.json
+    python tools/compare_fingerprint.py A.json B.json --output comparison.html
+    python tools/compare_fingerprint.py A.json B.json --output comparison.md
     python tools/compare_fingerprint.py A.json B.json --only navigator webgl chrome
 """
 from __future__ import annotations
@@ -17,7 +23,12 @@ from pathlib import Path
 from typing import Any
 
 sys.path.insert(0, str(Path(__file__).parent.parent))
-from tools._shared import OUTPUT_DIR, ensure_output_dir, load_json, save_json, save_text, setup_logging
+from tools._shared import (
+    ensure_output_dir,
+    save_json,
+    setup_logging,
+    add_output_arg
+)
 
 log = setup_logging("compare_fingerprint")
 
@@ -220,17 +231,37 @@ def render_html(records: list[DiffRecord], label1: str, label2: str) -> str:
             f'pre{{white-space:pre-wrap;word-break:break-all}}</style></head><body><pre>{body}</pre></body></html>')
 
 
+def _detect_format(path: str) -> str:
+    """Detect output format from file extension."""
+    return {".json": "json", ".md": "markdown", ".html": "html", ".txt": "text"}.get(
+        Path(path).suffix.lower(), "text"
+    )
+
+
 def main() -> int:
-    p = argparse.ArgumentParser(description="Compare two browser fingerprint JSON files.")
-    p.add_argument("file1"); p.add_argument("file2")
-    p.add_argument("--label1", default=""); p.add_argument("--label2", default="")
+    p = argparse.ArgumentParser(
+        description="Compare two browser fingerprint JSON files.",
+        formatter_class=argparse.RawDescriptionHelpFormatter,
+        epilog="""
+Formats (determined by --output extension):
+  .json   → JSON diff export
+  .txt    → plain text report
+  .md     → Markdown report
+  .html   → HTML report
+
+Examples:
+  python tools/compare_fingerprint.py real.json playwright.json --output reports/comparison.json
+  python tools/compare_fingerprint.py real.json playwright.json --output comparison.html
+  python tools/compare_fingerprint.py real.json playwright.json  # text to stdout only
+"""
+    )
+    p.add_argument("file1")
+    p.add_argument("file2")
+    p.add_argument("--label1",     default="")
+    p.add_argument("--label2",     default="")
     p.add_argument("--show-equal", action="store_true")
-    p.add_argument("--only", nargs="+", default=[], metavar="PREFIX")
-    p.add_argument("--out-dir", default="")
-    p.add_argument("--text",     action="store_true")
-    p.add_argument("--markdown", action="store_true")
-    p.add_argument("--html",     action="store_true")
-    p.add_argument("--json-out", action="store_true")
+    p.add_argument("--only",       nargs="+", default=[], metavar="PREFIX")
+    add_output_arg(p, default="")  # extension determines format
     args   = p.parse_args()
     label1 = args.label1 or Path(args.file1).stem
     label2 = args.label2 or Path(args.file2).stem
@@ -241,16 +272,23 @@ def main() -> int:
     text    = render_text(records, label1, label2)
     print(text)
 
-    out  = Path(args.out_dir) if args.out_dir else ensure_output_dir()
-    stem = f"compare_{label1}_vs_{label2}"
-    if args.text:     save_text(text, out/f"{stem}.txt");             log.info("→ %s", out/f"{stem}.txt")
-    if args.markdown: save_text(render_markdown(records,label1,label2), out/f"{stem}.md"); log.info("→ %s", out/f"{stem}.md")
-    if args.html:     save_text(render_html(records,label1,label2),     out/f"{stem}.html"); log.info("→ %s", out/f"{stem}.html")
-    if args.json_out:
-        save_json({"label1":label1,"label2":label2,
-                   "diffs":[{"key":r.key,"v1":r.v1,"v2":r.v2,"category":r.category,"recommendation":r.recommendation,"stars":r.stars}
-                             for r in records if not r.equal]}, out/f"{stem}_diff.json")
-        log.info("→ %s", out/f"{stem}_diff.json")
+    if args.output:
+        out_path = Path(args.output)
+        out_path.parent.mkdir(parents=True, exist_ok=True)
+        fmt = _detect_format(args.output)
+        if fmt == "json":
+            save_json({"label1": label1, "label2": label2,
+                       "diffs": [{"key": r.key, "v1": r.v1, "v2": r.v2,
+                                  "category": r.category, "recommendation": r.recommendation,
+                                  "stars": r.stars}
+                                 for r in records if not r.equal]}, out_path)
+        elif fmt == "markdown":
+            save_text(render_markdown(records, label1, label2), out_path)
+        elif fmt == "html":
+            save_text(render_html(records, label1, label2), out_path)
+        else:  # txt / default
+            save_text(text, out_path)
+        log.info("→ %s  (format: %s)", out_path, fmt)
     return 0
 
 if __name__ == "__main__":

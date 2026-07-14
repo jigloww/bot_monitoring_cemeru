@@ -4,8 +4,10 @@ tools/browser_score.py — Score Playwright fingerprint quality vs a real Chrome
 Produces per-category similarity scores and highlights most suspicious diffs.
 
 Usage:
-    python tools/browser_score.py tools/output/fingerprint_real.json tools/output/fingerprint_playwright.json
-    python tools/browser_score.py --ref real.json --test playwright.json --output score.json
+    python tools/browser_score.py --ref fingerprint_real.json --test fingerprint_playwright.json --output reports/browser/browser_score.json
+
+    # Positional form (backward compatible):
+    python tools/browser_score.py fingerprint_real.json fingerprint_playwright.json --output score.json
 """
 from __future__ import annotations
 import argparse, json, sys
@@ -13,7 +15,12 @@ from dataclasses import dataclass, field
 from pathlib import Path
 from typing import Any
 sys.path.insert(0, str(Path(__file__).parent.parent))
-from tools._shared import ensure_output_dir, load_json, save_json, setup_logging
+from tools._shared import (
+    ensure_output_dir,
+    save_json,
+    setup_logging,
+    add_output_arg
+)
 from tools.compare_fingerprint import flatten, vals_equal, KB, CATEGORY_ORDER
 
 log = setup_logging("browser_score")
@@ -214,20 +221,36 @@ def to_dict(report: BrowserScoreReport) -> dict:
 # ══════════════════════════════════════════════════════════════════
 
 def build_parser() -> argparse.ArgumentParser:
-    p = argparse.ArgumentParser(description="Score Playwright fingerprint quality vs real Chrome reference.")
-    p.add_argument("ref",  help="Reference (real Chrome) fingerprint JSON")
-    p.add_argument("test", help="Test (Playwright) fingerprint JSON")
-    p.add_argument("--out-dir", default="")
-    p.add_argument("--output",  default="")
+    p = argparse.ArgumentParser(
+        description="Score Playwright fingerprint quality vs real Chrome reference.",
+        formatter_class=argparse.RawDescriptionHelpFormatter,
+        epilog="""
+Examples:
+  python tools/browser_score.py --ref fingerprint_real.json --test fingerprint_playwright.json --output score.json
+  python tools/browser_score.py fingerprint_real.json fingerprint_playwright.json  # positional (backward compat)
+"""
+    )
+    # Named args (preferred)
+    p.add_argument("--ref",  default=None, help="Reference (real Chrome) fingerprint JSON")
+    p.add_argument("--test", default=None, help="Test (Playwright) fingerprint JSON")
+    # Positional args (backward compatible)
+    p.add_argument("ref_pos",  nargs="?", default=None, help=argparse.SUPPRESS)
+    p.add_argument("test_pos", nargs="?", default=None, help=argparse.SUPPRESS)
+    add_output_arg(p, default="")  # e.g. --output reports/browser/browser_score.json
     return p
 
 
 def main() -> int:
-    args      = build_parser().parse_args()
-    label_ref  = Path(args.ref).stem
-    label_test = Path(args.test).stem
-    raw_ref    = load_json(Path(args.ref))
-    raw_test   = load_json(Path(args.test))
+    args       = build_parser().parse_args()
+    # Resolve ref/test from named args (preferred) or positional (backward compat)
+    ref_file   = args.ref  or args.ref_pos
+    test_file  = args.test or args.test_pos
+    if not ref_file or not test_file:
+        build_parser().error("Provide --ref and --test, or two positional file arguments.")
+    label_ref  = Path(ref_file).stem
+    label_test = Path(test_file).stem
+    raw_ref    = load_json(Path(ref_file))
+    raw_test   = load_json(Path(test_file))
     fp_ref     = raw_ref.get("fingerprint",  raw_ref)
     fp_test    = raw_test.get("fingerprint", raw_test)
     flat_ref   = flatten(fp_ref)
@@ -235,7 +258,8 @@ def main() -> int:
     report     = score(flat_ref, flat_test)
     text       = render_report(report, label_ref, label_test)
     print(text)
-    out = Path(args.output) if args.output else (Path(args.out_dir) if args.out_dir else ensure_output_dir()) / "browser_score.json"
+    out = Path(args.output) if args.output else ensure_output_dir() / "browser_score.json"
+    out.parent.mkdir(parents=True, exist_ok=True)
     save_json(to_dict(report), out)
     log.info("Score saved → %s", out)
     return 0

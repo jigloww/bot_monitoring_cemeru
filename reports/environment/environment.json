@@ -1,0 +1,62 @@
+{
+    "system": {
+        "collected_at": "2026-07-14T00:16:53.359031",
+        "python_version": "3.12.3 (main, Jun 19 2026, 12:46:00) [GCC 13.3.0]",
+        "python_executable": "/home/ubuntu/semeru_bot/venv/bin/python",
+        "platform": "Linux-6.17.0-1019-aws-x86_64-with-glibc2.39",
+        "os": "Linux",
+        "os_release": "6.17.0-1019-aws",
+        "os_version": "#19~24.04.1-Ubuntu SMP Tue Jun 23 18:53:06 UTC 2026",
+        "machine": "x86_64",
+        "processor": "x86_64",
+        "architecture": [
+            "64bit",
+            "ELF"
+        ],
+        "hostname": "ip-172-31-12-198",
+        "cpu_count": 2,
+        "ram_gb": 1.9,
+        "uptime_seconds": 737143.18
+    },
+    "display_gpu": {
+        "lspci_gpu": [
+            "00:01.3 Non-VGA unclassified device: Intel Corporation 82371AB/EB/MB PIIX4 ACPI (rev 08)",
+            "00:03.0 VGA compatible controller: Amazon.com, Inc. Device 1111 (prog-if 00 [VGA controller])"
+        ],
+        "glxinfo": null,
+        "DISPLAY": null,
+        "WAYLAND_DISPLAY": null,
+        "XDG_SESSION_TYPE": "tty"
+    },
+    "chrome": {
+        "candidates_found": [
+            "/usr/bin/google-chrome",
+            "/usr/bin/google-chrome-stable",
+            "/opt/google/chrome/google-chrome",
+            "/usr/bin/google-chrome",
+            "/usr/bin/google-chrome-stable",
+            "/opt/google/chrome/google-chrome"
+        ],
+        "primary": "/usr/bin/google-chrome",
+        "version": "Google Chrome 150.0.7871.114"
+    },
+    "playwright": {
+        "playwright_version": null,
+        "playwright_stealth_version": "installed",
+        "chromium_executable": "/home/ubuntu/.cache/ms-playwright/chromium-1228/chrome-linux64/chrome"
+    },
+    "launch_config": {
+        "channel": "chrome",
+        "headless": true,
+        "profile": null,
+        "no_sandbox": true,
+        "disable_dev_shm": true,
+        "env_vars": {
+            "DISPLAY": null,
+            "HOME": "/home/ubuntu",
+            "USER": "ubuntu",
+            "LANG": "C.UTF-8",
+            "TZ": null
+        }
+    }
+}

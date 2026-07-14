@@ -4,11 +4,11 @@ tools/challenge_timeline.py — Poll page state every 500 ms during Cloudflare c
 Captures: title, URL, readyState, cookies, CF status, DOM size, body snippet,
           Turnstile presence, challenge resolution status.
 
-Output: tools/output/timeline.json + timeline.csv
-
 Usage:
-    python tools/challenge_timeline.py --url https://bromotenggersemeru.id --duration 60
-    python tools/challenge_timeline.py --url https://target.com --channel chrome --no-headless
+    python tools/challenge_timeline.py --url https://bromotenggersemeru.id --output reports/timeline/timeline.json
+    python tools/challenge_timeline.py --url https://target.com --channel chrome --no-headless --output timeline.json
+
+--output sets the JSON path; CSV is written alongside it with the same stem.
 """
 from __future__ import annotations
 import argparse, csv, sys, time
@@ -16,9 +16,18 @@ from dataclasses import dataclass, field, asdict
 from pathlib import Path
 sys.path.insert(0, str(Path(__file__).parent.parent))
 from playwright.sync_api import sync_playwright
-from tools._shared import (BrowserConfig, CF_CHALLENGE_TITLES, CF_COOKIES,
-                            OUTPUT_DIR, ensure_output_dir, get_cf_cookies,
-                            launch_browser, navigate, save_json, setup_logging, add_browser_args)
+from tools._shared import (
+    BrowserConfig,
+    OUTPUT_DIR,
+    ensure_output_dir,
+    get_cf_cookies,
+    launch_browser,
+    navigate,
+    save_json,
+    setup_logging,
+    add_browser_args,
+    add_output_arg
+)
 
 log = setup_logging("challenge_timeline")
 
@@ -165,7 +174,7 @@ def build_parser() -> argparse.ArgumentParser:
     add_browser_args(p)
     p.add_argument("--duration", type=int, default=60, help="Max monitoring duration in seconds (default: 60)")
     p.add_argument("--interval", type=int, default=500, help="Poll interval in ms (default: 500)")
-    p.add_argument("--out-dir",  default="", help="Output directory")
+    add_output_arg(p, default="")  # e.g. --output reports/timeline/timeline.json
     return p
 
 
@@ -175,7 +184,9 @@ def main() -> int:
     headless = not args.no_headless
     cfg      = BrowserConfig(channel=args.channel, headless=headless, profile=args.profile,
                              url=args.url, wait_ms=0)
-    out      = Path(args.out_dir) if args.out_dir else ensure_output_dir()
+    out_file = Path(args.output) if args.output else ensure_output_dir() / "timeline.json"
+    out      = out_file.parent
+    out.mkdir(parents=True, exist_ok=True)
 
     log.info("Target: %s  Duration: %ds", cfg.url, args.duration)
 
@@ -191,12 +202,12 @@ def main() -> int:
             handle.close()
 
     # Save JSON
-    json_path = out / "timeline.json"
+    json_path = out_file
     save_json([dataclasses.asdict(f) for f in frames], json_path)
     log.info("Saved JSON → %s  (%d frames)", json_path, len(frames))
 
-    # Save CSV
-    csv_path = out / "timeline.csv"
+    # Save CSV alongside JSON with same stem
+    csv_path = json_path.with_suffix(".csv")
     save_csv(frames, csv_path)
     log.info("Saved CSV  → %s", csv_path)
 

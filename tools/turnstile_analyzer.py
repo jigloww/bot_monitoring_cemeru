@@ -5,15 +5,25 @@ Extracts: sitekey, widget ID, render/execution/retry/appearance mode,
           iframe presence, hidden inputs, response field, callback names.
 
 Usage:
-    python tools/turnstile_analyzer.py --url https://bromotenggersemeru.id --wait 10000
+    python tools/turnstile_analyzer.py --url https://bromotenggersemeru.id --output reports/challenge/turnstile.json
+    python tools/turnstile_analyzer.py --url https://target.com --channel chrome --no-headless --output turnstile.json
 """
 from __future__ import annotations
 import argparse, sys, time
 from pathlib import Path
 sys.path.insert(0, str(Path(__file__).parent.parent))
 from playwright.sync_api import sync_playwright
-from tools._shared import (BrowserConfig, ensure_output_dir, launch_browser,
-                            save_json, setup_logging, add_browser_args)
+from tools._shared import (
+    BrowserConfig,
+    OUTPUT_DIR,
+    ensure_output_dir,
+    launch_browser,
+    navigate,
+    save_json,
+    setup_logging,
+    add_browser_args,
+    add_output_arg
+)
 
 log = setup_logging("turnstile_analyzer")
 
@@ -118,7 +128,7 @@ def build_parser() -> argparse.ArgumentParser:
     p = argparse.ArgumentParser(description="Detect and analyze Cloudflare Turnstile widget.")
     add_browser_args(p)
     p.add_argument("--analyze-wait", type=int, default=5, help="Seconds to wait before analyzing (default: 5)")
-    p.add_argument("--out-dir", default="")
+    add_output_arg(p, default="")  # e.g. --output reports/challenge/turnstile.json
     return p
 
 
@@ -127,7 +137,7 @@ def main() -> int:
     headless = not args.no_headless
     cfg      = BrowserConfig(channel=args.channel, headless=headless, profile=args.profile,
                              url=args.url, wait_ms=args.wait)
-    out      = Path(args.out_dir) if args.out_dir else ensure_output_dir()
+    # out_file resolved below after args parsed
 
     with sync_playwright() as pw:
         handle, page, _ = launch_browser(pw, cfg)
@@ -139,7 +149,9 @@ def main() -> int:
         finally:
             handle.close()
 
-    path = out / "turnstile.json"
+    out      = Path(args.output) if args.output else ensure_output_dir() / "turnstile.json"
+    out.parent.mkdir(parents=True, exist_ok=True)
+    path = out
     save_json(result, path)
     log.info("Saved → %s", path)
     return 0
