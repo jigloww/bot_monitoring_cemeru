@@ -1,0 +1,1115 @@
+{
+    "_meta": {
+        "tool": "fingerprint_dump.py (CDP / Real Chrome)",
+        "collected_at": "2026-07-14T13:24:50.340838",
+        "cdp_url": "http://127.0.0.1:9222",
+        "url": "https://bromotenggersemeru.id/",
+        "channel": "chrome (real, via CDP)",
+        "headless": false
+    },
+    "fingerprint": {
+        "navigator": {
+            "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+            "appVersion": "5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+            "appName": "Netscape",
+            "appCodeName": "Mozilla",
+            "platform": "Win32",
+            "vendor": "Google Inc.",
+            "vendorSub": "",
+            "product": "Gecko",
+            "productSub": "20030107",
+            "oscpu": null,
+            "webdriver": false,
+            "language": "en-US",
+            "languages": [
+                "en-US",
+                "en",
+                "id"
+            ],
+            "hardwareConcurrency": 12,
+            "deviceMemory": 8,
+            "maxTouchPoints": 0,
+            "cookieEnabled": true,
+            "pdfViewerEnabled": true,
+            "doNotTrack": null,
+            "onLine": true,
+            "javaEnabled": false,
+            "userAgentData": {
+                "brands": [
+                    {
+                        "brand": "Not;A=Brand",
+                        "version": "8"
+                    },
+                    {
+                        "brand": "Chromium",
+                        "version": "150"
+                    },
+                    {
+                        "brand": "Google Chrome",
+                        "version": "150"
+                    }
+                ],
+                "mobile": false,
+                "platform": "Windows",
+                "high_entropy": {
+                    "architecture": "x86",
+                    "bitness": "64",
+                    "brands": [
+                        {
+                            "brand": "Not;A=Brand",
+                            "version": "8"
+                        },
+                        {
+                            "brand": "Chromium",
+                            "version": "150"
+                        },
+                        {
+                            "brand": "Google Chrome",
+                            "version": "150"
+                        }
+                    ],
+                    "fullVersionList": [
+                        {
+                            "brand": "Not;A=Brand",
+                            "version": "8.0.0.0"
+                        },
+                        {
+                            "brand": "Chromium",
+                            "version": "150.0.7871.115"
+                        },
+                        {
+                            "brand": "Google Chrome",
+                            "version": "150.0.7871.115"
+                        }
+                    ],
+                    "mobile": false,
+                    "model": "",
+                    "platform": "Windows",
+                    "platformVersion": "19.0.0",
+                    "uaFullVersion": "150.0.7871.115"
+                }
+            },
+            "connection": {
+                "effectiveType": "4g",
+                "downlink": 10,
+                "rtt": 50,
+                "saveData": false,
+                "type": null
+            },
+            "keys": [],
+            "prototype_keys": [
+                "vendorSub",
+                "productSub",
+                "vendor",
+                "maxTouchPoints",
+                "scheduling",
+                "userActivation",
+                "geolocation",
+                "doNotTrack",
+                "webkitTemporaryStorage",
+                "webkitPersistentStorage",
+                "windowControlsOverlay",
+                "hardwareConcurrency",
+                "cookieEnabled",
+                "appCodeName",
+                "appName",
+                "appVersion",
+                "platform",
+                "product",
+                "userAgent",
+                "language",
+                "languages",
+                "onLine",
+                "webdriver",
+                "plugins",
+                "mimeTypes",
+                "pdfViewerEnabled",
+                "connection",
+                "getGamepads",
+                "javaEnabled",
+                "sendBeacon",
+                "vibrate",
+                "constructor",
+                "deprecatedRunAdAuctionEnforcesKAnonymity",
+                "protectedAudience",
+                "bluetooth",
+                "clipboard",
+                "credentials",
+                "keyboard",
+                "managed",
+                "mediaDevices",
+                "serviceWorker",
+                "virtualKeyboard",
+                "wakeLock",
+                "deviceMemory",
+                "userAgentData",
+                "locks",
+                "storage",
+                "gpu",
+                "login",
+                "ink",
+                "mediaCapabilities",
+                "permissions",
+                "devicePosture",
+                "hid",
+                "mediaSession",
+                "presentation",
+                "serial",
+                "usb",
+                "xr",
+                "storageBuckets",
+                "adAuctionComponents",
+                "runAdAuction",
+                "canLoadAdAuctionFencedFrame",
+                "canShare",
+                "share",
+                "clearAppBadge",
+                "getBattery",
+                "getUserMedia",
+                "requestMIDIAccess",
+                "requestMediaKeySystemAccess",
+                "setAppBadge",
+                "webkitGetUserMedia",
+                "clearOriginJoinedAdInterestGroups",
+                "createAuctionNonce",
+                "joinAdInterestGroup",
+                "leaveAdInterestGroup",
+                "updateAdInterestGroups",
+                "deprecatedReplaceInURN",
+                "deprecatedURNToURL",
+                "getInstalledRelatedApps",
+                "getInterestGroupAdAuctionData",
+                "registerProtocolHandler",
+                "unregisterProtocolHandler"
+            ]
+        },
+        "plugins": {
+            "plugin_count": 5,
+            "plugins": [
+                {
+                    "name": "PDF Viewer",
+                    "filename": "internal-pdf-viewer",
+                    "description": "Portable Document Format",
+                    "mimes": [
+                        {
+                            "type": "application/pdf",
+                            "suffixes": "pdf",
+                            "description": "Portable Document Format"
+                        },
+                        {
+                            "type": "text/pdf",
+                            "suffixes": "pdf",
+                            "description": "Portable Document Format"
+                        }
+                    ]
+                },
+                {
+                    "name": "Chrome PDF Viewer",
+                    "filename": "internal-pdf-viewer",
+                    "description": "Portable Document Format",
+                    "mimes": [
+                        {
+                            "type": "application/pdf",
+                            "suffixes": "pdf",
+                            "description": "Portable Document Format"
+                        },
+                        {
+                            "type": "text/pdf",
+                            "suffixes": "pdf",
+                            "description": "Portable Document Format"
+                        }
+                    ]
+                },
+                {
+                    "name": "Chromium PDF Viewer",
+                    "filename": "internal-pdf-viewer",
+                    "description": "Portable Document Format",
+                    "mimes": [
+                        {
+                            "type": "application/pdf",
+                            "suffixes": "pdf",
+                            "description": "Portable Document Format"
+                        },
+                        {
+                            "type": "text/pdf",
+                            "suffixes": "pdf",
+                            "description": "Portable Document Format"
+                        }
+                    ]
+                },
+                {
+                    "name": "Microsoft Edge PDF Viewer",
+                    "filename": "internal-pdf-viewer",
+                    "description": "Portable Document Format",
+                    "mimes": [
+                        {
+                            "type": "application/pdf",
+                            "suffixes": "pdf",
+                            "description": "Portable Document Format"
+                        },
+                        {
+                            "type": "text/pdf",
+                            "suffixes": "pdf",
+                            "description": "Portable Document Format"
+                        }
+                    ]
+                },
+                {
+                    "name": "WebKit built-in PDF",
+                    "filename": "internal-pdf-viewer",
+                    "description": "Portable Document Format",
+                    "mimes": [
+                        {
+                            "type": "application/pdf",
+                            "suffixes": "pdf",
+                            "description": "Portable Document Format"
+                        },
+                        {
+                            "type": "text/pdf",
+                            "suffixes": "pdf",
+                            "description": "Portable Document Format"
+                        }
+                    ]
+                }
+            ],
+            "mime_count": 2,
+            "mime_types": [
+                {
+                    "type": "application/pdf",
+                    "suffixes": "pdf",
+                    "description": "Portable Document Format"
+                },
+                {
+                    "type": "text/pdf",
+                    "suffixes": "pdf",
+                    "description": "Portable Document Format"
+                }
+            ]
+        },
+        "screen": {
+            "width": 1536,
+            "height": 864,
+            "availWidth": 1536,
+            "availHeight": 816,
+            "colorDepth": 24,
+            "pixelDepth": 24,
+            "orientation": {
+                "type": "landscape-primary",
+                "angle": 0
+            }
+        },
+        "window": {
+            "innerWidth": 1036,
+            "innerHeight": 703,
+            "outerWidth": 1051,
+            "outerHeight": 798,
+            "devicePixelRatio": 1.25,
+            "screenX": 10,
+            "screenY": 10,
+            "scrollX": 0,
+            "scrollY": 171.1999969482422
+        },
+        "timezone": {
+            "timeZone": "Asia/Jakarta",
+            "locale": "en-US",
+            "calendar": "gregory",
+            "numberingSystem": "latn",
+            "hourCycle": null,
+            "offset_minutes": 420
+        },
+        "intl": {
+            "collator": {
+                "locale": "en-US",
+                "usage": "sort",
+                "sensitivity": "variant",
+                "ignorePunctuation": false,
+                "collation": "default",
+                "numeric": false,
+                "caseFirst": "false"
+            },
+            "numberFormat": {
+                "locale": "en-US",
+                "numberingSystem": "latn",
+                "style": "decimal",
+                "minimumIntegerDigits": 1,
+                "minimumFractionDigits": 0,
+                "maximumFractionDigits": 3,
+                "useGrouping": "auto",
+                "notation": "standard",
+                "signDisplay": "auto",
+                "roundingIncrement": 1,
+                "roundingMode": "halfExpand",
+                "roundingPriority": "auto",
+                "trailingZeroDisplay": "auto"
+            },
+            "listFormat": {
+                "locale": "en-US",
+                "type": "conjunction",
+                "style": "long"
+            }
+        },
+        "permissions": {
+            "notifications": "prompt",
+            "clipboard-read": "prompt",
+            "clipboard-write": "granted",
+            "camera": "prompt",
+            "microphone": "prompt",
+            "geolocation": "prompt",
+            "speaker-selection": null
+        },
+        "storage": {
+            "localStorage_length": 0,
+            "sessionStorage_length": 0,
+            "indexedDB_available": true,
+            "caches_available": true,
+            "cookieStore_available": true
+        },
+        "indexeddb": {
+            "count": 2,
+            "databases": [
+                "firebase-heartbeat-database",
+                "firebase-installations-database"
+            ]
+        },
+        "document": {
+            "cookie_count": 2,
+            "cookie_names": [
+                "_ga_TMVP85FKW9",
+                "_ga"
+            ],
+            "readyState": "complete",
+            "referrer": "https://bromotenggersemeru.id/?__cf_chl_tk=BfqOhwkz2CuTYc5EBiSCX3BmVGmYoTtm6EMZm8Lrclw-1784009398-1.0.1.1-kgRNkXx7yMnyH0oiOs8bJtVcUhXJ56YW01_1hDHVzjs",
+            "visibilityState": "visible",
+            "characterSet": "UTF-8",
+            "compatMode": "CSS1Compat",
+            "domain": "bromotenggersemeru.id",
+            "title": "TNBTS"
+        },
+        "history": {
+            "length": 3
+        },
+        "performance": {
+            "timeOrigin": 1784009406186.4,
+            "now": 883987.2999999523,
+            "memory": {
+                "jsHeapSizeLimit": 4240441344,
+                "totalJSHeapSize": 13949948,
+                "usedJSHeapSize": 11512308
+            },
+            "navigation_timing": {
+                "type": "navigate",
+                "duration": 1071.2000000476837,
+                "domContentLoadedEventEnd": 1042.8999999761581,
+                "loadEventEnd": 1071.2000000476837
+            },
+            "resource_count": 71
+        },
+        "webgl": {
+            "supported": true,
+            "version": "WebGL 1.0 (OpenGL ES 2.0 Chromium)",
+            "shading_language_version": "WebGL GLSL ES 1.0 (OpenGL ES GLSL ES 1.0 Chromium)",
+            "vendor": "WebKit",
+            "renderer": "WebKit WebGL",
+            "unmasked_vendor": "Google Inc. (Intel)",
+            "unmasked_renderer": "ANGLE (Intel, Intel(R) UHD Graphics (0x0000A7A8) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+            "max_texture_size": 16384,
+            "max_renderbuffer_size": 16384,
+            "max_vertex_attribs": 16,
+            "aliased_line_width_range": [
+                1,
+                1
+            ],
+            "aliased_point_size_range": [
+                1,
+                1024
+            ],
+            "extension_count": 35,
+            "extensions": [
+                "ANGLE_instanced_arrays",
+                "EXT_blend_minmax",
+                "EXT_clip_control",
+                "EXT_color_buffer_half_float",
+                "EXT_depth_clamp",
+                "EXT_disjoint_timer_query",
+                "EXT_float_blend",
+                "EXT_frag_depth",
+                "EXT_polygon_offset_clamp",
+                "EXT_shader_texture_lod",
+                "EXT_texture_compression_bptc",
+                "EXT_texture_compression_rgtc",
+                "EXT_texture_filter_anisotropic",
+                "EXT_texture_mirror_clamp_to_edge",
+                "EXT_sRGB",
+                "KHR_parallel_shader_compile",
+                "OES_element_index_uint",
+                "OES_fbo_render_mipmap",
+                "OES_standard_derivatives",
+                "OES_texture_float",
+                "OES_texture_float_linear",
+                "OES_texture_half_float",
+                "OES_texture_half_float_linear",
+                "OES_vertex_array_object",
+                "WEBGL_blend_func_extended",
+                "WEBGL_color_buffer_float",
+                "WEBGL_compressed_texture_s3tc",
+                "WEBGL_compressed_texture_s3tc_srgb",
+                "WEBGL_debug_renderer_info",
+                "WEBGL_debug_shaders",
+                "WEBGL_depth_texture",
+                "WEBGL_draw_buffers",
+                "WEBGL_lose_context",
+                "WEBGL_multi_draw",
+                "WEBGL_polygon_mode"
+            ]
+        },
+        "webgl2": {
+            "supported": true,
+            "version": "WebGL 2.0 (OpenGL ES 3.0 Chromium)"
+        },
+        "canvas": {
+            "supported": true,
+            "hash": 277694620,
+            "length": 18266,
+            "prefix": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAACWCAYAAABkW7XSAAAQAElEQVR4Ae"
+        },
+        "audio": {
+            "sample_sum": 10748.96479334074,
+            "samples": [
+                -0.10808052122592926,
+                -0.3909117579460144,
+                -0.005692707374691963,
+                0.3892313539981842,
+                0.1189708411693573,
+                -0.3545847237110138,
+                -0.22215835750102997,
+                0.28990939259529114,
+                0.30651888251304626,
+                -0.20068736374378204,
+                -0.3649081289768219,
+                0.09447672218084335,
+                0.39241594076156616,
+                0.01972723752260208,
+                -0.38671597838401794,
+                -0.13228477537631989,
+                0.34825485944747925,
+                0.2336597591638565,
+                -0.28028473258018494,
+                -0.3152626156806946
+            ]
+        },
+        "fonts": {
+            "count": 25,
+            "detected": [
+                "Arial",
+                "Arial Black",
+                "Arial Narrow",
+                "Calibri",
+                "Cambria",
+                "Candara",
+                "Comic Sans MS",
+                "Constantia",
+                "Corbel",
+                "Courier New",
+                "Georgia",
+                "Helvetica",
+                "Impact",
+                "Lucida Console",
+                "Lucida Sans Unicode",
+                "Microsoft Sans Serif",
+                "Palatino Linotype",
+                "Segoe UI",
+                "Symbol",
+                "Tahoma",
+                "Times New Roman",
+                "Trebuchet MS",
+                "Verdana",
+                "Wingdings",
+                "MS Gothic"
+            ]
+        },
+        "css": {
+            "supports": {
+                "grid": true,
+                "flex": true,
+                "variables": true,
+                "backdrop-filter": true,
+                "aspect-ratio": true,
+                "container": true,
+                "has-selector": true
+            },
+            "touch_support": false,
+            "pointer_events": true,
+            "hover_hover": true,
+            "prefers_dark": false,
+            "reduced_motion": false,
+            "forced_colors": false
+        },
+        "chrome": {
+            "present": true,
+            "keys": [
+                "loadTimes",
+                "csi",
+                "app"
+            ],
+            "runtime": {
+                "present": false,
+                "id": null,
+                "has_connect": false,
+                "has_send": false
+            },
+            "loadTimes": {
+                "present": true,
+                "value": {
+                    "requestTime": 1784009406.186,
+                    "startLoadTime": 1784009406.186
+                }
+            },
+            "csi": {
+                "present": true,
+                "value": {
+                    "startE": 1784009406186,
+                    "onloadT": 1784009407229,
+                    "pageT": 884065.325
+                }
+            },
+            "app": {
+                "present": true
+            },
+            "webstore": {
+                "present": false
+            }
+        },
+        "battery": {
+            "charging": false,
+            "level": 0.26,
+            "chargingTime": Infinity,
+            "dischargingTime": 5060
+        },
+        "speech": {
+            "count": 22,
+            "voices": [
+                {
+                    "name": "Microsoft David - English (United States)",
+                    "lang": "en-US",
+                    "local": true
+                },
+                {
+                    "name": "Microsoft Mark - English (United States)",
+                    "lang": "en-US",
+                    "local": true
+                },
+                {
+                    "name": "Microsoft Zira - English (United States)",
+                    "lang": "en-US",
+                    "local": true
+                },
+                {
+                    "name": "Google Deutsch",
+                    "lang": "de-DE",
+                    "local": false
+                },
+                {
+                    "name": "Google US English",
+                    "lang": "en-US",
+                    "local": false
+                },
+                {
+                    "name": "Google UK English Female",
+                    "lang": "en-GB",
+                    "local": false
+                },
+                {
+                    "name": "Google UK English Male",
+                    "lang": "en-GB",
+                    "local": false
+                },
+                {
+                    "name": "Google español",
+                    "lang": "es-ES",
+                    "local": false
+                },
+                {
+                    "name": "Google español de Estados Unidos",
+                    "lang": "es-US",
+                    "local": false
+                },
+                {
+                    "name": "Google français",
+                    "lang": "fr-FR",
+                    "local": false
+                },
+                {
+                    "name": "Google हिन्दी",
+                    "lang": "hi-IN",
+                    "local": false
+                },
+                {
+                    "name": "Google Bahasa Indonesia",
+                    "lang": "id-ID",
+                    "local": false
+                },
+                {
+                    "name": "Google italiano",
+                    "lang": "it-IT",
+                    "local": false
+                },
+                {
+                    "name": "Google 日本語",
+                    "lang": "ja-JP",
+                    "local": false
+                },
+                {
+                    "name": "Google 한국의",
+                    "lang": "ko-KR",
+                    "local": false
+                },
+                {
+                    "name": "Google Nederlands",
+                    "lang": "nl-NL",
+                    "local": false
+                },
+                {
+                    "name": "Google polski",
+                    "lang": "pl-PL",
+                    "local": false
+                },
+                {
+                    "name": "Google português do Brasil",
+                    "lang": "pt-BR",
+                    "local": false
+                },
+                {
+                    "name": "Google русский",
+                    "lang": "ru-RU",
+                    "local": false
+                },
+                {
+                    "name": "Google 普通话（中国大陆）",
+                    "lang": "zh-CN",
+                    "local": false
+                },
+                {
+                    "name": "Google 粤語（香港）",
+                    "lang": "zh-HK",
+                    "local": false
+                },
+                {
+                    "name": "Google 國語（臺灣）",
+                    "lang": "zh-TW",
+                    "local": false
+                }
+            ]
+        },
+        "rtc": {
+            "RTCPeerConnection": true,
+            "RTCDataChannel": true,
+            "RTCSessionDescription": true
+        },
+        "media_devices": [
+            {
+                "kind": "audioinput",
+                "label": "",
+                "groupId": ""
+            },
+            {
+                "kind": "videoinput",
+                "label": "",
+                "groupId": ""
+            },
+            {
+                "kind": "audiooutput",
+                "label": "",
+                "groupId": ""
+            }
+        ],
+        "media_capabilities": {
+            "supported": true,
+            "smooth": true,
+            "powerEfficient": true
+        },
+        "gpu": {
+            "available": true
+        },
+        "hardware_apis": {
+            "bluetooth": true,
+            "usb": true,
+            "serial": true,
+            "hid": true,
+            "keyboard": true,
+            "clipboard": true,
+            "gamepad": 0
+        },
+        "features": {
+            "fetch": true,
+            "Worker": true,
+            "SharedWorker": true,
+            "ServiceWorker": true,
+            "WebSocket": true,
+            "WebAssembly": true,
+            "SharedArrayBuffer": false,
+            "IntersectionObserver": true,
+            "ResizeObserver": true,
+            "MutationObserver": true,
+            "crypto": true,
+            "crypto_subtle": true,
+            "Notification": true,
+            "notification_permission": "default",
+            "BigInt": true,
+            "Proxy": true,
+            "AbortController": true,
+            "structuredClone": true
+        },
+        "window_keys": [
+            "$",
+            "$jscomp",
+            "$jscomp$lookupPolyfilledValue",
+            "0",
+            "DataTable",
+            "Func",
+            "GMaps",
+            "Popper",
+            "Swal",
+            "SweetAlert",
+            "Sweetalert2",
+            "__cfBeacon",
+            "alert",
+            "appear",
+            "atob",
+            "base_url",
+            "blur",
+            "bootstrap",
+            "btoa",
+            "caches",
+            "cancelAnimationFrame",
+            "cancelIdleCallback",
+            "captureEvents",
+            "chrome",
+            "clearInterval",
+            "clearTimeout",
+            "clientInformation",
+            "close",
+            "closed",
+            "combo",
+            "confirm",
+            "cookieStore",
+            "crashReport",
+            "createImageBitmap",
+            "credentialless",
+            "crossOriginIsolated",
+            "crypto",
+            "customElements",
+            "dataLayer",
+            "devicePixelRatio",
+            "document",
+            "documentPictureInPicture",
+            "event",
+            "external",
+            "fence",
+            "fetch",
+            "fetchLater",
+            "find",
+            "flatpickr",
+            "focus",
+            "frameElement",
+            "frames",
+            "gaGlobal",
+            "getComputedStyle",
+            "getScreenDetails",
+            "getSelection",
+            "google_tag_data",
+            "google_tag_manager",
+            "gtag",
+            "history",
+            "indexedDB",
+            "innerHeight",
+            "innerWidth",
+            "isEmpty",
+            "isSecureContext",
+            "jQuery",
+            "launchQueue",
+            "length",
+            "localStorage",
+            "location",
+            "locationbar",
+            "matchMedia",
+            "menubar",
+            "moveBy",
+            "moveTo",
+            "name",
+            "navigation",
+            "navigator",
+            "notice",
+            "onabort",
+            "onafterprint",
+            "onanimationcancel",
+            "onanimationend",
+            "onanimationiteration",
+            "onanimationstart",
+            "onappinstalled",
+            "onauxclick",
+            "onbeforeinput",
+            "onbeforeinstallprompt",
+            "onbeforematch",
+            "onbeforeprint",
+            "onbeforetoggle",
+            "onbeforeunload",
+            "onbeforexrselect",
+            "onblur",
+            "oncancel",
+            "oncanplay",
+            "oncanplaythrough",
+            "onchange",
+            "onclick",
+            "onclose",
+            "oncommand",
+            "oncontentvisibilityautostatechange",
+            "oncontextlost",
+            "oncontextmenu",
+            "oncontextrestored",
+            "oncuechange",
+            "ondblclick",
+            "ondevicemotion",
+            "ondeviceorientation",
+            "ondeviceorientationabsolute",
+            "ondrag",
+            "ondragend",
+            "ondragenter",
+            "ondragleave",
+            "ondragover",
+            "ondragstart",
+            "ondrop",
+            "ondurationchange",
+            "onemptied",
+            "onended",
+            "onerror",
+            "onfocus",
+            "onformdata",
+            "ongamepadconnected",
+            "ongamepaddisconnected",
+            "ongotpointercapture",
+            "onhashchange",
+            "oninput",
+            "oninvalid",
+            "onkeydown",
+            "onkeypress",
+            "onkeyup",
+            "onlanguagechange",
+            "onload",
+            "onloadeddata",
+            "onloadedmetadata",
+            "onloadstart",
+            "onlostpointercapture",
+            "onmessage",
+            "onmessageerror",
+            "onmousedown",
+            "onmouseenter",
+            "onmouseleave",
+            "onmousemove",
+            "onmouseout",
+            "onmouseover",
+            "onmouseup",
+            "onmousewheel",
+            "onoffline",
+            "ononline",
+            "onpagehide",
+            "onpagereveal",
+            "onpageshow",
+            "onpageswap",
+            "onpause",
+            "onplay",
+            "onplaying",
+            "onpointercancel",
+            "onpointerdown",
+            "onpointerenter",
+            "onpointerleave",
+            "onpointermove",
+            "onpointerout",
+            "onpointerover",
+            "onpointerrawupdate",
+            "onpointerup",
+            "onpopstate",
+            "onprogress",
+            "onratechange",
+            "onrejectionhandled",
+            "onreset",
+            "onresize",
+            "onscroll",
+            "onscrollend",
+            "onscrollsnapchange",
+            "onscrollsnapchanging",
+            "onsearch",
+            "onsecuritypolicyviolation",
+            "onseeked",
+            "onseeking",
+            "onselect",
+            "onselectionchange",
+            "onselectstart",
+            "onslotchange",
+            "onstalled",
+            "onstorage",
+            "onsubmit",
+            "onsuspend",
+            "ontimeupdate",
+            "ontoggle",
+            "ontransitioncancel",
+            "ontransitionend",
+            "ontransitionrun",
+            "ontransitionstart",
+            "onunhandledrejection",
+            "onunload",
+            "onvolumechange",
+            "onwaiting",
+            "onwebkitanimationend",
+            "onwebkitanimationiteration",
+            "onwebkitanimationstart",
+            "onwebkittransitionend",
+            "onwheel",
+            "open",
+            "opener",
+            "origin",
+            "originAgentCluster",
+            "outerHeight",
+            "outerWidth",
+            "pageXOffset",
+            "pageYOffset",
+            "parent",
+            "performance",
+            "personalbar",
+            "postMessage",
+            "print",
+            "prompt",
+            "queryLocalFonts",
+            "queueMicrotask",
+            "releaseEvents",
+            "reportError",
+            "requestAnimationFrame",
+            "requestIdleCallback",
+            "resizeBy",
+            "resizeTo",
+            "scheduler",
+            "screen",
+            "screenLeft",
+            "screenTop",
+            "screenX",
+            "screenY",
+            "scroll",
+            "scrollBy",
+            "scrollTo",
+            "scrollX",
+            "scrollY",
+            "scrollbars",
+            "self",
+            "sessionStorage",
+            "setInterval",
+            "setTimeout",
+            "sharedStorage",
+            "showDirectoryPicker",
+            "showOpenFilePicker",
+            "showSaveFilePicker",
+            "speechSynthesis",
+            "status",
+            "statusbar",
+            "stop",
+            "structuredClone",
+            "styleMedia",
+            "swal",
+            "sweetAlert",
+            "toolbar",
+            "top",
+            "trustedTypes",
+            "viewport",
+            "visualViewport",
+            "webkitCancelAnimationFrame",
+            "webkitRequestAnimationFrame",
+            "webkitRequestFileSystem",
+            "webkitResolveLocalFileSystemURL",
+            "window"
+        ],
+        "navigator_keys": [],
+        "navigator_own_keys": [
+            "adAuctionComponents",
+            "appCodeName",
+            "appName",
+            "appVersion",
+            "bluetooth",
+            "canLoadAdAuctionFencedFrame",
+            "canShare",
+            "clearAppBadge",
+            "clearOriginJoinedAdInterestGroups",
+            "clipboard",
+            "connection",
+            "constructor",
+            "cookieEnabled",
+            "createAuctionNonce",
+            "credentials",
+            "deprecatedReplaceInURN",
+            "deprecatedRunAdAuctionEnforcesKAnonymity",
+            "deprecatedURNToURL",
+            "deviceMemory",
+            "devicePosture",
+            "doNotTrack",
+            "geolocation",
+            "getBattery",
+            "getGamepads",
+            "getInstalledRelatedApps",
+            "getInterestGroupAdAuctionData",
+            "getUserMedia",
+            "gpu",
+            "hardwareConcurrency",
+            "hid",
+            "ink",
+            "javaEnabled",
+            "joinAdInterestGroup",
+            "keyboard",
+            "language",
+            "languages",
+            "leaveAdInterestGroup",
+            "locks",
+            "login",
+            "managed",
+            "maxTouchPoints",
+            "mediaCapabilities",
+            "mediaDevices",
+            "mediaSession",
+            "mimeTypes",
+            "onLine",
+            "pdfViewerEnabled",
+            "permissions",
+            "platform",
+            "plugins",
+            "presentation",
+            "product",
+            "productSub",
+            "protectedAudience",
+            "registerProtocolHandler",
+            "requestMIDIAccess",
+            "requestMediaKeySystemAccess",
+            "runAdAuction",
+            "scheduling",
+            "sendBeacon",
+            "serial",
+            "serviceWorker",
+            "setAppBadge",
+            "share",
+            "storage",
+            "storageBuckets",
+            "unregisterProtocolHandler",
+            "updateAdInterestGroups",
+            "usb",
+            "userActivation",
+            "userAgent",
+            "userAgentData",
+            "vendor",
+            "vendorSub",
+            "vibrate",
+            "virtualKeyboard",
+            "wakeLock",
+            "webdriver",
+            "webkitGetUserMedia",
+            "webkitPersistentStorage",
+            "webkitTemporaryStorage",
+            "windowControlsOverlay",
+            "xr"
+        ]
+    }
+}
