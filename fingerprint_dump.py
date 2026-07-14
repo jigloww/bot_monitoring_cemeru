@@ -456,7 +456,7 @@ def save(data: dict, out_path: Path, cdp_url: str, url: str) -> None:
     out_path.parent.mkdir(parents=True, exist_ok=True)
     print(f"[INFO] Saving fingerprint...")
     out_path.write_text(json.dumps(result, indent=4, ensure_ascii=False), encoding="utf-8")
-    print(f"[OK]   Fingerprint saved → {out_path}")
+    print(f"[OK]   Fingerprint saved: {out_path}")
 
 
 # ══════════════════════════════════════════════════════════════════
