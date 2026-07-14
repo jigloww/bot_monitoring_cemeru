@@ -25,6 +25,7 @@ from typing import Any
 sys.path.insert(0, str(Path(__file__).parent.parent))
 from tools._shared import (
     ensure_output_dir,
+    load_json,
     save_json,
     setup_logging,
     add_output_arg

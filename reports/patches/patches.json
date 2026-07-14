@@ -1,0 +1,46 @@
+{
+    "patches": [
+        {
+            "key": "navigator.webdriver",
+            "category": "Navigator",
+            "stars": 5,
+            "description": "Override navigator.webdriver to return false.",
+            "python_code": "# navigator.webdriver\npage.add_init_script(\"Object.defineProperty(navigator,'webdriver',{get:()=>false})\");",
+            "js_code": "Object.defineProperty(navigator,'webdriver',{get:()=>false,configurable:true});"
+        },
+        {
+            "key": "navigator.deviceMemory",
+            "category": "Navigator",
+            "stars": 4,
+            "description": "Set navigator.deviceMemory to 8.",
+            "python_code": "page.add_init_script(\"Object.defineProperty(navigator,'deviceMemory',{get:()=>8})\");",
+            "js_code": "Object.defineProperty(navigator,'deviceMemory',{get:()=>8,configurable:true});"
+        },
+        {
+            "key": "window.outerHeight",
+            "category": "Window",
+            "stars": 4,
+            "description": "Set window.outerHeight to 798 (0 in headless).",
+            "python_code": "page.add_init_script(\"Object.defineProperty(window,'outerHeight',{get:()=>798})\");",
+            "js_code": "Object.defineProperty(window,'outerHeight',{get:()=>798,configurable:true});"
+        },
+        {
+            "key": "window.outerWidth",
+            "category": "Window",
+            "stars": 4,
+            "description": "Set window.outerWidth to 1051 (0 in headless).",
+            "python_code": "page.add_init_script(\"Object.defineProperty(window,'outerWidth',{get:()=>1051})\");",
+            "js_code": "Object.defineProperty(window,'outerWidth',{get:()=>1051,configurable:true});"
+        },
+        {
+            "key": "navigator.languages",
+            "category": "Navigator",
+            "stars": 3,
+            "description": "Override navigator.languages to match real browser: [\"en-US\", \"en\", \"id\"].",
+            "python_code": "page.add_init_script(\"Object.defineProperty(navigator,'languages',{get:()=>[\"en-US\", \"en\", \"id\"]})\");",
+            "js_code": "Object.defineProperty(navigator,'languages',{get:()=>[\"en-US\", \"en\", \"id\"],configurable:true});"
+        }
+    ],
+    "ref": "fingerprint_real",
+    "test": "fingerprint_playwright"
+}

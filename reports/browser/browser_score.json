@@ -1,0 +1,335 @@
+{
+    "overall_score": 56.1,
+    "cf_risk_score": 64.8,
+    "categories": [
+        {
+            "category": "Navigator",
+            "total": 56,
+            "matched": 21,
+            "score_pct": 37.5,
+            "weight": 1.8,
+            "worst_keys": [
+                "navigator.userAgentData",
+                "navigator.webdriver",
+                "navigator.deviceMemory"
+            ]
+        },
+        {
+            "category": "WebGL",
+            "total": 16,
+            "matched": 16,
+            "score_pct": 100.0,
+            "weight": 2.0,
+            "worst_keys": []
+        },
+        {
+            "category": "Canvas",
+            "total": 4,
+            "matched": 4,
+            "score_pct": 100.0,
+            "weight": 1.6,
+            "worst_keys": []
+        },
+        {
+            "category": "Audio",
+            "total": 2,
+            "matched": 2,
+            "score_pct": 100.0,
+            "weight": 1.5,
+            "worst_keys": []
+        },
+        {
+            "category": "Chrome",
+            "total": 15,
+            "matched": 10,
+            "score_pct": 66.7,
+            "weight": 2.0,
+            "worst_keys": [
+                "chrome.csi.value.onloadT",
+                "chrome.csi.value.pageT",
+                "chrome.csi.value.startE"
+            ]
+        },
+        {
+            "category": "Plugins",
+            "total": 53,
+            "matched": 53,
+            "score_pct": 100.0,
+            "weight": 1.4,
+            "worst_keys": []
+        },
+        {
+            "category": "Fonts",
+            "total": 2,
+            "matched": 2,
+            "score_pct": 100.0,
+            "weight": 1.3,
+            "worst_keys": []
+        },
+        {
+            "category": "Window",
+            "total": 9,
+            "matched": 3,
+            "score_pct": 33.3,
+            "weight": 1.4,
+            "worst_keys": [
+                "window.outerHeight",
+                "window.outerWidth",
+                "window.devicePixelRatio"
+            ]
+        },
+        {
+            "category": "Screen",
+            "total": 8,
+            "matched": 4,
+            "score_pct": 50.0,
+            "weight": 1.0,
+            "worst_keys": [
+                "screen.availHeight",
+                "screen.availWidth",
+                "screen.height"
+            ]
+        },
+        {
+            "category": "Permissions",
+            "total": 7,
+            "matched": 1,
+            "score_pct": 14.3,
+            "weight": 0.9,
+            "worst_keys": [
+                "permissions.notifications",
+                "permissions.camera",
+                "permissions.clipboard-read"
+            ]
+        },
+        {
+            "category": "Speech",
+            "total": 68,
+            "matched": 0,
+            "score_pct": 0.0,
+            "weight": 0.8,
+            "worst_keys": [
+                "speech.count",
+                "speech.voices",
+                "speech.voices[0].lang"
+            ]
+        },
+        {
+            "category": "Performance",
+            "total": 10,
+            "matched": 1,
+            "score_pct": 10.0,
+            "weight": 0.7,
+            "worst_keys": [
+                "performance.memory.jsHeapSizeLimit",
+                "performance.memory.totalJSHeapSize",
+                "performance.memory.usedJSHeapSize"
+            ]
+        },
+        {
+            "category": "Storage",
+            "total": 6,
+            "matched": 0,
+            "score_pct": 0.0,
+            "weight": 0.5,
+            "worst_keys": [
+                "storage",
+                "storage.caches_available",
+                "storage.cookieStore_available"
+            ]
+        },
+        {
+            "category": "Battery",
+            "total": 5,
+            "matched": 0,
+            "score_pct": 0.0,
+            "weight": 0.6,
+            "worst_keys": [
+                "battery.charging",
+                "battery",
+                "battery.chargingTime"
+            ]
+        },
+        {
+            "category": "RTC",
+            "total": 3,
+            "matched": 3,
+            "score_pct": 100.0,
+            "weight": 0.7,
+            "worst_keys": []
+        },
+        {
+            "category": "Features",
+            "total": 18,
+            "matched": 15,
+            "score_pct": 83.3,
+            "weight": 0.8,
+            "worst_keys": [
+                "features.ServiceWorker",
+                "features.crypto_subtle",
+                "features.notification_permission"
+            ]
+        },
+        {
+            "category": "Other",
+            "total": 80,
+            "matched": 47,
+            "score_pct": 58.8,
+            "weight": 0.4,
+            "worst_keys": [
+                "document",
+                "document.characterSet",
+                "document.compatMode"
+            ]
+        }
+    ],
+    "suspicious_diffs": [
+        {
+            "key": "navigator.userAgentData",
+            "ref": "<missing>",
+            "test": null,
+            "stars": 5,
+            "category": "Navigator"
+        },
+        {
+            "key": "navigator.webdriver",
+            "ref": false,
+            "test": true,
+            "stars": 5,
+            "category": "Navigator"
+        },
+        {
+            "key": "navigator.deviceMemory",
+            "ref": 8,
+            "test": null,
+            "stars": 4,
+            "category": "Navigator"
+        },
+        {
+            "key": "window.outerHeight",
+            "ref": 798,
+            "test": 720,
+            "stars": 4,
+            "category": "Window"
+        },
+        {
+            "key": "window.outerWidth",
+            "ref": 1051,
+            "test": 1280,
+            "stars": 4,
+            "category": "Window"
+        },
+        {
+            "key": "navigator.languages",
+            "ref": [
+                "en-US",
+                "en",
+                "id"
+            ],
+            "test": [
+                "en-US",
+                "en"
+            ],
+            "stars": 3,
+            "category": "Navigator"
+        },
+        {
+            "key": "permissions.notifications",
+            "ref": "prompt",
+            "test": "denied",
+            "stars": 3,
+            "category": "Permissions"
+        },
+        {
+            "key": "speech.count",
+            "ref": 22,
+            "test": 0,
+            "stars": 3,
+            "category": "Speech"
+        },
+        {
+            "key": "battery.charging",
+            "ref": false,
+            "test": "<missing>",
+            "stars": 2,
+            "category": "Battery"
+        },
+        {
+            "key": "battery",
+            "ref": "<missing>",
+            "test": null,
+            "stars": 1,
+            "category": "Battery"
+        },
+        {
+            "key": "battery.chargingTime",
+            "ref": Infinity,
+            "test": "<missing>",
+            "stars": 1,
+            "category": "Battery"
+        },
+        {
+            "key": "battery.dischargingTime",
+            "ref": 5060,
+            "test": "<missing>",
+            "stars": 1,
+            "category": "Battery"
+        },
+        {
+            "key": "battery.level",
+            "ref": 0.26,
+            "test": "<missing>",
+            "stars": 1,
+            "category": "Battery"
+        },
+        {
+            "key": "chrome.csi.value.onloadT",
+            "ref": 1784009407229,
+            "test": 1784034929369,
+            "stars": 1,
+            "category": "Chrome"
+        },
+        {
+            "key": "chrome.csi.value.pageT",
+            "ref": 884065.325,
+            "test": 3699.203,
+            "stars": 1,
+            "category": "Chrome"
+        },
+        {
+            "key": "chrome.csi.value.startE",
+            "ref": 1784009406186,
+            "test": 1784034929363,
+            "stars": 1,
+            "category": "Chrome"
+        },
+        {
+            "key": "chrome.loadTimes.value.requestTime",
+            "ref": 1784009406.186,
+            "test": 1784034929.363,
+            "stars": 1,
+            "category": "Chrome"
+        },
+        {
+            "key": "chrome.loadTimes.value.startLoadTime",
+            "ref": 1784009406.186,
+            "test": 1784034929.363,
+            "stars": 1,
+            "category": "Chrome"
+        },
+        {
+            "key": "document",
+            "ref": "<missing>",
+            "test": null,
+            "stars": 1,
+            "category": "Other"
+        },
+        {
+            "key": "document.characterSet",
+            "ref": "UTF-8",
+            "test": "<missing>",
+            "stars": 1,
+            "category": "Other"
+        }
+    ]
+}
