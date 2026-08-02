@@ -1,0 +1,91 @@
+{
+  "experiment_id": "exp_001",
+  "date": "2026-08-02T22:50:43.445540+07:00",
+  "completed_at": "2026-08-02T22:50:56.678645+07:00",
+  "status": "completed",
+  "label": "navigator-module-smoke",
+  "os": {
+    "system": "Windows",
+    "release": "11",
+    "version": "10.0.26200",
+    "machine": "AMD64",
+    "processor": "Intel64 Family 6 Model 186 Stepping 2, GenuineIntel",
+    "python": "3.12.10"
+  },
+  "browser_version": "149.0.7827.55",
+  "chrome_channel": "chromium (bundled)",
+  "playwright_version": "1.61.0",
+  "headless": true,
+  "viewport": {
+    "width": 1280,
+    "height": 720,
+    "device_pixel_ratio": 1
+  },
+  "locale": "en-GB",
+  "timezone": "Asia/Jakarta",
+  "url": "about:blank",
+  "patch_version": "ac1912381f5f",
+  "git_commit": "74cfc9658eb40aa2dbafa4b0ee5410325feaa6ac",
+  "git_dirty": true,
+  "profile": null,
+  "wait_ms": 5000,
+  "baseline": {
+    "path": "reports\\fingerprint\\fingerprint_real.json",
+    "sha256": "7616f7a31352b00c4a13afccdfbc32707eab441963755705d6349a5da9cd4873",
+    "label": "fingerprint_real",
+    "collected_at": "2026-07-14T13:24:50.340838",
+    "tool": "fingerprint_dump.py (CDP / Real Chrome)"
+  },
+  "patch": {
+    "version": "ac1912381f5f",
+    "generated_at": null,
+    "count": 0,
+    "keys": [],
+    "manifest": "stealth\\generated\\patches.json",
+    "manifest_sha256": "e3566b3a06430868d71e9287dfd6c6c520a3da027aabea01951d407ee131dc2f",
+    "script": "stealth\\generated\\patches_init.js",
+    "script_sha256": "ac1912381f5fb974e6ab320be07b3a80eb1858984cec6b43421084b589192997"
+  },
+  "output_directory": "reports\\experiments\\exp_001",
+  "observed_environment": {
+    "before": {
+      "viewport": {
+        "width": 1280,
+        "height": 720,
+        "device_pixel_ratio": 1
+      },
+      "locale": "en-GB",
+      "languages": [
+        "en-GB"
+      ],
+      "timezone": "Asia/Jakarta",
+      "timezone_offset_minutes": 420,
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36",
+      "platform": "Win32"
+    },
+    "after": {
+      "viewport": {
+        "width": 1280,
+        "height": 720,
+        "device_pixel_ratio": 1
+      },
+      "locale": "en-GB",
+      "languages": [
+        "en-GB"
+      ],
+      "timezone": "Asia/Jakarta",
+      "timezone_offset_minutes": 420,
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36",
+      "platform": "Win32"
+    }
+  },
+  "browser_versions": {
+    "before": "149.0.7827.55",
+    "after": "149.0.7827.55"
+  },
+  "console": {
+    "before_count": 0,
+    "after_count": 0,
+    "after_patch_failures": []
+  }
+}

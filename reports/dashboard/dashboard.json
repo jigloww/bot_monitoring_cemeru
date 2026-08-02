@@ -1,0 +1,402 @@
+{
+  "project_summary": {
+    "name": "Stealth Framework",
+    "generated_at": "2026-08-02T16:53:45.942682+00:00",
+    "experiments_detected": 6,
+    "modules_completed": 4,
+    "modules_total": 9,
+    "completion_pct": 44.4,
+    "remaining_modules": [
+      "Permissions",
+      "Fonts",
+      "Speech",
+      "Performance",
+      "WebGL"
+    ]
+  },
+  "current_best": {
+    "experiment_id": "exp_008",
+    "timestamp": "2026-08-02T23:42:21.260919+07:00",
+    "module": "chrome",
+    "module_label": "Navigator + Window + Screen + Chrome",
+    "modules": [
+      "navigator",
+      "window",
+      "screen",
+      "chrome"
+    ],
+    "experiment": "Experiment 008 - Chrome Runtime Evaluation",
+    "label": "Navigator + Window + Screen + Chrome",
+    "overall": 65.8,
+    "module_score": 100.0,
+    "cf_score": 74.3,
+    "total_diff": 152,
+    "improved": 16,
+    "regressed": 0,
+    "status": "completed",
+    "duration_seconds": null,
+    "duration": "N/A",
+    "final_mode": "navigator_window_screen_chrome",
+    "source": "D:/bot_monitoring_cemeru/reports/experiments/exp_008",
+    "target_reached": true
+  },
+  "latest_experiment": {
+    "experiment_id": "exp_008",
+    "timestamp": "2026-08-02T23:42:21.260919+07:00",
+    "module": "chrome",
+    "module_label": "Navigator + Window + Screen + Chrome",
+    "modules": [
+      "navigator",
+      "window",
+      "screen",
+      "chrome"
+    ],
+    "experiment": "Experiment 008 - Chrome Runtime Evaluation",
+    "label": "Navigator + Window + Screen + Chrome",
+    "overall": 65.8,
+    "module_score": 100.0,
+    "cf_score": 74.3,
+    "total_diff": 152,
+    "improved": 16,
+    "regressed": 0,
+    "status": "completed",
+    "duration_seconds": null,
+    "duration": "N/A",
+    "final_mode": "navigator_window_screen_chrome",
+    "source": "D:/bot_monitoring_cemeru/reports/experiments/exp_008",
+    "target_reached": true
+  },
+  "module_status": [
+    {
+      "module": "navigator",
+      "label": "Navigator",
+      "status": "DONE",
+      "overall": 72.7,
+      "cf_score": 54.8,
+      "regression": 0,
+      "latest_experiment": "exp_001",
+      "target_reached": true
+    },
+    {
+      "module": "window",
+      "label": "Window",
+      "status": "DONE",
+      "overall": 100.0,
+      "cf_score": 61.4,
+      "regression": 0,
+      "latest_experiment": "exp_006",
+      "target_reached": true
+    },
+    {
+      "module": "screen",
+      "label": "Screen",
+      "status": "DONE",
+      "overall": 100.0,
+      "cf_score": 63.8,
+      "regression": 0,
+      "latest_experiment": "exp_007",
+      "target_reached": true
+    },
+    {
+      "module": "chrome",
+      "label": "Chrome",
+      "status": "DONE",
+      "overall": 100.0,
+      "cf_score": 74.3,
+      "regression": 0,
+      "latest_experiment": "exp_008",
+      "target_reached": true
+    },
+    {
+      "module": "permissions",
+      "label": "Permissions",
+      "status": "TODO",
+      "overall": null,
+      "cf_score": null,
+      "regression": null,
+      "latest_experiment": null,
+      "target_reached": false
+    },
+    {
+      "module": "fonts",
+      "label": "Fonts",
+      "status": "TODO",
+      "overall": null,
+      "cf_score": null,
+      "regression": null,
+      "latest_experiment": null,
+      "target_reached": false
+    },
+    {
+      "module": "speech",
+      "label": "Speech",
+      "status": "TODO",
+      "overall": null,
+      "cf_score": null,
+      "regression": null,
+      "latest_experiment": null,
+      "target_reached": false
+    },
+    {
+      "module": "performance",
+      "label": "Performance",
+      "status": "TODO",
+      "overall": null,
+      "cf_score": null,
+      "regression": null,
+      "latest_experiment": null,
+      "target_reached": false
+    },
+    {
+      "module": "webgl",
+      "label": "WebGL",
+      "status": "TODO",
+      "overall": null,
+      "cf_score": null,
+      "regression": null,
+      "latest_experiment": null,
+      "target_reached": false
+    }
+  ],
+  "experiment_history": [
+    {
+      "experiment_id": "exp_001",
+      "timestamp": "2026-08-02T22:50:56.678645+07:00",
+      "module": "navigator",
+      "module_label": "Navigator",
+      "modules": [
+        "navigator"
+      ],
+      "experiment": "navigator-module-smoke",
+      "label": "navigator-module-smoke",
+      "overall": 51.6,
+      "module_score": 72.7,
+      "cf_score": 54.8,
+      "total_diff": 180,
+      "improved": 78,
+      "regressed": 0,
+      "status": "completed",
+      "duration_seconds": 13.233,
+      "duration": "13.2s",
+      "final_mode": "navigator",
+      "source": "D:/bot_monitoring_cemeru/reports/experiments/exp_001/summary.json",
+      "target_reached": true
+    },
+    {
+      "experiment_id": "exp_002",
+      "timestamp": "2026-08-02T23:07:16.509371+07:00",
+      "module": "navigator",
+      "module_label": "Navigator",
+      "modules": [
+        "navigator"
+      ],
+      "experiment": "Experiment 002 - Navigator Audit",
+      "label": "Experiment 002 - Navigator Audit",
+      "overall": null,
+      "module_score": null,
+      "cf_score": null,
+      "total_diff": null,
+      "improved": null,
+      "regressed": null,
+      "status": "completed",
+      "duration_seconds": null,
+      "duration": "N/A",
+      "final_mode": null,
+      "source": "D:/bot_monitoring_cemeru/reports/experiments/exp_002/navigator_audit.json",
+      "target_reached": false
+    },
+    {
+      "experiment_id": "exp_005",
+      "timestamp": "2026-08-02T23:12:01.407464+07:00",
+      "module": "navigator",
+      "module_label": "Navigator",
+      "modules": [
+        "navigator"
+      ],
+      "experiment": "Experiment 003 - Navigator Gap Analysis",
+      "label": "Experiment 003 - Navigator Gap Analysis",
+      "overall": null,
+      "module_score": null,
+      "cf_score": null,
+      "total_diff": null,
+      "improved": null,
+      "regressed": null,
+      "status": "completed",
+      "duration_seconds": null,
+      "duration": "N/A",
+      "final_mode": null,
+      "source": "D:/bot_monitoring_cemeru/reports/experiments/exp_005/navigator_gap_analysis.json",
+      "target_reached": false
+    },
+    {
+      "experiment_id": "exp_006",
+      "timestamp": "2026-08-02T23:18:39.140783+07:00",
+      "module": "window",
+      "module_label": "Navigator + Window",
+      "modules": [
+        "navigator",
+        "window"
+      ],
+      "experiment": "Window Evaluation",
+      "label": "Navigator + Window",
+      "overall": 57.0,
+      "module_score": 100.0,
+      "cf_score": 61.4,
+      "total_diff": 171,
+      "improved": 9,
+      "regressed": 0,
+      "status": "completed",
+      "duration_seconds": null,
+      "duration": "N/A",
+      "final_mode": "navigator_window",
+      "source": "D:/bot_monitoring_cemeru/reports/experiments/exp_006",
+      "target_reached": true
+    },
+    {
+      "experiment_id": "exp_007",
+      "timestamp": "2026-08-02T23:27:46.188873+07:00",
+      "module": "screen",
+      "module_label": "Navigator + Window + Screen",
+      "modules": [
+        "navigator",
+        "window",
+        "screen"
+      ],
+      "experiment": "Screen Evaluation",
+      "label": "Navigator + Window + Screen",
+      "overall": 59.8,
+      "module_score": 100.0,
+      "cf_score": 63.8,
+      "total_diff": 168,
+      "improved": 4,
+      "regressed": 0,
+      "status": "completed",
+      "duration_seconds": null,
+      "duration": "N/A",
+      "final_mode": "navigator_window_screen",
+      "source": "D:/bot_monitoring_cemeru/reports/experiments/exp_007",
+      "target_reached": true
+    },
+    {
+      "experiment_id": "exp_008",
+      "timestamp": "2026-08-02T23:42:21.260919+07:00",
+      "module": "chrome",
+      "module_label": "Navigator + Window + Screen + Chrome",
+      "modules": [
+        "navigator",
+        "window",
+        "screen",
+        "chrome"
+      ],
+      "experiment": "Experiment 008 - Chrome Runtime Evaluation",
+      "label": "Navigator + Window + Screen + Chrome",
+      "overall": 65.8,
+      "module_score": 100.0,
+      "cf_score": 74.3,
+      "total_diff": 152,
+      "improved": 16,
+      "regressed": 0,
+      "status": "completed",
+      "duration_seconds": null,
+      "duration": "N/A",
+      "final_mode": "navigator_window_screen_chrome",
+      "source": "D:/bot_monitoring_cemeru/reports/experiments/exp_008",
+      "target_reached": true
+    }
+  ],
+  "trend": {
+    "points": [
+      {
+        "experiment_id": "baseline",
+        "module": "baseline",
+        "overall": 43.5,
+        "cf_score": 44.0
+      },
+      {
+        "experiment_id": "exp_001",
+        "module": "navigator",
+        "overall": 51.6,
+        "cf_score": 54.8
+      },
+      {
+        "experiment_id": "exp_006",
+        "module": "window",
+        "overall": 57.0,
+        "cf_score": 61.4
+      },
+      {
+        "experiment_id": "exp_007",
+        "module": "screen",
+        "overall": 59.8,
+        "cf_score": 63.8
+      },
+      {
+        "experiment_id": "exp_008",
+        "module": "chrome",
+        "overall": 65.8,
+        "cf_score": 74.3
+      }
+    ],
+    "overall_progression": [
+      43.5,
+      51.6,
+      57.0,
+      59.8,
+      65.8
+    ],
+    "cf_progression": [
+      44.0,
+      54.8,
+      61.4,
+      63.8,
+      74.3
+    ],
+    "deltas": [
+      {
+        "from": "baseline",
+        "to": "exp_001",
+        "delta": 8.1
+      },
+      {
+        "from": "exp_001",
+        "to": "exp_006",
+        "delta": 5.4
+      },
+      {
+        "from": "exp_006",
+        "to": "exp_007",
+        "delta": 2.8
+      },
+      {
+        "from": "exp_007",
+        "to": "exp_008",
+        "delta": 6.0
+      }
+    ],
+    "average_improvement": 5.58,
+    "largest_improvement": {
+      "from": "baseline",
+      "to": "exp_001",
+      "delta": 8.1
+    },
+    "largest_regression": null,
+    "current_best_score": 65.8,
+    "current_best_cf_score": 74.3,
+    "lowest_total_diff": 152
+  },
+  "statistics": {
+    "experiment_count": 6,
+    "scored_experiment_count": 4,
+    "audit_or_unscored_count": 2,
+    "module_count": 9,
+    "modules_completed": 4,
+    "modules_remaining": 5,
+    "completion_pct": 44.4,
+    "average_improvement": 5.58,
+    "largest_improvement": 8.1,
+    "largest_regression": 0.0,
+    "current_best_score": 65.8,
+    "current_best_cf_score": 74.3,
+    "lowest_total_diff": 152
+  }
+}

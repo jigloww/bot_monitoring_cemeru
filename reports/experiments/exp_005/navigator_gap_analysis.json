@@ -1,0 +1,2326 @@
+{
+  "experiment": "Experiment 003 - Navigator Gap Analysis",
+  "generated_at": "2026-08-02T23:12:01.407464+07:00",
+  "inputs": {
+    "reference": "reports\\fingerprint\\fingerprint_real.json",
+    "plain_context": "reports\\experiments\\exp_001\\plain\\fingerprint.json",
+    "navigator_module": "reports\\experiments\\exp_001\\navigator\\fingerprint.json",
+    "metadata": {
+      "reference": {
+        "tool": "fingerprint_dump.py (CDP / Real Chrome)",
+        "collected_at": "2026-07-14T13:24:50.340838",
+        "cdp_url": "http://127.0.0.1:9222",
+        "url": "https://bromotenggersemeru.id/",
+        "channel": "chrome (real, via CDP)",
+        "headless": false
+      },
+      "plain_context": {
+        "experiment": "Experiment 001 - Navigator Evaluation",
+        "mode": "plain",
+        "collected_at": "2026-08-02T22:59:41.445609+07:00",
+        "url": "about:blank",
+        "channel": "chromium (bundled)",
+        "headless": true,
+        "wait_ms": 5000,
+        "generated_patches_applied": false,
+        "navigator_module_applied": false,
+        "browser_version": "149.0.7827.55"
+      },
+      "navigator_module": {
+        "experiment": "Experiment 001 - Navigator Evaluation",
+        "mode": "navigator",
+        "collected_at": "2026-08-02T22:59:55.000703+07:00",
+        "url": "about:blank",
+        "channel": "chromium (bundled)",
+        "headless": true,
+        "wait_ms": 5000,
+        "generated_patches_applied": true,
+        "navigator_module_applied": true,
+        "browser_version": "149.0.7827.55"
+      }
+    }
+  },
+  "summary": {
+    "navigator_property_count": 110,
+    "equal_count": 93,
+    "remaining_difference_count": 11,
+    "regression_count": 1,
+    "unexpected_difference_count": 5,
+    "navigator_success_pct": 84.55,
+    "remaining_critical": 9,
+    "remaining_high": 0,
+    "remaining_medium": 1,
+    "remaining_low": 7
+  },
+  "top_10_easiest_fixes": [
+    {
+      "property": "navigator.appVersion",
+      "reference_value": "5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "navigator_value": "5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36",
+      "plain_value": "5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36",
+      "status": "Unexpected Difference",
+      "severity": "Low",
+      "reason": "The module changed or exposed a difference outside its declared Navigator target surface.",
+      "possible_cause": "Cross-property inconsistency",
+      "recommended_fix": "Align UA, platform, vendor, and UA-CH as one browser profile.",
+      "confidence": "Medium"
+    },
+    {
+      "property": "navigator.connection",
+      "reference_value": {
+        "effectiveType": "4g",
+        "downlink": 10,
+        "rtt": 50,
+        "saveData": false,
+        "type": null
+      },
+      "navigator_value": {
+        "effectiveType": "4g",
+        "downlink": 9.4,
+        "rtt": 0,
+        "saveData": false,
+        "type": null
+      },
+      "plain_value": {
+        "effectiveType": "4g",
+        "downlink": 10,
+        "rtt": 0,
+        "saveData": false,
+        "type": null
+      },
+      "status": "Unexpected Difference",
+      "severity": "Low",
+      "reason": "The module changed or exposed a difference outside its declared Navigator target surface.",
+      "possible_cause": "Dynamic value",
+      "recommended_fix": "Do not hardcode network telemetry; collect or model it consistently for the environment.",
+      "confidence": "Medium"
+    },
+    {
+      "property": "navigator.connection.downlink",
+      "reference_value": 10,
+      "navigator_value": 9.4,
+      "plain_value": 10,
+      "status": "Regression",
+      "severity": "Low",
+      "reason": "Plain matched the reference, but the Navigator module changed this property away from it.",
+      "possible_cause": "Dynamic value",
+      "recommended_fix": "Do not hardcode network telemetry; collect or model it consistently for the environment.",
+      "confidence": "Medium"
+    },
+    {
+      "property": "navigator.connection.rtt",
+      "reference_value": 50,
+      "navigator_value": 0,
+      "plain_value": 0,
+      "status": "Unexpected Difference",
+      "severity": "Low",
+      "reason": "The module changed or exposed a difference outside its declared Navigator target surface.",
+      "possible_cause": "Dynamic value",
+      "recommended_fix": "Do not hardcode network telemetry; collect or model it consistently for the environment.",
+      "confidence": "Medium"
+    },
+    {
+      "property": "navigator.language",
+      "reference_value": "en-US",
+      "navigator_value": "en-GB",
+      "plain_value": "en-GB",
+      "status": "Remaining Difference",
+      "severity": "Low",
+      "reason": "Navigator value remains different from the reference after the module was applied.",
+      "possible_cause": "Cross-property inconsistency",
+      "recommended_fix": "Derive this value from the same locale, OS, and browser profile.",
+      "confidence": "Medium"
+    },
+    {
+      "property": "navigator.prototype_keys",
+      "reference_value": [
+        "vendorSub",
+        "productSub",
+        "vendor",
+        "maxTouchPoints",
+        "scheduling",
+        "userActivation",
+        "geolocation",
+        "doNotTrack",
+        "webkitTemporaryStorage",
+        "webkitPersistentStorage",
+        "windowControlsOverlay",
+        "hardwareConcurrency",
+        "cookieEnabled",
+        "appCodeName",
+        "appName",
+        "appVersion",
+        "platform",
+        "product",
+        "userAgent",
+        "language",
+        "languages",
+        "onLine",
+        "webdriver",
+        "plugins",
+        "mimeTypes",
+        "pdfViewerEnabled",
+        "connection",
+        "getGamepads",
+        "javaEnabled",
+        "sendBeacon",
+        "vibrate",
+        "constructor",
+        "deprecatedRunAdAuctionEnforcesKAnonymity",
+        "protectedAudience",
+        "bluetooth",
+        "clipboard",
+        "credentials",
+        "keyboard",
+        "managed",
+        "mediaDevices",
+        "serviceWorker",
+        "virtualKeyboard",
+        "wakeLock",
+        "deviceMemory",
+        "userAgentData",
+        "locks",
+        "storage",
+        "gpu",
+        "login",
+        "ink",
+        "mediaCapabilities",
+        "permissions",
+        "devicePosture",
+        "hid",
+        "mediaSession",
+        "presentation",
+        "serial",
+        "usb",
+        "xr",
+        "storageBuckets",
+        "adAuctionComponents",
+        "runAdAuction",
+        "canLoadAdAuctionFencedFrame",
+        "canShare",
+        "share",
+        "clearAppBadge",
+        "getBattery",
+        "getUserMedia",
+        "requestMIDIAccess",
+        "requestMediaKeySystemAccess",
+        "setAppBadge",
+        "webkitGetUserMedia",
+        "clearOriginJoinedAdInterestGroups",
+        "createAuctionNonce",
+        "joinAdInterestGroup",
+        "leaveAdInterestGroup",
+        "updateAdInterestGroups",
+        "deprecatedReplaceInURN",
+        "deprecatedURNToURL",
+        "getInstalledRelatedApps",
+        "getInterestGroupAdAuctionData",
+        "registerProtocolHandler",
+        "unregisterProtocolHandler"
+      ],
+      "navigator_value": [
+        "vendorSub",
+        "productSub",
+        "vendor",
+        "maxTouchPoints",
+        "scheduling",
+        "userActivation",
+        "geolocation",
+        "doNotTrack",
+        "webkitTemporaryStorage",
+        "webkitPersistentStorage",
+        "windowControlsOverlay",
+        "hardwareConcurrency",
+        "cookieEnabled",
+        "appCodeName",
+        "appName",
+        "appVersion",
+        "platform",
+        "product",
+        "userAgent",
+        "language",
+        "languages",
+        "onLine",
+        "webdriver",
+        "plugins",
+        "mimeTypes",
+        "pdfViewerEnabled",
+        "connection",
+        "getGamepads",
+        "javaEnabled",
+        "sendBeacon",
+        "vibrate",
+        "constructor",
+        "ink",
+        "mediaCapabilities",
+        "permissions",
+        "mediaSession",
+        "deviceMemory",
+        "userAgentData"
+      ],
+      "plain_value": [
+        "vendorSub",
+        "productSub",
+        "vendor",
+        "maxTouchPoints",
+        "scheduling",
+        "userActivation",
+        "geolocation",
+        "doNotTrack",
+        "webkitTemporaryStorage",
+        "webkitPersistentStorage",
+        "windowControlsOverlay",
+        "hardwareConcurrency",
+        "cookieEnabled",
+        "appCodeName",
+        "appName",
+        "appVersion",
+        "platform",
+        "product",
+        "userAgent",
+        "language",
+        "languages",
+        "onLine",
+        "webdriver",
+        "plugins",
+        "mimeTypes",
+        "pdfViewerEnabled",
+        "connection",
+        "getGamepads",
+        "javaEnabled",
+        "sendBeacon",
+        "vibrate",
+        "constructor",
+        "ink",
+        "mediaCapabilities",
+        "permissions",
+        "mediaSession"
+      ],
+      "status": "Unexpected Difference",
+      "severity": "Low",
+      "reason": "The module changed or exposed a difference outside its declared Navigator target surface.",
+      "possible_cause": "Wrong prototype",
+      "recommended_fix": "Compare the Navigator prototype chain and enumerable own-key surface.",
+      "confidence": "High"
+    },
+    {
+      "property": "navigator.userAgent",
+      "reference_value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "navigator_value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36",
+      "plain_value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36",
+      "status": "Unexpected Difference",
+      "severity": "Low",
+      "reason": "The module changed or exposed a difference outside its declared Navigator target surface.",
+      "possible_cause": "Cross-property inconsistency",
+      "recommended_fix": "Align UA, platform, vendor, and UA-CH as one browser profile.",
+      "confidence": "Medium"
+    },
+    {
+      "property": "navigator.languages",
+      "reference_value": [
+        "en-US",
+        "en",
+        "id"
+      ],
+      "navigator_value": [
+        "en-GB"
+      ],
+      "plain_value": [
+        "en-GB"
+      ],
+      "status": "Remaining Difference",
+      "severity": "Medium",
+      "reason": "Navigator value remains different from the reference after the module was applied.",
+      "possible_cause": "Cross-property inconsistency",
+      "recommended_fix": "Derive this value from the same locale, OS, and browser profile.",
+      "confidence": "Medium"
+    },
+    {
+      "property": "navigator.userAgentData",
+      "reference_value": {
+        "brands": [
+          {
+            "brand": "Not;A=Brand",
+            "version": "8"
+          },
+          {
+            "brand": "Chromium",
+            "version": "150"
+          },
+          {
+            "brand": "Google Chrome",
+            "version": "150"
+          }
+        ],
+        "mobile": false,
+        "platform": "Windows",
+        "high_entropy": {
+          "architecture": "x86",
+          "bitness": "64",
+          "brands": [
+            {
+              "brand": "Not;A=Brand",
+              "version": "8"
+            },
+            {
+              "brand": "Chromium",
+              "version": "150"
+            },
+            {
+              "brand": "Google Chrome",
+              "version": "150"
+            }
+          ],
+          "fullVersionList": [
+            {
+              "brand": "Not;A=Brand",
+              "version": "8.0.0.0"
+            },
+            {
+              "brand": "Chromium",
+              "version": "150.0.7871.115"
+            },
+            {
+              "brand": "Google Chrome",
+              "version": "150.0.7871.115"
+            }
+          ],
+          "mobile": false,
+          "model": "",
+          "platform": "Windows",
+          "platformVersion": "19.0.0",
+          "uaFullVersion": "150.0.7871.115"
+        }
+      },
+      "navigator_value": {
+        "brands": [
+          {
+            "brand": "Not;A=Brand",
+            "version": "8"
+          },
+          {
+            "brand": "Chromium",
+            "version": "149"
+          },
+          {
+            "brand": "Google Chrome",
+            "version": "149"
+          }
+        ],
+        "mobile": false,
+        "platform": "Windows",
+        "high_entropy": {
+          "brands": [
+            {
+              "brand": "Not;A=Brand",
+              "version": "8"
+            },
+            {
+              "brand": "Chromium",
+              "version": "149"
+            },
+            {
+              "brand": "Google Chrome",
+              "version": "149"
+            }
+          ],
+          "mobile": false,
+          "platform": "Windows",
+          "architecture": "x86",
+          "bitness": "64",
+          "fullVersionList": [
+            {
+              "brand": "Not;A=Brand",
+              "version": "8.0.0.0"
+            },
+            {
+              "brand": "Chromium",
+              "version": "149.0.0.0"
+            },
+            {
+              "brand": "Google Chrome",
+              "version": "149.0.0.0"
+            }
+          ],
+          "model": "",
+          "platformVersion": "",
+          "uaFullVersion": "149.0.0.0"
+        }
+      },
+      "plain_value": null,
+      "status": "Remaining Difference",
+      "severity": "Critical",
+      "reason": "Navigator value remains different from the reference after the module was applied.",
+      "possible_cause": "Cross-property inconsistency",
+      "recommended_fix": "Keep UA-CH brands, platform, mobile, and high-entropy values coherent.",
+      "confidence": "Medium"
+    },
+    {
+      "property": "navigator.userAgentData.brands[1].version",
+      "reference_value": "150",
+      "navigator_value": "149",
+      "plain_value": "<missing>",
+      "status": "Remaining Difference",
+      "severity": "Critical",
+      "reason": "Navigator supplied a value that was absent in Plain, but it still does not match the reference.",
+      "possible_cause": "Cross-property inconsistency",
+      "recommended_fix": "Keep UA-CH brands, platform, mobile, and high-entropy values coherent.",
+      "confidence": "Medium"
+    }
+  ],
+  "top_10_highest_impact_fixes": [
+    {
+      "property": "navigator.userAgentData",
+      "reference_value": {
+        "brands": [
+          {
+            "brand": "Not;A=Brand",
+            "version": "8"
+          },
+          {
+            "brand": "Chromium",
+            "version": "150"
+          },
+          {
+            "brand": "Google Chrome",
+            "version": "150"
+          }
+        ],
+        "mobile": false,
+        "platform": "Windows",
+        "high_entropy": {
+          "architecture": "x86",
+          "bitness": "64",
+          "brands": [
+            {
+              "brand": "Not;A=Brand",
+              "version": "8"
+            },
+            {
+              "brand": "Chromium",
+              "version": "150"
+            },
+            {
+              "brand": "Google Chrome",
+              "version": "150"
+            }
+          ],
+          "fullVersionList": [
+            {
+              "brand": "Not;A=Brand",
+              "version": "8.0.0.0"
+            },
+            {
+              "brand": "Chromium",
+              "version": "150.0.7871.115"
+            },
+            {
+              "brand": "Google Chrome",
+              "version": "150.0.7871.115"
+            }
+          ],
+          "mobile": false,
+          "model": "",
+          "platform": "Windows",
+          "platformVersion": "19.0.0",
+          "uaFullVersion": "150.0.7871.115"
+        }
+      },
+      "navigator_value": {
+        "brands": [
+          {
+            "brand": "Not;A=Brand",
+            "version": "8"
+          },
+          {
+            "brand": "Chromium",
+            "version": "149"
+          },
+          {
+            "brand": "Google Chrome",
+            "version": "149"
+          }
+        ],
+        "mobile": false,
+        "platform": "Windows",
+        "high_entropy": {
+          "brands": [
+            {
+              "brand": "Not;A=Brand",
+              "version": "8"
+            },
+            {
+              "brand": "Chromium",
+              "version": "149"
+            },
+            {
+              "brand": "Google Chrome",
+              "version": "149"
+            }
+          ],
+          "mobile": false,
+          "platform": "Windows",
+          "architecture": "x86",
+          "bitness": "64",
+          "fullVersionList": [
+            {
+              "brand": "Not;A=Brand",
+              "version": "8.0.0.0"
+            },
+            {
+              "brand": "Chromium",
+              "version": "149.0.0.0"
+            },
+            {
+              "brand": "Google Chrome",
+              "version": "149.0.0.0"
+            }
+          ],
+          "model": "",
+          "platformVersion": "",
+          "uaFullVersion": "149.0.0.0"
+        }
+      },
+      "plain_value": null,
+      "status": "Remaining Difference",
+      "severity": "Critical",
+      "reason": "Navigator value remains different from the reference after the module was applied.",
+      "possible_cause": "Cross-property inconsistency",
+      "recommended_fix": "Keep UA-CH brands, platform, mobile, and high-entropy values coherent.",
+      "confidence": "Medium"
+    },
+    {
+      "property": "navigator.userAgentData.brands[1].version",
+      "reference_value": "150",
+      "navigator_value": "149",
+      "plain_value": "<missing>",
+      "status": "Remaining Difference",
+      "severity": "Critical",
+      "reason": "Navigator supplied a value that was absent in Plain, but it still does not match the reference.",
+      "possible_cause": "Cross-property inconsistency",
+      "recommended_fix": "Keep UA-CH brands, platform, mobile, and high-entropy values coherent.",
+      "confidence": "Medium"
+    },
+    {
+      "property": "navigator.userAgentData.brands[2].version",
+      "reference_value": "150",
+      "navigator_value": "149",
+      "plain_value": "<missing>",
+      "status": "Remaining Difference",
+      "severity": "Critical",
+      "reason": "Navigator supplied a value that was absent in Plain, but it still does not match the reference.",
+      "possible_cause": "Cross-property inconsistency",
+      "recommended_fix": "Keep UA-CH brands, platform, mobile, and high-entropy values coherent.",
+      "confidence": "Medium"
+    },
+    {
+      "property": "navigator.userAgentData.high_entropy.brands[1].version",
+      "reference_value": "150",
+      "navigator_value": "149",
+      "plain_value": "<missing>",
+      "status": "Remaining Difference",
+      "severity": "Critical",
+      "reason": "Navigator supplied a value that was absent in Plain, but it still does not match the reference.",
+      "possible_cause": "Cross-property inconsistency",
+      "recommended_fix": "Keep UA-CH brands, platform, mobile, and high-entropy values coherent.",
+      "confidence": "Medium"
+    },
+    {
+      "property": "navigator.userAgentData.high_entropy.brands[2].version",
+      "reference_value": "150",
+      "navigator_value": "149",
+      "plain_value": "<missing>",
+      "status": "Remaining Difference",
+      "severity": "Critical",
+      "reason": "Navigator supplied a value that was absent in Plain, but it still does not match the reference.",
+      "possible_cause": "Cross-property inconsistency",
+      "recommended_fix": "Keep UA-CH brands, platform, mobile, and high-entropy values coherent.",
+      "confidence": "Medium"
+    },
+    {
+      "property": "navigator.userAgentData.high_entropy.fullVersionList[1].version",
+      "reference_value": "150.0.7871.115",
+      "navigator_value": "149.0.0.0",
+      "plain_value": "<missing>",
+      "status": "Remaining Difference",
+      "severity": "Critical",
+      "reason": "Navigator supplied a value that was absent in Plain, but it still does not match the reference.",
+      "possible_cause": "Cross-property inconsistency",
+      "recommended_fix": "Keep UA-CH brands, platform, mobile, and high-entropy values coherent.",
+      "confidence": "Medium"
+    },
+    {
+      "property": "navigator.userAgentData.high_entropy.fullVersionList[2].version",
+      "reference_value": "150.0.7871.115",
+      "navigator_value": "149.0.0.0",
+      "plain_value": "<missing>",
+      "status": "Remaining Difference",
+      "severity": "Critical",
+      "reason": "Navigator supplied a value that was absent in Plain, but it still does not match the reference.",
+      "possible_cause": "Cross-property inconsistency",
+      "recommended_fix": "Keep UA-CH brands, platform, mobile, and high-entropy values coherent.",
+      "confidence": "Medium"
+    },
+    {
+      "property": "navigator.userAgentData.high_entropy.platformVersion",
+      "reference_value": "19.0.0",
+      "navigator_value": "",
+      "plain_value": "<missing>",
+      "status": "Remaining Difference",
+      "severity": "Critical",
+      "reason": "Navigator supplied a value that was absent in Plain, but it still does not match the reference.",
+      "possible_cause": "Cross-property inconsistency",
+      "recommended_fix": "Keep UA-CH brands, platform, mobile, and high-entropy values coherent.",
+      "confidence": "Medium"
+    },
+    {
+      "property": "navigator.userAgentData.high_entropy.uaFullVersion",
+      "reference_value": "150.0.7871.115",
+      "navigator_value": "149.0.0.0",
+      "plain_value": "<missing>",
+      "status": "Remaining Difference",
+      "severity": "Critical",
+      "reason": "Navigator supplied a value that was absent in Plain, but it still does not match the reference.",
+      "possible_cause": "Cross-property inconsistency",
+      "recommended_fix": "Keep UA-CH brands, platform, mobile, and high-entropy values coherent.",
+      "confidence": "Medium"
+    },
+    {
+      "property": "navigator.languages",
+      "reference_value": [
+        "en-US",
+        "en",
+        "id"
+      ],
+      "navigator_value": [
+        "en-GB"
+      ],
+      "plain_value": [
+        "en-GB"
+      ],
+      "status": "Remaining Difference",
+      "severity": "Medium",
+      "reason": "Navigator value remains different from the reference after the module was applied.",
+      "possible_cause": "Cross-property inconsistency",
+      "recommended_fix": "Derive this value from the same locale, OS, and browser profile.",
+      "confidence": "Medium"
+    }
+  ],
+  "properties": [
+    {
+      "property": "navigator.appCodeName",
+      "reference_value": "Mozilla",
+      "navigator_value": "Mozilla",
+      "plain_value": "Mozilla",
+      "status": "Equal",
+      "severity": "Low",
+      "reason": "Navigator value matches the reference.",
+      "possible_cause": "Unknown",
+      "recommended_fix": "No gap remains; no root-cause investigation is required.",
+      "confidence": "High"
+    },
+    {
+      "property": "navigator.appName",
+      "reference_value": "Netscape",
+      "navigator_value": "Netscape",
+      "plain_value": "Netscape",
+      "status": "Equal",
+      "severity": "Low",
+      "reason": "Navigator value matches the reference.",
+      "possible_cause": "Unknown",
+      "recommended_fix": "No gap remains; no root-cause investigation is required.",
+      "confidence": "High"
+    },
+    {
+      "property": "navigator.appVersion",
+      "reference_value": "5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "navigator_value": "5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36",
+      "plain_value": "5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36",
+      "status": "Unexpected Difference",
+      "severity": "Low",
+      "reason": "The module changed or exposed a difference outside its declared Navigator target surface.",
+      "possible_cause": "Cross-property inconsistency",
+      "recommended_fix": "Align UA, platform, vendor, and UA-CH as one browser profile.",
+      "confidence": "Medium"
+    },
+    {
+      "property": "navigator.connection",
+      "reference_value": {
+        "effectiveType": "4g",
+        "downlink": 10,
+        "rtt": 50,
+        "saveData": false,
+        "type": null
+      },
+      "navigator_value": {
+        "effectiveType": "4g",
+        "downlink": 9.4,
+        "rtt": 0,
+        "saveData": false,
+        "type": null
+      },
+      "plain_value": {
+        "effectiveType": "4g",
+        "downlink": 10,
+        "rtt": 0,
+        "saveData": false,
+        "type": null
+      },
+      "status": "Unexpected Difference",
+      "severity": "Low",
+      "reason": "The module changed or exposed a difference outside its declared Navigator target surface.",
+      "possible_cause": "Dynamic value",
+      "recommended_fix": "Do not hardcode network telemetry; collect or model it consistently for the environment.",
+      "confidence": "Medium"
+    },
+    {
+      "property": "navigator.connection.downlink",
+      "reference_value": 10,
+      "navigator_value": 9.4,
+      "plain_value": 10,
+      "status": "Regression",
+      "severity": "Low",
+      "reason": "Plain matched the reference, but the Navigator module changed this property away from it.",
+      "possible_cause": "Dynamic value",
+      "recommended_fix": "Do not hardcode network telemetry; collect or model it consistently for the environment.",
+      "confidence": "Medium"
+    },
+    {
+      "property": "navigator.connection.effectiveType",
+      "reference_value": "4g",
+      "navigator_value": "4g",
+      "plain_value": "4g",
+      "status": "Equal",
+      "severity": "Low",
+      "reason": "Navigator value matches the reference.",
+      "possible_cause": "Unknown",
+      "recommended_fix": "No gap remains; no root-cause investigation is required.",
+      "confidence": "High"
+    },
+    {
+      "property": "navigator.connection.rtt",
+      "reference_value": 50,
+      "navigator_value": 0,
+      "plain_value": 0,
+      "status": "Unexpected Difference",
+      "severity": "Low",
+      "reason": "The module changed or exposed a difference outside its declared Navigator target surface.",
+      "possible_cause": "Dynamic value",
+      "recommended_fix": "Do not hardcode network telemetry; collect or model it consistently for the environment.",
+      "confidence": "Medium"
+    },
+    {
+      "property": "navigator.connection.saveData",
+      "reference_value": false,
+      "navigator_value": false,
+      "plain_value": false,
+      "status": "Equal",
+      "severity": "Low",
+      "reason": "Navigator value matches the reference.",
+      "possible_cause": "Unknown",
+      "recommended_fix": "No gap remains; no root-cause investigation is required.",
+      "confidence": "High"
+    },
+    {
+      "property": "navigator.connection.type",
+      "reference_value": null,
+      "navigator_value": null,
+      "plain_value": null,
+      "status": "Equal",
+      "severity": "Low",
+      "reason": "Navigator value matches the reference.",
+      "possible_cause": "Unknown",
+      "recommended_fix": "No gap remains; no root-cause investigation is required.",
+      "confidence": "High"
+    },
+    {
+      "property": "navigator.cookieEnabled",
+      "reference_value": true,
+      "navigator_value": true,
+      "plain_value": true,
+      "status": "Equal",
+      "severity": "Low",
+      "reason": "Navigator value matches the reference.",
+      "possible_cause": "Unknown",
+      "recommended_fix": "No gap remains; no root-cause investigation is required.",
+      "confidence": "High"
+    },
+    {
+      "property": "navigator.deviceMemory",
+      "reference_value": 8,
+      "navigator_value": 8,
+      "plain_value": null,
+      "status": "Equal",
+      "severity": "Low",
+      "reason": "Navigator value matches the reference.",
+      "possible_cause": "Unknown",
+      "recommended_fix": "No gap remains; no root-cause investigation is required.",
+      "confidence": "High"
+    },
+    {
+      "property": "navigator.doNotTrack",
+      "reference_value": null,
+      "navigator_value": null,
+      "plain_value": null,
+      "status": "Equal",
+      "severity": "Low",
+      "reason": "Navigator value matches the reference.",
+      "possible_cause": "Unknown",
+      "recommended_fix": "No gap remains; no root-cause investigation is required.",
+      "confidence": "High"
+    },
+    {
+      "property": "navigator.hardwareConcurrency",
+      "reference_value": 12,
+      "navigator_value": 12,
+      "plain_value": 12,
+      "status": "Equal",
+      "severity": "Low",
+      "reason": "Navigator value matches the reference.",
+      "possible_cause": "Unknown",
+      "recommended_fix": "No gap remains; no root-cause investigation is required.",
+      "confidence": "High"
+    },
+    {
+      "property": "navigator.javaEnabled",
+      "reference_value": false,
+      "navigator_value": false,
+      "plain_value": false,
+      "status": "Equal",
+      "severity": "Low",
+      "reason": "Navigator value matches the reference.",
+      "possible_cause": "Unknown",
+      "recommended_fix": "No gap remains; no root-cause investigation is required.",
+      "confidence": "High"
+    },
+    {
+      "property": "navigator.keys",
+      "reference_value": [],
+      "navigator_value": [],
+      "plain_value": [],
+      "status": "Equal",
+      "severity": "Low",
+      "reason": "Navigator value matches the reference.",
+      "possible_cause": "Unknown",
+      "recommended_fix": "No gap remains; no root-cause investigation is required.",
+      "confidence": "High"
+    },
+    {
+      "property": "navigator.language",
+      "reference_value": "en-US",
+      "navigator_value": "en-GB",
+      "plain_value": "en-GB",
+      "status": "Remaining Difference",
+      "severity": "Low",
+      "reason": "Navigator value remains different from the reference after the module was applied.",
+      "possible_cause": "Cross-property inconsistency",
+      "recommended_fix": "Derive this value from the same locale, OS, and browser profile.",
+      "confidence": "Medium"
+    },
+    {
+      "property": "navigator.languages",
+      "reference_value": [
+        "en-US",
+        "en",
+        "id"
+      ],
+      "navigator_value": [
+        "en-GB"
+      ],
+      "plain_value": [
+        "en-GB"
+      ],
+      "status": "Remaining Difference",
+      "severity": "Medium",
+      "reason": "Navigator value remains different from the reference after the module was applied.",
+      "possible_cause": "Cross-property inconsistency",
+      "recommended_fix": "Derive this value from the same locale, OS, and browser profile.",
+      "confidence": "Medium"
+    },
+    {
+      "property": "navigator.maxTouchPoints",
+      "reference_value": 0,
+      "navigator_value": 0,
+      "plain_value": 0,
+      "status": "Equal",
+      "severity": "Low",
+      "reason": "Navigator value matches the reference.",
+      "possible_cause": "Unknown",
+      "recommended_fix": "No gap remains; no root-cause investigation is required.",
+      "confidence": "High"
+    },
+    {
+      "property": "navigator.onLine",
+      "reference_value": true,
+      "navigator_value": true,
+      "plain_value": true,
+      "status": "Equal",
+      "severity": "Low",
+      "reason": "Navigator value matches the reference.",
+      "possible_cause": "Unknown",
+      "recommended_fix": "No gap remains; no root-cause investigation is required.",
+      "confidence": "High"
+    },
+    {
+      "property": "navigator.oscpu",
+      "reference_value": null,
+      "navigator_value": null,
+      "plain_value": null,
+      "status": "Equal",
+      "severity": "Low",
+      "reason": "Navigator value matches the reference.",
+      "possible_cause": "Unknown",
+      "recommended_fix": "No gap remains; no root-cause investigation is required.",
+      "confidence": "High"
+    },
+    {
+      "property": "navigator.pdfViewerEnabled",
+      "reference_value": true,
+      "navigator_value": true,
+      "plain_value": false,
+      "status": "Equal",
+      "severity": "Low",
+      "reason": "Navigator value matches the reference.",
+      "possible_cause": "Unknown",
+      "recommended_fix": "No gap remains; no root-cause investigation is required.",
+      "confidence": "High"
+    },
+    {
+      "property": "navigator.platform",
+      "reference_value": "Win32",
+      "navigator_value": "Win32",
+      "plain_value": "Win32",
+      "status": "Equal",
+      "severity": "Low",
+      "reason": "Navigator value matches the reference.",
+      "possible_cause": "Unknown",
+      "recommended_fix": "No gap remains; no root-cause investigation is required.",
+      "confidence": "High"
+    },
+    {
+      "property": "navigator.product",
+      "reference_value": "Gecko",
+      "navigator_value": "Gecko",
+      "plain_value": "Gecko",
+      "status": "Equal",
+      "severity": "Low",
+      "reason": "Navigator value matches the reference.",
+      "possible_cause": "Unknown",
+      "recommended_fix": "No gap remains; no root-cause investigation is required.",
+      "confidence": "High"
+    },
+    {
+      "property": "navigator.productSub",
+      "reference_value": "20030107",
+      "navigator_value": "20030107",
+      "plain_value": "20030107",
+      "status": "Equal",
+      "severity": "Low",
+      "reason": "Navigator value matches the reference.",
+      "possible_cause": "Unknown",
+      "recommended_fix": "No gap remains; no root-cause investigation is required.",
+      "confidence": "High"
+    },
+    {
+      "property": "navigator.prototype_keys",
+      "reference_value": [
+        "vendorSub",
+        "productSub",
+        "vendor",
+        "maxTouchPoints",
+        "scheduling",
+        "userActivation",
+        "geolocation",
+        "doNotTrack",
+        "webkitTemporaryStorage",
+        "webkitPersistentStorage",
+        "windowControlsOverlay",
+        "hardwareConcurrency",
+        "cookieEnabled",
+        "appCodeName",
+        "appName",
+        "appVersion",
+        "platform",
+        "product",
+        "userAgent",
+        "language",
+        "languages",
+        "onLine",
+        "webdriver",
+        "plugins",
+        "mimeTypes",
+        "pdfViewerEnabled",
+        "connection",
+        "getGamepads",
+        "javaEnabled",
+        "sendBeacon",
+        "vibrate",
+        "constructor",
+        "deprecatedRunAdAuctionEnforcesKAnonymity",
+        "protectedAudience",
+        "bluetooth",
+        "clipboard",
+        "credentials",
+        "keyboard",
+        "managed",
+        "mediaDevices",
+        "serviceWorker",
+        "virtualKeyboard",
+        "wakeLock",
+        "deviceMemory",
+        "userAgentData",
+        "locks",
+        "storage",
+        "gpu",
+        "login",
+        "ink",
+        "mediaCapabilities",
+        "permissions",
+        "devicePosture",
+        "hid",
+        "mediaSession",
+        "presentation",
+        "serial",
+        "usb",
+        "xr",
+        "storageBuckets",
+        "adAuctionComponents",
+        "runAdAuction",
+        "canLoadAdAuctionFencedFrame",
+        "canShare",
+        "share",
+        "clearAppBadge",
+        "getBattery",
+        "getUserMedia",
+        "requestMIDIAccess",
+        "requestMediaKeySystemAccess",
+        "setAppBadge",
+        "webkitGetUserMedia",
+        "clearOriginJoinedAdInterestGroups",
+        "createAuctionNonce",
+        "joinAdInterestGroup",
+        "leaveAdInterestGroup",
+        "updateAdInterestGroups",
+        "deprecatedReplaceInURN",
+        "deprecatedURNToURL",
+        "getInstalledRelatedApps",
+        "getInterestGroupAdAuctionData",
+        "registerProtocolHandler",
+        "unregisterProtocolHandler"
+      ],
+      "navigator_value": [
+        "vendorSub",
+        "productSub",
+        "vendor",
+        "maxTouchPoints",
+        "scheduling",
+        "userActivation",
+        "geolocation",
+        "doNotTrack",
+        "webkitTemporaryStorage",
+        "webkitPersistentStorage",
+        "windowControlsOverlay",
+        "hardwareConcurrency",
+        "cookieEnabled",
+        "appCodeName",
+        "appName",
+        "appVersion",
+        "platform",
+        "product",
+        "userAgent",
+        "language",
+        "languages",
+        "onLine",
+        "webdriver",
+        "plugins",
+        "mimeTypes",
+        "pdfViewerEnabled",
+        "connection",
+        "getGamepads",
+        "javaEnabled",
+        "sendBeacon",
+        "vibrate",
+        "constructor",
+        "ink",
+        "mediaCapabilities",
+        "permissions",
+        "mediaSession",
+        "deviceMemory",
+        "userAgentData"
+      ],
+      "plain_value": [
+        "vendorSub",
+        "productSub",
+        "vendor",
+        "maxTouchPoints",
+        "scheduling",
+        "userActivation",
+        "geolocation",
+        "doNotTrack",
+        "webkitTemporaryStorage",
+        "webkitPersistentStorage",
+        "windowControlsOverlay",
+        "hardwareConcurrency",
+        "cookieEnabled",
+        "appCodeName",
+        "appName",
+        "appVersion",
+        "platform",
+        "product",
+        "userAgent",
+        "language",
+        "languages",
+        "onLine",
+        "webdriver",
+        "plugins",
+        "mimeTypes",
+        "pdfViewerEnabled",
+        "connection",
+        "getGamepads",
+        "javaEnabled",
+        "sendBeacon",
+        "vibrate",
+        "constructor",
+        "ink",
+        "mediaCapabilities",
+        "permissions",
+        "mediaSession"
+      ],
+      "status": "Unexpected Difference",
+      "severity": "Low",
+      "reason": "The module changed or exposed a difference outside its declared Navigator target surface.",
+      "possible_cause": "Wrong prototype",
+      "recommended_fix": "Compare the Navigator prototype chain and enumerable own-key surface.",
+      "confidence": "High"
+    },
+    {
+      "property": "navigator.userAgent",
+      "reference_value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "navigator_value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36",
+      "plain_value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36",
+      "status": "Unexpected Difference",
+      "severity": "Low",
+      "reason": "The module changed or exposed a difference outside its declared Navigator target surface.",
+      "possible_cause": "Cross-property inconsistency",
+      "recommended_fix": "Align UA, platform, vendor, and UA-CH as one browser profile.",
+      "confidence": "Medium"
+    },
+    {
+      "property": "navigator.userAgentData",
+      "reference_value": {
+        "brands": [
+          {
+            "brand": "Not;A=Brand",
+            "version": "8"
+          },
+          {
+            "brand": "Chromium",
+            "version": "150"
+          },
+          {
+            "brand": "Google Chrome",
+            "version": "150"
+          }
+        ],
+        "mobile": false,
+        "platform": "Windows",
+        "high_entropy": {
+          "architecture": "x86",
+          "bitness": "64",
+          "brands": [
+            {
+              "brand": "Not;A=Brand",
+              "version": "8"
+            },
+            {
+              "brand": "Chromium",
+              "version": "150"
+            },
+            {
+              "brand": "Google Chrome",
+              "version": "150"
+            }
+          ],
+          "fullVersionList": [
+            {
+              "brand": "Not;A=Brand",
+              "version": "8.0.0.0"
+            },
+            {
+              "brand": "Chromium",
+              "version": "150.0.7871.115"
+            },
+            {
+              "brand": "Google Chrome",
+              "version": "150.0.7871.115"
+            }
+          ],
+          "mobile": false,
+          "model": "",
+          "platform": "Windows",
+          "platformVersion": "19.0.0",
+          "uaFullVersion": "150.0.7871.115"
+        }
+      },
+      "navigator_value": {
+        "brands": [
+          {
+            "brand": "Not;A=Brand",
+            "version": "8"
+          },
+          {
+            "brand": "Chromium",
+            "version": "149"
+          },
+          {
+            "brand": "Google Chrome",
+            "version": "149"
+          }
+        ],
+        "mobile": false,
+        "platform": "Windows",
+        "high_entropy": {
+          "brands": [
+            {
+              "brand": "Not;A=Brand",
+              "version": "8"
+            },
+            {
+              "brand": "Chromium",
+              "version": "149"
+            },
+            {
+              "brand": "Google Chrome",
+              "version": "149"
+            }
+          ],
+          "mobile": false,
+          "platform": "Windows",
+          "architecture": "x86",
+          "bitness": "64",
+          "fullVersionList": [
+            {
+              "brand": "Not;A=Brand",
+              "version": "8.0.0.0"
+            },
+            {
+              "brand": "Chromium",
+              "version": "149.0.0.0"
+            },
+            {
+              "brand": "Google Chrome",
+              "version": "149.0.0.0"
+            }
+          ],
+          "model": "",
+          "platformVersion": "",
+          "uaFullVersion": "149.0.0.0"
+        }
+      },
+      "plain_value": null,
+      "status": "Remaining Difference",
+      "severity": "Critical",
+      "reason": "Navigator value remains different from the reference after the module was applied.",
+      "possible_cause": "Cross-property inconsistency",
+      "recommended_fix": "Keep UA-CH brands, platform, mobile, and high-entropy values coherent.",
+      "confidence": "Medium"
+    },
+    {
+      "property": "navigator.userAgentData.brands[0].brand",
+      "reference_value": "Not;A=Brand",
+      "navigator_value": "Not;A=Brand",
+      "plain_value": "<missing>",
+      "status": "Equal",
+      "severity": "Low",
+      "reason": "Navigator value matches the reference.",
+      "possible_cause": "Unknown",
+      "recommended_fix": "No gap remains; no root-cause investigation is required.",
+      "confidence": "High"
+    },
+    {
+      "property": "navigator.userAgentData.brands[0].version",
+      "reference_value": "8",
+      "navigator_value": "8",
+      "plain_value": "<missing>",
+      "status": "Equal",
+      "severity": "Low",
+      "reason": "Navigator value matches the reference.",
+      "possible_cause": "Unknown",
+      "recommended_fix": "No gap remains; no root-cause investigation is required.",
+      "confidence": "High"
+    },
+    {
+      "property": "navigator.userAgentData.brands[1].brand",
+      "reference_value": "Chromium",
+      "navigator_value": "Chromium",
+      "plain_value": "<missing>",
+      "status": "Equal",
+      "severity": "Low",
+      "reason": "Navigator value matches the reference.",
+      "possible_cause": "Unknown",
+      "recommended_fix": "No gap remains; no root-cause investigation is required.",
+      "confidence": "High"
+    },
+    {
+      "property": "navigator.userAgentData.brands[1].version",
+      "reference_value": "150",
+      "navigator_value": "149",
+      "plain_value": "<missing>",
+      "status": "Remaining Difference",
+      "severity": "Critical",
+      "reason": "Navigator supplied a value that was absent in Plain, but it still does not match the reference.",
+      "possible_cause": "Cross-property inconsistency",
+      "recommended_fix": "Keep UA-CH brands, platform, mobile, and high-entropy values coherent.",
+      "confidence": "Medium"
+    },
+    {
+      "property": "navigator.userAgentData.brands[2].brand",
+      "reference_value": "Google Chrome",
+      "navigator_value": "Google Chrome",
+      "plain_value": "<missing>",
+      "status": "Equal",
+      "severity": "Low",
+      "reason": "Navigator value matches the reference.",
+      "possible_cause": "Unknown",
+      "recommended_fix": "No gap remains; no root-cause investigation is required.",
+      "confidence": "High"
+    },
+    {
+      "property": "navigator.userAgentData.brands[2].version",
+      "reference_value": "150",
+      "navigator_value": "149",
+      "plain_value": "<missing>",
+      "status": "Remaining Difference",
+      "severity": "Critical",
+      "reason": "Navigator supplied a value that was absent in Plain, but it still does not match the reference.",
+      "possible_cause": "Cross-property inconsistency",
+      "recommended_fix": "Keep UA-CH brands, platform, mobile, and high-entropy values coherent.",
+      "confidence": "Medium"
+    },
+    {
+      "property": "navigator.userAgentData.high_entropy.architecture",
+      "reference_value": "x86",
+      "navigator_value": "x86",
+      "plain_value": "<missing>",
+      "status": "Equal",
+      "severity": "Low",
+      "reason": "Navigator value matches the reference.",
+      "possible_cause": "Unknown",
+      "recommended_fix": "No gap remains; no root-cause investigation is required.",
+      "confidence": "High"
+    },
+    {
+      "property": "navigator.userAgentData.high_entropy.bitness",
+      "reference_value": "64",
+      "navigator_value": "64",
+      "plain_value": "<missing>",
+      "status": "Equal",
+      "severity": "Low",
+      "reason": "Navigator value matches the reference.",
+      "possible_cause": "Unknown",
+      "recommended_fix": "No gap remains; no root-cause investigation is required.",
+      "confidence": "High"
+    },
+    {
+      "property": "navigator.userAgentData.high_entropy.brands[0].brand",
+      "reference_value": "Not;A=Brand",
+      "navigator_value": "Not;A=Brand",
+      "plain_value": "<missing>",
+      "status": "Equal",
+      "severity": "Low",
+      "reason": "Navigator value matches the reference.",
+      "possible_cause": "Unknown",
+      "recommended_fix": "No gap remains; no root-cause investigation is required.",
+      "confidence": "High"
+    },
+    {
+      "property": "navigator.userAgentData.high_entropy.brands[0].version",
+      "reference_value": "8",
+      "navigator_value": "8",
+      "plain_value": "<missing>",
+      "status": "Equal",
+      "severity": "Low",
+      "reason": "Navigator value matches the reference.",
+      "possible_cause": "Unknown",
+      "recommended_fix": "No gap remains; no root-cause investigation is required.",
+      "confidence": "High"
+    },
+    {
+      "property": "navigator.userAgentData.high_entropy.brands[1].brand",
+      "reference_value": "Chromium",
+      "navigator_value": "Chromium",
+      "plain_value": "<missing>",
+      "status": "Equal",
+      "severity": "Low",
+      "reason": "Navigator value matches the reference.",
+      "possible_cause": "Unknown",
+      "recommended_fix": "No gap remains; no root-cause investigation is required.",
+      "confidence": "High"
+    },
+    {
+      "property": "navigator.userAgentData.high_entropy.brands[1].version",
+      "reference_value": "150",
+      "navigator_value": "149",
+      "plain_value": "<missing>",
+      "status": "Remaining Difference",
+      "severity": "Critical",
+      "reason": "Navigator supplied a value that was absent in Plain, but it still does not match the reference.",
+      "possible_cause": "Cross-property inconsistency",
+      "recommended_fix": "Keep UA-CH brands, platform, mobile, and high-entropy values coherent.",
+      "confidence": "Medium"
+    },
+    {
+      "property": "navigator.userAgentData.high_entropy.brands[2].brand",
+      "reference_value": "Google Chrome",
+      "navigator_value": "Google Chrome",
+      "plain_value": "<missing>",
+      "status": "Equal",
+      "severity": "Low",
+      "reason": "Navigator value matches the reference.",
+      "possible_cause": "Unknown",
+      "recommended_fix": "No gap remains; no root-cause investigation is required.",
+      "confidence": "High"
+    },
+    {
+      "property": "navigator.userAgentData.high_entropy.brands[2].version",
+      "reference_value": "150",
+      "navigator_value": "149",
+      "plain_value": "<missing>",
+      "status": "Remaining Difference",
+      "severity": "Critical",
+      "reason": "Navigator supplied a value that was absent in Plain, but it still does not match the reference.",
+      "possible_cause": "Cross-property inconsistency",
+      "recommended_fix": "Keep UA-CH brands, platform, mobile, and high-entropy values coherent.",
+      "confidence": "Medium"
+    },
+    {
+      "property": "navigator.userAgentData.high_entropy.fullVersionList[0].brand",
+      "reference_value": "Not;A=Brand",
+      "navigator_value": "Not;A=Brand",
+      "plain_value": "<missing>",
+      "status": "Equal",
+      "severity": "Low",
+      "reason": "Navigator value matches the reference.",
+      "possible_cause": "Unknown",
+      "recommended_fix": "No gap remains; no root-cause investigation is required.",
+      "confidence": "High"
+    },
+    {
+      "property": "navigator.userAgentData.high_entropy.fullVersionList[0].version",
+      "reference_value": "8.0.0.0",
+      "navigator_value": "8.0.0.0",
+      "plain_value": "<missing>",
+      "status": "Equal",
+      "severity": "Low",
+      "reason": "Navigator value matches the reference.",
+      "possible_cause": "Unknown",
+      "recommended_fix": "No gap remains; no root-cause investigation is required.",
+      "confidence": "High"
+    },
+    {
+      "property": "navigator.userAgentData.high_entropy.fullVersionList[1].brand",
+      "reference_value": "Chromium",
+      "navigator_value": "Chromium",
+      "plain_value": "<missing>",
+      "status": "Equal",
+      "severity": "Low",
+      "reason": "Navigator value matches the reference.",
+      "possible_cause": "Unknown",
+      "recommended_fix": "No gap remains; no root-cause investigation is required.",
+      "confidence": "High"
+    },
+    {
+      "property": "navigator.userAgentData.high_entropy.fullVersionList[1].version",
+      "reference_value": "150.0.7871.115",
+      "navigator_value": "149.0.0.0",
+      "plain_value": "<missing>",
+      "status": "Remaining Difference",
+      "severity": "Critical",
+      "reason": "Navigator supplied a value that was absent in Plain, but it still does not match the reference.",
+      "possible_cause": "Cross-property inconsistency",
+      "recommended_fix": "Keep UA-CH brands, platform, mobile, and high-entropy values coherent.",
+      "confidence": "Medium"
+    },
+    {
+      "property": "navigator.userAgentData.high_entropy.fullVersionList[2].brand",
+      "reference_value": "Google Chrome",
+      "navigator_value": "Google Chrome",
+      "plain_value": "<missing>",
+      "status": "Equal",
+      "severity": "Low",
+      "reason": "Navigator value matches the reference.",
+      "possible_cause": "Unknown",
+      "recommended_fix": "No gap remains; no root-cause investigation is required.",
+      "confidence": "High"
+    },
+    {
+      "property": "navigator.userAgentData.high_entropy.fullVersionList[2].version",
+      "reference_value": "150.0.7871.115",
+      "navigator_value": "149.0.0.0",
+      "plain_value": "<missing>",
+      "status": "Remaining Difference",
+      "severity": "Critical",
+      "reason": "Navigator supplied a value that was absent in Plain, but it still does not match the reference.",
+      "possible_cause": "Cross-property inconsistency",
+      "recommended_fix": "Keep UA-CH brands, platform, mobile, and high-entropy values coherent.",
+      "confidence": "Medium"
+    },
+    {
+      "property": "navigator.userAgentData.high_entropy.mobile",
+      "reference_value": false,
+      "navigator_value": false,
+      "plain_value": "<missing>",
+      "status": "Equal",
+      "severity": "Low",
+      "reason": "Navigator value matches the reference.",
+      "possible_cause": "Unknown",
+      "recommended_fix": "No gap remains; no root-cause investigation is required.",
+      "confidence": "High"
+    },
+    {
+      "property": "navigator.userAgentData.high_entropy.model",
+      "reference_value": "",
+      "navigator_value": "",
+      "plain_value": "<missing>",
+      "status": "Equal",
+      "severity": "Low",
+      "reason": "Navigator value matches the reference.",
+      "possible_cause": "Unknown",
+      "recommended_fix": "No gap remains; no root-cause investigation is required.",
+      "confidence": "High"
+    },
+    {
+      "property": "navigator.userAgentData.high_entropy.platform",
+      "reference_value": "Windows",
+      "navigator_value": "Windows",
+      "plain_value": "<missing>",
+      "status": "Equal",
+      "severity": "Low",
+      "reason": "Navigator value matches the reference.",
+      "possible_cause": "Unknown",
+      "recommended_fix": "No gap remains; no root-cause investigation is required.",
+      "confidence": "High"
+    },
+    {
+      "property": "navigator.userAgentData.high_entropy.platformVersion",
+      "reference_value": "19.0.0",
+      "navigator_value": "",
+      "plain_value": "<missing>",
+      "status": "Remaining Difference",
+      "severity": "Critical",
+      "reason": "Navigator supplied a value that was absent in Plain, but it still does not match the reference.",
+      "possible_cause": "Cross-property inconsistency",
+      "recommended_fix": "Keep UA-CH brands, platform, mobile, and high-entropy values coherent.",
+      "confidence": "Medium"
+    },
+    {
+      "property": "navigator.userAgentData.high_entropy.uaFullVersion",
+      "reference_value": "150.0.7871.115",
+      "navigator_value": "149.0.0.0",
+      "plain_value": "<missing>",
+      "status": "Remaining Difference",
+      "severity": "Critical",
+      "reason": "Navigator supplied a value that was absent in Plain, but it still does not match the reference.",
+      "possible_cause": "Cross-property inconsistency",
+      "recommended_fix": "Keep UA-CH brands, platform, mobile, and high-entropy values coherent.",
+      "confidence": "Medium"
+    },
+    {
+      "property": "navigator.userAgentData.mobile",
+      "reference_value": false,
+      "navigator_value": false,
+      "plain_value": "<missing>",
+      "status": "Equal",
+      "severity": "Low",
+      "reason": "Navigator value matches the reference.",
+      "possible_cause": "Unknown",
+      "recommended_fix": "No gap remains; no root-cause investigation is required.",
+      "confidence": "High"
+    },
+    {
+      "property": "navigator.userAgentData.platform",
+      "reference_value": "Windows",
+      "navigator_value": "Windows",
+      "plain_value": "<missing>",
+      "status": "Equal",
+      "severity": "Low",
+      "reason": "Navigator value matches the reference.",
+      "possible_cause": "Unknown",
+      "recommended_fix": "No gap remains; no root-cause investigation is required.",
+      "confidence": "High"
+    },
+    {
+      "property": "navigator.vendor",
+      "reference_value": "Google Inc.",
+      "navigator_value": "Google Inc.",
+      "plain_value": "Google Inc.",
+      "status": "Equal",
+      "severity": "Low",
+      "reason": "Navigator value matches the reference.",
+      "possible_cause": "Unknown",
+      "recommended_fix": "No gap remains; no root-cause investigation is required.",
+      "confidence": "High"
+    },
+    {
+      "property": "navigator.vendorSub",
+      "reference_value": "",
+      "navigator_value": "",
+      "plain_value": "",
+      "status": "Equal",
+      "severity": "Low",
+      "reason": "Navigator value matches the reference.",
+      "possible_cause": "Unknown",
+      "recommended_fix": "No gap remains; no root-cause investigation is required.",
+      "confidence": "High"
+    },
+    {
+      "property": "navigator.webdriver",
+      "reference_value": false,
+      "navigator_value": false,
+      "plain_value": true,
+      "status": "Equal",
+      "severity": "Low",
+      "reason": "Navigator value matches the reference.",
+      "possible_cause": "Unknown",
+      "recommended_fix": "No gap remains; no root-cause investigation is required.",
+      "confidence": "High"
+    },
+    {
+      "property": "plugins.mime_count",
+      "reference_value": 2,
+      "navigator_value": 2,
+      "plain_value": 0,
+      "status": "Equal",
+      "severity": "Low",
+      "reason": "Navigator value matches the reference.",
+      "possible_cause": "Unknown",
+      "recommended_fix": "No gap remains; no root-cause investigation is required.",
+      "confidence": "High"
+    },
+    {
+      "property": "plugins.mime_types[0].description",
+      "reference_value": "Portable Document Format",
+      "navigator_value": "Portable Document Format",
+      "plain_value": "<missing>",
+      "status": "Equal",
+      "severity": "Low",
+      "reason": "Navigator value matches the reference.",
+      "possible_cause": "Unknown",
+      "recommended_fix": "No gap remains; no root-cause investigation is required.",
+      "confidence": "High"
+    },
+    {
+      "property": "plugins.mime_types[0].suffixes",
+      "reference_value": "pdf",
+      "navigator_value": "pdf",
+      "plain_value": "<missing>",
+      "status": "Equal",
+      "severity": "Low",
+      "reason": "Navigator value matches the reference.",
+      "possible_cause": "Unknown",
+      "recommended_fix": "No gap remains; no root-cause investigation is required.",
+      "confidence": "High"
+    },
+    {
+      "property": "plugins.mime_types[0].type",
+      "reference_value": "application/pdf",
+      "navigator_value": "application/pdf",
+      "plain_value": "<missing>",
+      "status": "Equal",
+      "severity": "Low",
+      "reason": "Navigator value matches the reference.",
+      "possible_cause": "Unknown",
+      "recommended_fix": "No gap remains; no root-cause investigation is required.",
+      "confidence": "High"
+    },
+    {
+      "property": "plugins.mime_types[1].description",
+      "reference_value": "Portable Document Format",
+      "navigator_value": "Portable Document Format",
+      "plain_value": "<missing>",
+      "status": "Equal",
+      "severity": "Low",
+      "reason": "Navigator value matches the reference.",
+      "possible_cause": "Unknown",
+      "recommended_fix": "No gap remains; no root-cause investigation is required.",
+      "confidence": "High"
+    },
+    {
+      "property": "plugins.mime_types[1].suffixes",
+      "reference_value": "pdf",
+      "navigator_value": "pdf",
+      "plain_value": "<missing>",
+      "status": "Equal",
+      "severity": "Low",
+      "reason": "Navigator value matches the reference.",
+      "possible_cause": "Unknown",
+      "recommended_fix": "No gap remains; no root-cause investigation is required.",
+      "confidence": "High"
+    },
+    {
+      "property": "plugins.mime_types[1].type",
+      "reference_value": "text/pdf",
+      "navigator_value": "text/pdf",
+      "plain_value": "<missing>",
+      "status": "Equal",
+      "severity": "Low",
+      "reason": "Navigator value matches the reference.",
+      "possible_cause": "Unknown",
+      "recommended_fix": "No gap remains; no root-cause investigation is required.",
+      "confidence": "High"
+    },
+    {
+      "property": "plugins.plugin_count",
+      "reference_value": 5,
+      "navigator_value": 5,
+      "plain_value": 0,
+      "status": "Equal",
+      "severity": "Low",
+      "reason": "Navigator value matches the reference.",
+      "possible_cause": "Unknown",
+      "recommended_fix": "No gap remains; no root-cause investigation is required.",
+      "confidence": "High"
+    },
+    {
+      "property": "plugins.plugins[0].description",
+      "reference_value": "Portable Document Format",
+      "navigator_value": "Portable Document Format",
+      "plain_value": "<missing>",
+      "status": "Equal",
+      "severity": "Low",
+      "reason": "Navigator value matches the reference.",
+      "possible_cause": "Unknown",
+      "recommended_fix": "No gap remains; no root-cause investigation is required.",
+      "confidence": "High"
+    },
+    {
+      "property": "plugins.plugins[0].filename",
+      "reference_value": "internal-pdf-viewer",
+      "navigator_value": "internal-pdf-viewer",
+      "plain_value": "<missing>",
+      "status": "Equal",
+      "severity": "Low",
+      "reason": "Navigator value matches the reference.",
+      "possible_cause": "Unknown",
+      "recommended_fix": "No gap remains; no root-cause investigation is required.",
+      "confidence": "High"
+    },
+    {
+      "property": "plugins.plugins[0].mimes[0].description",
+      "reference_value": "Portable Document Format",
+      "navigator_value": "Portable Document Format",
+      "plain_value": "<missing>",
+      "status": "Equal",
+      "severity": "Low",
+      "reason": "Navigator value matches the reference.",
+      "possible_cause": "Unknown",
+      "recommended_fix": "No gap remains; no root-cause investigation is required.",
+      "confidence": "High"
+    },
+    {
+      "property": "plugins.plugins[0].mimes[0].suffixes",
+      "reference_value": "pdf",
+      "navigator_value": "pdf",
+      "plain_value": "<missing>",
+      "status": "Equal",
+      "severity": "Low",
+      "reason": "Navigator value matches the reference.",
+      "possible_cause": "Unknown",
+      "recommended_fix": "No gap remains; no root-cause investigation is required.",
+      "confidence": "High"
+    },
+    {
+      "property": "plugins.plugins[0].mimes[0].type",
+      "reference_value": "application/pdf",
+      "navigator_value": "application/pdf",
+      "plain_value": "<missing>",
+      "status": "Equal",
+      "severity": "Low",
+      "reason": "Navigator value matches the reference.",
+      "possible_cause": "Unknown",
+      "recommended_fix": "No gap remains; no root-cause investigation is required.",
+      "confidence": "High"
+    },
+    {
+      "property": "plugins.plugins[0].mimes[1].description",
+      "reference_value": "Portable Document Format",
+      "navigator_value": "Portable Document Format",
+      "plain_value": "<missing>",
+      "status": "Equal",
+      "severity": "Low",
+      "reason": "Navigator value matches the reference.",
+      "possible_cause": "Unknown",
+      "recommended_fix": "No gap remains; no root-cause investigation is required.",
+      "confidence": "High"
+    },
+    {
+      "property": "plugins.plugins[0].mimes[1].suffixes",
+      "reference_value": "pdf",
+      "navigator_value": "pdf",
+      "plain_value": "<missing>",
+      "status": "Equal",
+      "severity": "Low",
+      "reason": "Navigator value matches the reference.",
+      "possible_cause": "Unknown",
+      "recommended_fix": "No gap remains; no root-cause investigation is required.",
+      "confidence": "High"
+    },
+    {
+      "property": "plugins.plugins[0].mimes[1].type",
+      "reference_value": "text/pdf",
+      "navigator_value": "text/pdf",
+      "plain_value": "<missing>",
+      "status": "Equal",
+      "severity": "Low",
+      "reason": "Navigator value matches the reference.",
+      "possible_cause": "Unknown",
+      "recommended_fix": "No gap remains; no root-cause investigation is required.",
+      "confidence": "High"
+    },
+    {
+      "property": "plugins.plugins[0].name",
+      "reference_value": "PDF Viewer",
+      "navigator_value": "PDF Viewer",
+      "plain_value": "<missing>",
+      "status": "Equal",
+      "severity": "Low",
+      "reason": "Navigator value matches the reference.",
+      "possible_cause": "Unknown",
+      "recommended_fix": "No gap remains; no root-cause investigation is required.",
+      "confidence": "High"
+    },
+    {
+      "property": "plugins.plugins[1].description",
+      "reference_value": "Portable Document Format",
+      "navigator_value": "Portable Document Format",
+      "plain_value": "<missing>",
+      "status": "Equal",
+      "severity": "Low",
+      "reason": "Navigator value matches the reference.",
+      "possible_cause": "Unknown",
+      "recommended_fix": "No gap remains; no root-cause investigation is required.",
+      "confidence": "High"
+    },
+    {
+      "property": "plugins.plugins[1].filename",
+      "reference_value": "internal-pdf-viewer",
+      "navigator_value": "internal-pdf-viewer",
+      "plain_value": "<missing>",
+      "status": "Equal",
+      "severity": "Low",
+      "reason": "Navigator value matches the reference.",
+      "possible_cause": "Unknown",
+      "recommended_fix": "No gap remains; no root-cause investigation is required.",
+      "confidence": "High"
+    },
+    {
+      "property": "plugins.plugins[1].mimes[0].description",
+      "reference_value": "Portable Document Format",
+      "navigator_value": "Portable Document Format",
+      "plain_value": "<missing>",
+      "status": "Equal",
+      "severity": "Low",
+      "reason": "Navigator value matches the reference.",
+      "possible_cause": "Unknown",
+      "recommended_fix": "No gap remains; no root-cause investigation is required.",
+      "confidence": "High"
+    },
+    {
+      "property": "plugins.plugins[1].mimes[0].suffixes",
+      "reference_value": "pdf",
+      "navigator_value": "pdf",
+      "plain_value": "<missing>",
+      "status": "Equal",
+      "severity": "Low",
+      "reason": "Navigator value matches the reference.",
+      "possible_cause": "Unknown",
+      "recommended_fix": "No gap remains; no root-cause investigation is required.",
+      "confidence": "High"
+    },
+    {
+      "property": "plugins.plugins[1].mimes[0].type",
+      "reference_value": "application/pdf",
+      "navigator_value": "application/pdf",
+      "plain_value": "<missing>",
+      "status": "Equal",
+      "severity": "Low",
+      "reason": "Navigator value matches the reference.",
+      "possible_cause": "Unknown",
+      "recommended_fix": "No gap remains; no root-cause investigation is required.",
+      "confidence": "High"
+    },
+    {
+      "property": "plugins.plugins[1].mimes[1].description",
+      "reference_value": "Portable Document Format",
+      "navigator_value": "Portable Document Format",
+      "plain_value": "<missing>",
+      "status": "Equal",
+      "severity": "Low",
+      "reason": "Navigator value matches the reference.",
+      "possible_cause": "Unknown",
+      "recommended_fix": "No gap remains; no root-cause investigation is required.",
+      "confidence": "High"
+    },
+    {
+      "property": "plugins.plugins[1].mimes[1].suffixes",
+      "reference_value": "pdf",
+      "navigator_value": "pdf",
+      "plain_value": "<missing>",
+      "status": "Equal",
+      "severity": "Low",
+      "reason": "Navigator value matches the reference.",
+      "possible_cause": "Unknown",
+      "recommended_fix": "No gap remains; no root-cause investigation is required.",
+      "confidence": "High"
+    },
+    {
+      "property": "plugins.plugins[1].mimes[1].type",
+      "reference_value": "text/pdf",
+      "navigator_value": "text/pdf",
+      "plain_value": "<missing>",
+      "status": "Equal",
+      "severity": "Low",
+      "reason": "Navigator value matches the reference.",
+      "possible_cause": "Unknown",
+      "recommended_fix": "No gap remains; no root-cause investigation is required.",
+      "confidence": "High"
+    },
+    {
+      "property": "plugins.plugins[1].name",
+      "reference_value": "Chrome PDF Viewer",
+      "navigator_value": "Chrome PDF Viewer",
+      "plain_value": "<missing>",
+      "status": "Equal",
+      "severity": "Low",
+      "reason": "Navigator value matches the reference.",
+      "possible_cause": "Unknown",
+      "recommended_fix": "No gap remains; no root-cause investigation is required.",
+      "confidence": "High"
+    },
+    {
+      "property": "plugins.plugins[2].description",
+      "reference_value": "Portable Document Format",
+      "navigator_value": "Portable Document Format",
+      "plain_value": "<missing>",
+      "status": "Equal",
+      "severity": "Low",
+      "reason": "Navigator value matches the reference.",
+      "possible_cause": "Unknown",
+      "recommended_fix": "No gap remains; no root-cause investigation is required.",
+      "confidence": "High"
+    },
+    {
+      "property": "plugins.plugins[2].filename",
+      "reference_value": "internal-pdf-viewer",
+      "navigator_value": "internal-pdf-viewer",
+      "plain_value": "<missing>",
+      "status": "Equal",
+      "severity": "Low",
+      "reason": "Navigator value matches the reference.",
+      "possible_cause": "Unknown",
+      "recommended_fix": "No gap remains; no root-cause investigation is required.",
+      "confidence": "High"
+    },
+    {
+      "property": "plugins.plugins[2].mimes[0].description",
+      "reference_value": "Portable Document Format",
+      "navigator_value": "Portable Document Format",
+      "plain_value": "<missing>",
+      "status": "Equal",
+      "severity": "Low",
+      "reason": "Navigator value matches the reference.",
+      "possible_cause": "Unknown",
+      "recommended_fix": "No gap remains; no root-cause investigation is required.",
+      "confidence": "High"
+    },
+    {
+      "property": "plugins.plugins[2].mimes[0].suffixes",
+      "reference_value": "pdf",
+      "navigator_value": "pdf",
+      "plain_value": "<missing>",
+      "status": "Equal",
+      "severity": "Low",
+      "reason": "Navigator value matches the reference.",
+      "possible_cause": "Unknown",
+      "recommended_fix": "No gap remains; no root-cause investigation is required.",
+      "confidence": "High"
+    },
+    {
+      "property": "plugins.plugins[2].mimes[0].type",
+      "reference_value": "application/pdf",
+      "navigator_value": "application/pdf",
+      "plain_value": "<missing>",
+      "status": "Equal",
+      "severity": "Low",
+      "reason": "Navigator value matches the reference.",
+      "possible_cause": "Unknown",
+      "recommended_fix": "No gap remains; no root-cause investigation is required.",
+      "confidence": "High"
+    },
+    {
+      "property": "plugins.plugins[2].mimes[1].description",
+      "reference_value": "Portable Document Format",
+      "navigator_value": "Portable Document Format",
+      "plain_value": "<missing>",
+      "status": "Equal",
+      "severity": "Low",
+      "reason": "Navigator value matches the reference.",
+      "possible_cause": "Unknown",
+      "recommended_fix": "No gap remains; no root-cause investigation is required.",
+      "confidence": "High"
+    },
+    {
+      "property": "plugins.plugins[2].mimes[1].suffixes",
+      "reference_value": "pdf",
+      "navigator_value": "pdf",
+      "plain_value": "<missing>",
+      "status": "Equal",
+      "severity": "Low",
+      "reason": "Navigator value matches the reference.",
+      "possible_cause": "Unknown",
+      "recommended_fix": "No gap remains; no root-cause investigation is required.",
+      "confidence": "High"
+    },
+    {
+      "property": "plugins.plugins[2].mimes[1].type",
+      "reference_value": "text/pdf",
+      "navigator_value": "text/pdf",
+      "plain_value": "<missing>",
+      "status": "Equal",
+      "severity": "Low",
+      "reason": "Navigator value matches the reference.",
+      "possible_cause": "Unknown",
+      "recommended_fix": "No gap remains; no root-cause investigation is required.",
+      "confidence": "High"
+    },
+    {
+      "property": "plugins.plugins[2].name",
+      "reference_value": "Chromium PDF Viewer",
+      "navigator_value": "Chromium PDF Viewer",
+      "plain_value": "<missing>",
+      "status": "Equal",
+      "severity": "Low",
+      "reason": "Navigator value matches the reference.",
+      "possible_cause": "Unknown",
+      "recommended_fix": "No gap remains; no root-cause investigation is required.",
+      "confidence": "High"
+    },
+    {
+      "property": "plugins.plugins[3].description",
+      "reference_value": "Portable Document Format",
+      "navigator_value": "Portable Document Format",
+      "plain_value": "<missing>",
+      "status": "Equal",
+      "severity": "Low",
+      "reason": "Navigator value matches the reference.",
+      "possible_cause": "Unknown",
+      "recommended_fix": "No gap remains; no root-cause investigation is required.",
+      "confidence": "High"
+    },
+    {
+      "property": "plugins.plugins[3].filename",
+      "reference_value": "internal-pdf-viewer",
+      "navigator_value": "internal-pdf-viewer",
+      "plain_value": "<missing>",
+      "status": "Equal",
+      "severity": "Low",
+      "reason": "Navigator value matches the reference.",
+      "possible_cause": "Unknown",
+      "recommended_fix": "No gap remains; no root-cause investigation is required.",
+      "confidence": "High"
+    },
+    {
+      "property": "plugins.plugins[3].mimes[0].description",
+      "reference_value": "Portable Document Format",
+      "navigator_value": "Portable Document Format",
+      "plain_value": "<missing>",
+      "status": "Equal",
+      "severity": "Low",
+      "reason": "Navigator value matches the reference.",
+      "possible_cause": "Unknown",
+      "recommended_fix": "No gap remains; no root-cause investigation is required.",
+      "confidence": "High"
+    },
+    {
+      "property": "plugins.plugins[3].mimes[0].suffixes",
+      "reference_value": "pdf",
+      "navigator_value": "pdf",
+      "plain_value": "<missing>",
+      "status": "Equal",
+      "severity": "Low",
+      "reason": "Navigator value matches the reference.",
+      "possible_cause": "Unknown",
+      "recommended_fix": "No gap remains; no root-cause investigation is required.",
+      "confidence": "High"
+    },
+    {
+      "property": "plugins.plugins[3].mimes[0].type",
+      "reference_value": "application/pdf",
+      "navigator_value": "application/pdf",
+      "plain_value": "<missing>",
+      "status": "Equal",
+      "severity": "Low",
+      "reason": "Navigator value matches the reference.",
+      "possible_cause": "Unknown",
+      "recommended_fix": "No gap remains; no root-cause investigation is required.",
+      "confidence": "High"
+    },
+    {
+      "property": "plugins.plugins[3].mimes[1].description",
+      "reference_value": "Portable Document Format",
+      "navigator_value": "Portable Document Format",
+      "plain_value": "<missing>",
+      "status": "Equal",
+      "severity": "Low",
+      "reason": "Navigator value matches the reference.",
+      "possible_cause": "Unknown",
+      "recommended_fix": "No gap remains; no root-cause investigation is required.",
+      "confidence": "High"
+    },
+    {
+      "property": "plugins.plugins[3].mimes[1].suffixes",
+      "reference_value": "pdf",
+      "navigator_value": "pdf",
+      "plain_value": "<missing>",
+      "status": "Equal",
+      "severity": "Low",
+      "reason": "Navigator value matches the reference.",
+      "possible_cause": "Unknown",
+      "recommended_fix": "No gap remains; no root-cause investigation is required.",
+      "confidence": "High"
+    },
+    {
+      "property": "plugins.plugins[3].mimes[1].type",
+      "reference_value": "text/pdf",
+      "navigator_value": "text/pdf",
+      "plain_value": "<missing>",
+      "status": "Equal",
+      "severity": "Low",
+      "reason": "Navigator value matches the reference.",
+      "possible_cause": "Unknown",
+      "recommended_fix": "No gap remains; no root-cause investigation is required.",
+      "confidence": "High"
+    },
+    {
+      "property": "plugins.plugins[3].name",
+      "reference_value": "Microsoft Edge PDF Viewer",
+      "navigator_value": "Microsoft Edge PDF Viewer",
+      "plain_value": "<missing>",
+      "status": "Equal",
+      "severity": "Low",
+      "reason": "Navigator value matches the reference.",
+      "possible_cause": "Unknown",
+      "recommended_fix": "No gap remains; no root-cause investigation is required.",
+      "confidence": "High"
+    },
+    {
+      "property": "plugins.plugins[4].description",
+      "reference_value": "Portable Document Format",
+      "navigator_value": "Portable Document Format",
+      "plain_value": "<missing>",
+      "status": "Equal",
+      "severity": "Low",
+      "reason": "Navigator value matches the reference.",
+      "possible_cause": "Unknown",
+      "recommended_fix": "No gap remains; no root-cause investigation is required.",
+      "confidence": "High"
+    },
+    {
+      "property": "plugins.plugins[4].filename",
+      "reference_value": "internal-pdf-viewer",
+      "navigator_value": "internal-pdf-viewer",
+      "plain_value": "<missing>",
+      "status": "Equal",
+      "severity": "Low",
+      "reason": "Navigator value matches the reference.",
+      "possible_cause": "Unknown",
+      "recommended_fix": "No gap remains; no root-cause investigation is required.",
+      "confidence": "High"
+    },
+    {
+      "property": "plugins.plugins[4].mimes[0].description",
+      "reference_value": "Portable Document Format",
+      "navigator_value": "Portable Document Format",
+      "plain_value": "<missing>",
+      "status": "Equal",
+      "severity": "Low",
+      "reason": "Navigator value matches the reference.",
+      "possible_cause": "Unknown",
+      "recommended_fix": "No gap remains; no root-cause investigation is required.",
+      "confidence": "High"
+    },
+    {
+      "property": "plugins.plugins[4].mimes[0].suffixes",
+      "reference_value": "pdf",
+      "navigator_value": "pdf",
+      "plain_value": "<missing>",
+      "status": "Equal",
+      "severity": "Low",
+      "reason": "Navigator value matches the reference.",
+      "possible_cause": "Unknown",
+      "recommended_fix": "No gap remains; no root-cause investigation is required.",
+      "confidence": "High"
+    },
+    {
+      "property": "plugins.plugins[4].mimes[0].type",
+      "reference_value": "application/pdf",
+      "navigator_value": "application/pdf",
+      "plain_value": "<missing>",
+      "status": "Equal",
+      "severity": "Low",
+      "reason": "Navigator value matches the reference.",
+      "possible_cause": "Unknown",
+      "recommended_fix": "No gap remains; no root-cause investigation is required.",
+      "confidence": "High"
+    },
+    {
+      "property": "plugins.plugins[4].mimes[1].description",
+      "reference_value": "Portable Document Format",
+      "navigator_value": "Portable Document Format",
+      "plain_value": "<missing>",
+      "status": "Equal",
+      "severity": "Low",
+      "reason": "Navigator value matches the reference.",
+      "possible_cause": "Unknown",
+      "recommended_fix": "No gap remains; no root-cause investigation is required.",
+      "confidence": "High"
+    },
+    {
+      "property": "plugins.plugins[4].mimes[1].suffixes",
+      "reference_value": "pdf",
+      "navigator_value": "pdf",
+      "plain_value": "<missing>",
+      "status": "Equal",
+      "severity": "Low",
+      "reason": "Navigator value matches the reference.",
+      "possible_cause": "Unknown",
+      "recommended_fix": "No gap remains; no root-cause investigation is required.",
+      "confidence": "High"
+    },
+    {
+      "property": "plugins.plugins[4].mimes[1].type",
+      "reference_value": "text/pdf",
+      "navigator_value": "text/pdf",
+      "plain_value": "<missing>",
+      "status": "Equal",
+      "severity": "Low",
+      "reason": "Navigator value matches the reference.",
+      "possible_cause": "Unknown",
+      "recommended_fix": "No gap remains; no root-cause investigation is required.",
+      "confidence": "High"
+    },
+    {
+      "property": "plugins.plugins[4].name",
+      "reference_value": "WebKit built-in PDF",
+      "navigator_value": "WebKit built-in PDF",
+      "plain_value": "<missing>",
+      "status": "Equal",
+      "severity": "Low",
+      "reason": "Navigator value matches the reference.",
+      "possible_cause": "Unknown",
+      "recommended_fix": "No gap remains; no root-cause investigation is required.",
+      "confidence": "High"
+    }
+  ],
+  "experiment_id": "exp_005"
+}

@@ -1,0 +1,2622 @@
+{
+  "experiment": "Experiment 002 - Navigator Audit",
+  "generated_at": "2026-08-02T23:07:16.509371+07:00",
+  "inputs": {
+    "reference": "reports\\fingerprint\\fingerprint_real.json",
+    "plain": "reports\\fingerprint\\fingerprint_playwright.json",
+    "patched": "reports\\fingerprint\\fingerprint_playwright_patched.json",
+    "metadata": {
+      "reference": {
+        "tool": "fingerprint_dump.py (CDP / Real Chrome)",
+        "collected_at": "2026-07-14T13:24:50.340838",
+        "cdp_url": "http://127.0.0.1:9222",
+        "url": "https://bromotenggersemeru.id/",
+        "channel": "chrome (real, via CDP)",
+        "headless": false
+      },
+      "plain": {
+        "tool": "fingerprint_dump.py",
+        "collected_at": "2026-07-14T20:15:33.697392",
+        "url": "about:blank",
+        "channel": "chrome",
+        "headless": true
+      },
+      "patched": {
+        "tool": "test_stealth.py",
+        "collected_at": "2026-07-14T15:25:39.367402",
+        "url": "https://bromotenggersemeru.id",
+        "channel": "chrome",
+        "headless": true,
+        "stealth": "stealth/generated/patches_init.js"
+      }
+    }
+  },
+  "warnings": [
+    "Patched input metadata identifies generated patches only; it does not prove that the Navigator module was applied."
+  ],
+  "summary": {
+    "navigator_key_count": 110,
+    "improved_count": 21,
+    "still_different_count": 15,
+    "regression_count": 3,
+    "missing_count": 0,
+    "equal_count": 71,
+    "initially_different_count": 36,
+    "navigator_success_rate": 83.64,
+    "repair_rate_of_initial_differences": 58.33,
+    "critical_remaining": 8
+  },
+  "groups": {
+    "Improved": [
+      "navigator.userAgentData.brands[0].brand",
+      "navigator.userAgentData.brands[0].version",
+      "navigator.userAgentData.brands[1].brand",
+      "navigator.userAgentData.brands[1].version",
+      "navigator.userAgentData.brands[2].brand",
+      "navigator.userAgentData.brands[2].version",
+      "navigator.userAgentData.high_entropy.architecture",
+      "navigator.userAgentData.high_entropy.bitness",
+      "navigator.userAgentData.high_entropy.brands[0].brand",
+      "navigator.userAgentData.high_entropy.brands[0].version",
+      "navigator.userAgentData.high_entropy.brands[1].brand",
+      "navigator.userAgentData.high_entropy.brands[1].version",
+      "navigator.userAgentData.high_entropy.brands[2].brand",
+      "navigator.userAgentData.high_entropy.brands[2].version",
+      "navigator.userAgentData.high_entropy.fullVersionList[0].brand",
+      "navigator.userAgentData.high_entropy.fullVersionList[0].version",
+      "navigator.userAgentData.high_entropy.fullVersionList[1].brand",
+      "navigator.userAgentData.high_entropy.fullVersionList[2].brand",
+      "navigator.userAgentData.high_entropy.mobile",
+      "navigator.userAgentData.high_entropy.model",
+      "navigator.userAgentData.mobile"
+    ],
+    "Still Different": [
+      "navigator.appVersion",
+      "navigator.connection",
+      "navigator.connection.downlink",
+      "navigator.deviceMemory",
+      "navigator.languages",
+      "navigator.prototype_keys",
+      "navigator.userAgent",
+      "navigator.userAgentData",
+      "navigator.userAgentData.high_entropy.fullVersionList[1].version",
+      "navigator.userAgentData.high_entropy.fullVersionList[2].version",
+      "navigator.userAgentData.high_entropy.platform",
+      "navigator.userAgentData.high_entropy.platformVersion",
+      "navigator.userAgentData.high_entropy.uaFullVersion",
+      "navigator.userAgentData.platform",
+      "navigator.webdriver"
+    ],
+    "Regression": [
+      "navigator.connection.rtt",
+      "navigator.hardwareConcurrency",
+      "navigator.platform"
+    ],
+    "Missing": [],
+    "Equal": [
+      "navigator.appCodeName",
+      "navigator.appName",
+      "navigator.connection.effectiveType",
+      "navigator.connection.saveData",
+      "navigator.connection.type",
+      "navigator.cookieEnabled",
+      "navigator.doNotTrack",
+      "navigator.javaEnabled",
+      "navigator.keys",
+      "navigator.language",
+      "navigator.maxTouchPoints",
+      "navigator.onLine",
+      "navigator.oscpu",
+      "navigator.pdfViewerEnabled",
+      "navigator.product",
+      "navigator.productSub",
+      "navigator.vendor",
+      "navigator.vendorSub",
+      "plugins.mime_count",
+      "plugins.mime_types[0].description",
+      "plugins.mime_types[0].suffixes",
+      "plugins.mime_types[0].type",
+      "plugins.mime_types[1].description",
+      "plugins.mime_types[1].suffixes",
+      "plugins.mime_types[1].type",
+      "plugins.plugin_count",
+      "plugins.plugins[0].description",
+      "plugins.plugins[0].filename",
+      "plugins.plugins[0].mimes[0].description",
+      "plugins.plugins[0].mimes[0].suffixes",
+      "plugins.plugins[0].mimes[0].type",
+      "plugins.plugins[0].mimes[1].description",
+      "plugins.plugins[0].mimes[1].suffixes",
+      "plugins.plugins[0].mimes[1].type",
+      "plugins.plugins[0].name",
+      "plugins.plugins[1].description",
+      "plugins.plugins[1].filename",
+      "plugins.plugins[1].mimes[0].description",
+      "plugins.plugins[1].mimes[0].suffixes",
+      "plugins.plugins[1].mimes[0].type",
+      "plugins.plugins[1].mimes[1].description",
+      "plugins.plugins[1].mimes[1].suffixes",
+      "plugins.plugins[1].mimes[1].type",
+      "plugins.plugins[1].name",
+      "plugins.plugins[2].description",
+      "plugins.plugins[2].filename",
+      "plugins.plugins[2].mimes[0].description",
+      "plugins.plugins[2].mimes[0].suffixes",
+      "plugins.plugins[2].mimes[0].type",
+      "plugins.plugins[2].mimes[1].description",
+      "plugins.plugins[2].mimes[1].suffixes",
+      "plugins.plugins[2].mimes[1].type",
+      "plugins.plugins[2].name",
+      "plugins.plugins[3].description",
+      "plugins.plugins[3].filename",
+      "plugins.plugins[3].mimes[0].description",
+      "plugins.plugins[3].mimes[0].suffixes",
+      "plugins.plugins[3].mimes[0].type",
+      "plugins.plugins[3].mimes[1].description",
+      "plugins.plugins[3].mimes[1].suffixes",
+      "plugins.plugins[3].mimes[1].type",
+      "plugins.plugins[3].name",
+      "plugins.plugins[4].description",
+      "plugins.plugins[4].filename",
+      "plugins.plugins[4].mimes[0].description",
+      "plugins.plugins[4].mimes[0].suffixes",
+      "plugins.plugins[4].mimes[0].type",
+      "plugins.plugins[4].mimes[1].description",
+      "plugins.plugins[4].mimes[1].suffixes",
+      "plugins.plugins[4].mimes[1].type",
+      "plugins.plugins[4].name"
+    ]
+  },
+  "top_20_still_different": [
+    {
+      "property": "navigator.userAgentData",
+      "category": "Navigator",
+      "reference_value": {
+        "brands": [
+          {
+            "brand": "Not;A=Brand",
+            "version": "8"
+          },
+          {
+            "brand": "Chromium",
+            "version": "150"
+          },
+          {
+            "brand": "Google Chrome",
+            "version": "150"
+          }
+        ],
+        "mobile": false,
+        "platform": "Windows",
+        "high_entropy": {
+          "architecture": "x86",
+          "bitness": "64",
+          "brands": [
+            {
+              "brand": "Not;A=Brand",
+              "version": "8"
+            },
+            {
+              "brand": "Chromium",
+              "version": "150"
+            },
+            {
+              "brand": "Google Chrome",
+              "version": "150"
+            }
+          ],
+          "fullVersionList": [
+            {
+              "brand": "Not;A=Brand",
+              "version": "8.0.0.0"
+            },
+            {
+              "brand": "Chromium",
+              "version": "150.0.7871.115"
+            },
+            {
+              "brand": "Google Chrome",
+              "version": "150.0.7871.115"
+            }
+          ],
+          "mobile": false,
+          "model": "",
+          "platform": "Windows",
+          "platformVersion": "19.0.0",
+          "uaFullVersion": "150.0.7871.115"
+        }
+      },
+      "plain_value": null,
+      "patched_value": {
+        "brands": [
+          {
+            "brand": "Not;A=Brand",
+            "version": "8"
+          },
+          {
+            "brand": "Chromium",
+            "version": "150"
+          },
+          {
+            "brand": "Google Chrome",
+            "version": "150"
+          }
+        ],
+        "mobile": false,
+        "platform": "Linux",
+        "high_entropy": {
+          "architecture": "x86",
+          "bitness": "64",
+          "brands": [
+            {
+              "brand": "Not;A=Brand",
+              "version": "8"
+            },
+            {
+              "brand": "Chromium",
+              "version": "150"
+            },
+            {
+              "brand": "Google Chrome",
+              "version": "150"
+            }
+          ],
+          "fullVersionList": [
+            {
+              "brand": "Not;A=Brand",
+              "version": "8.0.0.0"
+            },
+            {
+              "brand": "Chromium",
+              "version": "150.0.7871.114"
+            },
+            {
+              "brand": "Google Chrome",
+              "version": "150.0.7871.114"
+            }
+          ],
+          "mobile": false,
+          "model": "",
+          "platform": "Linux",
+          "platformVersion": "",
+          "uaFullVersion": "150.0.7871.114"
+        }
+      },
+      "status": "Still Different",
+      "severity": "Critical",
+      "recommendation": "Keep brands, platform, mobile, and high-entropy hints coherent.",
+      "missing_in": []
+    },
+    {
+      "property": "navigator.userAgentData.high_entropy.fullVersionList[1].version",
+      "category": "Navigator",
+      "reference_value": "150.0.7871.115",
+      "plain_value": "<missing>",
+      "patched_value": "150.0.7871.114",
+      "status": "Still Different",
+      "severity": "Critical",
+      "recommendation": "Keep brands, platform, mobile, and high-entropy hints coherent.",
+      "missing_in": [
+        "plain"
+      ]
+    },
+    {
+      "property": "navigator.userAgentData.high_entropy.fullVersionList[2].version",
+      "category": "Navigator",
+      "reference_value": "150.0.7871.115",
+      "plain_value": "<missing>",
+      "patched_value": "150.0.7871.114",
+      "status": "Still Different",
+      "severity": "Critical",
+      "recommendation": "Keep brands, platform, mobile, and high-entropy hints coherent.",
+      "missing_in": [
+        "plain"
+      ]
+    },
+    {
+      "property": "navigator.userAgentData.high_entropy.platform",
+      "category": "Navigator",
+      "reference_value": "Windows",
+      "plain_value": "<missing>",
+      "patched_value": "Linux",
+      "status": "Still Different",
+      "severity": "Critical",
+      "recommendation": "Keep brands, platform, mobile, and high-entropy hints coherent.",
+      "missing_in": [
+        "plain"
+      ]
+    },
+    {
+      "property": "navigator.userAgentData.high_entropy.platformVersion",
+      "category": "Navigator",
+      "reference_value": "19.0.0",
+      "plain_value": "<missing>",
+      "patched_value": "",
+      "status": "Still Different",
+      "severity": "Critical",
+      "recommendation": "Keep brands, platform, mobile, and high-entropy hints coherent.",
+      "missing_in": [
+        "plain"
+      ]
+    },
+    {
+      "property": "navigator.userAgentData.high_entropy.uaFullVersion",
+      "category": "Navigator",
+      "reference_value": "150.0.7871.115",
+      "plain_value": "<missing>",
+      "patched_value": "150.0.7871.114",
+      "status": "Still Different",
+      "severity": "Critical",
+      "recommendation": "Keep brands, platform, mobile, and high-entropy hints coherent.",
+      "missing_in": [
+        "plain"
+      ]
+    },
+    {
+      "property": "navigator.userAgentData.platform",
+      "category": "Navigator",
+      "reference_value": "Windows",
+      "plain_value": "<missing>",
+      "patched_value": "Linux",
+      "status": "Still Different",
+      "severity": "Critical",
+      "recommendation": "Keep brands, platform, mobile, and high-entropy hints coherent.",
+      "missing_in": [
+        "plain"
+      ]
+    },
+    {
+      "property": "navigator.webdriver",
+      "category": "Navigator",
+      "reference_value": false,
+      "plain_value": true,
+      "patched_value": true,
+      "status": "Still Different",
+      "severity": "Critical",
+      "recommendation": "Keep false and expose it as a Navigator.prototype getter.",
+      "missing_in": []
+    },
+    {
+      "property": "navigator.deviceMemory",
+      "category": "Navigator",
+      "reference_value": 8,
+      "plain_value": null,
+      "patched_value": 2,
+      "status": "Still Different",
+      "severity": "High",
+      "recommendation": "Use a realistic Chromium memory bucket.",
+      "missing_in": []
+    },
+    {
+      "property": "navigator.hardwareConcurrency",
+      "category": "Navigator",
+      "reference_value": 12,
+      "plain_value": 12,
+      "patched_value": 2,
+      "status": "Regression",
+      "severity": "High",
+      "recommendation": "Use a realistic logical-core value for the profile.",
+      "missing_in": []
+    },
+    {
+      "property": "navigator.platform",
+      "category": "Navigator",
+      "reference_value": "Win32",
+      "plain_value": "Win32",
+      "patched_value": "Linux x86_64",
+      "status": "Regression",
+      "severity": "High",
+      "recommendation": "Keep consistent with the UA and UA-CH platform.",
+      "missing_in": []
+    },
+    {
+      "property": "navigator.languages",
+      "category": "Navigator",
+      "reference_value": [
+        "en-US",
+        "en",
+        "id"
+      ],
+      "plain_value": [
+        "en-US",
+        "en"
+      ],
+      "patched_value": [
+        "en-US",
+        "en"
+      ],
+      "status": "Still Different",
+      "severity": "Medium",
+      "recommendation": "Align the frozen language list with the browser locale profile.",
+      "missing_in": []
+    },
+    {
+      "property": "navigator.appVersion",
+      "category": "Navigator",
+      "reference_value": "5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "plain_value": "5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/150.0.0.0 Safari/537.36",
+      "patched_value": "5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/150.0.0.0 Safari/537.36",
+      "status": "Still Different",
+      "severity": "Low",
+      "recommendation": "Review this Navigator value against the selected browser profile.",
+      "missing_in": []
+    },
+    {
+      "property": "navigator.connection",
+      "category": "Navigator",
+      "reference_value": {
+        "effectiveType": "4g",
+        "downlink": 10,
+        "rtt": 50,
+        "saveData": false,
+        "type": null
+      },
+      "plain_value": {
+        "effectiveType": "4g",
+        "downlink": 1.65,
+        "rtt": 50,
+        "saveData": false,
+        "type": null
+      },
+      "patched_value": {
+        "effectiveType": "4g",
+        "downlink": 1.5,
+        "rtt": 0,
+        "saveData": false,
+        "type": null
+      },
+      "status": "Still Different",
+      "severity": "Low",
+      "recommendation": "Review this Navigator value against the selected browser profile.",
+      "missing_in": []
+    },
+    {
+      "property": "navigator.connection.downlink",
+      "category": "Navigator",
+      "reference_value": 10,
+      "plain_value": 1.65,
+      "patched_value": 1.5,
+      "status": "Still Different",
+      "severity": "Low",
+      "recommendation": "Review this Navigator value against the selected browser profile.",
+      "missing_in": []
+    },
+    {
+      "property": "navigator.connection.rtt",
+      "category": "Navigator",
+      "reference_value": 50,
+      "plain_value": 50,
+      "patched_value": 0,
+      "status": "Regression",
+      "severity": "Low",
+      "recommendation": "Review this Navigator value against the selected browser profile.",
+      "missing_in": []
+    },
+    {
+      "property": "navigator.prototype_keys",
+      "category": "Navigator",
+      "reference_value": [
+        "vendorSub",
+        "productSub",
+        "vendor",
+        "maxTouchPoints",
+        "scheduling",
+        "userActivation",
+        "geolocation",
+        "doNotTrack",
+        "webkitTemporaryStorage",
+        "webkitPersistentStorage",
+        "windowControlsOverlay",
+        "hardwareConcurrency",
+        "cookieEnabled",
+        "appCodeName",
+        "appName",
+        "appVersion",
+        "platform",
+        "product",
+        "userAgent",
+        "language",
+        "languages",
+        "onLine",
+        "webdriver",
+        "plugins",
+        "mimeTypes",
+        "pdfViewerEnabled",
+        "connection",
+        "getGamepads",
+        "javaEnabled",
+        "sendBeacon",
+        "vibrate",
+        "constructor",
+        "deprecatedRunAdAuctionEnforcesKAnonymity",
+        "protectedAudience",
+        "bluetooth",
+        "clipboard",
+        "credentials",
+        "keyboard",
+        "managed",
+        "mediaDevices",
+        "serviceWorker",
+        "virtualKeyboard",
+        "wakeLock",
+        "deviceMemory",
+        "userAgentData",
+        "locks",
+        "storage",
+        "gpu",
+        "login",
+        "ink",
+        "mediaCapabilities",
+        "permissions",
+        "devicePosture",
+        "hid",
+        "mediaSession",
+        "presentation",
+        "serial",
+        "usb",
+        "xr",
+        "storageBuckets",
+        "adAuctionComponents",
+        "runAdAuction",
+        "canLoadAdAuctionFencedFrame",
+        "canShare",
+        "share",
+        "clearAppBadge",
+        "getBattery",
+        "getUserMedia",
+        "requestMIDIAccess",
+        "requestMediaKeySystemAccess",
+        "setAppBadge",
+        "webkitGetUserMedia",
+        "clearOriginJoinedAdInterestGroups",
+        "createAuctionNonce",
+        "joinAdInterestGroup",
+        "leaveAdInterestGroup",
+        "updateAdInterestGroups",
+        "deprecatedReplaceInURN",
+        "deprecatedURNToURL",
+        "getInstalledRelatedApps",
+        "getInterestGroupAdAuctionData",
+        "registerProtocolHandler",
+        "unregisterProtocolHandler"
+      ],
+      "plain_value": [
+        "vendorSub",
+        "productSub",
+        "vendor",
+        "maxTouchPoints",
+        "scheduling",
+        "userActivation",
+        "geolocation",
+        "doNotTrack",
+        "webkitTemporaryStorage",
+        "webkitPersistentStorage",
+        "windowControlsOverlay",
+        "hardwareConcurrency",
+        "cookieEnabled",
+        "appCodeName",
+        "appName",
+        "appVersion",
+        "platform",
+        "product",
+        "userAgent",
+        "language",
+        "languages",
+        "onLine",
+        "webdriver",
+        "plugins",
+        "mimeTypes",
+        "pdfViewerEnabled",
+        "connection",
+        "getGamepads",
+        "javaEnabled",
+        "sendBeacon",
+        "vibrate",
+        "constructor",
+        "ink",
+        "mediaCapabilities",
+        "permissions",
+        "mediaSession"
+      ],
+      "patched_value": [
+        "vendorSub",
+        "productSub",
+        "vendor",
+        "maxTouchPoints",
+        "scheduling",
+        "userActivation",
+        "geolocation",
+        "doNotTrack",
+        "webkitTemporaryStorage",
+        "webkitPersistentStorage",
+        "windowControlsOverlay",
+        "hardwareConcurrency",
+        "cookieEnabled",
+        "appCodeName",
+        "appName",
+        "appVersion",
+        "platform",
+        "product",
+        "userAgent",
+        "language",
+        "languages",
+        "onLine",
+        "webdriver",
+        "plugins",
+        "mimeTypes",
+        "pdfViewerEnabled",
+        "connection",
+        "getGamepads",
+        "javaEnabled",
+        "sendBeacon",
+        "vibrate",
+        "constructor",
+        "deprecatedRunAdAuctionEnforcesKAnonymity",
+        "protectedAudience",
+        "clipboard",
+        "credentials",
+        "keyboard",
+        "managed",
+        "mediaDevices",
+        "serviceWorker",
+        "virtualKeyboard",
+        "wakeLock",
+        "deviceMemory",
+        "userAgentData",
+        "locks",
+        "storage",
+        "gpu",
+        "login",
+        "ink",
+        "mediaCapabilities",
+        "permissions",
+        "devicePosture",
+        "hid",
+        "mediaSession",
+        "presentation",
+        "serial",
+        "usb",
+        "xr",
+        "storageBuckets",
+        "adAuctionComponents",
+        "runAdAuction",
+        "canLoadAdAuctionFencedFrame",
+        "clearAppBadge",
+        "getBattery",
+        "getUserMedia",
+        "requestMIDIAccess",
+        "requestMediaKeySystemAccess",
+        "setAppBadge",
+        "webkitGetUserMedia",
+        "clearOriginJoinedAdInterestGroups",
+        "createAuctionNonce",
+        "joinAdInterestGroup",
+        "leaveAdInterestGroup",
+        "updateAdInterestGroups",
+        "deprecatedReplaceInURN",
+        "deprecatedURNToURL",
+        "getInstalledRelatedApps",
+        "getInterestGroupAdAuctionData",
+        "registerProtocolHandler",
+        "unregisterProtocolHandler"
+      ],
+      "status": "Still Different",
+      "severity": "Low",
+      "recommendation": "Review this Navigator value against the selected browser profile.",
+      "missing_in": []
+    },
+    {
+      "property": "navigator.userAgent",
+      "category": "Navigator",
+      "reference_value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "plain_value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/150.0.0.0 Safari/537.36",
+      "patched_value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/150.0.0.0 Safari/537.36",
+      "status": "Still Different",
+      "severity": "Low",
+      "recommendation": "Review this Navigator value against the selected browser profile.",
+      "missing_in": []
+    }
+  ],
+  "top_regression": [
+    {
+      "property": "navigator.hardwareConcurrency",
+      "category": "Navigator",
+      "reference_value": 12,
+      "plain_value": 12,
+      "patched_value": 2,
+      "status": "Regression",
+      "severity": "High",
+      "recommendation": "Use a realistic logical-core value for the profile.",
+      "missing_in": []
+    },
+    {
+      "property": "navigator.platform",
+      "category": "Navigator",
+      "reference_value": "Win32",
+      "plain_value": "Win32",
+      "patched_value": "Linux x86_64",
+      "status": "Regression",
+      "severity": "High",
+      "recommendation": "Keep consistent with the UA and UA-CH platform.",
+      "missing_in": []
+    },
+    {
+      "property": "navigator.connection.rtt",
+      "category": "Navigator",
+      "reference_value": 50,
+      "plain_value": 50,
+      "patched_value": 0,
+      "status": "Regression",
+      "severity": "Low",
+      "recommendation": "Review this Navigator value against the selected browser profile.",
+      "missing_in": []
+    }
+  ],
+  "top_improvement": [
+    {
+      "property": "navigator.userAgentData.brands[0].brand",
+      "category": "Navigator",
+      "reference_value": "Not;A=Brand",
+      "plain_value": "<missing>",
+      "patched_value": "Not;A=Brand",
+      "status": "Improved",
+      "severity": "Critical",
+      "recommendation": "Keep brands, platform, mobile, and high-entropy hints coherent.",
+      "missing_in": [
+        "plain"
+      ]
+    },
+    {
+      "property": "navigator.userAgentData.brands[0].version",
+      "category": "Navigator",
+      "reference_value": "8",
+      "plain_value": "<missing>",
+      "patched_value": "8",
+      "status": "Improved",
+      "severity": "Critical",
+      "recommendation": "Keep brands, platform, mobile, and high-entropy hints coherent.",
+      "missing_in": [
+        "plain"
+      ]
+    },
+    {
+      "property": "navigator.userAgentData.brands[1].brand",
+      "category": "Navigator",
+      "reference_value": "Chromium",
+      "plain_value": "<missing>",
+      "patched_value": "Chromium",
+      "status": "Improved",
+      "severity": "Critical",
+      "recommendation": "Keep brands, platform, mobile, and high-entropy hints coherent.",
+      "missing_in": [
+        "plain"
+      ]
+    },
+    {
+      "property": "navigator.userAgentData.brands[1].version",
+      "category": "Navigator",
+      "reference_value": "150",
+      "plain_value": "<missing>",
+      "patched_value": "150",
+      "status": "Improved",
+      "severity": "Critical",
+      "recommendation": "Keep brands, platform, mobile, and high-entropy hints coherent.",
+      "missing_in": [
+        "plain"
+      ]
+    },
+    {
+      "property": "navigator.userAgentData.brands[2].brand",
+      "category": "Navigator",
+      "reference_value": "Google Chrome",
+      "plain_value": "<missing>",
+      "patched_value": "Google Chrome",
+      "status": "Improved",
+      "severity": "Critical",
+      "recommendation": "Keep brands, platform, mobile, and high-entropy hints coherent.",
+      "missing_in": [
+        "plain"
+      ]
+    },
+    {
+      "property": "navigator.userAgentData.brands[2].version",
+      "category": "Navigator",
+      "reference_value": "150",
+      "plain_value": "<missing>",
+      "patched_value": "150",
+      "status": "Improved",
+      "severity": "Critical",
+      "recommendation": "Keep brands, platform, mobile, and high-entropy hints coherent.",
+      "missing_in": [
+        "plain"
+      ]
+    },
+    {
+      "property": "navigator.userAgentData.high_entropy.architecture",
+      "category": "Navigator",
+      "reference_value": "x86",
+      "plain_value": "<missing>",
+      "patched_value": "x86",
+      "status": "Improved",
+      "severity": "Critical",
+      "recommendation": "Keep brands, platform, mobile, and high-entropy hints coherent.",
+      "missing_in": [
+        "plain"
+      ]
+    },
+    {
+      "property": "navigator.userAgentData.high_entropy.bitness",
+      "category": "Navigator",
+      "reference_value": "64",
+      "plain_value": "<missing>",
+      "patched_value": "64",
+      "status": "Improved",
+      "severity": "Critical",
+      "recommendation": "Keep brands, platform, mobile, and high-entropy hints coherent.",
+      "missing_in": [
+        "plain"
+      ]
+    },
+    {
+      "property": "navigator.userAgentData.high_entropy.brands[0].brand",
+      "category": "Navigator",
+      "reference_value": "Not;A=Brand",
+      "plain_value": "<missing>",
+      "patched_value": "Not;A=Brand",
+      "status": "Improved",
+      "severity": "Critical",
+      "recommendation": "Keep brands, platform, mobile, and high-entropy hints coherent.",
+      "missing_in": [
+        "plain"
+      ]
+    },
+    {
+      "property": "navigator.userAgentData.high_entropy.brands[0].version",
+      "category": "Navigator",
+      "reference_value": "8",
+      "plain_value": "<missing>",
+      "patched_value": "8",
+      "status": "Improved",
+      "severity": "Critical",
+      "recommendation": "Keep brands, platform, mobile, and high-entropy hints coherent.",
+      "missing_in": [
+        "plain"
+      ]
+    },
+    {
+      "property": "navigator.userAgentData.high_entropy.brands[1].brand",
+      "category": "Navigator",
+      "reference_value": "Chromium",
+      "plain_value": "<missing>",
+      "patched_value": "Chromium",
+      "status": "Improved",
+      "severity": "Critical",
+      "recommendation": "Keep brands, platform, mobile, and high-entropy hints coherent.",
+      "missing_in": [
+        "plain"
+      ]
+    },
+    {
+      "property": "navigator.userAgentData.high_entropy.brands[1].version",
+      "category": "Navigator",
+      "reference_value": "150",
+      "plain_value": "<missing>",
+      "patched_value": "150",
+      "status": "Improved",
+      "severity": "Critical",
+      "recommendation": "Keep brands, platform, mobile, and high-entropy hints coherent.",
+      "missing_in": [
+        "plain"
+      ]
+    },
+    {
+      "property": "navigator.userAgentData.high_entropy.brands[2].brand",
+      "category": "Navigator",
+      "reference_value": "Google Chrome",
+      "plain_value": "<missing>",
+      "patched_value": "Google Chrome",
+      "status": "Improved",
+      "severity": "Critical",
+      "recommendation": "Keep brands, platform, mobile, and high-entropy hints coherent.",
+      "missing_in": [
+        "plain"
+      ]
+    },
+    {
+      "property": "navigator.userAgentData.high_entropy.brands[2].version",
+      "category": "Navigator",
+      "reference_value": "150",
+      "plain_value": "<missing>",
+      "patched_value": "150",
+      "status": "Improved",
+      "severity": "Critical",
+      "recommendation": "Keep brands, platform, mobile, and high-entropy hints coherent.",
+      "missing_in": [
+        "plain"
+      ]
+    },
+    {
+      "property": "navigator.userAgentData.high_entropy.fullVersionList[0].brand",
+      "category": "Navigator",
+      "reference_value": "Not;A=Brand",
+      "plain_value": "<missing>",
+      "patched_value": "Not;A=Brand",
+      "status": "Improved",
+      "severity": "Critical",
+      "recommendation": "Keep brands, platform, mobile, and high-entropy hints coherent.",
+      "missing_in": [
+        "plain"
+      ]
+    },
+    {
+      "property": "navigator.userAgentData.high_entropy.fullVersionList[0].version",
+      "category": "Navigator",
+      "reference_value": "8.0.0.0",
+      "plain_value": "<missing>",
+      "patched_value": "8.0.0.0",
+      "status": "Improved",
+      "severity": "Critical",
+      "recommendation": "Keep brands, platform, mobile, and high-entropy hints coherent.",
+      "missing_in": [
+        "plain"
+      ]
+    },
+    {
+      "property": "navigator.userAgentData.high_entropy.fullVersionList[1].brand",
+      "category": "Navigator",
+      "reference_value": "Chromium",
+      "plain_value": "<missing>",
+      "patched_value": "Chromium",
+      "status": "Improved",
+      "severity": "Critical",
+      "recommendation": "Keep brands, platform, mobile, and high-entropy hints coherent.",
+      "missing_in": [
+        "plain"
+      ]
+    },
+    {
+      "property": "navigator.userAgentData.high_entropy.fullVersionList[2].brand",
+      "category": "Navigator",
+      "reference_value": "Google Chrome",
+      "plain_value": "<missing>",
+      "patched_value": "Google Chrome",
+      "status": "Improved",
+      "severity": "Critical",
+      "recommendation": "Keep brands, platform, mobile, and high-entropy hints coherent.",
+      "missing_in": [
+        "plain"
+      ]
+    },
+    {
+      "property": "navigator.userAgentData.high_entropy.mobile",
+      "category": "Navigator",
+      "reference_value": false,
+      "plain_value": "<missing>",
+      "patched_value": false,
+      "status": "Improved",
+      "severity": "Critical",
+      "recommendation": "Keep brands, platform, mobile, and high-entropy hints coherent.",
+      "missing_in": [
+        "plain"
+      ]
+    },
+    {
+      "property": "navigator.userAgentData.high_entropy.model",
+      "category": "Navigator",
+      "reference_value": "",
+      "plain_value": "<missing>",
+      "patched_value": "",
+      "status": "Improved",
+      "severity": "Critical",
+      "recommendation": "Keep brands, platform, mobile, and high-entropy hints coherent.",
+      "missing_in": [
+        "plain"
+      ]
+    }
+  ],
+  "properties": [
+    {
+      "property": "navigator.appCodeName",
+      "category": "Navigator",
+      "reference_value": "Mozilla",
+      "plain_value": "Mozilla",
+      "patched_value": "Mozilla",
+      "status": "Equal",
+      "severity": "Low",
+      "recommendation": "No patch required; matches the reference.",
+      "missing_in": []
+    },
+    {
+      "property": "navigator.appName",
+      "category": "Navigator",
+      "reference_value": "Netscape",
+      "plain_value": "Netscape",
+      "patched_value": "Netscape",
+      "status": "Equal",
+      "severity": "Low",
+      "recommendation": "No patch required; matches the reference.",
+      "missing_in": []
+    },
+    {
+      "property": "navigator.appVersion",
+      "category": "Navigator",
+      "reference_value": "5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "plain_value": "5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/150.0.0.0 Safari/537.36",
+      "patched_value": "5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/150.0.0.0 Safari/537.36",
+      "status": "Still Different",
+      "severity": "Low",
+      "recommendation": "Review this Navigator value against the selected browser profile.",
+      "missing_in": []
+    },
+    {
+      "property": "navigator.connection",
+      "category": "Navigator",
+      "reference_value": {
+        "effectiveType": "4g",
+        "downlink": 10,
+        "rtt": 50,
+        "saveData": false,
+        "type": null
+      },
+      "plain_value": {
+        "effectiveType": "4g",
+        "downlink": 1.65,
+        "rtt": 50,
+        "saveData": false,
+        "type": null
+      },
+      "patched_value": {
+        "effectiveType": "4g",
+        "downlink": 1.5,
+        "rtt": 0,
+        "saveData": false,
+        "type": null
+      },
+      "status": "Still Different",
+      "severity": "Low",
+      "recommendation": "Review this Navigator value against the selected browser profile.",
+      "missing_in": []
+    },
+    {
+      "property": "navigator.connection.downlink",
+      "category": "Navigator",
+      "reference_value": 10,
+      "plain_value": 1.65,
+      "patched_value": 1.5,
+      "status": "Still Different",
+      "severity": "Low",
+      "recommendation": "Review this Navigator value against the selected browser profile.",
+      "missing_in": []
+    },
+    {
+      "property": "navigator.connection.effectiveType",
+      "category": "Navigator",
+      "reference_value": "4g",
+      "plain_value": "4g",
+      "patched_value": "4g",
+      "status": "Equal",
+      "severity": "Low",
+      "recommendation": "No patch required; matches the reference.",
+      "missing_in": []
+    },
+    {
+      "property": "navigator.connection.rtt",
+      "category": "Navigator",
+      "reference_value": 50,
+      "plain_value": 50,
+      "patched_value": 0,
+      "status": "Regression",
+      "severity": "Low",
+      "recommendation": "Review this Navigator value against the selected browser profile.",
+      "missing_in": []
+    },
+    {
+      "property": "navigator.connection.saveData",
+      "category": "Navigator",
+      "reference_value": false,
+      "plain_value": false,
+      "patched_value": false,
+      "status": "Equal",
+      "severity": "Low",
+      "recommendation": "No patch required; matches the reference.",
+      "missing_in": []
+    },
+    {
+      "property": "navigator.connection.type",
+      "category": "Navigator",
+      "reference_value": null,
+      "plain_value": null,
+      "patched_value": null,
+      "status": "Equal",
+      "severity": "Low",
+      "recommendation": "No patch required; matches the reference.",
+      "missing_in": []
+    },
+    {
+      "property": "navigator.cookieEnabled",
+      "category": "Navigator",
+      "reference_value": true,
+      "plain_value": true,
+      "patched_value": true,
+      "status": "Equal",
+      "severity": "Low",
+      "recommendation": "No patch required; matches the reference.",
+      "missing_in": []
+    },
+    {
+      "property": "navigator.deviceMemory",
+      "category": "Navigator",
+      "reference_value": 8,
+      "plain_value": null,
+      "patched_value": 2,
+      "status": "Still Different",
+      "severity": "High",
+      "recommendation": "Use a realistic Chromium memory bucket.",
+      "missing_in": []
+    },
+    {
+      "property": "navigator.doNotTrack",
+      "category": "Navigator",
+      "reference_value": null,
+      "plain_value": null,
+      "patched_value": null,
+      "status": "Equal",
+      "severity": "Low",
+      "recommendation": "No patch required; matches the reference.",
+      "missing_in": []
+    },
+    {
+      "property": "navigator.hardwareConcurrency",
+      "category": "Navigator",
+      "reference_value": 12,
+      "plain_value": 12,
+      "patched_value": 2,
+      "status": "Regression",
+      "severity": "High",
+      "recommendation": "Use a realistic logical-core value for the profile.",
+      "missing_in": []
+    },
+    {
+      "property": "navigator.javaEnabled",
+      "category": "Navigator",
+      "reference_value": false,
+      "plain_value": false,
+      "patched_value": false,
+      "status": "Equal",
+      "severity": "Low",
+      "recommendation": "No patch required; matches the reference.",
+      "missing_in": []
+    },
+    {
+      "property": "navigator.keys",
+      "category": "Navigator",
+      "reference_value": [],
+      "plain_value": [],
+      "patched_value": [],
+      "status": "Equal",
+      "severity": "Low",
+      "recommendation": "No patch required; matches the reference.",
+      "missing_in": []
+    },
+    {
+      "property": "navigator.language",
+      "category": "Navigator",
+      "reference_value": "en-US",
+      "plain_value": "en-US",
+      "patched_value": "en-US",
+      "status": "Equal",
+      "severity": "Low",
+      "recommendation": "No patch required; matches the reference.",
+      "missing_in": []
+    },
+    {
+      "property": "navigator.languages",
+      "category": "Navigator",
+      "reference_value": [
+        "en-US",
+        "en",
+        "id"
+      ],
+      "plain_value": [
+        "en-US",
+        "en"
+      ],
+      "patched_value": [
+        "en-US",
+        "en"
+      ],
+      "status": "Still Different",
+      "severity": "Medium",
+      "recommendation": "Align the frozen language list with the browser locale profile.",
+      "missing_in": []
+    },
+    {
+      "property": "navigator.maxTouchPoints",
+      "category": "Navigator",
+      "reference_value": 0,
+      "plain_value": 0,
+      "patched_value": 0,
+      "status": "Equal",
+      "severity": "Low",
+      "recommendation": "No patch required; matches the reference.",
+      "missing_in": []
+    },
+    {
+      "property": "navigator.onLine",
+      "category": "Navigator",
+      "reference_value": true,
+      "plain_value": true,
+      "patched_value": true,
+      "status": "Equal",
+      "severity": "Low",
+      "recommendation": "No patch required; matches the reference.",
+      "missing_in": []
+    },
+    {
+      "property": "navigator.oscpu",
+      "category": "Navigator",
+      "reference_value": null,
+      "plain_value": null,
+      "patched_value": null,
+      "status": "Equal",
+      "severity": "Low",
+      "recommendation": "No patch required; matches the reference.",
+      "missing_in": []
+    },
+    {
+      "property": "navigator.pdfViewerEnabled",
+      "category": "Navigator",
+      "reference_value": true,
+      "plain_value": true,
+      "patched_value": true,
+      "status": "Equal",
+      "severity": "Low",
+      "recommendation": "No patch required; matches the reference.",
+      "missing_in": []
+    },
+    {
+      "property": "navigator.platform",
+      "category": "Navigator",
+      "reference_value": "Win32",
+      "plain_value": "Win32",
+      "patched_value": "Linux x86_64",
+      "status": "Regression",
+      "severity": "High",
+      "recommendation": "Keep consistent with the UA and UA-CH platform.",
+      "missing_in": []
+    },
+    {
+      "property": "navigator.product",
+      "category": "Navigator",
+      "reference_value": "Gecko",
+      "plain_value": "Gecko",
+      "patched_value": "Gecko",
+      "status": "Equal",
+      "severity": "Low",
+      "recommendation": "No patch required; matches the reference.",
+      "missing_in": []
+    },
+    {
+      "property": "navigator.productSub",
+      "category": "Navigator",
+      "reference_value": "20030107",
+      "plain_value": "20030107",
+      "patched_value": "20030107",
+      "status": "Equal",
+      "severity": "Low",
+      "recommendation": "No patch required; matches the reference.",
+      "missing_in": []
+    },
+    {
+      "property": "navigator.prototype_keys",
+      "category": "Navigator",
+      "reference_value": [
+        "vendorSub",
+        "productSub",
+        "vendor",
+        "maxTouchPoints",
+        "scheduling",
+        "userActivation",
+        "geolocation",
+        "doNotTrack",
+        "webkitTemporaryStorage",
+        "webkitPersistentStorage",
+        "windowControlsOverlay",
+        "hardwareConcurrency",
+        "cookieEnabled",
+        "appCodeName",
+        "appName",
+        "appVersion",
+        "platform",
+        "product",
+        "userAgent",
+        "language",
+        "languages",
+        "onLine",
+        "webdriver",
+        "plugins",
+        "mimeTypes",
+        "pdfViewerEnabled",
+        "connection",
+        "getGamepads",
+        "javaEnabled",
+        "sendBeacon",
+        "vibrate",
+        "constructor",
+        "deprecatedRunAdAuctionEnforcesKAnonymity",
+        "protectedAudience",
+        "bluetooth",
+        "clipboard",
+        "credentials",
+        "keyboard",
+        "managed",
+        "mediaDevices",
+        "serviceWorker",
+        "virtualKeyboard",
+        "wakeLock",
+        "deviceMemory",
+        "userAgentData",
+        "locks",
+        "storage",
+        "gpu",
+        "login",
+        "ink",
+        "mediaCapabilities",
+        "permissions",
+        "devicePosture",
+        "hid",
+        "mediaSession",
+        "presentation",
+        "serial",
+        "usb",
+        "xr",
+        "storageBuckets",
+        "adAuctionComponents",
+        "runAdAuction",
+        "canLoadAdAuctionFencedFrame",
+        "canShare",
+        "share",
+        "clearAppBadge",
+        "getBattery",
+        "getUserMedia",
+        "requestMIDIAccess",
+        "requestMediaKeySystemAccess",
+        "setAppBadge",
+        "webkitGetUserMedia",
+        "clearOriginJoinedAdInterestGroups",
+        "createAuctionNonce",
+        "joinAdInterestGroup",
+        "leaveAdInterestGroup",
+        "updateAdInterestGroups",
+        "deprecatedReplaceInURN",
+        "deprecatedURNToURL",
+        "getInstalledRelatedApps",
+        "getInterestGroupAdAuctionData",
+        "registerProtocolHandler",
+        "unregisterProtocolHandler"
+      ],
+      "plain_value": [
+        "vendorSub",
+        "productSub",
+        "vendor",
+        "maxTouchPoints",
+        "scheduling",
+        "userActivation",
+        "geolocation",
+        "doNotTrack",
+        "webkitTemporaryStorage",
+        "webkitPersistentStorage",
+        "windowControlsOverlay",
+        "hardwareConcurrency",
+        "cookieEnabled",
+        "appCodeName",
+        "appName",
+        "appVersion",
+        "platform",
+        "product",
+        "userAgent",
+        "language",
+        "languages",
+        "onLine",
+        "webdriver",
+        "plugins",
+        "mimeTypes",
+        "pdfViewerEnabled",
+        "connection",
+        "getGamepads",
+        "javaEnabled",
+        "sendBeacon",
+        "vibrate",
+        "constructor",
+        "ink",
+        "mediaCapabilities",
+        "permissions",
+        "mediaSession"
+      ],
+      "patched_value": [
+        "vendorSub",
+        "productSub",
+        "vendor",
+        "maxTouchPoints",
+        "scheduling",
+        "userActivation",
+        "geolocation",
+        "doNotTrack",
+        "webkitTemporaryStorage",
+        "webkitPersistentStorage",
+        "windowControlsOverlay",
+        "hardwareConcurrency",
+        "cookieEnabled",
+        "appCodeName",
+        "appName",
+        "appVersion",
+        "platform",
+        "product",
+        "userAgent",
+        "language",
+        "languages",
+        "onLine",
+        "webdriver",
+        "plugins",
+        "mimeTypes",
+        "pdfViewerEnabled",
+        "connection",
+        "getGamepads",
+        "javaEnabled",
+        "sendBeacon",
+        "vibrate",
+        "constructor",
+        "deprecatedRunAdAuctionEnforcesKAnonymity",
+        "protectedAudience",
+        "clipboard",
+        "credentials",
+        "keyboard",
+        "managed",
+        "mediaDevices",
+        "serviceWorker",
+        "virtualKeyboard",
+        "wakeLock",
+        "deviceMemory",
+        "userAgentData",
+        "locks",
+        "storage",
+        "gpu",
+        "login",
+        "ink",
+        "mediaCapabilities",
+        "permissions",
+        "devicePosture",
+        "hid",
+        "mediaSession",
+        "presentation",
+        "serial",
+        "usb",
+        "xr",
+        "storageBuckets",
+        "adAuctionComponents",
+        "runAdAuction",
+        "canLoadAdAuctionFencedFrame",
+        "clearAppBadge",
+        "getBattery",
+        "getUserMedia",
+        "requestMIDIAccess",
+        "requestMediaKeySystemAccess",
+        "setAppBadge",
+        "webkitGetUserMedia",
+        "clearOriginJoinedAdInterestGroups",
+        "createAuctionNonce",
+        "joinAdInterestGroup",
+        "leaveAdInterestGroup",
+        "updateAdInterestGroups",
+        "deprecatedReplaceInURN",
+        "deprecatedURNToURL",
+        "getInstalledRelatedApps",
+        "getInterestGroupAdAuctionData",
+        "registerProtocolHandler",
+        "unregisterProtocolHandler"
+      ],
+      "status": "Still Different",
+      "severity": "Low",
+      "recommendation": "Review this Navigator value against the selected browser profile.",
+      "missing_in": []
+    },
+    {
+      "property": "navigator.userAgent",
+      "category": "Navigator",
+      "reference_value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "plain_value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/150.0.0.0 Safari/537.36",
+      "patched_value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/150.0.0.0 Safari/537.36",
+      "status": "Still Different",
+      "severity": "Low",
+      "recommendation": "Review this Navigator value against the selected browser profile.",
+      "missing_in": []
+    },
+    {
+      "property": "navigator.userAgentData",
+      "category": "Navigator",
+      "reference_value": {
+        "brands": [
+          {
+            "brand": "Not;A=Brand",
+            "version": "8"
+          },
+          {
+            "brand": "Chromium",
+            "version": "150"
+          },
+          {
+            "brand": "Google Chrome",
+            "version": "150"
+          }
+        ],
+        "mobile": false,
+        "platform": "Windows",
+        "high_entropy": {
+          "architecture": "x86",
+          "bitness": "64",
+          "brands": [
+            {
+              "brand": "Not;A=Brand",
+              "version": "8"
+            },
+            {
+              "brand": "Chromium",
+              "version": "150"
+            },
+            {
+              "brand": "Google Chrome",
+              "version": "150"
+            }
+          ],
+          "fullVersionList": [
+            {
+              "brand": "Not;A=Brand",
+              "version": "8.0.0.0"
+            },
+            {
+              "brand": "Chromium",
+              "version": "150.0.7871.115"
+            },
+            {
+              "brand": "Google Chrome",
+              "version": "150.0.7871.115"
+            }
+          ],
+          "mobile": false,
+          "model": "",
+          "platform": "Windows",
+          "platformVersion": "19.0.0",
+          "uaFullVersion": "150.0.7871.115"
+        }
+      },
+      "plain_value": null,
+      "patched_value": {
+        "brands": [
+          {
+            "brand": "Not;A=Brand",
+            "version": "8"
+          },
+          {
+            "brand": "Chromium",
+            "version": "150"
+          },
+          {
+            "brand": "Google Chrome",
+            "version": "150"
+          }
+        ],
+        "mobile": false,
+        "platform": "Linux",
+        "high_entropy": {
+          "architecture": "x86",
+          "bitness": "64",
+          "brands": [
+            {
+              "brand": "Not;A=Brand",
+              "version": "8"
+            },
+            {
+              "brand": "Chromium",
+              "version": "150"
+            },
+            {
+              "brand": "Google Chrome",
+              "version": "150"
+            }
+          ],
+          "fullVersionList": [
+            {
+              "brand": "Not;A=Brand",
+              "version": "8.0.0.0"
+            },
+            {
+              "brand": "Chromium",
+              "version": "150.0.7871.114"
+            },
+            {
+              "brand": "Google Chrome",
+              "version": "150.0.7871.114"
+            }
+          ],
+          "mobile": false,
+          "model": "",
+          "platform": "Linux",
+          "platformVersion": "",
+          "uaFullVersion": "150.0.7871.114"
+        }
+      },
+      "status": "Still Different",
+      "severity": "Critical",
+      "recommendation": "Keep brands, platform, mobile, and high-entropy hints coherent.",
+      "missing_in": []
+    },
+    {
+      "property": "navigator.userAgentData.brands[0].brand",
+      "category": "Navigator",
+      "reference_value": "Not;A=Brand",
+      "plain_value": "<missing>",
+      "patched_value": "Not;A=Brand",
+      "status": "Improved",
+      "severity": "Critical",
+      "recommendation": "Keep brands, platform, mobile, and high-entropy hints coherent.",
+      "missing_in": [
+        "plain"
+      ]
+    },
+    {
+      "property": "navigator.userAgentData.brands[0].version",
+      "category": "Navigator",
+      "reference_value": "8",
+      "plain_value": "<missing>",
+      "patched_value": "8",
+      "status": "Improved",
+      "severity": "Critical",
+      "recommendation": "Keep brands, platform, mobile, and high-entropy hints coherent.",
+      "missing_in": [
+        "plain"
+      ]
+    },
+    {
+      "property": "navigator.userAgentData.brands[1].brand",
+      "category": "Navigator",
+      "reference_value": "Chromium",
+      "plain_value": "<missing>",
+      "patched_value": "Chromium",
+      "status": "Improved",
+      "severity": "Critical",
+      "recommendation": "Keep brands, platform, mobile, and high-entropy hints coherent.",
+      "missing_in": [
+        "plain"
+      ]
+    },
+    {
+      "property": "navigator.userAgentData.brands[1].version",
+      "category": "Navigator",
+      "reference_value": "150",
+      "plain_value": "<missing>",
+      "patched_value": "150",
+      "status": "Improved",
+      "severity": "Critical",
+      "recommendation": "Keep brands, platform, mobile, and high-entropy hints coherent.",
+      "missing_in": [
+        "plain"
+      ]
+    },
+    {
+      "property": "navigator.userAgentData.brands[2].brand",
+      "category": "Navigator",
+      "reference_value": "Google Chrome",
+      "plain_value": "<missing>",
+      "patched_value": "Google Chrome",
+      "status": "Improved",
+      "severity": "Critical",
+      "recommendation": "Keep brands, platform, mobile, and high-entropy hints coherent.",
+      "missing_in": [
+        "plain"
+      ]
+    },
+    {
+      "property": "navigator.userAgentData.brands[2].version",
+      "category": "Navigator",
+      "reference_value": "150",
+      "plain_value": "<missing>",
+      "patched_value": "150",
+      "status": "Improved",
+      "severity": "Critical",
+      "recommendation": "Keep brands, platform, mobile, and high-entropy hints coherent.",
+      "missing_in": [
+        "plain"
+      ]
+    },
+    {
+      "property": "navigator.userAgentData.high_entropy.architecture",
+      "category": "Navigator",
+      "reference_value": "x86",
+      "plain_value": "<missing>",
+      "patched_value": "x86",
+      "status": "Improved",
+      "severity": "Critical",
+      "recommendation": "Keep brands, platform, mobile, and high-entropy hints coherent.",
+      "missing_in": [
+        "plain"
+      ]
+    },
+    {
+      "property": "navigator.userAgentData.high_entropy.bitness",
+      "category": "Navigator",
+      "reference_value": "64",
+      "plain_value": "<missing>",
+      "patched_value": "64",
+      "status": "Improved",
+      "severity": "Critical",
+      "recommendation": "Keep brands, platform, mobile, and high-entropy hints coherent.",
+      "missing_in": [
+        "plain"
+      ]
+    },
+    {
+      "property": "navigator.userAgentData.high_entropy.brands[0].brand",
+      "category": "Navigator",
+      "reference_value": "Not;A=Brand",
+      "plain_value": "<missing>",
+      "patched_value": "Not;A=Brand",
+      "status": "Improved",
+      "severity": "Critical",
+      "recommendation": "Keep brands, platform, mobile, and high-entropy hints coherent.",
+      "missing_in": [
+        "plain"
+      ]
+    },
+    {
+      "property": "navigator.userAgentData.high_entropy.brands[0].version",
+      "category": "Navigator",
+      "reference_value": "8",
+      "plain_value": "<missing>",
+      "patched_value": "8",
+      "status": "Improved",
+      "severity": "Critical",
+      "recommendation": "Keep brands, platform, mobile, and high-entropy hints coherent.",
+      "missing_in": [
+        "plain"
+      ]
+    },
+    {
+      "property": "navigator.userAgentData.high_entropy.brands[1].brand",
+      "category": "Navigator",
+      "reference_value": "Chromium",
+      "plain_value": "<missing>",
+      "patched_value": "Chromium",
+      "status": "Improved",
+      "severity": "Critical",
+      "recommendation": "Keep brands, platform, mobile, and high-entropy hints coherent.",
+      "missing_in": [
+        "plain"
+      ]
+    },
+    {
+      "property": "navigator.userAgentData.high_entropy.brands[1].version",
+      "category": "Navigator",
+      "reference_value": "150",
+      "plain_value": "<missing>",
+      "patched_value": "150",
+      "status": "Improved",
+      "severity": "Critical",
+      "recommendation": "Keep brands, platform, mobile, and high-entropy hints coherent.",
+      "missing_in": [
+        "plain"
+      ]
+    },
+    {
+      "property": "navigator.userAgentData.high_entropy.brands[2].brand",
+      "category": "Navigator",
+      "reference_value": "Google Chrome",
+      "plain_value": "<missing>",
+      "patched_value": "Google Chrome",
+      "status": "Improved",
+      "severity": "Critical",
+      "recommendation": "Keep brands, platform, mobile, and high-entropy hints coherent.",
+      "missing_in": [
+        "plain"
+      ]
+    },
+    {
+      "property": "navigator.userAgentData.high_entropy.brands[2].version",
+      "category": "Navigator",
+      "reference_value": "150",
+      "plain_value": "<missing>",
+      "patched_value": "150",
+      "status": "Improved",
+      "severity": "Critical",
+      "recommendation": "Keep brands, platform, mobile, and high-entropy hints coherent.",
+      "missing_in": [
+        "plain"
+      ]
+    },
+    {
+      "property": "navigator.userAgentData.high_entropy.fullVersionList[0].brand",
+      "category": "Navigator",
+      "reference_value": "Not;A=Brand",
+      "plain_value": "<missing>",
+      "patched_value": "Not;A=Brand",
+      "status": "Improved",
+      "severity": "Critical",
+      "recommendation": "Keep brands, platform, mobile, and high-entropy hints coherent.",
+      "missing_in": [
+        "plain"
+      ]
+    },
+    {
+      "property": "navigator.userAgentData.high_entropy.fullVersionList[0].version",
+      "category": "Navigator",
+      "reference_value": "8.0.0.0",
+      "plain_value": "<missing>",
+      "patched_value": "8.0.0.0",
+      "status": "Improved",
+      "severity": "Critical",
+      "recommendation": "Keep brands, platform, mobile, and high-entropy hints coherent.",
+      "missing_in": [
+        "plain"
+      ]
+    },
+    {
+      "property": "navigator.userAgentData.high_entropy.fullVersionList[1].brand",
+      "category": "Navigator",
+      "reference_value": "Chromium",
+      "plain_value": "<missing>",
+      "patched_value": "Chromium",
+      "status": "Improved",
+      "severity": "Critical",
+      "recommendation": "Keep brands, platform, mobile, and high-entropy hints coherent.",
+      "missing_in": [
+        "plain"
+      ]
+    },
+    {
+      "property": "navigator.userAgentData.high_entropy.fullVersionList[1].version",
+      "category": "Navigator",
+      "reference_value": "150.0.7871.115",
+      "plain_value": "<missing>",
+      "patched_value": "150.0.7871.114",
+      "status": "Still Different",
+      "severity": "Critical",
+      "recommendation": "Keep brands, platform, mobile, and high-entropy hints coherent.",
+      "missing_in": [
+        "plain"
+      ]
+    },
+    {
+      "property": "navigator.userAgentData.high_entropy.fullVersionList[2].brand",
+      "category": "Navigator",
+      "reference_value": "Google Chrome",
+      "plain_value": "<missing>",
+      "patched_value": "Google Chrome",
+      "status": "Improved",
+      "severity": "Critical",
+      "recommendation": "Keep brands, platform, mobile, and high-entropy hints coherent.",
+      "missing_in": [
+        "plain"
+      ]
+    },
+    {
+      "property": "navigator.userAgentData.high_entropy.fullVersionList[2].version",
+      "category": "Navigator",
+      "reference_value": "150.0.7871.115",
+      "plain_value": "<missing>",
+      "patched_value": "150.0.7871.114",
+      "status": "Still Different",
+      "severity": "Critical",
+      "recommendation": "Keep brands, platform, mobile, and high-entropy hints coherent.",
+      "missing_in": [
+        "plain"
+      ]
+    },
+    {
+      "property": "navigator.userAgentData.high_entropy.mobile",
+      "category": "Navigator",
+      "reference_value": false,
+      "plain_value": "<missing>",
+      "patched_value": false,
+      "status": "Improved",
+      "severity": "Critical",
+      "recommendation": "Keep brands, platform, mobile, and high-entropy hints coherent.",
+      "missing_in": [
+        "plain"
+      ]
+    },
+    {
+      "property": "navigator.userAgentData.high_entropy.model",
+      "category": "Navigator",
+      "reference_value": "",
+      "plain_value": "<missing>",
+      "patched_value": "",
+      "status": "Improved",
+      "severity": "Critical",
+      "recommendation": "Keep brands, platform, mobile, and high-entropy hints coherent.",
+      "missing_in": [
+        "plain"
+      ]
+    },
+    {
+      "property": "navigator.userAgentData.high_entropy.platform",
+      "category": "Navigator",
+      "reference_value": "Windows",
+      "plain_value": "<missing>",
+      "patched_value": "Linux",
+      "status": "Still Different",
+      "severity": "Critical",
+      "recommendation": "Keep brands, platform, mobile, and high-entropy hints coherent.",
+      "missing_in": [
+        "plain"
+      ]
+    },
+    {
+      "property": "navigator.userAgentData.high_entropy.platformVersion",
+      "category": "Navigator",
+      "reference_value": "19.0.0",
+      "plain_value": "<missing>",
+      "patched_value": "",
+      "status": "Still Different",
+      "severity": "Critical",
+      "recommendation": "Keep brands, platform, mobile, and high-entropy hints coherent.",
+      "missing_in": [
+        "plain"
+      ]
+    },
+    {
+      "property": "navigator.userAgentData.high_entropy.uaFullVersion",
+      "category": "Navigator",
+      "reference_value": "150.0.7871.115",
+      "plain_value": "<missing>",
+      "patched_value": "150.0.7871.114",
+      "status": "Still Different",
+      "severity": "Critical",
+      "recommendation": "Keep brands, platform, mobile, and high-entropy hints coherent.",
+      "missing_in": [
+        "plain"
+      ]
+    },
+    {
+      "property": "navigator.userAgentData.mobile",
+      "category": "Navigator",
+      "reference_value": false,
+      "plain_value": "<missing>",
+      "patched_value": false,
+      "status": "Improved",
+      "severity": "Critical",
+      "recommendation": "Keep brands, platform, mobile, and high-entropy hints coherent.",
+      "missing_in": [
+        "plain"
+      ]
+    },
+    {
+      "property": "navigator.userAgentData.platform",
+      "category": "Navigator",
+      "reference_value": "Windows",
+      "plain_value": "<missing>",
+      "patched_value": "Linux",
+      "status": "Still Different",
+      "severity": "Critical",
+      "recommendation": "Keep brands, platform, mobile, and high-entropy hints coherent.",
+      "missing_in": [
+        "plain"
+      ]
+    },
+    {
+      "property": "navigator.vendor",
+      "category": "Navigator",
+      "reference_value": "Google Inc.",
+      "plain_value": "Google Inc.",
+      "patched_value": "Google Inc.",
+      "status": "Equal",
+      "severity": "Low",
+      "recommendation": "No patch required; matches the reference.",
+      "missing_in": []
+    },
+    {
+      "property": "navigator.vendorSub",
+      "category": "Navigator",
+      "reference_value": "",
+      "plain_value": "",
+      "patched_value": "",
+      "status": "Equal",
+      "severity": "Low",
+      "recommendation": "No patch required; matches the reference.",
+      "missing_in": []
+    },
+    {
+      "property": "navigator.webdriver",
+      "category": "Navigator",
+      "reference_value": false,
+      "plain_value": true,
+      "patched_value": true,
+      "status": "Still Different",
+      "severity": "Critical",
+      "recommendation": "Keep false and expose it as a Navigator.prototype getter.",
+      "missing_in": []
+    },
+    {
+      "property": "plugins.mime_count",
+      "category": "Plugins",
+      "reference_value": 2,
+      "plain_value": 2,
+      "patched_value": 2,
+      "status": "Equal",
+      "severity": "Low",
+      "recommendation": "No patch required; matches the reference.",
+      "missing_in": []
+    },
+    {
+      "property": "plugins.mime_types[0].description",
+      "category": "Other",
+      "reference_value": "Portable Document Format",
+      "plain_value": "Portable Document Format",
+      "patched_value": "Portable Document Format",
+      "status": "Equal",
+      "severity": "Low",
+      "recommendation": "No patch required; matches the reference.",
+      "missing_in": []
+    },
+    {
+      "property": "plugins.mime_types[0].suffixes",
+      "category": "Other",
+      "reference_value": "pdf",
+      "plain_value": "pdf",
+      "patched_value": "pdf",
+      "status": "Equal",
+      "severity": "Low",
+      "recommendation": "No patch required; matches the reference.",
+      "missing_in": []
+    },
+    {
+      "property": "plugins.mime_types[0].type",
+      "category": "Other",
+      "reference_value": "application/pdf",
+      "plain_value": "application/pdf",
+      "patched_value": "application/pdf",
+      "status": "Equal",
+      "severity": "Low",
+      "recommendation": "No patch required; matches the reference.",
+      "missing_in": []
+    },
+    {
+      "property": "plugins.mime_types[1].description",
+      "category": "Other",
+      "reference_value": "Portable Document Format",
+      "plain_value": "Portable Document Format",
+      "patched_value": "Portable Document Format",
+      "status": "Equal",
+      "severity": "Low",
+      "recommendation": "No patch required; matches the reference.",
+      "missing_in": []
+    },
+    {
+      "property": "plugins.mime_types[1].suffixes",
+      "category": "Other",
+      "reference_value": "pdf",
+      "plain_value": "pdf",
+      "patched_value": "pdf",
+      "status": "Equal",
+      "severity": "Low",
+      "recommendation": "No patch required; matches the reference.",
+      "missing_in": []
+    },
+    {
+      "property": "plugins.mime_types[1].type",
+      "category": "Other",
+      "reference_value": "text/pdf",
+      "plain_value": "text/pdf",
+      "patched_value": "text/pdf",
+      "status": "Equal",
+      "severity": "Low",
+      "recommendation": "No patch required; matches the reference.",
+      "missing_in": []
+    },
+    {
+      "property": "plugins.plugin_count",
+      "category": "Plugins",
+      "reference_value": 5,
+      "plain_value": 5,
+      "patched_value": 5,
+      "status": "Equal",
+      "severity": "Low",
+      "recommendation": "No patch required; matches the reference.",
+      "missing_in": []
+    },
+    {
+      "property": "plugins.plugins[0].description",
+      "category": "Other",
+      "reference_value": "Portable Document Format",
+      "plain_value": "Portable Document Format",
+      "patched_value": "Portable Document Format",
+      "status": "Equal",
+      "severity": "Low",
+      "recommendation": "No patch required; matches the reference.",
+      "missing_in": []
+    },
+    {
+      "property": "plugins.plugins[0].filename",
+      "category": "Other",
+      "reference_value": "internal-pdf-viewer",
+      "plain_value": "internal-pdf-viewer",
+      "patched_value": "internal-pdf-viewer",
+      "status": "Equal",
+      "severity": "Low",
+      "recommendation": "No patch required; matches the reference.",
+      "missing_in": []
+    },
+    {
+      "property": "plugins.plugins[0].mimes[0].description",
+      "category": "Other",
+      "reference_value": "Portable Document Format",
+      "plain_value": "Portable Document Format",
+      "patched_value": "Portable Document Format",
+      "status": "Equal",
+      "severity": "Low",
+      "recommendation": "No patch required; matches the reference.",
+      "missing_in": []
+    },
+    {
+      "property": "plugins.plugins[0].mimes[0].suffixes",
+      "category": "Other",
+      "reference_value": "pdf",
+      "plain_value": "pdf",
+      "patched_value": "pdf",
+      "status": "Equal",
+      "severity": "Low",
+      "recommendation": "No patch required; matches the reference.",
+      "missing_in": []
+    },
+    {
+      "property": "plugins.plugins[0].mimes[0].type",
+      "category": "Other",
+      "reference_value": "application/pdf",
+      "plain_value": "application/pdf",
+      "patched_value": "application/pdf",
+      "status": "Equal",
+      "severity": "Low",
+      "recommendation": "No patch required; matches the reference.",
+      "missing_in": []
+    },
+    {
+      "property": "plugins.plugins[0].mimes[1].description",
+      "category": "Other",
+      "reference_value": "Portable Document Format",
+      "plain_value": "Portable Document Format",
+      "patched_value": "Portable Document Format",
+      "status": "Equal",
+      "severity": "Low",
+      "recommendation": "No patch required; matches the reference.",
+      "missing_in": []
+    },
+    {
+      "property": "plugins.plugins[0].mimes[1].suffixes",
+      "category": "Other",
+      "reference_value": "pdf",
+      "plain_value": "pdf",
+      "patched_value": "pdf",
+      "status": "Equal",
+      "severity": "Low",
+      "recommendation": "No patch required; matches the reference.",
+      "missing_in": []
+    },
+    {
+      "property": "plugins.plugins[0].mimes[1].type",
+      "category": "Other",
+      "reference_value": "text/pdf",
+      "plain_value": "text/pdf",
+      "patched_value": "text/pdf",
+      "status": "Equal",
+      "severity": "Low",
+      "recommendation": "No patch required; matches the reference.",
+      "missing_in": []
+    },
+    {
+      "property": "plugins.plugins[0].name",
+      "category": "Other",
+      "reference_value": "PDF Viewer",
+      "plain_value": "PDF Viewer",
+      "patched_value": "PDF Viewer",
+      "status": "Equal",
+      "severity": "Low",
+      "recommendation": "No patch required; matches the reference.",
+      "missing_in": []
+    },
+    {
+      "property": "plugins.plugins[1].description",
+      "category": "Other",
+      "reference_value": "Portable Document Format",
+      "plain_value": "Portable Document Format",
+      "patched_value": "Portable Document Format",
+      "status": "Equal",
+      "severity": "Low",
+      "recommendation": "No patch required; matches the reference.",
+      "missing_in": []
+    },
+    {
+      "property": "plugins.plugins[1].filename",
+      "category": "Other",
+      "reference_value": "internal-pdf-viewer",
+      "plain_value": "internal-pdf-viewer",
+      "patched_value": "internal-pdf-viewer",
+      "status": "Equal",
+      "severity": "Low",
+      "recommendation": "No patch required; matches the reference.",
+      "missing_in": []
+    },
+    {
+      "property": "plugins.plugins[1].mimes[0].description",
+      "category": "Other",
+      "reference_value": "Portable Document Format",
+      "plain_value": "Portable Document Format",
+      "patched_value": "Portable Document Format",
+      "status": "Equal",
+      "severity": "Low",
+      "recommendation": "No patch required; matches the reference.",
+      "missing_in": []
+    },
+    {
+      "property": "plugins.plugins[1].mimes[0].suffixes",
+      "category": "Other",
+      "reference_value": "pdf",
+      "plain_value": "pdf",
+      "patched_value": "pdf",
+      "status": "Equal",
+      "severity": "Low",
+      "recommendation": "No patch required; matches the reference.",
+      "missing_in": []
+    },
+    {
+      "property": "plugins.plugins[1].mimes[0].type",
+      "category": "Other",
+      "reference_value": "application/pdf",
+      "plain_value": "application/pdf",
+      "patched_value": "application/pdf",
+      "status": "Equal",
+      "severity": "Low",
+      "recommendation": "No patch required; matches the reference.",
+      "missing_in": []
+    },
+    {
+      "property": "plugins.plugins[1].mimes[1].description",
+      "category": "Other",
+      "reference_value": "Portable Document Format",
+      "plain_value": "Portable Document Format",
+      "patched_value": "Portable Document Format",
+      "status": "Equal",
+      "severity": "Low",
+      "recommendation": "No patch required; matches the reference.",
+      "missing_in": []
+    },
+    {
+      "property": "plugins.plugins[1].mimes[1].suffixes",
+      "category": "Other",
+      "reference_value": "pdf",
+      "plain_value": "pdf",
+      "patched_value": "pdf",
+      "status": "Equal",
+      "severity": "Low",
+      "recommendation": "No patch required; matches the reference.",
+      "missing_in": []
+    },
+    {
+      "property": "plugins.plugins[1].mimes[1].type",
+      "category": "Other",
+      "reference_value": "text/pdf",
+      "plain_value": "text/pdf",
+      "patched_value": "text/pdf",
+      "status": "Equal",
+      "severity": "Low",
+      "recommendation": "No patch required; matches the reference.",
+      "missing_in": []
+    },
+    {
+      "property": "plugins.plugins[1].name",
+      "category": "Other",
+      "reference_value": "Chrome PDF Viewer",
+      "plain_value": "Chrome PDF Viewer",
+      "patched_value": "Chrome PDF Viewer",
+      "status": "Equal",
+      "severity": "Low",
+      "recommendation": "No patch required; matches the reference.",
+      "missing_in": []
+    },
+    {
+      "property": "plugins.plugins[2].description",
+      "category": "Other",
+      "reference_value": "Portable Document Format",
+      "plain_value": "Portable Document Format",
+      "patched_value": "Portable Document Format",
+      "status": "Equal",
+      "severity": "Low",
+      "recommendation": "No patch required; matches the reference.",
+      "missing_in": []
+    },
+    {
+      "property": "plugins.plugins[2].filename",
+      "category": "Other",
+      "reference_value": "internal-pdf-viewer",
+      "plain_value": "internal-pdf-viewer",
+      "patched_value": "internal-pdf-viewer",
+      "status": "Equal",
+      "severity": "Low",
+      "recommendation": "No patch required; matches the reference.",
+      "missing_in": []
+    },
+    {
+      "property": "plugins.plugins[2].mimes[0].description",
+      "category": "Other",
+      "reference_value": "Portable Document Format",
+      "plain_value": "Portable Document Format",
+      "patched_value": "Portable Document Format",
+      "status": "Equal",
+      "severity": "Low",
+      "recommendation": "No patch required; matches the reference.",
+      "missing_in": []
+    },
+    {
+      "property": "plugins.plugins[2].mimes[0].suffixes",
+      "category": "Other",
+      "reference_value": "pdf",
+      "plain_value": "pdf",
+      "patched_value": "pdf",
+      "status": "Equal",
+      "severity": "Low",
+      "recommendation": "No patch required; matches the reference.",
+      "missing_in": []
+    },
+    {
+      "property": "plugins.plugins[2].mimes[0].type",
+      "category": "Other",
+      "reference_value": "application/pdf",
+      "plain_value": "application/pdf",
+      "patched_value": "application/pdf",
+      "status": "Equal",
+      "severity": "Low",
+      "recommendation": "No patch required; matches the reference.",
+      "missing_in": []
+    },
+    {
+      "property": "plugins.plugins[2].mimes[1].description",
+      "category": "Other",
+      "reference_value": "Portable Document Format",
+      "plain_value": "Portable Document Format",
+      "patched_value": "Portable Document Format",
+      "status": "Equal",
+      "severity": "Low",
+      "recommendation": "No patch required; matches the reference.",
+      "missing_in": []
+    },
+    {
+      "property": "plugins.plugins[2].mimes[1].suffixes",
+      "category": "Other",
+      "reference_value": "pdf",
+      "plain_value": "pdf",
+      "patched_value": "pdf",
+      "status": "Equal",
+      "severity": "Low",
+      "recommendation": "No patch required; matches the reference.",
+      "missing_in": []
+    },
+    {
+      "property": "plugins.plugins[2].mimes[1].type",
+      "category": "Other",
+      "reference_value": "text/pdf",
+      "plain_value": "text/pdf",
+      "patched_value": "text/pdf",
+      "status": "Equal",
+      "severity": "Low",
+      "recommendation": "No patch required; matches the reference.",
+      "missing_in": []
+    },
+    {
+      "property": "plugins.plugins[2].name",
+      "category": "Other",
+      "reference_value": "Chromium PDF Viewer",
+      "plain_value": "Chromium PDF Viewer",
+      "patched_value": "Chromium PDF Viewer",
+      "status": "Equal",
+      "severity": "Low",
+      "recommendation": "No patch required; matches the reference.",
+      "missing_in": []
+    },
+    {
+      "property": "plugins.plugins[3].description",
+      "category": "Other",
+      "reference_value": "Portable Document Format",
+      "plain_value": "Portable Document Format",
+      "patched_value": "Portable Document Format",
+      "status": "Equal",
+      "severity": "Low",
+      "recommendation": "No patch required; matches the reference.",
+      "missing_in": []
+    },
+    {
+      "property": "plugins.plugins[3].filename",
+      "category": "Other",
+      "reference_value": "internal-pdf-viewer",
+      "plain_value": "internal-pdf-viewer",
+      "patched_value": "internal-pdf-viewer",
+      "status": "Equal",
+      "severity": "Low",
+      "recommendation": "No patch required; matches the reference.",
+      "missing_in": []
+    },
+    {
+      "property": "plugins.plugins[3].mimes[0].description",
+      "category": "Other",
+      "reference_value": "Portable Document Format",
+      "plain_value": "Portable Document Format",
+      "patched_value": "Portable Document Format",
+      "status": "Equal",
+      "severity": "Low",
+      "recommendation": "No patch required; matches the reference.",
+      "missing_in": []
+    },
+    {
+      "property": "plugins.plugins[3].mimes[0].suffixes",
+      "category": "Other",
+      "reference_value": "pdf",
+      "plain_value": "pdf",
+      "patched_value": "pdf",
+      "status": "Equal",
+      "severity": "Low",
+      "recommendation": "No patch required; matches the reference.",
+      "missing_in": []
+    },
+    {
+      "property": "plugins.plugins[3].mimes[0].type",
+      "category": "Other",
+      "reference_value": "application/pdf",
+      "plain_value": "application/pdf",
+      "patched_value": "application/pdf",
+      "status": "Equal",
+      "severity": "Low",
+      "recommendation": "No patch required; matches the reference.",
+      "missing_in": []
+    },
+    {
+      "property": "plugins.plugins[3].mimes[1].description",
+      "category": "Other",
+      "reference_value": "Portable Document Format",
+      "plain_value": "Portable Document Format",
+      "patched_value": "Portable Document Format",
+      "status": "Equal",
+      "severity": "Low",
+      "recommendation": "No patch required; matches the reference.",
+      "missing_in": []
+    },
+    {
+      "property": "plugins.plugins[3].mimes[1].suffixes",
+      "category": "Other",
+      "reference_value": "pdf",
+      "plain_value": "pdf",
+      "patched_value": "pdf",
+      "status": "Equal",
+      "severity": "Low",
+      "recommendation": "No patch required; matches the reference.",
+      "missing_in": []
+    },
+    {
+      "property": "plugins.plugins[3].mimes[1].type",
+      "category": "Other",
+      "reference_value": "text/pdf",
+      "plain_value": "text/pdf",
+      "patched_value": "text/pdf",
+      "status": "Equal",
+      "severity": "Low",
+      "recommendation": "No patch required; matches the reference.",
+      "missing_in": []
+    },
+    {
+      "property": "plugins.plugins[3].name",
+      "category": "Other",
+      "reference_value": "Microsoft Edge PDF Viewer",
+      "plain_value": "Microsoft Edge PDF Viewer",
+      "patched_value": "Microsoft Edge PDF Viewer",
+      "status": "Equal",
+      "severity": "Low",
+      "recommendation": "No patch required; matches the reference.",
+      "missing_in": []
+    },
+    {
+      "property": "plugins.plugins[4].description",
+      "category": "Other",
+      "reference_value": "Portable Document Format",
+      "plain_value": "Portable Document Format",
+      "patched_value": "Portable Document Format",
+      "status": "Equal",
+      "severity": "Low",
+      "recommendation": "No patch required; matches the reference.",
+      "missing_in": []
+    },
+    {
+      "property": "plugins.plugins[4].filename",
+      "category": "Other",
+      "reference_value": "internal-pdf-viewer",
+      "plain_value": "internal-pdf-viewer",
+      "patched_value": "internal-pdf-viewer",
+      "status": "Equal",
+      "severity": "Low",
+      "recommendation": "No patch required; matches the reference.",
+      "missing_in": []
+    },
+    {
+      "property": "plugins.plugins[4].mimes[0].description",
+      "category": "Other",
+      "reference_value": "Portable Document Format",
+      "plain_value": "Portable Document Format",
+      "patched_value": "Portable Document Format",
+      "status": "Equal",
+      "severity": "Low",
+      "recommendation": "No patch required; matches the reference.",
+      "missing_in": []
+    },
+    {
+      "property": "plugins.plugins[4].mimes[0].suffixes",
+      "category": "Other",
+      "reference_value": "pdf",
+      "plain_value": "pdf",
+      "patched_value": "pdf",
+      "status": "Equal",
+      "severity": "Low",
+      "recommendation": "No patch required; matches the reference.",
+      "missing_in": []
+    },
+    {
+      "property": "plugins.plugins[4].mimes[0].type",
+      "category": "Other",
+      "reference_value": "application/pdf",
+      "plain_value": "application/pdf",
+      "patched_value": "application/pdf",
+      "status": "Equal",
+      "severity": "Low",
+      "recommendation": "No patch required; matches the reference.",
+      "missing_in": []
+    },
+    {
+      "property": "plugins.plugins[4].mimes[1].description",
+      "category": "Other",
+      "reference_value": "Portable Document Format",
+      "plain_value": "Portable Document Format",
+      "patched_value": "Portable Document Format",
+      "status": "Equal",
+      "severity": "Low",
+      "recommendation": "No patch required; matches the reference.",
+      "missing_in": []
+    },
+    {
+      "property": "plugins.plugins[4].mimes[1].suffixes",
+      "category": "Other",
+      "reference_value": "pdf",
+      "plain_value": "pdf",
+      "patched_value": "pdf",
+      "status": "Equal",
+      "severity": "Low",
+      "recommendation": "No patch required; matches the reference.",
+      "missing_in": []
+    },
+    {
+      "property": "plugins.plugins[4].mimes[1].type",
+      "category": "Other",
+      "reference_value": "text/pdf",
+      "plain_value": "text/pdf",
+      "patched_value": "text/pdf",
+      "status": "Equal",
+      "severity": "Low",
+      "recommendation": "No patch required; matches the reference.",
+      "missing_in": []
+    },
+    {
+      "property": "plugins.plugins[4].name",
+      "category": "Other",
+      "reference_value": "WebKit built-in PDF",
+      "plain_value": "WebKit built-in PDF",
+      "patched_value": "WebKit built-in PDF",
+      "status": "Equal",
+      "severity": "Low",
+      "recommendation": "No patch required; matches the reference.",
+      "missing_in": []
+    }
+  ],
+  "experiment_id": "exp_002"
+}

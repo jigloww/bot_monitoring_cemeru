@@ -1,0 +1,149 @@
+{
+  "updated_at": "2026-08-02T16:53:45.942682+00:00",
+  "experiment_history": [
+    {
+      "experiment_id": "exp_001",
+      "timestamp": "2026-08-02T22:50:56.678645+07:00",
+      "module": "navigator",
+      "module_label": "Navigator",
+      "modules": [
+        "navigator"
+      ],
+      "experiment": "navigator-module-smoke",
+      "label": "navigator-module-smoke",
+      "overall": 51.6,
+      "module_score": 72.7,
+      "cf_score": 54.8,
+      "total_diff": 180,
+      "improved": 78,
+      "regressed": 0,
+      "status": "completed",
+      "duration_seconds": 13.233,
+      "duration": "13.2s",
+      "final_mode": "navigator",
+      "source": "D:/bot_monitoring_cemeru/reports/experiments/exp_001/summary.json",
+      "target_reached": true
+    },
+    {
+      "experiment_id": "exp_002",
+      "timestamp": "2026-08-02T23:07:16.509371+07:00",
+      "module": "navigator",
+      "module_label": "Navigator",
+      "modules": [
+        "navigator"
+      ],
+      "experiment": "Experiment 002 - Navigator Audit",
+      "label": "Experiment 002 - Navigator Audit",
+      "overall": null,
+      "module_score": null,
+      "cf_score": null,
+      "total_diff": null,
+      "improved": null,
+      "regressed": null,
+      "status": "completed",
+      "duration_seconds": null,
+      "duration": "N/A",
+      "final_mode": null,
+      "source": "D:/bot_monitoring_cemeru/reports/experiments/exp_002/navigator_audit.json",
+      "target_reached": false
+    },
+    {
+      "experiment_id": "exp_005",
+      "timestamp": "2026-08-02T23:12:01.407464+07:00",
+      "module": "navigator",
+      "module_label": "Navigator",
+      "modules": [
+        "navigator"
+      ],
+      "experiment": "Experiment 003 - Navigator Gap Analysis",
+      "label": "Experiment 003 - Navigator Gap Analysis",
+      "overall": null,
+      "module_score": null,
+      "cf_score": null,
+      "total_diff": null,
+      "improved": null,
+      "regressed": null,
+      "status": "completed",
+      "duration_seconds": null,
+      "duration": "N/A",
+      "final_mode": null,
+      "source": "D:/bot_monitoring_cemeru/reports/experiments/exp_005/navigator_gap_analysis.json",
+      "target_reached": false
+    },
+    {
+      "experiment_id": "exp_006",
+      "timestamp": "2026-08-02T23:18:39.140783+07:00",
+      "module": "window",
+      "module_label": "Navigator + Window",
+      "modules": [
+        "navigator",
+        "window"
+      ],
+      "experiment": "Window Evaluation",
+      "label": "Navigator + Window",
+      "overall": 57.0,
+      "module_score": 100.0,
+      "cf_score": 61.4,
+      "total_diff": 171,
+      "improved": 9,
+      "regressed": 0,
+      "status": "completed",
+      "duration_seconds": null,
+      "duration": "N/A",
+      "final_mode": "navigator_window",
+      "source": "D:/bot_monitoring_cemeru/reports/experiments/exp_006",
+      "target_reached": true
+    },
+    {
+      "experiment_id": "exp_007",
+      "timestamp": "2026-08-02T23:27:46.188873+07:00",
+      "module": "screen",
+      "module_label": "Navigator + Window + Screen",
+      "modules": [
+        "navigator",
+        "window",
+        "screen"
+      ],
+      "experiment": "Screen Evaluation",
+      "label": "Navigator + Window + Screen",
+      "overall": 59.8,
+      "module_score": 100.0,
+      "cf_score": 63.8,
+      "total_diff": 168,
+      "improved": 4,
+      "regressed": 0,
+      "status": "completed",
+      "duration_seconds": null,
+      "duration": "N/A",
+      "final_mode": "navigator_window_screen",
+      "source": "D:/bot_monitoring_cemeru/reports/experiments/exp_007",
+      "target_reached": true
+    },
+    {
+      "experiment_id": "exp_008",
+      "timestamp": "2026-08-02T23:42:21.260919+07:00",
+      "module": "chrome",
+      "module_label": "Navigator + Window + Screen + Chrome",
+      "modules": [
+        "navigator",
+        "window",
+        "screen",
+        "chrome"
+      ],
+      "experiment": "Experiment 008 - Chrome Runtime Evaluation",
+      "label": "Navigator + Window + Screen + Chrome",
+      "overall": 65.8,
+      "module_score": 100.0,
+      "cf_score": 74.3,
+      "total_diff": 152,
+      "improved": 16,
+      "regressed": 0,
+      "status": "completed",
+      "duration_seconds": null,
+      "duration": "N/A",
+      "final_mode": "navigator_window_screen_chrome",
+      "source": "D:/bot_monitoring_cemeru/reports/experiments/exp_008",
+      "target_reached": true
+    }
+  ]
+}

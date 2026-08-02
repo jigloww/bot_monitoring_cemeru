@@ -77,13 +77,18 @@ _DEFAULT_REGISTRY = Registry()
 _MODULES_DIR = _HERE / "modules"
 _RUNTIME_DIR = _HERE / "runtime"
 
+# Runtime utilities must exist before any domain module executes. The
+# generated patch bundle remains last, preserving its precedence contract.
+for _rt in ("helpers", "utils", "proxy", "hooks"):
+    _DEFAULT_REGISTRY.add_js_file(_RUNTIME_DIR / f"{_rt}.js")
+
 for _name, _desc, _status in [
     ("navigator",   "navigator.* property overrides",   "active"),
     ("window",      "window.* property overrides",      "active"),
     ("screen",      "screen.* property overrides",      "active"),
     ("document",    "document.* property overrides",    "placeholder"),
-    ("permissions", "Permissions API spoofing",         "placeholder"),
-    ("chrome",      "Chrome runtime spoofing",          "placeholder"),
+    ("permissions", "Permissions API spoofing",         "active"),
+    ("chrome",      "Chrome runtime spoofing",          "active"),
     ("history",     "history.* overrides",              "placeholder"),
     ("location",    "location.* overrides",             "placeholder"),
     ("performance", "Performance timing spoofing",      "placeholder"),
@@ -93,10 +98,6 @@ for _name, _desc, _status in [
         description=_desc, status=_status,
         enabled=(_status == "active"),
     ))
-
-# Runtime utilities are always loaded first
-for _rt in ("helpers", "utils", "proxy", "hooks"):
-    _DEFAULT_REGISTRY.add_js_file(_RUNTIME_DIR / f"{_rt}.js")
 
 # Generated patches (highest priority — loaded last)
 _DEFAULT_REGISTRY.add_js_file(_HERE / "generated" / "patches_init.js")
