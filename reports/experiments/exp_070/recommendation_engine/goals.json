@@ -1,0 +1,506 @@
+{
+  "Highest Overall Similarity": [
+    {
+      "recommendation_id": "REC-001",
+      "title": "Align navigator.userAgent (Navigator) with the reference profile",
+      "category": "Navigator",
+      "goal_score": 40.515739,
+      "score": 41.814348
+    },
+    {
+      "recommendation_id": "REC-012",
+      "title": "Align navigator.language (Navigator) with the reference profile",
+      "category": "Navigator",
+      "goal_score": 37.522048,
+      "score": 41.32012
+    },
+    {
+      "recommendation_id": "REC-002",
+      "title": "Align navigator.userAgentData.brands[1].version (Navigator) with the reference profile",
+      "category": "Navigator",
+      "goal_score": 36.732557,
+      "score": 32.356392
+    },
+    {
+      "recommendation_id": "REC-003",
+      "title": "Align navigator.userAgentData.brands[2].version (Navigator) with the reference profile",
+      "category": "Navigator",
+      "goal_score": 36.732557,
+      "score": 32.356392
+    },
+    {
+      "recommendation_id": "REC-004",
+      "title": "Align navigator.userAgentData.high_entropy.brands[1].version (Navigator) with the reference profile",
+      "category": "Navigator",
+      "goal_score": 36.732557,
+      "score": 32.356392
+    },
+    {
+      "recommendation_id": "REC-005",
+      "title": "Align navigator.userAgentData.high_entropy.brands[2].version (Navigator) with the reference profile",
+      "category": "Navigator",
+      "goal_score": 36.732557,
+      "score": 32.356392
+    },
+    {
+      "recommendation_id": "REC-006",
+      "title": "Align navigator.userAgentData.high_entropy.fullVersionList[1].version (Navigator) with the reference profile",
+      "category": "Navigator",
+      "goal_score": 36.732557,
+      "score": 32.356392
+    },
+    {
+      "recommendation_id": "REC-007",
+      "title": "Align navigator.userAgentData.high_entropy.fullVersionList[2].version (Navigator) with the reference profile",
+      "category": "Navigator",
+      "goal_score": 36.732557,
+      "score": 32.356392
+    },
+    {
+      "recommendation_id": "REC-008",
+      "title": "Align navigator.userAgentData.high_entropy.platformVersion (Navigator) with the reference profile",
+      "category": "Navigator",
+      "goal_score": 36.732557,
+      "score": 32.356392
+    },
+    {
+      "recommendation_id": "REC-009",
+      "title": "Align navigator.userAgentData.high_entropy.uaFullVersion (Navigator) with the reference profile",
+      "category": "Navigator",
+      "goal_score": 36.732557,
+      "score": 32.356392
+    }
+  ],
+  "Highest CF Score": [
+    {
+      "recommendation_id": "REC-001",
+      "title": "Align navigator.userAgent (Navigator) with the reference profile",
+      "category": "Navigator",
+      "goal_score": 44.464304,
+      "score": 41.814348
+    },
+    {
+      "recommendation_id": "REC-002",
+      "title": "Align navigator.userAgentData.brands[1].version (Navigator) with the reference profile",
+      "category": "Navigator",
+      "goal_score": 41.626918,
+      "score": 32.356392
+    },
+    {
+      "recommendation_id": "REC-003",
+      "title": "Align navigator.userAgentData.brands[2].version (Navigator) with the reference profile",
+      "category": "Navigator",
+      "goal_score": 41.626918,
+      "score": 32.356392
+    },
+    {
+      "recommendation_id": "REC-004",
+      "title": "Align navigator.userAgentData.high_entropy.brands[1].version (Navigator) with the reference profile",
+      "category": "Navigator",
+      "goal_score": 41.626918,
+      "score": 32.356392
+    },
+    {
+      "recommendation_id": "REC-005",
+      "title": "Align navigator.userAgentData.high_entropy.brands[2].version (Navigator) with the reference profile",
+      "category": "Navigator",
+      "goal_score": 41.626918,
+      "score": 32.356392
+    },
+    {
+      "recommendation_id": "REC-006",
+      "title": "Align navigator.userAgentData.high_entropy.fullVersionList[1].version (Navigator) with the reference profile",
+      "category": "Navigator",
+      "goal_score": 41.626918,
+      "score": 32.356392
+    },
+    {
+      "recommendation_id": "REC-007",
+      "title": "Align navigator.userAgentData.high_entropy.fullVersionList[2].version (Navigator) with the reference profile",
+      "category": "Navigator",
+      "goal_score": 41.626918,
+      "score": 32.356392
+    },
+    {
+      "recommendation_id": "REC-008",
+      "title": "Align navigator.userAgentData.high_entropy.platformVersion (Navigator) with the reference profile",
+      "category": "Navigator",
+      "goal_score": 41.626918,
+      "score": 32.356392
+    },
+    {
+      "recommendation_id": "REC-009",
+      "title": "Align navigator.userAgentData.high_entropy.uaFullVersion (Navigator) with the reference profile",
+      "category": "Navigator",
+      "goal_score": 41.626918,
+      "score": 32.356392
+    },
+    {
+      "recommendation_id": "REC-012",
+      "title": "Align navigator.language (Navigator) with the reference profile",
+      "category": "Navigator",
+      "goal_score": 40.564036,
+      "score": 41.32012
+    }
+  ],
+  "Lowest Regression Risk": [
+    {
+      "recommendation_id": "REC-432",
+      "title": "Align features.ServiceWorker (Other) with the reference profile",
+      "category": "Unknown",
+      "goal_score": 75.85,
+      "score": 21.32554
+    },
+    {
+      "recommendation_id": "REC-433",
+      "title": "Align features.crypto_subtle (Other) with the reference profile",
+      "category": "Unknown",
+      "goal_score": 75.85,
+      "score": 21.32554
+    },
+    {
+      "recommendation_id": "REC-434",
+      "title": "Align gpu.available (Other) with the reference profile",
+      "category": "Unknown",
+      "goal_score": 75.85,
+      "score": 21.32554
+    },
+    {
+      "recommendation_id": "REC-435",
+      "title": "Align hardware_apis.bluetooth (Other) with the reference profile",
+      "category": "Unknown",
+      "goal_score": 75.85,
+      "score": 21.32554
+    },
+    {
+      "recommendation_id": "REC-436",
+      "title": "Align hardware_apis.clipboard (Other) with the reference profile",
+      "category": "Unknown",
+      "goal_score": 75.85,
+      "score": 21.325756
+    },
+    {
+      "recommendation_id": "REC-437",
+      "title": "Align hardware_apis.hid (Other) with the reference profile",
+      "category": "Unknown",
+      "goal_score": 75.85,
+      "score": 21.32554
+    },
+    {
+      "recommendation_id": "REC-438",
+      "title": "Align hardware_apis.keyboard (Other) with the reference profile",
+      "category": "Unknown",
+      "goal_score": 75.85,
+      "score": 21.325756
+    },
+    {
+      "recommendation_id": "REC-439",
+      "title": "Align hardware_apis.serial (Other) with the reference profile",
+      "category": "Unknown",
+      "goal_score": 75.85,
+      "score": 21.32554
+    },
+    {
+      "recommendation_id": "REC-440",
+      "title": "Align hardware_apis.usb (Other) with the reference profile",
+      "category": "Unknown",
+      "goal_score": 75.85,
+      "score": 21.325756
+    },
+    {
+      "recommendation_id": "REC-441",
+      "title": "Align media_capabilities.powerEfficient (Other) with the reference profile",
+      "category": "Unknown",
+      "goal_score": 75.85,
+      "score": 21.32554
+    }
+  ],
+  "Fastest Improvement": [
+    {
+      "recommendation_id": "REC-468",
+      "title": "Align history.length (Other) with the reference profile",
+      "category": "Unknown",
+      "goal_score": 17.523,
+      "score": 16.98704
+    },
+    {
+      "recommendation_id": "REC-445",
+      "title": "Align document.readyState (Other) with the reference profile",
+      "category": "Unknown",
+      "goal_score": 17.4555,
+      "score": 17.070182
+    },
+    {
+      "recommendation_id": "REC-432",
+      "title": "Align features.ServiceWorker (Other) with the reference profile",
+      "category": "Unknown",
+      "goal_score": 17.29,
+      "score": 21.32554
+    },
+    {
+      "recommendation_id": "REC-433",
+      "title": "Align features.crypto_subtle (Other) with the reference profile",
+      "category": "Unknown",
+      "goal_score": 17.29,
+      "score": 21.32554
+    },
+    {
+      "recommendation_id": "REC-434",
+      "title": "Align gpu.available (Other) with the reference profile",
+      "category": "Unknown",
+      "goal_score": 17.29,
+      "score": 21.32554
+    },
+    {
+      "recommendation_id": "REC-435",
+      "title": "Align hardware_apis.bluetooth (Other) with the reference profile",
+      "category": "Unknown",
+      "goal_score": 17.29,
+      "score": 21.32554
+    },
+    {
+      "recommendation_id": "REC-436",
+      "title": "Align hardware_apis.clipboard (Other) with the reference profile",
+      "category": "Unknown",
+      "goal_score": 17.29,
+      "score": 21.325756
+    },
+    {
+      "recommendation_id": "REC-437",
+      "title": "Align hardware_apis.hid (Other) with the reference profile",
+      "category": "Unknown",
+      "goal_score": 17.29,
+      "score": 21.32554
+    },
+    {
+      "recommendation_id": "REC-438",
+      "title": "Align hardware_apis.keyboard (Other) with the reference profile",
+      "category": "Unknown",
+      "goal_score": 17.29,
+      "score": 21.325756
+    },
+    {
+      "recommendation_id": "REC-439",
+      "title": "Align hardware_apis.serial (Other) with the reference profile",
+      "category": "Unknown",
+      "goal_score": 17.29,
+      "score": 21.32554
+    }
+  ],
+  "Minimum Engineering Effort": [
+    {
+      "recommendation_id": "REC-014",
+      "title": "Align intl.collator.locale (Environment) with the reference profile",
+      "category": "Unknown",
+      "goal_score": 30.904,
+      "score": 29.13977
+    },
+    {
+      "recommendation_id": "REC-015",
+      "title": "Align intl.listFormat.locale (Environment) with the reference profile",
+      "category": "Unknown",
+      "goal_score": 30.904,
+      "score": 29.13977
+    },
+    {
+      "recommendation_id": "REC-016",
+      "title": "Align intl.numberFormat.locale (Environment) with the reference profile",
+      "category": "Unknown",
+      "goal_score": 30.904,
+      "score": 29.13977
+    },
+    {
+      "recommendation_id": "REC-017",
+      "title": "Align timezone.locale (Environment) with the reference profile",
+      "category": "Unknown",
+      "goal_score": 30.904,
+      "score": 29.13977
+    },
+    {
+      "recommendation_id": "REC-018",
+      "title": "Align indexeddb.databases[0] (Storage) with the reference profile",
+      "category": "Unknown",
+      "goal_score": 30.564,
+      "score": 28.758258
+    },
+    {
+      "recommendation_id": "REC-019",
+      "title": "Align indexeddb.databases[1] (Storage) with the reference profile",
+      "category": "Unknown",
+      "goal_score": 30.564,
+      "score": 28.758258
+    },
+    {
+      "recommendation_id": "REC-022",
+      "title": "Align indexeddb.count (Storage) with the reference profile",
+      "category": "Unknown",
+      "goal_score": 29.98,
+      "score": 28.319458
+    },
+    {
+      "recommendation_id": "REC-023",
+      "title": "Align storage.localStorage_length (Storage) with the reference profile",
+      "category": "Unknown",
+      "goal_score": 29.98,
+      "score": 28.319458
+    },
+    {
+      "recommendation_id": "REC-024",
+      "title": "Align storage.sessionStorage_length (Storage) with the reference profile",
+      "category": "Unknown",
+      "goal_score": 29.98,
+      "score": 28.319458
+    },
+    {
+      "recommendation_id": "REC-025",
+      "title": "Align storage.caches_available (Storage) with the reference profile",
+      "category": "Unknown",
+      "goal_score": 29.544,
+      "score": 27.991758
+    }
+  ],
+  "Maximum ROI": [
+    {
+      "recommendation_id": "REC-014",
+      "title": "Align intl.collator.locale (Environment) with the reference profile",
+      "category": "Unknown",
+      "goal_score": 36.804943,
+      "score": 29.13977
+    },
+    {
+      "recommendation_id": "REC-015",
+      "title": "Align intl.listFormat.locale (Environment) with the reference profile",
+      "category": "Unknown",
+      "goal_score": 36.804943,
+      "score": 29.13977
+    },
+    {
+      "recommendation_id": "REC-016",
+      "title": "Align intl.numberFormat.locale (Environment) with the reference profile",
+      "category": "Unknown",
+      "goal_score": 36.804943,
+      "score": 29.13977
+    },
+    {
+      "recommendation_id": "REC-017",
+      "title": "Align timezone.locale (Environment) with the reference profile",
+      "category": "Unknown",
+      "goal_score": 36.804943,
+      "score": 29.13977
+    },
+    {
+      "recommendation_id": "REC-018",
+      "title": "Align indexeddb.databases[0] (Storage) with the reference profile",
+      "category": "Unknown",
+      "goal_score": 35.009565,
+      "score": 28.758258
+    },
+    {
+      "recommendation_id": "REC-019",
+      "title": "Align indexeddb.databases[1] (Storage) with the reference profile",
+      "category": "Unknown",
+      "goal_score": 35.009565,
+      "score": 28.758258
+    },
+    {
+      "recommendation_id": "REC-022",
+      "title": "Align indexeddb.count (Storage) with the reference profile",
+      "category": "Unknown",
+      "goal_score": 31.979864,
+      "score": 28.319458
+    },
+    {
+      "recommendation_id": "REC-023",
+      "title": "Align storage.localStorage_length (Storage) with the reference profile",
+      "category": "Unknown",
+      "goal_score": 31.979864,
+      "score": 28.319458
+    },
+    {
+      "recommendation_id": "REC-024",
+      "title": "Align storage.sessionStorage_length (Storage) with the reference profile",
+      "category": "Unknown",
+      "goal_score": 31.979864,
+      "score": 28.319458
+    },
+    {
+      "recommendation_id": "REC-025",
+      "title": "Align storage.caches_available (Storage) with the reference profile",
+      "category": "Unknown",
+      "goal_score": 29.71794,
+      "score": 27.991758
+    }
+  ],
+  "Maximum Knowledge Gain": [
+    {
+      "recommendation_id": "REC-012",
+      "title": "Align navigator.language (Navigator) with the reference profile",
+      "category": "Navigator",
+      "goal_score": 12.0576,
+      "score": 41.32012
+    },
+    {
+      "recommendation_id": "REC-001",
+      "title": "Align navigator.userAgent (Navigator) with the reference profile",
+      "category": "Navigator",
+      "goal_score": 4.27674,
+      "score": 41.814348
+    },
+    {
+      "recommendation_id": "REC-207",
+      "title": "Align webgl.aliased_point_size_range[1] (WebGL) with the reference profile",
+      "category": "WebGL",
+      "goal_score": 3.69576,
+      "score": 14.336052
+    },
+    {
+      "recommendation_id": "REC-239",
+      "title": "Align performance.now (Performance) with the reference profile",
+      "category": "Performance",
+      "goal_score": 1.8897,
+      "score": 21.00259
+    },
+    {
+      "recommendation_id": "REC-014",
+      "title": "Align intl.collator.locale (Environment) with the reference profile",
+      "category": "Unknown",
+      "goal_score": 1.0161,
+      "score": 29.13977
+    },
+    {
+      "recommendation_id": "REC-015",
+      "title": "Align intl.listFormat.locale (Environment) with the reference profile",
+      "category": "Unknown",
+      "goal_score": 1.0161,
+      "score": 29.13977
+    },
+    {
+      "recommendation_id": "REC-016",
+      "title": "Align intl.numberFormat.locale (Environment) with the reference profile",
+      "category": "Unknown",
+      "goal_score": 1.0161,
+      "score": 29.13977
+    },
+    {
+      "recommendation_id": "REC-017",
+      "title": "Align timezone.locale (Environment) with the reference profile",
+      "category": "Unknown",
+      "goal_score": 1.0161,
+      "score": 29.13977
+    },
+    {
+      "recommendation_id": "REC-002",
+      "title": "Align navigator.userAgentData.brands[1].version (Navigator) with the reference profile",
+      "category": "Navigator",
+      "goal_score": 0.78696,
+      "score": 32.356392
+    },
+    {
+      "recommendation_id": "REC-003",
+      "title": "Align navigator.userAgentData.brands[2].version (Navigator) with the reference profile",
+      "category": "Navigator",
+      "goal_score": 0.78696,
+      "score": 32.356392
+    }
+  ]
+}

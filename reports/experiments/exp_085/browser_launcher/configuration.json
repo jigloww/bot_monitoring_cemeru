@@ -1,0 +1,72 @@
+{
+  "serialized": {
+    "browser": "chrome",
+    "executable_path": null,
+    "channel": "",
+    "headless": false,
+    "persistent": true,
+    "profile_path": "profiles/demo",
+    "user_data_dir": null,
+    "viewport": {
+      "width": 1366,
+      "height": 768
+    },
+    "locale": "en-US",
+    "timezone": "Asia/Jakarta",
+    "downloads_dir": "downloads",
+    "permissions": [
+      "notifications"
+    ],
+    "proxy": null,
+    "args": [
+      "--disable-gpu"
+    ],
+    "env": {
+      "BROWSER_TEST": "1"
+    },
+    "geolocation": null,
+    "color_scheme": null,
+    "reduced_motion": null,
+    "java_script_enabled": true,
+    "accept_downloads": true,
+    "ignore_https_errors": false,
+    "enable_stealth": true,
+    "url": "about:blank",
+    "timeout": 60000
+  },
+  "round_trip": {
+    "browser": "chrome",
+    "executable_path": null,
+    "channel": "",
+    "headless": false,
+    "persistent": true,
+    "profile_path": "profiles/demo",
+    "user_data_dir": null,
+    "viewport": {
+      "width": 1366,
+      "height": 768
+    },
+    "locale": "en-US",
+    "timezone": "Asia/Jakarta",
+    "downloads_dir": "downloads",
+    "permissions": [
+      "notifications"
+    ],
+    "proxy": null,
+    "args": [
+      "--disable-gpu"
+    ],
+    "env": {
+      "BROWSER_TEST": "1"
+    },
+    "geolocation": null,
+    "color_scheme": null,
+    "reduced_motion": null,
+    "java_script_enabled": true,
+    "accept_downloads": true,
+    "ignore_https_errors": false,
+    "enable_stealth": true,
+    "url": "about:blank",
+    "timeout": 60000
+  }
+}

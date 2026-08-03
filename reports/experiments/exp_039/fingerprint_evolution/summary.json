@@ -1,0 +1,203 @@
+{
+  "experiment": "Experiment 022 — Fingerprint Evolution Tracker",
+  "experiment_id": "exp_039",
+  "total_experiments": 36,
+  "processed_experiments": 12,
+  "missing_artifacts": [
+    "compare",
+    "fingerprint",
+    "score",
+    "statistics",
+    "summary"
+  ],
+  "overall_best": {
+    "experiment_id": "exp_014",
+    "experiment_name": "Experiment 014 - WebGL Evaluation",
+    "timestamp": "2026-08-03T08:33:18.664842+07:00",
+    "overall_score": 78.9,
+    "cf_score": 84.8,
+    "category_scores": {
+      "Navigator": 70.9,
+      "WebGL": 93.8,
+      "Canvas": 50.0,
+      "Audio": 100.0,
+      "Chrome": 100.0,
+      "Plugins": 100.0,
+      "Fonts": 100.0,
+      "Window": 100.0,
+      "Screen": 100.0,
+      "Permissions": 100.0,
+      "Speech": 100.0,
+      "Performance": 90.0,
+      "Storage": 0.0,
+      "Battery": 0.0,
+      "RTC": 100.0,
+      "Features": 83.3,
+      "Other": 52.5
+    },
+    "total_diff": 72.0,
+    "improved": [],
+    "regressed": [],
+    "fingerprint_hash": null,
+    "environment_hash": null,
+    "profile_hash": null,
+    "module_hashes": {},
+    "result": "UNKNOWN",
+    "missing_artifacts": [
+      "statistics"
+    ],
+    "source_artifacts": {
+      "summary": "exp_014\\webgl\\summary.json",
+      "score": "exp_014\\webgl\\previous_stack_webgl\\score.json",
+      "compare": "exp_014\\webgl\\previous_stack_webgl\\compare.json",
+      "fingerprint": "exp_014\\webgl\\fingerprint.json",
+      "statistics": null
+    },
+    "has_observation": true
+  },
+  "cf_best": {
+    "experiment_id": "exp_014",
+    "experiment_name": "Experiment 014 - WebGL Evaluation",
+    "timestamp": "2026-08-03T08:33:18.664842+07:00",
+    "overall_score": 78.9,
+    "cf_score": 84.8,
+    "category_scores": {
+      "Navigator": 70.9,
+      "WebGL": 93.8,
+      "Canvas": 50.0,
+      "Audio": 100.0,
+      "Chrome": 100.0,
+      "Plugins": 100.0,
+      "Fonts": 100.0,
+      "Window": 100.0,
+      "Screen": 100.0,
+      "Permissions": 100.0,
+      "Speech": 100.0,
+      "Performance": 90.0,
+      "Storage": 0.0,
+      "Battery": 0.0,
+      "RTC": 100.0,
+      "Features": 83.3,
+      "Other": 52.5
+    },
+    "total_diff": 72.0,
+    "improved": [],
+    "regressed": [],
+    "fingerprint_hash": null,
+    "environment_hash": null,
+    "profile_hash": null,
+    "module_hashes": {},
+    "result": "UNKNOWN",
+    "missing_artifacts": [
+      "statistics"
+    ],
+    "source_artifacts": {
+      "summary": "exp_014\\webgl\\summary.json",
+      "score": "exp_014\\webgl\\previous_stack_webgl\\score.json",
+      "compare": "exp_014\\webgl\\previous_stack_webgl\\compare.json",
+      "fingerprint": "exp_014\\webgl\\fingerprint.json",
+      "statistics": null
+    },
+    "has_observation": true
+  },
+  "lowest_diff": {
+    "experiment_id": "exp_014",
+    "experiment_name": "Experiment 014 - WebGL Evaluation",
+    "timestamp": "2026-08-03T08:33:18.664842+07:00",
+    "overall_score": 78.9,
+    "cf_score": 84.8,
+    "category_scores": {
+      "Navigator": 70.9,
+      "WebGL": 93.8,
+      "Canvas": 50.0,
+      "Audio": 100.0,
+      "Chrome": 100.0,
+      "Plugins": 100.0,
+      "Fonts": 100.0,
+      "Window": 100.0,
+      "Screen": 100.0,
+      "Permissions": 100.0,
+      "Speech": 100.0,
+      "Performance": 90.0,
+      "Storage": 0.0,
+      "Battery": 0.0,
+      "RTC": 100.0,
+      "Features": 83.3,
+      "Other": 52.5
+    },
+    "total_diff": 72.0,
+    "improved": [],
+    "regressed": [],
+    "fingerprint_hash": null,
+    "environment_hash": null,
+    "profile_hash": null,
+    "module_hashes": {},
+    "result": "UNKNOWN",
+    "missing_artifacts": [
+      "statistics"
+    ],
+    "source_artifacts": {
+      "summary": "exp_014\\webgl\\summary.json",
+      "score": "exp_014\\webgl\\previous_stack_webgl\\score.json",
+      "compare": "exp_014\\webgl\\previous_stack_webgl\\compare.json",
+      "fingerprint": "exp_014\\webgl\\fingerprint.json",
+      "statistics": null
+    },
+    "has_observation": true
+  },
+  "largest_improvement": {
+    "from": "exp_010",
+    "to": "exp_011",
+    "score_delta": 5.7,
+    "cf_score_delta": 3.8,
+    "diff_delta": -66.0,
+    "hash_change": false,
+    "new_modules": [],
+    "removed_modules": [],
+    "category_improvement": [
+      {
+        "category": "Speech",
+        "delta": 100.0
+      }
+    ],
+    "category_regression": [
+      {
+        "category": "Navigator",
+        "delta": -3.6
+      }
+    ],
+    "missing_categories": [],
+    "missing_artifacts": [
+      "statistics"
+    ],
+    "result": "UNKNOWN"
+  },
+  "largest_regression": null,
+  "stability": {
+    "classification": "UNSTABLE",
+    "overall_variance": 70.7,
+    "score_consistency": 15.92,
+    "fingerprint_consistency": 0.0,
+    "environment_consistency": 0.0,
+    "profile_consistency": 0.0,
+    "module_consistency": 0.0
+  },
+  "current_score": 78.9,
+  "current_diff": 72.0,
+  "current_rank": 1,
+  "trend": "improving",
+  "result": "SUCCESS",
+  "statistics": {
+    "total_experiments": 36,
+    "processed_experiments": 12,
+    "missing_artifact_count": 5,
+    "overall_variance": 70.7,
+    "score_consistency": 15.92,
+    "fingerprint_consistency": 0.0,
+    "environment_consistency": 0.0,
+    "profile_consistency": 0.0,
+    "module_consistency": 0.0,
+    "regression_count": 41,
+    "average_overall": 68.4
+  }
+}

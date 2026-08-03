@@ -1,0 +1,9 @@
+{
+  "experiment_id": "exp_030",
+  "runs": [
+    {
+      "status": "UNKNOWN",
+      "error": "No module named 'playwright'"
+    }
+  ]
+}

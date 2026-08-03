@@ -1,0 +1,30 @@
+{
+  "experiment_id": "exp_025",
+  "runs": [
+    {
+      "run_id": "run_001",
+      "events": [
+        {
+          "sequence": 1,
+          "timestamp": "2026-08-03T10:38:27.003280+07:00",
+          "relative_time_ms": 18.75,
+          "event": "Browser Error",
+          "category": "errors",
+          "details": {
+            "error": "No module named 'playwright'"
+          },
+          "severity": "error"
+        },
+        {
+          "sequence": 2,
+          "timestamp": "2026-08-03T10:38:27.003280+07:00",
+          "relative_time_ms": 18.77,
+          "event": "Browser Closed",
+          "category": "lifecycle",
+          "details": {},
+          "severity": "info"
+        }
+      ]
+    }
+  ]
+}

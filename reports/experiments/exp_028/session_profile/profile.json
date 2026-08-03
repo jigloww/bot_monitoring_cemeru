@@ -1,0 +1,15 @@
+{
+  "experiment_id": "exp_028",
+  "runs": [
+    {
+      "persistent": false,
+      "temporary": true,
+      "incognito": true,
+      "user_data_directory": null,
+      "context_options": {
+        "headless": true,
+        "channel": "chromium"
+      }
+    }
+  ]
+}

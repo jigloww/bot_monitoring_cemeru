@@ -1,0 +1,36 @@
+{
+  "total_nodes": 2096,
+  "total_edges": 5716,
+  "node_types": {
+    "Browser API": 2,
+    "Browser Feature": 27,
+    "Experiment": 55,
+    "Fingerprint Property": 880,
+    "Module": 12,
+    "Recommendation": 174,
+    "Risk Item": 471,
+    "Sprint": 4,
+    "Task": 471
+  },
+  "edge_types": {
+    "correlates_with": 5,
+    "depends_on": 636,
+    "derived_from": 471,
+    "implemented_by": 471,
+    "improves": 33,
+    "recommended_by": 471,
+    "regresses": 1,
+    "same_category": 872,
+    "same_module": 872,
+    "scheduled_in": 471,
+    "validated_by": 1413
+  },
+  "component_count": 35,
+  "scc_count": 2,
+  "orphan_count": 31,
+  "hub_count": 10,
+  "bridge_count": 10,
+  "source_count": 20,
+  "browser_launches": 0,
+  "network_requests": 0
+}

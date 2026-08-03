@@ -1,0 +1,10 @@
+{
+  "browser_launches": 0,
+  "network_requests": 0,
+  "fake_launcher_invocations": 1,
+  "monitoring_python_files": 13,
+  "direct_launch_count": 0,
+  "launch_browser_call_count": 1,
+  "sync_playwright_lifecycle_count": 1,
+  "startup_status": "UNKNOWN"
+}

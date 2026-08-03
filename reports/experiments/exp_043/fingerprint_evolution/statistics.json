@@ -1,0 +1,14 @@
+{
+  "total_experiments": 40,
+  "processed_experiments": 12,
+  "missing_artifact_count": 5,
+  "overall_variance": 70.7,
+  "score_consistency": 15.92,
+  "stability_score": 15.92,
+  "fingerprint_consistency": 0.0,
+  "environment_consistency": 0.0,
+  "profile_consistency": 0.0,
+  "module_consistency": 17.5,
+  "regression_count": 45,
+  "average_overall": 68.4
+}

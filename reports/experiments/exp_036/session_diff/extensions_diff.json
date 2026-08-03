@@ -1,0 +1,95 @@
+{
+  "domain": "extensions",
+  "session_a": "D:\\bot_monitoring_cemeru\\reports\\experiments\\exp_031\\session_profile",
+  "session_b": "D:\\bot_monitoring_cemeru\\reports\\experiments\\exp_032\\session_profile",
+  "changes": [
+    {
+      "path": "extensions$.experiment_id",
+      "old_value": "exp_031",
+      "new_value": "exp_032",
+      "status": "UNKNOWN",
+      "severity": "INFO",
+      "reason": "Experiment metadata is intentionally excluded from similarity.",
+      "confidence": "High"
+    },
+    {
+      "path": "extensions$.runs[0].contents_read",
+      "old_value": false,
+      "new_value": false,
+      "status": "UNCHANGED",
+      "severity": "MEDIUM",
+      "reason": "The snapshot values are equal.",
+      "confidence": "High"
+    },
+    {
+      "path": "extensions$.runs[0].count",
+      "old_value": 0,
+      "new_value": 0,
+      "status": "UNCHANGED",
+      "severity": "MEDIUM",
+      "reason": "The snapshot values are equal.",
+      "confidence": "High"
+    },
+    {
+      "path": "extensions$.runs[0].ids",
+      "old_value": [],
+      "new_value": [],
+      "status": "UNCHANGED",
+      "severity": "MEDIUM",
+      "reason": "The snapshot values are equal.",
+      "confidence": "Medium"
+    },
+    {
+      "path": "extensions$.runs[0].manifest_versions",
+      "old_value": [],
+      "new_value": [],
+      "status": "UNCHANGED",
+      "severity": "MEDIUM",
+      "reason": "The snapshot values are equal.",
+      "confidence": "Medium"
+    },
+    {
+      "path": "extensions$.runs[0].origins",
+      "old_value": [],
+      "new_value": [],
+      "status": "UNCHANGED",
+      "severity": "MEDIUM",
+      "reason": "The snapshot values are equal.",
+      "confidence": "Medium"
+    },
+    {
+      "path": "extensions$.runs[0].source",
+      "old_value": "not_exposed_to_web_context",
+      "new_value": "not_exposed_to_web_context",
+      "status": "UNCHANGED",
+      "severity": "MEDIUM",
+      "reason": "The snapshot values are equal.",
+      "confidence": "High"
+    },
+    {
+      "path": "extensions$.runs[0].supported",
+      "old_value": false,
+      "new_value": false,
+      "status": "UNCHANGED",
+      "severity": "MEDIUM",
+      "reason": "The snapshot values are equal.",
+      "confidence": "High"
+    }
+  ],
+  "statistics": {
+    "total_fields": 8,
+    "unchanged_fields": 7,
+    "changed_fields": 0,
+    "added_fields": 0,
+    "removed_fields": 0,
+    "unknown_fields": 1,
+    "comparable_fields": 7,
+    "similarity": 100.0,
+    "info_changes": 1,
+    "low_changes": 0,
+    "medium_changes": 0,
+    "high_changes": 0,
+    "critical_changes": 0
+  },
+  "source_unknown": false
+}

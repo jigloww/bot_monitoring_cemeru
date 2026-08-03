@@ -27,11 +27,13 @@ import requests
 
 from playwright.sync_api import sync_playwright
 from playwright.sync_api import TimeoutError as PlaywrightTimeout
-from playwright_stealth  import Stealth
 
+from browser.config import BrowserConfig
+from browser.launcher import launch_browser
 from bot.constants      import BASE_URL
 from bot.logger         import logger
 from bot.website_status import WebsiteError, WebsiteStatus
+from stealth.apply      import apply_stealth_context
 
 
 # ==================================================
@@ -407,53 +409,27 @@ _LAUNCH_ARGS = [
     "--disable-blink-features=AutomationControlled",
 ]
 
-# Opsi context yang sama dipakai oleh Chrome maupun Chromium
-_CONTEXT_OPTIONS: dict = dict(
-    user_data_dir       = str(_BROWSER_PROFILE_DIR),
-    headless            = True,
-    args                = _LAUNCH_ARGS,
-    user_agent          = _USER_AGENT,
-    viewport            = {"width": 1366, "height": 768},
-    locale              = "id-ID",
-    timezone_id         = "Asia/Jakarta",
-    color_scheme        = "light",
-    java_script_enabled = True,
-    extra_http_headers  = {
-        "Accept-Language": "id-ID,id;q=0.9,en;q=0.8",
-    },
-)
-
-
-def _launch_context(pw):
-    """
-    Coba launch Google Chrome Stable terlebih dahulu.
-    Jika Chrome tidak tersedia / gagal, fallback ke Chromium bawaan Playwright.
-
-    Urutan:
-        1. pw.chromium.launch_persistent_context(..., channel="chrome")
-        2. pw.chromium.launch_persistent_context(...)  ← tanpa channel
-
-    Returns:
-        BrowserContext yang sudah siap dipakai.
-    """
-    # Coba Google Chrome Stable
-    logger.info("[CLIENT] Launching Google Chrome...")
-    try:
-        context = pw.chromium.launch_persistent_context(
-            channel = "chrome",
-            **_CONTEXT_OPTIONS,
-        )
-        logger.info("[CLIENT] Google Chrome launched successfully.")
-        return context
-
-    except Exception as chrome_exc:
-        logger.warning(f"[CLIENT] Google Chrome not found. ({chrome_exc})")
-        logger.info("[CLIENT] Falling back to bundled Chromium.")
-
-    # Fallback: Chromium bawaan Playwright
-    context = pw.chromium.launch_persistent_context(**_CONTEXT_OPTIONS)
-    logger.info("[CLIENT] Bundled Chromium launched successfully.")
-    return context
+def _browser_config() -> BrowserConfig:
+    """Translate existing monitoring settings to the shared launcher API."""
+    return BrowserConfig(
+        browser="chrome",
+        headless=True,
+        persistent=True,
+        profile_path=_BROWSER_PROFILE_DIR,
+        args=list(_LAUNCH_ARGS),
+        user_agent=_USER_AGENT,
+        viewport=(1366, 768),
+        locale="id-ID",
+        timezone="Asia/Jakarta",
+        color_scheme="light",
+        java_script_enabled=True,
+        extra_http_headers={
+            "Accept-Language": "id-ID,id;q=0.9,en;q=0.8",
+        },
+        enable_stealth=True,
+        url="about:blank",
+        timeout=30_000,
+    )
 
 
 # ==================================================
@@ -471,22 +447,25 @@ def _run_in_browser(callback) -> object:
     Raises:
         WebsiteError: Jika terjadi error saat membuka halaman atau challenge timeout.
     """
-    _BROWSER_PROFILE_DIR.mkdir(parents=True, exist_ok=True)
-
     # [9] Performance Timing — t0: start
     t_start = time.monotonic()
+    session = None
 
     try:
         with sync_playwright() as pw:
 
             # [9] Launch timing
             t_launch = time.monotonic()
-            context  = _launch_context(pw)
+            session = launch_browser(
+                _browser_config(),
+                playwright=pw,
+                stealth_hook=apply_stealth_context,
+            )
+            context = session.context
+            page = session.page
             logger.info(
                 f"[CLIENT] [TIMING] Launch     : {time.monotonic() - t_launch:.2f}s"
             )
-
-            page = context.new_page()
 
             # [7][8] Pasang event listener console, pageerror, requestfailed, response
             _attach_event_listeners(page)
@@ -494,11 +473,6 @@ def _run_in_browser(callback) -> object:
             # Terapkan stealth sebelum navigasi apapun
             # agar fingerprint headless tidak terdeteksi Cloudflare
             t_stealth = time.monotonic()
-            Stealth(
-                navigator_languages_override = ("id-ID", "id", "en-US", "en"),
-                navigator_platform_override  = "Win32",
-                navigator_vendor_override    = "Google Inc.",
-            ).use_sync(page)
             logger.info("[CLIENT] Stealth applied")
             logger.info(
                 f"[CLIENT] [TIMING] Stealth    : {time.monotonic() - t_stealth:.2f}s"
@@ -513,7 +487,7 @@ def _run_in_browser(callback) -> object:
                 # tidak pernah mencapai networkidle sehingga selalu timeout
                 page.goto(BASE_URL, wait_until="domcontentloaded", timeout=30_000)
             except PlaywrightTimeout as exc:
-                context.close()
+                session.close()
                 raise WebsiteError(
                     WebsiteStatus.TIMEOUT,
                     "Timeout saat membuka halaman website",
@@ -544,7 +518,7 @@ def _run_in_browser(callback) -> object:
             # Jalankan callback dengan page dan context yang sudah terbypass
             result = callback(page, context)
 
-            context.close()   # Profile tersimpan ke disk
+            session.close()   # Profile tersimpan ke disk
 
             # [9] Total browser lifetime
             logger.info(
@@ -559,6 +533,9 @@ def _run_in_browser(callback) -> object:
         if any(k in msg for k in ("ERR_NAME_NOT_RESOLVED", "getaddrinfo", "nodename")):
             raise WebsiteError(WebsiteStatus.DNS_ERROR, msg) from exc
         raise WebsiteError(WebsiteStatus.UNKNOWN, msg) from exc
+    finally:
+        if session is not None:
+            session.close()
 
 
 def _extract_session(page, context) -> requests.Session:

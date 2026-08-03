@@ -1,0 +1,4243 @@
+{
+  "roi": [
+    {
+      "rank": 1,
+      "task_id": "OPT-014",
+      "property": "intl.collator.locale",
+      "roi": 0.2952,
+      "expected_gain": 0.2952,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 2,
+      "task_id": "OPT-015",
+      "property": "intl.listFormat.locale",
+      "roi": 0.2952,
+      "expected_gain": 0.2952,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 3,
+      "task_id": "OPT-016",
+      "property": "intl.numberFormat.locale",
+      "roi": 0.2952,
+      "expected_gain": 0.2952,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 4,
+      "task_id": "OPT-017",
+      "property": "timezone.locale",
+      "roi": 0.2952,
+      "expected_gain": 0.2952,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 5,
+      "task_id": "OPT-018",
+      "property": "indexeddb.databases[0]",
+      "roi": 0.2782,
+      "expected_gain": 0.2782,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 6,
+      "task_id": "OPT-019",
+      "property": "indexeddb.databases[1]",
+      "roi": 0.2782,
+      "expected_gain": 0.2782,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 7,
+      "task_id": "OPT-022",
+      "property": "indexeddb.count",
+      "roi": 0.249,
+      "expected_gain": 0.249,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 8,
+      "task_id": "OPT-023",
+      "property": "storage.localStorage_length",
+      "roi": 0.249,
+      "expected_gain": 0.249,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 9,
+      "task_id": "OPT-024",
+      "property": "storage.sessionStorage_length",
+      "roi": 0.249,
+      "expected_gain": 0.249,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 10,
+      "task_id": "OPT-025",
+      "property": "storage.caches_available",
+      "roi": 0.2272,
+      "expected_gain": 0.2272,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 11,
+      "task_id": "OPT-026",
+      "property": "storage.cookieStore_available",
+      "roi": 0.2272,
+      "expected_gain": 0.2272,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 12,
+      "task_id": "OPT-027",
+      "property": "storage.indexedDB_available",
+      "roi": 0.2272,
+      "expected_gain": 0.2272,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 13,
+      "task_id": "OPT-028",
+      "property": "indexeddb",
+      "roi": 0.2247,
+      "expected_gain": 0.2247,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 14,
+      "task_id": "OPT-029",
+      "property": "storage",
+      "roi": 0.2247,
+      "expected_gain": 0.2247,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 15,
+      "task_id": "OPT-030",
+      "property": "document.cookie_names[0]",
+      "roi": 0.2235,
+      "expected_gain": 0.2235,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 16,
+      "task_id": "OPT-031",
+      "property": "document.domain",
+      "roi": 0.2235,
+      "expected_gain": 0.2235,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 17,
+      "task_id": "OPT-032",
+      "property": "document.referrer",
+      "roi": 0.2235,
+      "expected_gain": 0.2235,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 18,
+      "task_id": "OPT-033",
+      "property": "navigator_own_keys[40]",
+      "roi": 0.2235,
+      "expected_gain": 0.2235,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 19,
+      "task_id": "OPT-034",
+      "property": "navigator_own_keys[41]",
+      "roi": 0.2235,
+      "expected_gain": 0.2235,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 20,
+      "task_id": "OPT-035",
+      "property": "navigator_own_keys[46]",
+      "roi": 0.2235,
+      "expected_gain": 0.2235,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 21,
+      "task_id": "OPT-036",
+      "property": "navigator_own_keys[53]",
+      "roi": 0.2235,
+      "expected_gain": 0.2235,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 22,
+      "task_id": "OPT-037",
+      "property": "navigator_own_keys[54]",
+      "roi": 0.2235,
+      "expected_gain": 0.2235,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 23,
+      "task_id": "OPT-038",
+      "property": "navigator_own_keys[55]",
+      "roi": 0.2235,
+      "expected_gain": 0.2235,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 24,
+      "task_id": "OPT-039",
+      "property": "navigator_own_keys[56]",
+      "roi": 0.2235,
+      "expected_gain": 0.2235,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 25,
+      "task_id": "OPT-040",
+      "property": "navigator_own_keys[61]",
+      "roi": 0.2235,
+      "expected_gain": 0.2235,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 26,
+      "task_id": "OPT-041",
+      "property": "navigator_own_keys[65]",
+      "roi": 0.2235,
+      "expected_gain": 0.2235,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 27,
+      "task_id": "OPT-042",
+      "property": "navigator_own_keys[66]",
+      "roi": 0.2235,
+      "expected_gain": 0.2235,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 28,
+      "task_id": "OPT-043",
+      "property": "navigator_own_keys[67]",
+      "roi": 0.2235,
+      "expected_gain": 0.2235,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 29,
+      "task_id": "OPT-044",
+      "property": "navigator_own_keys[69]",
+      "roi": 0.2235,
+      "expected_gain": 0.2235,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 30,
+      "task_id": "OPT-045",
+      "property": "navigator_own_keys[71]",
+      "roi": 0.2235,
+      "expected_gain": 0.2235,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 31,
+      "task_id": "OPT-046",
+      "property": "navigator_own_keys[75]",
+      "roi": 0.2235,
+      "expected_gain": 0.2235,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 32,
+      "task_id": "OPT-047",
+      "property": "navigator_own_keys[78]",
+      "roi": 0.2235,
+      "expected_gain": 0.2235,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 33,
+      "task_id": "OPT-048",
+      "property": "navigator_own_keys[79]",
+      "roi": 0.2235,
+      "expected_gain": 0.2235,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 34,
+      "task_id": "OPT-049",
+      "property": "navigator_own_keys[80]",
+      "roi": 0.2235,
+      "expected_gain": 0.2235,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 35,
+      "task_id": "OPT-050",
+      "property": "navigator_own_keys[81]",
+      "roi": 0.2235,
+      "expected_gain": 0.2235,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 36,
+      "task_id": "OPT-051",
+      "property": "window_keys[239]",
+      "roi": 0.2235,
+      "expected_gain": 0.2235,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 37,
+      "task_id": "OPT-052",
+      "property": "window_keys[242]",
+      "roi": 0.2235,
+      "expected_gain": 0.2235,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 38,
+      "task_id": "OPT-053",
+      "property": "window_keys[243]",
+      "roi": 0.2235,
+      "expected_gain": 0.2235,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 39,
+      "task_id": "OPT-054",
+      "property": "window_keys[244]",
+      "roi": 0.2235,
+      "expected_gain": 0.2235,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 40,
+      "task_id": "OPT-055",
+      "property": "window_keys[245]",
+      "roi": 0.2235,
+      "expected_gain": 0.2235,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 41,
+      "task_id": "OPT-056",
+      "property": "window_keys[246]",
+      "roi": 0.2235,
+      "expected_gain": 0.2235,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 42,
+      "task_id": "OPT-057",
+      "property": "window_keys[250]",
+      "roi": 0.2235,
+      "expected_gain": 0.2235,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 43,
+      "task_id": "OPT-058",
+      "property": "window_keys[258]",
+      "roi": 0.2235,
+      "expected_gain": 0.2235,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 44,
+      "task_id": "OPT-059",
+      "property": "window_keys[259]",
+      "roi": 0.2235,
+      "expected_gain": 0.2235,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 45,
+      "task_id": "OPT-060",
+      "property": "window_keys[260]",
+      "roi": 0.2235,
+      "expected_gain": 0.2235,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 46,
+      "task_id": "OPT-061",
+      "property": "window_keys[261]",
+      "roi": 0.2235,
+      "expected_gain": 0.2235,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 47,
+      "task_id": "OPT-062",
+      "property": "window_keys[262]",
+      "roi": 0.2235,
+      "expected_gain": 0.2235,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 48,
+      "task_id": "OPT-063",
+      "property": "navigator_own_keys[0]",
+      "roi": 0.2187,
+      "expected_gain": 0.2187,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 49,
+      "task_id": "OPT-064",
+      "property": "navigator_own_keys[10]",
+      "roi": 0.2187,
+      "expected_gain": 0.2187,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 50,
+      "task_id": "OPT-065",
+      "property": "navigator_own_keys[12]",
+      "roi": 0.2187,
+      "expected_gain": 0.2187,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 51,
+      "task_id": "OPT-066",
+      "property": "navigator_own_keys[13]",
+      "roi": 0.2187,
+      "expected_gain": 0.2187,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 52,
+      "task_id": "OPT-067",
+      "property": "navigator_own_keys[15]",
+      "roi": 0.2187,
+      "expected_gain": 0.2187,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 53,
+      "task_id": "OPT-068",
+      "property": "navigator_own_keys[16]",
+      "roi": 0.2187,
+      "expected_gain": 0.2187,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 54,
+      "task_id": "OPT-069",
+      "property": "navigator_own_keys[17]",
+      "roi": 0.2187,
+      "expected_gain": 0.2187,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 55,
+      "task_id": "OPT-070",
+      "property": "navigator_own_keys[19]",
+      "roi": 0.2187,
+      "expected_gain": 0.2187,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 56,
+      "task_id": "OPT-071",
+      "property": "navigator_own_keys[20]",
+      "roi": 0.2187,
+      "expected_gain": 0.2187,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 57,
+      "task_id": "OPT-072",
+      "property": "navigator_own_keys[24]",
+      "roi": 0.2187,
+      "expected_gain": 0.2187,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 58,
+      "task_id": "OPT-073",
+      "property": "navigator_own_keys[25]",
+      "roi": 0.2187,
+      "expected_gain": 0.2187,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 59,
+      "task_id": "OPT-074",
+      "property": "navigator_own_keys[28]",
+      "roi": 0.2187,
+      "expected_gain": 0.2187,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 60,
+      "task_id": "OPT-075",
+      "property": "navigator_own_keys[30]",
+      "roi": 0.2187,
+      "expected_gain": 0.2187,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 61,
+      "task_id": "OPT-076",
+      "property": "navigator_own_keys[32]",
+      "roi": 0.2187,
+      "expected_gain": 0.2187,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 62,
+      "task_id": "OPT-077",
+      "property": "navigator_own_keys[35]",
+      "roi": 0.2187,
+      "expected_gain": 0.2187,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 63,
+      "task_id": "OPT-078",
+      "property": "navigator_own_keys[36]",
+      "roi": 0.2187,
+      "expected_gain": 0.2187,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 64,
+      "task_id": "OPT-079",
+      "property": "navigator_own_keys[37]",
+      "roi": 0.2187,
+      "expected_gain": 0.2187,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 65,
+      "task_id": "OPT-080",
+      "property": "navigator_own_keys[5]",
+      "roi": 0.2187,
+      "expected_gain": 0.2187,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 66,
+      "task_id": "OPT-081",
+      "property": "navigator_own_keys[7]",
+      "roi": 0.2187,
+      "expected_gain": 0.2187,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 67,
+      "task_id": "OPT-082",
+      "property": "navigator_own_keys[8]",
+      "roi": 0.2187,
+      "expected_gain": 0.2187,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 68,
+      "task_id": "OPT-083",
+      "property": "window_keys[101]",
+      "roi": 0.2187,
+      "expected_gain": 0.2187,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 69,
+      "task_id": "OPT-084",
+      "property": "window_keys[102]",
+      "roi": 0.2187,
+      "expected_gain": 0.2187,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 70,
+      "task_id": "OPT-085",
+      "property": "window_keys[103]",
+      "roi": 0.2187,
+      "expected_gain": 0.2187,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 71,
+      "task_id": "OPT-086",
+      "property": "window_keys[104]",
+      "roi": 0.2187,
+      "expected_gain": 0.2187,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 72,
+      "task_id": "OPT-087",
+      "property": "window_keys[105]",
+      "roi": 0.2187,
+      "expected_gain": 0.2187,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 73,
+      "task_id": "OPT-088",
+      "property": "window_keys[106]",
+      "roi": 0.2187,
+      "expected_gain": 0.2187,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 74,
+      "task_id": "OPT-089",
+      "property": "window_keys[108]",
+      "roi": 0.2187,
+      "expected_gain": 0.2187,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 75,
+      "task_id": "OPT-090",
+      "property": "window_keys[109]",
+      "roi": 0.2187,
+      "expected_gain": 0.2187,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 76,
+      "task_id": "OPT-091",
+      "property": "window_keys[110]",
+      "roi": 0.2187,
+      "expected_gain": 0.2187,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 77,
+      "task_id": "OPT-092",
+      "property": "window_keys[118]",
+      "roi": 0.2187,
+      "expected_gain": 0.2187,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 78,
+      "task_id": "OPT-093",
+      "property": "window_keys[11]",
+      "roi": 0.2187,
+      "expected_gain": 0.2187,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 79,
+      "task_id": "OPT-094",
+      "property": "window_keys[124]",
+      "roi": 0.2187,
+      "expected_gain": 0.2187,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 80,
+      "task_id": "OPT-095",
+      "property": "window_keys[125]",
+      "roi": 0.2187,
+      "expected_gain": 0.2187,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 81,
+      "task_id": "OPT-096",
+      "property": "window_keys[126]",
+      "roi": 0.2187,
+      "expected_gain": 0.2187,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 82,
+      "task_id": "OPT-097",
+      "property": "window_keys[127]",
+      "roi": 0.2187,
+      "expected_gain": 0.2187,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 83,
+      "task_id": "OPT-098",
+      "property": "window_keys[128]",
+      "roi": 0.2187,
+      "expected_gain": 0.2187,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 84,
+      "task_id": "OPT-099",
+      "property": "window_keys[129]",
+      "roi": 0.2187,
+      "expected_gain": 0.2187,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 85,
+      "task_id": "OPT-100",
+      "property": "window_keys[130]",
+      "roi": 0.2187,
+      "expected_gain": 0.2187,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 86,
+      "task_id": "OPT-101",
+      "property": "window_keys[132]",
+      "roi": 0.2187,
+      "expected_gain": 0.2187,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 87,
+      "task_id": "OPT-102",
+      "property": "window_keys[133]",
+      "roi": 0.2187,
+      "expected_gain": 0.2187,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 88,
+      "task_id": "OPT-103",
+      "property": "window_keys[136]",
+      "roi": 0.2187,
+      "expected_gain": 0.2187,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 89,
+      "task_id": "OPT-104",
+      "property": "window_keys[137]",
+      "roi": 0.2187,
+      "expected_gain": 0.2187,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 90,
+      "task_id": "OPT-105",
+      "property": "window_keys[138]",
+      "roi": 0.2187,
+      "expected_gain": 0.2187,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 91,
+      "task_id": "OPT-106",
+      "property": "window_keys[140]",
+      "roi": 0.2187,
+      "expected_gain": 0.2187,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 92,
+      "task_id": "OPT-107",
+      "property": "window_keys[142]",
+      "roi": 0.2187,
+      "expected_gain": 0.2187,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 93,
+      "task_id": "OPT-108",
+      "property": "window_keys[143]",
+      "roi": 0.2187,
+      "expected_gain": 0.2187,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 94,
+      "task_id": "OPT-109",
+      "property": "window_keys[145]",
+      "roi": 0.2187,
+      "expected_gain": 0.2187,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 95,
+      "task_id": "OPT-110",
+      "property": "window_keys[149]",
+      "roi": 0.2187,
+      "expected_gain": 0.2187,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 96,
+      "task_id": "OPT-111",
+      "property": "window_keys[150]",
+      "roi": 0.2187,
+      "expected_gain": 0.2187,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 97,
+      "task_id": "OPT-112",
+      "property": "window_keys[158]",
+      "roi": 0.2187,
+      "expected_gain": 0.2187,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 98,
+      "task_id": "OPT-113",
+      "property": "window_keys[159]",
+      "roi": 0.2187,
+      "expected_gain": 0.2187,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 99,
+      "task_id": "OPT-114",
+      "property": "window_keys[160]",
+      "roi": 0.2187,
+      "expected_gain": 0.2187,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 100,
+      "task_id": "OPT-115",
+      "property": "window_keys[161]",
+      "roi": 0.2187,
+      "expected_gain": 0.2187,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 101,
+      "task_id": "OPT-116",
+      "property": "window_keys[162]",
+      "roi": 0.2187,
+      "expected_gain": 0.2187,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 102,
+      "task_id": "OPT-117",
+      "property": "window_keys[164]",
+      "roi": 0.2187,
+      "expected_gain": 0.2187,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 103,
+      "task_id": "OPT-118",
+      "property": "window_keys[165]",
+      "roi": 0.2187,
+      "expected_gain": 0.2187,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 104,
+      "task_id": "OPT-119",
+      "property": "window_keys[166]",
+      "roi": 0.2187,
+      "expected_gain": 0.2187,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 105,
+      "task_id": "OPT-120",
+      "property": "window_keys[167]",
+      "roi": 0.2187,
+      "expected_gain": 0.2187,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 106,
+      "task_id": "OPT-121",
+      "property": "window_keys[168]",
+      "roi": 0.2187,
+      "expected_gain": 0.2187,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 107,
+      "task_id": "OPT-122",
+      "property": "window_keys[169]",
+      "roi": 0.2187,
+      "expected_gain": 0.2187,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 108,
+      "task_id": "OPT-123",
+      "property": "window_keys[16]",
+      "roi": 0.2187,
+      "expected_gain": 0.2187,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 109,
+      "task_id": "OPT-124",
+      "property": "window_keys[170]",
+      "roi": 0.2187,
+      "expected_gain": 0.2187,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 110,
+      "task_id": "OPT-125",
+      "property": "window_keys[174]",
+      "roi": 0.2187,
+      "expected_gain": 0.2187,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 111,
+      "task_id": "OPT-126",
+      "property": "window_keys[175]",
+      "roi": 0.2187,
+      "expected_gain": 0.2187,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 112,
+      "task_id": "OPT-127",
+      "property": "window_keys[176]",
+      "roi": 0.2187,
+      "expected_gain": 0.2187,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 113,
+      "task_id": "OPT-128",
+      "property": "window_keys[178]",
+      "roi": 0.2187,
+      "expected_gain": 0.2187,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 114,
+      "task_id": "OPT-129",
+      "property": "window_keys[17]",
+      "roi": 0.2187,
+      "expected_gain": 0.2187,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 115,
+      "task_id": "OPT-130",
+      "property": "window_keys[182]",
+      "roi": 0.2187,
+      "expected_gain": 0.2187,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 116,
+      "task_id": "OPT-131",
+      "property": "window_keys[183]",
+      "roi": 0.2187,
+      "expected_gain": 0.2187,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 117,
+      "task_id": "OPT-132",
+      "property": "window_keys[185]",
+      "roi": 0.2187,
+      "expected_gain": 0.2187,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 118,
+      "task_id": "OPT-133",
+      "property": "window_keys[186]",
+      "roi": 0.2187,
+      "expected_gain": 0.2187,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 119,
+      "task_id": "OPT-134",
+      "property": "window_keys[188]",
+      "roi": 0.2187,
+      "expected_gain": 0.2187,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 120,
+      "task_id": "OPT-135",
+      "property": "window_keys[189]",
+      "roi": 0.2187,
+      "expected_gain": 0.2187,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 121,
+      "task_id": "OPT-136",
+      "property": "window_keys[18]",
+      "roi": 0.2187,
+      "expected_gain": 0.2187,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 122,
+      "task_id": "OPT-137",
+      "property": "window_keys[191]",
+      "roi": 0.2187,
+      "expected_gain": 0.2187,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 123,
+      "task_id": "OPT-138",
+      "property": "window_keys[192]",
+      "roi": 0.2187,
+      "expected_gain": 0.2187,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 124,
+      "task_id": "OPT-139",
+      "property": "window_keys[193]",
+      "roi": 0.2187,
+      "expected_gain": 0.2187,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 125,
+      "task_id": "OPT-140",
+      "property": "window_keys[194]",
+      "roi": 0.2187,
+      "expected_gain": 0.2187,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 126,
+      "task_id": "OPT-141",
+      "property": "window_keys[195]",
+      "roi": 0.2187,
+      "expected_gain": 0.2187,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 127,
+      "task_id": "OPT-142",
+      "property": "window_keys[197]",
+      "roi": 0.2187,
+      "expected_gain": 0.2187,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 128,
+      "task_id": "OPT-143",
+      "property": "window_keys[199]",
+      "roi": 0.2187,
+      "expected_gain": 0.2187,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 129,
+      "task_id": "OPT-144",
+      "property": "window_keys[200]",
+      "roi": 0.2187,
+      "expected_gain": 0.2187,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 130,
+      "task_id": "OPT-145",
+      "property": "window_keys[201]",
+      "roi": 0.2187,
+      "expected_gain": 0.2187,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 131,
+      "task_id": "OPT-146",
+      "property": "window_keys[202]",
+      "roi": 0.2187,
+      "expected_gain": 0.2187,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 132,
+      "task_id": "OPT-147",
+      "property": "window_keys[205]",
+      "roi": 0.2187,
+      "expected_gain": 0.2187,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 133,
+      "task_id": "OPT-148",
+      "property": "window_keys[207]",
+      "roi": 0.2187,
+      "expected_gain": 0.2187,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 134,
+      "task_id": "OPT-149",
+      "property": "window_keys[208]",
+      "roi": 0.2187,
+      "expected_gain": 0.2187,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 135,
+      "task_id": "OPT-150",
+      "property": "window_keys[20]",
+      "roi": 0.2187,
+      "expected_gain": 0.2187,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 136,
+      "task_id": "OPT-151",
+      "property": "window_keys[212]",
+      "roi": 0.2187,
+      "expected_gain": 0.2187,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 137,
+      "task_id": "OPT-152",
+      "property": "window_keys[218]",
+      "roi": 0.2187,
+      "expected_gain": 0.2187,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 138,
+      "task_id": "OPT-153",
+      "property": "window_keys[219]",
+      "roi": 0.2187,
+      "expected_gain": 0.2187,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 139,
+      "task_id": "OPT-154",
+      "property": "window_keys[21]",
+      "roi": 0.2187,
+      "expected_gain": 0.2187,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 140,
+      "task_id": "OPT-155",
+      "property": "window_keys[220]",
+      "roi": 0.2187,
+      "expected_gain": 0.2187,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 141,
+      "task_id": "OPT-156",
+      "property": "window_keys[221]",
+      "roi": 0.2187,
+      "expected_gain": 0.2187,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 142,
+      "task_id": "OPT-157",
+      "property": "window_keys[222]",
+      "roi": 0.2187,
+      "expected_gain": 0.2187,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 143,
+      "task_id": "OPT-158",
+      "property": "window_keys[223]",
+      "roi": 0.2187,
+      "expected_gain": 0.2187,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 144,
+      "task_id": "OPT-159",
+      "property": "window_keys[22]",
+      "roi": 0.2187,
+      "expected_gain": 0.2187,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 145,
+      "task_id": "OPT-160",
+      "property": "window_keys[24]",
+      "roi": 0.2187,
+      "expected_gain": 0.2187,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 146,
+      "task_id": "OPT-161",
+      "property": "window_keys[26]",
+      "roi": 0.2187,
+      "expected_gain": 0.2187,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 147,
+      "task_id": "OPT-162",
+      "property": "window_keys[2]",
+      "roi": 0.2187,
+      "expected_gain": 0.2187,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 148,
+      "task_id": "OPT-163",
+      "property": "window_keys[31]",
+      "roi": 0.2187,
+      "expected_gain": 0.2187,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 149,
+      "task_id": "OPT-164",
+      "property": "window_keys[33]",
+      "roi": 0.2187,
+      "expected_gain": 0.2187,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 150,
+      "task_id": "OPT-165",
+      "property": "window_keys[34]",
+      "roi": 0.2187,
+      "expected_gain": 0.2187,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 151,
+      "task_id": "OPT-166",
+      "property": "window_keys[35]",
+      "roi": 0.2187,
+      "expected_gain": 0.2187,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 152,
+      "task_id": "OPT-167",
+      "property": "window_keys[37]",
+      "roi": 0.2187,
+      "expected_gain": 0.2187,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 153,
+      "task_id": "OPT-168",
+      "property": "window_keys[39]",
+      "roi": 0.2187,
+      "expected_gain": 0.2187,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 154,
+      "task_id": "OPT-169",
+      "property": "window_keys[41]",
+      "roi": 0.2187,
+      "expected_gain": 0.2187,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 155,
+      "task_id": "OPT-170",
+      "property": "window_keys[52]",
+      "roi": 0.2187,
+      "expected_gain": 0.2187,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 156,
+      "task_id": "OPT-171",
+      "property": "window_keys[53]",
+      "roi": 0.2187,
+      "expected_gain": 0.2187,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 157,
+      "task_id": "OPT-172",
+      "property": "window_keys[54]",
+      "roi": 0.2187,
+      "expected_gain": 0.2187,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 158,
+      "task_id": "OPT-173",
+      "property": "window_keys[55]",
+      "roi": 0.2187,
+      "expected_gain": 0.2187,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 159,
+      "task_id": "OPT-174",
+      "property": "window_keys[56]",
+      "roi": 0.2187,
+      "expected_gain": 0.2187,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 160,
+      "task_id": "OPT-175",
+      "property": "window_keys[57]",
+      "roi": 0.2187,
+      "expected_gain": 0.2187,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 161,
+      "task_id": "OPT-176",
+      "property": "window_keys[58]",
+      "roi": 0.2187,
+      "expected_gain": 0.2187,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 162,
+      "task_id": "OPT-177",
+      "property": "window_keys[59]",
+      "roi": 0.2187,
+      "expected_gain": 0.2187,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 163,
+      "task_id": "OPT-178",
+      "property": "window_keys[5]",
+      "roi": 0.2187,
+      "expected_gain": 0.2187,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 164,
+      "task_id": "OPT-179",
+      "property": "window_keys[60]",
+      "roi": 0.2187,
+      "expected_gain": 0.2187,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 165,
+      "task_id": "OPT-180",
+      "property": "window_keys[61]",
+      "roi": 0.2187,
+      "expected_gain": 0.2187,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 166,
+      "task_id": "OPT-181",
+      "property": "window_keys[62]",
+      "roi": 0.2187,
+      "expected_gain": 0.2187,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 167,
+      "task_id": "OPT-182",
+      "property": "window_keys[63]",
+      "roi": 0.2187,
+      "expected_gain": 0.2187,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 168,
+      "task_id": "OPT-183",
+      "property": "window_keys[64]",
+      "roi": 0.2187,
+      "expected_gain": 0.2187,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 169,
+      "task_id": "OPT-184",
+      "property": "window_keys[68]",
+      "roi": 0.2187,
+      "expected_gain": 0.2187,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 170,
+      "task_id": "OPT-185",
+      "property": "window_keys[6]",
+      "roi": 0.2187,
+      "expected_gain": 0.2187,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 171,
+      "task_id": "OPT-186",
+      "property": "window_keys[73]",
+      "roi": 0.2187,
+      "expected_gain": 0.2187,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 172,
+      "task_id": "OPT-187",
+      "property": "window_keys[74]",
+      "roi": 0.2187,
+      "expected_gain": 0.2187,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 173,
+      "task_id": "OPT-188",
+      "property": "window_keys[75]",
+      "roi": 0.2187,
+      "expected_gain": 0.2187,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 174,
+      "task_id": "OPT-189",
+      "property": "window_keys[76]",
+      "roi": 0.2187,
+      "expected_gain": 0.2187,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 175,
+      "task_id": "OPT-190",
+      "property": "window_keys[7]",
+      "roi": 0.2187,
+      "expected_gain": 0.2187,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 176,
+      "task_id": "OPT-191",
+      "property": "window_keys[81]",
+      "roi": 0.2187,
+      "expected_gain": 0.2187,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 177,
+      "task_id": "OPT-192",
+      "property": "window_keys[82]",
+      "roi": 0.2187,
+      "expected_gain": 0.2187,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 178,
+      "task_id": "OPT-193",
+      "property": "window_keys[83]",
+      "roi": 0.2187,
+      "expected_gain": 0.2187,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 179,
+      "task_id": "OPT-194",
+      "property": "window_keys[84]",
+      "roi": 0.2187,
+      "expected_gain": 0.2187,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 180,
+      "task_id": "OPT-195",
+      "property": "window_keys[85]",
+      "roi": 0.2187,
+      "expected_gain": 0.2187,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 181,
+      "task_id": "OPT-196",
+      "property": "window_keys[86]",
+      "roi": 0.2187,
+      "expected_gain": 0.2187,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 182,
+      "task_id": "OPT-197",
+      "property": "window_keys[87]",
+      "roi": 0.2187,
+      "expected_gain": 0.2187,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 183,
+      "task_id": "OPT-198",
+      "property": "window_keys[88]",
+      "roi": 0.2187,
+      "expected_gain": 0.2187,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 184,
+      "task_id": "OPT-199",
+      "property": "window_keys[89]",
+      "roi": 0.2187,
+      "expected_gain": 0.2187,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 185,
+      "task_id": "OPT-200",
+      "property": "window_keys[90]",
+      "roi": 0.2187,
+      "expected_gain": 0.2187,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 186,
+      "task_id": "OPT-201",
+      "property": "window_keys[91]",
+      "roi": 0.2187,
+      "expected_gain": 0.2187,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 187,
+      "task_id": "OPT-202",
+      "property": "window_keys[92]",
+      "roi": 0.2187,
+      "expected_gain": 0.2187,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 188,
+      "task_id": "OPT-203",
+      "property": "window_keys[93]",
+      "roi": 0.2187,
+      "expected_gain": 0.2187,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 189,
+      "task_id": "OPT-204",
+      "property": "window_keys[94]",
+      "roi": 0.2187,
+      "expected_gain": 0.2187,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 190,
+      "task_id": "OPT-205",
+      "property": "window_keys[97]",
+      "roi": 0.2187,
+      "expected_gain": 0.2187,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 191,
+      "task_id": "OPT-206",
+      "property": "window_keys[9]",
+      "roi": 0.2187,
+      "expected_gain": 0.2187,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 192,
+      "task_id": "OPT-208",
+      "property": "battery.chargingTime",
+      "roi": 0.1944,
+      "expected_gain": 0.1944,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 193,
+      "task_id": "OPT-209",
+      "property": "battery.dischargingTime",
+      "roi": 0.1944,
+      "expected_gain": 0.1944,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 194,
+      "task_id": "OPT-210",
+      "property": "battery.level",
+      "roi": 0.1944,
+      "expected_gain": 0.1944,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 195,
+      "task_id": "OPT-211",
+      "property": "document.cookie_count",
+      "roi": 0.1944,
+      "expected_gain": 0.1944,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 196,
+      "task_id": "OPT-240",
+      "property": "document.characterSet",
+      "roi": 0.1798,
+      "expected_gain": 0.1798,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 197,
+      "task_id": "OPT-241",
+      "property": "document.compatMode",
+      "roi": 0.1798,
+      "expected_gain": 0.1798,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 198,
+      "task_id": "OPT-242",
+      "property": "document.cookie_names[1]",
+      "roi": 0.1798,
+      "expected_gain": 0.1798,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 199,
+      "task_id": "OPT-243",
+      "property": "document.title",
+      "roi": 0.1798,
+      "expected_gain": 0.1798,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 200,
+      "task_id": "OPT-244",
+      "property": "document.visibilityState",
+      "roi": 0.1798,
+      "expected_gain": 0.1798,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 201,
+      "task_id": "OPT-245",
+      "property": "media_devices[0].groupId",
+      "roi": 0.1798,
+      "expected_gain": 0.1798,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 202,
+      "task_id": "OPT-246",
+      "property": "media_devices[0].kind",
+      "roi": 0.1798,
+      "expected_gain": 0.1798,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 203,
+      "task_id": "OPT-247",
+      "property": "media_devices[0].label",
+      "roi": 0.1798,
+      "expected_gain": 0.1798,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 204,
+      "task_id": "OPT-248",
+      "property": "media_devices[1].groupId",
+      "roi": 0.1798,
+      "expected_gain": 0.1798,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 205,
+      "task_id": "OPT-249",
+      "property": "media_devices[1].kind",
+      "roi": 0.1798,
+      "expected_gain": 0.1798,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 206,
+      "task_id": "OPT-250",
+      "property": "media_devices[1].label",
+      "roi": 0.1798,
+      "expected_gain": 0.1798,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 207,
+      "task_id": "OPT-251",
+      "property": "media_devices[2].groupId",
+      "roi": 0.1798,
+      "expected_gain": 0.1798,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 208,
+      "task_id": "OPT-252",
+      "property": "media_devices[2].kind",
+      "roi": 0.1798,
+      "expected_gain": 0.1798,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 209,
+      "task_id": "OPT-253",
+      "property": "media_devices[2].label",
+      "roi": 0.1798,
+      "expected_gain": 0.1798,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 210,
+      "task_id": "OPT-254",
+      "property": "navigator_own_keys[38]",
+      "roi": 0.1798,
+      "expected_gain": 0.1798,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 211,
+      "task_id": "OPT-255",
+      "property": "navigator_own_keys[39]",
+      "roi": 0.1798,
+      "expected_gain": 0.1798,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 212,
+      "task_id": "OPT-256",
+      "property": "navigator_own_keys[42]",
+      "roi": 0.1798,
+      "expected_gain": 0.1798,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 213,
+      "task_id": "OPT-257",
+      "property": "navigator_own_keys[43]",
+      "roi": 0.1798,
+      "expected_gain": 0.1798,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 214,
+      "task_id": "OPT-258",
+      "property": "navigator_own_keys[44]",
+      "roi": 0.1798,
+      "expected_gain": 0.1798,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 215,
+      "task_id": "OPT-259",
+      "property": "navigator_own_keys[45]",
+      "roi": 0.1798,
+      "expected_gain": 0.1798,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 216,
+      "task_id": "OPT-260",
+      "property": "navigator_own_keys[47]",
+      "roi": 0.1798,
+      "expected_gain": 0.1798,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 217,
+      "task_id": "OPT-261",
+      "property": "navigator_own_keys[48]",
+      "roi": 0.1798,
+      "expected_gain": 0.1798,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 218,
+      "task_id": "OPT-262",
+      "property": "navigator_own_keys[49]",
+      "roi": 0.1798,
+      "expected_gain": 0.1798,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 219,
+      "task_id": "OPT-263",
+      "property": "navigator_own_keys[50]",
+      "roi": 0.1798,
+      "expected_gain": 0.1798,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 220,
+      "task_id": "OPT-264",
+      "property": "navigator_own_keys[51]",
+      "roi": 0.1798,
+      "expected_gain": 0.1798,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 221,
+      "task_id": "OPT-265",
+      "property": "navigator_own_keys[52]",
+      "roi": 0.1798,
+      "expected_gain": 0.1798,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 222,
+      "task_id": "OPT-266",
+      "property": "navigator_own_keys[57]",
+      "roi": 0.1798,
+      "expected_gain": 0.1798,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 223,
+      "task_id": "OPT-267",
+      "property": "navigator_own_keys[58]",
+      "roi": 0.1798,
+      "expected_gain": 0.1798,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 224,
+      "task_id": "OPT-268",
+      "property": "navigator_own_keys[59]",
+      "roi": 0.1798,
+      "expected_gain": 0.1798,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 225,
+      "task_id": "OPT-269",
+      "property": "navigator_own_keys[60]",
+      "roi": 0.1798,
+      "expected_gain": 0.1798,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 226,
+      "task_id": "OPT-270",
+      "property": "navigator_own_keys[62]",
+      "roi": 0.1798,
+      "expected_gain": 0.1798,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 227,
+      "task_id": "OPT-271",
+      "property": "navigator_own_keys[63]",
+      "roi": 0.1798,
+      "expected_gain": 0.1798,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 228,
+      "task_id": "OPT-272",
+      "property": "navigator_own_keys[64]",
+      "roi": 0.1798,
+      "expected_gain": 0.1798,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 229,
+      "task_id": "OPT-273",
+      "property": "navigator_own_keys[68]",
+      "roi": 0.1798,
+      "expected_gain": 0.1798,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 230,
+      "task_id": "OPT-274",
+      "property": "navigator_own_keys[70]",
+      "roi": 0.1798,
+      "expected_gain": 0.1798,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 231,
+      "task_id": "OPT-275",
+      "property": "navigator_own_keys[72]",
+      "roi": 0.1798,
+      "expected_gain": 0.1798,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 232,
+      "task_id": "OPT-276",
+      "property": "navigator_own_keys[73]",
+      "roi": 0.1798,
+      "expected_gain": 0.1798,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 233,
+      "task_id": "OPT-277",
+      "property": "navigator_own_keys[74]",
+      "roi": 0.1798,
+      "expected_gain": 0.1798,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 234,
+      "task_id": "OPT-278",
+      "property": "navigator_own_keys[76]",
+      "roi": 0.1798,
+      "expected_gain": 0.1798,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 235,
+      "task_id": "OPT-279",
+      "property": "navigator_own_keys[77]",
+      "roi": 0.1798,
+      "expected_gain": 0.1798,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 236,
+      "task_id": "OPT-280",
+      "property": "navigator_own_keys[82]",
+      "roi": 0.1798,
+      "expected_gain": 0.1798,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 237,
+      "task_id": "OPT-281",
+      "property": "window_keys[224]",
+      "roi": 0.1798,
+      "expected_gain": 0.1798,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 238,
+      "task_id": "OPT-282",
+      "property": "window_keys[225]",
+      "roi": 0.1798,
+      "expected_gain": 0.1798,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 239,
+      "task_id": "OPT-283",
+      "property": "window_keys[226]",
+      "roi": 0.1798,
+      "expected_gain": 0.1798,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 240,
+      "task_id": "OPT-284",
+      "property": "window_keys[227]",
+      "roi": 0.1798,
+      "expected_gain": 0.1798,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 241,
+      "task_id": "OPT-285",
+      "property": "window_keys[228]",
+      "roi": 0.1798,
+      "expected_gain": 0.1798,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 242,
+      "task_id": "OPT-286",
+      "property": "window_keys[229]",
+      "roi": 0.1798,
+      "expected_gain": 0.1798,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 243,
+      "task_id": "OPT-287",
+      "property": "window_keys[230]",
+      "roi": 0.1798,
+      "expected_gain": 0.1798,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 244,
+      "task_id": "OPT-288",
+      "property": "window_keys[231]",
+      "roi": 0.1798,
+      "expected_gain": 0.1798,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 245,
+      "task_id": "OPT-289",
+      "property": "window_keys[232]",
+      "roi": 0.1798,
+      "expected_gain": 0.1798,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 246,
+      "task_id": "OPT-290",
+      "property": "window_keys[233]",
+      "roi": 0.1798,
+      "expected_gain": 0.1798,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 247,
+      "task_id": "OPT-291",
+      "property": "window_keys[234]",
+      "roi": 0.1798,
+      "expected_gain": 0.1798,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 248,
+      "task_id": "OPT-292",
+      "property": "window_keys[235]",
+      "roi": 0.1798,
+      "expected_gain": 0.1798,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 249,
+      "task_id": "OPT-293",
+      "property": "window_keys[236]",
+      "roi": 0.1798,
+      "expected_gain": 0.1798,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 250,
+      "task_id": "OPT-294",
+      "property": "window_keys[237]",
+      "roi": 0.1798,
+      "expected_gain": 0.1798,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 251,
+      "task_id": "OPT-295",
+      "property": "window_keys[238]",
+      "roi": 0.1798,
+      "expected_gain": 0.1798,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 252,
+      "task_id": "OPT-296",
+      "property": "window_keys[240]",
+      "roi": 0.1798,
+      "expected_gain": 0.1798,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 253,
+      "task_id": "OPT-297",
+      "property": "window_keys[241]",
+      "roi": 0.1798,
+      "expected_gain": 0.1798,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 254,
+      "task_id": "OPT-298",
+      "property": "window_keys[247]",
+      "roi": 0.1798,
+      "expected_gain": 0.1798,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 255,
+      "task_id": "OPT-299",
+      "property": "window_keys[248]",
+      "roi": 0.1798,
+      "expected_gain": 0.1798,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 256,
+      "task_id": "OPT-300",
+      "property": "window_keys[249]",
+      "roi": 0.1798,
+      "expected_gain": 0.1798,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 257,
+      "task_id": "OPT-301",
+      "property": "window_keys[251]",
+      "roi": 0.1798,
+      "expected_gain": 0.1798,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 258,
+      "task_id": "OPT-302",
+      "property": "window_keys[252]",
+      "roi": 0.1798,
+      "expected_gain": 0.1798,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 259,
+      "task_id": "OPT-303",
+      "property": "window_keys[253]",
+      "roi": 0.1798,
+      "expected_gain": 0.1798,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 260,
+      "task_id": "OPT-304",
+      "property": "window_keys[254]",
+      "roi": 0.1798,
+      "expected_gain": 0.1798,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 261,
+      "task_id": "OPT-305",
+      "property": "window_keys[255]",
+      "roi": 0.1798,
+      "expected_gain": 0.1798,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 262,
+      "task_id": "OPT-306",
+      "property": "window_keys[256]",
+      "roi": 0.1798,
+      "expected_gain": 0.1798,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 263,
+      "task_id": "OPT-307",
+      "property": "window_keys[257]",
+      "roi": 0.1798,
+      "expected_gain": 0.1798,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 264,
+      "task_id": "OPT-308",
+      "property": "window_keys[263]",
+      "roi": 0.1798,
+      "expected_gain": 0.1798,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 265,
+      "task_id": "OPT-309",
+      "property": "features.notification_permission",
+      "roi": 0.1749,
+      "expected_gain": 0.1749,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 266,
+      "task_id": "OPT-310",
+      "property": "navigator_own_keys[11]",
+      "roi": 0.1749,
+      "expected_gain": 0.1749,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 267,
+      "task_id": "OPT-311",
+      "property": "navigator_own_keys[14]",
+      "roi": 0.1749,
+      "expected_gain": 0.1749,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 268,
+      "task_id": "OPT-312",
+      "property": "navigator_own_keys[18]",
+      "roi": 0.1749,
+      "expected_gain": 0.1749,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 269,
+      "task_id": "OPT-313",
+      "property": "navigator_own_keys[1]",
+      "roi": 0.1749,
+      "expected_gain": 0.1749,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 270,
+      "task_id": "OPT-314",
+      "property": "navigator_own_keys[21]",
+      "roi": 0.1749,
+      "expected_gain": 0.1749,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 271,
+      "task_id": "OPT-315",
+      "property": "navigator_own_keys[22]",
+      "roi": 0.1749,
+      "expected_gain": 0.1749,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 272,
+      "task_id": "OPT-316",
+      "property": "navigator_own_keys[23]",
+      "roi": 0.1749,
+      "expected_gain": 0.1749,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 273,
+      "task_id": "OPT-317",
+      "property": "navigator_own_keys[26]",
+      "roi": 0.1749,
+      "expected_gain": 0.1749,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 274,
+      "task_id": "OPT-318",
+      "property": "navigator_own_keys[27]",
+      "roi": 0.1749,
+      "expected_gain": 0.1749,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 275,
+      "task_id": "OPT-319",
+      "property": "navigator_own_keys[29]",
+      "roi": 0.1749,
+      "expected_gain": 0.1749,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 276,
+      "task_id": "OPT-320",
+      "property": "navigator_own_keys[2]",
+      "roi": 0.1749,
+      "expected_gain": 0.1749,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 277,
+      "task_id": "OPT-321",
+      "property": "navigator_own_keys[31]",
+      "roi": 0.1749,
+      "expected_gain": 0.1749,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 278,
+      "task_id": "OPT-322",
+      "property": "navigator_own_keys[33]",
+      "roi": 0.1749,
+      "expected_gain": 0.1749,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 279,
+      "task_id": "OPT-323",
+      "property": "navigator_own_keys[34]",
+      "roi": 0.1749,
+      "expected_gain": 0.1749,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 280,
+      "task_id": "OPT-324",
+      "property": "navigator_own_keys[3]",
+      "roi": 0.1749,
+      "expected_gain": 0.1749,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 281,
+      "task_id": "OPT-325",
+      "property": "navigator_own_keys[4]",
+      "roi": 0.1749,
+      "expected_gain": 0.1749,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 282,
+      "task_id": "OPT-326",
+      "property": "navigator_own_keys[6]",
+      "roi": 0.1749,
+      "expected_gain": 0.1749,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 283,
+      "task_id": "OPT-327",
+      "property": "navigator_own_keys[9]",
+      "roi": 0.1749,
+      "expected_gain": 0.1749,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 284,
+      "task_id": "OPT-328",
+      "property": "window_keys[0]",
+      "roi": 0.1749,
+      "expected_gain": 0.1749,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 285,
+      "task_id": "OPT-329",
+      "property": "window_keys[100]",
+      "roi": 0.1749,
+      "expected_gain": 0.1749,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 286,
+      "task_id": "OPT-330",
+      "property": "window_keys[107]",
+      "roi": 0.1749,
+      "expected_gain": 0.1749,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 287,
+      "task_id": "OPT-331",
+      "property": "window_keys[10]",
+      "roi": 0.1749,
+      "expected_gain": 0.1749,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 288,
+      "task_id": "OPT-332",
+      "property": "window_keys[111]",
+      "roi": 0.1749,
+      "expected_gain": 0.1749,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 289,
+      "task_id": "OPT-333",
+      "property": "window_keys[112]",
+      "roi": 0.1749,
+      "expected_gain": 0.1749,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 290,
+      "task_id": "OPT-334",
+      "property": "window_keys[113]",
+      "roi": 0.1749,
+      "expected_gain": 0.1749,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 291,
+      "task_id": "OPT-335",
+      "property": "window_keys[114]",
+      "roi": 0.1749,
+      "expected_gain": 0.1749,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 292,
+      "task_id": "OPT-336",
+      "property": "window_keys[115]",
+      "roi": 0.1749,
+      "expected_gain": 0.1749,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 293,
+      "task_id": "OPT-337",
+      "property": "window_keys[116]",
+      "roi": 0.1749,
+      "expected_gain": 0.1749,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 294,
+      "task_id": "OPT-338",
+      "property": "window_keys[117]",
+      "roi": 0.1749,
+      "expected_gain": 0.1749,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 295,
+      "task_id": "OPT-339",
+      "property": "window_keys[119]",
+      "roi": 0.1749,
+      "expected_gain": 0.1749,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 296,
+      "task_id": "OPT-340",
+      "property": "window_keys[120]",
+      "roi": 0.1749,
+      "expected_gain": 0.1749,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 297,
+      "task_id": "OPT-341",
+      "property": "window_keys[121]",
+      "roi": 0.1749,
+      "expected_gain": 0.1749,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 298,
+      "task_id": "OPT-342",
+      "property": "window_keys[122]",
+      "roi": 0.1749,
+      "expected_gain": 0.1749,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 299,
+      "task_id": "OPT-343",
+      "property": "window_keys[123]",
+      "roi": 0.1749,
+      "expected_gain": 0.1749,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 300,
+      "task_id": "OPT-344",
+      "property": "window_keys[12]",
+      "roi": 0.1749,
+      "expected_gain": 0.1749,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 301,
+      "task_id": "OPT-345",
+      "property": "window_keys[131]",
+      "roi": 0.1749,
+      "expected_gain": 0.1749,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 302,
+      "task_id": "OPT-346",
+      "property": "window_keys[134]",
+      "roi": 0.1749,
+      "expected_gain": 0.1749,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 303,
+      "task_id": "OPT-347",
+      "property": "window_keys[135]",
+      "roi": 0.1749,
+      "expected_gain": 0.1749,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 304,
+      "task_id": "OPT-348",
+      "property": "window_keys[139]",
+      "roi": 0.1749,
+      "expected_gain": 0.1749,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 305,
+      "task_id": "OPT-349",
+      "property": "window_keys[13]",
+      "roi": 0.1749,
+      "expected_gain": 0.1749,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 306,
+      "task_id": "OPT-350",
+      "property": "window_keys[141]",
+      "roi": 0.1749,
+      "expected_gain": 0.1749,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 307,
+      "task_id": "OPT-351",
+      "property": "window_keys[144]",
+      "roi": 0.1749,
+      "expected_gain": 0.1749,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 308,
+      "task_id": "OPT-352",
+      "property": "window_keys[146]",
+      "roi": 0.1749,
+      "expected_gain": 0.1749,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 309,
+      "task_id": "OPT-353",
+      "property": "window_keys[147]",
+      "roi": 0.1749,
+      "expected_gain": 0.1749,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 310,
+      "task_id": "OPT-354",
+      "property": "window_keys[148]",
+      "roi": 0.1749,
+      "expected_gain": 0.1749,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 311,
+      "task_id": "OPT-355",
+      "property": "window_keys[14]",
+      "roi": 0.1749,
+      "expected_gain": 0.1749,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 312,
+      "task_id": "OPT-356",
+      "property": "window_keys[151]",
+      "roi": 0.1749,
+      "expected_gain": 0.1749,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 313,
+      "task_id": "OPT-357",
+      "property": "window_keys[152]",
+      "roi": 0.1749,
+      "expected_gain": 0.1749,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 314,
+      "task_id": "OPT-358",
+      "property": "window_keys[153]",
+      "roi": 0.1749,
+      "expected_gain": 0.1749,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 315,
+      "task_id": "OPT-359",
+      "property": "window_keys[154]",
+      "roi": 0.1749,
+      "expected_gain": 0.1749,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 316,
+      "task_id": "OPT-360",
+      "property": "window_keys[155]",
+      "roi": 0.1749,
+      "expected_gain": 0.1749,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 317,
+      "task_id": "OPT-361",
+      "property": "window_keys[156]",
+      "roi": 0.1749,
+      "expected_gain": 0.1749,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 318,
+      "task_id": "OPT-362",
+      "property": "window_keys[157]",
+      "roi": 0.1749,
+      "expected_gain": 0.1749,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 319,
+      "task_id": "OPT-363",
+      "property": "window_keys[15]",
+      "roi": 0.1749,
+      "expected_gain": 0.1749,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 320,
+      "task_id": "OPT-364",
+      "property": "window_keys[163]",
+      "roi": 0.1749,
+      "expected_gain": 0.1749,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 321,
+      "task_id": "OPT-365",
+      "property": "window_keys[171]",
+      "roi": 0.1749,
+      "expected_gain": 0.1749,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 322,
+      "task_id": "OPT-366",
+      "property": "window_keys[172]",
+      "roi": 0.1749,
+      "expected_gain": 0.1749,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 323,
+      "task_id": "OPT-367",
+      "property": "window_keys[173]",
+      "roi": 0.1749,
+      "expected_gain": 0.1749,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 324,
+      "task_id": "OPT-368",
+      "property": "window_keys[177]",
+      "roi": 0.1749,
+      "expected_gain": 0.1749,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 325,
+      "task_id": "OPT-369",
+      "property": "window_keys[179]",
+      "roi": 0.1749,
+      "expected_gain": 0.1749,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 326,
+      "task_id": "OPT-370",
+      "property": "window_keys[180]",
+      "roi": 0.1749,
+      "expected_gain": 0.1749,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 327,
+      "task_id": "OPT-371",
+      "property": "window_keys[181]",
+      "roi": 0.1749,
+      "expected_gain": 0.1749,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 328,
+      "task_id": "OPT-372",
+      "property": "window_keys[184]",
+      "roi": 0.1749,
+      "expected_gain": 0.1749,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 329,
+      "task_id": "OPT-373",
+      "property": "window_keys[187]",
+      "roi": 0.1749,
+      "expected_gain": 0.1749,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 330,
+      "task_id": "OPT-374",
+      "property": "window_keys[190]",
+      "roi": 0.1749,
+      "expected_gain": 0.1749,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 331,
+      "task_id": "OPT-375",
+      "property": "window_keys[196]",
+      "roi": 0.1749,
+      "expected_gain": 0.1749,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 332,
+      "task_id": "OPT-376",
+      "property": "window_keys[198]",
+      "roi": 0.1749,
+      "expected_gain": 0.1749,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 333,
+      "task_id": "OPT-377",
+      "property": "window_keys[19]",
+      "roi": 0.1749,
+      "expected_gain": 0.1749,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 334,
+      "task_id": "OPT-378",
+      "property": "window_keys[1]",
+      "roi": 0.1749,
+      "expected_gain": 0.1749,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 335,
+      "task_id": "OPT-379",
+      "property": "window_keys[203]",
+      "roi": 0.1749,
+      "expected_gain": 0.1749,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 336,
+      "task_id": "OPT-380",
+      "property": "window_keys[204]",
+      "roi": 0.1749,
+      "expected_gain": 0.1749,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 337,
+      "task_id": "OPT-381",
+      "property": "window_keys[206]",
+      "roi": 0.1749,
+      "expected_gain": 0.1749,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 338,
+      "task_id": "OPT-382",
+      "property": "window_keys[209]",
+      "roi": 0.1749,
+      "expected_gain": 0.1749,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 339,
+      "task_id": "OPT-383",
+      "property": "window_keys[210]",
+      "roi": 0.1749,
+      "expected_gain": 0.1749,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 340,
+      "task_id": "OPT-384",
+      "property": "window_keys[211]",
+      "roi": 0.1749,
+      "expected_gain": 0.1749,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 341,
+      "task_id": "OPT-385",
+      "property": "window_keys[213]",
+      "roi": 0.1749,
+      "expected_gain": 0.1749,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 342,
+      "task_id": "OPT-386",
+      "property": "window_keys[214]",
+      "roi": 0.1749,
+      "expected_gain": 0.1749,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 343,
+      "task_id": "OPT-387",
+      "property": "window_keys[215]",
+      "roi": 0.1749,
+      "expected_gain": 0.1749,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 344,
+      "task_id": "OPT-388",
+      "property": "window_keys[216]",
+      "roi": 0.1749,
+      "expected_gain": 0.1749,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 345,
+      "task_id": "OPT-389",
+      "property": "window_keys[217]",
+      "roi": 0.1749,
+      "expected_gain": 0.1749,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 346,
+      "task_id": "OPT-390",
+      "property": "window_keys[23]",
+      "roi": 0.1749,
+      "expected_gain": 0.1749,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 347,
+      "task_id": "OPT-391",
+      "property": "window_keys[25]",
+      "roi": 0.1749,
+      "expected_gain": 0.1749,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 348,
+      "task_id": "OPT-392",
+      "property": "window_keys[27]",
+      "roi": 0.1749,
+      "expected_gain": 0.1749,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 349,
+      "task_id": "OPT-393",
+      "property": "window_keys[28]",
+      "roi": 0.1749,
+      "expected_gain": 0.1749,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 350,
+      "task_id": "OPT-394",
+      "property": "window_keys[29]",
+      "roi": 0.1749,
+      "expected_gain": 0.1749,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 351,
+      "task_id": "OPT-395",
+      "property": "window_keys[30]",
+      "roi": 0.1749,
+      "expected_gain": 0.1749,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 352,
+      "task_id": "OPT-396",
+      "property": "window_keys[32]",
+      "roi": 0.1749,
+      "expected_gain": 0.1749,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 353,
+      "task_id": "OPT-397",
+      "property": "window_keys[36]",
+      "roi": 0.1749,
+      "expected_gain": 0.1749,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 354,
+      "task_id": "OPT-398",
+      "property": "window_keys[38]",
+      "roi": 0.1749,
+      "expected_gain": 0.1749,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 355,
+      "task_id": "OPT-399",
+      "property": "window_keys[3]",
+      "roi": 0.1749,
+      "expected_gain": 0.1749,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 356,
+      "task_id": "OPT-400",
+      "property": "window_keys[40]",
+      "roi": 0.1749,
+      "expected_gain": 0.1749,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 357,
+      "task_id": "OPT-401",
+      "property": "window_keys[42]",
+      "roi": 0.1749,
+      "expected_gain": 0.1749,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 358,
+      "task_id": "OPT-402",
+      "property": "window_keys[43]",
+      "roi": 0.1749,
+      "expected_gain": 0.1749,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 359,
+      "task_id": "OPT-403",
+      "property": "window_keys[44]",
+      "roi": 0.1749,
+      "expected_gain": 0.1749,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 360,
+      "task_id": "OPT-404",
+      "property": "window_keys[45]",
+      "roi": 0.1749,
+      "expected_gain": 0.1749,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 361,
+      "task_id": "OPT-405",
+      "property": "window_keys[46]",
+      "roi": 0.1749,
+      "expected_gain": 0.1749,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 362,
+      "task_id": "OPT-406",
+      "property": "window_keys[47]",
+      "roi": 0.1749,
+      "expected_gain": 0.1749,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 363,
+      "task_id": "OPT-407",
+      "property": "window_keys[48]",
+      "roi": 0.1749,
+      "expected_gain": 0.1749,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 364,
+      "task_id": "OPT-408",
+      "property": "window_keys[49]",
+      "roi": 0.1749,
+      "expected_gain": 0.1749,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 365,
+      "task_id": "OPT-409",
+      "property": "window_keys[4]",
+      "roi": 0.1749,
+      "expected_gain": 0.1749,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 366,
+      "task_id": "OPT-410",
+      "property": "window_keys[50]",
+      "roi": 0.1749,
+      "expected_gain": 0.1749,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 367,
+      "task_id": "OPT-411",
+      "property": "window_keys[51]",
+      "roi": 0.1749,
+      "expected_gain": 0.1749,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 368,
+      "task_id": "OPT-412",
+      "property": "window_keys[65]",
+      "roi": 0.1749,
+      "expected_gain": 0.1749,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 369,
+      "task_id": "OPT-413",
+      "property": "window_keys[66]",
+      "roi": 0.1749,
+      "expected_gain": 0.1749,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 370,
+      "task_id": "OPT-414",
+      "property": "window_keys[67]",
+      "roi": 0.1749,
+      "expected_gain": 0.1749,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 371,
+      "task_id": "OPT-415",
+      "property": "window_keys[69]",
+      "roi": 0.1749,
+      "expected_gain": 0.1749,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 372,
+      "task_id": "OPT-416",
+      "property": "window_keys[70]",
+      "roi": 0.1749,
+      "expected_gain": 0.1749,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 373,
+      "task_id": "OPT-417",
+      "property": "window_keys[71]",
+      "roi": 0.1749,
+      "expected_gain": 0.1749,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 374,
+      "task_id": "OPT-418",
+      "property": "window_keys[72]",
+      "roi": 0.1749,
+      "expected_gain": 0.1749,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 375,
+      "task_id": "OPT-419",
+      "property": "window_keys[77]",
+      "roi": 0.1749,
+      "expected_gain": 0.1749,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 376,
+      "task_id": "OPT-420",
+      "property": "window_keys[78]",
+      "roi": 0.1749,
+      "expected_gain": 0.1749,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 377,
+      "task_id": "OPT-421",
+      "property": "window_keys[79]",
+      "roi": 0.1749,
+      "expected_gain": 0.1749,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 378,
+      "task_id": "OPT-422",
+      "property": "window_keys[80]",
+      "roi": 0.1749,
+      "expected_gain": 0.1749,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 379,
+      "task_id": "OPT-423",
+      "property": "window_keys[8]",
+      "roi": 0.1749,
+      "expected_gain": 0.1749,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 380,
+      "task_id": "OPT-424",
+      "property": "window_keys[95]",
+      "roi": 0.1749,
+      "expected_gain": 0.1749,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 381,
+      "task_id": "OPT-425",
+      "property": "window_keys[96]",
+      "roi": 0.1749,
+      "expected_gain": 0.1749,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 382,
+      "task_id": "OPT-426",
+      "property": "window_keys[98]",
+      "roi": 0.1749,
+      "expected_gain": 0.1749,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 383,
+      "task_id": "OPT-427",
+      "property": "window_keys[99]",
+      "roi": 0.1749,
+      "expected_gain": 0.1749,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 384,
+      "task_id": "OPT-428",
+      "property": "battery.charging",
+      "roi": 0.1725,
+      "expected_gain": 0.1725,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 385,
+      "task_id": "OPT-429",
+      "property": "battery",
+      "roi": 0.1701,
+      "expected_gain": 0.1701,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 386,
+      "task_id": "OPT-430",
+      "property": "document",
+      "roi": 0.1701,
+      "expected_gain": 0.1701,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 387,
+      "task_id": "OPT-431",
+      "property": "media_devices",
+      "roi": 0.1701,
+      "expected_gain": 0.1701,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 388,
+      "task_id": "OPT-432",
+      "property": "features.ServiceWorker",
+      "roi": 0.1676,
+      "expected_gain": 0.1676,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 389,
+      "task_id": "OPT-433",
+      "property": "features.crypto_subtle",
+      "roi": 0.1676,
+      "expected_gain": 0.1676,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 390,
+      "task_id": "OPT-434",
+      "property": "gpu.available",
+      "roi": 0.1676,
+      "expected_gain": 0.1676,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 391,
+      "task_id": "OPT-435",
+      "property": "hardware_apis.bluetooth",
+      "roi": 0.1676,
+      "expected_gain": 0.1676,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 392,
+      "task_id": "OPT-436",
+      "property": "hardware_apis.clipboard",
+      "roi": 0.1676,
+      "expected_gain": 0.1676,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 393,
+      "task_id": "OPT-437",
+      "property": "hardware_apis.hid",
+      "roi": 0.1676,
+      "expected_gain": 0.1676,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 394,
+      "task_id": "OPT-438",
+      "property": "hardware_apis.keyboard",
+      "roi": 0.1676,
+      "expected_gain": 0.1676,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 395,
+      "task_id": "OPT-439",
+      "property": "hardware_apis.serial",
+      "roi": 0.1676,
+      "expected_gain": 0.1676,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 396,
+      "task_id": "OPT-440",
+      "property": "hardware_apis.usb",
+      "roi": 0.1676,
+      "expected_gain": 0.1676,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 397,
+      "task_id": "OPT-441",
+      "property": "media_capabilities.powerEfficient",
+      "roi": 0.1676,
+      "expected_gain": 0.1676,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 398,
+      "task_id": "OPT-445",
+      "property": "document.readyState",
+      "roi": 0.1575,
+      "expected_gain": 0.1575,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 399,
+      "task_id": "OPT-468",
+      "property": "history.length",
+      "roi": 0.1534,
+      "expected_gain": 0.1534,
+      "difficulty": "Easy",
+      "risk": "Low"
+    },
+    {
+      "rank": 400,
+      "task_id": "OPT-010",
+      "property": "navigator.languages[1]",
+      "roi": 0.1419,
+      "expected_gain": 0.3547,
+      "difficulty": "Medium",
+      "risk": "Medium"
+    },
+    {
+      "rank": 401,
+      "task_id": "OPT-011",
+      "property": "navigator.languages[2]",
+      "roi": 0.1419,
+      "expected_gain": 0.3547,
+      "difficulty": "Medium",
+      "risk": "Medium"
+    },
+    {
+      "rank": 402,
+      "task_id": "OPT-012",
+      "property": "navigator.language",
+      "roi": 0.14,
+      "expected_gain": 0.3499,
+      "difficulty": "Medium",
+      "risk": "Medium"
+    },
+    {
+      "rank": 403,
+      "task_id": "OPT-013",
+      "property": "navigator.languages[0]",
+      "roi": 0.14,
+      "expected_gain": 0.3499,
+      "difficulty": "Medium",
+      "risk": "Medium"
+    },
+    {
+      "rank": 404,
+      "task_id": "OPT-212",
+      "property": "navigator.prototype_keys[40]",
+      "roi": 0.0894,
+      "expected_gain": 0.2235,
+      "difficulty": "Medium",
+      "risk": "Medium"
+    },
+    {
+      "rank": 405,
+      "task_id": "OPT-213",
+      "property": "navigator.prototype_keys[41]",
+      "roi": 0.0894,
+      "expected_gain": 0.2235,
+      "difficulty": "Medium",
+      "risk": "Medium"
+    },
+    {
+      "rank": 406,
+      "task_id": "OPT-214",
+      "property": "navigator.prototype_keys[44]",
+      "roi": 0.0894,
+      "expected_gain": 0.2235,
+      "difficulty": "Medium",
+      "risk": "Medium"
+    },
+    {
+      "rank": 407,
+      "task_id": "OPT-215",
+      "property": "navigator.prototype_keys[50]",
+      "roi": 0.0894,
+      "expected_gain": 0.2235,
+      "difficulty": "Medium",
+      "risk": "Medium"
+    },
+    {
+      "rank": 408,
+      "task_id": "OPT-216",
+      "property": "navigator.prototype_keys[52]",
+      "roi": 0.0894,
+      "expected_gain": 0.2235,
+      "difficulty": "Medium",
+      "risk": "Medium"
+    },
+    {
+      "rank": 409,
+      "task_id": "OPT-217",
+      "property": "navigator.prototype_keys[59]",
+      "roi": 0.0894,
+      "expected_gain": 0.2235,
+      "difficulty": "Medium",
+      "risk": "Medium"
+    },
+    {
+      "rank": 410,
+      "task_id": "OPT-218",
+      "property": "navigator.prototype_keys[60]",
+      "roi": 0.0894,
+      "expected_gain": 0.2235,
+      "difficulty": "Medium",
+      "risk": "Medium"
+    },
+    {
+      "rank": 411,
+      "task_id": "OPT-219",
+      "property": "navigator.prototype_keys[62]",
+      "roi": 0.0894,
+      "expected_gain": 0.2235,
+      "difficulty": "Medium",
+      "risk": "Medium"
+    },
+    {
+      "rank": 412,
+      "task_id": "OPT-220",
+      "property": "navigator.prototype_keys[65]",
+      "roi": 0.0894,
+      "expected_gain": 0.2235,
+      "difficulty": "Medium",
+      "risk": "Medium"
+    },
+    {
+      "rank": 413,
+      "task_id": "OPT-221",
+      "property": "navigator.prototype_keys[68]",
+      "roi": 0.0894,
+      "expected_gain": 0.2235,
+      "difficulty": "Medium",
+      "risk": "Medium"
+    },
+    {
+      "rank": 414,
+      "task_id": "OPT-222",
+      "property": "navigator.prototype_keys[69]",
+      "roi": 0.0894,
+      "expected_gain": 0.2235,
+      "difficulty": "Medium",
+      "risk": "Medium"
+    },
+    {
+      "rank": 415,
+      "task_id": "OPT-223",
+      "property": "navigator.prototype_keys[71]",
+      "roi": 0.0894,
+      "expected_gain": 0.2235,
+      "difficulty": "Medium",
+      "risk": "Medium"
+    },
+    {
+      "rank": 416,
+      "task_id": "OPT-224",
+      "property": "navigator.prototype_keys[72]",
+      "roi": 0.0894,
+      "expected_gain": 0.2235,
+      "difficulty": "Medium",
+      "risk": "Medium"
+    },
+    {
+      "rank": 417,
+      "task_id": "OPT-225",
+      "property": "navigator.prototype_keys[73]",
+      "roi": 0.0894,
+      "expected_gain": 0.2235,
+      "difficulty": "Medium",
+      "risk": "Medium"
+    },
+    {
+      "rank": 418,
+      "task_id": "OPT-226",
+      "property": "navigator.prototype_keys[74]",
+      "roi": 0.0894,
+      "expected_gain": 0.2235,
+      "difficulty": "Medium",
+      "risk": "Medium"
+    },
+    {
+      "rank": 419,
+      "task_id": "OPT-227",
+      "property": "navigator.prototype_keys[75]",
+      "roi": 0.0894,
+      "expected_gain": 0.2235,
+      "difficulty": "Medium",
+      "risk": "Medium"
+    },
+    {
+      "rank": 420,
+      "task_id": "OPT-228",
+      "property": "navigator.prototype_keys[76]",
+      "roi": 0.0894,
+      "expected_gain": 0.2235,
+      "difficulty": "Medium",
+      "risk": "Medium"
+    },
+    {
+      "rank": 421,
+      "task_id": "OPT-229",
+      "property": "navigator.prototype_keys[77]",
+      "roi": 0.0894,
+      "expected_gain": 0.2235,
+      "difficulty": "Medium",
+      "risk": "Medium"
+    },
+    {
+      "rank": 422,
+      "task_id": "OPT-230",
+      "property": "navigator.prototype_keys[78]",
+      "roi": 0.0894,
+      "expected_gain": 0.2235,
+      "difficulty": "Medium",
+      "risk": "Medium"
+    },
+    {
+      "rank": 423,
+      "task_id": "OPT-231",
+      "property": "navigator.prototype_keys[79]",
+      "roi": 0.0894,
+      "expected_gain": 0.2235,
+      "difficulty": "Medium",
+      "risk": "Medium"
+    },
+    {
+      "rank": 424,
+      "task_id": "OPT-232",
+      "property": "navigator.prototype_keys[80]",
+      "roi": 0.0894,
+      "expected_gain": 0.2235,
+      "difficulty": "Medium",
+      "risk": "Medium"
+    },
+    {
+      "rank": 425,
+      "task_id": "OPT-233",
+      "property": "navigator.prototype_keys[81]",
+      "roi": 0.0894,
+      "expected_gain": 0.2235,
+      "difficulty": "Medium",
+      "risk": "Medium"
+    },
+    {
+      "rank": 426,
+      "task_id": "OPT-234",
+      "property": "navigator.prototype_keys[82]",
+      "roi": 0.0894,
+      "expected_gain": 0.2235,
+      "difficulty": "Medium",
+      "risk": "Medium"
+    },
+    {
+      "rank": 427,
+      "task_id": "OPT-235",
+      "property": "navigator.appVersion",
+      "roi": 0.0875,
+      "expected_gain": 0.2187,
+      "difficulty": "Medium",
+      "risk": "Medium"
+    },
+    {
+      "rank": 428,
+      "task_id": "OPT-236",
+      "property": "navigator.prototype_keys[32]",
+      "roi": 0.0875,
+      "expected_gain": 0.2187,
+      "difficulty": "Medium",
+      "risk": "Medium"
+    },
+    {
+      "rank": 429,
+      "task_id": "OPT-237",
+      "property": "navigator.prototype_keys[33]",
+      "roi": 0.0875,
+      "expected_gain": 0.2187,
+      "difficulty": "Medium",
+      "risk": "Medium"
+    },
+    {
+      "rank": 430,
+      "task_id": "OPT-238",
+      "property": "navigator.prototype_keys[37]",
+      "roi": 0.0875,
+      "expected_gain": 0.2187,
+      "difficulty": "Medium",
+      "risk": "Medium"
+    },
+    {
+      "rank": 431,
+      "task_id": "OPT-239",
+      "property": "performance.now",
+      "roi": 0.0844,
+      "expected_gain": 0.2109,
+      "difficulty": "Medium",
+      "risk": "Medium"
+    },
+    {
+      "rank": 432,
+      "task_id": "OPT-442",
+      "property": "navigator.connection.downlink",
+      "roi": 0.0758,
+      "expected_gain": 0.1895,
+      "difficulty": "Medium",
+      "risk": "Medium"
+    },
+    {
+      "rank": 433,
+      "task_id": "OPT-443",
+      "property": "navigator.connection.rtt",
+      "roi": 0.0758,
+      "expected_gain": 0.1895,
+      "difficulty": "Medium",
+      "risk": "Medium"
+    },
+    {
+      "rank": 434,
+      "task_id": "OPT-444",
+      "property": "navigator.maxTouchPoints",
+      "roi": 0.0758,
+      "expected_gain": 0.1895,
+      "difficulty": "Medium",
+      "risk": "Medium"
+    },
+    {
+      "rank": 435,
+      "task_id": "OPT-446",
+      "property": "navigator.prototype_keys[38]",
+      "roi": 0.0719,
+      "expected_gain": 0.1798,
+      "difficulty": "Medium",
+      "risk": "Medium"
+    },
+    {
+      "rank": 436,
+      "task_id": "OPT-447",
+      "property": "navigator.prototype_keys[39]",
+      "roi": 0.0719,
+      "expected_gain": 0.1798,
+      "difficulty": "Medium",
+      "risk": "Medium"
+    },
+    {
+      "rank": 437,
+      "task_id": "OPT-448",
+      "property": "navigator.prototype_keys[42]",
+      "roi": 0.0719,
+      "expected_gain": 0.1798,
+      "difficulty": "Medium",
+      "risk": "Medium"
+    },
+    {
+      "rank": 438,
+      "task_id": "OPT-449",
+      "property": "navigator.prototype_keys[43]",
+      "roi": 0.0719,
+      "expected_gain": 0.1798,
+      "difficulty": "Medium",
+      "risk": "Medium"
+    },
+    {
+      "rank": 439,
+      "task_id": "OPT-450",
+      "property": "navigator.prototype_keys[45]",
+      "roi": 0.0719,
+      "expected_gain": 0.1798,
+      "difficulty": "Medium",
+      "risk": "Medium"
+    },
+    {
+      "rank": 440,
+      "task_id": "OPT-451",
+      "property": "navigator.prototype_keys[46]",
+      "roi": 0.0719,
+      "expected_gain": 0.1798,
+      "difficulty": "Medium",
+      "risk": "Medium"
+    },
+    {
+      "rank": 441,
+      "task_id": "OPT-452",
+      "property": "navigator.prototype_keys[47]",
+      "roi": 0.0719,
+      "expected_gain": 0.1798,
+      "difficulty": "Medium",
+      "risk": "Medium"
+    },
+    {
+      "rank": 442,
+      "task_id": "OPT-453",
+      "property": "navigator.prototype_keys[48]",
+      "roi": 0.0719,
+      "expected_gain": 0.1798,
+      "difficulty": "Medium",
+      "risk": "Medium"
+    },
+    {
+      "rank": 443,
+      "task_id": "OPT-454",
+      "property": "navigator.prototype_keys[49]",
+      "roi": 0.0719,
+      "expected_gain": 0.1798,
+      "difficulty": "Medium",
+      "risk": "Medium"
+    },
+    {
+      "rank": 444,
+      "task_id": "OPT-455",
+      "property": "navigator.prototype_keys[51]",
+      "roi": 0.0719,
+      "expected_gain": 0.1798,
+      "difficulty": "Medium",
+      "risk": "Medium"
+    },
+    {
+      "rank": 445,
+      "task_id": "OPT-456",
+      "property": "navigator.prototype_keys[53]",
+      "roi": 0.0719,
+      "expected_gain": 0.1798,
+      "difficulty": "Medium",
+      "risk": "Medium"
+    },
+    {
+      "rank": 446,
+      "task_id": "OPT-457",
+      "property": "navigator.prototype_keys[54]",
+      "roi": 0.0719,
+      "expected_gain": 0.1798,
+      "difficulty": "Medium",
+      "risk": "Medium"
+    },
+    {
+      "rank": 447,
+      "task_id": "OPT-458",
+      "property": "navigator.prototype_keys[55]",
+      "roi": 0.0719,
+      "expected_gain": 0.1798,
+      "difficulty": "Medium",
+      "risk": "Medium"
+    },
+    {
+      "rank": 448,
+      "task_id": "OPT-459",
+      "property": "navigator.prototype_keys[56]",
+      "roi": 0.0719,
+      "expected_gain": 0.1798,
+      "difficulty": "Medium",
+      "risk": "Medium"
+    },
+    {
+      "rank": 449,
+      "task_id": "OPT-460",
+      "property": "navigator.prototype_keys[57]",
+      "roi": 0.0719,
+      "expected_gain": 0.1798,
+      "difficulty": "Medium",
+      "risk": "Medium"
+    },
+    {
+      "rank": 450,
+      "task_id": "OPT-461",
+      "property": "navigator.prototype_keys[58]",
+      "roi": 0.0719,
+      "expected_gain": 0.1798,
+      "difficulty": "Medium",
+      "risk": "Medium"
+    },
+    {
+      "rank": 451,
+      "task_id": "OPT-462",
+      "property": "navigator.prototype_keys[61]",
+      "roi": 0.0719,
+      "expected_gain": 0.1798,
+      "difficulty": "Medium",
+      "risk": "Medium"
+    },
+    {
+      "rank": 452,
+      "task_id": "OPT-463",
+      "property": "navigator.prototype_keys[63]",
+      "roi": 0.0719,
+      "expected_gain": 0.1798,
+      "difficulty": "Medium",
+      "risk": "Medium"
+    },
+    {
+      "rank": 453,
+      "task_id": "OPT-464",
+      "property": "navigator.prototype_keys[64]",
+      "roi": 0.0719,
+      "expected_gain": 0.1798,
+      "difficulty": "Medium",
+      "risk": "Medium"
+    },
+    {
+      "rank": 454,
+      "task_id": "OPT-465",
+      "property": "navigator.prototype_keys[66]",
+      "roi": 0.0719,
+      "expected_gain": 0.1798,
+      "difficulty": "Medium",
+      "risk": "Medium"
+    },
+    {
+      "rank": 455,
+      "task_id": "OPT-466",
+      "property": "navigator.prototype_keys[67]",
+      "roi": 0.0719,
+      "expected_gain": 0.1798,
+      "difficulty": "Medium",
+      "risk": "Medium"
+    },
+    {
+      "rank": 456,
+      "task_id": "OPT-467",
+      "property": "navigator.prototype_keys[70]",
+      "roi": 0.0719,
+      "expected_gain": 0.1798,
+      "difficulty": "Medium",
+      "risk": "Medium"
+    },
+    {
+      "rank": 457,
+      "task_id": "OPT-469",
+      "property": "navigator.prototype_keys[34]",
+      "roi": 0.07,
+      "expected_gain": 0.1749,
+      "difficulty": "Medium",
+      "risk": "Medium"
+    },
+    {
+      "rank": 458,
+      "task_id": "OPT-470",
+      "property": "navigator.prototype_keys[35]",
+      "roi": 0.07,
+      "expected_gain": 0.1749,
+      "difficulty": "Medium",
+      "risk": "Medium"
+    },
+    {
+      "rank": 459,
+      "task_id": "OPT-471",
+      "property": "navigator.prototype_keys[36]",
+      "roi": 0.07,
+      "expected_gain": 0.1749,
+      "difficulty": "Medium",
+      "risk": "Medium"
+    },
+    {
+      "rank": 460,
+      "task_id": "OPT-001",
+      "property": "navigator.userAgent",
+      "roi": 0.0545,
+      "expected_gain": 0.3965,
+      "difficulty": "Hard",
+      "risk": "High"
+    },
+    {
+      "rank": 461,
+      "task_id": "OPT-002",
+      "property": "navigator.userAgentData.brands[1].version",
+      "roi": 0.0312,
+      "expected_gain": 0.3965,
+      "difficulty": "Very Hard",
+      "risk": "High"
+    },
+    {
+      "rank": 462,
+      "task_id": "OPT-003",
+      "property": "navigator.userAgentData.brands[2].version",
+      "roi": 0.0312,
+      "expected_gain": 0.3965,
+      "difficulty": "Very Hard",
+      "risk": "High"
+    },
+    {
+      "rank": 463,
+      "task_id": "OPT-004",
+      "property": "navigator.userAgentData.high_entropy.brands[1].version",
+      "roi": 0.0312,
+      "expected_gain": 0.3965,
+      "difficulty": "Very Hard",
+      "risk": "High"
+    },
+    {
+      "rank": 464,
+      "task_id": "OPT-005",
+      "property": "navigator.userAgentData.high_entropy.brands[2].version",
+      "roi": 0.0312,
+      "expected_gain": 0.3965,
+      "difficulty": "Very Hard",
+      "risk": "High"
+    },
+    {
+      "rank": 465,
+      "task_id": "OPT-006",
+      "property": "navigator.userAgentData.high_entropy.fullVersionList[1].version",
+      "roi": 0.0312,
+      "expected_gain": 0.3965,
+      "difficulty": "Very Hard",
+      "risk": "High"
+    },
+    {
+      "rank": 466,
+      "task_id": "OPT-007",
+      "property": "navigator.userAgentData.high_entropy.fullVersionList[2].version",
+      "roi": 0.0312,
+      "expected_gain": 0.3965,
+      "difficulty": "Very Hard",
+      "risk": "High"
+    },
+    {
+      "rank": 467,
+      "task_id": "OPT-008",
+      "property": "navigator.userAgentData.high_entropy.platformVersion",
+      "roi": 0.0312,
+      "expected_gain": 0.3965,
+      "difficulty": "Very Hard",
+      "risk": "High"
+    },
+    {
+      "rank": 468,
+      "task_id": "OPT-009",
+      "property": "navigator.userAgentData.high_entropy.uaFullVersion",
+      "roi": 0.0312,
+      "expected_gain": 0.3965,
+      "difficulty": "Very Hard",
+      "risk": "High"
+    },
+    {
+      "rank": 469,
+      "task_id": "OPT-020",
+      "property": "canvas.hash",
+      "roi": 0.0255,
+      "expected_gain": 0.3243,
+      "difficulty": "Very Hard",
+      "risk": "High"
+    },
+    {
+      "rank": 470,
+      "task_id": "OPT-021",
+      "property": "canvas.length",
+      "roi": 0.0255,
+      "expected_gain": 0.3243,
+      "difficulty": "Very Hard",
+      "risk": "High"
+    },
+    {
+      "rank": 471,
+      "task_id": "OPT-207",
+      "property": "webgl.aliased_point_size_range[1]",
+      "roi": 0.0214,
+      "expected_gain": 0.2726,
+      "difficulty": "Very Hard",
+      "risk": "High"
+    }
+  ]
+}

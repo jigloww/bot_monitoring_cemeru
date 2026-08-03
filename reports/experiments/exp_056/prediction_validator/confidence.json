@@ -1,0 +1,12 @@
+{
+  "classification": "Insufficient Data",
+  "coverage_pct": 0.0,
+  "evaluated_predictions": 0,
+  "insufficient_predictions": 4,
+  "difficulty_validation": {
+    "classification": "Insufficient Data",
+    "evaluated_properties": 0,
+    "reason": "No post-planner property-level compare artifact is available."
+  },
+  "basis": "Coverage and error metrics from subsequent immutable experiment artifacts."
+}

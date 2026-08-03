@@ -1,0 +1,29 @@
+{
+  "total_source_experiments": 48,
+  "summary_artifacts_analyzed": 96,
+  "summary_score_observations": 1,
+  "planned_properties": 471,
+  "difficulty_distribution": {
+    "Easy": 399,
+    "Medium": 60,
+    "Hard": 1,
+    "Very Hard": 11
+  },
+  "implementation_risk_distribution": {
+    "Low": 399,
+    "Medium": 60,
+    "High": 12
+  },
+  "sprint_distribution": {
+    "Sprint 2": 10,
+    "Sprint 3": 439,
+    "Sprint 4": 13,
+    "Sprint 1": 9
+  },
+  "average_roi": 0.1796,
+  "current_overall": 78.9,
+  "historical_best_overall": 78.9,
+  "estimated_maximum_practical_similarity": 96.71,
+  "source_count": 8,
+  "browser_launches": 0
+}

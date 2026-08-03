@@ -1,0 +1,12 @@
+{
+  "experiment": "Milestone 01 - Monitoring Browser Integration",
+  "experiment_id": "exp_086",
+  "created_at": "2026-08-03T13:42:41.255137+07:00",
+  "result": "SUCCESS",
+  "startup_status": "UNKNOWN",
+  "browser_entry_point": "browser.launcher.launch_browser",
+  "monitoring_client": "bot/clients/playwright_client.py",
+  "browser_launches": 0,
+  "network_requests": 0,
+  "historical_artifacts_modified": false
+}

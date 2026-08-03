@@ -1,0 +1,40 @@
+{
+  "ranking": [
+    {
+      "rank": 1,
+      "prediction_id": "sprint_3",
+      "sprint": "Sprint 3",
+      "predicted_gain": 87.2574,
+      "actual_gain": null,
+      "error": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "rank": 2,
+      "prediction_id": "sprint_1",
+      "sprint": "Sprint 1",
+      "predicted_gain": 3.5685,
+      "actual_gain": null,
+      "error": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "rank": 3,
+      "prediction_id": "sprint_2",
+      "sprint": "Sprint 2",
+      "predicted_gain": 3.2386,
+      "actual_gain": null,
+      "error": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "rank": 4,
+      "prediction_id": "sprint_4",
+      "sprint": "Sprint 4",
+      "predicted_gain": 2.2595,
+      "actual_gain": null,
+      "error": null,
+      "classification": "Insufficient Data"
+    }
+  ]
+}

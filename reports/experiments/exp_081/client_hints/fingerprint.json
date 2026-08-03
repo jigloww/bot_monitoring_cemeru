@@ -1,0 +1,32 @@
+{
+  "experiment": "Experiment 033 - Client Hints Evaluation",
+  "experiment_id": "exp_081",
+  "modes": {
+    "current_stack": {
+      "fingerprint": {},
+      "probe": {
+        "supported": false,
+        "errors": [
+          "No module named 'playwright'"
+        ]
+      },
+      "meta": {
+        "mode": "current_stack",
+        "label": "Current Stack"
+      }
+    },
+    "current_stack_client_hints": {
+      "fingerprint": {},
+      "probe": {
+        "supported": false,
+        "errors": [
+          "No module named 'playwright'"
+        ]
+      },
+      "meta": {
+        "mode": "current_stack_client_hints",
+        "label": "Current Stack + Client Hints"
+      }
+    }
+  }
+}

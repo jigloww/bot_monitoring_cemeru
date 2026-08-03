@@ -1,0 +1,8 @@
+{
+  "total_checks": 6,
+  "healthy_checks": 2,
+  "warning_checks": 1,
+  "critical_checks": 2,
+  "failed_checks": 1,
+  "average_check_duration": 0.0
+}

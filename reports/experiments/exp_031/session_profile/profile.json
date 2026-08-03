@@ -1,0 +1,25 @@
+{
+  "experiment_id": "exp_031",
+  "runs": [
+    {
+      "persistent": false,
+      "temporary": true,
+      "incognito": true,
+      "user_data_directory": null,
+      "context_options": {
+        "headless": true,
+        "channel": "chromium"
+      },
+      "fonts": {
+        "supported": false,
+        "count": 0,
+        "faces": []
+      },
+      "speech": {
+        "supported": false,
+        "count": 0,
+        "voices": []
+      }
+    }
+  ]
+}

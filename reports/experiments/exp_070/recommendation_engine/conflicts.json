@@ -1,0 +1,12 @@
+{
+  "duplicates": [],
+  "circular_dependencies": [
+    [
+      "None",
+      "None"
+    ]
+  ],
+  "mutually_exclusive": [],
+  "low_confidence": [],
+  "conflicting_recommendations": []
+}

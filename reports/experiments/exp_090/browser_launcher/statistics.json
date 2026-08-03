@@ -1,0 +1,10 @@
+{
+  "browser_launches": 1,
+  "network_requests": 0,
+  "chrome_available": false,
+  "chromium_available": false,
+  "playwright_available": true,
+  "temporary_profiles_created": 1,
+  "persistent_profiles_created": 1,
+  "stealth_hooks_invoked": 1
+}

@@ -1,0 +1,104 @@
+{
+  "quick_wins": [
+    {
+      "rank": 1,
+      "property": "canvas.hash",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "risk_score": 66.75,
+      "estimated_similarity_gain": 0.3243,
+      "effort_estimate": 1.0,
+      "reason": "Primitive or localized mismatch with comparatively low dependency/shape complexity."
+    },
+    {
+      "rank": 2,
+      "property": "canvas.length",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "risk_score": 66.75,
+      "estimated_similarity_gain": 0.3243,
+      "effort_estimate": 1.0,
+      "reason": "Primitive or localized mismatch with comparatively low dependency/shape complexity."
+    },
+    {
+      "rank": 3,
+      "property": "intl.collator.locale",
+      "domain": "Environment",
+      "status": "DIFFERENT",
+      "risk_score": 60.75,
+      "estimated_similarity_gain": 0.2952,
+      "effort_estimate": 1.0,
+      "reason": "Primitive or localized mismatch with comparatively low dependency/shape complexity."
+    },
+    {
+      "rank": 4,
+      "property": "intl.listFormat.locale",
+      "domain": "Environment",
+      "status": "DIFFERENT",
+      "risk_score": 60.75,
+      "estimated_similarity_gain": 0.2952,
+      "effort_estimate": 1.0,
+      "reason": "Primitive or localized mismatch with comparatively low dependency/shape complexity."
+    },
+    {
+      "rank": 5,
+      "property": "intl.numberFormat.locale",
+      "domain": "Environment",
+      "status": "DIFFERENT",
+      "risk_score": 60.75,
+      "estimated_similarity_gain": 0.2952,
+      "effort_estimate": 1.0,
+      "reason": "Primitive or localized mismatch with comparatively low dependency/shape complexity."
+    },
+    {
+      "rank": 6,
+      "property": "timezone.locale",
+      "domain": "Environment",
+      "status": "DIFFERENT",
+      "risk_score": 60.75,
+      "estimated_similarity_gain": 0.2952,
+      "effort_estimate": 1.0,
+      "reason": "Primitive or localized mismatch with comparatively low dependency/shape complexity."
+    },
+    {
+      "rank": 7,
+      "property": "navigator.language",
+      "domain": "Navigator",
+      "status": "DIFFERENT",
+      "risk_score": 72.0,
+      "estimated_similarity_gain": 0.3499,
+      "effort_estimate": 1.5,
+      "reason": "Primitive or localized mismatch with comparatively low dependency/shape complexity."
+    },
+    {
+      "rank": 8,
+      "property": "navigator.languages[0]",
+      "domain": "Navigator",
+      "status": "DIFFERENT",
+      "risk_score": 72.0,
+      "estimated_similarity_gain": 0.3499,
+      "effort_estimate": 1.5,
+      "reason": "Primitive or localized mismatch with comparatively low dependency/shape complexity."
+    },
+    {
+      "rank": 9,
+      "property": "navigator.userAgent",
+      "domain": "Navigator",
+      "status": "DIFFERENT",
+      "risk_score": 81.6,
+      "estimated_similarity_gain": 0.3965,
+      "effort_estimate": 1.75,
+      "reason": "Primitive or localized mismatch with comparatively low dependency/shape complexity."
+    },
+    {
+      "rank": 10,
+      "property": "navigator.userAgentData.brands[1].version",
+      "domain": "Navigator",
+      "status": "DIFFERENT",
+      "risk_score": 81.6,
+      "estimated_similarity_gain": 0.3965,
+      "effort_estimate": 1.75,
+      "reason": "Primitive or localized mismatch with comparatively low dependency/shape complexity."
+    }
+  ]
+}

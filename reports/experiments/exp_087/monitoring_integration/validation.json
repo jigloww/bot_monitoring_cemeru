@@ -1,0 +1,16 @@
+{
+  "monitoring_imports_browser_launcher": true,
+  "monitoring_imports_browser_config": true,
+  "browser_config_serialization": true,
+  "launch_browser_invocation": true,
+  "no_direct_browser_launch": true,
+  "no_duplicated_browser_initialization": true,
+  "no_manual_playwright_stealth": true,
+  "monitoring_startup": "UNKNOWN",
+  "launcher_cleanup": true,
+  "launcher_hook_invocation": true,
+  "source_parse": true,
+  "browser_launches": 0,
+  "network_requests": 0,
+  "valid": true
+}

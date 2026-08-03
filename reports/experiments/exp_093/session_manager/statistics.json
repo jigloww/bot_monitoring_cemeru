@@ -1,0 +1,10 @@
+{
+  "browser_launches": 0,
+  "network_requests": 0,
+  "fake_launches": 3,
+  "automatic_restarts": 1,
+  "manual_restarts": 1,
+  "pages_created": 2,
+  "initial_page_count": 1,
+  "final_status": "STOPPED"
+}

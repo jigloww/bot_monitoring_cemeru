@@ -1,0 +1,9 @@
+{
+  "experiment_id": "exp_030",
+  "runs": [
+    {
+      "playwright_version": "unknown",
+      "headless": true
+    }
+  ]
+}

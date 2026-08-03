@@ -1,0 +1,220 @@
+{
+  "top_overall": [
+    {
+      "experiment_id": "exp_014",
+      "experiment_name": "Experiment 014 - WebGL Evaluation",
+      "value": 78.9
+    },
+    {
+      "experiment_id": "exp_012",
+      "experiment_name": "Experiment 012 - Performance Evaluation",
+      "value": 77.0
+    },
+    {
+      "experiment_id": "exp_011",
+      "experiment_name": "Experiment 011 - Speech Evaluation",
+      "value": 72.3
+    },
+    {
+      "experiment_id": "exp_009",
+      "experiment_name": "Experiment 009 - Permissions Evaluation",
+      "value": 66.6
+    },
+    {
+      "experiment_id": "exp_010",
+      "experiment_name": "Experiment 010 - Fonts Evaluation",
+      "value": 66.6
+    },
+    {
+      "experiment_id": "exp_008",
+      "experiment_name": "Experiment 008 - Chrome Runtime Evaluation",
+      "value": 65.8
+    },
+    {
+      "experiment_id": "exp_001",
+      "experiment_name": "navigator-module-smoke",
+      "value": 51.6
+    }
+  ],
+  "top_cf_score": [
+    {
+      "experiment_id": "exp_014",
+      "experiment_name": "Experiment 014 - WebGL Evaluation",
+      "value": 84.8
+    },
+    {
+      "experiment_id": "exp_012",
+      "experiment_name": "Experiment 012 - Performance Evaluation",
+      "value": 81.6
+    },
+    {
+      "experiment_id": "exp_011",
+      "experiment_name": "Experiment 011 - Speech Evaluation",
+      "value": 78.7
+    },
+    {
+      "experiment_id": "exp_009",
+      "experiment_name": "Experiment 009 - Permissions Evaluation",
+      "value": 74.9
+    },
+    {
+      "experiment_id": "exp_010",
+      "experiment_name": "Experiment 010 - Fonts Evaluation",
+      "value": 74.9
+    },
+    {
+      "experiment_id": "exp_008",
+      "experiment_name": "Experiment 008 - Chrome Runtime Evaluation",
+      "value": 74.3
+    },
+    {
+      "experiment_id": "exp_001",
+      "experiment_name": "navigator-module-smoke",
+      "value": 54.8
+    }
+  ],
+  "lowest_diff": [
+    {
+      "experiment_id": "exp_014",
+      "experiment_name": "Experiment 014 - WebGL Evaluation",
+      "value": 72.0
+    },
+    {
+      "experiment_id": "exp_012",
+      "experiment_name": "Experiment 012 - Performance Evaluation",
+      "value": 77.0
+    },
+    {
+      "experiment_id": "exp_011",
+      "experiment_name": "Experiment 011 - Speech Evaluation",
+      "value": 85.0
+    },
+    {
+      "experiment_id": "exp_009",
+      "experiment_name": "Experiment 009 - Permissions Evaluation",
+      "value": 151.0
+    },
+    {
+      "experiment_id": "exp_010",
+      "experiment_name": "Experiment 010 - Fonts Evaluation",
+      "value": 151.0
+    },
+    {
+      "experiment_id": "exp_008",
+      "experiment_name": "Experiment 008 - Chrome Runtime Evaluation",
+      "value": 152.0
+    },
+    {
+      "experiment_id": "exp_001",
+      "experiment_name": "navigator-module-smoke",
+      "value": 180.0
+    }
+  ],
+  "most_stable": [
+    {
+      "classification": "UNSTABLE",
+      "score_consistency": 15.92
+    }
+  ],
+  "largest_improvement": {
+    "from": "exp_010",
+    "to": "exp_011",
+    "score_delta": 5.7,
+    "cf_score_delta": 3.8,
+    "diff_delta": -66.0,
+    "hash_change": false,
+    "environment_hash_change": false,
+    "profile_hash_change": false,
+    "new_modules": [],
+    "removed_modules": [],
+    "category_improvement": [
+      {
+        "category": "Speech",
+        "delta": 100.0
+      }
+    ],
+    "category_regression": [
+      {
+        "category": "Navigator",
+        "delta": -3.6
+      }
+    ],
+    "missing_categories": [],
+    "missing_artifacts": [
+      "statistics"
+    ],
+    "result": "UNKNOWN"
+  },
+  "largest_regression": null,
+  "most_consistent": [
+    {
+      "experiment_id": "exp_028",
+      "fingerprint_hash": "cbcd59f195cfcc493f53db05bcd903d47cb5b8f32dc34ab8857e4dad16e4589a",
+      "environment_hash": "28f1780e7e510bbe48cd06718036b632b59022613e87a7f562d016ac0293c560"
+    },
+    {
+      "experiment_id": "exp_029",
+      "fingerprint_hash": "2a3a04e0a034763e54b3385511ef71bb558df8baf41ccc1ab22407ed4e579f52",
+      "environment_hash": "2cf05af5eb73df4c75cfc853305de48749ce8059fd6a62d5a7e7123a57f9bb15"
+    },
+    {
+      "experiment_id": "exp_030",
+      "fingerprint_hash": "f15675a56da41c2504f0f47dcefa7b1e4b0817c8fbea3557c5ba4c3a14646ae0",
+      "environment_hash": "b735553cb89670162b4a6bf24ff001f5f88da5490d0176db1cbca710b406d507"
+    },
+    {
+      "experiment_id": "exp_031",
+      "fingerprint_hash": "4aa3124370c5c6f1e0c4c2d8b3cd95c71559ea05da848c636dd446611fdbbead",
+      "environment_hash": "b77f2471394bfad95e320ef97cab0f96b95106297764d7d2053f73c3dd8f32df"
+    },
+    {
+      "experiment_id": "exp_032",
+      "fingerprint_hash": "7ef46eb1f8e32eb46c0e275a44c193d1ac963c72c321e46b244012e585544b6f",
+      "environment_hash": "bc822f649121a4f395db6d8e4fc3a33de3f31af072ce75b7c08139448f9bf015"
+    }
+  ],
+  "best_fingerprint": [
+    {
+      "experiment_id": "exp_028",
+      "hash": "cbcd59f195cfcc493f53db05bcd903d47cb5b8f32dc34ab8857e4dad16e4589a"
+    },
+    {
+      "experiment_id": "exp_029",
+      "hash": "2a3a04e0a034763e54b3385511ef71bb558df8baf41ccc1ab22407ed4e579f52"
+    },
+    {
+      "experiment_id": "exp_030",
+      "hash": "f15675a56da41c2504f0f47dcefa7b1e4b0817c8fbea3557c5ba4c3a14646ae0"
+    },
+    {
+      "experiment_id": "exp_031",
+      "hash": "4aa3124370c5c6f1e0c4c2d8b3cd95c71559ea05da848c636dd446611fdbbead"
+    },
+    {
+      "experiment_id": "exp_032",
+      "hash": "7ef46eb1f8e32eb46c0e275a44c193d1ac963c72c321e46b244012e585544b6f"
+    }
+  ],
+  "best_environment": [
+    {
+      "experiment_id": "exp_028",
+      "hash": "28f1780e7e510bbe48cd06718036b632b59022613e87a7f562d016ac0293c560"
+    },
+    {
+      "experiment_id": "exp_029",
+      "hash": "2cf05af5eb73df4c75cfc853305de48749ce8059fd6a62d5a7e7123a57f9bb15"
+    },
+    {
+      "experiment_id": "exp_030",
+      "hash": "b735553cb89670162b4a6bf24ff001f5f88da5490d0176db1cbca710b406d507"
+    },
+    {
+      "experiment_id": "exp_031",
+      "hash": "b77f2471394bfad95e320ef97cab0f96b95106297764d7d2053f73c3dd8f32df"
+    },
+    {
+      "experiment_id": "exp_032",
+      "hash": "bc822f649121a4f395db6d8e4fc3a33de3f31af072ce75b7c08139448f9bf015"
+    }
+  ]
+}

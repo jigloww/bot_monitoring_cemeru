@@ -1,0 +1,92 @@
+[
+  {
+    "module": "Navigator",
+    "recommendation_id": "REC-001",
+    "score": 41.814348,
+    "recommendation_type": "Dependency Unlock",
+    "recommendation_count": 151,
+    "expected_similarity_gain": 32.4416,
+    "expected_cf_gain": 28.2875
+  },
+  {
+    "module": "Window",
+    "recommendation_id": "REC-051",
+    "score": 22.187192,
+    "recommendation_type": "Quick Win",
+    "recommendation_count": 264,
+    "expected_similarity_gain": 52.3252,
+    "expected_cf_gain": 31.3892
+  },
+  {
+    "module": "Screen",
+    "recommendation_id": null,
+    "score": 0.0,
+    "recommendation_type": null,
+    "recommendation_count": 0,
+    "expected_similarity_gain": 0,
+    "expected_cf_gain": 0
+  },
+  {
+    "module": "Chrome",
+    "recommendation_id": null,
+    "score": 0.0,
+    "recommendation_type": null,
+    "recommendation_count": 0,
+    "expected_similarity_gain": 0,
+    "expected_cf_gain": 0
+  },
+  {
+    "module": "Permissions",
+    "recommendation_id": null,
+    "score": 0.0,
+    "recommendation_type": null,
+    "recommendation_count": 0,
+    "expected_similarity_gain": 0,
+    "expected_cf_gain": 0
+  },
+  {
+    "module": "Fonts",
+    "recommendation_id": null,
+    "score": 0.0,
+    "recommendation_type": null,
+    "recommendation_count": 0,
+    "expected_similarity_gain": 0,
+    "expected_cf_gain": 0
+  },
+  {
+    "module": "Speech",
+    "recommendation_id": null,
+    "score": 0.0,
+    "recommendation_type": null,
+    "recommendation_count": 0,
+    "expected_similarity_gain": 0,
+    "expected_cf_gain": 0
+  },
+  {
+    "module": "Performance",
+    "recommendation_id": "REC-239",
+    "score": 21.00259,
+    "recommendation_type": "Experimental",
+    "recommendation_count": 1,
+    "expected_similarity_gain": 0.2109,
+    "expected_cf_gain": 0.1371
+  },
+  {
+    "module": "WebGL",
+    "recommendation_id": "REC-207",
+    "score": 14.336052,
+    "recommendation_type": "Long Term",
+    "recommendation_count": 1,
+    "expected_similarity_gain": 0.2726,
+    "expected_cf_gain": 0.2999
+  },
+  {
+    "module": "Unknown",
+    "recommendation_id": "REC-014",
+    "score": 29.13977,
+    "recommendation_type": "Quick Win",
+    "recommendation_count": 54,
+    "expected_similarity_gain": 11.0737,
+    "expected_cf_gain": 6.8777
+  }
+]

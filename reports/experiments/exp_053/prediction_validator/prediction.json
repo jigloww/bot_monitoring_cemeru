@@ -1,0 +1,4289 @@
+{
+  "predictions": [
+    {
+      "prediction_id": "sprint_1",
+      "sprint": "Sprint 1",
+      "predicted_overall_after": 79.56,
+      "predicted_overall_gain": 3.5685,
+      "actual_experiment": null,
+      "actual_overall": null,
+      "actual_overall_gain": null,
+      "error": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "prediction_id": "sprint_2",
+      "sprint": "Sprint 2",
+      "predicted_overall_after": 80.16,
+      "predicted_overall_gain": 3.2386,
+      "actual_experiment": null,
+      "actual_overall": null,
+      "actual_overall_gain": null,
+      "error": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "prediction_id": "sprint_3",
+      "sprint": "Sprint 3",
+      "predicted_overall_after": 96.29,
+      "predicted_overall_gain": 87.2574,
+      "actual_experiment": null,
+      "actual_overall": null,
+      "actual_overall_gain": null,
+      "error": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "prediction_id": "sprint_4",
+      "sprint": "Sprint 4",
+      "predicted_overall_after": 96.71,
+      "predicted_overall_gain": 2.2595,
+      "actual_experiment": null,
+      "actual_overall": null,
+      "actual_overall_gain": null,
+      "error": null,
+      "classification": "Insufficient Data"
+    }
+  ],
+  "property_predictions": [
+    {
+      "property": "navigator.userAgent",
+      "domain": "Navigator",
+      "sprint": "Sprint 1",
+      "difficulty": "Hard",
+      "predicted_gain": 0.3965,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "navigator.userAgentData.brands[1].version",
+      "domain": "Navigator",
+      "sprint": "Sprint 1",
+      "difficulty": "Very Hard",
+      "predicted_gain": 0.3965,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "navigator.userAgentData.brands[2].version",
+      "domain": "Navigator",
+      "sprint": "Sprint 1",
+      "difficulty": "Very Hard",
+      "predicted_gain": 0.3965,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "navigator.userAgentData.high_entropy.brands[1].version",
+      "domain": "Navigator",
+      "sprint": "Sprint 1",
+      "difficulty": "Very Hard",
+      "predicted_gain": 0.3965,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "navigator.userAgentData.high_entropy.brands[2].version",
+      "domain": "Navigator",
+      "sprint": "Sprint 1",
+      "difficulty": "Very Hard",
+      "predicted_gain": 0.3965,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "navigator.userAgentData.high_entropy.fullVersionList[1].version",
+      "domain": "Navigator",
+      "sprint": "Sprint 1",
+      "difficulty": "Very Hard",
+      "predicted_gain": 0.3965,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "navigator.userAgentData.high_entropy.fullVersionList[2].version",
+      "domain": "Navigator",
+      "sprint": "Sprint 1",
+      "difficulty": "Very Hard",
+      "predicted_gain": 0.3965,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "navigator.userAgentData.high_entropy.platformVersion",
+      "domain": "Navigator",
+      "sprint": "Sprint 1",
+      "difficulty": "Very Hard",
+      "predicted_gain": 0.3965,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "navigator.userAgentData.high_entropy.uaFullVersion",
+      "domain": "Navigator",
+      "sprint": "Sprint 1",
+      "difficulty": "Very Hard",
+      "predicted_gain": 0.3965,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "navigator.languages[1]",
+      "domain": "Navigator",
+      "sprint": "Sprint 2",
+      "difficulty": "Medium",
+      "predicted_gain": 0.3547,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "navigator.languages[2]",
+      "domain": "Navigator",
+      "sprint": "Sprint 2",
+      "difficulty": "Medium",
+      "predicted_gain": 0.3547,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "navigator.language",
+      "domain": "Navigator",
+      "sprint": "Sprint 2",
+      "difficulty": "Medium",
+      "predicted_gain": 0.3499,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "navigator.languages[0]",
+      "domain": "Navigator",
+      "sprint": "Sprint 2",
+      "difficulty": "Medium",
+      "predicted_gain": 0.3499,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "intl.collator.locale",
+      "domain": "Environment",
+      "sprint": "Sprint 2",
+      "difficulty": "Easy",
+      "predicted_gain": 0.2952,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "intl.listFormat.locale",
+      "domain": "Environment",
+      "sprint": "Sprint 2",
+      "difficulty": "Easy",
+      "predicted_gain": 0.2952,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "intl.numberFormat.locale",
+      "domain": "Environment",
+      "sprint": "Sprint 2",
+      "difficulty": "Easy",
+      "predicted_gain": 0.2952,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "timezone.locale",
+      "domain": "Environment",
+      "sprint": "Sprint 2",
+      "difficulty": "Easy",
+      "predicted_gain": 0.2952,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "indexeddb.databases[0]",
+      "domain": "Storage",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.2782,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "indexeddb.databases[1]",
+      "domain": "Storage",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.2782,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "canvas.hash",
+      "domain": "Other",
+      "sprint": "Sprint 2",
+      "difficulty": "Very Hard",
+      "predicted_gain": 0.3243,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "canvas.length",
+      "domain": "Other",
+      "sprint": "Sprint 2",
+      "difficulty": "Very Hard",
+      "predicted_gain": 0.3243,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "indexeddb.count",
+      "domain": "Storage",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.249,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "storage.localStorage_length",
+      "domain": "Storage",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.249,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "storage.sessionStorage_length",
+      "domain": "Storage",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.249,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "storage.caches_available",
+      "domain": "Storage",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.2272,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "storage.cookieStore_available",
+      "domain": "Storage",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.2272,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "storage.indexedDB_available",
+      "domain": "Storage",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.2272,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "indexeddb",
+      "domain": "Storage",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.2247,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "storage",
+      "domain": "Storage",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.2247,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "document.cookie_names[0]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.2235,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "document.domain",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.2235,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "document.referrer",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.2235,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "navigator_own_keys[40]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.2235,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "navigator_own_keys[41]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.2235,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "navigator_own_keys[46]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.2235,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "navigator_own_keys[53]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.2235,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "navigator_own_keys[54]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.2235,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "navigator_own_keys[55]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.2235,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "navigator_own_keys[56]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.2235,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "navigator_own_keys[61]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.2235,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "navigator_own_keys[65]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.2235,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "navigator_own_keys[66]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.2235,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "navigator_own_keys[67]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.2235,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "navigator_own_keys[69]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.2235,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "navigator_own_keys[71]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.2235,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "navigator_own_keys[75]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.2235,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "navigator_own_keys[78]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.2235,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "navigator_own_keys[79]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.2235,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "navigator_own_keys[80]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.2235,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "navigator_own_keys[81]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.2235,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[239]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.2235,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[242]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.2235,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[243]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.2235,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[244]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.2235,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[245]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.2235,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[246]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.2235,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[250]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.2235,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[258]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.2235,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[259]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.2235,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[260]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.2235,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[261]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.2235,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[262]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.2235,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "navigator_own_keys[0]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.2187,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "navigator_own_keys[10]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.2187,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "navigator_own_keys[12]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.2187,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "navigator_own_keys[13]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.2187,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "navigator_own_keys[15]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.2187,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "navigator_own_keys[16]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.2187,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "navigator_own_keys[17]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.2187,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "navigator_own_keys[19]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.2187,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "navigator_own_keys[20]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.2187,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "navigator_own_keys[24]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.2187,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "navigator_own_keys[25]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.2187,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "navigator_own_keys[28]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.2187,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "navigator_own_keys[30]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.2187,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "navigator_own_keys[32]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.2187,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "navigator_own_keys[35]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.2187,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "navigator_own_keys[36]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.2187,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "navigator_own_keys[37]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.2187,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "navigator_own_keys[5]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.2187,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "navigator_own_keys[7]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.2187,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "navigator_own_keys[8]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.2187,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[101]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.2187,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[102]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.2187,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[103]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.2187,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[104]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.2187,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[105]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.2187,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[106]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.2187,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[108]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.2187,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[109]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.2187,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[110]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.2187,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[118]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.2187,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[11]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.2187,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[124]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.2187,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[125]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.2187,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[126]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.2187,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[127]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.2187,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[128]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.2187,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[129]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.2187,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[130]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.2187,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[132]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.2187,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[133]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.2187,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[136]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.2187,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[137]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.2187,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[138]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.2187,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[140]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.2187,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[142]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.2187,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[143]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.2187,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[145]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.2187,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[149]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.2187,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[150]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.2187,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[158]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.2187,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[159]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.2187,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[160]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.2187,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[161]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.2187,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[162]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.2187,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[164]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.2187,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[165]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.2187,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[166]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.2187,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[167]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.2187,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[168]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.2187,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[169]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.2187,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[16]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.2187,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[170]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.2187,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[174]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.2187,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[175]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.2187,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[176]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.2187,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[178]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.2187,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[17]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.2187,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[182]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.2187,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[183]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.2187,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[185]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.2187,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[186]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.2187,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[188]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.2187,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[189]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.2187,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[18]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.2187,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[191]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.2187,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[192]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.2187,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[193]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.2187,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[194]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.2187,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[195]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.2187,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[197]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.2187,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[199]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.2187,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[200]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.2187,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[201]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.2187,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[202]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.2187,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[205]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.2187,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[207]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.2187,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[208]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.2187,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[20]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.2187,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[212]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.2187,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[218]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.2187,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[219]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.2187,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[21]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.2187,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[220]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.2187,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[221]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.2187,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[222]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.2187,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[223]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.2187,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[22]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.2187,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[24]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.2187,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[26]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.2187,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[2]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.2187,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[31]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.2187,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[33]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.2187,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[34]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.2187,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[35]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.2187,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[37]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.2187,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[39]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.2187,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[41]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.2187,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[52]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.2187,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[53]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.2187,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[54]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.2187,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[55]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.2187,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[56]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.2187,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[57]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.2187,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[58]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.2187,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[59]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.2187,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[5]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.2187,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[60]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.2187,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[61]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.2187,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[62]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.2187,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[63]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.2187,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[64]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.2187,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[68]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.2187,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[6]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.2187,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[73]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.2187,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[74]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.2187,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[75]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.2187,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[76]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.2187,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[7]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.2187,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[81]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.2187,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[82]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.2187,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[83]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.2187,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[84]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.2187,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[85]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.2187,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[86]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.2187,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[87]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.2187,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[88]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.2187,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[89]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.2187,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[90]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.2187,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[91]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.2187,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[92]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.2187,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[93]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.2187,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[94]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.2187,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[97]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.2187,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[9]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.2187,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "webgl.aliased_point_size_range[1]",
+      "domain": "WebGL",
+      "sprint": "Sprint 4",
+      "difficulty": "Very Hard",
+      "predicted_gain": 0.2726,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "battery.chargingTime",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.1944,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "battery.dischargingTime",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.1944,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "battery.level",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.1944,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "document.cookie_count",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.1944,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "navigator.prototype_keys[40]",
+      "domain": "Navigator",
+      "sprint": "Sprint 3",
+      "difficulty": "Medium",
+      "predicted_gain": 0.2235,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "navigator.prototype_keys[41]",
+      "domain": "Navigator",
+      "sprint": "Sprint 3",
+      "difficulty": "Medium",
+      "predicted_gain": 0.2235,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "navigator.prototype_keys[44]",
+      "domain": "Navigator",
+      "sprint": "Sprint 3",
+      "difficulty": "Medium",
+      "predicted_gain": 0.2235,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "navigator.prototype_keys[50]",
+      "domain": "Navigator",
+      "sprint": "Sprint 3",
+      "difficulty": "Medium",
+      "predicted_gain": 0.2235,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "navigator.prototype_keys[52]",
+      "domain": "Navigator",
+      "sprint": "Sprint 3",
+      "difficulty": "Medium",
+      "predicted_gain": 0.2235,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "navigator.prototype_keys[59]",
+      "domain": "Navigator",
+      "sprint": "Sprint 3",
+      "difficulty": "Medium",
+      "predicted_gain": 0.2235,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "navigator.prototype_keys[60]",
+      "domain": "Navigator",
+      "sprint": "Sprint 3",
+      "difficulty": "Medium",
+      "predicted_gain": 0.2235,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "navigator.prototype_keys[62]",
+      "domain": "Navigator",
+      "sprint": "Sprint 3",
+      "difficulty": "Medium",
+      "predicted_gain": 0.2235,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "navigator.prototype_keys[65]",
+      "domain": "Navigator",
+      "sprint": "Sprint 3",
+      "difficulty": "Medium",
+      "predicted_gain": 0.2235,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "navigator.prototype_keys[68]",
+      "domain": "Navigator",
+      "sprint": "Sprint 3",
+      "difficulty": "Medium",
+      "predicted_gain": 0.2235,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "navigator.prototype_keys[69]",
+      "domain": "Navigator",
+      "sprint": "Sprint 3",
+      "difficulty": "Medium",
+      "predicted_gain": 0.2235,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "navigator.prototype_keys[71]",
+      "domain": "Navigator",
+      "sprint": "Sprint 3",
+      "difficulty": "Medium",
+      "predicted_gain": 0.2235,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "navigator.prototype_keys[72]",
+      "domain": "Navigator",
+      "sprint": "Sprint 3",
+      "difficulty": "Medium",
+      "predicted_gain": 0.2235,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "navigator.prototype_keys[73]",
+      "domain": "Navigator",
+      "sprint": "Sprint 3",
+      "difficulty": "Medium",
+      "predicted_gain": 0.2235,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "navigator.prototype_keys[74]",
+      "domain": "Navigator",
+      "sprint": "Sprint 3",
+      "difficulty": "Medium",
+      "predicted_gain": 0.2235,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "navigator.prototype_keys[75]",
+      "domain": "Navigator",
+      "sprint": "Sprint 3",
+      "difficulty": "Medium",
+      "predicted_gain": 0.2235,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "navigator.prototype_keys[76]",
+      "domain": "Navigator",
+      "sprint": "Sprint 3",
+      "difficulty": "Medium",
+      "predicted_gain": 0.2235,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "navigator.prototype_keys[77]",
+      "domain": "Navigator",
+      "sprint": "Sprint 3",
+      "difficulty": "Medium",
+      "predicted_gain": 0.2235,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "navigator.prototype_keys[78]",
+      "domain": "Navigator",
+      "sprint": "Sprint 3",
+      "difficulty": "Medium",
+      "predicted_gain": 0.2235,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "navigator.prototype_keys[79]",
+      "domain": "Navigator",
+      "sprint": "Sprint 3",
+      "difficulty": "Medium",
+      "predicted_gain": 0.2235,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "navigator.prototype_keys[80]",
+      "domain": "Navigator",
+      "sprint": "Sprint 3",
+      "difficulty": "Medium",
+      "predicted_gain": 0.2235,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "navigator.prototype_keys[81]",
+      "domain": "Navigator",
+      "sprint": "Sprint 3",
+      "difficulty": "Medium",
+      "predicted_gain": 0.2235,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "navigator.prototype_keys[82]",
+      "domain": "Navigator",
+      "sprint": "Sprint 3",
+      "difficulty": "Medium",
+      "predicted_gain": 0.2235,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "navigator.appVersion",
+      "domain": "Navigator",
+      "sprint": "Sprint 3",
+      "difficulty": "Medium",
+      "predicted_gain": 0.2187,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "navigator.prototype_keys[32]",
+      "domain": "Navigator",
+      "sprint": "Sprint 3",
+      "difficulty": "Medium",
+      "predicted_gain": 0.2187,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "navigator.prototype_keys[33]",
+      "domain": "Navigator",
+      "sprint": "Sprint 3",
+      "difficulty": "Medium",
+      "predicted_gain": 0.2187,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "navigator.prototype_keys[37]",
+      "domain": "Navigator",
+      "sprint": "Sprint 3",
+      "difficulty": "Medium",
+      "predicted_gain": 0.2187,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "performance.now",
+      "domain": "Performance",
+      "sprint": "Sprint 3",
+      "difficulty": "Medium",
+      "predicted_gain": 0.2109,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "document.characterSet",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.1798,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "document.compatMode",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.1798,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "document.cookie_names[1]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.1798,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "document.title",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.1798,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "document.visibilityState",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.1798,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "media_devices[0].groupId",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.1798,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "media_devices[0].kind",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.1798,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "media_devices[0].label",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.1798,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "media_devices[1].groupId",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.1798,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "media_devices[1].kind",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.1798,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "media_devices[1].label",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.1798,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "media_devices[2].groupId",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.1798,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "media_devices[2].kind",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.1798,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "media_devices[2].label",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.1798,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "navigator_own_keys[38]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.1798,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "navigator_own_keys[39]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.1798,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "navigator_own_keys[42]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.1798,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "navigator_own_keys[43]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.1798,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "navigator_own_keys[44]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.1798,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "navigator_own_keys[45]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.1798,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "navigator_own_keys[47]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.1798,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "navigator_own_keys[48]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.1798,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "navigator_own_keys[49]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.1798,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "navigator_own_keys[50]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.1798,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "navigator_own_keys[51]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.1798,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "navigator_own_keys[52]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.1798,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "navigator_own_keys[57]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.1798,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "navigator_own_keys[58]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.1798,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "navigator_own_keys[59]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.1798,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "navigator_own_keys[60]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.1798,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "navigator_own_keys[62]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.1798,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "navigator_own_keys[63]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.1798,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "navigator_own_keys[64]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.1798,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "navigator_own_keys[68]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.1798,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "navigator_own_keys[70]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.1798,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "navigator_own_keys[72]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.1798,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "navigator_own_keys[73]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.1798,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "navigator_own_keys[74]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.1798,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "navigator_own_keys[76]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.1798,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "navigator_own_keys[77]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.1798,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "navigator_own_keys[82]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.1798,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[224]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.1798,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[225]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.1798,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[226]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.1798,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[227]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.1798,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[228]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.1798,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[229]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.1798,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[230]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.1798,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[231]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.1798,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[232]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.1798,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[233]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.1798,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[234]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.1798,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[235]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.1798,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[236]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.1798,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[237]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.1798,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[238]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.1798,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[240]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.1798,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[241]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.1798,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[247]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.1798,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[248]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.1798,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[249]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.1798,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[251]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.1798,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[252]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.1798,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[253]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.1798,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[254]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.1798,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[255]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.1798,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[256]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.1798,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[257]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.1798,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[263]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.1798,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "features.notification_permission",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.1749,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "navigator_own_keys[11]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.1749,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "navigator_own_keys[14]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.1749,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "navigator_own_keys[18]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.1749,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "navigator_own_keys[1]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.1749,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "navigator_own_keys[21]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.1749,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "navigator_own_keys[22]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.1749,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "navigator_own_keys[23]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.1749,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "navigator_own_keys[26]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.1749,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "navigator_own_keys[27]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.1749,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "navigator_own_keys[29]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.1749,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "navigator_own_keys[2]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.1749,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "navigator_own_keys[31]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.1749,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "navigator_own_keys[33]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.1749,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "navigator_own_keys[34]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.1749,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "navigator_own_keys[3]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.1749,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "navigator_own_keys[4]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.1749,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "navigator_own_keys[6]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.1749,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "navigator_own_keys[9]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.1749,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[0]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.1749,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[100]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.1749,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[107]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.1749,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[10]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.1749,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[111]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.1749,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[112]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.1749,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[113]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.1749,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[114]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.1749,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[115]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.1749,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[116]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.1749,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[117]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.1749,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[119]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.1749,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[120]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.1749,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[121]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.1749,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[122]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.1749,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[123]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.1749,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[12]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.1749,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[131]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.1749,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[134]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.1749,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[135]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.1749,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[139]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.1749,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[13]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.1749,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[141]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.1749,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[144]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.1749,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[146]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.1749,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[147]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.1749,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[148]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.1749,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[14]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.1749,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[151]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.1749,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[152]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.1749,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[153]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.1749,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[154]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.1749,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[155]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.1749,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[156]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.1749,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[157]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.1749,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[15]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.1749,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[163]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.1749,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[171]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.1749,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[172]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.1749,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[173]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.1749,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[177]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.1749,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[179]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.1749,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[180]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.1749,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[181]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.1749,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[184]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.1749,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[187]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.1749,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[190]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.1749,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[196]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.1749,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[198]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.1749,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[19]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.1749,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[1]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.1749,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[203]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.1749,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[204]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.1749,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[206]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.1749,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[209]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.1749,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[210]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.1749,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[211]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.1749,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[213]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.1749,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[214]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.1749,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[215]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.1749,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[216]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.1749,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[217]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.1749,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[23]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.1749,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[25]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.1749,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[27]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.1749,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[28]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.1749,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[29]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.1749,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[30]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.1749,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[32]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.1749,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[36]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.1749,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[38]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.1749,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[3]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.1749,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[40]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.1749,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[42]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.1749,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[43]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.1749,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[44]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.1749,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[45]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.1749,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[46]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.1749,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[47]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.1749,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[48]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.1749,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[49]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.1749,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[4]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.1749,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[50]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.1749,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[51]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.1749,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[65]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.1749,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[66]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.1749,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[67]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.1749,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[69]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.1749,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[70]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.1749,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[71]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.1749,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[72]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.1749,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[77]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.1749,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[78]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.1749,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[79]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.1749,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[80]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.1749,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[8]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.1749,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[95]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.1749,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[96]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.1749,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[98]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.1749,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "window_keys[99]",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.1749,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "battery.charging",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.1725,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "battery",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.1701,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "document",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.1701,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "media_devices",
+      "domain": "Other",
+      "sprint": "Sprint 3",
+      "difficulty": "Easy",
+      "predicted_gain": 0.1701,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "features.ServiceWorker",
+      "domain": "Other",
+      "sprint": "Sprint 4",
+      "difficulty": "Easy",
+      "predicted_gain": 0.1676,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "features.crypto_subtle",
+      "domain": "Other",
+      "sprint": "Sprint 4",
+      "difficulty": "Easy",
+      "predicted_gain": 0.1676,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "gpu.available",
+      "domain": "Other",
+      "sprint": "Sprint 4",
+      "difficulty": "Easy",
+      "predicted_gain": 0.1676,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "hardware_apis.bluetooth",
+      "domain": "Other",
+      "sprint": "Sprint 4",
+      "difficulty": "Easy",
+      "predicted_gain": 0.1676,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "hardware_apis.clipboard",
+      "domain": "Other",
+      "sprint": "Sprint 4",
+      "difficulty": "Easy",
+      "predicted_gain": 0.1676,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "hardware_apis.hid",
+      "domain": "Other",
+      "sprint": "Sprint 4",
+      "difficulty": "Easy",
+      "predicted_gain": 0.1676,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "hardware_apis.keyboard",
+      "domain": "Other",
+      "sprint": "Sprint 4",
+      "difficulty": "Easy",
+      "predicted_gain": 0.1676,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "hardware_apis.serial",
+      "domain": "Other",
+      "sprint": "Sprint 4",
+      "difficulty": "Easy",
+      "predicted_gain": 0.1676,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "hardware_apis.usb",
+      "domain": "Other",
+      "sprint": "Sprint 4",
+      "difficulty": "Easy",
+      "predicted_gain": 0.1676,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "media_capabilities.powerEfficient",
+      "domain": "Other",
+      "sprint": "Sprint 4",
+      "difficulty": "Easy",
+      "predicted_gain": 0.1676,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "navigator.connection.downlink",
+      "domain": "Navigator",
+      "sprint": "Sprint 3",
+      "difficulty": "Medium",
+      "predicted_gain": 0.1895,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "navigator.connection.rtt",
+      "domain": "Navigator",
+      "sprint": "Sprint 3",
+      "difficulty": "Medium",
+      "predicted_gain": 0.1895,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "navigator.maxTouchPoints",
+      "domain": "Navigator",
+      "sprint": "Sprint 3",
+      "difficulty": "Medium",
+      "predicted_gain": 0.1895,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "document.readyState",
+      "domain": "Other",
+      "sprint": "Sprint 4",
+      "difficulty": "Easy",
+      "predicted_gain": 0.1575,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "navigator.prototype_keys[38]",
+      "domain": "Navigator",
+      "sprint": "Sprint 3",
+      "difficulty": "Medium",
+      "predicted_gain": 0.1798,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "navigator.prototype_keys[39]",
+      "domain": "Navigator",
+      "sprint": "Sprint 3",
+      "difficulty": "Medium",
+      "predicted_gain": 0.1798,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "navigator.prototype_keys[42]",
+      "domain": "Navigator",
+      "sprint": "Sprint 3",
+      "difficulty": "Medium",
+      "predicted_gain": 0.1798,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "navigator.prototype_keys[43]",
+      "domain": "Navigator",
+      "sprint": "Sprint 3",
+      "difficulty": "Medium",
+      "predicted_gain": 0.1798,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "navigator.prototype_keys[45]",
+      "domain": "Navigator",
+      "sprint": "Sprint 3",
+      "difficulty": "Medium",
+      "predicted_gain": 0.1798,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "navigator.prototype_keys[46]",
+      "domain": "Navigator",
+      "sprint": "Sprint 3",
+      "difficulty": "Medium",
+      "predicted_gain": 0.1798,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "navigator.prototype_keys[47]",
+      "domain": "Navigator",
+      "sprint": "Sprint 3",
+      "difficulty": "Medium",
+      "predicted_gain": 0.1798,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "navigator.prototype_keys[48]",
+      "domain": "Navigator",
+      "sprint": "Sprint 3",
+      "difficulty": "Medium",
+      "predicted_gain": 0.1798,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "navigator.prototype_keys[49]",
+      "domain": "Navigator",
+      "sprint": "Sprint 3",
+      "difficulty": "Medium",
+      "predicted_gain": 0.1798,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "navigator.prototype_keys[51]",
+      "domain": "Navigator",
+      "sprint": "Sprint 3",
+      "difficulty": "Medium",
+      "predicted_gain": 0.1798,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "navigator.prototype_keys[53]",
+      "domain": "Navigator",
+      "sprint": "Sprint 3",
+      "difficulty": "Medium",
+      "predicted_gain": 0.1798,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "navigator.prototype_keys[54]",
+      "domain": "Navigator",
+      "sprint": "Sprint 3",
+      "difficulty": "Medium",
+      "predicted_gain": 0.1798,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "navigator.prototype_keys[55]",
+      "domain": "Navigator",
+      "sprint": "Sprint 3",
+      "difficulty": "Medium",
+      "predicted_gain": 0.1798,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "navigator.prototype_keys[56]",
+      "domain": "Navigator",
+      "sprint": "Sprint 3",
+      "difficulty": "Medium",
+      "predicted_gain": 0.1798,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "navigator.prototype_keys[57]",
+      "domain": "Navigator",
+      "sprint": "Sprint 3",
+      "difficulty": "Medium",
+      "predicted_gain": 0.1798,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "navigator.prototype_keys[58]",
+      "domain": "Navigator",
+      "sprint": "Sprint 3",
+      "difficulty": "Medium",
+      "predicted_gain": 0.1798,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "navigator.prototype_keys[61]",
+      "domain": "Navigator",
+      "sprint": "Sprint 3",
+      "difficulty": "Medium",
+      "predicted_gain": 0.1798,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "navigator.prototype_keys[63]",
+      "domain": "Navigator",
+      "sprint": "Sprint 3",
+      "difficulty": "Medium",
+      "predicted_gain": 0.1798,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "navigator.prototype_keys[64]",
+      "domain": "Navigator",
+      "sprint": "Sprint 3",
+      "difficulty": "Medium",
+      "predicted_gain": 0.1798,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "navigator.prototype_keys[66]",
+      "domain": "Navigator",
+      "sprint": "Sprint 3",
+      "difficulty": "Medium",
+      "predicted_gain": 0.1798,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "navigator.prototype_keys[67]",
+      "domain": "Navigator",
+      "sprint": "Sprint 3",
+      "difficulty": "Medium",
+      "predicted_gain": 0.1798,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "navigator.prototype_keys[70]",
+      "domain": "Navigator",
+      "sprint": "Sprint 3",
+      "difficulty": "Medium",
+      "predicted_gain": 0.1798,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "history.length",
+      "domain": "Other",
+      "sprint": "Sprint 4",
+      "difficulty": "Easy",
+      "predicted_gain": 0.1534,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "navigator.prototype_keys[34]",
+      "domain": "Navigator",
+      "sprint": "Sprint 3",
+      "difficulty": "Medium",
+      "predicted_gain": 0.1749,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "navigator.prototype_keys[35]",
+      "domain": "Navigator",
+      "sprint": "Sprint 3",
+      "difficulty": "Medium",
+      "predicted_gain": 0.1749,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    },
+    {
+      "property": "navigator.prototype_keys[36]",
+      "domain": "Navigator",
+      "sprint": "Sprint 3",
+      "difficulty": "Medium",
+      "predicted_gain": 0.1749,
+      "actual_gain": null,
+      "classification": "Insufficient Data"
+    }
+  ]
+}

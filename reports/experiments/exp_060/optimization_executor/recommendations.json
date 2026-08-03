@@ -1,0 +1,54 @@
+{
+  "recommendations": [
+    {
+      "bucket": "Implement Immediately",
+      "task_ids": [
+        "OPT-001",
+        "OPT-002",
+        "OPT-003",
+        "OPT-004",
+        "OPT-005",
+        "OPT-006",
+        "OPT-007",
+        "OPT-008",
+        "OPT-009"
+      ],
+      "reason": "Critical priority and highest detectability impact."
+    },
+    {
+      "bucket": "Implement Later",
+      "task_ids": [
+        "OPT-012",
+        "OPT-010",
+        "OPT-011",
+        "OPT-013",
+        "OPT-014",
+        "OPT-015",
+        "OPT-016",
+        "OPT-017",
+        "OPT-018",
+        "OPT-019"
+      ],
+      "reason": "High or medium priority after foundation dependencies."
+    },
+    {
+      "bucket": "Needs Investigation",
+      "task_ids": [
+        "OPT-020",
+        "OPT-021",
+        "OPT-207"
+      ],
+      "reason": "High implementation risk or complex cross-domain behavior."
+    },
+    {
+      "bucket": "Skip",
+      "task_ids": [],
+      "reason": "Very small estimated gain; revisit only when higher value work is complete."
+    },
+    {
+      "bucket": "Already Satisfied",
+      "task_ids": [],
+      "reason": "No unsatisfied planner task was classified as already satisfied."
+    }
+  ]
+}

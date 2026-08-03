@@ -1,0 +1,124 @@
+{
+  "recommendations": [
+    {
+      "priority": "CRITICAL",
+      "property": "navigator.userAgent",
+      "recommendation": "Prioritize alignment of navigator.userAgent; verify its related prototype, descriptor, and cross-property values before changing the module.",
+      "basis": "Estimated importance 100.0 with Medium confidence."
+    },
+    {
+      "priority": "CRITICAL",
+      "property": "navigator.userAgentData.brands[1].version",
+      "recommendation": "Prioritize alignment of navigator.userAgentData.brands[1].version; verify its related prototype, descriptor, and cross-property values before changing the module.",
+      "basis": "Estimated importance 100.0 with Medium confidence."
+    },
+    {
+      "priority": "CRITICAL",
+      "property": "navigator.userAgentData.brands[2].version",
+      "recommendation": "Prioritize alignment of navigator.userAgentData.brands[2].version; verify its related prototype, descriptor, and cross-property values before changing the module.",
+      "basis": "Estimated importance 100.0 with Medium confidence."
+    },
+    {
+      "priority": "CRITICAL",
+      "property": "navigator.userAgentData.high_entropy.brands[1].version",
+      "recommendation": "Prioritize alignment of navigator.userAgentData.high_entropy.brands[1].version; verify its related prototype, descriptor, and cross-property values before changing the module.",
+      "basis": "Estimated importance 100.0 with Medium confidence."
+    },
+    {
+      "priority": "CRITICAL",
+      "property": "navigator.userAgentData.high_entropy.brands[2].version",
+      "recommendation": "Prioritize alignment of navigator.userAgentData.high_entropy.brands[2].version; verify its related prototype, descriptor, and cross-property values before changing the module.",
+      "basis": "Estimated importance 100.0 with Medium confidence."
+    },
+    {
+      "priority": "CRITICAL",
+      "property": "navigator.userAgentData.high_entropy.fullVersionList[1].version",
+      "recommendation": "Prioritize alignment of navigator.userAgentData.high_entropy.fullVersionList[1].version; verify its related prototype, descriptor, and cross-property values before changing the module.",
+      "basis": "Estimated importance 100.0 with Medium confidence."
+    },
+    {
+      "priority": "CRITICAL",
+      "property": "navigator.userAgentData.high_entropy.fullVersionList[2].version",
+      "recommendation": "Prioritize alignment of navigator.userAgentData.high_entropy.fullVersionList[2].version; verify its related prototype, descriptor, and cross-property values before changing the module.",
+      "basis": "Estimated importance 100.0 with Medium confidence."
+    },
+    {
+      "priority": "CRITICAL",
+      "property": "navigator.userAgentData.high_entropy.platformVersion",
+      "recommendation": "Prioritize alignment of navigator.userAgentData.high_entropy.platformVersion; verify its related prototype, descriptor, and cross-property values before changing the module.",
+      "basis": "Estimated importance 100.0 with Medium confidence."
+    },
+    {
+      "priority": "CRITICAL",
+      "property": "navigator.userAgentData.high_entropy.uaFullVersion",
+      "recommendation": "Prioritize alignment of navigator.userAgentData.high_entropy.uaFullVersion; verify its related prototype, descriptor, and cross-property values before changing the module.",
+      "basis": "Estimated importance 100.0 with Medium confidence."
+    },
+    {
+      "priority": "CRITICAL",
+      "property": "navigator.language",
+      "recommendation": "Prioritize alignment of navigator.language; verify its related prototype, descriptor, and cross-property values before changing the module.",
+      "basis": "Estimated importance 95.0 with High confidence."
+    },
+    {
+      "priority": "CRITICAL",
+      "property": "navigator.languages[0]",
+      "recommendation": "Prioritize alignment of navigator.languages[0]; verify its related prototype, descriptor, and cross-property values before changing the module.",
+      "basis": "Estimated importance 95.0 with High confidence."
+    },
+    {
+      "priority": "CRITICAL",
+      "property": "navigator.languages[1]",
+      "recommendation": "Prioritize alignment of navigator.languages[1]; verify its related prototype, descriptor, and cross-property values before changing the module.",
+      "basis": "Estimated importance 95.0 with High confidence."
+    },
+    {
+      "priority": "CRITICAL",
+      "property": "navigator.languages[2]",
+      "recommendation": "Prioritize alignment of navigator.languages[2]; verify its related prototype, descriptor, and cross-property values before changing the module.",
+      "basis": "Estimated importance 95.0 with High confidence."
+    },
+    {
+      "priority": "MEDIUM",
+      "property": "canvas.hash",
+      "recommendation": "Prioritize alignment of canvas.hash; verify its related prototype, descriptor, and cross-property values before changing the module.",
+      "basis": "Estimated importance 50.0 with High confidence."
+    },
+    {
+      "priority": "MEDIUM",
+      "property": "canvas.length",
+      "recommendation": "Prioritize alignment of canvas.length; verify its related prototype, descriptor, and cross-property values before changing the module.",
+      "basis": "Estimated importance 50.0 with High confidence."
+    },
+    {
+      "priority": "MEDIUM",
+      "property": "indexeddb",
+      "recommendation": "Prioritize alignment of indexeddb; verify its related prototype, descriptor, and cross-property values before changing the module.",
+      "basis": "Estimated importance 50.0 with High confidence."
+    },
+    {
+      "priority": "MEDIUM",
+      "property": "indexeddb.count",
+      "recommendation": "Prioritize alignment of indexeddb.count; verify its related prototype, descriptor, and cross-property values before changing the module.",
+      "basis": "Estimated importance 50.0 with High confidence."
+    },
+    {
+      "priority": "MEDIUM",
+      "property": "indexeddb.databases[0]",
+      "recommendation": "Prioritize alignment of indexeddb.databases[0]; verify its related prototype, descriptor, and cross-property values before changing the module.",
+      "basis": "Estimated importance 50.0 with High confidence."
+    },
+    {
+      "priority": "MEDIUM",
+      "property": "indexeddb.databases[1]",
+      "recommendation": "Prioritize alignment of indexeddb.databases[1]; verify its related prototype, descriptor, and cross-property values before changing the module.",
+      "basis": "Estimated importance 50.0 with High confidence."
+    },
+    {
+      "priority": "MEDIUM",
+      "property": "intl.collator.locale",
+      "recommendation": "Prioritize alignment of intl.collator.locale; verify its related prototype, descriptor, and cross-property values before changing the module.",
+      "basis": "Estimated importance 50.0 with High confidence."
+    }
+  ]
+}

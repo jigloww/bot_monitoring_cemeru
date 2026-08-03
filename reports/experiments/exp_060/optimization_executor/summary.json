@@ -1,0 +1,30 @@
+{
+  "experiment": "Experiment 027 — Optimization Executor",
+  "experiment_id": "exp_060",
+  "total_tasks": 471,
+  "critical_tasks": 9,
+  "high_roi_tasks": 47,
+  "low_roi_tasks": 11,
+  "average_difficulty": 1.2739,
+  "average_gain": 0.2045,
+  "estimated_maximum_gain": 96.324,
+  "estimated_remaining_similarity": 96.71,
+  "estimated_remaining_cf_score": 99.0,
+  "dependency_edges": 11,
+  "dependency_cycles": 0,
+  "result": "SUCCESS",
+  "analysis_only": true,
+  "browser_launches": 0,
+  "network_requests": 0,
+  "sources": {
+    "dashboard": "reports\\dashboard\\dashboard.json",
+    "dashboard_history": "reports\\dashboard\\dashboard_history.json",
+    "risk": "reports\\experiments\\exp_048\\fingerprint_risk\\summary.json",
+    "importance": "reports\\experiments\\exp_045\\fingerprint_importance\\summary.json",
+    "evolution": "reports\\experiments\\exp_043\\fingerprint_evolution\\summary.json",
+    "session_diff": "reports\\experiments\\exp_036\\session_diff\\summary.json",
+    "consistency": "reports\\experiments\\exp_013\\consistency_report.json",
+    "navigator_gap": "reports\\experiments\\exp_005\\navigator_gap_analysis.json",
+    "comparator": "reports\\experiments\\exp_014\\webgl\\previous_stack_webgl\\compare.json"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "experiment": "Experiment 032 - Audio Evaluation",
+  "experiment_id": "exp_080",
+  "modes": {
+    "current_stack": {
+      "fingerprint": {},
+      "probe": {
+        "supported": false,
+        "errors": [
+          "No module named 'playwright'"
+        ]
+      },
+      "meta": {
+        "mode": "current_stack",
+        "label": "Current Stack"
+      }
+    },
+    "current_stack_audio": {
+      "fingerprint": {},
+      "probe": {
+        "supported": false,
+        "errors": [
+          "No module named 'playwright'"
+        ]
+      },
+      "meta": {
+        "mode": "current_stack_audio",
+        "label": "Current Stack + Audio"
+      }
+    }
+  }
+}

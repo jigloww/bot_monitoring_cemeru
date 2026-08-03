@@ -1,0 +1,41 @@
+{
+  "domain": "permissions",
+  "session_a": "D:\\bot_monitoring_cemeru\\reports\\experiments\\exp_031\\session_profile",
+  "session_b": "D:\\bot_monitoring_cemeru\\reports\\experiments\\exp_032\\session_profile",
+  "changes": [
+    {
+      "path": "permissions$.experiment_id",
+      "old_value": "exp_031",
+      "new_value": "exp_032",
+      "status": "UNKNOWN",
+      "severity": "INFO",
+      "reason": "Experiment metadata is intentionally excluded from similarity.",
+      "confidence": "High"
+    },
+    {
+      "path": "permissions$.runs[0].permissions",
+      "old_value": {},
+      "new_value": {},
+      "status": "UNCHANGED",
+      "severity": "MEDIUM",
+      "reason": "The snapshot values are equal.",
+      "confidence": "Medium"
+    }
+  ],
+  "statistics": {
+    "total_fields": 2,
+    "unchanged_fields": 1,
+    "changed_fields": 0,
+    "added_fields": 0,
+    "removed_fields": 0,
+    "unknown_fields": 1,
+    "comparable_fields": 1,
+    "similarity": 100.0,
+    "info_changes": 1,
+    "low_changes": 0,
+    "medium_changes": 0,
+    "high_changes": 0,
+    "critical_changes": 0
+  },
+  "source_unknown": false
+}

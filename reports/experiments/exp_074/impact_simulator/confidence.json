@@ -1,0 +1,478 @@
+[
+  {
+    "simulation_id": "SIM-001",
+    "simulation_name": "Top 10 Quick Wins",
+    "classification": "High Confidence",
+    "confidence_value": 0.8,
+    "interval": {
+      "lower_gain": 1.549489,
+      "upper_gain": 3.145224,
+      "lower_overall": 80.449489,
+      "upper_overall": 82.045224
+    },
+    "overlap_count": 0,
+    "uncertainty_reason": "Confidence combines recommendation confidence and overlap discount."
+  },
+  {
+    "simulation_id": "SIM-002",
+    "simulation_name": "Highest ROI",
+    "classification": "High Confidence",
+    "confidence_value": 0.8,
+    "interval": {
+      "lower_gain": 1.549489,
+      "upper_gain": 3.145224,
+      "lower_overall": 80.449489,
+      "upper_overall": 82.045224
+    },
+    "overlap_count": 0,
+    "uncertainty_reason": "Confidence combines recommendation confidence and overlap discount."
+  },
+  {
+    "simulation_id": "SIM-003",
+    "simulation_name": "Lowest Risk",
+    "classification": "High Confidence",
+    "confidence_value": 0.8,
+    "interval": {
+      "lower_gain": 1.19035,
+      "upper_gain": 1.94416,
+      "lower_overall": 80.09035,
+      "upper_overall": 80.84416
+    },
+    "overlap_count": 0,
+    "uncertainty_reason": "Confidence combines recommendation confidence and overlap discount."
+  },
+  {
+    "simulation_id": "SIM-004",
+    "simulation_name": "Maximum Similarity",
+    "classification": "Medium Confidence",
+    "confidence_value": 0.62,
+    "interval": {
+      "lower_gain": 1.708248,
+      "upper_gain": 4.762451,
+      "lower_overall": 80.608248,
+      "upper_overall": 83.662451
+    },
+    "overlap_count": 0,
+    "uncertainty_reason": "Confidence combines recommendation confidence and overlap discount."
+  },
+  {
+    "simulation_id": "SIM-005",
+    "simulation_name": "Complete Roadmap",
+    "classification": "High Confidence",
+    "confidence_value": 0.79448,
+    "interval": {
+      "lower_gain": 0.0,
+      "upper_gain": 121.676153,
+      "lower_overall": 78.9,
+      "upper_overall": 100.0
+    },
+    "overlap_count": 0,
+    "uncertainty_reason": "Confidence combines recommendation confidence and overlap discount."
+  },
+  {
+    "simulation_id": "SIM-006",
+    "simulation_name": "Single Module: Navigator",
+    "classification": "High Confidence",
+    "confidence_value": 0.788079,
+    "interval": {
+      "lower_gain": 0.041282,
+      "upper_gain": 40.934851,
+      "lower_overall": 78.941282,
+      "upper_overall": 100.0
+    },
+    "overlap_count": 0,
+    "uncertainty_reason": "Confidence combines recommendation confidence and overlap discount."
+  },
+  {
+    "simulation_id": "SIM-007",
+    "simulation_name": "Single Module: Window",
+    "classification": "High Confidence",
+    "confidence_value": 0.8,
+    "interval": {
+      "lower_gain": 0.001161,
+      "upper_gain": 60.697232,
+      "lower_overall": 78.901161,
+      "upper_overall": 100.0
+    },
+    "overlap_count": 0,
+    "uncertainty_reason": "Confidence combines recommendation confidence and overlap discount."
+  },
+  {
+    "simulation_id": "SIM-013",
+    "simulation_name": "Single Module: Performance",
+    "classification": "Medium Confidence",
+    "confidence_value": 0.6,
+    "interval": {
+      "lower_gain": 0.200076,
+      "upper_gain": 0.236208,
+      "lower_overall": 79.100076,
+      "upper_overall": 79.136208
+    },
+    "overlap_count": 0,
+    "uncertainty_reason": "Confidence combines recommendation confidence and overlap discount."
+  },
+  {
+    "simulation_id": "SIM-014",
+    "simulation_name": "Single Module: WebGL",
+    "classification": "Medium Confidence",
+    "confidence_value": 0.6,
+    "interval": {
+      "lower_gain": 0.255236,
+      "upper_gain": 0.305312,
+      "lower_overall": 79.155236,
+      "upper_overall": 79.205312
+    },
+    "overlap_count": 0,
+    "uncertainty_reason": "Confidence combines recommendation confidence and overlap discount."
+  },
+  {
+    "simulation_id": "SIM-015",
+    "simulation_name": "Single Module: Unknown",
+    "classification": "High Confidence",
+    "confidence_value": 0.792593,
+    "interval": {
+      "lower_gain": 1.121168,
+      "upper_gain": 12.829087,
+      "lower_overall": 80.021168,
+      "upper_overall": 91.729087
+    },
+    "overlap_count": 0,
+    "uncertainty_reason": "Confidence combines recommendation confidence and overlap discount."
+  },
+  {
+    "simulation_id": "SIM-016",
+    "simulation_name": "Single Sprint: Sprint 1",
+    "classification": "Medium Confidence",
+    "confidence_value": 0.705263,
+    "interval": {
+      "lower_gain": 1.644627,
+      "upper_gain": 8.466312,
+      "lower_overall": 80.544627,
+      "upper_overall": 87.366312
+    },
+    "overlap_count": 0,
+    "uncertainty_reason": "Confidence combines recommendation confidence and overlap discount."
+  },
+  {
+    "simulation_id": "SIM-017",
+    "simulation_name": "Single Sprint: Sprint 2",
+    "classification": "High Confidence",
+    "confidence_value": 0.8,
+    "interval": {
+      "lower_gain": 0.025682,
+      "upper_gain": 40.835596,
+      "lower_overall": 78.925682,
+      "upper_overall": 100.0
+    },
+    "overlap_count": 0,
+    "uncertainty_reason": "Confidence combines recommendation confidence and overlap discount."
+  },
+  {
+    "simulation_id": "SIM-018",
+    "simulation_name": "Single Sprint: Sprint 3",
+    "classification": "High Confidence",
+    "confidence_value": 0.796875,
+    "interval": {
+      "lower_gain": 0.128992,
+      "upper_gain": 29.871181,
+      "lower_overall": 79.028992,
+      "upper_overall": 100.0
+    },
+    "overlap_count": 0,
+    "uncertainty_reason": "Confidence combines recommendation confidence and overlap discount."
+  },
+  {
+    "simulation_id": "SIM-019",
+    "simulation_name": "Single Sprint: Sprint 4",
+    "classification": "High Confidence",
+    "confidence_value": 0.797546,
+    "interval": {
+      "lower_gain": 0.082145,
+      "upper_gain": 33.102712,
+      "lower_overall": 78.982145,
+      "upper_overall": 100.0
+    },
+    "overlap_count": 0,
+    "uncertainty_reason": "Confidence combines recommendation confidence and overlap discount."
+  },
+  {
+    "simulation_id": "SIM-R-015",
+    "simulation_name": "Single Recommendation: REC-001",
+    "classification": "Medium Confidence",
+    "confidence_value": 0.6,
+    "interval": {
+      "lower_gain": 0.390297,
+      "upper_gain": 0.479606,
+      "lower_overall": 79.290297,
+      "upper_overall": 79.379606
+    },
+    "overlap_count": 0,
+    "uncertainty_reason": "Confidence combines recommendation confidence and overlap discount."
+  },
+  {
+    "simulation_id": "SIM-R-016",
+    "simulation_name": "Single Recommendation: REC-002",
+    "classification": "Medium Confidence",
+    "confidence_value": 0.6,
+    "interval": {
+      "lower_gain": 0.361386,
+      "upper_gain": 0.44408,
+      "lower_overall": 79.261386,
+      "upper_overall": 79.34408
+    },
+    "overlap_count": 0,
+    "uncertainty_reason": "Confidence combines recommendation confidence and overlap discount."
+  },
+  {
+    "simulation_id": "SIM-R-017",
+    "simulation_name": "Single Recommendation: REC-003",
+    "classification": "Medium Confidence",
+    "confidence_value": 0.6,
+    "interval": {
+      "lower_gain": 0.361386,
+      "upper_gain": 0.44408,
+      "lower_overall": 79.261386,
+      "upper_overall": 79.34408
+    },
+    "overlap_count": 0,
+    "uncertainty_reason": "Confidence combines recommendation confidence and overlap discount."
+  },
+  {
+    "simulation_id": "SIM-R-018",
+    "simulation_name": "Single Recommendation: REC-004",
+    "classification": "Medium Confidence",
+    "confidence_value": 0.6,
+    "interval": {
+      "lower_gain": 0.361386,
+      "upper_gain": 0.44408,
+      "lower_overall": 79.261386,
+      "upper_overall": 79.34408
+    },
+    "overlap_count": 0,
+    "uncertainty_reason": "Confidence combines recommendation confidence and overlap discount."
+  },
+  {
+    "simulation_id": "SIM-R-019",
+    "simulation_name": "Single Recommendation: REC-005",
+    "classification": "Medium Confidence",
+    "confidence_value": 0.6,
+    "interval": {
+      "lower_gain": 0.361386,
+      "upper_gain": 0.44408,
+      "lower_overall": 79.261386,
+      "upper_overall": 79.34408
+    },
+    "overlap_count": 0,
+    "uncertainty_reason": "Confidence combines recommendation confidence and overlap discount."
+  },
+  {
+    "simulation_id": "SIM-R-020",
+    "simulation_name": "Single Recommendation: REC-006",
+    "classification": "Medium Confidence",
+    "confidence_value": 0.6,
+    "interval": {
+      "lower_gain": 0.361386,
+      "upper_gain": 0.44408,
+      "lower_overall": 79.261386,
+      "upper_overall": 79.34408
+    },
+    "overlap_count": 0,
+    "uncertainty_reason": "Confidence combines recommendation confidence and overlap discount."
+  },
+  {
+    "simulation_id": "SIM-R-021",
+    "simulation_name": "Single Recommendation: REC-007",
+    "classification": "Medium Confidence",
+    "confidence_value": 0.6,
+    "interval": {
+      "lower_gain": 0.361386,
+      "upper_gain": 0.44408,
+      "lower_overall": 79.261386,
+      "upper_overall": 79.34408
+    },
+    "overlap_count": 0,
+    "uncertainty_reason": "Confidence combines recommendation confidence and overlap discount."
+  },
+  {
+    "simulation_id": "SIM-R-022",
+    "simulation_name": "Single Recommendation: REC-008",
+    "classification": "Medium Confidence",
+    "confidence_value": 0.6,
+    "interval": {
+      "lower_gain": 0.361386,
+      "upper_gain": 0.44408,
+      "lower_overall": 79.261386,
+      "upper_overall": 79.34408
+    },
+    "overlap_count": 0,
+    "uncertainty_reason": "Confidence combines recommendation confidence and overlap discount."
+  },
+  {
+    "simulation_id": "SIM-R-023",
+    "simulation_name": "Single Recommendation: REC-009",
+    "classification": "Medium Confidence",
+    "confidence_value": 0.6,
+    "interval": {
+      "lower_gain": 0.361386,
+      "upper_gain": 0.44408,
+      "lower_overall": 79.261386,
+      "upper_overall": 79.34408
+    },
+    "overlap_count": 0,
+    "uncertainty_reason": "Confidence combines recommendation confidence and overlap discount."
+  },
+  {
+    "simulation_id": "SIM-R-024",
+    "simulation_name": "Single Recommendation: REC-010",
+    "classification": "High Confidence",
+    "confidence_value": 0.8,
+    "interval": {
+      "lower_gain": 0.329454,
+      "upper_gain": 0.411452,
+      "lower_overall": 79.229454,
+      "upper_overall": 79.311452
+    },
+    "overlap_count": 0,
+    "uncertainty_reason": "Confidence combines recommendation confidence and overlap discount."
+  },
+  {
+    "simulation_id": "SIM-R-025",
+    "simulation_name": "Single Recommendation: REC-011",
+    "classification": "High Confidence",
+    "confidence_value": 0.8,
+    "interval": {
+      "lower_gain": 0.329454,
+      "upper_gain": 0.411452,
+      "lower_overall": 79.229454,
+      "upper_overall": 79.311452
+    },
+    "overlap_count": 0,
+    "uncertainty_reason": "Confidence combines recommendation confidence and overlap discount."
+  },
+  {
+    "simulation_id": "SIM-R-026",
+    "simulation_name": "Single Recommendation: REC-012",
+    "classification": "High Confidence",
+    "confidence_value": 0.8,
+    "interval": {
+      "lower_gain": 0.32859,
+      "upper_gain": 0.409943,
+      "lower_overall": 79.22859,
+      "upper_overall": 79.309943
+    },
+    "overlap_count": 0,
+    "uncertainty_reason": "Confidence combines recommendation confidence and overlap discount."
+  },
+  {
+    "simulation_id": "SIM-R-027",
+    "simulation_name": "Single Recommendation: REC-013",
+    "classification": "High Confidence",
+    "confidence_value": 0.8,
+    "interval": {
+      "lower_gain": 0.325337,
+      "upper_gain": 0.405884,
+      "lower_overall": 79.225337,
+      "upper_overall": 79.305884
+    },
+    "overlap_count": 0,
+    "uncertainty_reason": "Confidence combines recommendation confidence and overlap discount."
+  },
+  {
+    "simulation_id": "SIM-R-028",
+    "simulation_name": "Single Recommendation: REC-014",
+    "classification": "High Confidence",
+    "confidence_value": 0.8,
+    "interval": {
+      "lower_gain": 0.277715,
+      "upper_gain": 0.342432,
+      "lower_overall": 79.177715,
+      "upper_overall": 79.242432
+    },
+    "overlap_count": 0,
+    "uncertainty_reason": "Confidence combines recommendation confidence and overlap discount."
+  },
+  {
+    "simulation_id": "SIM-R-029",
+    "simulation_name": "Single Recommendation: REC-015",
+    "classification": "High Confidence",
+    "confidence_value": 0.8,
+    "interval": {
+      "lower_gain": 0.277715,
+      "upper_gain": 0.342432,
+      "lower_overall": 79.177715,
+      "upper_overall": 79.242432
+    },
+    "overlap_count": 0,
+    "uncertainty_reason": "Confidence combines recommendation confidence and overlap discount."
+  },
+  {
+    "simulation_id": "SIM-R-030",
+    "simulation_name": "Single Recommendation: REC-016",
+    "classification": "High Confidence",
+    "confidence_value": 0.8,
+    "interval": {
+      "lower_gain": 0.277715,
+      "upper_gain": 0.342432,
+      "lower_overall": 79.177715,
+      "upper_overall": 79.242432
+    },
+    "overlap_count": 0,
+    "uncertainty_reason": "Confidence combines recommendation confidence and overlap discount."
+  },
+  {
+    "simulation_id": "SIM-R-031",
+    "simulation_name": "Single Recommendation: REC-017",
+    "classification": "High Confidence",
+    "confidence_value": 0.8,
+    "interval": {
+      "lower_gain": 0.277715,
+      "upper_gain": 0.342432,
+      "lower_overall": 79.177715,
+      "upper_overall": 79.242432
+    },
+    "overlap_count": 0,
+    "uncertainty_reason": "Confidence combines recommendation confidence and overlap discount."
+  },
+  {
+    "simulation_id": "SIM-R-032",
+    "simulation_name": "Single Recommendation: REC-018",
+    "classification": "High Confidence",
+    "confidence_value": 0.8,
+    "interval": {
+      "lower_gain": 0.262671,
+      "upper_gain": 0.322712,
+      "lower_overall": 79.162671,
+      "upper_overall": 79.222712
+    },
+    "overlap_count": 0,
+    "uncertainty_reason": "Confidence combines recommendation confidence and overlap discount."
+  },
+  {
+    "simulation_id": "SIM-R-033",
+    "simulation_name": "Single Recommendation: REC-019",
+    "classification": "High Confidence",
+    "confidence_value": 0.8,
+    "interval": {
+      "lower_gain": 0.262671,
+      "upper_gain": 0.322712,
+      "lower_overall": 79.162671,
+      "upper_overall": 79.222712
+    },
+    "overlap_count": 0,
+    "uncertainty_reason": "Confidence combines recommendation confidence and overlap discount."
+  },
+  {
+    "simulation_id": "SIM-R-034",
+    "simulation_name": "Single Recommendation: REC-020",
+    "classification": "High Confidence",
+    "confidence_value": 0.8,
+    "interval": {
+      "lower_gain": 0.303194,
+      "upper_gain": 0.376188,
+      "lower_overall": 79.203194,
+      "upper_overall": 79.276188
+    },
+    "overlap_count": 0,
+    "uncertainty_reason": "Confidence combines recommendation confidence and overlap discount."
+  }
+]

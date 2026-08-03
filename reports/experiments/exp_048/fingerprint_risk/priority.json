@@ -1,0 +1,49 @@
+{
+  "Critical": [
+    "navigator.userAgent",
+    "navigator.userAgentData.brands[1].version",
+    "navigator.userAgentData.brands[2].version",
+    "navigator.userAgentData.high_entropy.brands[1].version",
+    "navigator.userAgentData.high_entropy.brands[2].version",
+    "navigator.userAgentData.high_entropy.fullVersionList[1].version",
+    "navigator.userAgentData.high_entropy.fullVersionList[2].version",
+    "navigator.userAgentData.high_entropy.platformVersion",
+    "navigator.userAgentData.high_entropy.uaFullVersion"
+  ],
+  "High": [
+    "navigator.languages[1]",
+    "navigator.languages[2]",
+    "navigator.language",
+    "navigator.languages[0]",
+    "canvas.hash",
+    "canvas.length",
+    "intl.collator.locale",
+    "intl.listFormat.locale",
+    "intl.numberFormat.locale",
+    "timezone.locale"
+  ],
+  "Medium": [
+    "indexeddb.databases[0]",
+    "indexeddb.databases[1]",
+    "webgl.aliased_point_size_range[1]",
+    "indexeddb.count",
+    "storage.localStorage_length",
+    "storage.sessionStorage_length",
+    "storage.caches_available",
+    "storage.cookieStore_available",
+    "storage.indexedDB_available",
+    "indexeddb"
+  ],
+  "Low": [
+    "features.ServiceWorker",
+    "features.crypto_subtle",
+    "gpu.available",
+    "hardware_apis.bluetooth",
+    "hardware_apis.clipboard",
+    "hardware_apis.hid",
+    "hardware_apis.keyboard",
+    "hardware_apis.serial",
+    "hardware_apis.usb",
+    "media_capabilities.powerEfficient"
+  ]
+}

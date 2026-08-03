@@ -1,0 +1,12 @@
+{
+  "artifact_completeness": true,
+  "missing_artifacts": [],
+  "json_valid": true,
+  "timeline_ordered": true,
+  "ranking_valid": true,
+  "trend_valid": true,
+  "regression_valid": true,
+  "markdown_valid": true,
+  "source_artifacts_unchanged": true,
+  "valid": true
+}

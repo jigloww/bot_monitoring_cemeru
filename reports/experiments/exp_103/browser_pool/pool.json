@@ -1,0 +1,61 @@
+{
+  "before_shutdown": {
+    "timestamp": "2026-08-03T07:19:22.798915+00:00",
+    "state": "IDLE",
+    "max_size": 2,
+    "idle_timeout": 1.0,
+    "sessions": [
+      {
+        "session_id": 1,
+        "state": "IDLE",
+        "acquire_count": 2,
+        "age": 2.0,
+        "idle_for": 2.0,
+        "idle_timeout_exceeded": true,
+        "error": null
+      },
+      {
+        "session_id": 2,
+        "state": "IDLE",
+        "acquire_count": 1,
+        "age": 2.0,
+        "idle_for": 2.0,
+        "idle_timeout_exceeded": true,
+        "error": null
+      }
+    ],
+    "statistics": {
+      "total_sessions_created": 2,
+      "active_sessions": 2,
+      "idle_sessions": 2,
+      "busy_sessions": 0,
+      "failed_sessions": 0,
+      "peak_sessions": 2,
+      "acquire_count": 3,
+      "release_count": 3,
+      "reuse_rate": 0.333333,
+      "average_session_lifetime": 2.0
+    },
+    "shutdown": false
+  },
+  "final": {
+    "timestamp": "2026-08-03T07:19:22.799914+00:00",
+    "state": "REMOVED",
+    "max_size": 2,
+    "idle_timeout": 1.0,
+    "sessions": [],
+    "statistics": {
+      "total_sessions_created": 2,
+      "active_sessions": 0,
+      "idle_sessions": 0,
+      "busy_sessions": 0,
+      "failed_sessions": 0,
+      "peak_sessions": 2,
+      "acquire_count": 3,
+      "release_count": 3,
+      "reuse_rate": 0.333333,
+      "average_session_lifetime": 2.0
+    },
+    "shutdown": true
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "predictions_total": 4,
+  "predictions_evaluated": 0,
+  "predictions_insufficient": 4,
+  "future_scored_experiments": 0,
+  "classification_counts": {
+    "Insufficient Data": 4
+  },
+  "property_predictions": 471,
+  "property_evaluated": 0,
+  "source_count": 9,
+  "browser_launches": 0
+}

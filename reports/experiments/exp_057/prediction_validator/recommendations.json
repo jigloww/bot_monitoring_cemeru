@@ -1,0 +1,16 @@
+{
+  "recommendations": [
+    {
+      "priority": "HIGH",
+      "action": "perlu data tambahan",
+      "recommendation": "Run at least one scored experiment after the planner before calibrating prediction accuracy, penalty, or confidence.",
+      "basis": "No post-planner actual observation available."
+    },
+    {
+      "priority": "MEDIUM",
+      "action": "perlu data tambahan",
+      "recommendation": "Do not recalibrate difficulty from score changes alone; collect property-level compare results.",
+      "basis": "No property-level post-planner observations."
+    }
+  ]
+}

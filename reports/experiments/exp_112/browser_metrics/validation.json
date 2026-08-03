@@ -1,0 +1,16 @@
+{
+  "metric_counting": true,
+  "event_subscription": true,
+  "snapshot_serialization": true,
+  "statistics_serialization": true,
+  "timer_calculation": true,
+  "moving_averages": true,
+  "high_volume_events": true,
+  "thread_safety": true,
+  "idempotent_shutdown": true,
+  "deterministic_ordering": true,
+  "read_only_validation": true,
+  "browser_launches": 0,
+  "network_requests": 0,
+  "valid": true
+}

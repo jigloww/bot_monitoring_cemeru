@@ -1,0 +1,22 @@
+{
+  "predictions_total": 4,
+  "predictions_evaluated": 0,
+  "predictions_insufficient": 4,
+  "future_scored_experiments": 0,
+  "classification_counts": {
+    "Insufficient Data": 4
+  },
+  "property_predictions": 471,
+  "property_evaluated": 0,
+  "source_count": 9,
+  "input_context": {
+    "dashboard_history_entries": 6,
+    "importance_result": "SUCCESS",
+    "risk_result": "SUCCESS",
+    "evolution_result": "SUCCESS",
+    "session_diff_result": "UNKNOWN",
+    "consistency_issue_count": 15,
+    "comparator_available": true
+  },
+  "browser_launches": 0
+}

@@ -1,0 +1,27 @@
+{
+  "run_count": 1,
+  "total_requests": 0,
+  "successful_requests": 0,
+  "failed_requests": 0,
+  "redirect_count": 0,
+  "cookie_changes": 0,
+  "dom_mutations": 0,
+  "storage_updates": 0,
+  "console_messages": 0,
+  "console_errors": 0,
+  "page_errors": 1,
+  "challenge_duration_ms": null,
+  "load_duration_ms": null,
+  "network_duration_ms": null,
+  "challenge_detected_count": 0,
+  "turnstile_detected_count": 0,
+  "homepage_reached_count": 0,
+  "cf_clearance_acquired_count": 0,
+  "result_counts": {
+    "SUCCESS": 0,
+    "CHALLENGE": 0,
+    "TIMEOUT": 0,
+    "FAILED": 1,
+    "UNKNOWN": 0
+  }
+}

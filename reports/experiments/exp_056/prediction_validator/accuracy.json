@@ -1,0 +1,3888 @@
+{
+  "prediction_accuracy_pct": null,
+  "mae": null,
+  "rmse": null,
+  "mbe": null,
+  "evaluated_count": 0,
+  "classification": "Insufficient Data",
+  "cf_score": {
+    "prediction_accuracy_pct": null,
+    "mae": null,
+    "rmse": null,
+    "mbe": null,
+    "evaluated_count": 0,
+    "classification": "Insufficient Data"
+  },
+  "property": {
+    "prediction_accuracy_pct": null,
+    "mae": null,
+    "rmse": null,
+    "mbe": null,
+    "evaluated_count": 0,
+    "classification": "Insufficient Data"
+  },
+  "by_module": {
+    "Environment": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "Navigator": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "Other": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "Performance": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "Storage": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "WebGL": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    }
+  },
+  "by_property": {
+    "battery": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "battery.charging": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "battery.chargingTime": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "battery.dischargingTime": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "battery.level": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "canvas.hash": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "canvas.length": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "document": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "document.characterSet": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "document.compatMode": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "document.cookie_count": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "document.cookie_names[0]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "document.cookie_names[1]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "document.domain": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "document.readyState": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "document.referrer": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "document.title": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "document.visibilityState": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "features.ServiceWorker": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "features.crypto_subtle": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "features.notification_permission": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "gpu.available": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "hardware_apis.bluetooth": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "hardware_apis.clipboard": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "hardware_apis.hid": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "hardware_apis.keyboard": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "hardware_apis.serial": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "hardware_apis.usb": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "history.length": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "indexeddb": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "indexeddb.count": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "indexeddb.databases[0]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "indexeddb.databases[1]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "intl.collator.locale": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "intl.listFormat.locale": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "intl.numberFormat.locale": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "media_capabilities.powerEfficient": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "media_devices": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "media_devices[0].groupId": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "media_devices[0].kind": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "media_devices[0].label": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "media_devices[1].groupId": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "media_devices[1].kind": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "media_devices[1].label": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "media_devices[2].groupId": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "media_devices[2].kind": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "media_devices[2].label": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "navigator.appVersion": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "navigator.connection.downlink": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "navigator.connection.rtt": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "navigator.language": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "navigator.languages[0]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "navigator.languages[1]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "navigator.languages[2]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "navigator.maxTouchPoints": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "navigator.prototype_keys[32]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "navigator.prototype_keys[33]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "navigator.prototype_keys[34]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "navigator.prototype_keys[35]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "navigator.prototype_keys[36]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "navigator.prototype_keys[37]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "navigator.prototype_keys[38]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "navigator.prototype_keys[39]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "navigator.prototype_keys[40]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "navigator.prototype_keys[41]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "navigator.prototype_keys[42]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "navigator.prototype_keys[43]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "navigator.prototype_keys[44]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "navigator.prototype_keys[45]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "navigator.prototype_keys[46]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "navigator.prototype_keys[47]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "navigator.prototype_keys[48]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "navigator.prototype_keys[49]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "navigator.prototype_keys[50]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "navigator.prototype_keys[51]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "navigator.prototype_keys[52]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "navigator.prototype_keys[53]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "navigator.prototype_keys[54]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "navigator.prototype_keys[55]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "navigator.prototype_keys[56]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "navigator.prototype_keys[57]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "navigator.prototype_keys[58]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "navigator.prototype_keys[59]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "navigator.prototype_keys[60]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "navigator.prototype_keys[61]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "navigator.prototype_keys[62]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "navigator.prototype_keys[63]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "navigator.prototype_keys[64]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "navigator.prototype_keys[65]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "navigator.prototype_keys[66]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "navigator.prototype_keys[67]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "navigator.prototype_keys[68]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "navigator.prototype_keys[69]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "navigator.prototype_keys[70]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "navigator.prototype_keys[71]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "navigator.prototype_keys[72]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "navigator.prototype_keys[73]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "navigator.prototype_keys[74]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "navigator.prototype_keys[75]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "navigator.prototype_keys[76]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "navigator.prototype_keys[77]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "navigator.prototype_keys[78]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "navigator.prototype_keys[79]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "navigator.prototype_keys[80]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "navigator.prototype_keys[81]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "navigator.prototype_keys[82]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "navigator.userAgent": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "navigator.userAgentData.brands[1].version": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "navigator.userAgentData.brands[2].version": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "navigator.userAgentData.high_entropy.brands[1].version": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "navigator.userAgentData.high_entropy.brands[2].version": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "navigator.userAgentData.high_entropy.fullVersionList[1].version": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "navigator.userAgentData.high_entropy.fullVersionList[2].version": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "navigator.userAgentData.high_entropy.platformVersion": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "navigator.userAgentData.high_entropy.uaFullVersion": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "navigator_own_keys[0]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "navigator_own_keys[10]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "navigator_own_keys[11]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "navigator_own_keys[12]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "navigator_own_keys[13]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "navigator_own_keys[14]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "navigator_own_keys[15]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "navigator_own_keys[16]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "navigator_own_keys[17]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "navigator_own_keys[18]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "navigator_own_keys[19]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "navigator_own_keys[1]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "navigator_own_keys[20]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "navigator_own_keys[21]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "navigator_own_keys[22]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "navigator_own_keys[23]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "navigator_own_keys[24]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "navigator_own_keys[25]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "navigator_own_keys[26]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "navigator_own_keys[27]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "navigator_own_keys[28]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "navigator_own_keys[29]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "navigator_own_keys[2]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "navigator_own_keys[30]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "navigator_own_keys[31]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "navigator_own_keys[32]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "navigator_own_keys[33]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "navigator_own_keys[34]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "navigator_own_keys[35]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "navigator_own_keys[36]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "navigator_own_keys[37]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "navigator_own_keys[38]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "navigator_own_keys[39]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "navigator_own_keys[3]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "navigator_own_keys[40]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "navigator_own_keys[41]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "navigator_own_keys[42]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "navigator_own_keys[43]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "navigator_own_keys[44]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "navigator_own_keys[45]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "navigator_own_keys[46]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "navigator_own_keys[47]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "navigator_own_keys[48]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "navigator_own_keys[49]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "navigator_own_keys[4]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "navigator_own_keys[50]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "navigator_own_keys[51]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "navigator_own_keys[52]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "navigator_own_keys[53]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "navigator_own_keys[54]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "navigator_own_keys[55]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "navigator_own_keys[56]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "navigator_own_keys[57]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "navigator_own_keys[58]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "navigator_own_keys[59]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "navigator_own_keys[5]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "navigator_own_keys[60]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "navigator_own_keys[61]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "navigator_own_keys[62]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "navigator_own_keys[63]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "navigator_own_keys[64]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "navigator_own_keys[65]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "navigator_own_keys[66]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "navigator_own_keys[67]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "navigator_own_keys[68]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "navigator_own_keys[69]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "navigator_own_keys[6]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "navigator_own_keys[70]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "navigator_own_keys[71]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "navigator_own_keys[72]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "navigator_own_keys[73]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "navigator_own_keys[74]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "navigator_own_keys[75]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "navigator_own_keys[76]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "navigator_own_keys[77]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "navigator_own_keys[78]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "navigator_own_keys[79]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "navigator_own_keys[7]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "navigator_own_keys[80]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "navigator_own_keys[81]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "navigator_own_keys[82]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "navigator_own_keys[8]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "navigator_own_keys[9]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "performance.now": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "storage": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "storage.caches_available": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "storage.cookieStore_available": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "storage.indexedDB_available": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "storage.localStorage_length": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "storage.sessionStorage_length": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "timezone.locale": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "webgl.aliased_point_size_range[1]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[0]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[100]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[101]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[102]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[103]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[104]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[105]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[106]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[107]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[108]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[109]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[10]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[110]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[111]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[112]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[113]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[114]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[115]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[116]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[117]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[118]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[119]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[11]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[120]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[121]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[122]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[123]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[124]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[125]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[126]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[127]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[128]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[129]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[12]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[130]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[131]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[132]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[133]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[134]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[135]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[136]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[137]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[138]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[139]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[13]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[140]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[141]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[142]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[143]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[144]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[145]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[146]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[147]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[148]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[149]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[14]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[150]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[151]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[152]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[153]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[154]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[155]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[156]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[157]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[158]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[159]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[15]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[160]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[161]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[162]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[163]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[164]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[165]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[166]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[167]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[168]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[169]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[16]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[170]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[171]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[172]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[173]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[174]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[175]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[176]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[177]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[178]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[179]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[17]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[180]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[181]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[182]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[183]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[184]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[185]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[186]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[187]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[188]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[189]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[18]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[190]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[191]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[192]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[193]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[194]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[195]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[196]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[197]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[198]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[199]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[19]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[1]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[200]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[201]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[202]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[203]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[204]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[205]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[206]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[207]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[208]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[209]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[20]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[210]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[211]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[212]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[213]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[214]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[215]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[216]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[217]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[218]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[219]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[21]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[220]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[221]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[222]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[223]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[224]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[225]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[226]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[227]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[228]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[229]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[22]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[230]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[231]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[232]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[233]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[234]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[235]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[236]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[237]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[238]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[239]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[23]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[240]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[241]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[242]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[243]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[244]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[245]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[246]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[247]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[248]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[249]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[24]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[250]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[251]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[252]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[253]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[254]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[255]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[256]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[257]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[258]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[259]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[25]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[260]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[261]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[262]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[263]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[26]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[27]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[28]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[29]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[2]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[30]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[31]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[32]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[33]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[34]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[35]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[36]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[37]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[38]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[39]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[3]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[40]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[41]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[42]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[43]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[44]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[45]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[46]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[47]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[48]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[49]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[4]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[50]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[51]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[52]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[53]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[54]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[55]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[56]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[57]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[58]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[59]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[5]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[60]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[61]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[62]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[63]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[64]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[65]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[66]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[67]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[68]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[69]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[6]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[70]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[71]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[72]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[73]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[74]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[75]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[76]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[77]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[78]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[79]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[7]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[80]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[81]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[82]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[83]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[84]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[85]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[86]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[87]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[88]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[89]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[8]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[90]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[91]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[92]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[93]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[94]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[95]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[96]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[97]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[98]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[99]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "window_keys[9]": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    }
+  },
+  "by_sprint": {
+    "Sprint 1": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "Sprint 2": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "Sprint 3": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    },
+    "Sprint 4": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    }
+  },
+  "by_experiment": {
+    "Unknown": {
+      "prediction_accuracy_pct": null,
+      "mae": null,
+      "rmse": null,
+      "mbe": null,
+      "evaluated_count": 0,
+      "classification": "Insufficient Data"
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "domain": "navigator",
+  "session_a": "D:\\bot_monitoring_cemeru\\reports\\experiments\\exp_031\\session_profile",
+  "session_b": "D:\\bot_monitoring_cemeru\\reports\\experiments\\exp_032\\session_profile",
+  "changes": [
+    {
+      "path": "navigator$.experiment_id",
+      "old_value": "exp_031",
+      "new_value": "exp_032",
+      "status": "UNKNOWN",
+      "severity": "INFO",
+      "reason": "Experiment metadata is intentionally excluded from similarity.",
+      "confidence": "High"
+    },
+    {
+      "path": "navigator$.runs[0].error",
+      "old_value": "No module named 'playwright'",
+      "new_value": "No module named 'playwright'",
+      "status": "UNCHANGED",
+      "severity": "INFO",
+      "reason": "The snapshot values are equal.",
+      "confidence": "High"
+    },
+    {
+      "path": "navigator$.runs[0].status",
+      "old_value": "UNKNOWN",
+      "new_value": "UNKNOWN",
+      "status": "UNCHANGED",
+      "severity": "INFO",
+      "reason": "The snapshot values are equal.",
+      "confidence": "High"
+    }
+  ],
+  "statistics": {
+    "total_fields": 3,
+    "unchanged_fields": 2,
+    "changed_fields": 0,
+    "added_fields": 0,
+    "removed_fields": 0,
+    "unknown_fields": 1,
+    "comparable_fields": 2,
+    "similarity": 100.0,
+    "info_changes": 1,
+    "low_changes": 0,
+    "medium_changes": 0,
+    "high_changes": 0,
+    "critical_changes": 0
+  },
+  "source_unknown": false
+}

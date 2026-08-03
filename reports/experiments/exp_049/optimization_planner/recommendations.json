@@ -1,0 +1,34 @@
+{
+  "recommendations": [
+    {
+      "sprint": "Sprint 2",
+      "priority": "MEDIUM",
+      "recommendation": "Address the top 8 ROI-ranked properties in Sprint 2; validate descriptors, prototypes, and dependent domains together.",
+      "basis": "8 properties; estimated gain 2.59%."
+    },
+    {
+      "sprint": "Sprint 3",
+      "priority": "MEDIUM",
+      "recommendation": "Address the top 10 ROI-ranked properties in Sprint 3; validate descriptors, prototypes, and dependent domains together.",
+      "basis": "439 properties; estimated gain 87.2574%."
+    },
+    {
+      "sprint": "Sprint 4",
+      "priority": "MEDIUM",
+      "recommendation": "Address the top 10 ROI-ranked properties in Sprint 4; validate descriptors, prototypes, and dependent domains together.",
+      "basis": "24 properties; estimated gain 6.4766%."
+    },
+    {
+      "sprint": "Stability",
+      "priority": "MEDIUM",
+      "recommendation": "Repeat session-diff validation after each sprint to separate environment variation from module effects.",
+      "basis": "Session Diff artifact available."
+    },
+    {
+      "sprint": "Gate",
+      "priority": "HIGH",
+      "recommendation": "Block promotion when cross-domain consistency rules regress, even if similarity rises.",
+      "basis": "Consistency Evaluation artifact available."
+    }
+  ]
+}

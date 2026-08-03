@@ -1,0 +1,122 @@
+[
+  {
+    "module": "Chrome",
+    "node_count": 22,
+    "property_count": 17,
+    "task_count": 0,
+    "internal_edge_count": 0,
+    "internal_density": 0.0,
+    "external_dependencies": 85,
+    "cross_module_links": 51
+  },
+  {
+    "module": "Environment",
+    "node_count": 41,
+    "property_count": 29,
+    "task_count": 4,
+    "internal_edge_count": 0,
+    "internal_density": 0.0,
+    "external_dependencies": 70,
+    "cross_module_links": 0
+  },
+  {
+    "module": "Fonts",
+    "node_count": 29,
+    "property_count": 26,
+    "task_count": 0,
+    "internal_edge_count": 0,
+    "internal_density": 0.0,
+    "external_dependencies": 104,
+    "cross_module_links": 52
+  },
+  {
+    "module": "Navigator",
+    "node_count": 382,
+    "property_count": 194,
+    "task_count": 68,
+    "internal_edge_count": 63,
+    "internal_density": 0.001683,
+    "external_dependencies": 908,
+    "cross_module_links": 2
+  },
+  {
+    "module": "Other",
+    "node_count": 1408,
+    "property_count": 445,
+    "task_count": 387,
+    "internal_edge_count": 0,
+    "internal_density": 0.0,
+    "external_dependencies": 2051,
+    "cross_module_links": 0
+  },
+  {
+    "module": "Performance",
+    "node_count": 17,
+    "property_count": 11,
+    "task_count": 1,
+    "internal_edge_count": 0,
+    "internal_density": 0.0,
+    "external_dependencies": 44,
+    "cross_module_links": 21
+  },
+  {
+    "module": "Permissions",
+    "node_count": 10,
+    "property_count": 7,
+    "task_count": 0,
+    "internal_edge_count": 0,
+    "internal_density": 0.0,
+    "external_dependencies": 28,
+    "cross_module_links": 14
+  },
+  {
+    "module": "Screen",
+    "node_count": 12,
+    "property_count": 9,
+    "task_count": 0,
+    "internal_edge_count": 14,
+    "internal_density": 0.194444,
+    "external_dependencies": 163,
+    "cross_module_links": 25
+  },
+  {
+    "module": "Speech",
+    "node_count": 71,
+    "property_count": 68,
+    "task_count": 0,
+    "internal_edge_count": 0,
+    "internal_density": 0.0,
+    "external_dependencies": 269,
+    "cross_module_links": 135
+  },
+  {
+    "module": "Storage",
+    "node_count": 43,
+    "property_count": 10,
+    "task_count": 10,
+    "internal_edge_count": 0,
+    "internal_density": 0.0,
+    "external_dependencies": 50,
+    "cross_module_links": 0
+  },
+  {
+    "module": "WebGL",
+    "node_count": 62,
+    "property_count": 53,
+    "task_count": 1,
+    "internal_edge_count": 0,
+    "internal_density": 0.0,
+    "external_dependencies": 316,
+    "cross_module_links": 208
+  },
+  {
+    "module": "Window",
+    "node_count": 14,
+    "property_count": 11,
+    "task_count": 0,
+    "internal_edge_count": 25,
+    "internal_density": 0.227273,
+    "external_dependencies": 126,
+    "cross_module_links": 18
+  }
+]

@@ -1,0 +1,25 @@
+{
+  "prediction_accuracy_pct": null,
+  "mae": null,
+  "rmse": null,
+  "mbe": null,
+  "evaluated_count": 0,
+  "classification": "Insufficient Data",
+  "cf_score": {
+    "prediction_accuracy_pct": null,
+    "mae": null,
+    "rmse": null,
+    "mbe": null,
+    "evaluated_count": 0,
+    "classification": "Insufficient Data"
+  },
+  "property": {
+    "prediction_accuracy_pct": null,
+    "mae": null,
+    "rmse": null,
+    "mbe": null,
+    "evaluated_count": 0,
+    "classification": "Insufficient Data"
+  },
+  "by_module": {}
+}

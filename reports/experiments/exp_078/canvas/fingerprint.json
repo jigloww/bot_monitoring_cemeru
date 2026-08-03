@@ -1,0 +1,84 @@
+{
+  "experiment": "Experiment 031 - Canvas Evaluation",
+  "experiment_id": "exp_078",
+  "modes": {
+    "plain": {
+      "fingerprint": {},
+      "probe": {
+        "supported": false,
+        "errors": [
+          "No module named 'playwright'"
+        ]
+      },
+      "meta": {
+        "mode": "plain",
+        "label": "Plain"
+      }
+    },
+    "generated": {
+      "fingerprint": {},
+      "probe": {
+        "supported": false,
+        "errors": [
+          "No module named 'playwright'"
+        ]
+      },
+      "meta": {
+        "mode": "generated",
+        "label": "Generated"
+      }
+    },
+    "navigator": {
+      "fingerprint": {},
+      "probe": {
+        "supported": false,
+        "errors": [
+          "No module named 'playwright'"
+        ]
+      },
+      "meta": {
+        "mode": "navigator",
+        "label": "Navigator"
+      }
+    },
+    "navigator_window": {
+      "fingerprint": {},
+      "probe": {
+        "supported": false,
+        "errors": [
+          "No module named 'playwright'"
+        ]
+      },
+      "meta": {
+        "mode": "navigator_window",
+        "label": "Navigator + Window"
+      }
+    },
+    "current_stack": {
+      "fingerprint": {},
+      "probe": {
+        "supported": false,
+        "errors": [
+          "No module named 'playwright'"
+        ]
+      },
+      "meta": {
+        "mode": "current_stack",
+        "label": "Current Stack"
+      }
+    },
+    "current_stack_canvas": {
+      "fingerprint": {},
+      "probe": {
+        "supported": false,
+        "errors": [
+          "No module named 'playwright'"
+        ]
+      },
+      "meta": {
+        "mode": "current_stack_canvas",
+        "label": "Current Stack + Canvas"
+      }
+    }
+  }
+}

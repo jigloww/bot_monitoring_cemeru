@@ -1,0 +1,32 @@
+{
+  "experiment": "Experiment 026 — Prediction Validator",
+  "experiment_id": "exp_056",
+  "planner_source": "reports\\experiments\\exp_052\\optimization_planner\\predictions.json",
+  "predictions_total": 4,
+  "predictions_evaluated": 0,
+  "predictions_insufficient": 4,
+  "prediction_accuracy_pct": null,
+  "mae": null,
+  "rmse": null,
+  "mbe": null,
+  "best_prediction": null,
+  "worst_prediction": null,
+  "property_most_often_missed": null,
+  "property_most_consistent": null,
+  "planner_confidence": "Insufficient Data",
+  "difficulty_validation": "Insufficient Data",
+  "result": "PARTIAL",
+  "analysis_only": true,
+  "browser_launches": 0,
+  "source_artifacts": {
+    "planner": "reports\\experiments\\exp_052\\optimization_planner\\predictions.json",
+    "planner_summary": "reports\\experiments\\exp_052\\optimization_planner\\summary.json",
+    "dashboard_history": "reports\\dashboard\\dashboard_history.json",
+    "evolution": "reports\\experiments\\exp_043\\fingerprint_evolution\\summary.json",
+    "importance": "reports\\experiments\\exp_045\\fingerprint_importance\\summary.json",
+    "risk": "reports\\experiments\\exp_048\\fingerprint_risk\\summary.json",
+    "session_diff": "reports\\experiments\\exp_036\\session_diff\\summary.json",
+    "consistency": "reports\\experiments\\exp_013\\consistency_report.json",
+    "comparator": "reports\\experiments\\exp_014\\webgl\\previous_stack_webgl\\compare.json"
+  }
+}

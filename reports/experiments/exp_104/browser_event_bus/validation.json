@@ -1,0 +1,22 @@
+{
+  "subscribe": true,
+  "unsubscribe": true,
+  "emit": true,
+  "dispatch": true,
+  "listener_priority": false,
+  "multiple_listeners": false,
+  "listener_exception_isolation": false,
+  "fifo_ordering": false,
+  "dynamic_removal": true,
+  "snapshot_serialization": true,
+  "statistics_serialization": true,
+  "queue_clearing": true,
+  "high_volume_emission": true,
+  "bounded_queue": true,
+  "idempotent_shutdown": true,
+  "deterministic_ordering": true,
+  "read_only_validation": true,
+  "browser_launches": 0,
+  "network_requests": 0,
+  "valid": false
+}

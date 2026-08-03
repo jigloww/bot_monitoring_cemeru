@@ -1,0 +1,17 @@
+{
+  "configuration_serialization": true,
+  "temporary_profile_cleanup": true,
+  "persistent_profile_preservation": true,
+  "stealth_hook_invocation": true,
+  "idempotent_close": true,
+  "chrome_executable_detection": false,
+  "chromium_executable_detection": false,
+  "bundled_browser_launch": true,
+  "context_creation": true,
+  "page_creation": true,
+  "cleanup": true,
+  "artifact_completeness": true,
+  "browser_launches": 0,
+  "network_requests": 0,
+  "valid": true
+}

@@ -1,0 +1,71 @@
+{
+  "experiment": "Experiment 020 — Browser Session Profiler",
+  "experiment_id": "exp_032",
+  "browser": null,
+  "version": null,
+  "headless": true,
+  "persistent_profile": false,
+  "webdriver": null,
+  "gpu": null,
+  "timezone": null,
+  "locale": null,
+  "cookies": 0,
+  "storage": {
+    "localStorage": 0,
+    "sessionStorage": 0
+  },
+  "permissions": 0,
+  "extensions": 0,
+  "fonts": {
+    "supported": false,
+    "count": 0,
+    "faces": []
+  },
+  "speech": {
+    "supported": false,
+    "count": 0,
+    "voices": []
+  },
+  "webgl": {
+    "available": false
+  },
+  "fingerprint_hash": "7ef46eb1f8e32eb46c0e275a44c193d1ac963c72c321e46b244012e585544b6f",
+  "profile_hash": "f07d74c60e8c37d758b859b34472d87a52da285fee6e0716f81ee61079b32e4a",
+  "environment_hash": "bc822f649121a4f395db6d8e4fc3a33de3f31af072ce75b7c08139448f9bf015",
+  "session_score": 0.0,
+  "profile_consistency": {
+    "checks": [],
+    "passed": 0,
+    "failed": 0,
+    "valid": true
+  },
+  "result": "UNKNOWN",
+  "statistics": {
+    "cookie_count": 0,
+    "local_storage_keys": 0,
+    "session_storage_keys": 0,
+    "indexeddb_count": 0,
+    "cache_storage_count": 0,
+    "permission_count": 0,
+    "plugin_count": 0,
+    "mime_count": 0,
+    "font_count": 0,
+    "extension_count": 0,
+    "webgl_extensions": 0,
+    "performance_entries": 0,
+    "resource_entries": 0,
+    "run_count": 1,
+    "valid_runs": 0,
+    "unknown_runs": 1,
+    "failed_runs": 0,
+    "average_duration_ms": 0.0
+  },
+  "runs": [
+    {
+      "run_id": "run_001",
+      "status": "UNKNOWN",
+      "duration_ms": 0.0,
+      "error": "No module named 'playwright'"
+    }
+  ]
+}

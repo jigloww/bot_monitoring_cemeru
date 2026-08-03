@@ -1,0 +1,32 @@
+{
+  "errors": [
+    {
+      "prediction_id": "sprint_1",
+      "sprint": "Sprint 1",
+      "error": null,
+      "classification": "Insufficient Data",
+      "reason": "No post-planner scored experiment exists."
+    },
+    {
+      "prediction_id": "sprint_2",
+      "sprint": "Sprint 2",
+      "error": null,
+      "classification": "Insufficient Data",
+      "reason": "No post-planner scored experiment exists."
+    },
+    {
+      "prediction_id": "sprint_3",
+      "sprint": "Sprint 3",
+      "error": null,
+      "classification": "Insufficient Data",
+      "reason": "No post-planner scored experiment exists."
+    },
+    {
+      "prediction_id": "sprint_4",
+      "sprint": "Sprint 4",
+      "error": null,
+      "classification": "Insufficient Data",
+      "reason": "No post-planner scored experiment exists."
+    }
+  ]
+}

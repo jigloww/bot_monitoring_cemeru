@@ -1,0 +1,4243 @@
+{
+  "roi": [
+    {
+      "rank": 1,
+      "property": "intl.collator.locale",
+      "roi": 0.2952,
+      "estimated_overall_gain_pct": 0.2952,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 2,
+      "property": "intl.listFormat.locale",
+      "roi": 0.2952,
+      "estimated_overall_gain_pct": 0.2952,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 3,
+      "property": "intl.numberFormat.locale",
+      "roi": 0.2952,
+      "estimated_overall_gain_pct": 0.2952,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 4,
+      "property": "timezone.locale",
+      "roi": 0.2952,
+      "estimated_overall_gain_pct": 0.2952,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 5,
+      "property": "indexeddb.databases[0]",
+      "roi": 0.2782,
+      "estimated_overall_gain_pct": 0.2782,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 6,
+      "property": "indexeddb.databases[1]",
+      "roi": 0.2782,
+      "estimated_overall_gain_pct": 0.2782,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 7,
+      "property": "indexeddb.count",
+      "roi": 0.249,
+      "estimated_overall_gain_pct": 0.249,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 8,
+      "property": "storage.localStorage_length",
+      "roi": 0.249,
+      "estimated_overall_gain_pct": 0.249,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 9,
+      "property": "storage.sessionStorage_length",
+      "roi": 0.249,
+      "estimated_overall_gain_pct": 0.249,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 10,
+      "property": "storage.caches_available",
+      "roi": 0.2272,
+      "estimated_overall_gain_pct": 0.2272,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 11,
+      "property": "storage.cookieStore_available",
+      "roi": 0.2272,
+      "estimated_overall_gain_pct": 0.2272,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 12,
+      "property": "storage.indexedDB_available",
+      "roi": 0.2272,
+      "estimated_overall_gain_pct": 0.2272,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 13,
+      "property": "indexeddb",
+      "roi": 0.2247,
+      "estimated_overall_gain_pct": 0.2247,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 14,
+      "property": "storage",
+      "roi": 0.2247,
+      "estimated_overall_gain_pct": 0.2247,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 15,
+      "property": "document.cookie_names[0]",
+      "roi": 0.2235,
+      "estimated_overall_gain_pct": 0.2235,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 16,
+      "property": "document.domain",
+      "roi": 0.2235,
+      "estimated_overall_gain_pct": 0.2235,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 17,
+      "property": "document.referrer",
+      "roi": 0.2235,
+      "estimated_overall_gain_pct": 0.2235,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 18,
+      "property": "navigator_own_keys[40]",
+      "roi": 0.2235,
+      "estimated_overall_gain_pct": 0.2235,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 19,
+      "property": "navigator_own_keys[41]",
+      "roi": 0.2235,
+      "estimated_overall_gain_pct": 0.2235,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 20,
+      "property": "navigator_own_keys[46]",
+      "roi": 0.2235,
+      "estimated_overall_gain_pct": 0.2235,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 21,
+      "property": "navigator_own_keys[53]",
+      "roi": 0.2235,
+      "estimated_overall_gain_pct": 0.2235,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 22,
+      "property": "navigator_own_keys[54]",
+      "roi": 0.2235,
+      "estimated_overall_gain_pct": 0.2235,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 23,
+      "property": "navigator_own_keys[55]",
+      "roi": 0.2235,
+      "estimated_overall_gain_pct": 0.2235,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 24,
+      "property": "navigator_own_keys[56]",
+      "roi": 0.2235,
+      "estimated_overall_gain_pct": 0.2235,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 25,
+      "property": "navigator_own_keys[61]",
+      "roi": 0.2235,
+      "estimated_overall_gain_pct": 0.2235,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 26,
+      "property": "navigator_own_keys[65]",
+      "roi": 0.2235,
+      "estimated_overall_gain_pct": 0.2235,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 27,
+      "property": "navigator_own_keys[66]",
+      "roi": 0.2235,
+      "estimated_overall_gain_pct": 0.2235,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 28,
+      "property": "navigator_own_keys[67]",
+      "roi": 0.2235,
+      "estimated_overall_gain_pct": 0.2235,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 29,
+      "property": "navigator_own_keys[69]",
+      "roi": 0.2235,
+      "estimated_overall_gain_pct": 0.2235,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 30,
+      "property": "navigator_own_keys[71]",
+      "roi": 0.2235,
+      "estimated_overall_gain_pct": 0.2235,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 31,
+      "property": "navigator_own_keys[75]",
+      "roi": 0.2235,
+      "estimated_overall_gain_pct": 0.2235,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 32,
+      "property": "navigator_own_keys[78]",
+      "roi": 0.2235,
+      "estimated_overall_gain_pct": 0.2235,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 33,
+      "property": "navigator_own_keys[79]",
+      "roi": 0.2235,
+      "estimated_overall_gain_pct": 0.2235,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 34,
+      "property": "navigator_own_keys[80]",
+      "roi": 0.2235,
+      "estimated_overall_gain_pct": 0.2235,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 35,
+      "property": "navigator_own_keys[81]",
+      "roi": 0.2235,
+      "estimated_overall_gain_pct": 0.2235,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 36,
+      "property": "window_keys[239]",
+      "roi": 0.2235,
+      "estimated_overall_gain_pct": 0.2235,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 37,
+      "property": "window_keys[242]",
+      "roi": 0.2235,
+      "estimated_overall_gain_pct": 0.2235,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 38,
+      "property": "window_keys[243]",
+      "roi": 0.2235,
+      "estimated_overall_gain_pct": 0.2235,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 39,
+      "property": "window_keys[244]",
+      "roi": 0.2235,
+      "estimated_overall_gain_pct": 0.2235,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 40,
+      "property": "window_keys[245]",
+      "roi": 0.2235,
+      "estimated_overall_gain_pct": 0.2235,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 41,
+      "property": "window_keys[246]",
+      "roi": 0.2235,
+      "estimated_overall_gain_pct": 0.2235,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 42,
+      "property": "window_keys[250]",
+      "roi": 0.2235,
+      "estimated_overall_gain_pct": 0.2235,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 43,
+      "property": "window_keys[258]",
+      "roi": 0.2235,
+      "estimated_overall_gain_pct": 0.2235,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 44,
+      "property": "window_keys[259]",
+      "roi": 0.2235,
+      "estimated_overall_gain_pct": 0.2235,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 45,
+      "property": "window_keys[260]",
+      "roi": 0.2235,
+      "estimated_overall_gain_pct": 0.2235,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 46,
+      "property": "window_keys[261]",
+      "roi": 0.2235,
+      "estimated_overall_gain_pct": 0.2235,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 47,
+      "property": "window_keys[262]",
+      "roi": 0.2235,
+      "estimated_overall_gain_pct": 0.2235,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 48,
+      "property": "navigator_own_keys[0]",
+      "roi": 0.2187,
+      "estimated_overall_gain_pct": 0.2187,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 49,
+      "property": "navigator_own_keys[10]",
+      "roi": 0.2187,
+      "estimated_overall_gain_pct": 0.2187,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 50,
+      "property": "navigator_own_keys[12]",
+      "roi": 0.2187,
+      "estimated_overall_gain_pct": 0.2187,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 51,
+      "property": "navigator_own_keys[13]",
+      "roi": 0.2187,
+      "estimated_overall_gain_pct": 0.2187,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 52,
+      "property": "navigator_own_keys[15]",
+      "roi": 0.2187,
+      "estimated_overall_gain_pct": 0.2187,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 53,
+      "property": "navigator_own_keys[16]",
+      "roi": 0.2187,
+      "estimated_overall_gain_pct": 0.2187,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 54,
+      "property": "navigator_own_keys[17]",
+      "roi": 0.2187,
+      "estimated_overall_gain_pct": 0.2187,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 55,
+      "property": "navigator_own_keys[19]",
+      "roi": 0.2187,
+      "estimated_overall_gain_pct": 0.2187,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 56,
+      "property": "navigator_own_keys[20]",
+      "roi": 0.2187,
+      "estimated_overall_gain_pct": 0.2187,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 57,
+      "property": "navigator_own_keys[24]",
+      "roi": 0.2187,
+      "estimated_overall_gain_pct": 0.2187,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 58,
+      "property": "navigator_own_keys[25]",
+      "roi": 0.2187,
+      "estimated_overall_gain_pct": 0.2187,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 59,
+      "property": "navigator_own_keys[28]",
+      "roi": 0.2187,
+      "estimated_overall_gain_pct": 0.2187,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 60,
+      "property": "navigator_own_keys[30]",
+      "roi": 0.2187,
+      "estimated_overall_gain_pct": 0.2187,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 61,
+      "property": "navigator_own_keys[32]",
+      "roi": 0.2187,
+      "estimated_overall_gain_pct": 0.2187,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 62,
+      "property": "navigator_own_keys[35]",
+      "roi": 0.2187,
+      "estimated_overall_gain_pct": 0.2187,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 63,
+      "property": "navigator_own_keys[36]",
+      "roi": 0.2187,
+      "estimated_overall_gain_pct": 0.2187,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 64,
+      "property": "navigator_own_keys[37]",
+      "roi": 0.2187,
+      "estimated_overall_gain_pct": 0.2187,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 65,
+      "property": "navigator_own_keys[5]",
+      "roi": 0.2187,
+      "estimated_overall_gain_pct": 0.2187,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 66,
+      "property": "navigator_own_keys[7]",
+      "roi": 0.2187,
+      "estimated_overall_gain_pct": 0.2187,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 67,
+      "property": "navigator_own_keys[8]",
+      "roi": 0.2187,
+      "estimated_overall_gain_pct": 0.2187,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 68,
+      "property": "window_keys[101]",
+      "roi": 0.2187,
+      "estimated_overall_gain_pct": 0.2187,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 69,
+      "property": "window_keys[102]",
+      "roi": 0.2187,
+      "estimated_overall_gain_pct": 0.2187,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 70,
+      "property": "window_keys[103]",
+      "roi": 0.2187,
+      "estimated_overall_gain_pct": 0.2187,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 71,
+      "property": "window_keys[104]",
+      "roi": 0.2187,
+      "estimated_overall_gain_pct": 0.2187,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 72,
+      "property": "window_keys[105]",
+      "roi": 0.2187,
+      "estimated_overall_gain_pct": 0.2187,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 73,
+      "property": "window_keys[106]",
+      "roi": 0.2187,
+      "estimated_overall_gain_pct": 0.2187,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 74,
+      "property": "window_keys[108]",
+      "roi": 0.2187,
+      "estimated_overall_gain_pct": 0.2187,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 75,
+      "property": "window_keys[109]",
+      "roi": 0.2187,
+      "estimated_overall_gain_pct": 0.2187,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 76,
+      "property": "window_keys[110]",
+      "roi": 0.2187,
+      "estimated_overall_gain_pct": 0.2187,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 77,
+      "property": "window_keys[118]",
+      "roi": 0.2187,
+      "estimated_overall_gain_pct": 0.2187,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 78,
+      "property": "window_keys[11]",
+      "roi": 0.2187,
+      "estimated_overall_gain_pct": 0.2187,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 79,
+      "property": "window_keys[124]",
+      "roi": 0.2187,
+      "estimated_overall_gain_pct": 0.2187,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 80,
+      "property": "window_keys[125]",
+      "roi": 0.2187,
+      "estimated_overall_gain_pct": 0.2187,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 81,
+      "property": "window_keys[126]",
+      "roi": 0.2187,
+      "estimated_overall_gain_pct": 0.2187,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 82,
+      "property": "window_keys[127]",
+      "roi": 0.2187,
+      "estimated_overall_gain_pct": 0.2187,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 83,
+      "property": "window_keys[128]",
+      "roi": 0.2187,
+      "estimated_overall_gain_pct": 0.2187,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 84,
+      "property": "window_keys[129]",
+      "roi": 0.2187,
+      "estimated_overall_gain_pct": 0.2187,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 85,
+      "property": "window_keys[130]",
+      "roi": 0.2187,
+      "estimated_overall_gain_pct": 0.2187,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 86,
+      "property": "window_keys[132]",
+      "roi": 0.2187,
+      "estimated_overall_gain_pct": 0.2187,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 87,
+      "property": "window_keys[133]",
+      "roi": 0.2187,
+      "estimated_overall_gain_pct": 0.2187,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 88,
+      "property": "window_keys[136]",
+      "roi": 0.2187,
+      "estimated_overall_gain_pct": 0.2187,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 89,
+      "property": "window_keys[137]",
+      "roi": 0.2187,
+      "estimated_overall_gain_pct": 0.2187,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 90,
+      "property": "window_keys[138]",
+      "roi": 0.2187,
+      "estimated_overall_gain_pct": 0.2187,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 91,
+      "property": "window_keys[140]",
+      "roi": 0.2187,
+      "estimated_overall_gain_pct": 0.2187,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 92,
+      "property": "window_keys[142]",
+      "roi": 0.2187,
+      "estimated_overall_gain_pct": 0.2187,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 93,
+      "property": "window_keys[143]",
+      "roi": 0.2187,
+      "estimated_overall_gain_pct": 0.2187,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 94,
+      "property": "window_keys[145]",
+      "roi": 0.2187,
+      "estimated_overall_gain_pct": 0.2187,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 95,
+      "property": "window_keys[149]",
+      "roi": 0.2187,
+      "estimated_overall_gain_pct": 0.2187,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 96,
+      "property": "window_keys[150]",
+      "roi": 0.2187,
+      "estimated_overall_gain_pct": 0.2187,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 97,
+      "property": "window_keys[158]",
+      "roi": 0.2187,
+      "estimated_overall_gain_pct": 0.2187,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 98,
+      "property": "window_keys[159]",
+      "roi": 0.2187,
+      "estimated_overall_gain_pct": 0.2187,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 99,
+      "property": "window_keys[160]",
+      "roi": 0.2187,
+      "estimated_overall_gain_pct": 0.2187,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 100,
+      "property": "window_keys[161]",
+      "roi": 0.2187,
+      "estimated_overall_gain_pct": 0.2187,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 101,
+      "property": "window_keys[162]",
+      "roi": 0.2187,
+      "estimated_overall_gain_pct": 0.2187,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 102,
+      "property": "window_keys[164]",
+      "roi": 0.2187,
+      "estimated_overall_gain_pct": 0.2187,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 103,
+      "property": "window_keys[165]",
+      "roi": 0.2187,
+      "estimated_overall_gain_pct": 0.2187,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 104,
+      "property": "window_keys[166]",
+      "roi": 0.2187,
+      "estimated_overall_gain_pct": 0.2187,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 105,
+      "property": "window_keys[167]",
+      "roi": 0.2187,
+      "estimated_overall_gain_pct": 0.2187,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 106,
+      "property": "window_keys[168]",
+      "roi": 0.2187,
+      "estimated_overall_gain_pct": 0.2187,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 107,
+      "property": "window_keys[169]",
+      "roi": 0.2187,
+      "estimated_overall_gain_pct": 0.2187,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 108,
+      "property": "window_keys[16]",
+      "roi": 0.2187,
+      "estimated_overall_gain_pct": 0.2187,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 109,
+      "property": "window_keys[170]",
+      "roi": 0.2187,
+      "estimated_overall_gain_pct": 0.2187,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 110,
+      "property": "window_keys[174]",
+      "roi": 0.2187,
+      "estimated_overall_gain_pct": 0.2187,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 111,
+      "property": "window_keys[175]",
+      "roi": 0.2187,
+      "estimated_overall_gain_pct": 0.2187,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 112,
+      "property": "window_keys[176]",
+      "roi": 0.2187,
+      "estimated_overall_gain_pct": 0.2187,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 113,
+      "property": "window_keys[178]",
+      "roi": 0.2187,
+      "estimated_overall_gain_pct": 0.2187,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 114,
+      "property": "window_keys[17]",
+      "roi": 0.2187,
+      "estimated_overall_gain_pct": 0.2187,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 115,
+      "property": "window_keys[182]",
+      "roi": 0.2187,
+      "estimated_overall_gain_pct": 0.2187,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 116,
+      "property": "window_keys[183]",
+      "roi": 0.2187,
+      "estimated_overall_gain_pct": 0.2187,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 117,
+      "property": "window_keys[185]",
+      "roi": 0.2187,
+      "estimated_overall_gain_pct": 0.2187,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 118,
+      "property": "window_keys[186]",
+      "roi": 0.2187,
+      "estimated_overall_gain_pct": 0.2187,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 119,
+      "property": "window_keys[188]",
+      "roi": 0.2187,
+      "estimated_overall_gain_pct": 0.2187,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 120,
+      "property": "window_keys[189]",
+      "roi": 0.2187,
+      "estimated_overall_gain_pct": 0.2187,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 121,
+      "property": "window_keys[18]",
+      "roi": 0.2187,
+      "estimated_overall_gain_pct": 0.2187,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 122,
+      "property": "window_keys[191]",
+      "roi": 0.2187,
+      "estimated_overall_gain_pct": 0.2187,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 123,
+      "property": "window_keys[192]",
+      "roi": 0.2187,
+      "estimated_overall_gain_pct": 0.2187,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 124,
+      "property": "window_keys[193]",
+      "roi": 0.2187,
+      "estimated_overall_gain_pct": 0.2187,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 125,
+      "property": "window_keys[194]",
+      "roi": 0.2187,
+      "estimated_overall_gain_pct": 0.2187,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 126,
+      "property": "window_keys[195]",
+      "roi": 0.2187,
+      "estimated_overall_gain_pct": 0.2187,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 127,
+      "property": "window_keys[197]",
+      "roi": 0.2187,
+      "estimated_overall_gain_pct": 0.2187,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 128,
+      "property": "window_keys[199]",
+      "roi": 0.2187,
+      "estimated_overall_gain_pct": 0.2187,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 129,
+      "property": "window_keys[200]",
+      "roi": 0.2187,
+      "estimated_overall_gain_pct": 0.2187,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 130,
+      "property": "window_keys[201]",
+      "roi": 0.2187,
+      "estimated_overall_gain_pct": 0.2187,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 131,
+      "property": "window_keys[202]",
+      "roi": 0.2187,
+      "estimated_overall_gain_pct": 0.2187,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 132,
+      "property": "window_keys[205]",
+      "roi": 0.2187,
+      "estimated_overall_gain_pct": 0.2187,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 133,
+      "property": "window_keys[207]",
+      "roi": 0.2187,
+      "estimated_overall_gain_pct": 0.2187,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 134,
+      "property": "window_keys[208]",
+      "roi": 0.2187,
+      "estimated_overall_gain_pct": 0.2187,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 135,
+      "property": "window_keys[20]",
+      "roi": 0.2187,
+      "estimated_overall_gain_pct": 0.2187,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 136,
+      "property": "window_keys[212]",
+      "roi": 0.2187,
+      "estimated_overall_gain_pct": 0.2187,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 137,
+      "property": "window_keys[218]",
+      "roi": 0.2187,
+      "estimated_overall_gain_pct": 0.2187,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 138,
+      "property": "window_keys[219]",
+      "roi": 0.2187,
+      "estimated_overall_gain_pct": 0.2187,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 139,
+      "property": "window_keys[21]",
+      "roi": 0.2187,
+      "estimated_overall_gain_pct": 0.2187,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 140,
+      "property": "window_keys[220]",
+      "roi": 0.2187,
+      "estimated_overall_gain_pct": 0.2187,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 141,
+      "property": "window_keys[221]",
+      "roi": 0.2187,
+      "estimated_overall_gain_pct": 0.2187,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 142,
+      "property": "window_keys[222]",
+      "roi": 0.2187,
+      "estimated_overall_gain_pct": 0.2187,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 143,
+      "property": "window_keys[223]",
+      "roi": 0.2187,
+      "estimated_overall_gain_pct": 0.2187,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 144,
+      "property": "window_keys[22]",
+      "roi": 0.2187,
+      "estimated_overall_gain_pct": 0.2187,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 145,
+      "property": "window_keys[24]",
+      "roi": 0.2187,
+      "estimated_overall_gain_pct": 0.2187,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 146,
+      "property": "window_keys[26]",
+      "roi": 0.2187,
+      "estimated_overall_gain_pct": 0.2187,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 147,
+      "property": "window_keys[2]",
+      "roi": 0.2187,
+      "estimated_overall_gain_pct": 0.2187,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 148,
+      "property": "window_keys[31]",
+      "roi": 0.2187,
+      "estimated_overall_gain_pct": 0.2187,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 149,
+      "property": "window_keys[33]",
+      "roi": 0.2187,
+      "estimated_overall_gain_pct": 0.2187,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 150,
+      "property": "window_keys[34]",
+      "roi": 0.2187,
+      "estimated_overall_gain_pct": 0.2187,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 151,
+      "property": "window_keys[35]",
+      "roi": 0.2187,
+      "estimated_overall_gain_pct": 0.2187,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 152,
+      "property": "window_keys[37]",
+      "roi": 0.2187,
+      "estimated_overall_gain_pct": 0.2187,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 153,
+      "property": "window_keys[39]",
+      "roi": 0.2187,
+      "estimated_overall_gain_pct": 0.2187,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 154,
+      "property": "window_keys[41]",
+      "roi": 0.2187,
+      "estimated_overall_gain_pct": 0.2187,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 155,
+      "property": "window_keys[52]",
+      "roi": 0.2187,
+      "estimated_overall_gain_pct": 0.2187,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 156,
+      "property": "window_keys[53]",
+      "roi": 0.2187,
+      "estimated_overall_gain_pct": 0.2187,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 157,
+      "property": "window_keys[54]",
+      "roi": 0.2187,
+      "estimated_overall_gain_pct": 0.2187,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 158,
+      "property": "window_keys[55]",
+      "roi": 0.2187,
+      "estimated_overall_gain_pct": 0.2187,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 159,
+      "property": "window_keys[56]",
+      "roi": 0.2187,
+      "estimated_overall_gain_pct": 0.2187,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 160,
+      "property": "window_keys[57]",
+      "roi": 0.2187,
+      "estimated_overall_gain_pct": 0.2187,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 161,
+      "property": "window_keys[58]",
+      "roi": 0.2187,
+      "estimated_overall_gain_pct": 0.2187,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 162,
+      "property": "window_keys[59]",
+      "roi": 0.2187,
+      "estimated_overall_gain_pct": 0.2187,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 163,
+      "property": "window_keys[5]",
+      "roi": 0.2187,
+      "estimated_overall_gain_pct": 0.2187,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 164,
+      "property": "window_keys[60]",
+      "roi": 0.2187,
+      "estimated_overall_gain_pct": 0.2187,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 165,
+      "property": "window_keys[61]",
+      "roi": 0.2187,
+      "estimated_overall_gain_pct": 0.2187,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 166,
+      "property": "window_keys[62]",
+      "roi": 0.2187,
+      "estimated_overall_gain_pct": 0.2187,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 167,
+      "property": "window_keys[63]",
+      "roi": 0.2187,
+      "estimated_overall_gain_pct": 0.2187,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 168,
+      "property": "window_keys[64]",
+      "roi": 0.2187,
+      "estimated_overall_gain_pct": 0.2187,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 169,
+      "property": "window_keys[68]",
+      "roi": 0.2187,
+      "estimated_overall_gain_pct": 0.2187,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 170,
+      "property": "window_keys[6]",
+      "roi": 0.2187,
+      "estimated_overall_gain_pct": 0.2187,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 171,
+      "property": "window_keys[73]",
+      "roi": 0.2187,
+      "estimated_overall_gain_pct": 0.2187,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 172,
+      "property": "window_keys[74]",
+      "roi": 0.2187,
+      "estimated_overall_gain_pct": 0.2187,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 173,
+      "property": "window_keys[75]",
+      "roi": 0.2187,
+      "estimated_overall_gain_pct": 0.2187,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 174,
+      "property": "window_keys[76]",
+      "roi": 0.2187,
+      "estimated_overall_gain_pct": 0.2187,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 175,
+      "property": "window_keys[7]",
+      "roi": 0.2187,
+      "estimated_overall_gain_pct": 0.2187,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 176,
+      "property": "window_keys[81]",
+      "roi": 0.2187,
+      "estimated_overall_gain_pct": 0.2187,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 177,
+      "property": "window_keys[82]",
+      "roi": 0.2187,
+      "estimated_overall_gain_pct": 0.2187,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 178,
+      "property": "window_keys[83]",
+      "roi": 0.2187,
+      "estimated_overall_gain_pct": 0.2187,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 179,
+      "property": "window_keys[84]",
+      "roi": 0.2187,
+      "estimated_overall_gain_pct": 0.2187,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 180,
+      "property": "window_keys[85]",
+      "roi": 0.2187,
+      "estimated_overall_gain_pct": 0.2187,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 181,
+      "property": "window_keys[86]",
+      "roi": 0.2187,
+      "estimated_overall_gain_pct": 0.2187,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 182,
+      "property": "window_keys[87]",
+      "roi": 0.2187,
+      "estimated_overall_gain_pct": 0.2187,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 183,
+      "property": "window_keys[88]",
+      "roi": 0.2187,
+      "estimated_overall_gain_pct": 0.2187,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 184,
+      "property": "window_keys[89]",
+      "roi": 0.2187,
+      "estimated_overall_gain_pct": 0.2187,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 185,
+      "property": "window_keys[90]",
+      "roi": 0.2187,
+      "estimated_overall_gain_pct": 0.2187,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 186,
+      "property": "window_keys[91]",
+      "roi": 0.2187,
+      "estimated_overall_gain_pct": 0.2187,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 187,
+      "property": "window_keys[92]",
+      "roi": 0.2187,
+      "estimated_overall_gain_pct": 0.2187,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 188,
+      "property": "window_keys[93]",
+      "roi": 0.2187,
+      "estimated_overall_gain_pct": 0.2187,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 189,
+      "property": "window_keys[94]",
+      "roi": 0.2187,
+      "estimated_overall_gain_pct": 0.2187,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 190,
+      "property": "window_keys[97]",
+      "roi": 0.2187,
+      "estimated_overall_gain_pct": 0.2187,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 191,
+      "property": "window_keys[9]",
+      "roi": 0.2187,
+      "estimated_overall_gain_pct": 0.2187,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 192,
+      "property": "battery.chargingTime",
+      "roi": 0.1944,
+      "estimated_overall_gain_pct": 0.1944,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 193,
+      "property": "battery.dischargingTime",
+      "roi": 0.1944,
+      "estimated_overall_gain_pct": 0.1944,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 194,
+      "property": "battery.level",
+      "roi": 0.1944,
+      "estimated_overall_gain_pct": 0.1944,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 195,
+      "property": "document.cookie_count",
+      "roi": 0.1944,
+      "estimated_overall_gain_pct": 0.1944,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 196,
+      "property": "document.characterSet",
+      "roi": 0.1798,
+      "estimated_overall_gain_pct": 0.1798,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 197,
+      "property": "document.compatMode",
+      "roi": 0.1798,
+      "estimated_overall_gain_pct": 0.1798,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 198,
+      "property": "document.cookie_names[1]",
+      "roi": 0.1798,
+      "estimated_overall_gain_pct": 0.1798,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 199,
+      "property": "document.title",
+      "roi": 0.1798,
+      "estimated_overall_gain_pct": 0.1798,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 200,
+      "property": "document.visibilityState",
+      "roi": 0.1798,
+      "estimated_overall_gain_pct": 0.1798,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 201,
+      "property": "media_devices[0].groupId",
+      "roi": 0.1798,
+      "estimated_overall_gain_pct": 0.1798,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 202,
+      "property": "media_devices[0].kind",
+      "roi": 0.1798,
+      "estimated_overall_gain_pct": 0.1798,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 203,
+      "property": "media_devices[0].label",
+      "roi": 0.1798,
+      "estimated_overall_gain_pct": 0.1798,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 204,
+      "property": "media_devices[1].groupId",
+      "roi": 0.1798,
+      "estimated_overall_gain_pct": 0.1798,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 205,
+      "property": "media_devices[1].kind",
+      "roi": 0.1798,
+      "estimated_overall_gain_pct": 0.1798,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 206,
+      "property": "media_devices[1].label",
+      "roi": 0.1798,
+      "estimated_overall_gain_pct": 0.1798,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 207,
+      "property": "media_devices[2].groupId",
+      "roi": 0.1798,
+      "estimated_overall_gain_pct": 0.1798,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 208,
+      "property": "media_devices[2].kind",
+      "roi": 0.1798,
+      "estimated_overall_gain_pct": 0.1798,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 209,
+      "property": "media_devices[2].label",
+      "roi": 0.1798,
+      "estimated_overall_gain_pct": 0.1798,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 210,
+      "property": "navigator_own_keys[38]",
+      "roi": 0.1798,
+      "estimated_overall_gain_pct": 0.1798,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 211,
+      "property": "navigator_own_keys[39]",
+      "roi": 0.1798,
+      "estimated_overall_gain_pct": 0.1798,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 212,
+      "property": "navigator_own_keys[42]",
+      "roi": 0.1798,
+      "estimated_overall_gain_pct": 0.1798,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 213,
+      "property": "navigator_own_keys[43]",
+      "roi": 0.1798,
+      "estimated_overall_gain_pct": 0.1798,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 214,
+      "property": "navigator_own_keys[44]",
+      "roi": 0.1798,
+      "estimated_overall_gain_pct": 0.1798,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 215,
+      "property": "navigator_own_keys[45]",
+      "roi": 0.1798,
+      "estimated_overall_gain_pct": 0.1798,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 216,
+      "property": "navigator_own_keys[47]",
+      "roi": 0.1798,
+      "estimated_overall_gain_pct": 0.1798,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 217,
+      "property": "navigator_own_keys[48]",
+      "roi": 0.1798,
+      "estimated_overall_gain_pct": 0.1798,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 218,
+      "property": "navigator_own_keys[49]",
+      "roi": 0.1798,
+      "estimated_overall_gain_pct": 0.1798,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 219,
+      "property": "navigator_own_keys[50]",
+      "roi": 0.1798,
+      "estimated_overall_gain_pct": 0.1798,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 220,
+      "property": "navigator_own_keys[51]",
+      "roi": 0.1798,
+      "estimated_overall_gain_pct": 0.1798,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 221,
+      "property": "navigator_own_keys[52]",
+      "roi": 0.1798,
+      "estimated_overall_gain_pct": 0.1798,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 222,
+      "property": "navigator_own_keys[57]",
+      "roi": 0.1798,
+      "estimated_overall_gain_pct": 0.1798,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 223,
+      "property": "navigator_own_keys[58]",
+      "roi": 0.1798,
+      "estimated_overall_gain_pct": 0.1798,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 224,
+      "property": "navigator_own_keys[59]",
+      "roi": 0.1798,
+      "estimated_overall_gain_pct": 0.1798,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 225,
+      "property": "navigator_own_keys[60]",
+      "roi": 0.1798,
+      "estimated_overall_gain_pct": 0.1798,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 226,
+      "property": "navigator_own_keys[62]",
+      "roi": 0.1798,
+      "estimated_overall_gain_pct": 0.1798,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 227,
+      "property": "navigator_own_keys[63]",
+      "roi": 0.1798,
+      "estimated_overall_gain_pct": 0.1798,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 228,
+      "property": "navigator_own_keys[64]",
+      "roi": 0.1798,
+      "estimated_overall_gain_pct": 0.1798,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 229,
+      "property": "navigator_own_keys[68]",
+      "roi": 0.1798,
+      "estimated_overall_gain_pct": 0.1798,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 230,
+      "property": "navigator_own_keys[70]",
+      "roi": 0.1798,
+      "estimated_overall_gain_pct": 0.1798,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 231,
+      "property": "navigator_own_keys[72]",
+      "roi": 0.1798,
+      "estimated_overall_gain_pct": 0.1798,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 232,
+      "property": "navigator_own_keys[73]",
+      "roi": 0.1798,
+      "estimated_overall_gain_pct": 0.1798,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 233,
+      "property": "navigator_own_keys[74]",
+      "roi": 0.1798,
+      "estimated_overall_gain_pct": 0.1798,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 234,
+      "property": "navigator_own_keys[76]",
+      "roi": 0.1798,
+      "estimated_overall_gain_pct": 0.1798,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 235,
+      "property": "navigator_own_keys[77]",
+      "roi": 0.1798,
+      "estimated_overall_gain_pct": 0.1798,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 236,
+      "property": "navigator_own_keys[82]",
+      "roi": 0.1798,
+      "estimated_overall_gain_pct": 0.1798,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 237,
+      "property": "window_keys[224]",
+      "roi": 0.1798,
+      "estimated_overall_gain_pct": 0.1798,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 238,
+      "property": "window_keys[225]",
+      "roi": 0.1798,
+      "estimated_overall_gain_pct": 0.1798,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 239,
+      "property": "window_keys[226]",
+      "roi": 0.1798,
+      "estimated_overall_gain_pct": 0.1798,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 240,
+      "property": "window_keys[227]",
+      "roi": 0.1798,
+      "estimated_overall_gain_pct": 0.1798,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 241,
+      "property": "window_keys[228]",
+      "roi": 0.1798,
+      "estimated_overall_gain_pct": 0.1798,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 242,
+      "property": "window_keys[229]",
+      "roi": 0.1798,
+      "estimated_overall_gain_pct": 0.1798,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 243,
+      "property": "window_keys[230]",
+      "roi": 0.1798,
+      "estimated_overall_gain_pct": 0.1798,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 244,
+      "property": "window_keys[231]",
+      "roi": 0.1798,
+      "estimated_overall_gain_pct": 0.1798,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 245,
+      "property": "window_keys[232]",
+      "roi": 0.1798,
+      "estimated_overall_gain_pct": 0.1798,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 246,
+      "property": "window_keys[233]",
+      "roi": 0.1798,
+      "estimated_overall_gain_pct": 0.1798,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 247,
+      "property": "window_keys[234]",
+      "roi": 0.1798,
+      "estimated_overall_gain_pct": 0.1798,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 248,
+      "property": "window_keys[235]",
+      "roi": 0.1798,
+      "estimated_overall_gain_pct": 0.1798,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 249,
+      "property": "window_keys[236]",
+      "roi": 0.1798,
+      "estimated_overall_gain_pct": 0.1798,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 250,
+      "property": "window_keys[237]",
+      "roi": 0.1798,
+      "estimated_overall_gain_pct": 0.1798,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 251,
+      "property": "window_keys[238]",
+      "roi": 0.1798,
+      "estimated_overall_gain_pct": 0.1798,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 252,
+      "property": "window_keys[240]",
+      "roi": 0.1798,
+      "estimated_overall_gain_pct": 0.1798,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 253,
+      "property": "window_keys[241]",
+      "roi": 0.1798,
+      "estimated_overall_gain_pct": 0.1798,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 254,
+      "property": "window_keys[247]",
+      "roi": 0.1798,
+      "estimated_overall_gain_pct": 0.1798,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 255,
+      "property": "window_keys[248]",
+      "roi": 0.1798,
+      "estimated_overall_gain_pct": 0.1798,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 256,
+      "property": "window_keys[249]",
+      "roi": 0.1798,
+      "estimated_overall_gain_pct": 0.1798,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 257,
+      "property": "window_keys[251]",
+      "roi": 0.1798,
+      "estimated_overall_gain_pct": 0.1798,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 258,
+      "property": "window_keys[252]",
+      "roi": 0.1798,
+      "estimated_overall_gain_pct": 0.1798,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 259,
+      "property": "window_keys[253]",
+      "roi": 0.1798,
+      "estimated_overall_gain_pct": 0.1798,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 260,
+      "property": "window_keys[254]",
+      "roi": 0.1798,
+      "estimated_overall_gain_pct": 0.1798,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 261,
+      "property": "window_keys[255]",
+      "roi": 0.1798,
+      "estimated_overall_gain_pct": 0.1798,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 262,
+      "property": "window_keys[256]",
+      "roi": 0.1798,
+      "estimated_overall_gain_pct": 0.1798,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 263,
+      "property": "window_keys[257]",
+      "roi": 0.1798,
+      "estimated_overall_gain_pct": 0.1798,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 264,
+      "property": "window_keys[263]",
+      "roi": 0.1798,
+      "estimated_overall_gain_pct": 0.1798,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 265,
+      "property": "navigator.languages[1]",
+      "roi": 0.1774,
+      "estimated_overall_gain_pct": 0.3547,
+      "complexity_cost": 2.0,
+      "implementation_risk": "Low",
+      "difficulty": "Medium"
+    },
+    {
+      "rank": 266,
+      "property": "navigator.languages[2]",
+      "roi": 0.1774,
+      "estimated_overall_gain_pct": 0.3547,
+      "complexity_cost": 2.0,
+      "implementation_risk": "Low",
+      "difficulty": "Medium"
+    },
+    {
+      "rank": 267,
+      "property": "navigator.language",
+      "roi": 0.1749,
+      "estimated_overall_gain_pct": 0.3499,
+      "complexity_cost": 2.0,
+      "implementation_risk": "Low",
+      "difficulty": "Medium"
+    },
+    {
+      "rank": 268,
+      "property": "navigator.languages[0]",
+      "roi": 0.1749,
+      "estimated_overall_gain_pct": 0.3499,
+      "complexity_cost": 2.0,
+      "implementation_risk": "Low",
+      "difficulty": "Medium"
+    },
+    {
+      "rank": 269,
+      "property": "features.notification_permission",
+      "roi": 0.1749,
+      "estimated_overall_gain_pct": 0.1749,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 270,
+      "property": "navigator_own_keys[11]",
+      "roi": 0.1749,
+      "estimated_overall_gain_pct": 0.1749,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 271,
+      "property": "navigator_own_keys[14]",
+      "roi": 0.1749,
+      "estimated_overall_gain_pct": 0.1749,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 272,
+      "property": "navigator_own_keys[18]",
+      "roi": 0.1749,
+      "estimated_overall_gain_pct": 0.1749,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 273,
+      "property": "navigator_own_keys[1]",
+      "roi": 0.1749,
+      "estimated_overall_gain_pct": 0.1749,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 274,
+      "property": "navigator_own_keys[21]",
+      "roi": 0.1749,
+      "estimated_overall_gain_pct": 0.1749,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 275,
+      "property": "navigator_own_keys[22]",
+      "roi": 0.1749,
+      "estimated_overall_gain_pct": 0.1749,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 276,
+      "property": "navigator_own_keys[23]",
+      "roi": 0.1749,
+      "estimated_overall_gain_pct": 0.1749,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 277,
+      "property": "navigator_own_keys[26]",
+      "roi": 0.1749,
+      "estimated_overall_gain_pct": 0.1749,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 278,
+      "property": "navigator_own_keys[27]",
+      "roi": 0.1749,
+      "estimated_overall_gain_pct": 0.1749,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 279,
+      "property": "navigator_own_keys[29]",
+      "roi": 0.1749,
+      "estimated_overall_gain_pct": 0.1749,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 280,
+      "property": "navigator_own_keys[2]",
+      "roi": 0.1749,
+      "estimated_overall_gain_pct": 0.1749,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 281,
+      "property": "navigator_own_keys[31]",
+      "roi": 0.1749,
+      "estimated_overall_gain_pct": 0.1749,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 282,
+      "property": "navigator_own_keys[33]",
+      "roi": 0.1749,
+      "estimated_overall_gain_pct": 0.1749,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 283,
+      "property": "navigator_own_keys[34]",
+      "roi": 0.1749,
+      "estimated_overall_gain_pct": 0.1749,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 284,
+      "property": "navigator_own_keys[3]",
+      "roi": 0.1749,
+      "estimated_overall_gain_pct": 0.1749,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 285,
+      "property": "navigator_own_keys[4]",
+      "roi": 0.1749,
+      "estimated_overall_gain_pct": 0.1749,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 286,
+      "property": "navigator_own_keys[6]",
+      "roi": 0.1749,
+      "estimated_overall_gain_pct": 0.1749,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 287,
+      "property": "navigator_own_keys[9]",
+      "roi": 0.1749,
+      "estimated_overall_gain_pct": 0.1749,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 288,
+      "property": "window_keys[0]",
+      "roi": 0.1749,
+      "estimated_overall_gain_pct": 0.1749,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 289,
+      "property": "window_keys[100]",
+      "roi": 0.1749,
+      "estimated_overall_gain_pct": 0.1749,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 290,
+      "property": "window_keys[107]",
+      "roi": 0.1749,
+      "estimated_overall_gain_pct": 0.1749,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 291,
+      "property": "window_keys[10]",
+      "roi": 0.1749,
+      "estimated_overall_gain_pct": 0.1749,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 292,
+      "property": "window_keys[111]",
+      "roi": 0.1749,
+      "estimated_overall_gain_pct": 0.1749,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 293,
+      "property": "window_keys[112]",
+      "roi": 0.1749,
+      "estimated_overall_gain_pct": 0.1749,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 294,
+      "property": "window_keys[113]",
+      "roi": 0.1749,
+      "estimated_overall_gain_pct": 0.1749,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 295,
+      "property": "window_keys[114]",
+      "roi": 0.1749,
+      "estimated_overall_gain_pct": 0.1749,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 296,
+      "property": "window_keys[115]",
+      "roi": 0.1749,
+      "estimated_overall_gain_pct": 0.1749,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 297,
+      "property": "window_keys[116]",
+      "roi": 0.1749,
+      "estimated_overall_gain_pct": 0.1749,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 298,
+      "property": "window_keys[117]",
+      "roi": 0.1749,
+      "estimated_overall_gain_pct": 0.1749,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 299,
+      "property": "window_keys[119]",
+      "roi": 0.1749,
+      "estimated_overall_gain_pct": 0.1749,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 300,
+      "property": "window_keys[120]",
+      "roi": 0.1749,
+      "estimated_overall_gain_pct": 0.1749,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 301,
+      "property": "window_keys[121]",
+      "roi": 0.1749,
+      "estimated_overall_gain_pct": 0.1749,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 302,
+      "property": "window_keys[122]",
+      "roi": 0.1749,
+      "estimated_overall_gain_pct": 0.1749,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 303,
+      "property": "window_keys[123]",
+      "roi": 0.1749,
+      "estimated_overall_gain_pct": 0.1749,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 304,
+      "property": "window_keys[12]",
+      "roi": 0.1749,
+      "estimated_overall_gain_pct": 0.1749,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 305,
+      "property": "window_keys[131]",
+      "roi": 0.1749,
+      "estimated_overall_gain_pct": 0.1749,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 306,
+      "property": "window_keys[134]",
+      "roi": 0.1749,
+      "estimated_overall_gain_pct": 0.1749,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 307,
+      "property": "window_keys[135]",
+      "roi": 0.1749,
+      "estimated_overall_gain_pct": 0.1749,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 308,
+      "property": "window_keys[139]",
+      "roi": 0.1749,
+      "estimated_overall_gain_pct": 0.1749,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 309,
+      "property": "window_keys[13]",
+      "roi": 0.1749,
+      "estimated_overall_gain_pct": 0.1749,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 310,
+      "property": "window_keys[141]",
+      "roi": 0.1749,
+      "estimated_overall_gain_pct": 0.1749,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 311,
+      "property": "window_keys[144]",
+      "roi": 0.1749,
+      "estimated_overall_gain_pct": 0.1749,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 312,
+      "property": "window_keys[146]",
+      "roi": 0.1749,
+      "estimated_overall_gain_pct": 0.1749,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 313,
+      "property": "window_keys[147]",
+      "roi": 0.1749,
+      "estimated_overall_gain_pct": 0.1749,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 314,
+      "property": "window_keys[148]",
+      "roi": 0.1749,
+      "estimated_overall_gain_pct": 0.1749,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 315,
+      "property": "window_keys[14]",
+      "roi": 0.1749,
+      "estimated_overall_gain_pct": 0.1749,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 316,
+      "property": "window_keys[151]",
+      "roi": 0.1749,
+      "estimated_overall_gain_pct": 0.1749,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 317,
+      "property": "window_keys[152]",
+      "roi": 0.1749,
+      "estimated_overall_gain_pct": 0.1749,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 318,
+      "property": "window_keys[153]",
+      "roi": 0.1749,
+      "estimated_overall_gain_pct": 0.1749,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 319,
+      "property": "window_keys[154]",
+      "roi": 0.1749,
+      "estimated_overall_gain_pct": 0.1749,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 320,
+      "property": "window_keys[155]",
+      "roi": 0.1749,
+      "estimated_overall_gain_pct": 0.1749,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 321,
+      "property": "window_keys[156]",
+      "roi": 0.1749,
+      "estimated_overall_gain_pct": 0.1749,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 322,
+      "property": "window_keys[157]",
+      "roi": 0.1749,
+      "estimated_overall_gain_pct": 0.1749,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 323,
+      "property": "window_keys[15]",
+      "roi": 0.1749,
+      "estimated_overall_gain_pct": 0.1749,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 324,
+      "property": "window_keys[163]",
+      "roi": 0.1749,
+      "estimated_overall_gain_pct": 0.1749,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 325,
+      "property": "window_keys[171]",
+      "roi": 0.1749,
+      "estimated_overall_gain_pct": 0.1749,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 326,
+      "property": "window_keys[172]",
+      "roi": 0.1749,
+      "estimated_overall_gain_pct": 0.1749,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 327,
+      "property": "window_keys[173]",
+      "roi": 0.1749,
+      "estimated_overall_gain_pct": 0.1749,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 328,
+      "property": "window_keys[177]",
+      "roi": 0.1749,
+      "estimated_overall_gain_pct": 0.1749,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 329,
+      "property": "window_keys[179]",
+      "roi": 0.1749,
+      "estimated_overall_gain_pct": 0.1749,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 330,
+      "property": "window_keys[180]",
+      "roi": 0.1749,
+      "estimated_overall_gain_pct": 0.1749,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 331,
+      "property": "window_keys[181]",
+      "roi": 0.1749,
+      "estimated_overall_gain_pct": 0.1749,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 332,
+      "property": "window_keys[184]",
+      "roi": 0.1749,
+      "estimated_overall_gain_pct": 0.1749,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 333,
+      "property": "window_keys[187]",
+      "roi": 0.1749,
+      "estimated_overall_gain_pct": 0.1749,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 334,
+      "property": "window_keys[190]",
+      "roi": 0.1749,
+      "estimated_overall_gain_pct": 0.1749,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 335,
+      "property": "window_keys[196]",
+      "roi": 0.1749,
+      "estimated_overall_gain_pct": 0.1749,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 336,
+      "property": "window_keys[198]",
+      "roi": 0.1749,
+      "estimated_overall_gain_pct": 0.1749,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 337,
+      "property": "window_keys[19]",
+      "roi": 0.1749,
+      "estimated_overall_gain_pct": 0.1749,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 338,
+      "property": "window_keys[1]",
+      "roi": 0.1749,
+      "estimated_overall_gain_pct": 0.1749,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 339,
+      "property": "window_keys[203]",
+      "roi": 0.1749,
+      "estimated_overall_gain_pct": 0.1749,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 340,
+      "property": "window_keys[204]",
+      "roi": 0.1749,
+      "estimated_overall_gain_pct": 0.1749,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 341,
+      "property": "window_keys[206]",
+      "roi": 0.1749,
+      "estimated_overall_gain_pct": 0.1749,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 342,
+      "property": "window_keys[209]",
+      "roi": 0.1749,
+      "estimated_overall_gain_pct": 0.1749,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 343,
+      "property": "window_keys[210]",
+      "roi": 0.1749,
+      "estimated_overall_gain_pct": 0.1749,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 344,
+      "property": "window_keys[211]",
+      "roi": 0.1749,
+      "estimated_overall_gain_pct": 0.1749,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 345,
+      "property": "window_keys[213]",
+      "roi": 0.1749,
+      "estimated_overall_gain_pct": 0.1749,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 346,
+      "property": "window_keys[214]",
+      "roi": 0.1749,
+      "estimated_overall_gain_pct": 0.1749,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 347,
+      "property": "window_keys[215]",
+      "roi": 0.1749,
+      "estimated_overall_gain_pct": 0.1749,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 348,
+      "property": "window_keys[216]",
+      "roi": 0.1749,
+      "estimated_overall_gain_pct": 0.1749,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 349,
+      "property": "window_keys[217]",
+      "roi": 0.1749,
+      "estimated_overall_gain_pct": 0.1749,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 350,
+      "property": "window_keys[23]",
+      "roi": 0.1749,
+      "estimated_overall_gain_pct": 0.1749,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 351,
+      "property": "window_keys[25]",
+      "roi": 0.1749,
+      "estimated_overall_gain_pct": 0.1749,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 352,
+      "property": "window_keys[27]",
+      "roi": 0.1749,
+      "estimated_overall_gain_pct": 0.1749,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 353,
+      "property": "window_keys[28]",
+      "roi": 0.1749,
+      "estimated_overall_gain_pct": 0.1749,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 354,
+      "property": "window_keys[29]",
+      "roi": 0.1749,
+      "estimated_overall_gain_pct": 0.1749,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 355,
+      "property": "window_keys[30]",
+      "roi": 0.1749,
+      "estimated_overall_gain_pct": 0.1749,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 356,
+      "property": "window_keys[32]",
+      "roi": 0.1749,
+      "estimated_overall_gain_pct": 0.1749,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 357,
+      "property": "window_keys[36]",
+      "roi": 0.1749,
+      "estimated_overall_gain_pct": 0.1749,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 358,
+      "property": "window_keys[38]",
+      "roi": 0.1749,
+      "estimated_overall_gain_pct": 0.1749,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 359,
+      "property": "window_keys[3]",
+      "roi": 0.1749,
+      "estimated_overall_gain_pct": 0.1749,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 360,
+      "property": "window_keys[40]",
+      "roi": 0.1749,
+      "estimated_overall_gain_pct": 0.1749,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 361,
+      "property": "window_keys[42]",
+      "roi": 0.1749,
+      "estimated_overall_gain_pct": 0.1749,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 362,
+      "property": "window_keys[43]",
+      "roi": 0.1749,
+      "estimated_overall_gain_pct": 0.1749,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 363,
+      "property": "window_keys[44]",
+      "roi": 0.1749,
+      "estimated_overall_gain_pct": 0.1749,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 364,
+      "property": "window_keys[45]",
+      "roi": 0.1749,
+      "estimated_overall_gain_pct": 0.1749,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 365,
+      "property": "window_keys[46]",
+      "roi": 0.1749,
+      "estimated_overall_gain_pct": 0.1749,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 366,
+      "property": "window_keys[47]",
+      "roi": 0.1749,
+      "estimated_overall_gain_pct": 0.1749,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 367,
+      "property": "window_keys[48]",
+      "roi": 0.1749,
+      "estimated_overall_gain_pct": 0.1749,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 368,
+      "property": "window_keys[49]",
+      "roi": 0.1749,
+      "estimated_overall_gain_pct": 0.1749,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 369,
+      "property": "window_keys[4]",
+      "roi": 0.1749,
+      "estimated_overall_gain_pct": 0.1749,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 370,
+      "property": "window_keys[50]",
+      "roi": 0.1749,
+      "estimated_overall_gain_pct": 0.1749,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 371,
+      "property": "window_keys[51]",
+      "roi": 0.1749,
+      "estimated_overall_gain_pct": 0.1749,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 372,
+      "property": "window_keys[65]",
+      "roi": 0.1749,
+      "estimated_overall_gain_pct": 0.1749,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 373,
+      "property": "window_keys[66]",
+      "roi": 0.1749,
+      "estimated_overall_gain_pct": 0.1749,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 374,
+      "property": "window_keys[67]",
+      "roi": 0.1749,
+      "estimated_overall_gain_pct": 0.1749,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 375,
+      "property": "window_keys[69]",
+      "roi": 0.1749,
+      "estimated_overall_gain_pct": 0.1749,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 376,
+      "property": "window_keys[70]",
+      "roi": 0.1749,
+      "estimated_overall_gain_pct": 0.1749,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 377,
+      "property": "window_keys[71]",
+      "roi": 0.1749,
+      "estimated_overall_gain_pct": 0.1749,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 378,
+      "property": "window_keys[72]",
+      "roi": 0.1749,
+      "estimated_overall_gain_pct": 0.1749,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 379,
+      "property": "window_keys[77]",
+      "roi": 0.1749,
+      "estimated_overall_gain_pct": 0.1749,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 380,
+      "property": "window_keys[78]",
+      "roi": 0.1749,
+      "estimated_overall_gain_pct": 0.1749,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 381,
+      "property": "window_keys[79]",
+      "roi": 0.1749,
+      "estimated_overall_gain_pct": 0.1749,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 382,
+      "property": "window_keys[80]",
+      "roi": 0.1749,
+      "estimated_overall_gain_pct": 0.1749,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 383,
+      "property": "window_keys[8]",
+      "roi": 0.1749,
+      "estimated_overall_gain_pct": 0.1749,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 384,
+      "property": "window_keys[95]",
+      "roi": 0.1749,
+      "estimated_overall_gain_pct": 0.1749,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 385,
+      "property": "window_keys[96]",
+      "roi": 0.1749,
+      "estimated_overall_gain_pct": 0.1749,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 386,
+      "property": "window_keys[98]",
+      "roi": 0.1749,
+      "estimated_overall_gain_pct": 0.1749,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 387,
+      "property": "window_keys[99]",
+      "roi": 0.1749,
+      "estimated_overall_gain_pct": 0.1749,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 388,
+      "property": "battery.charging",
+      "roi": 0.1725,
+      "estimated_overall_gain_pct": 0.1725,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 389,
+      "property": "battery",
+      "roi": 0.1701,
+      "estimated_overall_gain_pct": 0.1701,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 390,
+      "property": "document",
+      "roi": 0.1701,
+      "estimated_overall_gain_pct": 0.1701,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 391,
+      "property": "media_devices",
+      "roi": 0.1701,
+      "estimated_overall_gain_pct": 0.1701,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 392,
+      "property": "features.ServiceWorker",
+      "roi": 0.1676,
+      "estimated_overall_gain_pct": 0.1676,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 393,
+      "property": "features.crypto_subtle",
+      "roi": 0.1676,
+      "estimated_overall_gain_pct": 0.1676,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 394,
+      "property": "gpu.available",
+      "roi": 0.1676,
+      "estimated_overall_gain_pct": 0.1676,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 395,
+      "property": "hardware_apis.bluetooth",
+      "roi": 0.1676,
+      "estimated_overall_gain_pct": 0.1676,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 396,
+      "property": "hardware_apis.clipboard",
+      "roi": 0.1676,
+      "estimated_overall_gain_pct": 0.1676,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 397,
+      "property": "hardware_apis.hid",
+      "roi": 0.1676,
+      "estimated_overall_gain_pct": 0.1676,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 398,
+      "property": "hardware_apis.keyboard",
+      "roi": 0.1676,
+      "estimated_overall_gain_pct": 0.1676,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 399,
+      "property": "hardware_apis.serial",
+      "roi": 0.1676,
+      "estimated_overall_gain_pct": 0.1676,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 400,
+      "property": "hardware_apis.usb",
+      "roi": 0.1676,
+      "estimated_overall_gain_pct": 0.1676,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 401,
+      "property": "media_capabilities.powerEfficient",
+      "roi": 0.1676,
+      "estimated_overall_gain_pct": 0.1676,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 402,
+      "property": "document.readyState",
+      "roi": 0.1575,
+      "estimated_overall_gain_pct": 0.1575,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 403,
+      "property": "history.length",
+      "roi": 0.1534,
+      "estimated_overall_gain_pct": 0.1534,
+      "complexity_cost": 1.0,
+      "implementation_risk": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "rank": 404,
+      "property": "navigator.prototype_keys[40]",
+      "roi": 0.1118,
+      "estimated_overall_gain_pct": 0.2235,
+      "complexity_cost": 2.0,
+      "implementation_risk": "Low",
+      "difficulty": "Medium"
+    },
+    {
+      "rank": 405,
+      "property": "navigator.prototype_keys[41]",
+      "roi": 0.1118,
+      "estimated_overall_gain_pct": 0.2235,
+      "complexity_cost": 2.0,
+      "implementation_risk": "Low",
+      "difficulty": "Medium"
+    },
+    {
+      "rank": 406,
+      "property": "navigator.prototype_keys[44]",
+      "roi": 0.1118,
+      "estimated_overall_gain_pct": 0.2235,
+      "complexity_cost": 2.0,
+      "implementation_risk": "Low",
+      "difficulty": "Medium"
+    },
+    {
+      "rank": 407,
+      "property": "navigator.prototype_keys[50]",
+      "roi": 0.1118,
+      "estimated_overall_gain_pct": 0.2235,
+      "complexity_cost": 2.0,
+      "implementation_risk": "Low",
+      "difficulty": "Medium"
+    },
+    {
+      "rank": 408,
+      "property": "navigator.prototype_keys[52]",
+      "roi": 0.1118,
+      "estimated_overall_gain_pct": 0.2235,
+      "complexity_cost": 2.0,
+      "implementation_risk": "Low",
+      "difficulty": "Medium"
+    },
+    {
+      "rank": 409,
+      "property": "navigator.prototype_keys[59]",
+      "roi": 0.1118,
+      "estimated_overall_gain_pct": 0.2235,
+      "complexity_cost": 2.0,
+      "implementation_risk": "Low",
+      "difficulty": "Medium"
+    },
+    {
+      "rank": 410,
+      "property": "navigator.prototype_keys[60]",
+      "roi": 0.1118,
+      "estimated_overall_gain_pct": 0.2235,
+      "complexity_cost": 2.0,
+      "implementation_risk": "Low",
+      "difficulty": "Medium"
+    },
+    {
+      "rank": 411,
+      "property": "navigator.prototype_keys[62]",
+      "roi": 0.1118,
+      "estimated_overall_gain_pct": 0.2235,
+      "complexity_cost": 2.0,
+      "implementation_risk": "Low",
+      "difficulty": "Medium"
+    },
+    {
+      "rank": 412,
+      "property": "navigator.prototype_keys[65]",
+      "roi": 0.1118,
+      "estimated_overall_gain_pct": 0.2235,
+      "complexity_cost": 2.0,
+      "implementation_risk": "Low",
+      "difficulty": "Medium"
+    },
+    {
+      "rank": 413,
+      "property": "navigator.prototype_keys[68]",
+      "roi": 0.1118,
+      "estimated_overall_gain_pct": 0.2235,
+      "complexity_cost": 2.0,
+      "implementation_risk": "Low",
+      "difficulty": "Medium"
+    },
+    {
+      "rank": 414,
+      "property": "navigator.prototype_keys[69]",
+      "roi": 0.1118,
+      "estimated_overall_gain_pct": 0.2235,
+      "complexity_cost": 2.0,
+      "implementation_risk": "Low",
+      "difficulty": "Medium"
+    },
+    {
+      "rank": 415,
+      "property": "navigator.prototype_keys[71]",
+      "roi": 0.1118,
+      "estimated_overall_gain_pct": 0.2235,
+      "complexity_cost": 2.0,
+      "implementation_risk": "Low",
+      "difficulty": "Medium"
+    },
+    {
+      "rank": 416,
+      "property": "navigator.prototype_keys[72]",
+      "roi": 0.1118,
+      "estimated_overall_gain_pct": 0.2235,
+      "complexity_cost": 2.0,
+      "implementation_risk": "Low",
+      "difficulty": "Medium"
+    },
+    {
+      "rank": 417,
+      "property": "navigator.prototype_keys[73]",
+      "roi": 0.1118,
+      "estimated_overall_gain_pct": 0.2235,
+      "complexity_cost": 2.0,
+      "implementation_risk": "Low",
+      "difficulty": "Medium"
+    },
+    {
+      "rank": 418,
+      "property": "navigator.prototype_keys[74]",
+      "roi": 0.1118,
+      "estimated_overall_gain_pct": 0.2235,
+      "complexity_cost": 2.0,
+      "implementation_risk": "Low",
+      "difficulty": "Medium"
+    },
+    {
+      "rank": 419,
+      "property": "navigator.prototype_keys[75]",
+      "roi": 0.1118,
+      "estimated_overall_gain_pct": 0.2235,
+      "complexity_cost": 2.0,
+      "implementation_risk": "Low",
+      "difficulty": "Medium"
+    },
+    {
+      "rank": 420,
+      "property": "navigator.prototype_keys[76]",
+      "roi": 0.1118,
+      "estimated_overall_gain_pct": 0.2235,
+      "complexity_cost": 2.0,
+      "implementation_risk": "Low",
+      "difficulty": "Medium"
+    },
+    {
+      "rank": 421,
+      "property": "navigator.prototype_keys[77]",
+      "roi": 0.1118,
+      "estimated_overall_gain_pct": 0.2235,
+      "complexity_cost": 2.0,
+      "implementation_risk": "Low",
+      "difficulty": "Medium"
+    },
+    {
+      "rank": 422,
+      "property": "navigator.prototype_keys[78]",
+      "roi": 0.1118,
+      "estimated_overall_gain_pct": 0.2235,
+      "complexity_cost": 2.0,
+      "implementation_risk": "Low",
+      "difficulty": "Medium"
+    },
+    {
+      "rank": 423,
+      "property": "navigator.prototype_keys[79]",
+      "roi": 0.1118,
+      "estimated_overall_gain_pct": 0.2235,
+      "complexity_cost": 2.0,
+      "implementation_risk": "Low",
+      "difficulty": "Medium"
+    },
+    {
+      "rank": 424,
+      "property": "navigator.prototype_keys[80]",
+      "roi": 0.1118,
+      "estimated_overall_gain_pct": 0.2235,
+      "complexity_cost": 2.0,
+      "implementation_risk": "Low",
+      "difficulty": "Medium"
+    },
+    {
+      "rank": 425,
+      "property": "navigator.prototype_keys[81]",
+      "roi": 0.1118,
+      "estimated_overall_gain_pct": 0.2235,
+      "complexity_cost": 2.0,
+      "implementation_risk": "Low",
+      "difficulty": "Medium"
+    },
+    {
+      "rank": 426,
+      "property": "navigator.prototype_keys[82]",
+      "roi": 0.1118,
+      "estimated_overall_gain_pct": 0.2235,
+      "complexity_cost": 2.0,
+      "implementation_risk": "Low",
+      "difficulty": "Medium"
+    },
+    {
+      "rank": 427,
+      "property": "navigator.appVersion",
+      "roi": 0.1094,
+      "estimated_overall_gain_pct": 0.2187,
+      "complexity_cost": 2.0,
+      "implementation_risk": "Low",
+      "difficulty": "Medium"
+    },
+    {
+      "rank": 428,
+      "property": "navigator.prototype_keys[32]",
+      "roi": 0.1094,
+      "estimated_overall_gain_pct": 0.2187,
+      "complexity_cost": 2.0,
+      "implementation_risk": "Low",
+      "difficulty": "Medium"
+    },
+    {
+      "rank": 429,
+      "property": "navigator.prototype_keys[33]",
+      "roi": 0.1094,
+      "estimated_overall_gain_pct": 0.2187,
+      "complexity_cost": 2.0,
+      "implementation_risk": "Low",
+      "difficulty": "Medium"
+    },
+    {
+      "rank": 430,
+      "property": "navigator.prototype_keys[37]",
+      "roi": 0.1094,
+      "estimated_overall_gain_pct": 0.2187,
+      "complexity_cost": 2.0,
+      "implementation_risk": "Low",
+      "difficulty": "Medium"
+    },
+    {
+      "rank": 431,
+      "property": "performance.now",
+      "roi": 0.1055,
+      "estimated_overall_gain_pct": 0.2109,
+      "complexity_cost": 2.0,
+      "implementation_risk": "Low",
+      "difficulty": "Medium"
+    },
+    {
+      "rank": 432,
+      "property": "navigator.connection.downlink",
+      "roi": 0.0948,
+      "estimated_overall_gain_pct": 0.1895,
+      "complexity_cost": 2.0,
+      "implementation_risk": "Low",
+      "difficulty": "Medium"
+    },
+    {
+      "rank": 433,
+      "property": "navigator.connection.rtt",
+      "roi": 0.0948,
+      "estimated_overall_gain_pct": 0.1895,
+      "complexity_cost": 2.0,
+      "implementation_risk": "Low",
+      "difficulty": "Medium"
+    },
+    {
+      "rank": 434,
+      "property": "navigator.maxTouchPoints",
+      "roi": 0.0948,
+      "estimated_overall_gain_pct": 0.1895,
+      "complexity_cost": 2.0,
+      "implementation_risk": "Low",
+      "difficulty": "Medium"
+    },
+    {
+      "rank": 435,
+      "property": "navigator.prototype_keys[38]",
+      "roi": 0.0899,
+      "estimated_overall_gain_pct": 0.1798,
+      "complexity_cost": 2.0,
+      "implementation_risk": "Low",
+      "difficulty": "Medium"
+    },
+    {
+      "rank": 436,
+      "property": "navigator.prototype_keys[39]",
+      "roi": 0.0899,
+      "estimated_overall_gain_pct": 0.1798,
+      "complexity_cost": 2.0,
+      "implementation_risk": "Low",
+      "difficulty": "Medium"
+    },
+    {
+      "rank": 437,
+      "property": "navigator.prototype_keys[42]",
+      "roi": 0.0899,
+      "estimated_overall_gain_pct": 0.1798,
+      "complexity_cost": 2.0,
+      "implementation_risk": "Low",
+      "difficulty": "Medium"
+    },
+    {
+      "rank": 438,
+      "property": "navigator.prototype_keys[43]",
+      "roi": 0.0899,
+      "estimated_overall_gain_pct": 0.1798,
+      "complexity_cost": 2.0,
+      "implementation_risk": "Low",
+      "difficulty": "Medium"
+    },
+    {
+      "rank": 439,
+      "property": "navigator.prototype_keys[45]",
+      "roi": 0.0899,
+      "estimated_overall_gain_pct": 0.1798,
+      "complexity_cost": 2.0,
+      "implementation_risk": "Low",
+      "difficulty": "Medium"
+    },
+    {
+      "rank": 440,
+      "property": "navigator.prototype_keys[46]",
+      "roi": 0.0899,
+      "estimated_overall_gain_pct": 0.1798,
+      "complexity_cost": 2.0,
+      "implementation_risk": "Low",
+      "difficulty": "Medium"
+    },
+    {
+      "rank": 441,
+      "property": "navigator.prototype_keys[47]",
+      "roi": 0.0899,
+      "estimated_overall_gain_pct": 0.1798,
+      "complexity_cost": 2.0,
+      "implementation_risk": "Low",
+      "difficulty": "Medium"
+    },
+    {
+      "rank": 442,
+      "property": "navigator.prototype_keys[48]",
+      "roi": 0.0899,
+      "estimated_overall_gain_pct": 0.1798,
+      "complexity_cost": 2.0,
+      "implementation_risk": "Low",
+      "difficulty": "Medium"
+    },
+    {
+      "rank": 443,
+      "property": "navigator.prototype_keys[49]",
+      "roi": 0.0899,
+      "estimated_overall_gain_pct": 0.1798,
+      "complexity_cost": 2.0,
+      "implementation_risk": "Low",
+      "difficulty": "Medium"
+    },
+    {
+      "rank": 444,
+      "property": "navigator.prototype_keys[51]",
+      "roi": 0.0899,
+      "estimated_overall_gain_pct": 0.1798,
+      "complexity_cost": 2.0,
+      "implementation_risk": "Low",
+      "difficulty": "Medium"
+    },
+    {
+      "rank": 445,
+      "property": "navigator.prototype_keys[53]",
+      "roi": 0.0899,
+      "estimated_overall_gain_pct": 0.1798,
+      "complexity_cost": 2.0,
+      "implementation_risk": "Low",
+      "difficulty": "Medium"
+    },
+    {
+      "rank": 446,
+      "property": "navigator.prototype_keys[54]",
+      "roi": 0.0899,
+      "estimated_overall_gain_pct": 0.1798,
+      "complexity_cost": 2.0,
+      "implementation_risk": "Low",
+      "difficulty": "Medium"
+    },
+    {
+      "rank": 447,
+      "property": "navigator.prototype_keys[55]",
+      "roi": 0.0899,
+      "estimated_overall_gain_pct": 0.1798,
+      "complexity_cost": 2.0,
+      "implementation_risk": "Low",
+      "difficulty": "Medium"
+    },
+    {
+      "rank": 448,
+      "property": "navigator.prototype_keys[56]",
+      "roi": 0.0899,
+      "estimated_overall_gain_pct": 0.1798,
+      "complexity_cost": 2.0,
+      "implementation_risk": "Low",
+      "difficulty": "Medium"
+    },
+    {
+      "rank": 449,
+      "property": "navigator.prototype_keys[57]",
+      "roi": 0.0899,
+      "estimated_overall_gain_pct": 0.1798,
+      "complexity_cost": 2.0,
+      "implementation_risk": "Low",
+      "difficulty": "Medium"
+    },
+    {
+      "rank": 450,
+      "property": "navigator.prototype_keys[58]",
+      "roi": 0.0899,
+      "estimated_overall_gain_pct": 0.1798,
+      "complexity_cost": 2.0,
+      "implementation_risk": "Low",
+      "difficulty": "Medium"
+    },
+    {
+      "rank": 451,
+      "property": "navigator.prototype_keys[61]",
+      "roi": 0.0899,
+      "estimated_overall_gain_pct": 0.1798,
+      "complexity_cost": 2.0,
+      "implementation_risk": "Low",
+      "difficulty": "Medium"
+    },
+    {
+      "rank": 452,
+      "property": "navigator.prototype_keys[63]",
+      "roi": 0.0899,
+      "estimated_overall_gain_pct": 0.1798,
+      "complexity_cost": 2.0,
+      "implementation_risk": "Low",
+      "difficulty": "Medium"
+    },
+    {
+      "rank": 453,
+      "property": "navigator.prototype_keys[64]",
+      "roi": 0.0899,
+      "estimated_overall_gain_pct": 0.1798,
+      "complexity_cost": 2.0,
+      "implementation_risk": "Low",
+      "difficulty": "Medium"
+    },
+    {
+      "rank": 454,
+      "property": "navigator.prototype_keys[66]",
+      "roi": 0.0899,
+      "estimated_overall_gain_pct": 0.1798,
+      "complexity_cost": 2.0,
+      "implementation_risk": "Low",
+      "difficulty": "Medium"
+    },
+    {
+      "rank": 455,
+      "property": "navigator.prototype_keys[67]",
+      "roi": 0.0899,
+      "estimated_overall_gain_pct": 0.1798,
+      "complexity_cost": 2.0,
+      "implementation_risk": "Low",
+      "difficulty": "Medium"
+    },
+    {
+      "rank": 456,
+      "property": "navigator.prototype_keys[70]",
+      "roi": 0.0899,
+      "estimated_overall_gain_pct": 0.1798,
+      "complexity_cost": 2.0,
+      "implementation_risk": "Low",
+      "difficulty": "Medium"
+    },
+    {
+      "rank": 457,
+      "property": "navigator.prototype_keys[34]",
+      "roi": 0.0874,
+      "estimated_overall_gain_pct": 0.1749,
+      "complexity_cost": 2.0,
+      "implementation_risk": "Low",
+      "difficulty": "Medium"
+    },
+    {
+      "rank": 458,
+      "property": "navigator.prototype_keys[35]",
+      "roi": 0.0874,
+      "estimated_overall_gain_pct": 0.1749,
+      "complexity_cost": 2.0,
+      "implementation_risk": "Low",
+      "difficulty": "Medium"
+    },
+    {
+      "rank": 459,
+      "property": "navigator.prototype_keys[36]",
+      "roi": 0.0874,
+      "estimated_overall_gain_pct": 0.1749,
+      "complexity_cost": 2.0,
+      "implementation_risk": "Low",
+      "difficulty": "Medium"
+    },
+    {
+      "rank": 460,
+      "property": "navigator.userAgent",
+      "roi": 0.0545,
+      "estimated_overall_gain_pct": 0.3965,
+      "complexity_cost": 4.0,
+      "implementation_risk": "High",
+      "difficulty": "Hard"
+    },
+    {
+      "rank": 461,
+      "property": "navigator.userAgentData.brands[1].version",
+      "roi": 0.0312,
+      "estimated_overall_gain_pct": 0.3965,
+      "complexity_cost": 7.0,
+      "implementation_risk": "High",
+      "difficulty": "Very Hard"
+    },
+    {
+      "rank": 462,
+      "property": "navigator.userAgentData.brands[2].version",
+      "roi": 0.0312,
+      "estimated_overall_gain_pct": 0.3965,
+      "complexity_cost": 7.0,
+      "implementation_risk": "High",
+      "difficulty": "Very Hard"
+    },
+    {
+      "rank": 463,
+      "property": "navigator.userAgentData.high_entropy.brands[1].version",
+      "roi": 0.0312,
+      "estimated_overall_gain_pct": 0.3965,
+      "complexity_cost": 7.0,
+      "implementation_risk": "High",
+      "difficulty": "Very Hard"
+    },
+    {
+      "rank": 464,
+      "property": "navigator.userAgentData.high_entropy.brands[2].version",
+      "roi": 0.0312,
+      "estimated_overall_gain_pct": 0.3965,
+      "complexity_cost": 7.0,
+      "implementation_risk": "High",
+      "difficulty": "Very Hard"
+    },
+    {
+      "rank": 465,
+      "property": "navigator.userAgentData.high_entropy.fullVersionList[1].version",
+      "roi": 0.0312,
+      "estimated_overall_gain_pct": 0.3965,
+      "complexity_cost": 7.0,
+      "implementation_risk": "High",
+      "difficulty": "Very Hard"
+    },
+    {
+      "rank": 466,
+      "property": "navigator.userAgentData.high_entropy.fullVersionList[2].version",
+      "roi": 0.0312,
+      "estimated_overall_gain_pct": 0.3965,
+      "complexity_cost": 7.0,
+      "implementation_risk": "High",
+      "difficulty": "Very Hard"
+    },
+    {
+      "rank": 467,
+      "property": "navigator.userAgentData.high_entropy.platformVersion",
+      "roi": 0.0312,
+      "estimated_overall_gain_pct": 0.3965,
+      "complexity_cost": 7.0,
+      "implementation_risk": "High",
+      "difficulty": "Very Hard"
+    },
+    {
+      "rank": 468,
+      "property": "navigator.userAgentData.high_entropy.uaFullVersion",
+      "roi": 0.0312,
+      "estimated_overall_gain_pct": 0.3965,
+      "complexity_cost": 7.0,
+      "implementation_risk": "High",
+      "difficulty": "Very Hard"
+    },
+    {
+      "rank": 469,
+      "property": "canvas.hash",
+      "roi": 0.0255,
+      "estimated_overall_gain_pct": 0.3243,
+      "complexity_cost": 7.0,
+      "implementation_risk": "High",
+      "difficulty": "Very Hard"
+    },
+    {
+      "rank": 470,
+      "property": "canvas.length",
+      "roi": 0.0255,
+      "estimated_overall_gain_pct": 0.3243,
+      "complexity_cost": 7.0,
+      "implementation_risk": "High",
+      "difficulty": "Very Hard"
+    },
+    {
+      "rank": 471,
+      "property": "webgl.aliased_point_size_range[1]",
+      "roi": 0.0214,
+      "estimated_overall_gain_pct": 0.2726,
+      "complexity_cost": 7.0,
+      "implementation_risk": "High",
+      "difficulty": "Very Hard"
+    }
+  ]
+}

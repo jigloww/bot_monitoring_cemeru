@@ -1,0 +1,28 @@
+{
+  "experiment_id": "exp_032",
+  "hashes": {
+    "navigator": "48633bd52d75bbdd7ef999cd7247c4c9c98b6ff18cad466086f3c98f15c47cdb",
+    "window": "48633bd52d75bbdd7ef999cd7247c4c9c98b6ff18cad466086f3c98f15c47cdb",
+    "screen": "48633bd52d75bbdd7ef999cd7247c4c9c98b6ff18cad466086f3c98f15c47cdb",
+    "permissions": "36529439e5df975bb66e40e97e3e1f9d9d915de90afedf51abdcba5fd3a5801b",
+    "fonts": "f07d74c60e8c37d758b859b34472d87a52da285fee6e0716f81ee61079b32e4a",
+    "speech": "f07d74c60e8c37d758b859b34472d87a52da285fee6e0716f81ee61079b32e4a",
+    "webgl": "905e79e09c078f794a7979fbef34c5731d5d8b3088bea95a21098748a1307a2d",
+    "performance": "48633bd52d75bbdd7ef999cd7247c4c9c98b6ff18cad466086f3c98f15c47cdb",
+    "storage": "48b5c98bf91c14c9c6c5c0014574cf1355d88c397665dc640cf19d54283596d9",
+    "environment": "bc822f649121a4f395db6d8e4fc3a33de3f31af072ce75b7c08139448f9bf015"
+  },
+  "algorithm": "sha256_file helper",
+  "source_artifacts": {
+    "navigator": "navigator.json",
+    "window": "window.json",
+    "screen": "screen.json",
+    "permissions": "permissions.json",
+    "fonts": "profile.json",
+    "speech": "profile.json",
+    "webgl": "webgl.json",
+    "performance": "performance.json",
+    "storage": "storage.json",
+    "environment": "environment.json"
+  }
+}

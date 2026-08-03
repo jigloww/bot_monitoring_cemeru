@@ -1,0 +1,3299 @@
+[
+  {
+    "recommendation_id": "REC-001",
+    "confidence": "Medium",
+    "evidence_confidence": 0.7,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-012",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-013",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-010",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-011",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-002",
+    "confidence": "Medium",
+    "evidence_confidence": 0.7,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-003",
+    "confidence": "Medium",
+    "evidence_confidence": 0.7,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-004",
+    "confidence": "Medium",
+    "evidence_confidence": 0.7,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-005",
+    "confidence": "Medium",
+    "evidence_confidence": 0.7,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-006",
+    "confidence": "Medium",
+    "evidence_confidence": 0.7,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-007",
+    "confidence": "Medium",
+    "evidence_confidence": 0.7,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-008",
+    "confidence": "Medium",
+    "evidence_confidence": 0.7,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-009",
+    "confidence": "Medium",
+    "evidence_confidence": 0.7,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-014",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-015",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-016",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-017",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-018",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-019",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-022",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-023",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-024",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-025",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-026",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-027",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-028",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-029",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-030",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-031",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-032",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-033",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-034",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-035",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-036",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-037",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-038",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-039",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-040",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-041",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-042",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-043",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-044",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-045",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-046",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-047",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-048",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-049",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-050",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-051",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-052",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-053",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-054",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-055",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-056",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-057",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-058",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-059",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-060",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-061",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-062",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-170",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-171",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-172",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-173",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-174",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-175",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-176",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-177",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-178",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-179",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-180",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-181",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-182",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-183",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-184",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-185",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-186",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-187",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-188",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-189",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-190",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-191",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-192",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-193",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-194",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-195",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-196",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-197",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-198",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-199",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-200",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-201",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-202",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-203",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-204",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-205",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-206",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-063",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-064",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-065",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-066",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-067",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-068",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-069",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-070",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-071",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-072",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-073",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-074",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-075",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-076",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-077",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-078",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-079",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-080",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-081",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-082",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-083",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-084",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-085",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-086",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-087",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-088",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-089",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-090",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-091",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-092",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-093",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-094",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-095",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-096",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-097",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-098",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-099",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-100",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-101",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-102",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-103",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-104",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-105",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-106",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-107",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-108",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-109",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-110",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-111",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-112",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-113",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-114",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-115",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-116",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-117",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-118",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-119",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-120",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-121",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-122",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-123",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-124",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-125",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-126",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-127",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-128",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-129",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-130",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-131",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-132",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-133",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-134",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-135",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-136",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-137",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-138",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-139",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-140",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-141",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-142",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-143",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-144",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-145",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-146",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-147",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-148",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-149",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-150",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-151",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-152",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-153",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-154",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-155",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-156",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-157",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-158",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-159",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-160",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-161",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-162",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-163",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-164",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-165",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-166",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-167",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-168",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-169",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-208",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-209",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-210",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-211",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-240",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-241",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-242",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-243",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-244",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-245",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-246",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-247",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-248",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-249",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-250",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-251",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-252",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-253",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-254",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-255",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-256",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-257",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-258",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-259",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-260",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-261",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-262",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-263",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-264",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-265",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-266",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-267",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-268",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-269",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-270",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-271",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-272",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-273",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-274",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-275",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-276",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-277",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-278",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-279",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-280",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-281",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-282",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-283",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-284",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-285",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-286",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-287",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-288",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-289",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-290",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-291",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-292",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-293",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-294",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-295",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-296",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-297",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-298",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-299",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-300",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-301",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-302",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-303",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-304",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-305",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-306",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-307",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-308",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-309",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-310",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-311",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-312",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-313",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-314",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-315",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-316",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-317",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-318",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-319",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-320",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-321",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-322",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-323",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-324",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-325",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-326",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-327",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-328",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-329",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-330",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-331",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-332",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-333",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-334",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-335",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-336",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-337",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-338",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-339",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-340",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-341",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-342",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-343",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-344",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-345",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-346",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-347",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-348",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-349",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-350",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-351",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-352",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-353",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-354",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-355",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-356",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-357",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-358",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-359",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-360",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-361",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-362",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-363",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-364",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-365",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-366",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-367",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-368",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-369",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-370",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-371",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-372",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-373",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-374",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-375",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-376",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-377",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-378",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-379",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-380",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-381",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-382",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-383",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-384",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-385",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-386",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-387",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-388",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-389",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-390",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-391",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-392",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-393",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-394",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-395",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-396",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-397",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-398",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-399",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-400",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-401",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-402",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-403",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-404",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-405",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-406",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-407",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-408",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-409",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-410",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-411",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-412",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-413",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-414",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-415",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-416",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-417",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-418",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-419",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-420",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-421",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-422",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-423",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-424",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-425",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-426",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-427",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-020",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-021",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-428",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-429",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-430",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-431",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-436",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-438",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-440",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-432",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-433",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-434",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-435",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-437",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-439",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-441",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-239",
+    "confidence": "Medium",
+    "evidence_confidence": 0.7,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-212",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-213",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-214",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-215",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-216",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-217",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-218",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-219",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-220",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-221",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-222",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-223",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-224",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-225",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-226",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-227",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-228",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-229",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-230",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-231",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-232",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-233",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-234",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-235",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-236",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-237",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-238",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-442",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-443",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-444",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-447",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-450",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-453",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-456",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-459",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-462",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-465",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-446",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-449",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-452",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-455",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-458",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-461",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-464",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-467",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-448",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-451",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-454",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-457",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-460",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-463",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-466",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-470",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-471",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-469",
+    "confidence": "High",
+    "evidence_confidence": 1.0,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-445",
+    "confidence": "Medium",
+    "evidence_confidence": 0.7,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-468",
+    "confidence": "Medium",
+    "evidence_confidence": 0.7,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  },
+  {
+    "recommendation_id": "REC-207",
+    "confidence": "Medium",
+    "evidence_confidence": 0.7,
+    "supporting_evidence_count": 5,
+    "confidence_reason": "Derived from source confidence and evidence coverage."
+  }
+]

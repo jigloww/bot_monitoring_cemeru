@@ -1,0 +1,28 @@
+{
+  "experiment_id": "exp_028",
+  "hashes": {
+    "navigator": "901e49d5582b39b286e56f4ad7187dacb5772e6feaddf1ddabc7899962f05db7",
+    "window": "901e49d5582b39b286e56f4ad7187dacb5772e6feaddf1ddabc7899962f05db7",
+    "screen": "901e49d5582b39b286e56f4ad7187dacb5772e6feaddf1ddabc7899962f05db7",
+    "permissions": "382168cd576cbe447781f0833d1a7dbc32384e0914a481777f52c5d4f6b7aa6e",
+    "fonts": "8900f47ecdd859e9cadd7308682af4500c64031636602a20ef6834163fd121bc",
+    "speech": "8900f47ecdd859e9cadd7308682af4500c64031636602a20ef6834163fd121bc",
+    "webgl": "596b356f26991d2b2746c6a97417afba07cedfbbf27a0e48e29327747d2e5690",
+    "performance": "901e49d5582b39b286e56f4ad7187dacb5772e6feaddf1ddabc7899962f05db7",
+    "storage": "a622d0760b18153ecd24075c20690f02a23486bd8c509043b0f764cae7d898c7",
+    "environment": "28f1780e7e510bbe48cd06718036b632b59022613e87a7f562d016ac0293c560"
+  },
+  "algorithm": "sha256_file helper",
+  "source_artifacts": {
+    "navigator": "navigator.json",
+    "window": "window.json",
+    "screen": "screen.json",
+    "permissions": "permissions.json",
+    "fonts": "profile.json",
+    "speech": "profile.json",
+    "webgl": "webgl.json",
+    "performance": "performance.json",
+    "storage": "storage.json",
+    "environment": "environment.json"
+  }
+}

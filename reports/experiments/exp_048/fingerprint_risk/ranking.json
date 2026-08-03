@@ -1,0 +1,4714 @@
+{
+  "ranking": [
+    {
+      "rank": 1,
+      "property": "navigator.userAgent",
+      "domain": "Navigator",
+      "status": "DIFFERENT",
+      "severity": "Critical",
+      "normalized_risk_score": 81.6,
+      "estimated_similarity_gain": 0.3965,
+      "confidence": "Medium"
+    },
+    {
+      "rank": 2,
+      "property": "navigator.userAgentData.brands[1].version",
+      "domain": "Navigator",
+      "status": "DIFFERENT",
+      "severity": "Critical",
+      "normalized_risk_score": 81.6,
+      "estimated_similarity_gain": 0.3965,
+      "confidence": "Medium"
+    },
+    {
+      "rank": 3,
+      "property": "navigator.userAgentData.brands[2].version",
+      "domain": "Navigator",
+      "status": "DIFFERENT",
+      "severity": "Critical",
+      "normalized_risk_score": 81.6,
+      "estimated_similarity_gain": 0.3965,
+      "confidence": "Medium"
+    },
+    {
+      "rank": 4,
+      "property": "navigator.userAgentData.high_entropy.brands[1].version",
+      "domain": "Navigator",
+      "status": "DIFFERENT",
+      "severity": "Critical",
+      "normalized_risk_score": 81.6,
+      "estimated_similarity_gain": 0.3965,
+      "confidence": "Medium"
+    },
+    {
+      "rank": 5,
+      "property": "navigator.userAgentData.high_entropy.brands[2].version",
+      "domain": "Navigator",
+      "status": "DIFFERENT",
+      "severity": "Critical",
+      "normalized_risk_score": 81.6,
+      "estimated_similarity_gain": 0.3965,
+      "confidence": "Medium"
+    },
+    {
+      "rank": 6,
+      "property": "navigator.userAgentData.high_entropy.fullVersionList[1].version",
+      "domain": "Navigator",
+      "status": "DIFFERENT",
+      "severity": "Critical",
+      "normalized_risk_score": 81.6,
+      "estimated_similarity_gain": 0.3965,
+      "confidence": "Medium"
+    },
+    {
+      "rank": 7,
+      "property": "navigator.userAgentData.high_entropy.fullVersionList[2].version",
+      "domain": "Navigator",
+      "status": "DIFFERENT",
+      "severity": "Critical",
+      "normalized_risk_score": 81.6,
+      "estimated_similarity_gain": 0.3965,
+      "confidence": "Medium"
+    },
+    {
+      "rank": 8,
+      "property": "navigator.userAgentData.high_entropy.platformVersion",
+      "domain": "Navigator",
+      "status": "DIFFERENT",
+      "severity": "Critical",
+      "normalized_risk_score": 81.6,
+      "estimated_similarity_gain": 0.3965,
+      "confidence": "Medium"
+    },
+    {
+      "rank": 9,
+      "property": "navigator.userAgentData.high_entropy.uaFullVersion",
+      "domain": "Navigator",
+      "status": "DIFFERENT",
+      "severity": "Critical",
+      "normalized_risk_score": 81.6,
+      "estimated_similarity_gain": 0.3965,
+      "confidence": "Medium"
+    },
+    {
+      "rank": 10,
+      "property": "navigator.languages[1]",
+      "domain": "Navigator",
+      "status": "MISSING",
+      "severity": "High",
+      "normalized_risk_score": 73.0,
+      "estimated_similarity_gain": 0.3547,
+      "confidence": "High"
+    },
+    {
+      "rank": 11,
+      "property": "navigator.languages[2]",
+      "domain": "Navigator",
+      "status": "MISSING",
+      "severity": "High",
+      "normalized_risk_score": 73.0,
+      "estimated_similarity_gain": 0.3547,
+      "confidence": "High"
+    },
+    {
+      "rank": 12,
+      "property": "navigator.language",
+      "domain": "Navigator",
+      "status": "DIFFERENT",
+      "severity": "High",
+      "normalized_risk_score": 72.0,
+      "estimated_similarity_gain": 0.3499,
+      "confidence": "High"
+    },
+    {
+      "rank": 13,
+      "property": "navigator.languages[0]",
+      "domain": "Navigator",
+      "status": "DIFFERENT",
+      "severity": "High",
+      "normalized_risk_score": 72.0,
+      "estimated_similarity_gain": 0.3499,
+      "confidence": "High"
+    },
+    {
+      "rank": 14,
+      "property": "canvas.hash",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "High",
+      "normalized_risk_score": 66.75,
+      "estimated_similarity_gain": 0.3243,
+      "confidence": "High"
+    },
+    {
+      "rank": 15,
+      "property": "canvas.length",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "High",
+      "normalized_risk_score": 66.75,
+      "estimated_similarity_gain": 0.3243,
+      "confidence": "High"
+    },
+    {
+      "rank": 16,
+      "property": "intl.collator.locale",
+      "domain": "Environment",
+      "status": "DIFFERENT",
+      "severity": "High",
+      "normalized_risk_score": 60.75,
+      "estimated_similarity_gain": 0.2952,
+      "confidence": "High"
+    },
+    {
+      "rank": 17,
+      "property": "intl.listFormat.locale",
+      "domain": "Environment",
+      "status": "DIFFERENT",
+      "severity": "High",
+      "normalized_risk_score": 60.75,
+      "estimated_similarity_gain": 0.2952,
+      "confidence": "High"
+    },
+    {
+      "rank": 18,
+      "property": "intl.numberFormat.locale",
+      "domain": "Environment",
+      "status": "DIFFERENT",
+      "severity": "High",
+      "normalized_risk_score": 60.75,
+      "estimated_similarity_gain": 0.2952,
+      "confidence": "High"
+    },
+    {
+      "rank": 19,
+      "property": "timezone.locale",
+      "domain": "Environment",
+      "status": "DIFFERENT",
+      "severity": "High",
+      "normalized_risk_score": 60.75,
+      "estimated_similarity_gain": 0.2952,
+      "confidence": "High"
+    },
+    {
+      "rank": 20,
+      "property": "indexeddb.databases[0]",
+      "domain": "Storage",
+      "status": "MISSING",
+      "severity": "Medium",
+      "normalized_risk_score": 57.25,
+      "estimated_similarity_gain": 0.2782,
+      "confidence": "High"
+    },
+    {
+      "rank": 21,
+      "property": "indexeddb.databases[1]",
+      "domain": "Storage",
+      "status": "MISSING",
+      "severity": "Medium",
+      "normalized_risk_score": 57.25,
+      "estimated_similarity_gain": 0.2782,
+      "confidence": "High"
+    },
+    {
+      "rank": 22,
+      "property": "webgl.aliased_point_size_range[1]",
+      "domain": "WebGL",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 56.1,
+      "estimated_similarity_gain": 0.2726,
+      "confidence": "Medium"
+    },
+    {
+      "rank": 23,
+      "property": "indexeddb.count",
+      "domain": "Storage",
+      "status": "MISSING",
+      "severity": "Medium",
+      "normalized_risk_score": 51.25,
+      "estimated_similarity_gain": 0.249,
+      "confidence": "High"
+    },
+    {
+      "rank": 24,
+      "property": "storage.localStorage_length",
+      "domain": "Storage",
+      "status": "MISSING",
+      "severity": "Medium",
+      "normalized_risk_score": 51.25,
+      "estimated_similarity_gain": 0.249,
+      "confidence": "High"
+    },
+    {
+      "rank": 25,
+      "property": "storage.sessionStorage_length",
+      "domain": "Storage",
+      "status": "MISSING",
+      "severity": "Medium",
+      "normalized_risk_score": 51.25,
+      "estimated_similarity_gain": 0.249,
+      "confidence": "High"
+    },
+    {
+      "rank": 26,
+      "property": "storage.caches_available",
+      "domain": "Storage",
+      "status": "MISSING",
+      "severity": "Medium",
+      "normalized_risk_score": 46.75,
+      "estimated_similarity_gain": 0.2272,
+      "confidence": "High"
+    },
+    {
+      "rank": 27,
+      "property": "storage.cookieStore_available",
+      "domain": "Storage",
+      "status": "MISSING",
+      "severity": "Medium",
+      "normalized_risk_score": 46.75,
+      "estimated_similarity_gain": 0.2272,
+      "confidence": "High"
+    },
+    {
+      "rank": 28,
+      "property": "storage.indexedDB_available",
+      "domain": "Storage",
+      "status": "MISSING",
+      "severity": "Medium",
+      "normalized_risk_score": 46.75,
+      "estimated_similarity_gain": 0.2272,
+      "confidence": "High"
+    },
+    {
+      "rank": 29,
+      "property": "indexeddb",
+      "domain": "Storage",
+      "status": "ADDED",
+      "severity": "Medium",
+      "normalized_risk_score": 46.25,
+      "estimated_similarity_gain": 0.2247,
+      "confidence": "High"
+    },
+    {
+      "rank": 30,
+      "property": "storage",
+      "domain": "Storage",
+      "status": "ADDED",
+      "severity": "Medium",
+      "normalized_risk_score": 46.25,
+      "estimated_similarity_gain": 0.2247,
+      "confidence": "High"
+    },
+    {
+      "rank": 31,
+      "property": "document.cookie_names[0]",
+      "domain": "Other",
+      "status": "MISSING",
+      "severity": "Medium",
+      "normalized_risk_score": 46.0,
+      "estimated_similarity_gain": 0.2235,
+      "confidence": "High"
+    },
+    {
+      "rank": 32,
+      "property": "document.domain",
+      "domain": "Other",
+      "status": "MISSING",
+      "severity": "Medium",
+      "normalized_risk_score": 46.0,
+      "estimated_similarity_gain": 0.2235,
+      "confidence": "High"
+    },
+    {
+      "rank": 33,
+      "property": "document.referrer",
+      "domain": "Other",
+      "status": "MISSING",
+      "severity": "Medium",
+      "normalized_risk_score": 46.0,
+      "estimated_similarity_gain": 0.2235,
+      "confidence": "High"
+    },
+    {
+      "rank": 34,
+      "property": "navigator.prototype_keys[40]",
+      "domain": "Navigator",
+      "status": "MISSING",
+      "severity": "Medium",
+      "normalized_risk_score": 46.0,
+      "estimated_similarity_gain": 0.2235,
+      "confidence": "High"
+    },
+    {
+      "rank": 35,
+      "property": "navigator.prototype_keys[41]",
+      "domain": "Navigator",
+      "status": "MISSING",
+      "severity": "Medium",
+      "normalized_risk_score": 46.0,
+      "estimated_similarity_gain": 0.2235,
+      "confidence": "High"
+    },
+    {
+      "rank": 36,
+      "property": "navigator.prototype_keys[44]",
+      "domain": "Navigator",
+      "status": "MISSING",
+      "severity": "Medium",
+      "normalized_risk_score": 46.0,
+      "estimated_similarity_gain": 0.2235,
+      "confidence": "High"
+    },
+    {
+      "rank": 37,
+      "property": "navigator.prototype_keys[50]",
+      "domain": "Navigator",
+      "status": "MISSING",
+      "severity": "Medium",
+      "normalized_risk_score": 46.0,
+      "estimated_similarity_gain": 0.2235,
+      "confidence": "High"
+    },
+    {
+      "rank": 38,
+      "property": "navigator.prototype_keys[52]",
+      "domain": "Navigator",
+      "status": "MISSING",
+      "severity": "Medium",
+      "normalized_risk_score": 46.0,
+      "estimated_similarity_gain": 0.2235,
+      "confidence": "High"
+    },
+    {
+      "rank": 39,
+      "property": "navigator.prototype_keys[59]",
+      "domain": "Navigator",
+      "status": "MISSING",
+      "severity": "Medium",
+      "normalized_risk_score": 46.0,
+      "estimated_similarity_gain": 0.2235,
+      "confidence": "High"
+    },
+    {
+      "rank": 40,
+      "property": "navigator.prototype_keys[60]",
+      "domain": "Navigator",
+      "status": "MISSING",
+      "severity": "Medium",
+      "normalized_risk_score": 46.0,
+      "estimated_similarity_gain": 0.2235,
+      "confidence": "High"
+    },
+    {
+      "rank": 41,
+      "property": "navigator.prototype_keys[62]",
+      "domain": "Navigator",
+      "status": "MISSING",
+      "severity": "Medium",
+      "normalized_risk_score": 46.0,
+      "estimated_similarity_gain": 0.2235,
+      "confidence": "High"
+    },
+    {
+      "rank": 42,
+      "property": "navigator.prototype_keys[65]",
+      "domain": "Navigator",
+      "status": "MISSING",
+      "severity": "Medium",
+      "normalized_risk_score": 46.0,
+      "estimated_similarity_gain": 0.2235,
+      "confidence": "High"
+    },
+    {
+      "rank": 43,
+      "property": "navigator.prototype_keys[68]",
+      "domain": "Navigator",
+      "status": "MISSING",
+      "severity": "Medium",
+      "normalized_risk_score": 46.0,
+      "estimated_similarity_gain": 0.2235,
+      "confidence": "High"
+    },
+    {
+      "rank": 44,
+      "property": "navigator.prototype_keys[69]",
+      "domain": "Navigator",
+      "status": "MISSING",
+      "severity": "Medium",
+      "normalized_risk_score": 46.0,
+      "estimated_similarity_gain": 0.2235,
+      "confidence": "High"
+    },
+    {
+      "rank": 45,
+      "property": "navigator.prototype_keys[71]",
+      "domain": "Navigator",
+      "status": "MISSING",
+      "severity": "Medium",
+      "normalized_risk_score": 46.0,
+      "estimated_similarity_gain": 0.2235,
+      "confidence": "High"
+    },
+    {
+      "rank": 46,
+      "property": "navigator.prototype_keys[72]",
+      "domain": "Navigator",
+      "status": "MISSING",
+      "severity": "Medium",
+      "normalized_risk_score": 46.0,
+      "estimated_similarity_gain": 0.2235,
+      "confidence": "High"
+    },
+    {
+      "rank": 47,
+      "property": "navigator.prototype_keys[73]",
+      "domain": "Navigator",
+      "status": "MISSING",
+      "severity": "Medium",
+      "normalized_risk_score": 46.0,
+      "estimated_similarity_gain": 0.2235,
+      "confidence": "High"
+    },
+    {
+      "rank": 48,
+      "property": "navigator.prototype_keys[74]",
+      "domain": "Navigator",
+      "status": "MISSING",
+      "severity": "Medium",
+      "normalized_risk_score": 46.0,
+      "estimated_similarity_gain": 0.2235,
+      "confidence": "High"
+    },
+    {
+      "rank": 49,
+      "property": "navigator.prototype_keys[75]",
+      "domain": "Navigator",
+      "status": "MISSING",
+      "severity": "Medium",
+      "normalized_risk_score": 46.0,
+      "estimated_similarity_gain": 0.2235,
+      "confidence": "High"
+    },
+    {
+      "rank": 50,
+      "property": "navigator.prototype_keys[76]",
+      "domain": "Navigator",
+      "status": "MISSING",
+      "severity": "Medium",
+      "normalized_risk_score": 46.0,
+      "estimated_similarity_gain": 0.2235,
+      "confidence": "High"
+    },
+    {
+      "rank": 51,
+      "property": "navigator.prototype_keys[77]",
+      "domain": "Navigator",
+      "status": "MISSING",
+      "severity": "Medium",
+      "normalized_risk_score": 46.0,
+      "estimated_similarity_gain": 0.2235,
+      "confidence": "High"
+    },
+    {
+      "rank": 52,
+      "property": "navigator.prototype_keys[78]",
+      "domain": "Navigator",
+      "status": "MISSING",
+      "severity": "Medium",
+      "normalized_risk_score": 46.0,
+      "estimated_similarity_gain": 0.2235,
+      "confidence": "High"
+    },
+    {
+      "rank": 53,
+      "property": "navigator.prototype_keys[79]",
+      "domain": "Navigator",
+      "status": "MISSING",
+      "severity": "Medium",
+      "normalized_risk_score": 46.0,
+      "estimated_similarity_gain": 0.2235,
+      "confidence": "High"
+    },
+    {
+      "rank": 54,
+      "property": "navigator.prototype_keys[80]",
+      "domain": "Navigator",
+      "status": "MISSING",
+      "severity": "Medium",
+      "normalized_risk_score": 46.0,
+      "estimated_similarity_gain": 0.2235,
+      "confidence": "High"
+    },
+    {
+      "rank": 55,
+      "property": "navigator.prototype_keys[81]",
+      "domain": "Navigator",
+      "status": "MISSING",
+      "severity": "Medium",
+      "normalized_risk_score": 46.0,
+      "estimated_similarity_gain": 0.2235,
+      "confidence": "High"
+    },
+    {
+      "rank": 56,
+      "property": "navigator.prototype_keys[82]",
+      "domain": "Navigator",
+      "status": "MISSING",
+      "severity": "Medium",
+      "normalized_risk_score": 46.0,
+      "estimated_similarity_gain": 0.2235,
+      "confidence": "High"
+    },
+    {
+      "rank": 57,
+      "property": "navigator_own_keys[40]",
+      "domain": "Other",
+      "status": "MISSING",
+      "severity": "Medium",
+      "normalized_risk_score": 46.0,
+      "estimated_similarity_gain": 0.2235,
+      "confidence": "High"
+    },
+    {
+      "rank": 58,
+      "property": "navigator_own_keys[41]",
+      "domain": "Other",
+      "status": "MISSING",
+      "severity": "Medium",
+      "normalized_risk_score": 46.0,
+      "estimated_similarity_gain": 0.2235,
+      "confidence": "High"
+    },
+    {
+      "rank": 59,
+      "property": "navigator_own_keys[46]",
+      "domain": "Other",
+      "status": "MISSING",
+      "severity": "Medium",
+      "normalized_risk_score": 46.0,
+      "estimated_similarity_gain": 0.2235,
+      "confidence": "High"
+    },
+    {
+      "rank": 60,
+      "property": "navigator_own_keys[53]",
+      "domain": "Other",
+      "status": "MISSING",
+      "severity": "Medium",
+      "normalized_risk_score": 46.0,
+      "estimated_similarity_gain": 0.2235,
+      "confidence": "High"
+    },
+    {
+      "rank": 61,
+      "property": "navigator_own_keys[54]",
+      "domain": "Other",
+      "status": "MISSING",
+      "severity": "Medium",
+      "normalized_risk_score": 46.0,
+      "estimated_similarity_gain": 0.2235,
+      "confidence": "High"
+    },
+    {
+      "rank": 62,
+      "property": "navigator_own_keys[55]",
+      "domain": "Other",
+      "status": "MISSING",
+      "severity": "Medium",
+      "normalized_risk_score": 46.0,
+      "estimated_similarity_gain": 0.2235,
+      "confidence": "High"
+    },
+    {
+      "rank": 63,
+      "property": "navigator_own_keys[56]",
+      "domain": "Other",
+      "status": "MISSING",
+      "severity": "Medium",
+      "normalized_risk_score": 46.0,
+      "estimated_similarity_gain": 0.2235,
+      "confidence": "High"
+    },
+    {
+      "rank": 64,
+      "property": "navigator_own_keys[61]",
+      "domain": "Other",
+      "status": "MISSING",
+      "severity": "Medium",
+      "normalized_risk_score": 46.0,
+      "estimated_similarity_gain": 0.2235,
+      "confidence": "High"
+    },
+    {
+      "rank": 65,
+      "property": "navigator_own_keys[65]",
+      "domain": "Other",
+      "status": "MISSING",
+      "severity": "Medium",
+      "normalized_risk_score": 46.0,
+      "estimated_similarity_gain": 0.2235,
+      "confidence": "High"
+    },
+    {
+      "rank": 66,
+      "property": "navigator_own_keys[66]",
+      "domain": "Other",
+      "status": "MISSING",
+      "severity": "Medium",
+      "normalized_risk_score": 46.0,
+      "estimated_similarity_gain": 0.2235,
+      "confidence": "High"
+    },
+    {
+      "rank": 67,
+      "property": "navigator_own_keys[67]",
+      "domain": "Other",
+      "status": "MISSING",
+      "severity": "Medium",
+      "normalized_risk_score": 46.0,
+      "estimated_similarity_gain": 0.2235,
+      "confidence": "High"
+    },
+    {
+      "rank": 68,
+      "property": "navigator_own_keys[69]",
+      "domain": "Other",
+      "status": "MISSING",
+      "severity": "Medium",
+      "normalized_risk_score": 46.0,
+      "estimated_similarity_gain": 0.2235,
+      "confidence": "High"
+    },
+    {
+      "rank": 69,
+      "property": "navigator_own_keys[71]",
+      "domain": "Other",
+      "status": "MISSING",
+      "severity": "Medium",
+      "normalized_risk_score": 46.0,
+      "estimated_similarity_gain": 0.2235,
+      "confidence": "High"
+    },
+    {
+      "rank": 70,
+      "property": "navigator_own_keys[75]",
+      "domain": "Other",
+      "status": "MISSING",
+      "severity": "Medium",
+      "normalized_risk_score": 46.0,
+      "estimated_similarity_gain": 0.2235,
+      "confidence": "High"
+    },
+    {
+      "rank": 71,
+      "property": "navigator_own_keys[78]",
+      "domain": "Other",
+      "status": "MISSING",
+      "severity": "Medium",
+      "normalized_risk_score": 46.0,
+      "estimated_similarity_gain": 0.2235,
+      "confidence": "High"
+    },
+    {
+      "rank": 72,
+      "property": "navigator_own_keys[79]",
+      "domain": "Other",
+      "status": "MISSING",
+      "severity": "Medium",
+      "normalized_risk_score": 46.0,
+      "estimated_similarity_gain": 0.2235,
+      "confidence": "High"
+    },
+    {
+      "rank": 73,
+      "property": "navigator_own_keys[80]",
+      "domain": "Other",
+      "status": "MISSING",
+      "severity": "Medium",
+      "normalized_risk_score": 46.0,
+      "estimated_similarity_gain": 0.2235,
+      "confidence": "High"
+    },
+    {
+      "rank": 74,
+      "property": "navigator_own_keys[81]",
+      "domain": "Other",
+      "status": "MISSING",
+      "severity": "Medium",
+      "normalized_risk_score": 46.0,
+      "estimated_similarity_gain": 0.2235,
+      "confidence": "High"
+    },
+    {
+      "rank": 75,
+      "property": "window_keys[239]",
+      "domain": "Other",
+      "status": "MISSING",
+      "severity": "Medium",
+      "normalized_risk_score": 46.0,
+      "estimated_similarity_gain": 0.2235,
+      "confidence": "High"
+    },
+    {
+      "rank": 76,
+      "property": "window_keys[242]",
+      "domain": "Other",
+      "status": "MISSING",
+      "severity": "Medium",
+      "normalized_risk_score": 46.0,
+      "estimated_similarity_gain": 0.2235,
+      "confidence": "High"
+    },
+    {
+      "rank": 77,
+      "property": "window_keys[243]",
+      "domain": "Other",
+      "status": "MISSING",
+      "severity": "Medium",
+      "normalized_risk_score": 46.0,
+      "estimated_similarity_gain": 0.2235,
+      "confidence": "High"
+    },
+    {
+      "rank": 78,
+      "property": "window_keys[244]",
+      "domain": "Other",
+      "status": "MISSING",
+      "severity": "Medium",
+      "normalized_risk_score": 46.0,
+      "estimated_similarity_gain": 0.2235,
+      "confidence": "High"
+    },
+    {
+      "rank": 79,
+      "property": "window_keys[245]",
+      "domain": "Other",
+      "status": "MISSING",
+      "severity": "Medium",
+      "normalized_risk_score": 46.0,
+      "estimated_similarity_gain": 0.2235,
+      "confidence": "High"
+    },
+    {
+      "rank": 80,
+      "property": "window_keys[246]",
+      "domain": "Other",
+      "status": "MISSING",
+      "severity": "Medium",
+      "normalized_risk_score": 46.0,
+      "estimated_similarity_gain": 0.2235,
+      "confidence": "High"
+    },
+    {
+      "rank": 81,
+      "property": "window_keys[250]",
+      "domain": "Other",
+      "status": "MISSING",
+      "severity": "Medium",
+      "normalized_risk_score": 46.0,
+      "estimated_similarity_gain": 0.2235,
+      "confidence": "High"
+    },
+    {
+      "rank": 82,
+      "property": "window_keys[258]",
+      "domain": "Other",
+      "status": "MISSING",
+      "severity": "Medium",
+      "normalized_risk_score": 46.0,
+      "estimated_similarity_gain": 0.2235,
+      "confidence": "High"
+    },
+    {
+      "rank": 83,
+      "property": "window_keys[259]",
+      "domain": "Other",
+      "status": "MISSING",
+      "severity": "Medium",
+      "normalized_risk_score": 46.0,
+      "estimated_similarity_gain": 0.2235,
+      "confidence": "High"
+    },
+    {
+      "rank": 84,
+      "property": "window_keys[260]",
+      "domain": "Other",
+      "status": "MISSING",
+      "severity": "Medium",
+      "normalized_risk_score": 46.0,
+      "estimated_similarity_gain": 0.2235,
+      "confidence": "High"
+    },
+    {
+      "rank": 85,
+      "property": "window_keys[261]",
+      "domain": "Other",
+      "status": "MISSING",
+      "severity": "Medium",
+      "normalized_risk_score": 46.0,
+      "estimated_similarity_gain": 0.2235,
+      "confidence": "High"
+    },
+    {
+      "rank": 86,
+      "property": "window_keys[262]",
+      "domain": "Other",
+      "status": "MISSING",
+      "severity": "Medium",
+      "normalized_risk_score": 46.0,
+      "estimated_similarity_gain": 0.2235,
+      "confidence": "High"
+    },
+    {
+      "rank": 87,
+      "property": "navigator.appVersion",
+      "domain": "Navigator",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 45.0,
+      "estimated_similarity_gain": 0.2187,
+      "confidence": "High"
+    },
+    {
+      "rank": 88,
+      "property": "navigator.prototype_keys[32]",
+      "domain": "Navigator",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 45.0,
+      "estimated_similarity_gain": 0.2187,
+      "confidence": "High"
+    },
+    {
+      "rank": 89,
+      "property": "navigator.prototype_keys[33]",
+      "domain": "Navigator",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 45.0,
+      "estimated_similarity_gain": 0.2187,
+      "confidence": "High"
+    },
+    {
+      "rank": 90,
+      "property": "navigator.prototype_keys[37]",
+      "domain": "Navigator",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 45.0,
+      "estimated_similarity_gain": 0.2187,
+      "confidence": "High"
+    },
+    {
+      "rank": 91,
+      "property": "navigator_own_keys[0]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 45.0,
+      "estimated_similarity_gain": 0.2187,
+      "confidence": "High"
+    },
+    {
+      "rank": 92,
+      "property": "navigator_own_keys[10]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 45.0,
+      "estimated_similarity_gain": 0.2187,
+      "confidence": "High"
+    },
+    {
+      "rank": 93,
+      "property": "navigator_own_keys[12]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 45.0,
+      "estimated_similarity_gain": 0.2187,
+      "confidence": "High"
+    },
+    {
+      "rank": 94,
+      "property": "navigator_own_keys[13]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 45.0,
+      "estimated_similarity_gain": 0.2187,
+      "confidence": "High"
+    },
+    {
+      "rank": 95,
+      "property": "navigator_own_keys[15]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 45.0,
+      "estimated_similarity_gain": 0.2187,
+      "confidence": "High"
+    },
+    {
+      "rank": 96,
+      "property": "navigator_own_keys[16]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 45.0,
+      "estimated_similarity_gain": 0.2187,
+      "confidence": "High"
+    },
+    {
+      "rank": 97,
+      "property": "navigator_own_keys[17]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 45.0,
+      "estimated_similarity_gain": 0.2187,
+      "confidence": "High"
+    },
+    {
+      "rank": 98,
+      "property": "navigator_own_keys[19]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 45.0,
+      "estimated_similarity_gain": 0.2187,
+      "confidence": "High"
+    },
+    {
+      "rank": 99,
+      "property": "navigator_own_keys[20]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 45.0,
+      "estimated_similarity_gain": 0.2187,
+      "confidence": "High"
+    },
+    {
+      "rank": 100,
+      "property": "navigator_own_keys[24]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 45.0,
+      "estimated_similarity_gain": 0.2187,
+      "confidence": "High"
+    },
+    {
+      "rank": 101,
+      "property": "navigator_own_keys[25]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 45.0,
+      "estimated_similarity_gain": 0.2187,
+      "confidence": "High"
+    },
+    {
+      "rank": 102,
+      "property": "navigator_own_keys[28]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 45.0,
+      "estimated_similarity_gain": 0.2187,
+      "confidence": "High"
+    },
+    {
+      "rank": 103,
+      "property": "navigator_own_keys[30]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 45.0,
+      "estimated_similarity_gain": 0.2187,
+      "confidence": "High"
+    },
+    {
+      "rank": 104,
+      "property": "navigator_own_keys[32]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 45.0,
+      "estimated_similarity_gain": 0.2187,
+      "confidence": "High"
+    },
+    {
+      "rank": 105,
+      "property": "navigator_own_keys[35]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 45.0,
+      "estimated_similarity_gain": 0.2187,
+      "confidence": "High"
+    },
+    {
+      "rank": 106,
+      "property": "navigator_own_keys[36]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 45.0,
+      "estimated_similarity_gain": 0.2187,
+      "confidence": "High"
+    },
+    {
+      "rank": 107,
+      "property": "navigator_own_keys[37]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 45.0,
+      "estimated_similarity_gain": 0.2187,
+      "confidence": "High"
+    },
+    {
+      "rank": 108,
+      "property": "navigator_own_keys[5]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 45.0,
+      "estimated_similarity_gain": 0.2187,
+      "confidence": "High"
+    },
+    {
+      "rank": 109,
+      "property": "navigator_own_keys[7]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 45.0,
+      "estimated_similarity_gain": 0.2187,
+      "confidence": "High"
+    },
+    {
+      "rank": 110,
+      "property": "navigator_own_keys[8]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 45.0,
+      "estimated_similarity_gain": 0.2187,
+      "confidence": "High"
+    },
+    {
+      "rank": 111,
+      "property": "window_keys[101]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 45.0,
+      "estimated_similarity_gain": 0.2187,
+      "confidence": "High"
+    },
+    {
+      "rank": 112,
+      "property": "window_keys[102]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 45.0,
+      "estimated_similarity_gain": 0.2187,
+      "confidence": "High"
+    },
+    {
+      "rank": 113,
+      "property": "window_keys[103]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 45.0,
+      "estimated_similarity_gain": 0.2187,
+      "confidence": "High"
+    },
+    {
+      "rank": 114,
+      "property": "window_keys[104]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 45.0,
+      "estimated_similarity_gain": 0.2187,
+      "confidence": "High"
+    },
+    {
+      "rank": 115,
+      "property": "window_keys[105]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 45.0,
+      "estimated_similarity_gain": 0.2187,
+      "confidence": "High"
+    },
+    {
+      "rank": 116,
+      "property": "window_keys[106]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 45.0,
+      "estimated_similarity_gain": 0.2187,
+      "confidence": "High"
+    },
+    {
+      "rank": 117,
+      "property": "window_keys[108]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 45.0,
+      "estimated_similarity_gain": 0.2187,
+      "confidence": "High"
+    },
+    {
+      "rank": 118,
+      "property": "window_keys[109]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 45.0,
+      "estimated_similarity_gain": 0.2187,
+      "confidence": "High"
+    },
+    {
+      "rank": 119,
+      "property": "window_keys[110]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 45.0,
+      "estimated_similarity_gain": 0.2187,
+      "confidence": "High"
+    },
+    {
+      "rank": 120,
+      "property": "window_keys[118]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 45.0,
+      "estimated_similarity_gain": 0.2187,
+      "confidence": "High"
+    },
+    {
+      "rank": 121,
+      "property": "window_keys[11]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 45.0,
+      "estimated_similarity_gain": 0.2187,
+      "confidence": "High"
+    },
+    {
+      "rank": 122,
+      "property": "window_keys[124]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 45.0,
+      "estimated_similarity_gain": 0.2187,
+      "confidence": "High"
+    },
+    {
+      "rank": 123,
+      "property": "window_keys[125]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 45.0,
+      "estimated_similarity_gain": 0.2187,
+      "confidence": "High"
+    },
+    {
+      "rank": 124,
+      "property": "window_keys[126]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 45.0,
+      "estimated_similarity_gain": 0.2187,
+      "confidence": "High"
+    },
+    {
+      "rank": 125,
+      "property": "window_keys[127]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 45.0,
+      "estimated_similarity_gain": 0.2187,
+      "confidence": "High"
+    },
+    {
+      "rank": 126,
+      "property": "window_keys[128]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 45.0,
+      "estimated_similarity_gain": 0.2187,
+      "confidence": "High"
+    },
+    {
+      "rank": 127,
+      "property": "window_keys[129]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 45.0,
+      "estimated_similarity_gain": 0.2187,
+      "confidence": "High"
+    },
+    {
+      "rank": 128,
+      "property": "window_keys[130]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 45.0,
+      "estimated_similarity_gain": 0.2187,
+      "confidence": "High"
+    },
+    {
+      "rank": 129,
+      "property": "window_keys[132]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 45.0,
+      "estimated_similarity_gain": 0.2187,
+      "confidence": "High"
+    },
+    {
+      "rank": 130,
+      "property": "window_keys[133]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 45.0,
+      "estimated_similarity_gain": 0.2187,
+      "confidence": "High"
+    },
+    {
+      "rank": 131,
+      "property": "window_keys[136]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 45.0,
+      "estimated_similarity_gain": 0.2187,
+      "confidence": "High"
+    },
+    {
+      "rank": 132,
+      "property": "window_keys[137]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 45.0,
+      "estimated_similarity_gain": 0.2187,
+      "confidence": "High"
+    },
+    {
+      "rank": 133,
+      "property": "window_keys[138]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 45.0,
+      "estimated_similarity_gain": 0.2187,
+      "confidence": "High"
+    },
+    {
+      "rank": 134,
+      "property": "window_keys[140]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 45.0,
+      "estimated_similarity_gain": 0.2187,
+      "confidence": "High"
+    },
+    {
+      "rank": 135,
+      "property": "window_keys[142]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 45.0,
+      "estimated_similarity_gain": 0.2187,
+      "confidence": "High"
+    },
+    {
+      "rank": 136,
+      "property": "window_keys[143]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 45.0,
+      "estimated_similarity_gain": 0.2187,
+      "confidence": "High"
+    },
+    {
+      "rank": 137,
+      "property": "window_keys[145]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 45.0,
+      "estimated_similarity_gain": 0.2187,
+      "confidence": "High"
+    },
+    {
+      "rank": 138,
+      "property": "window_keys[149]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 45.0,
+      "estimated_similarity_gain": 0.2187,
+      "confidence": "High"
+    },
+    {
+      "rank": 139,
+      "property": "window_keys[150]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 45.0,
+      "estimated_similarity_gain": 0.2187,
+      "confidence": "High"
+    },
+    {
+      "rank": 140,
+      "property": "window_keys[158]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 45.0,
+      "estimated_similarity_gain": 0.2187,
+      "confidence": "High"
+    },
+    {
+      "rank": 141,
+      "property": "window_keys[159]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 45.0,
+      "estimated_similarity_gain": 0.2187,
+      "confidence": "High"
+    },
+    {
+      "rank": 142,
+      "property": "window_keys[160]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 45.0,
+      "estimated_similarity_gain": 0.2187,
+      "confidence": "High"
+    },
+    {
+      "rank": 143,
+      "property": "window_keys[161]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 45.0,
+      "estimated_similarity_gain": 0.2187,
+      "confidence": "High"
+    },
+    {
+      "rank": 144,
+      "property": "window_keys[162]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 45.0,
+      "estimated_similarity_gain": 0.2187,
+      "confidence": "High"
+    },
+    {
+      "rank": 145,
+      "property": "window_keys[164]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 45.0,
+      "estimated_similarity_gain": 0.2187,
+      "confidence": "High"
+    },
+    {
+      "rank": 146,
+      "property": "window_keys[165]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 45.0,
+      "estimated_similarity_gain": 0.2187,
+      "confidence": "High"
+    },
+    {
+      "rank": 147,
+      "property": "window_keys[166]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 45.0,
+      "estimated_similarity_gain": 0.2187,
+      "confidence": "High"
+    },
+    {
+      "rank": 148,
+      "property": "window_keys[167]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 45.0,
+      "estimated_similarity_gain": 0.2187,
+      "confidence": "High"
+    },
+    {
+      "rank": 149,
+      "property": "window_keys[168]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 45.0,
+      "estimated_similarity_gain": 0.2187,
+      "confidence": "High"
+    },
+    {
+      "rank": 150,
+      "property": "window_keys[169]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 45.0,
+      "estimated_similarity_gain": 0.2187,
+      "confidence": "High"
+    },
+    {
+      "rank": 151,
+      "property": "window_keys[16]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 45.0,
+      "estimated_similarity_gain": 0.2187,
+      "confidence": "High"
+    },
+    {
+      "rank": 152,
+      "property": "window_keys[170]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 45.0,
+      "estimated_similarity_gain": 0.2187,
+      "confidence": "High"
+    },
+    {
+      "rank": 153,
+      "property": "window_keys[174]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 45.0,
+      "estimated_similarity_gain": 0.2187,
+      "confidence": "High"
+    },
+    {
+      "rank": 154,
+      "property": "window_keys[175]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 45.0,
+      "estimated_similarity_gain": 0.2187,
+      "confidence": "High"
+    },
+    {
+      "rank": 155,
+      "property": "window_keys[176]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 45.0,
+      "estimated_similarity_gain": 0.2187,
+      "confidence": "High"
+    },
+    {
+      "rank": 156,
+      "property": "window_keys[178]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 45.0,
+      "estimated_similarity_gain": 0.2187,
+      "confidence": "High"
+    },
+    {
+      "rank": 157,
+      "property": "window_keys[17]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 45.0,
+      "estimated_similarity_gain": 0.2187,
+      "confidence": "High"
+    },
+    {
+      "rank": 158,
+      "property": "window_keys[182]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 45.0,
+      "estimated_similarity_gain": 0.2187,
+      "confidence": "High"
+    },
+    {
+      "rank": 159,
+      "property": "window_keys[183]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 45.0,
+      "estimated_similarity_gain": 0.2187,
+      "confidence": "High"
+    },
+    {
+      "rank": 160,
+      "property": "window_keys[185]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 45.0,
+      "estimated_similarity_gain": 0.2187,
+      "confidence": "High"
+    },
+    {
+      "rank": 161,
+      "property": "window_keys[186]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 45.0,
+      "estimated_similarity_gain": 0.2187,
+      "confidence": "High"
+    },
+    {
+      "rank": 162,
+      "property": "window_keys[188]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 45.0,
+      "estimated_similarity_gain": 0.2187,
+      "confidence": "High"
+    },
+    {
+      "rank": 163,
+      "property": "window_keys[189]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 45.0,
+      "estimated_similarity_gain": 0.2187,
+      "confidence": "High"
+    },
+    {
+      "rank": 164,
+      "property": "window_keys[18]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 45.0,
+      "estimated_similarity_gain": 0.2187,
+      "confidence": "High"
+    },
+    {
+      "rank": 165,
+      "property": "window_keys[191]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 45.0,
+      "estimated_similarity_gain": 0.2187,
+      "confidence": "High"
+    },
+    {
+      "rank": 166,
+      "property": "window_keys[192]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 45.0,
+      "estimated_similarity_gain": 0.2187,
+      "confidence": "High"
+    },
+    {
+      "rank": 167,
+      "property": "window_keys[193]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 45.0,
+      "estimated_similarity_gain": 0.2187,
+      "confidence": "High"
+    },
+    {
+      "rank": 168,
+      "property": "window_keys[194]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 45.0,
+      "estimated_similarity_gain": 0.2187,
+      "confidence": "High"
+    },
+    {
+      "rank": 169,
+      "property": "window_keys[195]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 45.0,
+      "estimated_similarity_gain": 0.2187,
+      "confidence": "High"
+    },
+    {
+      "rank": 170,
+      "property": "window_keys[197]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 45.0,
+      "estimated_similarity_gain": 0.2187,
+      "confidence": "High"
+    },
+    {
+      "rank": 171,
+      "property": "window_keys[199]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 45.0,
+      "estimated_similarity_gain": 0.2187,
+      "confidence": "High"
+    },
+    {
+      "rank": 172,
+      "property": "window_keys[200]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 45.0,
+      "estimated_similarity_gain": 0.2187,
+      "confidence": "High"
+    },
+    {
+      "rank": 173,
+      "property": "window_keys[201]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 45.0,
+      "estimated_similarity_gain": 0.2187,
+      "confidence": "High"
+    },
+    {
+      "rank": 174,
+      "property": "window_keys[202]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 45.0,
+      "estimated_similarity_gain": 0.2187,
+      "confidence": "High"
+    },
+    {
+      "rank": 175,
+      "property": "window_keys[205]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 45.0,
+      "estimated_similarity_gain": 0.2187,
+      "confidence": "High"
+    },
+    {
+      "rank": 176,
+      "property": "window_keys[207]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 45.0,
+      "estimated_similarity_gain": 0.2187,
+      "confidence": "High"
+    },
+    {
+      "rank": 177,
+      "property": "window_keys[208]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 45.0,
+      "estimated_similarity_gain": 0.2187,
+      "confidence": "High"
+    },
+    {
+      "rank": 178,
+      "property": "window_keys[20]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 45.0,
+      "estimated_similarity_gain": 0.2187,
+      "confidence": "High"
+    },
+    {
+      "rank": 179,
+      "property": "window_keys[212]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 45.0,
+      "estimated_similarity_gain": 0.2187,
+      "confidence": "High"
+    },
+    {
+      "rank": 180,
+      "property": "window_keys[218]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 45.0,
+      "estimated_similarity_gain": 0.2187,
+      "confidence": "High"
+    },
+    {
+      "rank": 181,
+      "property": "window_keys[219]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 45.0,
+      "estimated_similarity_gain": 0.2187,
+      "confidence": "High"
+    },
+    {
+      "rank": 182,
+      "property": "window_keys[21]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 45.0,
+      "estimated_similarity_gain": 0.2187,
+      "confidence": "High"
+    },
+    {
+      "rank": 183,
+      "property": "window_keys[220]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 45.0,
+      "estimated_similarity_gain": 0.2187,
+      "confidence": "High"
+    },
+    {
+      "rank": 184,
+      "property": "window_keys[221]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 45.0,
+      "estimated_similarity_gain": 0.2187,
+      "confidence": "High"
+    },
+    {
+      "rank": 185,
+      "property": "window_keys[222]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 45.0,
+      "estimated_similarity_gain": 0.2187,
+      "confidence": "High"
+    },
+    {
+      "rank": 186,
+      "property": "window_keys[223]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 45.0,
+      "estimated_similarity_gain": 0.2187,
+      "confidence": "High"
+    },
+    {
+      "rank": 187,
+      "property": "window_keys[22]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 45.0,
+      "estimated_similarity_gain": 0.2187,
+      "confidence": "High"
+    },
+    {
+      "rank": 188,
+      "property": "window_keys[24]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 45.0,
+      "estimated_similarity_gain": 0.2187,
+      "confidence": "High"
+    },
+    {
+      "rank": 189,
+      "property": "window_keys[26]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 45.0,
+      "estimated_similarity_gain": 0.2187,
+      "confidence": "High"
+    },
+    {
+      "rank": 190,
+      "property": "window_keys[2]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 45.0,
+      "estimated_similarity_gain": 0.2187,
+      "confidence": "High"
+    },
+    {
+      "rank": 191,
+      "property": "window_keys[31]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 45.0,
+      "estimated_similarity_gain": 0.2187,
+      "confidence": "High"
+    },
+    {
+      "rank": 192,
+      "property": "window_keys[33]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 45.0,
+      "estimated_similarity_gain": 0.2187,
+      "confidence": "High"
+    },
+    {
+      "rank": 193,
+      "property": "window_keys[34]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 45.0,
+      "estimated_similarity_gain": 0.2187,
+      "confidence": "High"
+    },
+    {
+      "rank": 194,
+      "property": "window_keys[35]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 45.0,
+      "estimated_similarity_gain": 0.2187,
+      "confidence": "High"
+    },
+    {
+      "rank": 195,
+      "property": "window_keys[37]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 45.0,
+      "estimated_similarity_gain": 0.2187,
+      "confidence": "High"
+    },
+    {
+      "rank": 196,
+      "property": "window_keys[39]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 45.0,
+      "estimated_similarity_gain": 0.2187,
+      "confidence": "High"
+    },
+    {
+      "rank": 197,
+      "property": "window_keys[41]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 45.0,
+      "estimated_similarity_gain": 0.2187,
+      "confidence": "High"
+    },
+    {
+      "rank": 198,
+      "property": "window_keys[52]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 45.0,
+      "estimated_similarity_gain": 0.2187,
+      "confidence": "High"
+    },
+    {
+      "rank": 199,
+      "property": "window_keys[53]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 45.0,
+      "estimated_similarity_gain": 0.2187,
+      "confidence": "High"
+    },
+    {
+      "rank": 200,
+      "property": "window_keys[54]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 45.0,
+      "estimated_similarity_gain": 0.2187,
+      "confidence": "High"
+    },
+    {
+      "rank": 201,
+      "property": "window_keys[55]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 45.0,
+      "estimated_similarity_gain": 0.2187,
+      "confidence": "High"
+    },
+    {
+      "rank": 202,
+      "property": "window_keys[56]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 45.0,
+      "estimated_similarity_gain": 0.2187,
+      "confidence": "High"
+    },
+    {
+      "rank": 203,
+      "property": "window_keys[57]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 45.0,
+      "estimated_similarity_gain": 0.2187,
+      "confidence": "High"
+    },
+    {
+      "rank": 204,
+      "property": "window_keys[58]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 45.0,
+      "estimated_similarity_gain": 0.2187,
+      "confidence": "High"
+    },
+    {
+      "rank": 205,
+      "property": "window_keys[59]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 45.0,
+      "estimated_similarity_gain": 0.2187,
+      "confidence": "High"
+    },
+    {
+      "rank": 206,
+      "property": "window_keys[5]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 45.0,
+      "estimated_similarity_gain": 0.2187,
+      "confidence": "High"
+    },
+    {
+      "rank": 207,
+      "property": "window_keys[60]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 45.0,
+      "estimated_similarity_gain": 0.2187,
+      "confidence": "High"
+    },
+    {
+      "rank": 208,
+      "property": "window_keys[61]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 45.0,
+      "estimated_similarity_gain": 0.2187,
+      "confidence": "High"
+    },
+    {
+      "rank": 209,
+      "property": "window_keys[62]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 45.0,
+      "estimated_similarity_gain": 0.2187,
+      "confidence": "High"
+    },
+    {
+      "rank": 210,
+      "property": "window_keys[63]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 45.0,
+      "estimated_similarity_gain": 0.2187,
+      "confidence": "High"
+    },
+    {
+      "rank": 211,
+      "property": "window_keys[64]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 45.0,
+      "estimated_similarity_gain": 0.2187,
+      "confidence": "High"
+    },
+    {
+      "rank": 212,
+      "property": "window_keys[68]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 45.0,
+      "estimated_similarity_gain": 0.2187,
+      "confidence": "High"
+    },
+    {
+      "rank": 213,
+      "property": "window_keys[6]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 45.0,
+      "estimated_similarity_gain": 0.2187,
+      "confidence": "High"
+    },
+    {
+      "rank": 214,
+      "property": "window_keys[73]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 45.0,
+      "estimated_similarity_gain": 0.2187,
+      "confidence": "High"
+    },
+    {
+      "rank": 215,
+      "property": "window_keys[74]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 45.0,
+      "estimated_similarity_gain": 0.2187,
+      "confidence": "High"
+    },
+    {
+      "rank": 216,
+      "property": "window_keys[75]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 45.0,
+      "estimated_similarity_gain": 0.2187,
+      "confidence": "High"
+    },
+    {
+      "rank": 217,
+      "property": "window_keys[76]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 45.0,
+      "estimated_similarity_gain": 0.2187,
+      "confidence": "High"
+    },
+    {
+      "rank": 218,
+      "property": "window_keys[7]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 45.0,
+      "estimated_similarity_gain": 0.2187,
+      "confidence": "High"
+    },
+    {
+      "rank": 219,
+      "property": "window_keys[81]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 45.0,
+      "estimated_similarity_gain": 0.2187,
+      "confidence": "High"
+    },
+    {
+      "rank": 220,
+      "property": "window_keys[82]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 45.0,
+      "estimated_similarity_gain": 0.2187,
+      "confidence": "High"
+    },
+    {
+      "rank": 221,
+      "property": "window_keys[83]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 45.0,
+      "estimated_similarity_gain": 0.2187,
+      "confidence": "High"
+    },
+    {
+      "rank": 222,
+      "property": "window_keys[84]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 45.0,
+      "estimated_similarity_gain": 0.2187,
+      "confidence": "High"
+    },
+    {
+      "rank": 223,
+      "property": "window_keys[85]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 45.0,
+      "estimated_similarity_gain": 0.2187,
+      "confidence": "High"
+    },
+    {
+      "rank": 224,
+      "property": "window_keys[86]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 45.0,
+      "estimated_similarity_gain": 0.2187,
+      "confidence": "High"
+    },
+    {
+      "rank": 225,
+      "property": "window_keys[87]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 45.0,
+      "estimated_similarity_gain": 0.2187,
+      "confidence": "High"
+    },
+    {
+      "rank": 226,
+      "property": "window_keys[88]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 45.0,
+      "estimated_similarity_gain": 0.2187,
+      "confidence": "High"
+    },
+    {
+      "rank": 227,
+      "property": "window_keys[89]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 45.0,
+      "estimated_similarity_gain": 0.2187,
+      "confidence": "High"
+    },
+    {
+      "rank": 228,
+      "property": "window_keys[90]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 45.0,
+      "estimated_similarity_gain": 0.2187,
+      "confidence": "High"
+    },
+    {
+      "rank": 229,
+      "property": "window_keys[91]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 45.0,
+      "estimated_similarity_gain": 0.2187,
+      "confidence": "High"
+    },
+    {
+      "rank": 230,
+      "property": "window_keys[92]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 45.0,
+      "estimated_similarity_gain": 0.2187,
+      "confidence": "High"
+    },
+    {
+      "rank": 231,
+      "property": "window_keys[93]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 45.0,
+      "estimated_similarity_gain": 0.2187,
+      "confidence": "High"
+    },
+    {
+      "rank": 232,
+      "property": "window_keys[94]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 45.0,
+      "estimated_similarity_gain": 0.2187,
+      "confidence": "High"
+    },
+    {
+      "rank": 233,
+      "property": "window_keys[97]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 45.0,
+      "estimated_similarity_gain": 0.2187,
+      "confidence": "High"
+    },
+    {
+      "rank": 234,
+      "property": "window_keys[9]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 45.0,
+      "estimated_similarity_gain": 0.2187,
+      "confidence": "High"
+    },
+    {
+      "rank": 235,
+      "property": "performance.now",
+      "domain": "Performance",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 43.41,
+      "estimated_similarity_gain": 0.2109,
+      "confidence": "Medium"
+    },
+    {
+      "rank": 236,
+      "property": "battery.chargingTime",
+      "domain": "Other",
+      "status": "MISSING",
+      "severity": "Medium",
+      "normalized_risk_score": 40.0,
+      "estimated_similarity_gain": 0.1944,
+      "confidence": "High"
+    },
+    {
+      "rank": 237,
+      "property": "battery.dischargingTime",
+      "domain": "Other",
+      "status": "MISSING",
+      "severity": "Medium",
+      "normalized_risk_score": 40.0,
+      "estimated_similarity_gain": 0.1944,
+      "confidence": "High"
+    },
+    {
+      "rank": 238,
+      "property": "battery.level",
+      "domain": "Other",
+      "status": "MISSING",
+      "severity": "Medium",
+      "normalized_risk_score": 40.0,
+      "estimated_similarity_gain": 0.1944,
+      "confidence": "High"
+    },
+    {
+      "rank": 239,
+      "property": "document.cookie_count",
+      "domain": "Other",
+      "status": "MISSING",
+      "severity": "Medium",
+      "normalized_risk_score": 40.0,
+      "estimated_similarity_gain": 0.1944,
+      "confidence": "High"
+    },
+    {
+      "rank": 240,
+      "property": "navigator.connection.downlink",
+      "domain": "Navigator",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 39.0,
+      "estimated_similarity_gain": 0.1895,
+      "confidence": "High"
+    },
+    {
+      "rank": 241,
+      "property": "navigator.connection.rtt",
+      "domain": "Navigator",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 39.0,
+      "estimated_similarity_gain": 0.1895,
+      "confidence": "High"
+    },
+    {
+      "rank": 242,
+      "property": "navigator.maxTouchPoints",
+      "domain": "Navigator",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 39.0,
+      "estimated_similarity_gain": 0.1895,
+      "confidence": "High"
+    },
+    {
+      "rank": 243,
+      "property": "document.characterSet",
+      "domain": "Other",
+      "status": "MISSING",
+      "severity": "Medium",
+      "normalized_risk_score": 37.0,
+      "estimated_similarity_gain": 0.1798,
+      "confidence": "High"
+    },
+    {
+      "rank": 244,
+      "property": "document.compatMode",
+      "domain": "Other",
+      "status": "MISSING",
+      "severity": "Medium",
+      "normalized_risk_score": 37.0,
+      "estimated_similarity_gain": 0.1798,
+      "confidence": "High"
+    },
+    {
+      "rank": 245,
+      "property": "document.cookie_names[1]",
+      "domain": "Other",
+      "status": "MISSING",
+      "severity": "Medium",
+      "normalized_risk_score": 37.0,
+      "estimated_similarity_gain": 0.1798,
+      "confidence": "High"
+    },
+    {
+      "rank": 246,
+      "property": "document.title",
+      "domain": "Other",
+      "status": "MISSING",
+      "severity": "Medium",
+      "normalized_risk_score": 37.0,
+      "estimated_similarity_gain": 0.1798,
+      "confidence": "High"
+    },
+    {
+      "rank": 247,
+      "property": "document.visibilityState",
+      "domain": "Other",
+      "status": "MISSING",
+      "severity": "Medium",
+      "normalized_risk_score": 37.0,
+      "estimated_similarity_gain": 0.1798,
+      "confidence": "High"
+    },
+    {
+      "rank": 248,
+      "property": "media_devices[0].groupId",
+      "domain": "Other",
+      "status": "MISSING",
+      "severity": "Medium",
+      "normalized_risk_score": 37.0,
+      "estimated_similarity_gain": 0.1798,
+      "confidence": "High"
+    },
+    {
+      "rank": 249,
+      "property": "media_devices[0].kind",
+      "domain": "Other",
+      "status": "MISSING",
+      "severity": "Medium",
+      "normalized_risk_score": 37.0,
+      "estimated_similarity_gain": 0.1798,
+      "confidence": "High"
+    },
+    {
+      "rank": 250,
+      "property": "media_devices[0].label",
+      "domain": "Other",
+      "status": "MISSING",
+      "severity": "Medium",
+      "normalized_risk_score": 37.0,
+      "estimated_similarity_gain": 0.1798,
+      "confidence": "High"
+    },
+    {
+      "rank": 251,
+      "property": "media_devices[1].groupId",
+      "domain": "Other",
+      "status": "MISSING",
+      "severity": "Medium",
+      "normalized_risk_score": 37.0,
+      "estimated_similarity_gain": 0.1798,
+      "confidence": "High"
+    },
+    {
+      "rank": 252,
+      "property": "media_devices[1].kind",
+      "domain": "Other",
+      "status": "MISSING",
+      "severity": "Medium",
+      "normalized_risk_score": 37.0,
+      "estimated_similarity_gain": 0.1798,
+      "confidence": "High"
+    },
+    {
+      "rank": 253,
+      "property": "media_devices[1].label",
+      "domain": "Other",
+      "status": "MISSING",
+      "severity": "Medium",
+      "normalized_risk_score": 37.0,
+      "estimated_similarity_gain": 0.1798,
+      "confidence": "High"
+    },
+    {
+      "rank": 254,
+      "property": "media_devices[2].groupId",
+      "domain": "Other",
+      "status": "MISSING",
+      "severity": "Medium",
+      "normalized_risk_score": 37.0,
+      "estimated_similarity_gain": 0.1798,
+      "confidence": "High"
+    },
+    {
+      "rank": 255,
+      "property": "media_devices[2].kind",
+      "domain": "Other",
+      "status": "MISSING",
+      "severity": "Medium",
+      "normalized_risk_score": 37.0,
+      "estimated_similarity_gain": 0.1798,
+      "confidence": "High"
+    },
+    {
+      "rank": 256,
+      "property": "media_devices[2].label",
+      "domain": "Other",
+      "status": "MISSING",
+      "severity": "Medium",
+      "normalized_risk_score": 37.0,
+      "estimated_similarity_gain": 0.1798,
+      "confidence": "High"
+    },
+    {
+      "rank": 257,
+      "property": "navigator.prototype_keys[38]",
+      "domain": "Navigator",
+      "status": "MISSING",
+      "severity": "Medium",
+      "normalized_risk_score": 37.0,
+      "estimated_similarity_gain": 0.1798,
+      "confidence": "High"
+    },
+    {
+      "rank": 258,
+      "property": "navigator.prototype_keys[39]",
+      "domain": "Navigator",
+      "status": "MISSING",
+      "severity": "Medium",
+      "normalized_risk_score": 37.0,
+      "estimated_similarity_gain": 0.1798,
+      "confidence": "High"
+    },
+    {
+      "rank": 259,
+      "property": "navigator.prototype_keys[42]",
+      "domain": "Navigator",
+      "status": "MISSING",
+      "severity": "Medium",
+      "normalized_risk_score": 37.0,
+      "estimated_similarity_gain": 0.1798,
+      "confidence": "High"
+    },
+    {
+      "rank": 260,
+      "property": "navigator.prototype_keys[43]",
+      "domain": "Navigator",
+      "status": "MISSING",
+      "severity": "Medium",
+      "normalized_risk_score": 37.0,
+      "estimated_similarity_gain": 0.1798,
+      "confidence": "High"
+    },
+    {
+      "rank": 261,
+      "property": "navigator.prototype_keys[45]",
+      "domain": "Navigator",
+      "status": "MISSING",
+      "severity": "Medium",
+      "normalized_risk_score": 37.0,
+      "estimated_similarity_gain": 0.1798,
+      "confidence": "High"
+    },
+    {
+      "rank": 262,
+      "property": "navigator.prototype_keys[46]",
+      "domain": "Navigator",
+      "status": "MISSING",
+      "severity": "Medium",
+      "normalized_risk_score": 37.0,
+      "estimated_similarity_gain": 0.1798,
+      "confidence": "High"
+    },
+    {
+      "rank": 263,
+      "property": "navigator.prototype_keys[47]",
+      "domain": "Navigator",
+      "status": "MISSING",
+      "severity": "Medium",
+      "normalized_risk_score": 37.0,
+      "estimated_similarity_gain": 0.1798,
+      "confidence": "High"
+    },
+    {
+      "rank": 264,
+      "property": "navigator.prototype_keys[48]",
+      "domain": "Navigator",
+      "status": "MISSING",
+      "severity": "Medium",
+      "normalized_risk_score": 37.0,
+      "estimated_similarity_gain": 0.1798,
+      "confidence": "High"
+    },
+    {
+      "rank": 265,
+      "property": "navigator.prototype_keys[49]",
+      "domain": "Navigator",
+      "status": "MISSING",
+      "severity": "Medium",
+      "normalized_risk_score": 37.0,
+      "estimated_similarity_gain": 0.1798,
+      "confidence": "High"
+    },
+    {
+      "rank": 266,
+      "property": "navigator.prototype_keys[51]",
+      "domain": "Navigator",
+      "status": "MISSING",
+      "severity": "Medium",
+      "normalized_risk_score": 37.0,
+      "estimated_similarity_gain": 0.1798,
+      "confidence": "High"
+    },
+    {
+      "rank": 267,
+      "property": "navigator.prototype_keys[53]",
+      "domain": "Navigator",
+      "status": "MISSING",
+      "severity": "Medium",
+      "normalized_risk_score": 37.0,
+      "estimated_similarity_gain": 0.1798,
+      "confidence": "High"
+    },
+    {
+      "rank": 268,
+      "property": "navigator.prototype_keys[54]",
+      "domain": "Navigator",
+      "status": "MISSING",
+      "severity": "Medium",
+      "normalized_risk_score": 37.0,
+      "estimated_similarity_gain": 0.1798,
+      "confidence": "High"
+    },
+    {
+      "rank": 269,
+      "property": "navigator.prototype_keys[55]",
+      "domain": "Navigator",
+      "status": "MISSING",
+      "severity": "Medium",
+      "normalized_risk_score": 37.0,
+      "estimated_similarity_gain": 0.1798,
+      "confidence": "High"
+    },
+    {
+      "rank": 270,
+      "property": "navigator.prototype_keys[56]",
+      "domain": "Navigator",
+      "status": "MISSING",
+      "severity": "Medium",
+      "normalized_risk_score": 37.0,
+      "estimated_similarity_gain": 0.1798,
+      "confidence": "High"
+    },
+    {
+      "rank": 271,
+      "property": "navigator.prototype_keys[57]",
+      "domain": "Navigator",
+      "status": "MISSING",
+      "severity": "Medium",
+      "normalized_risk_score": 37.0,
+      "estimated_similarity_gain": 0.1798,
+      "confidence": "High"
+    },
+    {
+      "rank": 272,
+      "property": "navigator.prototype_keys[58]",
+      "domain": "Navigator",
+      "status": "MISSING",
+      "severity": "Medium",
+      "normalized_risk_score": 37.0,
+      "estimated_similarity_gain": 0.1798,
+      "confidence": "High"
+    },
+    {
+      "rank": 273,
+      "property": "navigator.prototype_keys[61]",
+      "domain": "Navigator",
+      "status": "MISSING",
+      "severity": "Medium",
+      "normalized_risk_score": 37.0,
+      "estimated_similarity_gain": 0.1798,
+      "confidence": "High"
+    },
+    {
+      "rank": 274,
+      "property": "navigator.prototype_keys[63]",
+      "domain": "Navigator",
+      "status": "MISSING",
+      "severity": "Medium",
+      "normalized_risk_score": 37.0,
+      "estimated_similarity_gain": 0.1798,
+      "confidence": "High"
+    },
+    {
+      "rank": 275,
+      "property": "navigator.prototype_keys[64]",
+      "domain": "Navigator",
+      "status": "MISSING",
+      "severity": "Medium",
+      "normalized_risk_score": 37.0,
+      "estimated_similarity_gain": 0.1798,
+      "confidence": "High"
+    },
+    {
+      "rank": 276,
+      "property": "navigator.prototype_keys[66]",
+      "domain": "Navigator",
+      "status": "MISSING",
+      "severity": "Medium",
+      "normalized_risk_score": 37.0,
+      "estimated_similarity_gain": 0.1798,
+      "confidence": "High"
+    },
+    {
+      "rank": 277,
+      "property": "navigator.prototype_keys[67]",
+      "domain": "Navigator",
+      "status": "MISSING",
+      "severity": "Medium",
+      "normalized_risk_score": 37.0,
+      "estimated_similarity_gain": 0.1798,
+      "confidence": "High"
+    },
+    {
+      "rank": 278,
+      "property": "navigator.prototype_keys[70]",
+      "domain": "Navigator",
+      "status": "MISSING",
+      "severity": "Medium",
+      "normalized_risk_score": 37.0,
+      "estimated_similarity_gain": 0.1798,
+      "confidence": "High"
+    },
+    {
+      "rank": 279,
+      "property": "navigator_own_keys[38]",
+      "domain": "Other",
+      "status": "MISSING",
+      "severity": "Medium",
+      "normalized_risk_score": 37.0,
+      "estimated_similarity_gain": 0.1798,
+      "confidence": "High"
+    },
+    {
+      "rank": 280,
+      "property": "navigator_own_keys[39]",
+      "domain": "Other",
+      "status": "MISSING",
+      "severity": "Medium",
+      "normalized_risk_score": 37.0,
+      "estimated_similarity_gain": 0.1798,
+      "confidence": "High"
+    },
+    {
+      "rank": 281,
+      "property": "navigator_own_keys[42]",
+      "domain": "Other",
+      "status": "MISSING",
+      "severity": "Medium",
+      "normalized_risk_score": 37.0,
+      "estimated_similarity_gain": 0.1798,
+      "confidence": "High"
+    },
+    {
+      "rank": 282,
+      "property": "navigator_own_keys[43]",
+      "domain": "Other",
+      "status": "MISSING",
+      "severity": "Medium",
+      "normalized_risk_score": 37.0,
+      "estimated_similarity_gain": 0.1798,
+      "confidence": "High"
+    },
+    {
+      "rank": 283,
+      "property": "navigator_own_keys[44]",
+      "domain": "Other",
+      "status": "MISSING",
+      "severity": "Medium",
+      "normalized_risk_score": 37.0,
+      "estimated_similarity_gain": 0.1798,
+      "confidence": "High"
+    },
+    {
+      "rank": 284,
+      "property": "navigator_own_keys[45]",
+      "domain": "Other",
+      "status": "MISSING",
+      "severity": "Medium",
+      "normalized_risk_score": 37.0,
+      "estimated_similarity_gain": 0.1798,
+      "confidence": "High"
+    },
+    {
+      "rank": 285,
+      "property": "navigator_own_keys[47]",
+      "domain": "Other",
+      "status": "MISSING",
+      "severity": "Medium",
+      "normalized_risk_score": 37.0,
+      "estimated_similarity_gain": 0.1798,
+      "confidence": "High"
+    },
+    {
+      "rank": 286,
+      "property": "navigator_own_keys[48]",
+      "domain": "Other",
+      "status": "MISSING",
+      "severity": "Medium",
+      "normalized_risk_score": 37.0,
+      "estimated_similarity_gain": 0.1798,
+      "confidence": "High"
+    },
+    {
+      "rank": 287,
+      "property": "navigator_own_keys[49]",
+      "domain": "Other",
+      "status": "MISSING",
+      "severity": "Medium",
+      "normalized_risk_score": 37.0,
+      "estimated_similarity_gain": 0.1798,
+      "confidence": "High"
+    },
+    {
+      "rank": 288,
+      "property": "navigator_own_keys[50]",
+      "domain": "Other",
+      "status": "MISSING",
+      "severity": "Medium",
+      "normalized_risk_score": 37.0,
+      "estimated_similarity_gain": 0.1798,
+      "confidence": "High"
+    },
+    {
+      "rank": 289,
+      "property": "navigator_own_keys[51]",
+      "domain": "Other",
+      "status": "MISSING",
+      "severity": "Medium",
+      "normalized_risk_score": 37.0,
+      "estimated_similarity_gain": 0.1798,
+      "confidence": "High"
+    },
+    {
+      "rank": 290,
+      "property": "navigator_own_keys[52]",
+      "domain": "Other",
+      "status": "MISSING",
+      "severity": "Medium",
+      "normalized_risk_score": 37.0,
+      "estimated_similarity_gain": 0.1798,
+      "confidence": "High"
+    },
+    {
+      "rank": 291,
+      "property": "navigator_own_keys[57]",
+      "domain": "Other",
+      "status": "MISSING",
+      "severity": "Medium",
+      "normalized_risk_score": 37.0,
+      "estimated_similarity_gain": 0.1798,
+      "confidence": "High"
+    },
+    {
+      "rank": 292,
+      "property": "navigator_own_keys[58]",
+      "domain": "Other",
+      "status": "MISSING",
+      "severity": "Medium",
+      "normalized_risk_score": 37.0,
+      "estimated_similarity_gain": 0.1798,
+      "confidence": "High"
+    },
+    {
+      "rank": 293,
+      "property": "navigator_own_keys[59]",
+      "domain": "Other",
+      "status": "MISSING",
+      "severity": "Medium",
+      "normalized_risk_score": 37.0,
+      "estimated_similarity_gain": 0.1798,
+      "confidence": "High"
+    },
+    {
+      "rank": 294,
+      "property": "navigator_own_keys[60]",
+      "domain": "Other",
+      "status": "MISSING",
+      "severity": "Medium",
+      "normalized_risk_score": 37.0,
+      "estimated_similarity_gain": 0.1798,
+      "confidence": "High"
+    },
+    {
+      "rank": 295,
+      "property": "navigator_own_keys[62]",
+      "domain": "Other",
+      "status": "MISSING",
+      "severity": "Medium",
+      "normalized_risk_score": 37.0,
+      "estimated_similarity_gain": 0.1798,
+      "confidence": "High"
+    },
+    {
+      "rank": 296,
+      "property": "navigator_own_keys[63]",
+      "domain": "Other",
+      "status": "MISSING",
+      "severity": "Medium",
+      "normalized_risk_score": 37.0,
+      "estimated_similarity_gain": 0.1798,
+      "confidence": "High"
+    },
+    {
+      "rank": 297,
+      "property": "navigator_own_keys[64]",
+      "domain": "Other",
+      "status": "MISSING",
+      "severity": "Medium",
+      "normalized_risk_score": 37.0,
+      "estimated_similarity_gain": 0.1798,
+      "confidence": "High"
+    },
+    {
+      "rank": 298,
+      "property": "navigator_own_keys[68]",
+      "domain": "Other",
+      "status": "MISSING",
+      "severity": "Medium",
+      "normalized_risk_score": 37.0,
+      "estimated_similarity_gain": 0.1798,
+      "confidence": "High"
+    },
+    {
+      "rank": 299,
+      "property": "navigator_own_keys[70]",
+      "domain": "Other",
+      "status": "MISSING",
+      "severity": "Medium",
+      "normalized_risk_score": 37.0,
+      "estimated_similarity_gain": 0.1798,
+      "confidence": "High"
+    },
+    {
+      "rank": 300,
+      "property": "navigator_own_keys[72]",
+      "domain": "Other",
+      "status": "MISSING",
+      "severity": "Medium",
+      "normalized_risk_score": 37.0,
+      "estimated_similarity_gain": 0.1798,
+      "confidence": "High"
+    },
+    {
+      "rank": 301,
+      "property": "navigator_own_keys[73]",
+      "domain": "Other",
+      "status": "MISSING",
+      "severity": "Medium",
+      "normalized_risk_score": 37.0,
+      "estimated_similarity_gain": 0.1798,
+      "confidence": "High"
+    },
+    {
+      "rank": 302,
+      "property": "navigator_own_keys[74]",
+      "domain": "Other",
+      "status": "MISSING",
+      "severity": "Medium",
+      "normalized_risk_score": 37.0,
+      "estimated_similarity_gain": 0.1798,
+      "confidence": "High"
+    },
+    {
+      "rank": 303,
+      "property": "navigator_own_keys[76]",
+      "domain": "Other",
+      "status": "MISSING",
+      "severity": "Medium",
+      "normalized_risk_score": 37.0,
+      "estimated_similarity_gain": 0.1798,
+      "confidence": "High"
+    },
+    {
+      "rank": 304,
+      "property": "navigator_own_keys[77]",
+      "domain": "Other",
+      "status": "MISSING",
+      "severity": "Medium",
+      "normalized_risk_score": 37.0,
+      "estimated_similarity_gain": 0.1798,
+      "confidence": "High"
+    },
+    {
+      "rank": 305,
+      "property": "navigator_own_keys[82]",
+      "domain": "Other",
+      "status": "MISSING",
+      "severity": "Medium",
+      "normalized_risk_score": 37.0,
+      "estimated_similarity_gain": 0.1798,
+      "confidence": "High"
+    },
+    {
+      "rank": 306,
+      "property": "window_keys[224]",
+      "domain": "Other",
+      "status": "MISSING",
+      "severity": "Medium",
+      "normalized_risk_score": 37.0,
+      "estimated_similarity_gain": 0.1798,
+      "confidence": "High"
+    },
+    {
+      "rank": 307,
+      "property": "window_keys[225]",
+      "domain": "Other",
+      "status": "MISSING",
+      "severity": "Medium",
+      "normalized_risk_score": 37.0,
+      "estimated_similarity_gain": 0.1798,
+      "confidence": "High"
+    },
+    {
+      "rank": 308,
+      "property": "window_keys[226]",
+      "domain": "Other",
+      "status": "MISSING",
+      "severity": "Medium",
+      "normalized_risk_score": 37.0,
+      "estimated_similarity_gain": 0.1798,
+      "confidence": "High"
+    },
+    {
+      "rank": 309,
+      "property": "window_keys[227]",
+      "domain": "Other",
+      "status": "MISSING",
+      "severity": "Medium",
+      "normalized_risk_score": 37.0,
+      "estimated_similarity_gain": 0.1798,
+      "confidence": "High"
+    },
+    {
+      "rank": 310,
+      "property": "window_keys[228]",
+      "domain": "Other",
+      "status": "MISSING",
+      "severity": "Medium",
+      "normalized_risk_score": 37.0,
+      "estimated_similarity_gain": 0.1798,
+      "confidence": "High"
+    },
+    {
+      "rank": 311,
+      "property": "window_keys[229]",
+      "domain": "Other",
+      "status": "MISSING",
+      "severity": "Medium",
+      "normalized_risk_score": 37.0,
+      "estimated_similarity_gain": 0.1798,
+      "confidence": "High"
+    },
+    {
+      "rank": 312,
+      "property": "window_keys[230]",
+      "domain": "Other",
+      "status": "MISSING",
+      "severity": "Medium",
+      "normalized_risk_score": 37.0,
+      "estimated_similarity_gain": 0.1798,
+      "confidence": "High"
+    },
+    {
+      "rank": 313,
+      "property": "window_keys[231]",
+      "domain": "Other",
+      "status": "MISSING",
+      "severity": "Medium",
+      "normalized_risk_score": 37.0,
+      "estimated_similarity_gain": 0.1798,
+      "confidence": "High"
+    },
+    {
+      "rank": 314,
+      "property": "window_keys[232]",
+      "domain": "Other",
+      "status": "MISSING",
+      "severity": "Medium",
+      "normalized_risk_score": 37.0,
+      "estimated_similarity_gain": 0.1798,
+      "confidence": "High"
+    },
+    {
+      "rank": 315,
+      "property": "window_keys[233]",
+      "domain": "Other",
+      "status": "MISSING",
+      "severity": "Medium",
+      "normalized_risk_score": 37.0,
+      "estimated_similarity_gain": 0.1798,
+      "confidence": "High"
+    },
+    {
+      "rank": 316,
+      "property": "window_keys[234]",
+      "domain": "Other",
+      "status": "MISSING",
+      "severity": "Medium",
+      "normalized_risk_score": 37.0,
+      "estimated_similarity_gain": 0.1798,
+      "confidence": "High"
+    },
+    {
+      "rank": 317,
+      "property": "window_keys[235]",
+      "domain": "Other",
+      "status": "MISSING",
+      "severity": "Medium",
+      "normalized_risk_score": 37.0,
+      "estimated_similarity_gain": 0.1798,
+      "confidence": "High"
+    },
+    {
+      "rank": 318,
+      "property": "window_keys[236]",
+      "domain": "Other",
+      "status": "MISSING",
+      "severity": "Medium",
+      "normalized_risk_score": 37.0,
+      "estimated_similarity_gain": 0.1798,
+      "confidence": "High"
+    },
+    {
+      "rank": 319,
+      "property": "window_keys[237]",
+      "domain": "Other",
+      "status": "MISSING",
+      "severity": "Medium",
+      "normalized_risk_score": 37.0,
+      "estimated_similarity_gain": 0.1798,
+      "confidence": "High"
+    },
+    {
+      "rank": 320,
+      "property": "window_keys[238]",
+      "domain": "Other",
+      "status": "MISSING",
+      "severity": "Medium",
+      "normalized_risk_score": 37.0,
+      "estimated_similarity_gain": 0.1798,
+      "confidence": "High"
+    },
+    {
+      "rank": 321,
+      "property": "window_keys[240]",
+      "domain": "Other",
+      "status": "MISSING",
+      "severity": "Medium",
+      "normalized_risk_score": 37.0,
+      "estimated_similarity_gain": 0.1798,
+      "confidence": "High"
+    },
+    {
+      "rank": 322,
+      "property": "window_keys[241]",
+      "domain": "Other",
+      "status": "MISSING",
+      "severity": "Medium",
+      "normalized_risk_score": 37.0,
+      "estimated_similarity_gain": 0.1798,
+      "confidence": "High"
+    },
+    {
+      "rank": 323,
+      "property": "window_keys[247]",
+      "domain": "Other",
+      "status": "MISSING",
+      "severity": "Medium",
+      "normalized_risk_score": 37.0,
+      "estimated_similarity_gain": 0.1798,
+      "confidence": "High"
+    },
+    {
+      "rank": 324,
+      "property": "window_keys[248]",
+      "domain": "Other",
+      "status": "MISSING",
+      "severity": "Medium",
+      "normalized_risk_score": 37.0,
+      "estimated_similarity_gain": 0.1798,
+      "confidence": "High"
+    },
+    {
+      "rank": 325,
+      "property": "window_keys[249]",
+      "domain": "Other",
+      "status": "MISSING",
+      "severity": "Medium",
+      "normalized_risk_score": 37.0,
+      "estimated_similarity_gain": 0.1798,
+      "confidence": "High"
+    },
+    {
+      "rank": 326,
+      "property": "window_keys[251]",
+      "domain": "Other",
+      "status": "MISSING",
+      "severity": "Medium",
+      "normalized_risk_score": 37.0,
+      "estimated_similarity_gain": 0.1798,
+      "confidence": "High"
+    },
+    {
+      "rank": 327,
+      "property": "window_keys[252]",
+      "domain": "Other",
+      "status": "MISSING",
+      "severity": "Medium",
+      "normalized_risk_score": 37.0,
+      "estimated_similarity_gain": 0.1798,
+      "confidence": "High"
+    },
+    {
+      "rank": 328,
+      "property": "window_keys[253]",
+      "domain": "Other",
+      "status": "MISSING",
+      "severity": "Medium",
+      "normalized_risk_score": 37.0,
+      "estimated_similarity_gain": 0.1798,
+      "confidence": "High"
+    },
+    {
+      "rank": 329,
+      "property": "window_keys[254]",
+      "domain": "Other",
+      "status": "MISSING",
+      "severity": "Medium",
+      "normalized_risk_score": 37.0,
+      "estimated_similarity_gain": 0.1798,
+      "confidence": "High"
+    },
+    {
+      "rank": 330,
+      "property": "window_keys[255]",
+      "domain": "Other",
+      "status": "MISSING",
+      "severity": "Medium",
+      "normalized_risk_score": 37.0,
+      "estimated_similarity_gain": 0.1798,
+      "confidence": "High"
+    },
+    {
+      "rank": 331,
+      "property": "window_keys[256]",
+      "domain": "Other",
+      "status": "MISSING",
+      "severity": "Medium",
+      "normalized_risk_score": 37.0,
+      "estimated_similarity_gain": 0.1798,
+      "confidence": "High"
+    },
+    {
+      "rank": 332,
+      "property": "window_keys[257]",
+      "domain": "Other",
+      "status": "MISSING",
+      "severity": "Medium",
+      "normalized_risk_score": 37.0,
+      "estimated_similarity_gain": 0.1798,
+      "confidence": "High"
+    },
+    {
+      "rank": 333,
+      "property": "window_keys[263]",
+      "domain": "Other",
+      "status": "MISSING",
+      "severity": "Medium",
+      "normalized_risk_score": 37.0,
+      "estimated_similarity_gain": 0.1798,
+      "confidence": "High"
+    },
+    {
+      "rank": 334,
+      "property": "features.notification_permission",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 36.0,
+      "estimated_similarity_gain": 0.1749,
+      "confidence": "High"
+    },
+    {
+      "rank": 335,
+      "property": "navigator.prototype_keys[34]",
+      "domain": "Navigator",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 36.0,
+      "estimated_similarity_gain": 0.1749,
+      "confidence": "High"
+    },
+    {
+      "rank": 336,
+      "property": "navigator.prototype_keys[35]",
+      "domain": "Navigator",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 36.0,
+      "estimated_similarity_gain": 0.1749,
+      "confidence": "High"
+    },
+    {
+      "rank": 337,
+      "property": "navigator.prototype_keys[36]",
+      "domain": "Navigator",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 36.0,
+      "estimated_similarity_gain": 0.1749,
+      "confidence": "High"
+    },
+    {
+      "rank": 338,
+      "property": "navigator_own_keys[11]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 36.0,
+      "estimated_similarity_gain": 0.1749,
+      "confidence": "High"
+    },
+    {
+      "rank": 339,
+      "property": "navigator_own_keys[14]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 36.0,
+      "estimated_similarity_gain": 0.1749,
+      "confidence": "High"
+    },
+    {
+      "rank": 340,
+      "property": "navigator_own_keys[18]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 36.0,
+      "estimated_similarity_gain": 0.1749,
+      "confidence": "High"
+    },
+    {
+      "rank": 341,
+      "property": "navigator_own_keys[1]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 36.0,
+      "estimated_similarity_gain": 0.1749,
+      "confidence": "High"
+    },
+    {
+      "rank": 342,
+      "property": "navigator_own_keys[21]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 36.0,
+      "estimated_similarity_gain": 0.1749,
+      "confidence": "High"
+    },
+    {
+      "rank": 343,
+      "property": "navigator_own_keys[22]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 36.0,
+      "estimated_similarity_gain": 0.1749,
+      "confidence": "High"
+    },
+    {
+      "rank": 344,
+      "property": "navigator_own_keys[23]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 36.0,
+      "estimated_similarity_gain": 0.1749,
+      "confidence": "High"
+    },
+    {
+      "rank": 345,
+      "property": "navigator_own_keys[26]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 36.0,
+      "estimated_similarity_gain": 0.1749,
+      "confidence": "High"
+    },
+    {
+      "rank": 346,
+      "property": "navigator_own_keys[27]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 36.0,
+      "estimated_similarity_gain": 0.1749,
+      "confidence": "High"
+    },
+    {
+      "rank": 347,
+      "property": "navigator_own_keys[29]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 36.0,
+      "estimated_similarity_gain": 0.1749,
+      "confidence": "High"
+    },
+    {
+      "rank": 348,
+      "property": "navigator_own_keys[2]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 36.0,
+      "estimated_similarity_gain": 0.1749,
+      "confidence": "High"
+    },
+    {
+      "rank": 349,
+      "property": "navigator_own_keys[31]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 36.0,
+      "estimated_similarity_gain": 0.1749,
+      "confidence": "High"
+    },
+    {
+      "rank": 350,
+      "property": "navigator_own_keys[33]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 36.0,
+      "estimated_similarity_gain": 0.1749,
+      "confidence": "High"
+    },
+    {
+      "rank": 351,
+      "property": "navigator_own_keys[34]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 36.0,
+      "estimated_similarity_gain": 0.1749,
+      "confidence": "High"
+    },
+    {
+      "rank": 352,
+      "property": "navigator_own_keys[3]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 36.0,
+      "estimated_similarity_gain": 0.1749,
+      "confidence": "High"
+    },
+    {
+      "rank": 353,
+      "property": "navigator_own_keys[4]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 36.0,
+      "estimated_similarity_gain": 0.1749,
+      "confidence": "High"
+    },
+    {
+      "rank": 354,
+      "property": "navigator_own_keys[6]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 36.0,
+      "estimated_similarity_gain": 0.1749,
+      "confidence": "High"
+    },
+    {
+      "rank": 355,
+      "property": "navigator_own_keys[9]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 36.0,
+      "estimated_similarity_gain": 0.1749,
+      "confidence": "High"
+    },
+    {
+      "rank": 356,
+      "property": "window_keys[0]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 36.0,
+      "estimated_similarity_gain": 0.1749,
+      "confidence": "High"
+    },
+    {
+      "rank": 357,
+      "property": "window_keys[100]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 36.0,
+      "estimated_similarity_gain": 0.1749,
+      "confidence": "High"
+    },
+    {
+      "rank": 358,
+      "property": "window_keys[107]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 36.0,
+      "estimated_similarity_gain": 0.1749,
+      "confidence": "High"
+    },
+    {
+      "rank": 359,
+      "property": "window_keys[10]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 36.0,
+      "estimated_similarity_gain": 0.1749,
+      "confidence": "High"
+    },
+    {
+      "rank": 360,
+      "property": "window_keys[111]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 36.0,
+      "estimated_similarity_gain": 0.1749,
+      "confidence": "High"
+    },
+    {
+      "rank": 361,
+      "property": "window_keys[112]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 36.0,
+      "estimated_similarity_gain": 0.1749,
+      "confidence": "High"
+    },
+    {
+      "rank": 362,
+      "property": "window_keys[113]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 36.0,
+      "estimated_similarity_gain": 0.1749,
+      "confidence": "High"
+    },
+    {
+      "rank": 363,
+      "property": "window_keys[114]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 36.0,
+      "estimated_similarity_gain": 0.1749,
+      "confidence": "High"
+    },
+    {
+      "rank": 364,
+      "property": "window_keys[115]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 36.0,
+      "estimated_similarity_gain": 0.1749,
+      "confidence": "High"
+    },
+    {
+      "rank": 365,
+      "property": "window_keys[116]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 36.0,
+      "estimated_similarity_gain": 0.1749,
+      "confidence": "High"
+    },
+    {
+      "rank": 366,
+      "property": "window_keys[117]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 36.0,
+      "estimated_similarity_gain": 0.1749,
+      "confidence": "High"
+    },
+    {
+      "rank": 367,
+      "property": "window_keys[119]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 36.0,
+      "estimated_similarity_gain": 0.1749,
+      "confidence": "High"
+    },
+    {
+      "rank": 368,
+      "property": "window_keys[120]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 36.0,
+      "estimated_similarity_gain": 0.1749,
+      "confidence": "High"
+    },
+    {
+      "rank": 369,
+      "property": "window_keys[121]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 36.0,
+      "estimated_similarity_gain": 0.1749,
+      "confidence": "High"
+    },
+    {
+      "rank": 370,
+      "property": "window_keys[122]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 36.0,
+      "estimated_similarity_gain": 0.1749,
+      "confidence": "High"
+    },
+    {
+      "rank": 371,
+      "property": "window_keys[123]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 36.0,
+      "estimated_similarity_gain": 0.1749,
+      "confidence": "High"
+    },
+    {
+      "rank": 372,
+      "property": "window_keys[12]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 36.0,
+      "estimated_similarity_gain": 0.1749,
+      "confidence": "High"
+    },
+    {
+      "rank": 373,
+      "property": "window_keys[131]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 36.0,
+      "estimated_similarity_gain": 0.1749,
+      "confidence": "High"
+    },
+    {
+      "rank": 374,
+      "property": "window_keys[134]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 36.0,
+      "estimated_similarity_gain": 0.1749,
+      "confidence": "High"
+    },
+    {
+      "rank": 375,
+      "property": "window_keys[135]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 36.0,
+      "estimated_similarity_gain": 0.1749,
+      "confidence": "High"
+    },
+    {
+      "rank": 376,
+      "property": "window_keys[139]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 36.0,
+      "estimated_similarity_gain": 0.1749,
+      "confidence": "High"
+    },
+    {
+      "rank": 377,
+      "property": "window_keys[13]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 36.0,
+      "estimated_similarity_gain": 0.1749,
+      "confidence": "High"
+    },
+    {
+      "rank": 378,
+      "property": "window_keys[141]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 36.0,
+      "estimated_similarity_gain": 0.1749,
+      "confidence": "High"
+    },
+    {
+      "rank": 379,
+      "property": "window_keys[144]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 36.0,
+      "estimated_similarity_gain": 0.1749,
+      "confidence": "High"
+    },
+    {
+      "rank": 380,
+      "property": "window_keys[146]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 36.0,
+      "estimated_similarity_gain": 0.1749,
+      "confidence": "High"
+    },
+    {
+      "rank": 381,
+      "property": "window_keys[147]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 36.0,
+      "estimated_similarity_gain": 0.1749,
+      "confidence": "High"
+    },
+    {
+      "rank": 382,
+      "property": "window_keys[148]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 36.0,
+      "estimated_similarity_gain": 0.1749,
+      "confidence": "High"
+    },
+    {
+      "rank": 383,
+      "property": "window_keys[14]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 36.0,
+      "estimated_similarity_gain": 0.1749,
+      "confidence": "High"
+    },
+    {
+      "rank": 384,
+      "property": "window_keys[151]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 36.0,
+      "estimated_similarity_gain": 0.1749,
+      "confidence": "High"
+    },
+    {
+      "rank": 385,
+      "property": "window_keys[152]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 36.0,
+      "estimated_similarity_gain": 0.1749,
+      "confidence": "High"
+    },
+    {
+      "rank": 386,
+      "property": "window_keys[153]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 36.0,
+      "estimated_similarity_gain": 0.1749,
+      "confidence": "High"
+    },
+    {
+      "rank": 387,
+      "property": "window_keys[154]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 36.0,
+      "estimated_similarity_gain": 0.1749,
+      "confidence": "High"
+    },
+    {
+      "rank": 388,
+      "property": "window_keys[155]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 36.0,
+      "estimated_similarity_gain": 0.1749,
+      "confidence": "High"
+    },
+    {
+      "rank": 389,
+      "property": "window_keys[156]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 36.0,
+      "estimated_similarity_gain": 0.1749,
+      "confidence": "High"
+    },
+    {
+      "rank": 390,
+      "property": "window_keys[157]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 36.0,
+      "estimated_similarity_gain": 0.1749,
+      "confidence": "High"
+    },
+    {
+      "rank": 391,
+      "property": "window_keys[15]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 36.0,
+      "estimated_similarity_gain": 0.1749,
+      "confidence": "High"
+    },
+    {
+      "rank": 392,
+      "property": "window_keys[163]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 36.0,
+      "estimated_similarity_gain": 0.1749,
+      "confidence": "High"
+    },
+    {
+      "rank": 393,
+      "property": "window_keys[171]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 36.0,
+      "estimated_similarity_gain": 0.1749,
+      "confidence": "High"
+    },
+    {
+      "rank": 394,
+      "property": "window_keys[172]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 36.0,
+      "estimated_similarity_gain": 0.1749,
+      "confidence": "High"
+    },
+    {
+      "rank": 395,
+      "property": "window_keys[173]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 36.0,
+      "estimated_similarity_gain": 0.1749,
+      "confidence": "High"
+    },
+    {
+      "rank": 396,
+      "property": "window_keys[177]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 36.0,
+      "estimated_similarity_gain": 0.1749,
+      "confidence": "High"
+    },
+    {
+      "rank": 397,
+      "property": "window_keys[179]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 36.0,
+      "estimated_similarity_gain": 0.1749,
+      "confidence": "High"
+    },
+    {
+      "rank": 398,
+      "property": "window_keys[180]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 36.0,
+      "estimated_similarity_gain": 0.1749,
+      "confidence": "High"
+    },
+    {
+      "rank": 399,
+      "property": "window_keys[181]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 36.0,
+      "estimated_similarity_gain": 0.1749,
+      "confidence": "High"
+    },
+    {
+      "rank": 400,
+      "property": "window_keys[184]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 36.0,
+      "estimated_similarity_gain": 0.1749,
+      "confidence": "High"
+    },
+    {
+      "rank": 401,
+      "property": "window_keys[187]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 36.0,
+      "estimated_similarity_gain": 0.1749,
+      "confidence": "High"
+    },
+    {
+      "rank": 402,
+      "property": "window_keys[190]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 36.0,
+      "estimated_similarity_gain": 0.1749,
+      "confidence": "High"
+    },
+    {
+      "rank": 403,
+      "property": "window_keys[196]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 36.0,
+      "estimated_similarity_gain": 0.1749,
+      "confidence": "High"
+    },
+    {
+      "rank": 404,
+      "property": "window_keys[198]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 36.0,
+      "estimated_similarity_gain": 0.1749,
+      "confidence": "High"
+    },
+    {
+      "rank": 405,
+      "property": "window_keys[19]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 36.0,
+      "estimated_similarity_gain": 0.1749,
+      "confidence": "High"
+    },
+    {
+      "rank": 406,
+      "property": "window_keys[1]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 36.0,
+      "estimated_similarity_gain": 0.1749,
+      "confidence": "High"
+    },
+    {
+      "rank": 407,
+      "property": "window_keys[203]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 36.0,
+      "estimated_similarity_gain": 0.1749,
+      "confidence": "High"
+    },
+    {
+      "rank": 408,
+      "property": "window_keys[204]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 36.0,
+      "estimated_similarity_gain": 0.1749,
+      "confidence": "High"
+    },
+    {
+      "rank": 409,
+      "property": "window_keys[206]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 36.0,
+      "estimated_similarity_gain": 0.1749,
+      "confidence": "High"
+    },
+    {
+      "rank": 410,
+      "property": "window_keys[209]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 36.0,
+      "estimated_similarity_gain": 0.1749,
+      "confidence": "High"
+    },
+    {
+      "rank": 411,
+      "property": "window_keys[210]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 36.0,
+      "estimated_similarity_gain": 0.1749,
+      "confidence": "High"
+    },
+    {
+      "rank": 412,
+      "property": "window_keys[211]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 36.0,
+      "estimated_similarity_gain": 0.1749,
+      "confidence": "High"
+    },
+    {
+      "rank": 413,
+      "property": "window_keys[213]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 36.0,
+      "estimated_similarity_gain": 0.1749,
+      "confidence": "High"
+    },
+    {
+      "rank": 414,
+      "property": "window_keys[214]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 36.0,
+      "estimated_similarity_gain": 0.1749,
+      "confidence": "High"
+    },
+    {
+      "rank": 415,
+      "property": "window_keys[215]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 36.0,
+      "estimated_similarity_gain": 0.1749,
+      "confidence": "High"
+    },
+    {
+      "rank": 416,
+      "property": "window_keys[216]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 36.0,
+      "estimated_similarity_gain": 0.1749,
+      "confidence": "High"
+    },
+    {
+      "rank": 417,
+      "property": "window_keys[217]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 36.0,
+      "estimated_similarity_gain": 0.1749,
+      "confidence": "High"
+    },
+    {
+      "rank": 418,
+      "property": "window_keys[23]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 36.0,
+      "estimated_similarity_gain": 0.1749,
+      "confidence": "High"
+    },
+    {
+      "rank": 419,
+      "property": "window_keys[25]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 36.0,
+      "estimated_similarity_gain": 0.1749,
+      "confidence": "High"
+    },
+    {
+      "rank": 420,
+      "property": "window_keys[27]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 36.0,
+      "estimated_similarity_gain": 0.1749,
+      "confidence": "High"
+    },
+    {
+      "rank": 421,
+      "property": "window_keys[28]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 36.0,
+      "estimated_similarity_gain": 0.1749,
+      "confidence": "High"
+    },
+    {
+      "rank": 422,
+      "property": "window_keys[29]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 36.0,
+      "estimated_similarity_gain": 0.1749,
+      "confidence": "High"
+    },
+    {
+      "rank": 423,
+      "property": "window_keys[30]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 36.0,
+      "estimated_similarity_gain": 0.1749,
+      "confidence": "High"
+    },
+    {
+      "rank": 424,
+      "property": "window_keys[32]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 36.0,
+      "estimated_similarity_gain": 0.1749,
+      "confidence": "High"
+    },
+    {
+      "rank": 425,
+      "property": "window_keys[36]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 36.0,
+      "estimated_similarity_gain": 0.1749,
+      "confidence": "High"
+    },
+    {
+      "rank": 426,
+      "property": "window_keys[38]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 36.0,
+      "estimated_similarity_gain": 0.1749,
+      "confidence": "High"
+    },
+    {
+      "rank": 427,
+      "property": "window_keys[3]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 36.0,
+      "estimated_similarity_gain": 0.1749,
+      "confidence": "High"
+    },
+    {
+      "rank": 428,
+      "property": "window_keys[40]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 36.0,
+      "estimated_similarity_gain": 0.1749,
+      "confidence": "High"
+    },
+    {
+      "rank": 429,
+      "property": "window_keys[42]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 36.0,
+      "estimated_similarity_gain": 0.1749,
+      "confidence": "High"
+    },
+    {
+      "rank": 430,
+      "property": "window_keys[43]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 36.0,
+      "estimated_similarity_gain": 0.1749,
+      "confidence": "High"
+    },
+    {
+      "rank": 431,
+      "property": "window_keys[44]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 36.0,
+      "estimated_similarity_gain": 0.1749,
+      "confidence": "High"
+    },
+    {
+      "rank": 432,
+      "property": "window_keys[45]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 36.0,
+      "estimated_similarity_gain": 0.1749,
+      "confidence": "High"
+    },
+    {
+      "rank": 433,
+      "property": "window_keys[46]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 36.0,
+      "estimated_similarity_gain": 0.1749,
+      "confidence": "High"
+    },
+    {
+      "rank": 434,
+      "property": "window_keys[47]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 36.0,
+      "estimated_similarity_gain": 0.1749,
+      "confidence": "High"
+    },
+    {
+      "rank": 435,
+      "property": "window_keys[48]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 36.0,
+      "estimated_similarity_gain": 0.1749,
+      "confidence": "High"
+    },
+    {
+      "rank": 436,
+      "property": "window_keys[49]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 36.0,
+      "estimated_similarity_gain": 0.1749,
+      "confidence": "High"
+    },
+    {
+      "rank": 437,
+      "property": "window_keys[4]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 36.0,
+      "estimated_similarity_gain": 0.1749,
+      "confidence": "High"
+    },
+    {
+      "rank": 438,
+      "property": "window_keys[50]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 36.0,
+      "estimated_similarity_gain": 0.1749,
+      "confidence": "High"
+    },
+    {
+      "rank": 439,
+      "property": "window_keys[51]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 36.0,
+      "estimated_similarity_gain": 0.1749,
+      "confidence": "High"
+    },
+    {
+      "rank": 440,
+      "property": "window_keys[65]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 36.0,
+      "estimated_similarity_gain": 0.1749,
+      "confidence": "High"
+    },
+    {
+      "rank": 441,
+      "property": "window_keys[66]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 36.0,
+      "estimated_similarity_gain": 0.1749,
+      "confidence": "High"
+    },
+    {
+      "rank": 442,
+      "property": "window_keys[67]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 36.0,
+      "estimated_similarity_gain": 0.1749,
+      "confidence": "High"
+    },
+    {
+      "rank": 443,
+      "property": "window_keys[69]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 36.0,
+      "estimated_similarity_gain": 0.1749,
+      "confidence": "High"
+    },
+    {
+      "rank": 444,
+      "property": "window_keys[70]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 36.0,
+      "estimated_similarity_gain": 0.1749,
+      "confidence": "High"
+    },
+    {
+      "rank": 445,
+      "property": "window_keys[71]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 36.0,
+      "estimated_similarity_gain": 0.1749,
+      "confidence": "High"
+    },
+    {
+      "rank": 446,
+      "property": "window_keys[72]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 36.0,
+      "estimated_similarity_gain": 0.1749,
+      "confidence": "High"
+    },
+    {
+      "rank": 447,
+      "property": "window_keys[77]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 36.0,
+      "estimated_similarity_gain": 0.1749,
+      "confidence": "High"
+    },
+    {
+      "rank": 448,
+      "property": "window_keys[78]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 36.0,
+      "estimated_similarity_gain": 0.1749,
+      "confidence": "High"
+    },
+    {
+      "rank": 449,
+      "property": "window_keys[79]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 36.0,
+      "estimated_similarity_gain": 0.1749,
+      "confidence": "High"
+    },
+    {
+      "rank": 450,
+      "property": "window_keys[80]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 36.0,
+      "estimated_similarity_gain": 0.1749,
+      "confidence": "High"
+    },
+    {
+      "rank": 451,
+      "property": "window_keys[8]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 36.0,
+      "estimated_similarity_gain": 0.1749,
+      "confidence": "High"
+    },
+    {
+      "rank": 452,
+      "property": "window_keys[95]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 36.0,
+      "estimated_similarity_gain": 0.1749,
+      "confidence": "High"
+    },
+    {
+      "rank": 453,
+      "property": "window_keys[96]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 36.0,
+      "estimated_similarity_gain": 0.1749,
+      "confidence": "High"
+    },
+    {
+      "rank": 454,
+      "property": "window_keys[98]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 36.0,
+      "estimated_similarity_gain": 0.1749,
+      "confidence": "High"
+    },
+    {
+      "rank": 455,
+      "property": "window_keys[99]",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Medium",
+      "normalized_risk_score": 36.0,
+      "estimated_similarity_gain": 0.1749,
+      "confidence": "High"
+    },
+    {
+      "rank": 456,
+      "property": "battery.charging",
+      "domain": "Other",
+      "status": "MISSING",
+      "severity": "Medium",
+      "normalized_risk_score": 35.5,
+      "estimated_similarity_gain": 0.1725,
+      "confidence": "High"
+    },
+    {
+      "rank": 457,
+      "property": "battery",
+      "domain": "Other",
+      "status": "ADDED",
+      "severity": "Medium",
+      "normalized_risk_score": 35.0,
+      "estimated_similarity_gain": 0.1701,
+      "confidence": "High"
+    },
+    {
+      "rank": 458,
+      "property": "document",
+      "domain": "Other",
+      "status": "ADDED",
+      "severity": "Medium",
+      "normalized_risk_score": 35.0,
+      "estimated_similarity_gain": 0.1701,
+      "confidence": "High"
+    },
+    {
+      "rank": 459,
+      "property": "media_devices",
+      "domain": "Other",
+      "status": "ADDED",
+      "severity": "Medium",
+      "normalized_risk_score": 35.0,
+      "estimated_similarity_gain": 0.1701,
+      "confidence": "High"
+    },
+    {
+      "rank": 460,
+      "property": "features.ServiceWorker",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Low",
+      "normalized_risk_score": 34.5,
+      "estimated_similarity_gain": 0.1676,
+      "confidence": "High"
+    },
+    {
+      "rank": 461,
+      "property": "features.crypto_subtle",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Low",
+      "normalized_risk_score": 34.5,
+      "estimated_similarity_gain": 0.1676,
+      "confidence": "High"
+    },
+    {
+      "rank": 462,
+      "property": "gpu.available",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Low",
+      "normalized_risk_score": 34.5,
+      "estimated_similarity_gain": 0.1676,
+      "confidence": "High"
+    },
+    {
+      "rank": 463,
+      "property": "hardware_apis.bluetooth",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Low",
+      "normalized_risk_score": 34.5,
+      "estimated_similarity_gain": 0.1676,
+      "confidence": "High"
+    },
+    {
+      "rank": 464,
+      "property": "hardware_apis.clipboard",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Low",
+      "normalized_risk_score": 34.5,
+      "estimated_similarity_gain": 0.1676,
+      "confidence": "High"
+    },
+    {
+      "rank": 465,
+      "property": "hardware_apis.hid",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Low",
+      "normalized_risk_score": 34.5,
+      "estimated_similarity_gain": 0.1676,
+      "confidence": "High"
+    },
+    {
+      "rank": 466,
+      "property": "hardware_apis.keyboard",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Low",
+      "normalized_risk_score": 34.5,
+      "estimated_similarity_gain": 0.1676,
+      "confidence": "High"
+    },
+    {
+      "rank": 467,
+      "property": "hardware_apis.serial",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Low",
+      "normalized_risk_score": 34.5,
+      "estimated_similarity_gain": 0.1676,
+      "confidence": "High"
+    },
+    {
+      "rank": 468,
+      "property": "hardware_apis.usb",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Low",
+      "normalized_risk_score": 34.5,
+      "estimated_similarity_gain": 0.1676,
+      "confidence": "High"
+    },
+    {
+      "rank": 469,
+      "property": "media_capabilities.powerEfficient",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Low",
+      "normalized_risk_score": 34.5,
+      "estimated_similarity_gain": 0.1676,
+      "confidence": "High"
+    },
+    {
+      "rank": 470,
+      "property": "document.readyState",
+      "domain": "Other",
+      "status": "MISSING",
+      "severity": "Low",
+      "normalized_risk_score": 32.41,
+      "estimated_similarity_gain": 0.1575,
+      "confidence": "Medium"
+    },
+    {
+      "rank": 471,
+      "property": "history.length",
+      "domain": "Other",
+      "status": "DIFFERENT",
+      "severity": "Low",
+      "normalized_risk_score": 31.56,
+      "estimated_similarity_gain": 0.1534,
+      "confidence": "Medium"
+    }
+  ]
+}

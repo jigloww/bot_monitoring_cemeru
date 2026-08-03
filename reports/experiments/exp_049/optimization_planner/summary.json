@@ -1,0 +1,23 @@
+{
+  "experiment": "Experiment 025 — Optimization Planner",
+  "experiment_id": "exp_049",
+  "current_overall": 78.9,
+  "current_cf_score": 84.8,
+  "historical_best_overall": 78.9,
+  "estimated_maximum_practical_similarity": 96.71,
+  "planned_properties": 471,
+  "sprints": 3,
+  "source_artifacts": {
+    "dashboard": "reports\\dashboard\\dashboard.json",
+    "importance": "reports\\experiments\\exp_045\\fingerprint_importance\\importance.json",
+    "risk": "reports\\experiments\\exp_048\\fingerprint_risk\\risk.json",
+    "evolution": "reports\\experiments\\exp_043\\fingerprint_evolution\\summary.json",
+    "session_diff": "reports\\experiments\\exp_036\\session_diff\\summary.json",
+    "consistency": "reports\\experiments\\exp_013\\consistency_report.json",
+    "navigator_gap": "reports\\experiments\\exp_005\\navigator_gap_analysis.json",
+    "comparator": "reports\\experiments\\exp_014\\webgl\\previous_stack_webgl\\compare.json"
+  },
+  "result": "SUCCESS",
+  "analysis_only": true,
+  "browser_launches": 0
+}

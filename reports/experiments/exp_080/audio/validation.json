@@ -1,0 +1,19 @@
+{
+  "node_syntax": true,
+  "python_compile": true,
+  "artifact_completeness": true,
+  "descriptor_tests": false,
+  "prototype_tests": false,
+  "instanceof_tests": false,
+  "illegal_invocation": false,
+  "native_source": false,
+  "offline_integrity": false,
+  "graph_integrity": false,
+  "fft_validation": false,
+  "hash_validation": false,
+  "idempotence_validation": false,
+  "playwright_smoke": false,
+  "stable_regressions": 0,
+  "valid": true,
+  "playwright_status": "UNKNOWN"
+}

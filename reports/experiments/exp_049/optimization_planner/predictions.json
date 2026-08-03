@@ -1,0 +1,28 @@
+{
+  "current_overall": 78.9,
+  "historical_best_overall": 78.9,
+  "estimated_maximum_practical_similarity": 96.71,
+  "sprints": [
+    {
+      "sprint": "Sprint 1",
+      "estimated_overall_after": 78.9,
+      "estimated_gain_pct": 0
+    },
+    {
+      "sprint": "Sprint 2",
+      "estimated_overall_after": 79.38,
+      "estimated_gain_pct": 2.59
+    },
+    {
+      "sprint": "Sprint 3",
+      "estimated_overall_after": 95.51,
+      "estimated_gain_pct": 87.2574
+    },
+    {
+      "sprint": "Sprint 4",
+      "estimated_overall_after": 96.71,
+      "estimated_gain_pct": 6.4766
+    }
+  ],
+  "method": "Current score plus confidence-weighted share of the remaining 100-point gap; capped at 99%."
+}

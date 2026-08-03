@@ -1,0 +1,36 @@
+{
+  "experiment": "Experiment 024 — Fingerprint Risk Predictor",
+  "experiment_id": "exp_046",
+  "baseline_source": "reports\\fingerprint\\fingerprint_real.json",
+  "candidate_source": "reports\\experiments\\exp_014\\webgl\\previous_stack_webgl\\fingerprint.json",
+  "total_analyzed_properties": 471,
+  "risk_distribution": {
+    "Critical": 9,
+    "High": 10,
+    "Medium": 440,
+    "Low": 12
+  },
+  "highest_risk_properties": [
+    "navigator.userAgent",
+    "navigator.userAgentData.brands[1].version",
+    "navigator.userAgentData.brands[2].version",
+    "navigator.userAgentData.high_entropy.brands[1].version",
+    "navigator.userAgentData.high_entropy.brands[2].version",
+    "navigator.userAgentData.high_entropy.fullVersionList[1].version",
+    "navigator.userAgentData.high_entropy.fullVersionList[2].version",
+    "navigator.userAgentData.high_entropy.platformVersion",
+    "navigator.userAgentData.high_entropy.uaFullVersion",
+    "navigator.languages[1]"
+  ],
+  "estimated_similarity_improvement": {
+    "top_5": 1.9825,
+    "top_10": 3.9232,
+    "top_20": 7.0853,
+    "total_weighted_opportunity": 96.32
+  },
+  "importance_source": "reports\\experiments\\exp_045\\fingerprint_importance\\importance.json",
+  "evolution_source": "reports\\experiments\\exp_043\\fingerprint_evolution\\summary.json",
+  "result": "SUCCESS",
+  "analysis_only": true,
+  "browser_launches": 0
+}

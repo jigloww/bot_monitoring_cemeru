@@ -1,0 +1,1050 @@
+{
+  "changes": [
+    {
+      "from": "exp_001",
+      "to": "exp_002",
+      "score_delta": null,
+      "cf_score_delta": null,
+      "diff_delta": null,
+      "hash_change": false,
+      "new_modules": [],
+      "removed_modules": [],
+      "category_improvement": [],
+      "category_regression": [],
+      "missing_categories": [
+        "Navigator",
+        "Window",
+        "Screen",
+        "Chrome",
+        "Permissions",
+        "Fonts",
+        "Speech",
+        "Performance",
+        "WebGL"
+      ],
+      "missing_artifacts": [
+        "compare",
+        "fingerprint",
+        "score",
+        "statistics",
+        "summary"
+      ],
+      "result": "UNKNOWN"
+    },
+    {
+      "from": "exp_002",
+      "to": "exp_005",
+      "score_delta": null,
+      "cf_score_delta": null,
+      "diff_delta": null,
+      "hash_change": false,
+      "new_modules": [],
+      "removed_modules": [],
+      "category_improvement": [],
+      "category_regression": [],
+      "missing_categories": [
+        "Navigator",
+        "Window",
+        "Screen",
+        "Chrome",
+        "Permissions",
+        "Fonts",
+        "Speech",
+        "Performance",
+        "WebGL"
+      ],
+      "missing_artifacts": [
+        "compare",
+        "fingerprint",
+        "score",
+        "statistics",
+        "summary"
+      ],
+      "result": "UNKNOWN"
+    },
+    {
+      "from": "exp_005",
+      "to": "exp_006",
+      "score_delta": null,
+      "cf_score_delta": null,
+      "diff_delta": null,
+      "hash_change": false,
+      "new_modules": [],
+      "removed_modules": [],
+      "category_improvement": [],
+      "category_regression": [],
+      "missing_categories": [
+        "Navigator",
+        "Window",
+        "Screen",
+        "Chrome",
+        "Permissions",
+        "Fonts",
+        "Speech",
+        "Performance",
+        "WebGL"
+      ],
+      "missing_artifacts": [
+        "fingerprint",
+        "statistics"
+      ],
+      "result": "UNKNOWN"
+    },
+    {
+      "from": "exp_006",
+      "to": "exp_007",
+      "score_delta": null,
+      "cf_score_delta": null,
+      "diff_delta": null,
+      "hash_change": false,
+      "new_modules": [],
+      "removed_modules": [],
+      "category_improvement": [],
+      "category_regression": [],
+      "missing_categories": [
+        "Navigator",
+        "Window",
+        "Screen",
+        "Chrome",
+        "Permissions",
+        "Fonts",
+        "Speech",
+        "Performance",
+        "WebGL"
+      ],
+      "missing_artifacts": [
+        "fingerprint",
+        "statistics"
+      ],
+      "result": "UNKNOWN"
+    },
+    {
+      "from": "exp_007",
+      "to": "exp_008",
+      "score_delta": null,
+      "cf_score_delta": null,
+      "diff_delta": null,
+      "hash_change": false,
+      "new_modules": [],
+      "removed_modules": [],
+      "category_improvement": [],
+      "category_regression": [],
+      "missing_categories": [
+        "Navigator",
+        "Window",
+        "Screen",
+        "Chrome",
+        "Permissions",
+        "Fonts",
+        "Speech",
+        "Performance",
+        "WebGL"
+      ],
+      "missing_artifacts": [
+        "statistics"
+      ],
+      "result": "UNKNOWN"
+    },
+    {
+      "from": "exp_008",
+      "to": "exp_009",
+      "score_delta": 0.8,
+      "cf_score_delta": 0.6,
+      "diff_delta": -1.0,
+      "hash_change": false,
+      "new_modules": [],
+      "removed_modules": [],
+      "category_improvement": [
+        {
+          "category": "Permissions",
+          "delta": 14.3
+        }
+      ],
+      "category_regression": [],
+      "missing_categories": [],
+      "missing_artifacts": [
+        "statistics"
+      ],
+      "result": "UNKNOWN"
+    },
+    {
+      "from": "exp_009",
+      "to": "exp_010",
+      "score_delta": 0.0,
+      "cf_score_delta": 0.0,
+      "diff_delta": 0.0,
+      "hash_change": false,
+      "new_modules": [],
+      "removed_modules": [],
+      "category_improvement": [],
+      "category_regression": [],
+      "missing_categories": [],
+      "missing_artifacts": [
+        "statistics"
+      ],
+      "result": "UNKNOWN"
+    },
+    {
+      "from": "exp_010",
+      "to": "exp_011",
+      "score_delta": 5.7,
+      "cf_score_delta": 3.8,
+      "diff_delta": -66.0,
+      "hash_change": false,
+      "new_modules": [],
+      "removed_modules": [],
+      "category_improvement": [
+        {
+          "category": "Speech",
+          "delta": 100.0
+        }
+      ],
+      "category_regression": [
+        {
+          "category": "Navigator",
+          "delta": -3.6
+        }
+      ],
+      "missing_categories": [],
+      "missing_artifacts": [
+        "statistics"
+      ],
+      "result": "UNKNOWN"
+    },
+    {
+      "from": "exp_011",
+      "to": "exp_012",
+      "score_delta": 4.7,
+      "cf_score_delta": 2.9,
+      "diff_delta": -8.0,
+      "hash_change": false,
+      "new_modules": [],
+      "removed_modules": [],
+      "category_improvement": [
+        {
+          "category": "Performance",
+          "delta": 80.0
+        }
+      ],
+      "category_regression": [],
+      "missing_categories": [],
+      "missing_artifacts": [
+        "statistics"
+      ],
+      "result": "UNKNOWN"
+    },
+    {
+      "from": "exp_012",
+      "to": "exp_013",
+      "score_delta": null,
+      "cf_score_delta": null,
+      "diff_delta": null,
+      "hash_change": false,
+      "new_modules": [],
+      "removed_modules": [],
+      "category_improvement": [],
+      "category_regression": [],
+      "missing_categories": [
+        "Navigator",
+        "Window",
+        "Screen",
+        "Chrome",
+        "Permissions",
+        "Fonts",
+        "Speech",
+        "Performance",
+        "WebGL"
+      ],
+      "missing_artifacts": [
+        "compare",
+        "fingerprint",
+        "score",
+        "statistics",
+        "summary"
+      ],
+      "result": "UNKNOWN"
+    },
+    {
+      "from": "exp_013",
+      "to": "exp_014",
+      "score_delta": null,
+      "cf_score_delta": null,
+      "diff_delta": null,
+      "hash_change": false,
+      "new_modules": [],
+      "removed_modules": [],
+      "category_improvement": [],
+      "category_regression": [],
+      "missing_categories": [
+        "Navigator",
+        "Window",
+        "Screen",
+        "Chrome",
+        "Permissions",
+        "Fonts",
+        "Speech",
+        "Performance",
+        "WebGL"
+      ],
+      "missing_artifacts": [
+        "statistics"
+      ],
+      "result": "UNKNOWN"
+    },
+    {
+      "from": "exp_014",
+      "to": "exp_015",
+      "score_delta": null,
+      "cf_score_delta": null,
+      "diff_delta": null,
+      "hash_change": false,
+      "new_modules": [],
+      "removed_modules": [],
+      "category_improvement": [],
+      "category_regression": [],
+      "missing_categories": [
+        "Navigator",
+        "Window",
+        "Screen",
+        "Chrome",
+        "Permissions",
+        "Fonts",
+        "Speech",
+        "Performance",
+        "WebGL"
+      ],
+      "missing_artifacts": [
+        "compare",
+        "fingerprint",
+        "score",
+        "statistics"
+      ],
+      "result": "UNKNOWN"
+    },
+    {
+      "from": "exp_015",
+      "to": "exp_016",
+      "score_delta": null,
+      "cf_score_delta": null,
+      "diff_delta": null,
+      "hash_change": false,
+      "new_modules": [],
+      "removed_modules": [],
+      "category_improvement": [],
+      "category_regression": [],
+      "missing_categories": [
+        "Navigator",
+        "Window",
+        "Screen",
+        "Chrome",
+        "Permissions",
+        "Fonts",
+        "Speech",
+        "Performance",
+        "WebGL"
+      ],
+      "missing_artifacts": [
+        "compare",
+        "fingerprint",
+        "score",
+        "statistics"
+      ],
+      "result": "UNKNOWN"
+    },
+    {
+      "from": "exp_016",
+      "to": "exp_017",
+      "score_delta": null,
+      "cf_score_delta": null,
+      "diff_delta": null,
+      "hash_change": false,
+      "new_modules": [],
+      "removed_modules": [],
+      "category_improvement": [],
+      "category_regression": [],
+      "missing_categories": [
+        "Navigator",
+        "Window",
+        "Screen",
+        "Chrome",
+        "Permissions",
+        "Fonts",
+        "Speech",
+        "Performance",
+        "WebGL"
+      ],
+      "missing_artifacts": [
+        "compare",
+        "fingerprint",
+        "score",
+        "statistics"
+      ],
+      "result": "UNKNOWN"
+    },
+    {
+      "from": "exp_017",
+      "to": "exp_018",
+      "score_delta": null,
+      "cf_score_delta": null,
+      "diff_delta": null,
+      "hash_change": false,
+      "new_modules": [],
+      "removed_modules": [],
+      "category_improvement": [],
+      "category_regression": [],
+      "missing_categories": [
+        "Navigator",
+        "Window",
+        "Screen",
+        "Chrome",
+        "Permissions",
+        "Fonts",
+        "Speech",
+        "Performance",
+        "WebGL"
+      ],
+      "missing_artifacts": [
+        "compare",
+        "fingerprint",
+        "score",
+        "statistics"
+      ],
+      "result": "UNKNOWN"
+    },
+    {
+      "from": "exp_018",
+      "to": "exp_019",
+      "score_delta": null,
+      "cf_score_delta": null,
+      "diff_delta": null,
+      "hash_change": false,
+      "new_modules": [],
+      "removed_modules": [],
+      "category_improvement": [],
+      "category_regression": [],
+      "missing_categories": [
+        "Navigator",
+        "Window",
+        "Screen",
+        "Chrome",
+        "Permissions",
+        "Fonts",
+        "Speech",
+        "Performance",
+        "WebGL"
+      ],
+      "missing_artifacts": [
+        "compare",
+        "fingerprint",
+        "score",
+        "statistics"
+      ],
+      "result": "UNKNOWN"
+    },
+    {
+      "from": "exp_019",
+      "to": "exp_020",
+      "score_delta": null,
+      "cf_score_delta": null,
+      "diff_delta": null,
+      "hash_change": false,
+      "new_modules": [],
+      "removed_modules": [],
+      "category_improvement": [],
+      "category_regression": [],
+      "missing_categories": [
+        "Navigator",
+        "Window",
+        "Screen",
+        "Chrome",
+        "Permissions",
+        "Fonts",
+        "Speech",
+        "Performance",
+        "WebGL"
+      ],
+      "missing_artifacts": [
+        "compare",
+        "fingerprint",
+        "score",
+        "statistics"
+      ],
+      "result": "UNKNOWN"
+    },
+    {
+      "from": "exp_020",
+      "to": "exp_021",
+      "score_delta": null,
+      "cf_score_delta": null,
+      "diff_delta": null,
+      "hash_change": false,
+      "new_modules": [],
+      "removed_modules": [],
+      "category_improvement": [],
+      "category_regression": [],
+      "missing_categories": [
+        "Navigator",
+        "Window",
+        "Screen",
+        "Chrome",
+        "Permissions",
+        "Fonts",
+        "Speech",
+        "Performance",
+        "WebGL"
+      ],
+      "missing_artifacts": [
+        "compare",
+        "fingerprint",
+        "score"
+      ],
+      "result": "UNKNOWN"
+    },
+    {
+      "from": "exp_021",
+      "to": "exp_022",
+      "score_delta": null,
+      "cf_score_delta": null,
+      "diff_delta": null,
+      "hash_change": false,
+      "new_modules": [],
+      "removed_modules": [],
+      "category_improvement": [],
+      "category_regression": [],
+      "missing_categories": [
+        "Navigator",
+        "Window",
+        "Screen",
+        "Chrome",
+        "Permissions",
+        "Fonts",
+        "Speech",
+        "Performance",
+        "WebGL"
+      ],
+      "missing_artifacts": [
+        "compare",
+        "fingerprint",
+        "score",
+        "statistics"
+      ],
+      "result": "UNKNOWN"
+    },
+    {
+      "from": "exp_022",
+      "to": "exp_023",
+      "score_delta": null,
+      "cf_score_delta": null,
+      "diff_delta": null,
+      "hash_change": false,
+      "new_modules": [],
+      "removed_modules": [],
+      "category_improvement": [],
+      "category_regression": [],
+      "missing_categories": [
+        "Navigator",
+        "Window",
+        "Screen",
+        "Chrome",
+        "Permissions",
+        "Fonts",
+        "Speech",
+        "Performance",
+        "WebGL"
+      ],
+      "missing_artifacts": [
+        "compare",
+        "fingerprint",
+        "score"
+      ],
+      "result": "UNKNOWN"
+    },
+    {
+      "from": "exp_023",
+      "to": "exp_024",
+      "score_delta": null,
+      "cf_score_delta": null,
+      "diff_delta": null,
+      "hash_change": false,
+      "new_modules": [],
+      "removed_modules": [],
+      "category_improvement": [],
+      "category_regression": [],
+      "missing_categories": [
+        "Navigator",
+        "Window",
+        "Screen",
+        "Chrome",
+        "Permissions",
+        "Fonts",
+        "Speech",
+        "Performance",
+        "WebGL"
+      ],
+      "missing_artifacts": [
+        "compare",
+        "fingerprint",
+        "score"
+      ],
+      "result": "UNKNOWN"
+    },
+    {
+      "from": "exp_024",
+      "to": "exp_025",
+      "score_delta": null,
+      "cf_score_delta": null,
+      "diff_delta": null,
+      "hash_change": false,
+      "new_modules": [],
+      "removed_modules": [],
+      "category_improvement": [],
+      "category_regression": [],
+      "missing_categories": [
+        "Navigator",
+        "Window",
+        "Screen",
+        "Chrome",
+        "Permissions",
+        "Fonts",
+        "Speech",
+        "Performance",
+        "WebGL"
+      ],
+      "missing_artifacts": [
+        "compare",
+        "fingerprint",
+        "score"
+      ],
+      "result": "FAILED"
+    },
+    {
+      "from": "exp_025",
+      "to": "exp_026",
+      "score_delta": null,
+      "cf_score_delta": null,
+      "diff_delta": null,
+      "hash_change": false,
+      "new_modules": [],
+      "removed_modules": [],
+      "category_improvement": [],
+      "category_regression": [],
+      "missing_categories": [
+        "Navigator",
+        "Window",
+        "Screen",
+        "Chrome",
+        "Permissions",
+        "Fonts",
+        "Speech",
+        "Performance",
+        "WebGL"
+      ],
+      "missing_artifacts": [
+        "compare",
+        "fingerprint",
+        "score"
+      ],
+      "result": "UNKNOWN"
+    },
+    {
+      "from": "exp_026",
+      "to": "exp_027",
+      "score_delta": null,
+      "cf_score_delta": null,
+      "diff_delta": null,
+      "hash_change": false,
+      "new_modules": [],
+      "removed_modules": [],
+      "category_improvement": [],
+      "category_regression": [],
+      "missing_categories": [
+        "Navigator",
+        "Window",
+        "Screen",
+        "Chrome",
+        "Permissions",
+        "Fonts",
+        "Speech",
+        "Performance",
+        "WebGL"
+      ],
+      "missing_artifacts": [
+        "compare",
+        "fingerprint",
+        "score"
+      ],
+      "result": "UNKNOWN"
+    },
+    {
+      "from": "exp_027",
+      "to": "exp_028",
+      "score_delta": null,
+      "cf_score_delta": null,
+      "diff_delta": null,
+      "hash_change": false,
+      "new_modules": [
+        "environment",
+        "fonts",
+        "navigator",
+        "performance",
+        "permissions",
+        "screen",
+        "speech",
+        "storage",
+        "webgl",
+        "window"
+      ],
+      "removed_modules": [],
+      "category_improvement": [],
+      "category_regression": [],
+      "missing_categories": [
+        "Navigator",
+        "Window",
+        "Screen",
+        "Chrome",
+        "Permissions",
+        "Fonts",
+        "Speech",
+        "Performance",
+        "WebGL"
+      ],
+      "missing_artifacts": [
+        "compare",
+        "score"
+      ],
+      "result": "UNKNOWN"
+    },
+    {
+      "from": "exp_028",
+      "to": "exp_029",
+      "score_delta": null,
+      "cf_score_delta": null,
+      "diff_delta": null,
+      "hash_change": true,
+      "new_modules": [],
+      "removed_modules": [],
+      "category_improvement": [],
+      "category_regression": [],
+      "missing_categories": [
+        "Navigator",
+        "Window",
+        "Screen",
+        "Chrome",
+        "Permissions",
+        "Fonts",
+        "Speech",
+        "Performance",
+        "WebGL"
+      ],
+      "missing_artifacts": [
+        "compare",
+        "score"
+      ],
+      "result": "UNKNOWN"
+    },
+    {
+      "from": "exp_029",
+      "to": "exp_030",
+      "score_delta": null,
+      "cf_score_delta": null,
+      "diff_delta": null,
+      "hash_change": true,
+      "new_modules": [],
+      "removed_modules": [],
+      "category_improvement": [],
+      "category_regression": [],
+      "missing_categories": [
+        "Navigator",
+        "Window",
+        "Screen",
+        "Chrome",
+        "Permissions",
+        "Fonts",
+        "Speech",
+        "Performance",
+        "WebGL"
+      ],
+      "missing_artifacts": [
+        "compare",
+        "score"
+      ],
+      "result": "UNKNOWN"
+    },
+    {
+      "from": "exp_030",
+      "to": "exp_031",
+      "score_delta": null,
+      "cf_score_delta": null,
+      "diff_delta": null,
+      "hash_change": true,
+      "new_modules": [],
+      "removed_modules": [],
+      "category_improvement": [],
+      "category_regression": [],
+      "missing_categories": [
+        "Navigator",
+        "Window",
+        "Screen",
+        "Chrome",
+        "Permissions",
+        "Fonts",
+        "Speech",
+        "Performance",
+        "WebGL"
+      ],
+      "missing_artifacts": [
+        "compare",
+        "score"
+      ],
+      "result": "UNKNOWN"
+    },
+    {
+      "from": "exp_031",
+      "to": "exp_032",
+      "score_delta": null,
+      "cf_score_delta": null,
+      "diff_delta": null,
+      "hash_change": true,
+      "new_modules": [],
+      "removed_modules": [],
+      "category_improvement": [],
+      "category_regression": [],
+      "missing_categories": [
+        "Navigator",
+        "Window",
+        "Screen",
+        "Chrome",
+        "Permissions",
+        "Fonts",
+        "Speech",
+        "Performance",
+        "WebGL"
+      ],
+      "missing_artifacts": [
+        "compare",
+        "score"
+      ],
+      "result": "UNKNOWN"
+    },
+    {
+      "from": "exp_032",
+      "to": "exp_033",
+      "score_delta": null,
+      "cf_score_delta": null,
+      "diff_delta": null,
+      "hash_change": false,
+      "new_modules": [],
+      "removed_modules": [
+        "environment",
+        "fonts",
+        "navigator",
+        "performance",
+        "permissions",
+        "screen",
+        "speech",
+        "storage",
+        "webgl",
+        "window"
+      ],
+      "category_improvement": [],
+      "category_regression": [],
+      "missing_categories": [
+        "Navigator",
+        "Window",
+        "Screen",
+        "Chrome",
+        "Permissions",
+        "Fonts",
+        "Speech",
+        "Performance",
+        "WebGL"
+      ],
+      "missing_artifacts": [
+        "compare",
+        "fingerprint",
+        "score"
+      ],
+      "result": "DIFFERENT"
+    },
+    {
+      "from": "exp_033",
+      "to": "exp_034",
+      "score_delta": null,
+      "cf_score_delta": null,
+      "diff_delta": null,
+      "hash_change": false,
+      "new_modules": [],
+      "removed_modules": [],
+      "category_improvement": [],
+      "category_regression": [],
+      "missing_categories": [
+        "Navigator",
+        "Window",
+        "Screen",
+        "Chrome",
+        "Permissions",
+        "Fonts",
+        "Speech",
+        "Performance",
+        "WebGL"
+      ],
+      "missing_artifacts": [
+        "compare",
+        "fingerprint",
+        "score"
+      ],
+      "result": "UNKNOWN"
+    },
+    {
+      "from": "exp_034",
+      "to": "exp_035",
+      "score_delta": null,
+      "cf_score_delta": null,
+      "diff_delta": null,
+      "hash_change": false,
+      "new_modules": [],
+      "removed_modules": [],
+      "category_improvement": [],
+      "category_regression": [],
+      "missing_categories": [
+        "Navigator",
+        "Window",
+        "Screen",
+        "Chrome",
+        "Permissions",
+        "Fonts",
+        "Speech",
+        "Performance",
+        "WebGL"
+      ],
+      "missing_artifacts": [
+        "compare",
+        "fingerprint",
+        "score"
+      ],
+      "result": "UNKNOWN"
+    },
+    {
+      "from": "exp_035",
+      "to": "exp_036",
+      "score_delta": null,
+      "cf_score_delta": null,
+      "diff_delta": null,
+      "hash_change": false,
+      "new_modules": [],
+      "removed_modules": [],
+      "category_improvement": [],
+      "category_regression": [],
+      "missing_categories": [
+        "Navigator",
+        "Window",
+        "Screen",
+        "Chrome",
+        "Permissions",
+        "Fonts",
+        "Speech",
+        "Performance",
+        "WebGL"
+      ],
+      "missing_artifacts": [
+        "compare",
+        "fingerprint",
+        "score"
+      ],
+      "result": "UNKNOWN"
+    },
+    {
+      "from": "exp_036",
+      "to": "exp_037",
+      "score_delta": null,
+      "cf_score_delta": null,
+      "diff_delta": null,
+      "hash_change": false,
+      "new_modules": [],
+      "removed_modules": [],
+      "category_improvement": [],
+      "category_regression": [],
+      "missing_categories": [
+        "Navigator",
+        "Window",
+        "Screen",
+        "Chrome",
+        "Permissions",
+        "Fonts",
+        "Speech",
+        "Performance",
+        "WebGL"
+      ],
+      "missing_artifacts": [
+        "compare",
+        "fingerprint",
+        "score",
+        "statistics",
+        "summary"
+      ],
+      "result": "UNKNOWN"
+    },
+    {
+      "from": "exp_037",
+      "to": "exp_038",
+      "score_delta": null,
+      "cf_score_delta": null,
+      "diff_delta": null,
+      "hash_change": false,
+      "new_modules": [],
+      "removed_modules": [],
+      "category_improvement": [],
+      "category_regression": [],
+      "missing_categories": [
+        "Navigator",
+        "Window",
+        "Screen",
+        "Chrome",
+        "Permissions",
+        "Fonts",
+        "Speech",
+        "Performance",
+        "WebGL"
+      ],
+      "missing_artifacts": [
+        "compare",
+        "fingerprint",
+        "score",
+        "statistics",
+        "summary"
+      ],
+      "result": "UNKNOWN"
+    },
+    {
+      "from": "exp_038",
+      "to": "exp_039",
+      "score_delta": null,
+      "cf_score_delta": null,
+      "diff_delta": null,
+      "hash_change": false,
+      "new_modules": [],
+      "removed_modules": [],
+      "category_improvement": [],
+      "category_regression": [],
+      "missing_categories": [
+        "Navigator",
+        "Window",
+        "Screen",
+        "Chrome",
+        "Permissions",
+        "Fonts",
+        "Speech",
+        "Performance",
+        "WebGL"
+      ],
+      "missing_artifacts": [
+        "compare",
+        "fingerprint",
+        "score",
+        "statistics",
+        "summary"
+      ],
+      "result": "UNKNOWN"
+    }
+  ]
+}

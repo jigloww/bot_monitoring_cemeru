@@ -1,0 +1,106 @@
+{
+  "snapshot_before_shutdown": {
+    "timestamp": "2026-01-01T00:00:05Z",
+    "queue_size": 0,
+    "listener_count": 2,
+    "events_emitted": 4,
+    "events_processed": 4,
+    "events_failed": 3,
+    "events_dropped": 0,
+    "last_event": {
+      "event_id": "event-00000004",
+      "timestamp": "2026-01-01T00:00:04Z",
+      "event_type": "Heartbeat",
+      "source": "validation",
+      "severity": "INFO",
+      "payload": {},
+      "sequence_number": 4
+    },
+    "uptime": 0.0009
+  },
+  "statistics_before_shutdown": {
+    "events_emitted": 4,
+    "events_processed": 4,
+    "events_failed": 3,
+    "events_dropped": 0,
+    "listeners_registered": 4,
+    "listener_errors": 3,
+    "average_dispatch_time": 0.0001,
+    "peak_queue_size": 3,
+    "uptime": 0.001
+  },
+  "listeners_before_shutdown": [],
+  "priority_order": [
+    [
+      "high",
+      1
+    ],
+    [
+      "low",
+      1
+    ],
+    [
+      "high",
+      2
+    ],
+    [
+      "low",
+      2
+    ],
+    [
+      "high",
+      3
+    ],
+    [
+      "low",
+      3
+    ],
+    [
+      "high",
+      4
+    ]
+  ],
+  "post_remove_sequence": [
+    4
+  ],
+  "bounded_queue_snapshot": {
+    "timestamp": "fixed",
+    "queue_size": 128,
+    "listener_count": 0,
+    "events_emitted": 500,
+    "events_processed": 0,
+    "events_failed": 0,
+    "events_dropped": 372,
+    "last_event": null,
+    "uptime": 0.0
+  },
+  "event_types": [
+    "BrowserCreated",
+    "BrowserClosed",
+    "BrowserDisconnected",
+    "BrowserRestarted",
+    "ContextCreated",
+    "ContextClosed",
+    "PageCreated",
+    "PageClosed",
+    "NavigationStarted",
+    "NavigationFinished",
+    "NavigationFailed",
+    "HealthChanged",
+    "Heartbeat",
+    "SessionAcquired",
+    "SessionReleased",
+    "PoolCreated",
+    "PoolShutdown",
+    "CrashDetected",
+    "Unknown"
+  ],
+  "severities": [
+    "TRACE",
+    "DEBUG",
+    "INFO",
+    "WARNING",
+    "ERROR",
+    "CRITICAL"
+  ]
+}

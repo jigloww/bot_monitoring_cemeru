@@ -1,0 +1,49 @@
+{
+  "history": [
+    {
+      "status": "RUNNING",
+      "uptime": 0.0,
+      "restart_count": 0,
+      "page_count": 1,
+      "context_alive": true,
+      "browser_alive": true,
+      "reason": null
+    },
+    {
+      "status": "RUNNING",
+      "uptime": 0.0,
+      "restart_count": 1,
+      "page_count": 1,
+      "context_alive": true,
+      "browser_alive": true,
+      "reason": null
+    },
+    {
+      "status": "RUNNING",
+      "uptime": 0.0,
+      "restart_count": 2,
+      "page_count": 1,
+      "context_alive": true,
+      "browser_alive": true,
+      "reason": null
+    },
+    {
+      "status": "STOPPED",
+      "uptime": 0.0,
+      "restart_count": 2,
+      "page_count": 0,
+      "context_alive": false,
+      "browser_alive": false,
+      "reason": null
+    }
+  ],
+  "final": {
+    "status": "STOPPED",
+    "uptime": 0.0,
+    "restart_count": 2,
+    "page_count": 0,
+    "context_alive": false,
+    "browser_alive": false,
+    "reason": null
+  }
+}

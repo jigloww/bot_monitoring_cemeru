@@ -1,0 +1,29 @@
+{
+  "simulation_count": 34,
+  "module_simulation_count": 5,
+  "sprint_simulation_count": 4,
+  "single_recommendation_count": 20,
+  "baseline": {
+    "overall": 78.9,
+    "cf": 84.8,
+    "diff": 72.0
+  },
+  "best_predicted_overall": 100.0,
+  "best_predicted_cf": 100.0,
+  "max_gain": 104.99316,
+  "average_risk": 32.410018,
+  "confidence_distribution": {
+    "High Confidence": 21,
+    "Low Confidence": 0,
+    "Medium Confidence": 13,
+    "Unknown": 0,
+    "Very High Confidence": 0
+  },
+  "negative_predictions": 0,
+  "duplicate_simulations": 1,
+  "overlapping_simulations": 0,
+  "circular_dependency_effects": 0,
+  "browser_launches": 0,
+  "network_requests": 0,
+  "source_count": 25
+}

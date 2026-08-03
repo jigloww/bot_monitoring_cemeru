@@ -1,0 +1,1055 @@
+[
+  {
+    "simulation_id": "SIM-001",
+    "simulation_name": "Top 10 Quick Wins",
+    "best_case": {
+      "overall": 82.045224,
+      "cf": 87.08576,
+      "diff_reduction": 3.145224
+    },
+    "expected_case": {
+      "overall": 81.6114,
+      "cf": 86.7048,
+      "diff_reduction": 2.7114
+    },
+    "worst_case": {
+      "overall": 80.449489,
+      "cf": 85.88854,
+      "diff_reduction": 1.549489
+    },
+    "confidence_interval": {
+      "lower_gain": 1.549489,
+      "upper_gain": 3.145224,
+      "lower_overall": 80.449489,
+      "upper_overall": 82.045224
+    },
+    "prediction_confidence": "High Confidence",
+    "risk": 42.852806
+  },
+  {
+    "simulation_id": "SIM-002",
+    "simulation_name": "Highest ROI",
+    "best_case": {
+      "overall": 82.045224,
+      "cf": 87.08576,
+      "diff_reduction": 3.145224
+    },
+    "expected_case": {
+      "overall": 81.6114,
+      "cf": 86.7048,
+      "diff_reduction": 2.7114
+    },
+    "worst_case": {
+      "overall": 80.449489,
+      "cf": 85.88854,
+      "diff_reduction": 1.549489
+    },
+    "confidence_interval": {
+      "lower_gain": 1.549489,
+      "upper_gain": 3.145224,
+      "lower_overall": 80.449489,
+      "upper_overall": 82.045224
+    },
+    "prediction_confidence": "High Confidence",
+    "risk": 42.852806
+  },
+  {
+    "simulation_id": "SIM-003",
+    "simulation_name": "Lowest Risk",
+    "best_case": {
+      "overall": 80.84416,
+      "cf": 86.0072,
+      "diff_reduction": 1.94416
+    },
+    "expected_case": {
+      "overall": 80.576,
+      "cf": 85.806,
+      "diff_reduction": 1.676
+    },
+    "worst_case": {
+      "overall": 80.09035,
+      "cf": 85.514494,
+      "diff_reduction": 1.19035
+    },
+    "confidence_interval": {
+      "lower_gain": 1.19035,
+      "upper_gain": 1.94416,
+      "lower_overall": 80.09035,
+      "upper_overall": 80.84416
+    },
+    "prediction_confidence": "High Confidence",
+    "risk": 28.976726
+  },
+  {
+    "simulation_id": "SIM-004",
+    "simulation_name": "Maximum Similarity",
+    "best_case": {
+      "overall": 83.662451,
+      "cf": 90.647422,
+      "diff_reduction": 4.762451
+    },
+    "expected_case": {
+      "overall": 83.137056,
+      "cf": 89.672852,
+      "diff_reduction": 4.237056
+    },
+    "worst_case": {
+      "overall": 80.608248,
+      "cf": 86.764581,
+      "diff_reduction": 1.708248
+    },
+    "confidence_interval": {
+      "lower_gain": 1.708248,
+      "upper_gain": 4.762451,
+      "lower_overall": 80.608248,
+      "upper_overall": 83.662451
+    },
+    "prediction_confidence": "Medium Confidence",
+    "risk": 59.683144
+  },
+  {
+    "simulation_id": "SIM-005",
+    "simulation_name": "Complete Roadmap",
+    "best_case": {
+      "overall": 100.0,
+      "cf": 100.0,
+      "diff_reduction": 121.676153
+    },
+    "expected_case": {
+      "overall": 100.0,
+      "cf": 100.0,
+      "diff_reduction": 104.99316
+    },
+    "worst_case": {
+      "overall": 78.9,
+      "cf": 84.8,
+      "diff_reduction": 0.0
+    },
+    "confidence_interval": {
+      "lower_gain": 0.0,
+      "upper_gain": 121.676153,
+      "lower_overall": 78.9,
+      "upper_overall": 100.0
+    },
+    "prediction_confidence": "High Confidence",
+    "risk": 100.0
+  },
+  {
+    "simulation_id": "SIM-006",
+    "simulation_name": "Single Module: Navigator",
+    "best_case": {
+      "overall": 100.0,
+      "cf": 100.0,
+      "diff_reduction": 40.934851
+    },
+    "expected_case": {
+      "overall": 100.0,
+      "cf": 100.0,
+      "diff_reduction": 35.361344
+    },
+    "worst_case": {
+      "overall": 78.941282,
+      "cf": 84.835995,
+      "diff_reduction": 0.041282
+    },
+    "confidence_interval": {
+      "lower_gain": 0.041282,
+      "upper_gain": 40.934851,
+      "lower_overall": 78.941282,
+      "upper_overall": 100.0
+    },
+    "prediction_confidence": "High Confidence",
+    "risk": 99.883258
+  },
+  {
+    "simulation_id": "SIM-007",
+    "simulation_name": "Single Module: Window",
+    "best_case": {
+      "overall": 100.0,
+      "cf": 100.0,
+      "diff_reduction": 60.697232
+    },
+    "expected_case": {
+      "overall": 100.0,
+      "cf": 100.0,
+      "diff_reduction": 52.3252
+    },
+    "worst_case": {
+      "overall": 78.901161,
+      "cf": 84.800697,
+      "diff_reduction": 0.001161
+    },
+    "confidence_interval": {
+      "lower_gain": 0.001161,
+      "upper_gain": 60.697232,
+      "lower_overall": 78.901161,
+      "upper_overall": 100.0
+    },
+    "prediction_confidence": "High Confidence",
+    "risk": 99.997781
+  },
+  {
+    "simulation_id": "SIM-008",
+    "simulation_name": "Single Module: Screen",
+    "best_case": {
+      "overall": 78.9,
+      "cf": 84.8,
+      "diff_reduction": 0.0
+    },
+    "expected_case": {
+      "overall": 78.9,
+      "cf": 84.8,
+      "diff_reduction": 0.0
+    },
+    "worst_case": {
+      "overall": 78.9,
+      "cf": 84.8,
+      "diff_reduction": 0.0
+    },
+    "confidence_interval": {
+      "lower_gain": 0.0,
+      "upper_gain": 0.0,
+      "lower_overall": 78.9,
+      "upper_overall": 78.9
+    },
+    "prediction_confidence": "Unknown",
+    "risk": 0.0
+  },
+  {
+    "simulation_id": "SIM-009",
+    "simulation_name": "Single Module: Chrome",
+    "best_case": {
+      "overall": 78.9,
+      "cf": 84.8,
+      "diff_reduction": 0.0
+    },
+    "expected_case": {
+      "overall": 78.9,
+      "cf": 84.8,
+      "diff_reduction": 0.0
+    },
+    "worst_case": {
+      "overall": 78.9,
+      "cf": 84.8,
+      "diff_reduction": 0.0
+    },
+    "confidence_interval": {
+      "lower_gain": 0.0,
+      "upper_gain": 0.0,
+      "lower_overall": 78.9,
+      "upper_overall": 78.9
+    },
+    "prediction_confidence": "Unknown",
+    "risk": 0.0
+  },
+  {
+    "simulation_id": "SIM-010",
+    "simulation_name": "Single Module: Permissions",
+    "best_case": {
+      "overall": 78.9,
+      "cf": 84.8,
+      "diff_reduction": 0.0
+    },
+    "expected_case": {
+      "overall": 78.9,
+      "cf": 84.8,
+      "diff_reduction": 0.0
+    },
+    "worst_case": {
+      "overall": 78.9,
+      "cf": 84.8,
+      "diff_reduction": 0.0
+    },
+    "confidence_interval": {
+      "lower_gain": 0.0,
+      "upper_gain": 0.0,
+      "lower_overall": 78.9,
+      "upper_overall": 78.9
+    },
+    "prediction_confidence": "Unknown",
+    "risk": 0.0
+  },
+  {
+    "simulation_id": "SIM-011",
+    "simulation_name": "Single Module: Fonts",
+    "best_case": {
+      "overall": 78.9,
+      "cf": 84.8,
+      "diff_reduction": 0.0
+    },
+    "expected_case": {
+      "overall": 78.9,
+      "cf": 84.8,
+      "diff_reduction": 0.0
+    },
+    "worst_case": {
+      "overall": 78.9,
+      "cf": 84.8,
+      "diff_reduction": 0.0
+    },
+    "confidence_interval": {
+      "lower_gain": 0.0,
+      "upper_gain": 0.0,
+      "lower_overall": 78.9,
+      "upper_overall": 78.9
+    },
+    "prediction_confidence": "Unknown",
+    "risk": 0.0
+  },
+  {
+    "simulation_id": "SIM-012",
+    "simulation_name": "Single Module: Speech",
+    "best_case": {
+      "overall": 78.9,
+      "cf": 84.8,
+      "diff_reduction": 0.0
+    },
+    "expected_case": {
+      "overall": 78.9,
+      "cf": 84.8,
+      "diff_reduction": 0.0
+    },
+    "worst_case": {
+      "overall": 78.9,
+      "cf": 84.8,
+      "diff_reduction": 0.0
+    },
+    "confidence_interval": {
+      "lower_gain": 0.0,
+      "upper_gain": 0.0,
+      "lower_overall": 78.9,
+      "upper_overall": 78.9
+    },
+    "prediction_confidence": "Unknown",
+    "risk": 0.0
+  },
+  {
+    "simulation_id": "SIM-013",
+    "simulation_name": "Single Module: Performance",
+    "best_case": {
+      "overall": 79.136208,
+      "cf": 84.96452,
+      "diff_reduction": 0.236208
+    },
+    "expected_case": {
+      "overall": 79.1109,
+      "cf": 84.9371,
+      "diff_reduction": 0.2109
+    },
+    "worst_case": {
+      "overall": 79.100076,
+      "cf": 84.930063,
+      "diff_reduction": 0.200076
+    },
+    "confidence_interval": {
+      "lower_gain": 0.200076,
+      "upper_gain": 0.236208,
+      "lower_overall": 79.100076,
+      "upper_overall": 79.136208
+    },
+    "prediction_confidence": "Medium Confidence",
+    "risk": 5.132475
+  },
+  {
+    "simulation_id": "SIM-014",
+    "simulation_name": "Single Module: WebGL",
+    "best_case": {
+      "overall": 79.205312,
+      "cf": 85.15988,
+      "diff_reduction": 0.305312
+    },
+    "expected_case": {
+      "overall": 79.1726,
+      "cf": 85.0999,
+      "diff_reduction": 0.2726
+    },
+    "worst_case": {
+      "overall": 79.155236,
+      "cf": 85.080797,
+      "diff_reduction": 0.255236
+    },
+    "confidence_interval": {
+      "lower_gain": 0.255236,
+      "upper_gain": 0.305312,
+      "lower_overall": 79.155236,
+      "upper_overall": 79.205312
+    },
+    "prediction_confidence": "Medium Confidence",
+    "risk": 6.36975
+  },
+  {
+    "simulation_id": "SIM-015",
+    "simulation_name": "Single Module: Unknown",
+    "best_case": {
+      "overall": 91.729087,
+      "cf": 93.05324,
+      "diff_reduction": 12.829087
+    },
+    "expected_case": {
+      "overall": 89.9737,
+      "cf": 91.6777,
+      "diff_reduction": 11.0737
+    },
+    "worst_case": {
+      "overall": 80.021168,
+      "cf": 85.49634,
+      "diff_reduction": 1.121168
+    },
+    "confidence_interval": {
+      "lower_gain": 1.121168,
+      "upper_gain": 12.829087,
+      "lower_overall": 80.021168,
+      "upper_overall": 91.729087
+    },
+    "prediction_confidence": "High Confidence",
+    "risk": 89.875401
+  },
+  {
+    "simulation_id": "SIM-016",
+    "simulation_name": "Single Sprint: Sprint 1",
+    "best_case": {
+      "overall": 87.366312,
+      "cf": 94.186993,
+      "diff_reduction": 8.466312
+    },
+    "expected_case": {
+      "overall": 86.319739,
+      "cf": 92.622494,
+      "diff_reduction": 7.419739
+    },
+    "worst_case": {
+      "overall": 80.544627,
+      "cf": 86.5339,
+      "diff_reduction": 1.644627
+    },
+    "confidence_interval": {
+      "lower_gain": 1.644627,
+      "upper_gain": 8.466312,
+      "lower_overall": 80.544627,
+      "upper_overall": 87.366312
+    },
+    "prediction_confidence": "Medium Confidence",
+    "risk": 77.83443
+  },
+  {
+    "simulation_id": "SIM-017",
+    "simulation_name": "Single Sprint: Sprint 2",
+    "best_case": {
+      "overall": 100.0,
+      "cf": 100.0,
+      "diff_reduction": 40.835596
+    },
+    "expected_case": {
+      "overall": 100.0,
+      "cf": 100.0,
+      "diff_reduction": 35.2031
+    },
+    "worst_case": {
+      "overall": 78.925682,
+      "cf": 84.816119,
+      "diff_reduction": 0.025682
+    },
+    "confidence_interval": {
+      "lower_gain": 0.025682,
+      "upper_gain": 40.835596,
+      "lower_overall": 78.925682,
+      "upper_overall": 100.0
+    },
+    "prediction_confidence": "High Confidence",
+    "risk": 99.927046
+  },
+  {
+    "simulation_id": "SIM-018",
+    "simulation_name": "Single Sprint: Sprint 3",
+    "best_case": {
+      "overall": 100.0,
+      "cf": 100.0,
+      "diff_reduction": 29.871181
+    },
+    "expected_case": {
+      "overall": 100.0,
+      "cf": 100.0,
+      "diff_reduction": 25.7649
+    },
+    "worst_case": {
+      "overall": 79.028992,
+      "cf": 84.899162,
+      "diff_reduction": 0.128992
+    },
+    "confidence_interval": {
+      "lower_gain": 0.128992,
+      "upper_gain": 29.871181,
+      "lower_overall": 79.028992,
+      "upper_overall": 100.0
+    },
+    "prediction_confidence": "High Confidence",
+    "risk": 99.499351
+  },
+  {
+    "simulation_id": "SIM-019",
+    "simulation_name": "Single Sprint: Sprint 4",
+    "best_case": {
+      "overall": 100.0,
+      "cf": 100.0,
+      "diff_reduction": 33.102712
+    },
+    "expected_case": {
+      "overall": 100.0,
+      "cf": 100.0,
+      "diff_reduction": 28.5489
+    },
+    "worst_case": {
+      "overall": 78.982145,
+      "cf": 84.851545,
+      "diff_reduction": 0.082145
+    },
+    "confidence_interval": {
+      "lower_gain": 0.082145,
+      "upper_gain": 33.102712,
+      "lower_overall": 78.982145,
+      "upper_overall": 100.0
+    },
+    "prediction_confidence": "High Confidence",
+    "risk": 99.712264
+  },
+  {
+    "simulation_id": "SIM-R-020",
+    "simulation_name": "Single Recommendation: REC-001",
+    "best_case": {
+      "overall": 79.379606,
+      "cf": 85.390976,
+      "diff_reduction": 0.479606
+    },
+    "expected_case": {
+      "overall": 79.32822,
+      "cf": 85.29248,
+      "diff_reduction": 0.42822
+    },
+    "worst_case": {
+      "overall": 79.290297,
+      "cf": 85.248866,
+      "diff_reduction": 0.390297
+    },
+    "confidence_interval": {
+      "lower_gain": 0.390297,
+      "upper_gain": 0.479606,
+      "lower_overall": 79.290297,
+      "upper_overall": 79.379606
+    },
+    "prediction_confidence": "Medium Confidence",
+    "risk": 8.856
+  },
+  {
+    "simulation_id": "SIM-R-021",
+    "simulation_name": "Single Recommendation: REC-002",
+    "best_case": {
+      "overall": 79.34408,
+      "cf": 85.3472,
+      "diff_reduction": 0.44408
+    },
+    "expected_case": {
+      "overall": 79.2965,
+      "cf": 85.256,
+      "diff_reduction": 0.3965
+    },
+    "worst_case": {
+      "overall": 79.261386,
+      "cf": 85.215617,
+      "diff_reduction": 0.361386
+    },
+    "confidence_interval": {
+      "lower_gain": 0.361386,
+      "upper_gain": 0.44408,
+      "lower_overall": 79.261386,
+      "upper_overall": 79.34408
+    },
+    "prediction_confidence": "Medium Confidence",
+    "risk": 8.856
+  },
+  {
+    "simulation_id": "SIM-R-022",
+    "simulation_name": "Single Recommendation: REC-003",
+    "best_case": {
+      "overall": 79.34408,
+      "cf": 85.3472,
+      "diff_reduction": 0.44408
+    },
+    "expected_case": {
+      "overall": 79.2965,
+      "cf": 85.256,
+      "diff_reduction": 0.3965
+    },
+    "worst_case": {
+      "overall": 79.261386,
+      "cf": 85.215617,
+      "diff_reduction": 0.361386
+    },
+    "confidence_interval": {
+      "lower_gain": 0.361386,
+      "upper_gain": 0.44408,
+      "lower_overall": 79.261386,
+      "upper_overall": 79.34408
+    },
+    "prediction_confidence": "Medium Confidence",
+    "risk": 8.856
+  },
+  {
+    "simulation_id": "SIM-R-023",
+    "simulation_name": "Single Recommendation: REC-004",
+    "best_case": {
+      "overall": 79.34408,
+      "cf": 85.3472,
+      "diff_reduction": 0.44408
+    },
+    "expected_case": {
+      "overall": 79.2965,
+      "cf": 85.256,
+      "diff_reduction": 0.3965
+    },
+    "worst_case": {
+      "overall": 79.261386,
+      "cf": 85.215617,
+      "diff_reduction": 0.361386
+    },
+    "confidence_interval": {
+      "lower_gain": 0.361386,
+      "upper_gain": 0.44408,
+      "lower_overall": 79.261386,
+      "upper_overall": 79.34408
+    },
+    "prediction_confidence": "Medium Confidence",
+    "risk": 8.856
+  },
+  {
+    "simulation_id": "SIM-R-024",
+    "simulation_name": "Single Recommendation: REC-005",
+    "best_case": {
+      "overall": 79.34408,
+      "cf": 85.3472,
+      "diff_reduction": 0.44408
+    },
+    "expected_case": {
+      "overall": 79.2965,
+      "cf": 85.256,
+      "diff_reduction": 0.3965
+    },
+    "worst_case": {
+      "overall": 79.261386,
+      "cf": 85.215617,
+      "diff_reduction": 0.361386
+    },
+    "confidence_interval": {
+      "lower_gain": 0.361386,
+      "upper_gain": 0.44408,
+      "lower_overall": 79.261386,
+      "upper_overall": 79.34408
+    },
+    "prediction_confidence": "Medium Confidence",
+    "risk": 8.856
+  },
+  {
+    "simulation_id": "SIM-R-025",
+    "simulation_name": "Single Recommendation: REC-006",
+    "best_case": {
+      "overall": 79.34408,
+      "cf": 85.3472,
+      "diff_reduction": 0.44408
+    },
+    "expected_case": {
+      "overall": 79.2965,
+      "cf": 85.256,
+      "diff_reduction": 0.3965
+    },
+    "worst_case": {
+      "overall": 79.261386,
+      "cf": 85.215617,
+      "diff_reduction": 0.361386
+    },
+    "confidence_interval": {
+      "lower_gain": 0.361386,
+      "upper_gain": 0.44408,
+      "lower_overall": 79.261386,
+      "upper_overall": 79.34408
+    },
+    "prediction_confidence": "Medium Confidence",
+    "risk": 8.856
+  },
+  {
+    "simulation_id": "SIM-R-026",
+    "simulation_name": "Single Recommendation: REC-007",
+    "best_case": {
+      "overall": 79.34408,
+      "cf": 85.3472,
+      "diff_reduction": 0.44408
+    },
+    "expected_case": {
+      "overall": 79.2965,
+      "cf": 85.256,
+      "diff_reduction": 0.3965
+    },
+    "worst_case": {
+      "overall": 79.261386,
+      "cf": 85.215617,
+      "diff_reduction": 0.361386
+    },
+    "confidence_interval": {
+      "lower_gain": 0.361386,
+      "upper_gain": 0.44408,
+      "lower_overall": 79.261386,
+      "upper_overall": 79.34408
+    },
+    "prediction_confidence": "Medium Confidence",
+    "risk": 8.856
+  },
+  {
+    "simulation_id": "SIM-R-027",
+    "simulation_name": "Single Recommendation: REC-008",
+    "best_case": {
+      "overall": 79.34408,
+      "cf": 85.3472,
+      "diff_reduction": 0.44408
+    },
+    "expected_case": {
+      "overall": 79.2965,
+      "cf": 85.256,
+      "diff_reduction": 0.3965
+    },
+    "worst_case": {
+      "overall": 79.261386,
+      "cf": 85.215617,
+      "diff_reduction": 0.361386
+    },
+    "confidence_interval": {
+      "lower_gain": 0.361386,
+      "upper_gain": 0.44408,
+      "lower_overall": 79.261386,
+      "upper_overall": 79.34408
+    },
+    "prediction_confidence": "Medium Confidence",
+    "risk": 8.856
+  },
+  {
+    "simulation_id": "SIM-R-028",
+    "simulation_name": "Single Recommendation: REC-009",
+    "best_case": {
+      "overall": 79.34408,
+      "cf": 85.3472,
+      "diff_reduction": 0.44408
+    },
+    "expected_case": {
+      "overall": 79.2965,
+      "cf": 85.256,
+      "diff_reduction": 0.3965
+    },
+    "worst_case": {
+      "overall": 79.261386,
+      "cf": 85.215617,
+      "diff_reduction": 0.361386
+    },
+    "confidence_interval": {
+      "lower_gain": 0.361386,
+      "upper_gain": 0.44408,
+      "lower_overall": 79.261386,
+      "upper_overall": 79.34408
+    },
+    "prediction_confidence": "Medium Confidence",
+    "risk": 8.856
+  },
+  {
+    "simulation_id": "SIM-R-029",
+    "simulation_name": "Single Recommendation: REC-010",
+    "best_case": {
+      "overall": 79.311452,
+      "cf": 85.28948,
+      "diff_reduction": 0.411452
+    },
+    "expected_case": {
+      "overall": 79.2547,
+      "cf": 85.2079,
+      "diff_reduction": 0.3547
+    },
+    "worst_case": {
+      "overall": 79.229454,
+      "cf": 85.178868,
+      "diff_reduction": 0.329454
+    },
+    "confidence_interval": {
+      "lower_gain": 0.329454,
+      "upper_gain": 0.411452,
+      "lower_overall": 79.229454,
+      "upper_overall": 79.311452
+    },
+    "prediction_confidence": "High Confidence",
+    "risk": 7.1175
+  },
+  {
+    "simulation_id": "SIM-R-030",
+    "simulation_name": "Single Recommendation: REC-011",
+    "best_case": {
+      "overall": 79.311452,
+      "cf": 85.28948,
+      "diff_reduction": 0.411452
+    },
+    "expected_case": {
+      "overall": 79.2547,
+      "cf": 85.2079,
+      "diff_reduction": 0.3547
+    },
+    "worst_case": {
+      "overall": 79.229454,
+      "cf": 85.178868,
+      "diff_reduction": 0.329454
+    },
+    "confidence_interval": {
+      "lower_gain": 0.329454,
+      "upper_gain": 0.411452,
+      "lower_overall": 79.229454,
+      "upper_overall": 79.311452
+    },
+    "prediction_confidence": "High Confidence",
+    "risk": 7.1175
+  },
+  {
+    "simulation_id": "SIM-R-031",
+    "simulation_name": "Single Recommendation: REC-012",
+    "best_case": {
+      "overall": 79.309943,
+      "cf": 85.287709,
+      "diff_reduction": 0.409943
+    },
+    "expected_case": {
+      "overall": 79.253399,
+      "cf": 85.206424,
+      "diff_reduction": 0.353399
+    },
+    "worst_case": {
+      "overall": 79.22859,
+      "cf": 85.177893,
+      "diff_reduction": 0.32859
+    },
+    "confidence_interval": {
+      "lower_gain": 0.32859,
+      "upper_gain": 0.409943,
+      "lower_overall": 79.22859,
+      "upper_overall": 79.309943
+    },
+    "prediction_confidence": "High Confidence",
+    "risk": 7.02
+  },
+  {
+    "simulation_id": "SIM-R-032",
+    "simulation_name": "Single Recommendation: REC-013",
+    "best_case": {
+      "overall": 79.305884,
+      "cf": 85.28288,
+      "diff_reduction": 0.405884
+    },
+    "expected_case": {
+      "overall": 79.2499,
+      "cf": 85.2024,
+      "diff_reduction": 0.3499
+    },
+    "worst_case": {
+      "overall": 79.225337,
+      "cf": 85.174152,
+      "diff_reduction": 0.325337
+    },
+    "confidence_interval": {
+      "lower_gain": 0.325337,
+      "upper_gain": 0.405884,
+      "lower_overall": 79.225337,
+      "upper_overall": 79.305884
+    },
+    "prediction_confidence": "High Confidence",
+    "risk": 7.02
+  },
+  {
+    "simulation_id": "SIM-R-033",
+    "simulation_name": "Single Recommendation: REC-014",
+    "best_case": {
+      "overall": 79.242432,
+      "cf": 85.11884,
+      "diff_reduction": 0.342432
+    },
+    "expected_case": {
+      "overall": 79.1952,
+      "cf": 85.0657,
+      "diff_reduction": 0.2952
+    },
+    "worst_case": {
+      "overall": 79.177715,
+      "cf": 85.049962,
+      "diff_reduction": 0.277715
+    },
+    "confidence_interval": {
+      "lower_gain": 0.277715,
+      "upper_gain": 0.342432,
+      "lower_overall": 79.177715,
+      "upper_overall": 79.242432
+    },
+    "prediction_confidence": "High Confidence",
+    "risk": 5.923125
+  },
+  {
+    "simulation_id": "SIM-R-034",
+    "simulation_name": "Single Recommendation: REC-015",
+    "best_case": {
+      "overall": 79.242432,
+      "cf": 85.11884,
+      "diff_reduction": 0.342432
+    },
+    "expected_case": {
+      "overall": 79.1952,
+      "cf": 85.0657,
+      "diff_reduction": 0.2952
+    },
+    "worst_case": {
+      "overall": 79.177715,
+      "cf": 85.049962,
+      "diff_reduction": 0.277715
+    },
+    "confidence_interval": {
+      "lower_gain": 0.277715,
+      "upper_gain": 0.342432,
+      "lower_overall": 79.177715,
+      "upper_overall": 79.242432
+    },
+    "prediction_confidence": "High Confidence",
+    "risk": 5.923125
+  },
+  {
+    "simulation_id": "SIM-R-035",
+    "simulation_name": "Single Recommendation: REC-016",
+    "best_case": {
+      "overall": 79.242432,
+      "cf": 85.11884,
+      "diff_reduction": 0.342432
+    },
+    "expected_case": {
+      "overall": 79.1952,
+      "cf": 85.0657,
+      "diff_reduction": 0.2952
+    },
+    "worst_case": {
+      "overall": 79.177715,
+      "cf": 85.049962,
+      "diff_reduction": 0.277715
+    },
+    "confidence_interval": {
+      "lower_gain": 0.277715,
+      "upper_gain": 0.342432,
+      "lower_overall": 79.177715,
+      "upper_overall": 79.242432
+    },
+    "prediction_confidence": "High Confidence",
+    "risk": 5.923125
+  },
+  {
+    "simulation_id": "SIM-R-036",
+    "simulation_name": "Single Recommendation: REC-017",
+    "best_case": {
+      "overall": 79.242432,
+      "cf": 85.11884,
+      "diff_reduction": 0.342432
+    },
+    "expected_case": {
+      "overall": 79.1952,
+      "cf": 85.0657,
+      "diff_reduction": 0.2952
+    },
+    "worst_case": {
+      "overall": 79.177715,
+      "cf": 85.049962,
+      "diff_reduction": 0.277715
+    },
+    "confidence_interval": {
+      "lower_gain": 0.277715,
+      "upper_gain": 0.342432,
+      "lower_overall": 79.177715,
+      "upper_overall": 79.242432
+    },
+    "prediction_confidence": "High Confidence",
+    "risk": 5.923125
+  },
+  {
+    "simulation_id": "SIM-R-037",
+    "simulation_name": "Single Recommendation: REC-018",
+    "best_case": {
+      "overall": 79.222712,
+      "cf": 84.9836,
+      "diff_reduction": 0.322712
+    },
+    "expected_case": {
+      "overall": 79.1782,
+      "cf": 84.953,
+      "diff_reduction": 0.2782
+    },
+    "worst_case": {
+      "overall": 79.162671,
+      "cf": 84.94446,
+      "diff_reduction": 0.262671
+    },
+    "confidence_interval": {
+      "lower_gain": 0.262671,
+      "upper_gain": 0.322712,
+      "lower_overall": 79.162671,
+      "upper_overall": 79.222712
+    },
+    "prediction_confidence": "High Confidence",
+    "risk": 5.581875
+  },
+  {
+    "simulation_id": "SIM-R-038",
+    "simulation_name": "Single Recommendation: REC-019",
+    "best_case": {
+      "overall": 79.222712,
+      "cf": 84.9836,
+      "diff_reduction": 0.322712
+    },
+    "expected_case": {
+      "overall": 79.1782,
+      "cf": 84.953,
+      "diff_reduction": 0.2782
+    },
+    "worst_case": {
+      "overall": 79.162671,
+      "cf": 84.94446,
+      "diff_reduction": 0.262671
+    },
+    "confidence_interval": {
+      "lower_gain": 0.262671,
+      "upper_gain": 0.322712,
+      "lower_overall": 79.162671,
+      "upper_overall": 79.222712
+    },
+    "prediction_confidence": "High Confidence",
+    "risk": 5.581875
+  },
+  {
+    "simulation_id": "SIM-R-039",
+    "simulation_name": "Single Recommendation: REC-020",
+    "best_case": {
+      "overall": 79.276188,
+      "cf": 85.03352,
+      "diff_reduction": 0.376188
+    },
+    "expected_case": {
+      "overall": 79.2243,
+      "cf": 84.9946,
+      "diff_reduction": 0.3243
+    },
+    "worst_case": {
+      "overall": 79.203194,
+      "cf": 84.981935,
+      "diff_reduction": 0.303194
+    },
+    "confidence_interval": {
+      "lower_gain": 0.303194,
+      "upper_gain": 0.376188,
+      "lower_overall": 79.203194,
+      "upper_overall": 79.276188
+    },
+    "prediction_confidence": "High Confidence",
+    "risk": 6.508125
+  }
+]

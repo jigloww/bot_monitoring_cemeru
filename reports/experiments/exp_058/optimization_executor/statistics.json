@@ -1,0 +1,38 @@
+{
+  "total_tasks": 471,
+  "difficulty_distribution": {
+    "Hard": 1,
+    "Very Hard": 11,
+    "Medium": 60,
+    "Easy": 399
+  },
+  "risk_distribution": {
+    "High": 12,
+    "Medium": 60,
+    "Low": 399
+  },
+  "priority_distribution": {
+    "Critical": 9,
+    "High": 10,
+    "Medium": 440,
+    "Low": 12
+  },
+  "sprint_distribution": {
+    "Sprint 1": 4,
+    "Sprint 2": 156,
+    "Sprint 3": 161,
+    "Sprint 4": 150
+  },
+  "total_estimated_effort": 600.0,
+  "total_estimated_gain": 96.324,
+  "total_estimated_cf_gain": 66.9914,
+  "current_overall": 78.9,
+  "current_cf_score": 84.8,
+  "estimated_remaining_similarity": 96.71,
+  "estimated_remaining_cf_score": 99.0,
+  "dependency_edges": 11,
+  "dependency_cycles": 0,
+  "source_count": 9,
+  "browser_launches": 0,
+  "network_requests": 0
+}

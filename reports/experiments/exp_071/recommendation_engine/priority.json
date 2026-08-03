@@ -1,0 +1,4427 @@
+[
+  {
+    "recommendation_id": "REC-001",
+    "title": "Align navigator.userAgent (Navigator) with the reference profile",
+    "description": "Align UA, UA-CH brands, platform, vendor, and version fields as one coherent browser profile.",
+    "category": "Navigator",
+    "priority": "Critical",
+    "difficulty": "Hard",
+    "estimated_effort": {
+      "hours": 16.0,
+      "complexity_points": 4.0
+    },
+    "expected_similarity_gain": 0.3965,
+    "expected_cf_gain": 0.456,
+    "regression_probability": 59.04,
+    "confidence": "Medium",
+    "affected_properties": [
+      "navigator.userAgent"
+    ],
+    "affected_modules": [
+      "Chrome",
+      "Navigator",
+      "Other",
+      "Permissions"
+    ],
+    "affected_tasks": [
+      "OPT-001"
+    ],
+    "knowledge_graph_impact": {
+      "affected_nodes": 1,
+      "affected_edges": 46,
+      "affected_clusters": [
+        "component:001"
+      ],
+      "hub_impact": 1.564,
+      "bridge_impact": 5.5639,
+      "centrality_gain": 3.56395,
+      "dependency_unlock": 8
+    },
+    "dependencies": [
+      "navigator.platform",
+      "navigator.userAgentData",
+      "navigator.vendor"
+    ],
+    "supporting_evidence": [
+      "reports\\experiments\\exp_045\\fingerprint_importance\\importance.json",
+      "reports\\experiments\\exp_048\\fingerprint_risk\\risk.json",
+      "reports\\experiments\\exp_052\\optimization_planner\\ranking.json",
+      "reports\\experiments\\exp_060\\optimization_executor\\tasks.json",
+      "reports\\experiments\\exp_068\\knowledge_graph\\graph.json"
+    ],
+    "reasoning": {
+      "score_components": {
+        "importance": 100.0,
+        "risk": 81.6,
+        "degree_centrality": 1.564,
+        "betweenness_centrality": 5.5639,
+        "dependency_count": 0,
+        "dependency_unlock": 8,
+        "similarity_opportunity": 39.65,
+        "historical_success": 0.0,
+        "historical_failure": 0.0,
+        "module_maturity": 59.2,
+        "evidence_confidence": 0.7
+      },
+      "explanation": "Score combines importance, risk, graph centrality, dependencies, historical outcomes, gain, difficulty, maturity, and evidence confidence."
+    },
+    "recommendation_type": "Dependency Unlock",
+    "score": 41.814348,
+    "metrics": {
+      "importance": 100.0,
+      "risk": 81.6,
+      "degree_centrality": 1.564,
+      "betweenness_centrality": 5.5639,
+      "dependency_count": 0,
+      "dependency_unlock": 8,
+      "similarity_opportunity": 39.65,
+      "historical_success": 0.0,
+      "historical_failure": 0.0,
+      "historical_occurrences": 0,
+      "module_maturity": 59.2,
+      "evidence_confidence": 0.7,
+      "score": 41.814348,
+      "roi": 0.0545,
+      "gain": 0.3965,
+      "cf_gain": 0.456,
+      "difficulty": "Hard",
+      "risk_level": "High",
+      "effort_hours": 16.0,
+      "confidence_label": "Medium"
+    },
+    "sprint": "Sprint 1",
+    "status": "PLANNED"
+  },
+  {
+    "recommendation_id": "REC-012",
+    "title": "Align navigator.language (Navigator) with the reference profile",
+    "description": "Review the Navigator surface for value, descriptor, prototype, and cross-property consistency.",
+    "category": "Navigator",
+    "priority": "High",
+    "difficulty": "Medium",
+    "estimated_effort": {
+      "hours": 8.0,
+      "complexity_points": 2.0
+    },
+    "expected_similarity_gain": 0.3499,
+    "expected_cf_gain": 0.4024,
+    "regression_probability": 46.8,
+    "confidence": "High",
+    "affected_properties": [
+      "navigator.language"
+    ],
+    "affected_modules": [
+      "Fonts",
+      "Navigator",
+      "Other",
+      "Speech"
+    ],
+    "affected_tasks": [
+      "OPT-012"
+    ],
+    "knowledge_graph_impact": {
+      "affected_nodes": 1,
+      "affected_edges": 107,
+      "affected_clusters": [
+        "component:001"
+      ],
+      "hub_impact": 4.8341,
+      "bridge_impact": 15.2619,
+      "centrality_gain": 10.048,
+      "dependency_unlock": 1
+    },
+    "dependencies": [
+      "navigator.language",
+      "navigator.languages"
+    ],
+    "supporting_evidence": [
+      "reports\\experiments\\exp_045\\fingerprint_importance\\importance.json",
+      "reports\\experiments\\exp_048\\fingerprint_risk\\risk.json",
+      "reports\\experiments\\exp_052\\optimization_planner\\ranking.json",
+      "reports\\experiments\\exp_060\\optimization_executor\\tasks.json",
+      "reports\\experiments\\exp_068\\knowledge_graph\\graph.json"
+    ],
+    "reasoning": {
+      "score_components": {
+        "importance": 95.0,
+        "risk": 72.0,
+        "degree_centrality": 4.8341,
+        "betweenness_centrality": 15.2619,
+        "dependency_count": 0,
+        "dependency_unlock": 1,
+        "similarity_opportunity": 34.99,
+        "historical_success": 0.0,
+        "historical_failure": 0.0,
+        "module_maturity": 64.0,
+        "evidence_confidence": 1.0
+      },
+      "explanation": "Score combines importance, risk, graph centrality, dependencies, historical outcomes, gain, difficulty, maturity, and evidence confidence."
+    },
+    "recommendation_type": "Dependency Unlock",
+    "score": 41.32012,
+    "metrics": {
+      "importance": 95.0,
+      "risk": 72.0,
+      "degree_centrality": 4.8341,
+      "betweenness_centrality": 15.2619,
+      "dependency_count": 0,
+      "dependency_unlock": 1,
+      "similarity_opportunity": 34.99,
+      "historical_success": 0.0,
+      "historical_failure": 0.0,
+      "historical_occurrences": 0,
+      "module_maturity": 64.0,
+      "evidence_confidence": 1.0,
+      "score": 41.32012,
+      "roi": 0.14,
+      "gain": 0.3499,
+      "cf_gain": 0.4024,
+      "difficulty": "Medium",
+      "risk_level": "Medium",
+      "effort_hours": 8.0,
+      "confidence_label": "High"
+    },
+    "sprint": "Sprint 1",
+    "status": "PLANNED"
+  },
+  {
+    "recommendation_id": "REC-013",
+    "title": "Align navigator.languages[0] (Navigator) with the reference profile",
+    "description": "Review the Navigator surface for value, descriptor, prototype, and cross-property consistency.",
+    "category": "Navigator",
+    "priority": "High",
+    "difficulty": "Medium",
+    "estimated_effort": {
+      "hours": 8.0,
+      "complexity_points": 2.0
+    },
+    "expected_similarity_gain": 0.3499,
+    "expected_cf_gain": 0.4024,
+    "regression_probability": 46.8,
+    "confidence": "High",
+    "affected_properties": [
+      "navigator.languages[0]"
+    ],
+    "affected_modules": [
+      "Navigator",
+      "Other"
+    ],
+    "affected_tasks": [
+      "OPT-013"
+    ],
+    "knowledge_graph_impact": {
+      "affected_nodes": 1,
+      "affected_edges": 11,
+      "affected_clusters": [
+        "component:001"
+      ],
+      "hub_impact": 0.2844,
+      "bridge_impact": 0.4496,
+      "centrality_gain": 0.367,
+      "dependency_unlock": 0
+    },
+    "dependencies": [
+      "OPT-012",
+      "navigator.language",
+      "navigator.languages"
+    ],
+    "supporting_evidence": [
+      "reports\\experiments\\exp_045\\fingerprint_importance\\importance.json",
+      "reports\\experiments\\exp_048\\fingerprint_risk\\risk.json",
+      "reports\\experiments\\exp_052\\optimization_planner\\ranking.json",
+      "reports\\experiments\\exp_060\\optimization_executor\\tasks.json",
+      "reports\\experiments\\exp_068\\knowledge_graph\\graph.json"
+    ],
+    "reasoning": {
+      "score_components": {
+        "importance": 95.0,
+        "risk": 72.0,
+        "degree_centrality": 0.2844,
+        "betweenness_centrality": 0.4496,
+        "dependency_count": 1,
+        "dependency_unlock": 0,
+        "similarity_opportunity": 34.99,
+        "historical_success": 0.0,
+        "historical_failure": 0.0,
+        "module_maturity": 64.0,
+        "evidence_confidence": 1.0
+      },
+      "explanation": "Score combines importance, risk, graph centrality, dependencies, historical outcomes, gain, difficulty, maturity, and evidence confidence."
+    },
+    "recommendation_type": "Experimental",
+    "score": 38.83668,
+    "metrics": {
+      "importance": 95.0,
+      "risk": 72.0,
+      "degree_centrality": 0.2844,
+      "betweenness_centrality": 0.4496,
+      "dependency_count": 1,
+      "dependency_unlock": 0,
+      "similarity_opportunity": 34.99,
+      "historical_success": 0.0,
+      "historical_failure": 0.0,
+      "historical_occurrences": 0,
+      "module_maturity": 64.0,
+      "evidence_confidence": 1.0,
+      "score": 38.83668,
+      "roi": 0.14,
+      "gain": 0.3499,
+      "cf_gain": 0.4024,
+      "difficulty": "Medium",
+      "risk_level": "Medium",
+      "effort_hours": 8.0,
+      "confidence_label": "High"
+    },
+    "sprint": "Sprint 1",
+    "status": "PLANNED"
+  },
+  {
+    "recommendation_id": "REC-010",
+    "title": "Align navigator.languages[1] (Navigator) with the reference profile",
+    "description": "Restore navigator.languages[1] with the native Navigator prototype/descriptor shape before tuning values.",
+    "category": "Navigator",
+    "priority": "High",
+    "difficulty": "Medium",
+    "estimated_effort": {
+      "hours": 8.0,
+      "complexity_points": 2.0
+    },
+    "expected_similarity_gain": 0.3547,
+    "expected_cf_gain": 0.4079,
+    "regression_probability": 47.45,
+    "confidence": "High",
+    "affected_properties": [
+      "navigator.languages[1]"
+    ],
+    "affected_modules": [
+      "Navigator",
+      "Other"
+    ],
+    "affected_tasks": [
+      "OPT-010"
+    ],
+    "knowledge_graph_impact": {
+      "affected_nodes": 1,
+      "affected_edges": 10,
+      "affected_clusters": [
+        "component:001"
+      ],
+      "hub_impact": 0.2844,
+      "bridge_impact": 0.6254,
+      "centrality_gain": 0.4549,
+      "dependency_unlock": 0
+    },
+    "dependencies": [
+      "navigator.language",
+      "navigator.languages"
+    ],
+    "supporting_evidence": [
+      "reports\\experiments\\exp_045\\fingerprint_importance\\importance.json",
+      "reports\\experiments\\exp_048\\fingerprint_risk\\risk.json",
+      "reports\\experiments\\exp_052\\optimization_planner\\ranking.json",
+      "reports\\experiments\\exp_060\\optimization_executor\\tasks.json",
+      "reports\\experiments\\exp_068\\knowledge_graph\\graph.json"
+    ],
+    "reasoning": {
+      "score_components": {
+        "importance": 95.0,
+        "risk": 73.0,
+        "degree_centrality": 0.2844,
+        "betweenness_centrality": 0.6254,
+        "dependency_count": 0,
+        "dependency_unlock": 0,
+        "similarity_opportunity": 35.47,
+        "historical_success": 0.0,
+        "historical_failure": 0.0,
+        "module_maturity": 63.5,
+        "evidence_confidence": 1.0
+      },
+      "explanation": "Score combines importance, risk, graph centrality, dependencies, historical outcomes, gain, difficulty, maturity, and evidence confidence."
+    },
+    "recommendation_type": "Experimental",
+    "score": 38.289976,
+    "metrics": {
+      "importance": 95.0,
+      "risk": 73.0,
+      "degree_centrality": 0.2844,
+      "betweenness_centrality": 0.6254,
+      "dependency_count": 0,
+      "dependency_unlock": 0,
+      "similarity_opportunity": 35.47,
+      "historical_success": 0.0,
+      "historical_failure": 0.0,
+      "historical_occurrences": 0,
+      "module_maturity": 63.5,
+      "evidence_confidence": 1.0,
+      "score": 38.289976,
+      "roi": 0.1419,
+      "gain": 0.3547,
+      "cf_gain": 0.4079,
+      "difficulty": "Medium",
+      "risk_level": "Medium",
+      "effort_hours": 8.0,
+      "confidence_label": "High"
+    },
+    "sprint": "Sprint 1",
+    "status": "PLANNED"
+  },
+  {
+    "recommendation_id": "REC-011",
+    "title": "Align navigator.languages[2] (Navigator) with the reference profile",
+    "description": "Restore navigator.languages[2] with the native Navigator prototype/descriptor shape before tuning values.",
+    "category": "Navigator",
+    "priority": "High",
+    "difficulty": "Medium",
+    "estimated_effort": {
+      "hours": 8.0,
+      "complexity_points": 2.0
+    },
+    "expected_similarity_gain": 0.3547,
+    "expected_cf_gain": 0.4079,
+    "regression_probability": 47.45,
+    "confidence": "High",
+    "affected_properties": [
+      "navigator.languages[2]"
+    ],
+    "affected_modules": [
+      "Navigator",
+      "Other"
+    ],
+    "affected_tasks": [
+      "OPT-011"
+    ],
+    "knowledge_graph_impact": {
+      "affected_nodes": 1,
+      "affected_edges": 10,
+      "affected_clusters": [
+        "component:001"
+      ],
+      "hub_impact": 0.2844,
+      "bridge_impact": 0.6254,
+      "centrality_gain": 0.4549,
+      "dependency_unlock": 0
+    },
+    "dependencies": [
+      "navigator.language",
+      "navigator.languages"
+    ],
+    "supporting_evidence": [
+      "reports\\experiments\\exp_045\\fingerprint_importance\\importance.json",
+      "reports\\experiments\\exp_048\\fingerprint_risk\\risk.json",
+      "reports\\experiments\\exp_052\\optimization_planner\\ranking.json",
+      "reports\\experiments\\exp_060\\optimization_executor\\tasks.json",
+      "reports\\experiments\\exp_068\\knowledge_graph\\graph.json"
+    ],
+    "reasoning": {
+      "score_components": {
+        "importance": 95.0,
+        "risk": 73.0,
+        "degree_centrality": 0.2844,
+        "betweenness_centrality": 0.6254,
+        "dependency_count": 0,
+        "dependency_unlock": 0,
+        "similarity_opportunity": 35.47,
+        "historical_success": 0.0,
+        "historical_failure": 0.0,
+        "module_maturity": 63.5,
+        "evidence_confidence": 1.0
+      },
+      "explanation": "Score combines importance, risk, graph centrality, dependencies, historical outcomes, gain, difficulty, maturity, and evidence confidence."
+    },
+    "recommendation_type": "Experimental",
+    "score": 38.289976,
+    "metrics": {
+      "importance": 95.0,
+      "risk": 73.0,
+      "degree_centrality": 0.2844,
+      "betweenness_centrality": 0.6254,
+      "dependency_count": 0,
+      "dependency_unlock": 0,
+      "similarity_opportunity": 35.47,
+      "historical_success": 0.0,
+      "historical_failure": 0.0,
+      "historical_occurrences": 0,
+      "module_maturity": 63.5,
+      "evidence_confidence": 1.0,
+      "score": 38.289976,
+      "roi": 0.1419,
+      "gain": 0.3547,
+      "cf_gain": 0.4079,
+      "difficulty": "Medium",
+      "risk_level": "Medium",
+      "effort_hours": 8.0,
+      "confidence_label": "High"
+    },
+    "sprint": "Sprint 1",
+    "status": "PLANNED"
+  },
+  {
+    "recommendation_id": "REC-002",
+    "title": "Align navigator.userAgentData.brands[1].version (Navigator) with the reference profile",
+    "description": "Align UA, UA-CH brands, platform, vendor, and version fields as one coherent browser profile.",
+    "category": "Navigator",
+    "priority": "Critical",
+    "difficulty": "Very Hard",
+    "estimated_effort": {
+      "hours": 28.0,
+      "complexity_points": 7.0
+    },
+    "expected_similarity_gain": 0.3965,
+    "expected_cf_gain": 0.456,
+    "regression_probability": 59.04,
+    "confidence": "Medium",
+    "affected_properties": [
+      "navigator.userAgentData.brands[1].version"
+    ],
+    "affected_modules": [
+      "Navigator",
+      "Other"
+    ],
+    "affected_tasks": [
+      "OPT-002"
+    ],
+    "knowledge_graph_impact": {
+      "affected_nodes": 1,
+      "affected_edges": 12,
+      "affected_clusters": [
+        "component:001"
+      ],
+      "hub_impact": 0.3318,
+      "bridge_impact": 0.9798,
+      "centrality_gain": 0.6558,
+      "dependency_unlock": 0
+    },
+    "dependencies": [
+      "OPT-001",
+      "navigator.platform",
+      "navigator.userAgentData",
+      "navigator.vendor"
+    ],
+    "supporting_evidence": [
+      "reports\\experiments\\exp_045\\fingerprint_importance\\importance.json",
+      "reports\\experiments\\exp_048\\fingerprint_risk\\risk.json",
+      "reports\\experiments\\exp_052\\optimization_planner\\ranking.json",
+      "reports\\experiments\\exp_060\\optimization_executor\\tasks.json",
+      "reports\\experiments\\exp_068\\knowledge_graph\\graph.json"
+    ],
+    "reasoning": {
+      "score_components": {
+        "importance": 100.0,
+        "risk": 81.6,
+        "degree_centrality": 0.3318,
+        "betweenness_centrality": 0.9798,
+        "dependency_count": 1,
+        "dependency_unlock": 0,
+        "similarity_opportunity": 39.65,
+        "historical_success": 0.0,
+        "historical_failure": 0.0,
+        "module_maturity": 59.2,
+        "evidence_confidence": 0.7
+      },
+      "explanation": "Score combines importance, risk, graph centrality, dependencies, historical outcomes, gain, difficulty, maturity, and evidence confidence."
+    },
+    "recommendation_type": "Long Term",
+    "score": 32.356392,
+    "metrics": {
+      "importance": 100.0,
+      "risk": 81.6,
+      "degree_centrality": 0.3318,
+      "betweenness_centrality": 0.9798,
+      "dependency_count": 1,
+      "dependency_unlock": 0,
+      "similarity_opportunity": 39.65,
+      "historical_success": 0.0,
+      "historical_failure": 0.0,
+      "historical_occurrences": 0,
+      "module_maturity": 59.2,
+      "evidence_confidence": 0.7,
+      "score": 32.356392,
+      "roi": 0.0312,
+      "gain": 0.3965,
+      "cf_gain": 0.456,
+      "difficulty": "Very Hard",
+      "risk_level": "High",
+      "effort_hours": 28.0,
+      "confidence_label": "Medium"
+    },
+    "sprint": "Sprint 1",
+    "status": "PLANNED"
+  },
+  {
+    "recommendation_id": "REC-003",
+    "title": "Align navigator.userAgentData.brands[2].version (Navigator) with the reference profile",
+    "description": "Align UA, UA-CH brands, platform, vendor, and version fields as one coherent browser profile.",
+    "category": "Navigator",
+    "priority": "Critical",
+    "difficulty": "Very Hard",
+    "estimated_effort": {
+      "hours": 28.0,
+      "complexity_points": 7.0
+    },
+    "expected_similarity_gain": 0.3965,
+    "expected_cf_gain": 0.456,
+    "regression_probability": 59.04,
+    "confidence": "Medium",
+    "affected_properties": [
+      "navigator.userAgentData.brands[2].version"
+    ],
+    "affected_modules": [
+      "Navigator",
+      "Other"
+    ],
+    "affected_tasks": [
+      "OPT-003"
+    ],
+    "knowledge_graph_impact": {
+      "affected_nodes": 1,
+      "affected_edges": 12,
+      "affected_clusters": [
+        "component:001"
+      ],
+      "hub_impact": 0.3318,
+      "bridge_impact": 0.9798,
+      "centrality_gain": 0.6558,
+      "dependency_unlock": 0
+    },
+    "dependencies": [
+      "OPT-001",
+      "navigator.platform",
+      "navigator.userAgentData",
+      "navigator.vendor"
+    ],
+    "supporting_evidence": [
+      "reports\\experiments\\exp_045\\fingerprint_importance\\importance.json",
+      "reports\\experiments\\exp_048\\fingerprint_risk\\risk.json",
+      "reports\\experiments\\exp_052\\optimization_planner\\ranking.json",
+      "reports\\experiments\\exp_060\\optimization_executor\\tasks.json",
+      "reports\\experiments\\exp_068\\knowledge_graph\\graph.json"
+    ],
+    "reasoning": {
+      "score_components": {
+        "importance": 100.0,
+        "risk": 81.6,
+        "degree_centrality": 0.3318,
+        "betweenness_centrality": 0.9798,
+        "dependency_count": 1,
+        "dependency_unlock": 0,
+        "similarity_opportunity": 39.65,
+        "historical_success": 0.0,
+        "historical_failure": 0.0,
+        "module_maturity": 59.2,
+        "evidence_confidence": 0.7
+      },
+      "explanation": "Score combines importance, risk, graph centrality, dependencies, historical outcomes, gain, difficulty, maturity, and evidence confidence."
+    },
+    "recommendation_type": "Long Term",
+    "score": 32.356392,
+    "metrics": {
+      "importance": 100.0,
+      "risk": 81.6,
+      "degree_centrality": 0.3318,
+      "betweenness_centrality": 0.9798,
+      "dependency_count": 1,
+      "dependency_unlock": 0,
+      "similarity_opportunity": 39.65,
+      "historical_success": 0.0,
+      "historical_failure": 0.0,
+      "historical_occurrences": 0,
+      "module_maturity": 59.2,
+      "evidence_confidence": 0.7,
+      "score": 32.356392,
+      "roi": 0.0312,
+      "gain": 0.3965,
+      "cf_gain": 0.456,
+      "difficulty": "Very Hard",
+      "risk_level": "High",
+      "effort_hours": 28.0,
+      "confidence_label": "Medium"
+    },
+    "sprint": "Sprint 1",
+    "status": "PLANNED"
+  },
+  {
+    "recommendation_id": "REC-004",
+    "title": "Align navigator.userAgentData.high_entropy.brands[1].version (Navigator) with the reference profile",
+    "description": "Align UA, UA-CH brands, platform, vendor, and version fields as one coherent browser profile.",
+    "category": "Navigator",
+    "priority": "Critical",
+    "difficulty": "Very Hard",
+    "estimated_effort": {
+      "hours": 28.0,
+      "complexity_points": 7.0
+    },
+    "expected_similarity_gain": 0.3965,
+    "expected_cf_gain": 0.456,
+    "regression_probability": 59.04,
+    "confidence": "Medium",
+    "affected_properties": [
+      "navigator.userAgentData.high_entropy.brands[1].version"
+    ],
+    "affected_modules": [
+      "Navigator",
+      "Other"
+    ],
+    "affected_tasks": [
+      "OPT-004"
+    ],
+    "knowledge_graph_impact": {
+      "affected_nodes": 1,
+      "affected_edges": 12,
+      "affected_clusters": [
+        "component:001"
+      ],
+      "hub_impact": 0.3318,
+      "bridge_impact": 0.9798,
+      "centrality_gain": 0.6558,
+      "dependency_unlock": 0
+    },
+    "dependencies": [
+      "OPT-001",
+      "navigator.platform",
+      "navigator.userAgentData",
+      "navigator.vendor"
+    ],
+    "supporting_evidence": [
+      "reports\\experiments\\exp_045\\fingerprint_importance\\importance.json",
+      "reports\\experiments\\exp_048\\fingerprint_risk\\risk.json",
+      "reports\\experiments\\exp_052\\optimization_planner\\ranking.json",
+      "reports\\experiments\\exp_060\\optimization_executor\\tasks.json",
+      "reports\\experiments\\exp_068\\knowledge_graph\\graph.json"
+    ],
+    "reasoning": {
+      "score_components": {
+        "importance": 100.0,
+        "risk": 81.6,
+        "degree_centrality": 0.3318,
+        "betweenness_centrality": 0.9798,
+        "dependency_count": 1,
+        "dependency_unlock": 0,
+        "similarity_opportunity": 39.65,
+        "historical_success": 0.0,
+        "historical_failure": 0.0,
+        "module_maturity": 59.2,
+        "evidence_confidence": 0.7
+      },
+      "explanation": "Score combines importance, risk, graph centrality, dependencies, historical outcomes, gain, difficulty, maturity, and evidence confidence."
+    },
+    "recommendation_type": "Long Term",
+    "score": 32.356392,
+    "metrics": {
+      "importance": 100.0,
+      "risk": 81.6,
+      "degree_centrality": 0.3318,
+      "betweenness_centrality": 0.9798,
+      "dependency_count": 1,
+      "dependency_unlock": 0,
+      "similarity_opportunity": 39.65,
+      "historical_success": 0.0,
+      "historical_failure": 0.0,
+      "historical_occurrences": 0,
+      "module_maturity": 59.2,
+      "evidence_confidence": 0.7,
+      "score": 32.356392,
+      "roi": 0.0312,
+      "gain": 0.3965,
+      "cf_gain": 0.456,
+      "difficulty": "Very Hard",
+      "risk_level": "High",
+      "effort_hours": 28.0,
+      "confidence_label": "Medium"
+    },
+    "sprint": "Sprint 1",
+    "status": "PLANNED"
+  },
+  {
+    "recommendation_id": "REC-005",
+    "title": "Align navigator.userAgentData.high_entropy.brands[2].version (Navigator) with the reference profile",
+    "description": "Align UA, UA-CH brands, platform, vendor, and version fields as one coherent browser profile.",
+    "category": "Navigator",
+    "priority": "Critical",
+    "difficulty": "Very Hard",
+    "estimated_effort": {
+      "hours": 28.0,
+      "complexity_points": 7.0
+    },
+    "expected_similarity_gain": 0.3965,
+    "expected_cf_gain": 0.456,
+    "regression_probability": 59.04,
+    "confidence": "Medium",
+    "affected_properties": [
+      "navigator.userAgentData.high_entropy.brands[2].version"
+    ],
+    "affected_modules": [
+      "Navigator",
+      "Other"
+    ],
+    "affected_tasks": [
+      "OPT-005"
+    ],
+    "knowledge_graph_impact": {
+      "affected_nodes": 1,
+      "affected_edges": 12,
+      "affected_clusters": [
+        "component:001"
+      ],
+      "hub_impact": 0.3318,
+      "bridge_impact": 0.9798,
+      "centrality_gain": 0.6558,
+      "dependency_unlock": 0
+    },
+    "dependencies": [
+      "OPT-001",
+      "navigator.platform",
+      "navigator.userAgentData",
+      "navigator.vendor"
+    ],
+    "supporting_evidence": [
+      "reports\\experiments\\exp_045\\fingerprint_importance\\importance.json",
+      "reports\\experiments\\exp_048\\fingerprint_risk\\risk.json",
+      "reports\\experiments\\exp_052\\optimization_planner\\ranking.json",
+      "reports\\experiments\\exp_060\\optimization_executor\\tasks.json",
+      "reports\\experiments\\exp_068\\knowledge_graph\\graph.json"
+    ],
+    "reasoning": {
+      "score_components": {
+        "importance": 100.0,
+        "risk": 81.6,
+        "degree_centrality": 0.3318,
+        "betweenness_centrality": 0.9798,
+        "dependency_count": 1,
+        "dependency_unlock": 0,
+        "similarity_opportunity": 39.65,
+        "historical_success": 0.0,
+        "historical_failure": 0.0,
+        "module_maturity": 59.2,
+        "evidence_confidence": 0.7
+      },
+      "explanation": "Score combines importance, risk, graph centrality, dependencies, historical outcomes, gain, difficulty, maturity, and evidence confidence."
+    },
+    "recommendation_type": "Long Term",
+    "score": 32.356392,
+    "metrics": {
+      "importance": 100.0,
+      "risk": 81.6,
+      "degree_centrality": 0.3318,
+      "betweenness_centrality": 0.9798,
+      "dependency_count": 1,
+      "dependency_unlock": 0,
+      "similarity_opportunity": 39.65,
+      "historical_success": 0.0,
+      "historical_failure": 0.0,
+      "historical_occurrences": 0,
+      "module_maturity": 59.2,
+      "evidence_confidence": 0.7,
+      "score": 32.356392,
+      "roi": 0.0312,
+      "gain": 0.3965,
+      "cf_gain": 0.456,
+      "difficulty": "Very Hard",
+      "risk_level": "High",
+      "effort_hours": 28.0,
+      "confidence_label": "Medium"
+    },
+    "sprint": "Sprint 1",
+    "status": "PLANNED"
+  },
+  {
+    "recommendation_id": "REC-006",
+    "title": "Align navigator.userAgentData.high_entropy.fullVersionList[1].version (Navigator) with the reference profile",
+    "description": "Align UA, UA-CH brands, platform, vendor, and version fields as one coherent browser profile.",
+    "category": "Navigator",
+    "priority": "Critical",
+    "difficulty": "Very Hard",
+    "estimated_effort": {
+      "hours": 28.0,
+      "complexity_points": 7.0
+    },
+    "expected_similarity_gain": 0.3965,
+    "expected_cf_gain": 0.456,
+    "regression_probability": 59.04,
+    "confidence": "Medium",
+    "affected_properties": [
+      "navigator.userAgentData.high_entropy.fullVersionList[1].version"
+    ],
+    "affected_modules": [
+      "Navigator",
+      "Other"
+    ],
+    "affected_tasks": [
+      "OPT-006"
+    ],
+    "knowledge_graph_impact": {
+      "affected_nodes": 1,
+      "affected_edges": 12,
+      "affected_clusters": [
+        "component:001"
+      ],
+      "hub_impact": 0.3318,
+      "bridge_impact": 0.9798,
+      "centrality_gain": 0.6558,
+      "dependency_unlock": 0
+    },
+    "dependencies": [
+      "OPT-001",
+      "navigator.platform",
+      "navigator.userAgentData",
+      "navigator.vendor"
+    ],
+    "supporting_evidence": [
+      "reports\\experiments\\exp_045\\fingerprint_importance\\importance.json",
+      "reports\\experiments\\exp_048\\fingerprint_risk\\risk.json",
+      "reports\\experiments\\exp_052\\optimization_planner\\ranking.json",
+      "reports\\experiments\\exp_060\\optimization_executor\\tasks.json",
+      "reports\\experiments\\exp_068\\knowledge_graph\\graph.json"
+    ],
+    "reasoning": {
+      "score_components": {
+        "importance": 100.0,
+        "risk": 81.6,
+        "degree_centrality": 0.3318,
+        "betweenness_centrality": 0.9798,
+        "dependency_count": 1,
+        "dependency_unlock": 0,
+        "similarity_opportunity": 39.65,
+        "historical_success": 0.0,
+        "historical_failure": 0.0,
+        "module_maturity": 59.2,
+        "evidence_confidence": 0.7
+      },
+      "explanation": "Score combines importance, risk, graph centrality, dependencies, historical outcomes, gain, difficulty, maturity, and evidence confidence."
+    },
+    "recommendation_type": "Long Term",
+    "score": 32.356392,
+    "metrics": {
+      "importance": 100.0,
+      "risk": 81.6,
+      "degree_centrality": 0.3318,
+      "betweenness_centrality": 0.9798,
+      "dependency_count": 1,
+      "dependency_unlock": 0,
+      "similarity_opportunity": 39.65,
+      "historical_success": 0.0,
+      "historical_failure": 0.0,
+      "historical_occurrences": 0,
+      "module_maturity": 59.2,
+      "evidence_confidence": 0.7,
+      "score": 32.356392,
+      "roi": 0.0312,
+      "gain": 0.3965,
+      "cf_gain": 0.456,
+      "difficulty": "Very Hard",
+      "risk_level": "High",
+      "effort_hours": 28.0,
+      "confidence_label": "Medium"
+    },
+    "sprint": "Sprint 1",
+    "status": "PLANNED"
+  },
+  {
+    "recommendation_id": "REC-007",
+    "title": "Align navigator.userAgentData.high_entropy.fullVersionList[2].version (Navigator) with the reference profile",
+    "description": "Align UA, UA-CH brands, platform, vendor, and version fields as one coherent browser profile.",
+    "category": "Navigator",
+    "priority": "Critical",
+    "difficulty": "Very Hard",
+    "estimated_effort": {
+      "hours": 28.0,
+      "complexity_points": 7.0
+    },
+    "expected_similarity_gain": 0.3965,
+    "expected_cf_gain": 0.456,
+    "regression_probability": 59.04,
+    "confidence": "Medium",
+    "affected_properties": [
+      "navigator.userAgentData.high_entropy.fullVersionList[2].version"
+    ],
+    "affected_modules": [
+      "Navigator",
+      "Other"
+    ],
+    "affected_tasks": [
+      "OPT-007"
+    ],
+    "knowledge_graph_impact": {
+      "affected_nodes": 1,
+      "affected_edges": 12,
+      "affected_clusters": [
+        "component:001"
+      ],
+      "hub_impact": 0.3318,
+      "bridge_impact": 0.9798,
+      "centrality_gain": 0.6558,
+      "dependency_unlock": 0
+    },
+    "dependencies": [
+      "OPT-001",
+      "navigator.platform",
+      "navigator.userAgentData",
+      "navigator.vendor"
+    ],
+    "supporting_evidence": [
+      "reports\\experiments\\exp_045\\fingerprint_importance\\importance.json",
+      "reports\\experiments\\exp_048\\fingerprint_risk\\risk.json",
+      "reports\\experiments\\exp_052\\optimization_planner\\ranking.json",
+      "reports\\experiments\\exp_060\\optimization_executor\\tasks.json",
+      "reports\\experiments\\exp_068\\knowledge_graph\\graph.json"
+    ],
+    "reasoning": {
+      "score_components": {
+        "importance": 100.0,
+        "risk": 81.6,
+        "degree_centrality": 0.3318,
+        "betweenness_centrality": 0.9798,
+        "dependency_count": 1,
+        "dependency_unlock": 0,
+        "similarity_opportunity": 39.65,
+        "historical_success": 0.0,
+        "historical_failure": 0.0,
+        "module_maturity": 59.2,
+        "evidence_confidence": 0.7
+      },
+      "explanation": "Score combines importance, risk, graph centrality, dependencies, historical outcomes, gain, difficulty, maturity, and evidence confidence."
+    },
+    "recommendation_type": "Long Term",
+    "score": 32.356392,
+    "metrics": {
+      "importance": 100.0,
+      "risk": 81.6,
+      "degree_centrality": 0.3318,
+      "betweenness_centrality": 0.9798,
+      "dependency_count": 1,
+      "dependency_unlock": 0,
+      "similarity_opportunity": 39.65,
+      "historical_success": 0.0,
+      "historical_failure": 0.0,
+      "historical_occurrences": 0,
+      "module_maturity": 59.2,
+      "evidence_confidence": 0.7,
+      "score": 32.356392,
+      "roi": 0.0312,
+      "gain": 0.3965,
+      "cf_gain": 0.456,
+      "difficulty": "Very Hard",
+      "risk_level": "High",
+      "effort_hours": 28.0,
+      "confidence_label": "Medium"
+    },
+    "sprint": "Sprint 1",
+    "status": "PLANNED"
+  },
+  {
+    "recommendation_id": "REC-008",
+    "title": "Align navigator.userAgentData.high_entropy.platformVersion (Navigator) with the reference profile",
+    "description": "Align UA, UA-CH brands, platform, vendor, and version fields as one coherent browser profile.",
+    "category": "Navigator",
+    "priority": "Critical",
+    "difficulty": "Very Hard",
+    "estimated_effort": {
+      "hours": 28.0,
+      "complexity_points": 7.0
+    },
+    "expected_similarity_gain": 0.3965,
+    "expected_cf_gain": 0.456,
+    "regression_probability": 59.04,
+    "confidence": "Medium",
+    "affected_properties": [
+      "navigator.userAgentData.high_entropy.platformVersion"
+    ],
+    "affected_modules": [
+      "Navigator",
+      "Other"
+    ],
+    "affected_tasks": [
+      "OPT-008"
+    ],
+    "knowledge_graph_impact": {
+      "affected_nodes": 1,
+      "affected_edges": 12,
+      "affected_clusters": [
+        "component:001"
+      ],
+      "hub_impact": 0.3318,
+      "bridge_impact": 0.9798,
+      "centrality_gain": 0.6558,
+      "dependency_unlock": 0
+    },
+    "dependencies": [
+      "OPT-001",
+      "navigator.platform",
+      "navigator.userAgentData",
+      "navigator.vendor"
+    ],
+    "supporting_evidence": [
+      "reports\\experiments\\exp_045\\fingerprint_importance\\importance.json",
+      "reports\\experiments\\exp_048\\fingerprint_risk\\risk.json",
+      "reports\\experiments\\exp_052\\optimization_planner\\ranking.json",
+      "reports\\experiments\\exp_060\\optimization_executor\\tasks.json",
+      "reports\\experiments\\exp_068\\knowledge_graph\\graph.json"
+    ],
+    "reasoning": {
+      "score_components": {
+        "importance": 100.0,
+        "risk": 81.6,
+        "degree_centrality": 0.3318,
+        "betweenness_centrality": 0.9798,
+        "dependency_count": 1,
+        "dependency_unlock": 0,
+        "similarity_opportunity": 39.65,
+        "historical_success": 0.0,
+        "historical_failure": 0.0,
+        "module_maturity": 59.2,
+        "evidence_confidence": 0.7
+      },
+      "explanation": "Score combines importance, risk, graph centrality, dependencies, historical outcomes, gain, difficulty, maturity, and evidence confidence."
+    },
+    "recommendation_type": "Long Term",
+    "score": 32.356392,
+    "metrics": {
+      "importance": 100.0,
+      "risk": 81.6,
+      "degree_centrality": 0.3318,
+      "betweenness_centrality": 0.9798,
+      "dependency_count": 1,
+      "dependency_unlock": 0,
+      "similarity_opportunity": 39.65,
+      "historical_success": 0.0,
+      "historical_failure": 0.0,
+      "historical_occurrences": 0,
+      "module_maturity": 59.2,
+      "evidence_confidence": 0.7,
+      "score": 32.356392,
+      "roi": 0.0312,
+      "gain": 0.3965,
+      "cf_gain": 0.456,
+      "difficulty": "Very Hard",
+      "risk_level": "High",
+      "effort_hours": 28.0,
+      "confidence_label": "Medium"
+    },
+    "sprint": "Sprint 1",
+    "status": "PLANNED"
+  },
+  {
+    "recommendation_id": "REC-009",
+    "title": "Align navigator.userAgentData.high_entropy.uaFullVersion (Navigator) with the reference profile",
+    "description": "Align UA, UA-CH brands, platform, vendor, and version fields as one coherent browser profile.",
+    "category": "Navigator",
+    "priority": "Critical",
+    "difficulty": "Very Hard",
+    "estimated_effort": {
+      "hours": 28.0,
+      "complexity_points": 7.0
+    },
+    "expected_similarity_gain": 0.3965,
+    "expected_cf_gain": 0.456,
+    "regression_probability": 59.04,
+    "confidence": "Medium",
+    "affected_properties": [
+      "navigator.userAgentData.high_entropy.uaFullVersion"
+    ],
+    "affected_modules": [
+      "Navigator",
+      "Other"
+    ],
+    "affected_tasks": [
+      "OPT-009"
+    ],
+    "knowledge_graph_impact": {
+      "affected_nodes": 1,
+      "affected_edges": 12,
+      "affected_clusters": [
+        "component:001"
+      ],
+      "hub_impact": 0.3318,
+      "bridge_impact": 0.9798,
+      "centrality_gain": 0.6558,
+      "dependency_unlock": 0
+    },
+    "dependencies": [
+      "OPT-001",
+      "navigator.platform",
+      "navigator.userAgentData",
+      "navigator.vendor"
+    ],
+    "supporting_evidence": [
+      "reports\\experiments\\exp_045\\fingerprint_importance\\importance.json",
+      "reports\\experiments\\exp_048\\fingerprint_risk\\risk.json",
+      "reports\\experiments\\exp_052\\optimization_planner\\ranking.json",
+      "reports\\experiments\\exp_060\\optimization_executor\\tasks.json",
+      "reports\\experiments\\exp_068\\knowledge_graph\\graph.json"
+    ],
+    "reasoning": {
+      "score_components": {
+        "importance": 100.0,
+        "risk": 81.6,
+        "degree_centrality": 0.3318,
+        "betweenness_centrality": 0.9798,
+        "dependency_count": 1,
+        "dependency_unlock": 0,
+        "similarity_opportunity": 39.65,
+        "historical_success": 0.0,
+        "historical_failure": 0.0,
+        "module_maturity": 59.2,
+        "evidence_confidence": 0.7
+      },
+      "explanation": "Score combines importance, risk, graph centrality, dependencies, historical outcomes, gain, difficulty, maturity, and evidence confidence."
+    },
+    "recommendation_type": "Long Term",
+    "score": 32.356392,
+    "metrics": {
+      "importance": 100.0,
+      "risk": 81.6,
+      "degree_centrality": 0.3318,
+      "betweenness_centrality": 0.9798,
+      "dependency_count": 1,
+      "dependency_unlock": 0,
+      "similarity_opportunity": 39.65,
+      "historical_success": 0.0,
+      "historical_failure": 0.0,
+      "historical_occurrences": 0,
+      "module_maturity": 59.2,
+      "evidence_confidence": 0.7,
+      "score": 32.356392,
+      "roi": 0.0312,
+      "gain": 0.3965,
+      "cf_gain": 0.456,
+      "difficulty": "Very Hard",
+      "risk_level": "High",
+      "effort_hours": 28.0,
+      "confidence_label": "Medium"
+    },
+    "sprint": "Sprint 1",
+    "status": "PLANNED"
+  },
+  {
+    "recommendation_id": "REC-014",
+    "title": "Align intl.collator.locale (Environment) with the reference profile",
+    "description": "Review the Environment surface for value, descriptor, prototype, and cross-property consistency.",
+    "category": "Unknown",
+    "priority": "High",
+    "difficulty": "Easy",
+    "estimated_effort": {
+      "hours": 4.0,
+      "complexity_points": 1.0
+    },
+    "expected_similarity_gain": 0.2952,
+    "expected_cf_gain": 0.2657,
+    "regression_probability": 39.4875,
+    "confidence": "High",
+    "affected_properties": [
+      "intl.collator.locale"
+    ],
+    "affected_modules": [
+      "Environment",
+      "Other",
+      "Unknown"
+    ],
+    "affected_tasks": [
+      "OPT-014"
+    ],
+    "knowledge_graph_impact": {
+      "affected_nodes": 1,
+      "affected_edges": 9,
+      "affected_clusters": [
+        "component:001"
+      ],
+      "hub_impact": 0.237,
+      "bridge_impact": 1.4565,
+      "centrality_gain": 0.84675,
+      "dependency_unlock": 0
+    },
+    "dependencies": [],
+    "supporting_evidence": [
+      "reports\\experiments\\exp_045\\fingerprint_importance\\importance.json",
+      "reports\\experiments\\exp_048\\fingerprint_risk\\risk.json",
+      "reports\\experiments\\exp_052\\optimization_planner\\ranking.json",
+      "reports\\experiments\\exp_060\\optimization_executor\\tasks.json",
+      "reports\\experiments\\exp_068\\knowledge_graph\\graph.json"
+    ],
+    "reasoning": {
+      "score_components": {
+        "importance": 50.0,
+        "risk": 60.75,
+        "degree_centrality": 0.237,
+        "betweenness_centrality": 1.4565,
+        "dependency_count": 0,
+        "dependency_unlock": 0,
+        "similarity_opportunity": 29.52,
+        "historical_success": 0.0,
+        "historical_failure": 0.0,
+        "module_maturity": 69.625,
+        "evidence_confidence": 1.0
+      },
+      "explanation": "Score combines importance, risk, graph centrality, dependencies, historical outcomes, gain, difficulty, maturity, and evidence confidence."
+    },
+    "recommendation_type": "Quick Win",
+    "score": 29.13977,
+    "metrics": {
+      "importance": 50.0,
+      "risk": 60.75,
+      "degree_centrality": 0.237,
+      "betweenness_centrality": 1.4565,
+      "dependency_count": 0,
+      "dependency_unlock": 0,
+      "similarity_opportunity": 29.52,
+      "historical_success": 0.0,
+      "historical_failure": 0.0,
+      "historical_occurrences": 0,
+      "module_maturity": 69.625,
+      "evidence_confidence": 1.0,
+      "score": 29.13977,
+      "roi": 0.2952,
+      "gain": 0.2952,
+      "cf_gain": 0.2657,
+      "difficulty": "Easy",
+      "risk_level": "Low",
+      "effort_hours": 4.0,
+      "confidence_label": "High"
+    },
+    "sprint": "Sprint 1",
+    "status": "PLANNED"
+  },
+  {
+    "recommendation_id": "REC-015",
+    "title": "Align intl.listFormat.locale (Environment) with the reference profile",
+    "description": "Review the Environment surface for value, descriptor, prototype, and cross-property consistency.",
+    "category": "Unknown",
+    "priority": "High",
+    "difficulty": "Easy",
+    "estimated_effort": {
+      "hours": 4.0,
+      "complexity_points": 1.0
+    },
+    "expected_similarity_gain": 0.2952,
+    "expected_cf_gain": 0.2657,
+    "regression_probability": 39.4875,
+    "confidence": "High",
+    "affected_properties": [
+      "intl.listFormat.locale"
+    ],
+    "affected_modules": [
+      "Environment",
+      "Other",
+      "Unknown"
+    ],
+    "affected_tasks": [
+      "OPT-015"
+    ],
+    "knowledge_graph_impact": {
+      "affected_nodes": 1,
+      "affected_edges": 9,
+      "affected_clusters": [
+        "component:001"
+      ],
+      "hub_impact": 0.237,
+      "bridge_impact": 1.4565,
+      "centrality_gain": 0.84675,
+      "dependency_unlock": 0
+    },
+    "dependencies": [],
+    "supporting_evidence": [
+      "reports\\experiments\\exp_045\\fingerprint_importance\\importance.json",
+      "reports\\experiments\\exp_048\\fingerprint_risk\\risk.json",
+      "reports\\experiments\\exp_052\\optimization_planner\\ranking.json",
+      "reports\\experiments\\exp_060\\optimization_executor\\tasks.json",
+      "reports\\experiments\\exp_068\\knowledge_graph\\graph.json"
+    ],
+    "reasoning": {
+      "score_components": {
+        "importance": 50.0,
+        "risk": 60.75,
+        "degree_centrality": 0.237,
+        "betweenness_centrality": 1.4565,
+        "dependency_count": 0,
+        "dependency_unlock": 0,
+        "similarity_opportunity": 29.52,
+        "historical_success": 0.0,
+        "historical_failure": 0.0,
+        "module_maturity": 69.625,
+        "evidence_confidence": 1.0
+      },
+      "explanation": "Score combines importance, risk, graph centrality, dependencies, historical outcomes, gain, difficulty, maturity, and evidence confidence."
+    },
+    "recommendation_type": "Quick Win",
+    "score": 29.13977,
+    "metrics": {
+      "importance": 50.0,
+      "risk": 60.75,
+      "degree_centrality": 0.237,
+      "betweenness_centrality": 1.4565,
+      "dependency_count": 0,
+      "dependency_unlock": 0,
+      "similarity_opportunity": 29.52,
+      "historical_success": 0.0,
+      "historical_failure": 0.0,
+      "historical_occurrences": 0,
+      "module_maturity": 69.625,
+      "evidence_confidence": 1.0,
+      "score": 29.13977,
+      "roi": 0.2952,
+      "gain": 0.2952,
+      "cf_gain": 0.2657,
+      "difficulty": "Easy",
+      "risk_level": "Low",
+      "effort_hours": 4.0,
+      "confidence_label": "High"
+    },
+    "sprint": "Sprint 1",
+    "status": "PLANNED"
+  },
+  {
+    "recommendation_id": "REC-016",
+    "title": "Align intl.numberFormat.locale (Environment) with the reference profile",
+    "description": "Review the Environment surface for value, descriptor, prototype, and cross-property consistency.",
+    "category": "Unknown",
+    "priority": "High",
+    "difficulty": "Easy",
+    "estimated_effort": {
+      "hours": 4.0,
+      "complexity_points": 1.0
+    },
+    "expected_similarity_gain": 0.2952,
+    "expected_cf_gain": 0.2657,
+    "regression_probability": 39.4875,
+    "confidence": "High",
+    "affected_properties": [
+      "intl.numberFormat.locale"
+    ],
+    "affected_modules": [
+      "Environment",
+      "Other",
+      "Unknown"
+    ],
+    "affected_tasks": [
+      "OPT-016"
+    ],
+    "knowledge_graph_impact": {
+      "affected_nodes": 1,
+      "affected_edges": 9,
+      "affected_clusters": [
+        "component:001"
+      ],
+      "hub_impact": 0.237,
+      "bridge_impact": 1.4565,
+      "centrality_gain": 0.84675,
+      "dependency_unlock": 0
+    },
+    "dependencies": [],
+    "supporting_evidence": [
+      "reports\\experiments\\exp_045\\fingerprint_importance\\importance.json",
+      "reports\\experiments\\exp_048\\fingerprint_risk\\risk.json",
+      "reports\\experiments\\exp_052\\optimization_planner\\ranking.json",
+      "reports\\experiments\\exp_060\\optimization_executor\\tasks.json",
+      "reports\\experiments\\exp_068\\knowledge_graph\\graph.json"
+    ],
+    "reasoning": {
+      "score_components": {
+        "importance": 50.0,
+        "risk": 60.75,
+        "degree_centrality": 0.237,
+        "betweenness_centrality": 1.4565,
+        "dependency_count": 0,
+        "dependency_unlock": 0,
+        "similarity_opportunity": 29.52,
+        "historical_success": 0.0,
+        "historical_failure": 0.0,
+        "module_maturity": 69.625,
+        "evidence_confidence": 1.0
+      },
+      "explanation": "Score combines importance, risk, graph centrality, dependencies, historical outcomes, gain, difficulty, maturity, and evidence confidence."
+    },
+    "recommendation_type": "Quick Win",
+    "score": 29.13977,
+    "metrics": {
+      "importance": 50.0,
+      "risk": 60.75,
+      "degree_centrality": 0.237,
+      "betweenness_centrality": 1.4565,
+      "dependency_count": 0,
+      "dependency_unlock": 0,
+      "similarity_opportunity": 29.52,
+      "historical_success": 0.0,
+      "historical_failure": 0.0,
+      "historical_occurrences": 0,
+      "module_maturity": 69.625,
+      "evidence_confidence": 1.0,
+      "score": 29.13977,
+      "roi": 0.2952,
+      "gain": 0.2952,
+      "cf_gain": 0.2657,
+      "difficulty": "Easy",
+      "risk_level": "Low",
+      "effort_hours": 4.0,
+      "confidence_label": "High"
+    },
+    "sprint": "Sprint 1",
+    "status": "PLANNED"
+  },
+  {
+    "recommendation_id": "REC-017",
+    "title": "Align timezone.locale (Environment) with the reference profile",
+    "description": "Review the Environment surface for value, descriptor, prototype, and cross-property consistency.",
+    "category": "Unknown",
+    "priority": "High",
+    "difficulty": "Easy",
+    "estimated_effort": {
+      "hours": 4.0,
+      "complexity_points": 1.0
+    },
+    "expected_similarity_gain": 0.2952,
+    "expected_cf_gain": 0.2657,
+    "regression_probability": 39.4875,
+    "confidence": "High",
+    "affected_properties": [
+      "timezone.locale"
+    ],
+    "affected_modules": [
+      "Environment",
+      "Other",
+      "Unknown"
+    ],
+    "affected_tasks": [
+      "OPT-017"
+    ],
+    "knowledge_graph_impact": {
+      "affected_nodes": 1,
+      "affected_edges": 9,
+      "affected_clusters": [
+        "component:001"
+      ],
+      "hub_impact": 0.237,
+      "bridge_impact": 1.4565,
+      "centrality_gain": 0.84675,
+      "dependency_unlock": 0
+    },
+    "dependencies": [],
+    "supporting_evidence": [
+      "reports\\experiments\\exp_045\\fingerprint_importance\\importance.json",
+      "reports\\experiments\\exp_048\\fingerprint_risk\\risk.json",
+      "reports\\experiments\\exp_052\\optimization_planner\\ranking.json",
+      "reports\\experiments\\exp_060\\optimization_executor\\tasks.json",
+      "reports\\experiments\\exp_068\\knowledge_graph\\graph.json"
+    ],
+    "reasoning": {
+      "score_components": {
+        "importance": 50.0,
+        "risk": 60.75,
+        "degree_centrality": 0.237,
+        "betweenness_centrality": 1.4565,
+        "dependency_count": 0,
+        "dependency_unlock": 0,
+        "similarity_opportunity": 29.52,
+        "historical_success": 0.0,
+        "historical_failure": 0.0,
+        "module_maturity": 69.625,
+        "evidence_confidence": 1.0
+      },
+      "explanation": "Score combines importance, risk, graph centrality, dependencies, historical outcomes, gain, difficulty, maturity, and evidence confidence."
+    },
+    "recommendation_type": "Quick Win",
+    "score": 29.13977,
+    "metrics": {
+      "importance": 50.0,
+      "risk": 60.75,
+      "degree_centrality": 0.237,
+      "betweenness_centrality": 1.4565,
+      "dependency_count": 0,
+      "dependency_unlock": 0,
+      "similarity_opportunity": 29.52,
+      "historical_success": 0.0,
+      "historical_failure": 0.0,
+      "historical_occurrences": 0,
+      "module_maturity": 69.625,
+      "evidence_confidence": 1.0,
+      "score": 29.13977,
+      "roi": 0.2952,
+      "gain": 0.2952,
+      "cf_gain": 0.2657,
+      "difficulty": "Easy",
+      "risk_level": "Low",
+      "effort_hours": 4.0,
+      "confidence_label": "High"
+    },
+    "sprint": "Sprint 1",
+    "status": "PLANNED"
+  },
+  {
+    "recommendation_id": "REC-018",
+    "title": "Align indexeddb.databases[0] (Storage) with the reference profile",
+    "description": "Restore indexeddb.databases[0] with the native Storage prototype/descriptor shape before tuning values.",
+    "category": "Unknown",
+    "priority": "Medium",
+    "difficulty": "Easy",
+    "estimated_effort": {
+      "hours": 4.0,
+      "complexity_points": 1.0
+    },
+    "expected_similarity_gain": 0.2782,
+    "expected_cf_gain": 0.153,
+    "regression_probability": 37.2125,
+    "confidence": "High",
+    "affected_properties": [
+      "indexeddb.databases[0]"
+    ],
+    "affected_modules": [
+      "Other",
+      "Storage",
+      "Unknown"
+    ],
+    "affected_tasks": [
+      "OPT-018"
+    ],
+    "knowledge_graph_impact": {
+      "affected_nodes": 1,
+      "affected_edges": 9,
+      "affected_clusters": [
+        "component:001"
+      ],
+      "hub_impact": 0.237,
+      "bridge_impact": 0.4064,
+      "centrality_gain": 0.3217,
+      "dependency_unlock": 0
+    },
+    "dependencies": [],
+    "supporting_evidence": [
+      "reports\\experiments\\exp_045\\fingerprint_importance\\importance.json",
+      "reports\\experiments\\exp_048\\fingerprint_risk\\risk.json",
+      "reports\\experiments\\exp_052\\optimization_planner\\ranking.json",
+      "reports\\experiments\\exp_060\\optimization_executor\\tasks.json",
+      "reports\\experiments\\exp_068\\knowledge_graph\\graph.json"
+    ],
+    "reasoning": {
+      "score_components": {
+        "importance": 50.0,
+        "risk": 57.25,
+        "degree_centrality": 0.237,
+        "betweenness_centrality": 0.4064,
+        "dependency_count": 0,
+        "dependency_unlock": 0,
+        "similarity_opportunity": 27.82,
+        "historical_success": 0.0,
+        "historical_failure": 0.0,
+        "module_maturity": 71.375,
+        "evidence_confidence": 1.0
+      },
+      "explanation": "Score combines importance, risk, graph centrality, dependencies, historical outcomes, gain, difficulty, maturity, and evidence confidence."
+    },
+    "recommendation_type": "Quick Win",
+    "score": 28.758258,
+    "metrics": {
+      "importance": 50.0,
+      "risk": 57.25,
+      "degree_centrality": 0.237,
+      "betweenness_centrality": 0.4064,
+      "dependency_count": 0,
+      "dependency_unlock": 0,
+      "similarity_opportunity": 27.82,
+      "historical_success": 0.0,
+      "historical_failure": 0.0,
+      "historical_occurrences": 0,
+      "module_maturity": 71.375,
+      "evidence_confidence": 1.0,
+      "score": 28.758258,
+      "roi": 0.2782,
+      "gain": 0.2782,
+      "cf_gain": 0.153,
+      "difficulty": "Easy",
+      "risk_level": "Low",
+      "effort_hours": 4.0,
+      "confidence_label": "High"
+    },
+    "sprint": "Sprint 2",
+    "status": "PLANNED"
+  },
+  {
+    "recommendation_id": "REC-019",
+    "title": "Align indexeddb.databases[1] (Storage) with the reference profile",
+    "description": "Restore indexeddb.databases[1] with the native Storage prototype/descriptor shape before tuning values.",
+    "category": "Unknown",
+    "priority": "Medium",
+    "difficulty": "Easy",
+    "estimated_effort": {
+      "hours": 4.0,
+      "complexity_points": 1.0
+    },
+    "expected_similarity_gain": 0.2782,
+    "expected_cf_gain": 0.153,
+    "regression_probability": 37.2125,
+    "confidence": "High",
+    "affected_properties": [
+      "indexeddb.databases[1]"
+    ],
+    "affected_modules": [
+      "Other",
+      "Storage",
+      "Unknown"
+    ],
+    "affected_tasks": [
+      "OPT-019"
+    ],
+    "knowledge_graph_impact": {
+      "affected_nodes": 1,
+      "affected_edges": 9,
+      "affected_clusters": [
+        "component:001"
+      ],
+      "hub_impact": 0.237,
+      "bridge_impact": 0.4064,
+      "centrality_gain": 0.3217,
+      "dependency_unlock": 0
+    },
+    "dependencies": [],
+    "supporting_evidence": [
+      "reports\\experiments\\exp_045\\fingerprint_importance\\importance.json",
+      "reports\\experiments\\exp_048\\fingerprint_risk\\risk.json",
+      "reports\\experiments\\exp_052\\optimization_planner\\ranking.json",
+      "reports\\experiments\\exp_060\\optimization_executor\\tasks.json",
+      "reports\\experiments\\exp_068\\knowledge_graph\\graph.json"
+    ],
+    "reasoning": {
+      "score_components": {
+        "importance": 50.0,
+        "risk": 57.25,
+        "degree_centrality": 0.237,
+        "betweenness_centrality": 0.4064,
+        "dependency_count": 0,
+        "dependency_unlock": 0,
+        "similarity_opportunity": 27.82,
+        "historical_success": 0.0,
+        "historical_failure": 0.0,
+        "module_maturity": 71.375,
+        "evidence_confidence": 1.0
+      },
+      "explanation": "Score combines importance, risk, graph centrality, dependencies, historical outcomes, gain, difficulty, maturity, and evidence confidence."
+    },
+    "recommendation_type": "Quick Win",
+    "score": 28.758258,
+    "metrics": {
+      "importance": 50.0,
+      "risk": 57.25,
+      "degree_centrality": 0.237,
+      "betweenness_centrality": 0.4064,
+      "dependency_count": 0,
+      "dependency_unlock": 0,
+      "similarity_opportunity": 27.82,
+      "historical_success": 0.0,
+      "historical_failure": 0.0,
+      "historical_occurrences": 0,
+      "module_maturity": 71.375,
+      "evidence_confidence": 1.0,
+      "score": 28.758258,
+      "roi": 0.2782,
+      "gain": 0.2782,
+      "cf_gain": 0.153,
+      "difficulty": "Easy",
+      "risk_level": "Low",
+      "effort_hours": 4.0,
+      "confidence_label": "High"
+    },
+    "sprint": "Sprint 2",
+    "status": "PLANNED"
+  },
+  {
+    "recommendation_id": "REC-022",
+    "title": "Align indexeddb.count (Storage) with the reference profile",
+    "description": "Restore indexeddb.count with the native Storage prototype/descriptor shape before tuning values.",
+    "category": "Unknown",
+    "priority": "Medium",
+    "difficulty": "Easy",
+    "estimated_effort": {
+      "hours": 4.0,
+      "complexity_points": 1.0
+    },
+    "expected_similarity_gain": 0.249,
+    "expected_cf_gain": 0.137,
+    "regression_probability": 33.3125,
+    "confidence": "High",
+    "affected_properties": [
+      "indexeddb.count"
+    ],
+    "affected_modules": [
+      "Other",
+      "Storage",
+      "Unknown"
+    ],
+    "affected_tasks": [
+      "OPT-022"
+    ],
+    "knowledge_graph_impact": {
+      "affected_nodes": 1,
+      "affected_edges": 9,
+      "affected_clusters": [
+        "component:001"
+      ],
+      "hub_impact": 0.237,
+      "bridge_impact": 0.4064,
+      "centrality_gain": 0.3217,
+      "dependency_unlock": 0
+    },
+    "dependencies": [],
+    "supporting_evidence": [
+      "reports\\experiments\\exp_045\\fingerprint_importance\\importance.json",
+      "reports\\experiments\\exp_048\\fingerprint_risk\\risk.json",
+      "reports\\experiments\\exp_052\\optimization_planner\\ranking.json",
+      "reports\\experiments\\exp_060\\optimization_executor\\tasks.json",
+      "reports\\experiments\\exp_068\\knowledge_graph\\graph.json"
+    ],
+    "reasoning": {
+      "score_components": {
+        "importance": 50.0,
+        "risk": 51.25,
+        "degree_centrality": 0.237,
+        "betweenness_centrality": 0.4064,
+        "dependency_count": 0,
+        "dependency_unlock": 0,
+        "similarity_opportunity": 24.9,
+        "historical_success": 0.0,
+        "historical_failure": 0.0,
+        "module_maturity": 74.375,
+        "evidence_confidence": 1.0
+      },
+      "explanation": "Score combines importance, risk, graph centrality, dependencies, historical outcomes, gain, difficulty, maturity, and evidence confidence."
+    },
+    "recommendation_type": "Quick Win",
+    "score": 28.319458,
+    "metrics": {
+      "importance": 50.0,
+      "risk": 51.25,
+      "degree_centrality": 0.237,
+      "betweenness_centrality": 0.4064,
+      "dependency_count": 0,
+      "dependency_unlock": 0,
+      "similarity_opportunity": 24.9,
+      "historical_success": 0.0,
+      "historical_failure": 0.0,
+      "historical_occurrences": 0,
+      "module_maturity": 74.375,
+      "evidence_confidence": 1.0,
+      "score": 28.319458,
+      "roi": 0.249,
+      "gain": 0.249,
+      "cf_gain": 0.137,
+      "difficulty": "Easy",
+      "risk_level": "Low",
+      "effort_hours": 4.0,
+      "confidence_label": "High"
+    },
+    "sprint": "Sprint 2",
+    "status": "PLANNED"
+  },
+  {
+    "recommendation_id": "REC-023",
+    "title": "Align storage.localStorage_length (Storage) with the reference profile",
+    "description": "Restore storage.localStorage_length with the native Storage prototype/descriptor shape before tuning values.",
+    "category": "Unknown",
+    "priority": "Medium",
+    "difficulty": "Easy",
+    "estimated_effort": {
+      "hours": 4.0,
+      "complexity_points": 1.0
+    },
+    "expected_similarity_gain": 0.249,
+    "expected_cf_gain": 0.137,
+    "regression_probability": 33.3125,
+    "confidence": "High",
+    "affected_properties": [
+      "storage.localStorage_length"
+    ],
+    "affected_modules": [
+      "Other",
+      "Storage",
+      "Unknown"
+    ],
+    "affected_tasks": [
+      "OPT-023"
+    ],
+    "knowledge_graph_impact": {
+      "affected_nodes": 1,
+      "affected_edges": 9,
+      "affected_clusters": [
+        "component:001"
+      ],
+      "hub_impact": 0.237,
+      "bridge_impact": 0.4064,
+      "centrality_gain": 0.3217,
+      "dependency_unlock": 0
+    },
+    "dependencies": [],
+    "supporting_evidence": [
+      "reports\\experiments\\exp_045\\fingerprint_importance\\importance.json",
+      "reports\\experiments\\exp_048\\fingerprint_risk\\risk.json",
+      "reports\\experiments\\exp_052\\optimization_planner\\ranking.json",
+      "reports\\experiments\\exp_060\\optimization_executor\\tasks.json",
+      "reports\\experiments\\exp_068\\knowledge_graph\\graph.json"
+    ],
+    "reasoning": {
+      "score_components": {
+        "importance": 50.0,
+        "risk": 51.25,
+        "degree_centrality": 0.237,
+        "betweenness_centrality": 0.4064,
+        "dependency_count": 0,
+        "dependency_unlock": 0,
+        "similarity_opportunity": 24.9,
+        "historical_success": 0.0,
+        "historical_failure": 0.0,
+        "module_maturity": 74.375,
+        "evidence_confidence": 1.0
+      },
+      "explanation": "Score combines importance, risk, graph centrality, dependencies, historical outcomes, gain, difficulty, maturity, and evidence confidence."
+    },
+    "recommendation_type": "Quick Win",
+    "score": 28.319458,
+    "metrics": {
+      "importance": 50.0,
+      "risk": 51.25,
+      "degree_centrality": 0.237,
+      "betweenness_centrality": 0.4064,
+      "dependency_count": 0,
+      "dependency_unlock": 0,
+      "similarity_opportunity": 24.9,
+      "historical_success": 0.0,
+      "historical_failure": 0.0,
+      "historical_occurrences": 0,
+      "module_maturity": 74.375,
+      "evidence_confidence": 1.0,
+      "score": 28.319458,
+      "roi": 0.249,
+      "gain": 0.249,
+      "cf_gain": 0.137,
+      "difficulty": "Easy",
+      "risk_level": "Low",
+      "effort_hours": 4.0,
+      "confidence_label": "High"
+    },
+    "sprint": "Sprint 2",
+    "status": "PLANNED"
+  },
+  {
+    "recommendation_id": "REC-024",
+    "title": "Align storage.sessionStorage_length (Storage) with the reference profile",
+    "description": "Restore storage.sessionStorage_length with the native Storage prototype/descriptor shape before tuning values.",
+    "category": "Unknown",
+    "priority": "Medium",
+    "difficulty": "Easy",
+    "estimated_effort": {
+      "hours": 4.0,
+      "complexity_points": 1.0
+    },
+    "expected_similarity_gain": 0.249,
+    "expected_cf_gain": 0.137,
+    "regression_probability": 33.3125,
+    "confidence": "High",
+    "affected_properties": [
+      "storage.sessionStorage_length"
+    ],
+    "affected_modules": [
+      "Other",
+      "Storage",
+      "Unknown"
+    ],
+    "affected_tasks": [
+      "OPT-024"
+    ],
+    "knowledge_graph_impact": {
+      "affected_nodes": 1,
+      "affected_edges": 9,
+      "affected_clusters": [
+        "component:001"
+      ],
+      "hub_impact": 0.237,
+      "bridge_impact": 0.4064,
+      "centrality_gain": 0.3217,
+      "dependency_unlock": 0
+    },
+    "dependencies": [],
+    "supporting_evidence": [
+      "reports\\experiments\\exp_045\\fingerprint_importance\\importance.json",
+      "reports\\experiments\\exp_048\\fingerprint_risk\\risk.json",
+      "reports\\experiments\\exp_052\\optimization_planner\\ranking.json",
+      "reports\\experiments\\exp_060\\optimization_executor\\tasks.json",
+      "reports\\experiments\\exp_068\\knowledge_graph\\graph.json"
+    ],
+    "reasoning": {
+      "score_components": {
+        "importance": 50.0,
+        "risk": 51.25,
+        "degree_centrality": 0.237,
+        "betweenness_centrality": 0.4064,
+        "dependency_count": 0,
+        "dependency_unlock": 0,
+        "similarity_opportunity": 24.9,
+        "historical_success": 0.0,
+        "historical_failure": 0.0,
+        "module_maturity": 74.375,
+        "evidence_confidence": 1.0
+      },
+      "explanation": "Score combines importance, risk, graph centrality, dependencies, historical outcomes, gain, difficulty, maturity, and evidence confidence."
+    },
+    "recommendation_type": "Quick Win",
+    "score": 28.319458,
+    "metrics": {
+      "importance": 50.0,
+      "risk": 51.25,
+      "degree_centrality": 0.237,
+      "betweenness_centrality": 0.4064,
+      "dependency_count": 0,
+      "dependency_unlock": 0,
+      "similarity_opportunity": 24.9,
+      "historical_success": 0.0,
+      "historical_failure": 0.0,
+      "historical_occurrences": 0,
+      "module_maturity": 74.375,
+      "evidence_confidence": 1.0,
+      "score": 28.319458,
+      "roi": 0.249,
+      "gain": 0.249,
+      "cf_gain": 0.137,
+      "difficulty": "Easy",
+      "risk_level": "Low",
+      "effort_hours": 4.0,
+      "confidence_label": "High"
+    },
+    "sprint": "Sprint 2",
+    "status": "PLANNED"
+  },
+  {
+    "recommendation_id": "REC-025",
+    "title": "Align storage.caches_available (Storage) with the reference profile",
+    "description": "Restore storage.caches_available with the native Storage prototype/descriptor shape before tuning values.",
+    "category": "Unknown",
+    "priority": "Medium",
+    "difficulty": "Easy",
+    "estimated_effort": {
+      "hours": 4.0,
+      "complexity_points": 1.0
+    },
+    "expected_similarity_gain": 0.2272,
+    "expected_cf_gain": 0.125,
+    "regression_probability": 30.3875,
+    "confidence": "High",
+    "affected_properties": [
+      "storage.caches_available"
+    ],
+    "affected_modules": [
+      "Other",
+      "Storage",
+      "Unknown"
+    ],
+    "affected_tasks": [
+      "OPT-025"
+    ],
+    "knowledge_graph_impact": {
+      "affected_nodes": 1,
+      "affected_edges": 9,
+      "affected_clusters": [
+        "component:001"
+      ],
+      "hub_impact": 0.237,
+      "bridge_impact": 0.4064,
+      "centrality_gain": 0.3217,
+      "dependency_unlock": 0
+    },
+    "dependencies": [],
+    "supporting_evidence": [
+      "reports\\experiments\\exp_045\\fingerprint_importance\\importance.json",
+      "reports\\experiments\\exp_048\\fingerprint_risk\\risk.json",
+      "reports\\experiments\\exp_052\\optimization_planner\\ranking.json",
+      "reports\\experiments\\exp_060\\optimization_executor\\tasks.json",
+      "reports\\experiments\\exp_068\\knowledge_graph\\graph.json"
+    ],
+    "reasoning": {
+      "score_components": {
+        "importance": 50.0,
+        "risk": 46.75,
+        "degree_centrality": 0.237,
+        "betweenness_centrality": 0.4064,
+        "dependency_count": 0,
+        "dependency_unlock": 0,
+        "similarity_opportunity": 22.72,
+        "historical_success": 0.0,
+        "historical_failure": 0.0,
+        "module_maturity": 76.625,
+        "evidence_confidence": 1.0
+      },
+      "explanation": "Score combines importance, risk, graph centrality, dependencies, historical outcomes, gain, difficulty, maturity, and evidence confidence."
+    },
+    "recommendation_type": "Quick Win",
+    "score": 27.991758,
+    "metrics": {
+      "importance": 50.0,
+      "risk": 46.75,
+      "degree_centrality": 0.237,
+      "betweenness_centrality": 0.4064,
+      "dependency_count": 0,
+      "dependency_unlock": 0,
+      "similarity_opportunity": 22.72,
+      "historical_success": 0.0,
+      "historical_failure": 0.0,
+      "historical_occurrences": 0,
+      "module_maturity": 76.625,
+      "evidence_confidence": 1.0,
+      "score": 27.991758,
+      "roi": 0.2272,
+      "gain": 0.2272,
+      "cf_gain": 0.125,
+      "difficulty": "Easy",
+      "risk_level": "Low",
+      "effort_hours": 4.0,
+      "confidence_label": "High"
+    },
+    "sprint": "Sprint 2",
+    "status": "PLANNED"
+  },
+  {
+    "recommendation_id": "REC-026",
+    "title": "Align storage.cookieStore_available (Storage) with the reference profile",
+    "description": "Restore storage.cookieStore_available with the native Storage prototype/descriptor shape before tuning values.",
+    "category": "Unknown",
+    "priority": "Medium",
+    "difficulty": "Easy",
+    "estimated_effort": {
+      "hours": 4.0,
+      "complexity_points": 1.0
+    },
+    "expected_similarity_gain": 0.2272,
+    "expected_cf_gain": 0.125,
+    "regression_probability": 30.3875,
+    "confidence": "High",
+    "affected_properties": [
+      "storage.cookieStore_available"
+    ],
+    "affected_modules": [
+      "Other",
+      "Storage",
+      "Unknown"
+    ],
+    "affected_tasks": [
+      "OPT-026"
+    ],
+    "knowledge_graph_impact": {
+      "affected_nodes": 1,
+      "affected_edges": 9,
+      "affected_clusters": [
+        "component:001"
+      ],
+      "hub_impact": 0.237,
+      "bridge_impact": 0.4064,
+      "centrality_gain": 0.3217,
+      "dependency_unlock": 0
+    },
+    "dependencies": [],
+    "supporting_evidence": [
+      "reports\\experiments\\exp_045\\fingerprint_importance\\importance.json",
+      "reports\\experiments\\exp_048\\fingerprint_risk\\risk.json",
+      "reports\\experiments\\exp_052\\optimization_planner\\ranking.json",
+      "reports\\experiments\\exp_060\\optimization_executor\\tasks.json",
+      "reports\\experiments\\exp_068\\knowledge_graph\\graph.json"
+    ],
+    "reasoning": {
+      "score_components": {
+        "importance": 50.0,
+        "risk": 46.75,
+        "degree_centrality": 0.237,
+        "betweenness_centrality": 0.4064,
+        "dependency_count": 0,
+        "dependency_unlock": 0,
+        "similarity_opportunity": 22.72,
+        "historical_success": 0.0,
+        "historical_failure": 0.0,
+        "module_maturity": 76.625,
+        "evidence_confidence": 1.0
+      },
+      "explanation": "Score combines importance, risk, graph centrality, dependencies, historical outcomes, gain, difficulty, maturity, and evidence confidence."
+    },
+    "recommendation_type": "Quick Win",
+    "score": 27.991758,
+    "metrics": {
+      "importance": 50.0,
+      "risk": 46.75,
+      "degree_centrality": 0.237,
+      "betweenness_centrality": 0.4064,
+      "dependency_count": 0,
+      "dependency_unlock": 0,
+      "similarity_opportunity": 22.72,
+      "historical_success": 0.0,
+      "historical_failure": 0.0,
+      "historical_occurrences": 0,
+      "module_maturity": 76.625,
+      "evidence_confidence": 1.0,
+      "score": 27.991758,
+      "roi": 0.2272,
+      "gain": 0.2272,
+      "cf_gain": 0.125,
+      "difficulty": "Easy",
+      "risk_level": "Low",
+      "effort_hours": 4.0,
+      "confidence_label": "High"
+    },
+    "sprint": "Sprint 2",
+    "status": "PLANNED"
+  },
+  {
+    "recommendation_id": "REC-027",
+    "title": "Align storage.indexedDB_available (Storage) with the reference profile",
+    "description": "Restore storage.indexedDB_available with the native Storage prototype/descriptor shape before tuning values.",
+    "category": "Unknown",
+    "priority": "Medium",
+    "difficulty": "Easy",
+    "estimated_effort": {
+      "hours": 4.0,
+      "complexity_points": 1.0
+    },
+    "expected_similarity_gain": 0.2272,
+    "expected_cf_gain": 0.125,
+    "regression_probability": 30.3875,
+    "confidence": "High",
+    "affected_properties": [
+      "storage.indexedDB_available"
+    ],
+    "affected_modules": [
+      "Other",
+      "Storage",
+      "Unknown"
+    ],
+    "affected_tasks": [
+      "OPT-027"
+    ],
+    "knowledge_graph_impact": {
+      "affected_nodes": 1,
+      "affected_edges": 9,
+      "affected_clusters": [
+        "component:001"
+      ],
+      "hub_impact": 0.237,
+      "bridge_impact": 0.4064,
+      "centrality_gain": 0.3217,
+      "dependency_unlock": 0
+    },
+    "dependencies": [],
+    "supporting_evidence": [
+      "reports\\experiments\\exp_045\\fingerprint_importance\\importance.json",
+      "reports\\experiments\\exp_048\\fingerprint_risk\\risk.json",
+      "reports\\experiments\\exp_052\\optimization_planner\\ranking.json",
+      "reports\\experiments\\exp_060\\optimization_executor\\tasks.json",
+      "reports\\experiments\\exp_068\\knowledge_graph\\graph.json"
+    ],
+    "reasoning": {
+      "score_components": {
+        "importance": 50.0,
+        "risk": 46.75,
+        "degree_centrality": 0.237,
+        "betweenness_centrality": 0.4064,
+        "dependency_count": 0,
+        "dependency_unlock": 0,
+        "similarity_opportunity": 22.72,
+        "historical_success": 0.0,
+        "historical_failure": 0.0,
+        "module_maturity": 76.625,
+        "evidence_confidence": 1.0
+      },
+      "explanation": "Score combines importance, risk, graph centrality, dependencies, historical outcomes, gain, difficulty, maturity, and evidence confidence."
+    },
+    "recommendation_type": "Quick Win",
+    "score": 27.991758,
+    "metrics": {
+      "importance": 50.0,
+      "risk": 46.75,
+      "degree_centrality": 0.237,
+      "betweenness_centrality": 0.4064,
+      "dependency_count": 0,
+      "dependency_unlock": 0,
+      "similarity_opportunity": 22.72,
+      "historical_success": 0.0,
+      "historical_failure": 0.0,
+      "historical_occurrences": 0,
+      "module_maturity": 76.625,
+      "evidence_confidence": 1.0,
+      "score": 27.991758,
+      "roi": 0.2272,
+      "gain": 0.2272,
+      "cf_gain": 0.125,
+      "difficulty": "Easy",
+      "risk_level": "Low",
+      "effort_hours": 4.0,
+      "confidence_label": "High"
+    },
+    "sprint": "Sprint 2",
+    "status": "PLANNED"
+  },
+  {
+    "recommendation_id": "REC-028",
+    "title": "Align indexeddb (Storage) with the reference profile",
+    "description": "Determine whether the extra indexeddb surface is environment-specific; remove only if the reference browser truly lacks it.",
+    "category": "Unknown",
+    "priority": "Medium",
+    "difficulty": "Easy",
+    "estimated_effort": {
+      "hours": 4.0,
+      "complexity_points": 1.0
+    },
+    "expected_similarity_gain": 0.2247,
+    "expected_cf_gain": 0.1236,
+    "regression_probability": 30.0625,
+    "confidence": "High",
+    "affected_properties": [
+      "indexeddb"
+    ],
+    "affected_modules": [
+      "Other",
+      "Storage",
+      "Unknown"
+    ],
+    "affected_tasks": [
+      "OPT-028"
+    ],
+    "knowledge_graph_impact": {
+      "affected_nodes": 1,
+      "affected_edges": 9,
+      "affected_clusters": [
+        "component:001"
+      ],
+      "hub_impact": 0.237,
+      "bridge_impact": 0.4064,
+      "centrality_gain": 0.3217,
+      "dependency_unlock": 0
+    },
+    "dependencies": [],
+    "supporting_evidence": [
+      "reports\\experiments\\exp_045\\fingerprint_importance\\importance.json",
+      "reports\\experiments\\exp_048\\fingerprint_risk\\risk.json",
+      "reports\\experiments\\exp_052\\optimization_planner\\ranking.json",
+      "reports\\experiments\\exp_060\\optimization_executor\\tasks.json",
+      "reports\\experiments\\exp_068\\knowledge_graph\\graph.json"
+    ],
+    "reasoning": {
+      "score_components": {
+        "importance": 50.0,
+        "risk": 46.25,
+        "degree_centrality": 0.237,
+        "betweenness_centrality": 0.4064,
+        "dependency_count": 0,
+        "dependency_unlock": 0,
+        "similarity_opportunity": 22.47,
+        "historical_success": 0.0,
+        "historical_failure": 0.0,
+        "module_maturity": 76.875,
+        "evidence_confidence": 1.0
+      },
+      "explanation": "Score combines importance, risk, graph centrality, dependencies, historical outcomes, gain, difficulty, maturity, and evidence confidence."
+    },
+    "recommendation_type": "Quick Win",
+    "score": 27.954258,
+    "metrics": {
+      "importance": 50.0,
+      "risk": 46.25,
+      "degree_centrality": 0.237,
+      "betweenness_centrality": 0.4064,
+      "dependency_count": 0,
+      "dependency_unlock": 0,
+      "similarity_opportunity": 22.47,
+      "historical_success": 0.0,
+      "historical_failure": 0.0,
+      "historical_occurrences": 0,
+      "module_maturity": 76.875,
+      "evidence_confidence": 1.0,
+      "score": 27.954258,
+      "roi": 0.2247,
+      "gain": 0.2247,
+      "cf_gain": 0.1236,
+      "difficulty": "Easy",
+      "risk_level": "Low",
+      "effort_hours": 4.0,
+      "confidence_label": "High"
+    },
+    "sprint": "Sprint 2",
+    "status": "PLANNED"
+  },
+  {
+    "recommendation_id": "REC-029",
+    "title": "Align storage (Storage) with the reference profile",
+    "description": "Determine whether the extra storage surface is environment-specific; remove only if the reference browser truly lacks it.",
+    "category": "Unknown",
+    "priority": "Medium",
+    "difficulty": "Easy",
+    "estimated_effort": {
+      "hours": 4.0,
+      "complexity_points": 1.0
+    },
+    "expected_similarity_gain": 0.2247,
+    "expected_cf_gain": 0.1236,
+    "regression_probability": 30.0625,
+    "confidence": "High",
+    "affected_properties": [
+      "storage"
+    ],
+    "affected_modules": [
+      "Other",
+      "Storage",
+      "Unknown"
+    ],
+    "affected_tasks": [
+      "OPT-029"
+    ],
+    "knowledge_graph_impact": {
+      "affected_nodes": 1,
+      "affected_edges": 9,
+      "affected_clusters": [
+        "component:001"
+      ],
+      "hub_impact": 0.237,
+      "bridge_impact": 0.4064,
+      "centrality_gain": 0.3217,
+      "dependency_unlock": 0
+    },
+    "dependencies": [],
+    "supporting_evidence": [
+      "reports\\experiments\\exp_045\\fingerprint_importance\\importance.json",
+      "reports\\experiments\\exp_048\\fingerprint_risk\\risk.json",
+      "reports\\experiments\\exp_052\\optimization_planner\\ranking.json",
+      "reports\\experiments\\exp_060\\optimization_executor\\tasks.json",
+      "reports\\experiments\\exp_068\\knowledge_graph\\graph.json"
+    ],
+    "reasoning": {
+      "score_components": {
+        "importance": 50.0,
+        "risk": 46.25,
+        "degree_centrality": 0.237,
+        "betweenness_centrality": 0.4064,
+        "dependency_count": 0,
+        "dependency_unlock": 0,
+        "similarity_opportunity": 22.47,
+        "historical_success": 0.0,
+        "historical_failure": 0.0,
+        "module_maturity": 76.875,
+        "evidence_confidence": 1.0
+      },
+      "explanation": "Score combines importance, risk, graph centrality, dependencies, historical outcomes, gain, difficulty, maturity, and evidence confidence."
+    },
+    "recommendation_type": "Quick Win",
+    "score": 27.954258,
+    "metrics": {
+      "importance": 50.0,
+      "risk": 46.25,
+      "degree_centrality": 0.237,
+      "betweenness_centrality": 0.4064,
+      "dependency_count": 0,
+      "dependency_unlock": 0,
+      "similarity_opportunity": 22.47,
+      "historical_success": 0.0,
+      "historical_failure": 0.0,
+      "historical_occurrences": 0,
+      "module_maturity": 76.875,
+      "evidence_confidence": 1.0,
+      "score": 27.954258,
+      "roi": 0.2247,
+      "gain": 0.2247,
+      "cf_gain": 0.1236,
+      "difficulty": "Easy",
+      "risk_level": "Low",
+      "effort_hours": 4.0,
+      "confidence_label": "High"
+    },
+    "sprint": "Sprint 2",
+    "status": "PLANNED"
+  },
+  {
+    "recommendation_id": "REC-030",
+    "title": "Align document.cookie_names[0] (Other) with the reference profile",
+    "description": "Restore document.cookie_names[0] with the native Other prototype/descriptor shape before tuning values.",
+    "category": "Unknown",
+    "priority": "Medium",
+    "difficulty": "Easy",
+    "estimated_effort": {
+      "hours": 4.0,
+      "complexity_points": 1.0
+    },
+    "expected_similarity_gain": 0.2235,
+    "expected_cf_gain": 0.1341,
+    "regression_probability": 29.9,
+    "confidence": "High",
+    "affected_properties": [
+      "document.cookie_names[0]"
+    ],
+    "affected_modules": [
+      "Other",
+      "Unknown"
+    ],
+    "affected_tasks": [
+      "OPT-030"
+    ],
+    "knowledge_graph_impact": {
+      "affected_nodes": 1,
+      "affected_edges": 9,
+      "affected_clusters": [
+        "component:001"
+      ],
+      "hub_impact": 0.237,
+      "bridge_impact": 0.4146,
+      "centrality_gain": 0.3258,
+      "dependency_unlock": 0
+    },
+    "dependencies": [],
+    "supporting_evidence": [
+      "reports\\experiments\\exp_045\\fingerprint_importance\\importance.json",
+      "reports\\experiments\\exp_048\\fingerprint_risk\\risk.json",
+      "reports\\experiments\\exp_052\\optimization_planner\\ranking.json",
+      "reports\\experiments\\exp_060\\optimization_executor\\tasks.json",
+      "reports\\experiments\\exp_068\\knowledge_graph\\graph.json"
+    ],
+    "reasoning": {
+      "score_components": {
+        "importance": 25.0,
+        "risk": 46.0,
+        "degree_centrality": 0.237,
+        "betweenness_centrality": 0.4146,
+        "dependency_count": 0,
+        "dependency_unlock": 0,
+        "similarity_opportunity": 22.35,
+        "historical_success": 0.0,
+        "historical_failure": 0.0,
+        "module_maturity": 77.0,
+        "evidence_confidence": 1.0
+      },
+      "explanation": "Score combines importance, risk, graph centrality, dependencies, historical outcomes, gain, difficulty, maturity, and evidence confidence."
+    },
+    "recommendation_type": "Quick Win",
+    "score": 22.187192,
+    "metrics": {
+      "importance": 25.0,
+      "risk": 46.0,
+      "degree_centrality": 0.237,
+      "betweenness_centrality": 0.4146,
+      "dependency_count": 0,
+      "dependency_unlock": 0,
+      "similarity_opportunity": 22.35,
+      "historical_success": 0.0,
+      "historical_failure": 0.0,
+      "historical_occurrences": 0,
+      "module_maturity": 77.0,
+      "evidence_confidence": 1.0,
+      "score": 22.187192,
+      "roi": 0.2235,
+      "gain": 0.2235,
+      "cf_gain": 0.1341,
+      "difficulty": "Easy",
+      "risk_level": "Low",
+      "effort_hours": 4.0,
+      "confidence_label": "High"
+    },
+    "sprint": "Sprint 2",
+    "status": "PLANNED"
+  },
+  {
+    "recommendation_id": "REC-031",
+    "title": "Align document.domain (Other) with the reference profile",
+    "description": "Restore document.domain with the native Other prototype/descriptor shape before tuning values.",
+    "category": "Unknown",
+    "priority": "Medium",
+    "difficulty": "Easy",
+    "estimated_effort": {
+      "hours": 4.0,
+      "complexity_points": 1.0
+    },
+    "expected_similarity_gain": 0.2235,
+    "expected_cf_gain": 0.1341,
+    "regression_probability": 29.9,
+    "confidence": "High",
+    "affected_properties": [
+      "document.domain"
+    ],
+    "affected_modules": [
+      "Other",
+      "Unknown"
+    ],
+    "affected_tasks": [
+      "OPT-031"
+    ],
+    "knowledge_graph_impact": {
+      "affected_nodes": 1,
+      "affected_edges": 9,
+      "affected_clusters": [
+        "component:001"
+      ],
+      "hub_impact": 0.237,
+      "bridge_impact": 0.4146,
+      "centrality_gain": 0.3258,
+      "dependency_unlock": 0
+    },
+    "dependencies": [],
+    "supporting_evidence": [
+      "reports\\experiments\\exp_045\\fingerprint_importance\\importance.json",
+      "reports\\experiments\\exp_048\\fingerprint_risk\\risk.json",
+      "reports\\experiments\\exp_052\\optimization_planner\\ranking.json",
+      "reports\\experiments\\exp_060\\optimization_executor\\tasks.json",
+      "reports\\experiments\\exp_068\\knowledge_graph\\graph.json"
+    ],
+    "reasoning": {
+      "score_components": {
+        "importance": 25.0,
+        "risk": 46.0,
+        "degree_centrality": 0.237,
+        "betweenness_centrality": 0.4146,
+        "dependency_count": 0,
+        "dependency_unlock": 0,
+        "similarity_opportunity": 22.35,
+        "historical_success": 0.0,
+        "historical_failure": 0.0,
+        "module_maturity": 77.0,
+        "evidence_confidence": 1.0
+      },
+      "explanation": "Score combines importance, risk, graph centrality, dependencies, historical outcomes, gain, difficulty, maturity, and evidence confidence."
+    },
+    "recommendation_type": "Quick Win",
+    "score": 22.187192,
+    "metrics": {
+      "importance": 25.0,
+      "risk": 46.0,
+      "degree_centrality": 0.237,
+      "betweenness_centrality": 0.4146,
+      "dependency_count": 0,
+      "dependency_unlock": 0,
+      "similarity_opportunity": 22.35,
+      "historical_success": 0.0,
+      "historical_failure": 0.0,
+      "historical_occurrences": 0,
+      "module_maturity": 77.0,
+      "evidence_confidence": 1.0,
+      "score": 22.187192,
+      "roi": 0.2235,
+      "gain": 0.2235,
+      "cf_gain": 0.1341,
+      "difficulty": "Easy",
+      "risk_level": "Low",
+      "effort_hours": 4.0,
+      "confidence_label": "High"
+    },
+    "sprint": "Sprint 2",
+    "status": "PLANNED"
+  },
+  {
+    "recommendation_id": "REC-032",
+    "title": "Align document.referrer (Other) with the reference profile",
+    "description": "Restore document.referrer with the native Other prototype/descriptor shape before tuning values.",
+    "category": "Unknown",
+    "priority": "Medium",
+    "difficulty": "Easy",
+    "estimated_effort": {
+      "hours": 4.0,
+      "complexity_points": 1.0
+    },
+    "expected_similarity_gain": 0.2235,
+    "expected_cf_gain": 0.1341,
+    "regression_probability": 29.9,
+    "confidence": "High",
+    "affected_properties": [
+      "document.referrer"
+    ],
+    "affected_modules": [
+      "Other",
+      "Unknown"
+    ],
+    "affected_tasks": [
+      "OPT-032"
+    ],
+    "knowledge_graph_impact": {
+      "affected_nodes": 1,
+      "affected_edges": 9,
+      "affected_clusters": [
+        "component:001"
+      ],
+      "hub_impact": 0.237,
+      "bridge_impact": 0.4146,
+      "centrality_gain": 0.3258,
+      "dependency_unlock": 0
+    },
+    "dependencies": [],
+    "supporting_evidence": [
+      "reports\\experiments\\exp_045\\fingerprint_importance\\importance.json",
+      "reports\\experiments\\exp_048\\fingerprint_risk\\risk.json",
+      "reports\\experiments\\exp_052\\optimization_planner\\ranking.json",
+      "reports\\experiments\\exp_060\\optimization_executor\\tasks.json",
+      "reports\\experiments\\exp_068\\knowledge_graph\\graph.json"
+    ],
+    "reasoning": {
+      "score_components": {
+        "importance": 25.0,
+        "risk": 46.0,
+        "degree_centrality": 0.237,
+        "betweenness_centrality": 0.4146,
+        "dependency_count": 0,
+        "dependency_unlock": 0,
+        "similarity_opportunity": 22.35,
+        "historical_success": 0.0,
+        "historical_failure": 0.0,
+        "module_maturity": 77.0,
+        "evidence_confidence": 1.0
+      },
+      "explanation": "Score combines importance, risk, graph centrality, dependencies, historical outcomes, gain, difficulty, maturity, and evidence confidence."
+    },
+    "recommendation_type": "Quick Win",
+    "score": 22.187192,
+    "metrics": {
+      "importance": 25.0,
+      "risk": 46.0,
+      "degree_centrality": 0.237,
+      "betweenness_centrality": 0.4146,
+      "dependency_count": 0,
+      "dependency_unlock": 0,
+      "similarity_opportunity": 22.35,
+      "historical_success": 0.0,
+      "historical_failure": 0.0,
+      "historical_occurrences": 0,
+      "module_maturity": 77.0,
+      "evidence_confidence": 1.0,
+      "score": 22.187192,
+      "roi": 0.2235,
+      "gain": 0.2235,
+      "cf_gain": 0.1341,
+      "difficulty": "Easy",
+      "risk_level": "Low",
+      "effort_hours": 4.0,
+      "confidence_label": "High"
+    },
+    "sprint": "Sprint 2",
+    "status": "PLANNED"
+  },
+  {
+    "recommendation_id": "REC-033",
+    "title": "Align navigator_own_keys[40] (Other) with the reference profile",
+    "description": "Restore navigator_own_keys[40] with the native Other prototype/descriptor shape before tuning values.",
+    "category": "Navigator",
+    "priority": "Medium",
+    "difficulty": "Easy",
+    "estimated_effort": {
+      "hours": 4.0,
+      "complexity_points": 1.0
+    },
+    "expected_similarity_gain": 0.2235,
+    "expected_cf_gain": 0.1341,
+    "regression_probability": 29.9,
+    "confidence": "High",
+    "affected_properties": [
+      "navigator_own_keys[40]"
+    ],
+    "affected_modules": [
+      "Navigator",
+      "Other"
+    ],
+    "affected_tasks": [
+      "OPT-033"
+    ],
+    "knowledge_graph_impact": {
+      "affected_nodes": 1,
+      "affected_edges": 9,
+      "affected_clusters": [
+        "component:001"
+      ],
+      "hub_impact": 0.237,
+      "bridge_impact": 0.4146,
+      "centrality_gain": 0.3258,
+      "dependency_unlock": 0
+    },
+    "dependencies": [],
+    "supporting_evidence": [
+      "reports\\experiments\\exp_045\\fingerprint_importance\\importance.json",
+      "reports\\experiments\\exp_048\\fingerprint_risk\\risk.json",
+      "reports\\experiments\\exp_052\\optimization_planner\\ranking.json",
+      "reports\\experiments\\exp_060\\optimization_executor\\tasks.json",
+      "reports\\experiments\\exp_068\\knowledge_graph\\graph.json"
+    ],
+    "reasoning": {
+      "score_components": {
+        "importance": 25.0,
+        "risk": 46.0,
+        "degree_centrality": 0.237,
+        "betweenness_centrality": 0.4146,
+        "dependency_count": 0,
+        "dependency_unlock": 0,
+        "similarity_opportunity": 22.35,
+        "historical_success": 0.0,
+        "historical_failure": 0.0,
+        "module_maturity": 77.0,
+        "evidence_confidence": 1.0
+      },
+      "explanation": "Score combines importance, risk, graph centrality, dependencies, historical outcomes, gain, difficulty, maturity, and evidence confidence."
+    },
+    "recommendation_type": "Quick Win",
+    "score": 22.187192,
+    "metrics": {
+      "importance": 25.0,
+      "risk": 46.0,
+      "degree_centrality": 0.237,
+      "betweenness_centrality": 0.4146,
+      "dependency_count": 0,
+      "dependency_unlock": 0,
+      "similarity_opportunity": 22.35,
+      "historical_success": 0.0,
+      "historical_failure": 0.0,
+      "historical_occurrences": 0,
+      "module_maturity": 77.0,
+      "evidence_confidence": 1.0,
+      "score": 22.187192,
+      "roi": 0.2235,
+      "gain": 0.2235,
+      "cf_gain": 0.1341,
+      "difficulty": "Easy",
+      "risk_level": "Low",
+      "effort_hours": 4.0,
+      "confidence_label": "High"
+    },
+    "sprint": "Sprint 2",
+    "status": "PLANNED"
+  },
+  {
+    "recommendation_id": "REC-034",
+    "title": "Align navigator_own_keys[41] (Other) with the reference profile",
+    "description": "Restore navigator_own_keys[41] with the native Other prototype/descriptor shape before tuning values.",
+    "category": "Navigator",
+    "priority": "Medium",
+    "difficulty": "Easy",
+    "estimated_effort": {
+      "hours": 4.0,
+      "complexity_points": 1.0
+    },
+    "expected_similarity_gain": 0.2235,
+    "expected_cf_gain": 0.1341,
+    "regression_probability": 29.9,
+    "confidence": "High",
+    "affected_properties": [
+      "navigator_own_keys[41]"
+    ],
+    "affected_modules": [
+      "Navigator",
+      "Other"
+    ],
+    "affected_tasks": [
+      "OPT-034"
+    ],
+    "knowledge_graph_impact": {
+      "affected_nodes": 1,
+      "affected_edges": 9,
+      "affected_clusters": [
+        "component:001"
+      ],
+      "hub_impact": 0.237,
+      "bridge_impact": 0.4146,
+      "centrality_gain": 0.3258,
+      "dependency_unlock": 0
+    },
+    "dependencies": [],
+    "supporting_evidence": [
+      "reports\\experiments\\exp_045\\fingerprint_importance\\importance.json",
+      "reports\\experiments\\exp_048\\fingerprint_risk\\risk.json",
+      "reports\\experiments\\exp_052\\optimization_planner\\ranking.json",
+      "reports\\experiments\\exp_060\\optimization_executor\\tasks.json",
+      "reports\\experiments\\exp_068\\knowledge_graph\\graph.json"
+    ],
+    "reasoning": {
+      "score_components": {
+        "importance": 25.0,
+        "risk": 46.0,
+        "degree_centrality": 0.237,
+        "betweenness_centrality": 0.4146,
+        "dependency_count": 0,
+        "dependency_unlock": 0,
+        "similarity_opportunity": 22.35,
+        "historical_success": 0.0,
+        "historical_failure": 0.0,
+        "module_maturity": 77.0,
+        "evidence_confidence": 1.0
+      },
+      "explanation": "Score combines importance, risk, graph centrality, dependencies, historical outcomes, gain, difficulty, maturity, and evidence confidence."
+    },
+    "recommendation_type": "Quick Win",
+    "score": 22.187192,
+    "metrics": {
+      "importance": 25.0,
+      "risk": 46.0,
+      "degree_centrality": 0.237,
+      "betweenness_centrality": 0.4146,
+      "dependency_count": 0,
+      "dependency_unlock": 0,
+      "similarity_opportunity": 22.35,
+      "historical_success": 0.0,
+      "historical_failure": 0.0,
+      "historical_occurrences": 0,
+      "module_maturity": 77.0,
+      "evidence_confidence": 1.0,
+      "score": 22.187192,
+      "roi": 0.2235,
+      "gain": 0.2235,
+      "cf_gain": 0.1341,
+      "difficulty": "Easy",
+      "risk_level": "Low",
+      "effort_hours": 4.0,
+      "confidence_label": "High"
+    },
+    "sprint": "Sprint 2",
+    "status": "PLANNED"
+  },
+  {
+    "recommendation_id": "REC-035",
+    "title": "Align navigator_own_keys[46] (Other) with the reference profile",
+    "description": "Restore navigator_own_keys[46] with the native Other prototype/descriptor shape before tuning values.",
+    "category": "Navigator",
+    "priority": "Medium",
+    "difficulty": "Easy",
+    "estimated_effort": {
+      "hours": 4.0,
+      "complexity_points": 1.0
+    },
+    "expected_similarity_gain": 0.2235,
+    "expected_cf_gain": 0.1341,
+    "regression_probability": 29.9,
+    "confidence": "High",
+    "affected_properties": [
+      "navigator_own_keys[46]"
+    ],
+    "affected_modules": [
+      "Navigator",
+      "Other"
+    ],
+    "affected_tasks": [
+      "OPT-035"
+    ],
+    "knowledge_graph_impact": {
+      "affected_nodes": 1,
+      "affected_edges": 9,
+      "affected_clusters": [
+        "component:001"
+      ],
+      "hub_impact": 0.237,
+      "bridge_impact": 0.4146,
+      "centrality_gain": 0.3258,
+      "dependency_unlock": 0
+    },
+    "dependencies": [],
+    "supporting_evidence": [
+      "reports\\experiments\\exp_045\\fingerprint_importance\\importance.json",
+      "reports\\experiments\\exp_048\\fingerprint_risk\\risk.json",
+      "reports\\experiments\\exp_052\\optimization_planner\\ranking.json",
+      "reports\\experiments\\exp_060\\optimization_executor\\tasks.json",
+      "reports\\experiments\\exp_068\\knowledge_graph\\graph.json"
+    ],
+    "reasoning": {
+      "score_components": {
+        "importance": 25.0,
+        "risk": 46.0,
+        "degree_centrality": 0.237,
+        "betweenness_centrality": 0.4146,
+        "dependency_count": 0,
+        "dependency_unlock": 0,
+        "similarity_opportunity": 22.35,
+        "historical_success": 0.0,
+        "historical_failure": 0.0,
+        "module_maturity": 77.0,
+        "evidence_confidence": 1.0
+      },
+      "explanation": "Score combines importance, risk, graph centrality, dependencies, historical outcomes, gain, difficulty, maturity, and evidence confidence."
+    },
+    "recommendation_type": "Quick Win",
+    "score": 22.187192,
+    "metrics": {
+      "importance": 25.0,
+      "risk": 46.0,
+      "degree_centrality": 0.237,
+      "betweenness_centrality": 0.4146,
+      "dependency_count": 0,
+      "dependency_unlock": 0,
+      "similarity_opportunity": 22.35,
+      "historical_success": 0.0,
+      "historical_failure": 0.0,
+      "historical_occurrences": 0,
+      "module_maturity": 77.0,
+      "evidence_confidence": 1.0,
+      "score": 22.187192,
+      "roi": 0.2235,
+      "gain": 0.2235,
+      "cf_gain": 0.1341,
+      "difficulty": "Easy",
+      "risk_level": "Low",
+      "effort_hours": 4.0,
+      "confidence_label": "High"
+    },
+    "sprint": "Sprint 2",
+    "status": "PLANNED"
+  },
+  {
+    "recommendation_id": "REC-036",
+    "title": "Align navigator_own_keys[53] (Other) with the reference profile",
+    "description": "Restore navigator_own_keys[53] with the native Other prototype/descriptor shape before tuning values.",
+    "category": "Navigator",
+    "priority": "Medium",
+    "difficulty": "Easy",
+    "estimated_effort": {
+      "hours": 4.0,
+      "complexity_points": 1.0
+    },
+    "expected_similarity_gain": 0.2235,
+    "expected_cf_gain": 0.1341,
+    "regression_probability": 29.9,
+    "confidence": "High",
+    "affected_properties": [
+      "navigator_own_keys[53]"
+    ],
+    "affected_modules": [
+      "Navigator",
+      "Other"
+    ],
+    "affected_tasks": [
+      "OPT-036"
+    ],
+    "knowledge_graph_impact": {
+      "affected_nodes": 1,
+      "affected_edges": 9,
+      "affected_clusters": [
+        "component:001"
+      ],
+      "hub_impact": 0.237,
+      "bridge_impact": 0.4146,
+      "centrality_gain": 0.3258,
+      "dependency_unlock": 0
+    },
+    "dependencies": [],
+    "supporting_evidence": [
+      "reports\\experiments\\exp_045\\fingerprint_importance\\importance.json",
+      "reports\\experiments\\exp_048\\fingerprint_risk\\risk.json",
+      "reports\\experiments\\exp_052\\optimization_planner\\ranking.json",
+      "reports\\experiments\\exp_060\\optimization_executor\\tasks.json",
+      "reports\\experiments\\exp_068\\knowledge_graph\\graph.json"
+    ],
+    "reasoning": {
+      "score_components": {
+        "importance": 25.0,
+        "risk": 46.0,
+        "degree_centrality": 0.237,
+        "betweenness_centrality": 0.4146,
+        "dependency_count": 0,
+        "dependency_unlock": 0,
+        "similarity_opportunity": 22.35,
+        "historical_success": 0.0,
+        "historical_failure": 0.0,
+        "module_maturity": 77.0,
+        "evidence_confidence": 1.0
+      },
+      "explanation": "Score combines importance, risk, graph centrality, dependencies, historical outcomes, gain, difficulty, maturity, and evidence confidence."
+    },
+    "recommendation_type": "Quick Win",
+    "score": 22.187192,
+    "metrics": {
+      "importance": 25.0,
+      "risk": 46.0,
+      "degree_centrality": 0.237,
+      "betweenness_centrality": 0.4146,
+      "dependency_count": 0,
+      "dependency_unlock": 0,
+      "similarity_opportunity": 22.35,
+      "historical_success": 0.0,
+      "historical_failure": 0.0,
+      "historical_occurrences": 0,
+      "module_maturity": 77.0,
+      "evidence_confidence": 1.0,
+      "score": 22.187192,
+      "roi": 0.2235,
+      "gain": 0.2235,
+      "cf_gain": 0.1341,
+      "difficulty": "Easy",
+      "risk_level": "Low",
+      "effort_hours": 4.0,
+      "confidence_label": "High"
+    },
+    "sprint": "Sprint 2",
+    "status": "PLANNED"
+  },
+  {
+    "recommendation_id": "REC-037",
+    "title": "Align navigator_own_keys[54] (Other) with the reference profile",
+    "description": "Restore navigator_own_keys[54] with the native Other prototype/descriptor shape before tuning values.",
+    "category": "Navigator",
+    "priority": "Medium",
+    "difficulty": "Easy",
+    "estimated_effort": {
+      "hours": 4.0,
+      "complexity_points": 1.0
+    },
+    "expected_similarity_gain": 0.2235,
+    "expected_cf_gain": 0.1341,
+    "regression_probability": 29.9,
+    "confidence": "High",
+    "affected_properties": [
+      "navigator_own_keys[54]"
+    ],
+    "affected_modules": [
+      "Navigator",
+      "Other"
+    ],
+    "affected_tasks": [
+      "OPT-037"
+    ],
+    "knowledge_graph_impact": {
+      "affected_nodes": 1,
+      "affected_edges": 9,
+      "affected_clusters": [
+        "component:001"
+      ],
+      "hub_impact": 0.237,
+      "bridge_impact": 0.4146,
+      "centrality_gain": 0.3258,
+      "dependency_unlock": 0
+    },
+    "dependencies": [],
+    "supporting_evidence": [
+      "reports\\experiments\\exp_045\\fingerprint_importance\\importance.json",
+      "reports\\experiments\\exp_048\\fingerprint_risk\\risk.json",
+      "reports\\experiments\\exp_052\\optimization_planner\\ranking.json",
+      "reports\\experiments\\exp_060\\optimization_executor\\tasks.json",
+      "reports\\experiments\\exp_068\\knowledge_graph\\graph.json"
+    ],
+    "reasoning": {
+      "score_components": {
+        "importance": 25.0,
+        "risk": 46.0,
+        "degree_centrality": 0.237,
+        "betweenness_centrality": 0.4146,
+        "dependency_count": 0,
+        "dependency_unlock": 0,
+        "similarity_opportunity": 22.35,
+        "historical_success": 0.0,
+        "historical_failure": 0.0,
+        "module_maturity": 77.0,
+        "evidence_confidence": 1.0
+      },
+      "explanation": "Score combines importance, risk, graph centrality, dependencies, historical outcomes, gain, difficulty, maturity, and evidence confidence."
+    },
+    "recommendation_type": "Quick Win",
+    "score": 22.187192,
+    "metrics": {
+      "importance": 25.0,
+      "risk": 46.0,
+      "degree_centrality": 0.237,
+      "betweenness_centrality": 0.4146,
+      "dependency_count": 0,
+      "dependency_unlock": 0,
+      "similarity_opportunity": 22.35,
+      "historical_success": 0.0,
+      "historical_failure": 0.0,
+      "historical_occurrences": 0,
+      "module_maturity": 77.0,
+      "evidence_confidence": 1.0,
+      "score": 22.187192,
+      "roi": 0.2235,
+      "gain": 0.2235,
+      "cf_gain": 0.1341,
+      "difficulty": "Easy",
+      "risk_level": "Low",
+      "effort_hours": 4.0,
+      "confidence_label": "High"
+    },
+    "sprint": "Sprint 2",
+    "status": "PLANNED"
+  },
+  {
+    "recommendation_id": "REC-038",
+    "title": "Align navigator_own_keys[55] (Other) with the reference profile",
+    "description": "Restore navigator_own_keys[55] with the native Other prototype/descriptor shape before tuning values.",
+    "category": "Navigator",
+    "priority": "Medium",
+    "difficulty": "Easy",
+    "estimated_effort": {
+      "hours": 4.0,
+      "complexity_points": 1.0
+    },
+    "expected_similarity_gain": 0.2235,
+    "expected_cf_gain": 0.1341,
+    "regression_probability": 29.9,
+    "confidence": "High",
+    "affected_properties": [
+      "navigator_own_keys[55]"
+    ],
+    "affected_modules": [
+      "Navigator",
+      "Other"
+    ],
+    "affected_tasks": [
+      "OPT-038"
+    ],
+    "knowledge_graph_impact": {
+      "affected_nodes": 1,
+      "affected_edges": 9,
+      "affected_clusters": [
+        "component:001"
+      ],
+      "hub_impact": 0.237,
+      "bridge_impact": 0.4146,
+      "centrality_gain": 0.3258,
+      "dependency_unlock": 0
+    },
+    "dependencies": [],
+    "supporting_evidence": [
+      "reports\\experiments\\exp_045\\fingerprint_importance\\importance.json",
+      "reports\\experiments\\exp_048\\fingerprint_risk\\risk.json",
+      "reports\\experiments\\exp_052\\optimization_planner\\ranking.json",
+      "reports\\experiments\\exp_060\\optimization_executor\\tasks.json",
+      "reports\\experiments\\exp_068\\knowledge_graph\\graph.json"
+    ],
+    "reasoning": {
+      "score_components": {
+        "importance": 25.0,
+        "risk": 46.0,
+        "degree_centrality": 0.237,
+        "betweenness_centrality": 0.4146,
+        "dependency_count": 0,
+        "dependency_unlock": 0,
+        "similarity_opportunity": 22.35,
+        "historical_success": 0.0,
+        "historical_failure": 0.0,
+        "module_maturity": 77.0,
+        "evidence_confidence": 1.0
+      },
+      "explanation": "Score combines importance, risk, graph centrality, dependencies, historical outcomes, gain, difficulty, maturity, and evidence confidence."
+    },
+    "recommendation_type": "Quick Win",
+    "score": 22.187192,
+    "metrics": {
+      "importance": 25.0,
+      "risk": 46.0,
+      "degree_centrality": 0.237,
+      "betweenness_centrality": 0.4146,
+      "dependency_count": 0,
+      "dependency_unlock": 0,
+      "similarity_opportunity": 22.35,
+      "historical_success": 0.0,
+      "historical_failure": 0.0,
+      "historical_occurrences": 0,
+      "module_maturity": 77.0,
+      "evidence_confidence": 1.0,
+      "score": 22.187192,
+      "roi": 0.2235,
+      "gain": 0.2235,
+      "cf_gain": 0.1341,
+      "difficulty": "Easy",
+      "risk_level": "Low",
+      "effort_hours": 4.0,
+      "confidence_label": "High"
+    },
+    "sprint": "Sprint 2",
+    "status": "PLANNED"
+  },
+  {
+    "recommendation_id": "REC-039",
+    "title": "Align navigator_own_keys[56] (Other) with the reference profile",
+    "description": "Restore navigator_own_keys[56] with the native Other prototype/descriptor shape before tuning values.",
+    "category": "Navigator",
+    "priority": "Medium",
+    "difficulty": "Easy",
+    "estimated_effort": {
+      "hours": 4.0,
+      "complexity_points": 1.0
+    },
+    "expected_similarity_gain": 0.2235,
+    "expected_cf_gain": 0.1341,
+    "regression_probability": 29.9,
+    "confidence": "High",
+    "affected_properties": [
+      "navigator_own_keys[56]"
+    ],
+    "affected_modules": [
+      "Navigator",
+      "Other"
+    ],
+    "affected_tasks": [
+      "OPT-039"
+    ],
+    "knowledge_graph_impact": {
+      "affected_nodes": 1,
+      "affected_edges": 9,
+      "affected_clusters": [
+        "component:001"
+      ],
+      "hub_impact": 0.237,
+      "bridge_impact": 0.4146,
+      "centrality_gain": 0.3258,
+      "dependency_unlock": 0
+    },
+    "dependencies": [],
+    "supporting_evidence": [
+      "reports\\experiments\\exp_045\\fingerprint_importance\\importance.json",
+      "reports\\experiments\\exp_048\\fingerprint_risk\\risk.json",
+      "reports\\experiments\\exp_052\\optimization_planner\\ranking.json",
+      "reports\\experiments\\exp_060\\optimization_executor\\tasks.json",
+      "reports\\experiments\\exp_068\\knowledge_graph\\graph.json"
+    ],
+    "reasoning": {
+      "score_components": {
+        "importance": 25.0,
+        "risk": 46.0,
+        "degree_centrality": 0.237,
+        "betweenness_centrality": 0.4146,
+        "dependency_count": 0,
+        "dependency_unlock": 0,
+        "similarity_opportunity": 22.35,
+        "historical_success": 0.0,
+        "historical_failure": 0.0,
+        "module_maturity": 77.0,
+        "evidence_confidence": 1.0
+      },
+      "explanation": "Score combines importance, risk, graph centrality, dependencies, historical outcomes, gain, difficulty, maturity, and evidence confidence."
+    },
+    "recommendation_type": "Quick Win",
+    "score": 22.187192,
+    "metrics": {
+      "importance": 25.0,
+      "risk": 46.0,
+      "degree_centrality": 0.237,
+      "betweenness_centrality": 0.4146,
+      "dependency_count": 0,
+      "dependency_unlock": 0,
+      "similarity_opportunity": 22.35,
+      "historical_success": 0.0,
+      "historical_failure": 0.0,
+      "historical_occurrences": 0,
+      "module_maturity": 77.0,
+      "evidence_confidence": 1.0,
+      "score": 22.187192,
+      "roi": 0.2235,
+      "gain": 0.2235,
+      "cf_gain": 0.1341,
+      "difficulty": "Easy",
+      "risk_level": "Low",
+      "effort_hours": 4.0,
+      "confidence_label": "High"
+    },
+    "sprint": "Sprint 2",
+    "status": "PLANNED"
+  },
+  {
+    "recommendation_id": "REC-040",
+    "title": "Align navigator_own_keys[61] (Other) with the reference profile",
+    "description": "Restore navigator_own_keys[61] with the native Other prototype/descriptor shape before tuning values.",
+    "category": "Navigator",
+    "priority": "Medium",
+    "difficulty": "Easy",
+    "estimated_effort": {
+      "hours": 4.0,
+      "complexity_points": 1.0
+    },
+    "expected_similarity_gain": 0.2235,
+    "expected_cf_gain": 0.1341,
+    "regression_probability": 29.9,
+    "confidence": "High",
+    "affected_properties": [
+      "navigator_own_keys[61]"
+    ],
+    "affected_modules": [
+      "Navigator",
+      "Other"
+    ],
+    "affected_tasks": [
+      "OPT-040"
+    ],
+    "knowledge_graph_impact": {
+      "affected_nodes": 1,
+      "affected_edges": 9,
+      "affected_clusters": [
+        "component:001"
+      ],
+      "hub_impact": 0.237,
+      "bridge_impact": 0.4146,
+      "centrality_gain": 0.3258,
+      "dependency_unlock": 0
+    },
+    "dependencies": [],
+    "supporting_evidence": [
+      "reports\\experiments\\exp_045\\fingerprint_importance\\importance.json",
+      "reports\\experiments\\exp_048\\fingerprint_risk\\risk.json",
+      "reports\\experiments\\exp_052\\optimization_planner\\ranking.json",
+      "reports\\experiments\\exp_060\\optimization_executor\\tasks.json",
+      "reports\\experiments\\exp_068\\knowledge_graph\\graph.json"
+    ],
+    "reasoning": {
+      "score_components": {
+        "importance": 25.0,
+        "risk": 46.0,
+        "degree_centrality": 0.237,
+        "betweenness_centrality": 0.4146,
+        "dependency_count": 0,
+        "dependency_unlock": 0,
+        "similarity_opportunity": 22.35,
+        "historical_success": 0.0,
+        "historical_failure": 0.0,
+        "module_maturity": 77.0,
+        "evidence_confidence": 1.0
+      },
+      "explanation": "Score combines importance, risk, graph centrality, dependencies, historical outcomes, gain, difficulty, maturity, and evidence confidence."
+    },
+    "recommendation_type": "Quick Win",
+    "score": 22.187192,
+    "metrics": {
+      "importance": 25.0,
+      "risk": 46.0,
+      "degree_centrality": 0.237,
+      "betweenness_centrality": 0.4146,
+      "dependency_count": 0,
+      "dependency_unlock": 0,
+      "similarity_opportunity": 22.35,
+      "historical_success": 0.0,
+      "historical_failure": 0.0,
+      "historical_occurrences": 0,
+      "module_maturity": 77.0,
+      "evidence_confidence": 1.0,
+      "score": 22.187192,
+      "roi": 0.2235,
+      "gain": 0.2235,
+      "cf_gain": 0.1341,
+      "difficulty": "Easy",
+      "risk_level": "Low",
+      "effort_hours": 4.0,
+      "confidence_label": "High"
+    },
+    "sprint": "Sprint 2",
+    "status": "PLANNED"
+  },
+  {
+    "recommendation_id": "REC-041",
+    "title": "Align navigator_own_keys[65] (Other) with the reference profile",
+    "description": "Restore navigator_own_keys[65] with the native Other prototype/descriptor shape before tuning values.",
+    "category": "Navigator",
+    "priority": "Medium",
+    "difficulty": "Easy",
+    "estimated_effort": {
+      "hours": 4.0,
+      "complexity_points": 1.0
+    },
+    "expected_similarity_gain": 0.2235,
+    "expected_cf_gain": 0.1341,
+    "regression_probability": 29.9,
+    "confidence": "High",
+    "affected_properties": [
+      "navigator_own_keys[65]"
+    ],
+    "affected_modules": [
+      "Navigator",
+      "Other"
+    ],
+    "affected_tasks": [
+      "OPT-041"
+    ],
+    "knowledge_graph_impact": {
+      "affected_nodes": 1,
+      "affected_edges": 9,
+      "affected_clusters": [
+        "component:001"
+      ],
+      "hub_impact": 0.237,
+      "bridge_impact": 0.4146,
+      "centrality_gain": 0.3258,
+      "dependency_unlock": 0
+    },
+    "dependencies": [],
+    "supporting_evidence": [
+      "reports\\experiments\\exp_045\\fingerprint_importance\\importance.json",
+      "reports\\experiments\\exp_048\\fingerprint_risk\\risk.json",
+      "reports\\experiments\\exp_052\\optimization_planner\\ranking.json",
+      "reports\\experiments\\exp_060\\optimization_executor\\tasks.json",
+      "reports\\experiments\\exp_068\\knowledge_graph\\graph.json"
+    ],
+    "reasoning": {
+      "score_components": {
+        "importance": 25.0,
+        "risk": 46.0,
+        "degree_centrality": 0.237,
+        "betweenness_centrality": 0.4146,
+        "dependency_count": 0,
+        "dependency_unlock": 0,
+        "similarity_opportunity": 22.35,
+        "historical_success": 0.0,
+        "historical_failure": 0.0,
+        "module_maturity": 77.0,
+        "evidence_confidence": 1.0
+      },
+      "explanation": "Score combines importance, risk, graph centrality, dependencies, historical outcomes, gain, difficulty, maturity, and evidence confidence."
+    },
+    "recommendation_type": "Quick Win",
+    "score": 22.187192,
+    "metrics": {
+      "importance": 25.0,
+      "risk": 46.0,
+      "degree_centrality": 0.237,
+      "betweenness_centrality": 0.4146,
+      "dependency_count": 0,
+      "dependency_unlock": 0,
+      "similarity_opportunity": 22.35,
+      "historical_success": 0.0,
+      "historical_failure": 0.0,
+      "historical_occurrences": 0,
+      "module_maturity": 77.0,
+      "evidence_confidence": 1.0,
+      "score": 22.187192,
+      "roi": 0.2235,
+      "gain": 0.2235,
+      "cf_gain": 0.1341,
+      "difficulty": "Easy",
+      "risk_level": "Low",
+      "effort_hours": 4.0,
+      "confidence_label": "High"
+    },
+    "sprint": "Sprint 2",
+    "status": "PLANNED"
+  },
+  {
+    "recommendation_id": "REC-042",
+    "title": "Align navigator_own_keys[66] (Other) with the reference profile",
+    "description": "Restore navigator_own_keys[66] with the native Other prototype/descriptor shape before tuning values.",
+    "category": "Navigator",
+    "priority": "Medium",
+    "difficulty": "Easy",
+    "estimated_effort": {
+      "hours": 4.0,
+      "complexity_points": 1.0
+    },
+    "expected_similarity_gain": 0.2235,
+    "expected_cf_gain": 0.1341,
+    "regression_probability": 29.9,
+    "confidence": "High",
+    "affected_properties": [
+      "navigator_own_keys[66]"
+    ],
+    "affected_modules": [
+      "Navigator",
+      "Other"
+    ],
+    "affected_tasks": [
+      "OPT-042"
+    ],
+    "knowledge_graph_impact": {
+      "affected_nodes": 1,
+      "affected_edges": 9,
+      "affected_clusters": [
+        "component:001"
+      ],
+      "hub_impact": 0.237,
+      "bridge_impact": 0.4146,
+      "centrality_gain": 0.3258,
+      "dependency_unlock": 0
+    },
+    "dependencies": [],
+    "supporting_evidence": [
+      "reports\\experiments\\exp_045\\fingerprint_importance\\importance.json",
+      "reports\\experiments\\exp_048\\fingerprint_risk\\risk.json",
+      "reports\\experiments\\exp_052\\optimization_planner\\ranking.json",
+      "reports\\experiments\\exp_060\\optimization_executor\\tasks.json",
+      "reports\\experiments\\exp_068\\knowledge_graph\\graph.json"
+    ],
+    "reasoning": {
+      "score_components": {
+        "importance": 25.0,
+        "risk": 46.0,
+        "degree_centrality": 0.237,
+        "betweenness_centrality": 0.4146,
+        "dependency_count": 0,
+        "dependency_unlock": 0,
+        "similarity_opportunity": 22.35,
+        "historical_success": 0.0,
+        "historical_failure": 0.0,
+        "module_maturity": 77.0,
+        "evidence_confidence": 1.0
+      },
+      "explanation": "Score combines importance, risk, graph centrality, dependencies, historical outcomes, gain, difficulty, maturity, and evidence confidence."
+    },
+    "recommendation_type": "Quick Win",
+    "score": 22.187192,
+    "metrics": {
+      "importance": 25.0,
+      "risk": 46.0,
+      "degree_centrality": 0.237,
+      "betweenness_centrality": 0.4146,
+      "dependency_count": 0,
+      "dependency_unlock": 0,
+      "similarity_opportunity": 22.35,
+      "historical_success": 0.0,
+      "historical_failure": 0.0,
+      "historical_occurrences": 0,
+      "module_maturity": 77.0,
+      "evidence_confidence": 1.0,
+      "score": 22.187192,
+      "roi": 0.2235,
+      "gain": 0.2235,
+      "cf_gain": 0.1341,
+      "difficulty": "Easy",
+      "risk_level": "Low",
+      "effort_hours": 4.0,
+      "confidence_label": "High"
+    },
+    "sprint": "Sprint 2",
+    "status": "PLANNED"
+  },
+  {
+    "recommendation_id": "REC-043",
+    "title": "Align navigator_own_keys[67] (Other) with the reference profile",
+    "description": "Restore navigator_own_keys[67] with the native Other prototype/descriptor shape before tuning values.",
+    "category": "Navigator",
+    "priority": "Medium",
+    "difficulty": "Easy",
+    "estimated_effort": {
+      "hours": 4.0,
+      "complexity_points": 1.0
+    },
+    "expected_similarity_gain": 0.2235,
+    "expected_cf_gain": 0.1341,
+    "regression_probability": 29.9,
+    "confidence": "High",
+    "affected_properties": [
+      "navigator_own_keys[67]"
+    ],
+    "affected_modules": [
+      "Navigator",
+      "Other"
+    ],
+    "affected_tasks": [
+      "OPT-043"
+    ],
+    "knowledge_graph_impact": {
+      "affected_nodes": 1,
+      "affected_edges": 9,
+      "affected_clusters": [
+        "component:001"
+      ],
+      "hub_impact": 0.237,
+      "bridge_impact": 0.4146,
+      "centrality_gain": 0.3258,
+      "dependency_unlock": 0
+    },
+    "dependencies": [],
+    "supporting_evidence": [
+      "reports\\experiments\\exp_045\\fingerprint_importance\\importance.json",
+      "reports\\experiments\\exp_048\\fingerprint_risk\\risk.json",
+      "reports\\experiments\\exp_052\\optimization_planner\\ranking.json",
+      "reports\\experiments\\exp_060\\optimization_executor\\tasks.json",
+      "reports\\experiments\\exp_068\\knowledge_graph\\graph.json"
+    ],
+    "reasoning": {
+      "score_components": {
+        "importance": 25.0,
+        "risk": 46.0,
+        "degree_centrality": 0.237,
+        "betweenness_centrality": 0.4146,
+        "dependency_count": 0,
+        "dependency_unlock": 0,
+        "similarity_opportunity": 22.35,
+        "historical_success": 0.0,
+        "historical_failure": 0.0,
+        "module_maturity": 77.0,
+        "evidence_confidence": 1.0
+      },
+      "explanation": "Score combines importance, risk, graph centrality, dependencies, historical outcomes, gain, difficulty, maturity, and evidence confidence."
+    },
+    "recommendation_type": "Quick Win",
+    "score": 22.187192,
+    "metrics": {
+      "importance": 25.0,
+      "risk": 46.0,
+      "degree_centrality": 0.237,
+      "betweenness_centrality": 0.4146,
+      "dependency_count": 0,
+      "dependency_unlock": 0,
+      "similarity_opportunity": 22.35,
+      "historical_success": 0.0,
+      "historical_failure": 0.0,
+      "historical_occurrences": 0,
+      "module_maturity": 77.0,
+      "evidence_confidence": 1.0,
+      "score": 22.187192,
+      "roi": 0.2235,
+      "gain": 0.2235,
+      "cf_gain": 0.1341,
+      "difficulty": "Easy",
+      "risk_level": "Low",
+      "effort_hours": 4.0,
+      "confidence_label": "High"
+    },
+    "sprint": "Sprint 2",
+    "status": "PLANNED"
+  },
+  {
+    "recommendation_id": "REC-044",
+    "title": "Align navigator_own_keys[69] (Other) with the reference profile",
+    "description": "Restore navigator_own_keys[69] with the native Other prototype/descriptor shape before tuning values.",
+    "category": "Navigator",
+    "priority": "Medium",
+    "difficulty": "Easy",
+    "estimated_effort": {
+      "hours": 4.0,
+      "complexity_points": 1.0
+    },
+    "expected_similarity_gain": 0.2235,
+    "expected_cf_gain": 0.1341,
+    "regression_probability": 29.9,
+    "confidence": "High",
+    "affected_properties": [
+      "navigator_own_keys[69]"
+    ],
+    "affected_modules": [
+      "Navigator",
+      "Other"
+    ],
+    "affected_tasks": [
+      "OPT-044"
+    ],
+    "knowledge_graph_impact": {
+      "affected_nodes": 1,
+      "affected_edges": 9,
+      "affected_clusters": [
+        "component:001"
+      ],
+      "hub_impact": 0.237,
+      "bridge_impact": 0.4146,
+      "centrality_gain": 0.3258,
+      "dependency_unlock": 0
+    },
+    "dependencies": [],
+    "supporting_evidence": [
+      "reports\\experiments\\exp_045\\fingerprint_importance\\importance.json",
+      "reports\\experiments\\exp_048\\fingerprint_risk\\risk.json",
+      "reports\\experiments\\exp_052\\optimization_planner\\ranking.json",
+      "reports\\experiments\\exp_060\\optimization_executor\\tasks.json",
+      "reports\\experiments\\exp_068\\knowledge_graph\\graph.json"
+    ],
+    "reasoning": {
+      "score_components": {
+        "importance": 25.0,
+        "risk": 46.0,
+        "degree_centrality": 0.237,
+        "betweenness_centrality": 0.4146,
+        "dependency_count": 0,
+        "dependency_unlock": 0,
+        "similarity_opportunity": 22.35,
+        "historical_success": 0.0,
+        "historical_failure": 0.0,
+        "module_maturity": 77.0,
+        "evidence_confidence": 1.0
+      },
+      "explanation": "Score combines importance, risk, graph centrality, dependencies, historical outcomes, gain, difficulty, maturity, and evidence confidence."
+    },
+    "recommendation_type": "Quick Win",
+    "score": 22.187192,
+    "metrics": {
+      "importance": 25.0,
+      "risk": 46.0,
+      "degree_centrality": 0.237,
+      "betweenness_centrality": 0.4146,
+      "dependency_count": 0,
+      "dependency_unlock": 0,
+      "similarity_opportunity": 22.35,
+      "historical_success": 0.0,
+      "historical_failure": 0.0,
+      "historical_occurrences": 0,
+      "module_maturity": 77.0,
+      "evidence_confidence": 1.0,
+      "score": 22.187192,
+      "roi": 0.2235,
+      "gain": 0.2235,
+      "cf_gain": 0.1341,
+      "difficulty": "Easy",
+      "risk_level": "Low",
+      "effort_hours": 4.0,
+      "confidence_label": "High"
+    },
+    "sprint": "Sprint 2",
+    "status": "PLANNED"
+  },
+  {
+    "recommendation_id": "REC-045",
+    "title": "Align navigator_own_keys[71] (Other) with the reference profile",
+    "description": "Restore navigator_own_keys[71] with the native Other prototype/descriptor shape before tuning values.",
+    "category": "Navigator",
+    "priority": "Medium",
+    "difficulty": "Easy",
+    "estimated_effort": {
+      "hours": 4.0,
+      "complexity_points": 1.0
+    },
+    "expected_similarity_gain": 0.2235,
+    "expected_cf_gain": 0.1341,
+    "regression_probability": 29.9,
+    "confidence": "High",
+    "affected_properties": [
+      "navigator_own_keys[71]"
+    ],
+    "affected_modules": [
+      "Navigator",
+      "Other"
+    ],
+    "affected_tasks": [
+      "OPT-045"
+    ],
+    "knowledge_graph_impact": {
+      "affected_nodes": 1,
+      "affected_edges": 9,
+      "affected_clusters": [
+        "component:001"
+      ],
+      "hub_impact": 0.237,
+      "bridge_impact": 0.4146,
+      "centrality_gain": 0.3258,
+      "dependency_unlock": 0
+    },
+    "dependencies": [],
+    "supporting_evidence": [
+      "reports\\experiments\\exp_045\\fingerprint_importance\\importance.json",
+      "reports\\experiments\\exp_048\\fingerprint_risk\\risk.json",
+      "reports\\experiments\\exp_052\\optimization_planner\\ranking.json",
+      "reports\\experiments\\exp_060\\optimization_executor\\tasks.json",
+      "reports\\experiments\\exp_068\\knowledge_graph\\graph.json"
+    ],
+    "reasoning": {
+      "score_components": {
+        "importance": 25.0,
+        "risk": 46.0,
+        "degree_centrality": 0.237,
+        "betweenness_centrality": 0.4146,
+        "dependency_count": 0,
+        "dependency_unlock": 0,
+        "similarity_opportunity": 22.35,
+        "historical_success": 0.0,
+        "historical_failure": 0.0,
+        "module_maturity": 77.0,
+        "evidence_confidence": 1.0
+      },
+      "explanation": "Score combines importance, risk, graph centrality, dependencies, historical outcomes, gain, difficulty, maturity, and evidence confidence."
+    },
+    "recommendation_type": "Quick Win",
+    "score": 22.187192,
+    "metrics": {
+      "importance": 25.0,
+      "risk": 46.0,
+      "degree_centrality": 0.237,
+      "betweenness_centrality": 0.4146,
+      "dependency_count": 0,
+      "dependency_unlock": 0,
+      "similarity_opportunity": 22.35,
+      "historical_success": 0.0,
+      "historical_failure": 0.0,
+      "historical_occurrences": 0,
+      "module_maturity": 77.0,
+      "evidence_confidence": 1.0,
+      "score": 22.187192,
+      "roi": 0.2235,
+      "gain": 0.2235,
+      "cf_gain": 0.1341,
+      "difficulty": "Easy",
+      "risk_level": "Low",
+      "effort_hours": 4.0,
+      "confidence_label": "High"
+    },
+    "sprint": "Sprint 2",
+    "status": "PLANNED"
+  },
+  {
+    "recommendation_id": "REC-046",
+    "title": "Align navigator_own_keys[75] (Other) with the reference profile",
+    "description": "Restore navigator_own_keys[75] with the native Other prototype/descriptor shape before tuning values.",
+    "category": "Navigator",
+    "priority": "Medium",
+    "difficulty": "Easy",
+    "estimated_effort": {
+      "hours": 4.0,
+      "complexity_points": 1.0
+    },
+    "expected_similarity_gain": 0.2235,
+    "expected_cf_gain": 0.1341,
+    "regression_probability": 29.9,
+    "confidence": "High",
+    "affected_properties": [
+      "navigator_own_keys[75]"
+    ],
+    "affected_modules": [
+      "Navigator",
+      "Other"
+    ],
+    "affected_tasks": [
+      "OPT-046"
+    ],
+    "knowledge_graph_impact": {
+      "affected_nodes": 1,
+      "affected_edges": 9,
+      "affected_clusters": [
+        "component:001"
+      ],
+      "hub_impact": 0.237,
+      "bridge_impact": 0.4146,
+      "centrality_gain": 0.3258,
+      "dependency_unlock": 0
+    },
+    "dependencies": [],
+    "supporting_evidence": [
+      "reports\\experiments\\exp_045\\fingerprint_importance\\importance.json",
+      "reports\\experiments\\exp_048\\fingerprint_risk\\risk.json",
+      "reports\\experiments\\exp_052\\optimization_planner\\ranking.json",
+      "reports\\experiments\\exp_060\\optimization_executor\\tasks.json",
+      "reports\\experiments\\exp_068\\knowledge_graph\\graph.json"
+    ],
+    "reasoning": {
+      "score_components": {
+        "importance": 25.0,
+        "risk": 46.0,
+        "degree_centrality": 0.237,
+        "betweenness_centrality": 0.4146,
+        "dependency_count": 0,
+        "dependency_unlock": 0,
+        "similarity_opportunity": 22.35,
+        "historical_success": 0.0,
+        "historical_failure": 0.0,
+        "module_maturity": 77.0,
+        "evidence_confidence": 1.0
+      },
+      "explanation": "Score combines importance, risk, graph centrality, dependencies, historical outcomes, gain, difficulty, maturity, and evidence confidence."
+    },
+    "recommendation_type": "Quick Win",
+    "score": 22.187192,
+    "metrics": {
+      "importance": 25.0,
+      "risk": 46.0,
+      "degree_centrality": 0.237,
+      "betweenness_centrality": 0.4146,
+      "dependency_count": 0,
+      "dependency_unlock": 0,
+      "similarity_opportunity": 22.35,
+      "historical_success": 0.0,
+      "historical_failure": 0.0,
+      "historical_occurrences": 0,
+      "module_maturity": 77.0,
+      "evidence_confidence": 1.0,
+      "score": 22.187192,
+      "roi": 0.2235,
+      "gain": 0.2235,
+      "cf_gain": 0.1341,
+      "difficulty": "Easy",
+      "risk_level": "Low",
+      "effort_hours": 4.0,
+      "confidence_label": "High"
+    },
+    "sprint": "Sprint 2",
+    "status": "PLANNED"
+  },
+  {
+    "recommendation_id": "REC-047",
+    "title": "Align navigator_own_keys[78] (Other) with the reference profile",
+    "description": "Restore navigator_own_keys[78] with the native Other prototype/descriptor shape before tuning values.",
+    "category": "Navigator",
+    "priority": "Medium",
+    "difficulty": "Easy",
+    "estimated_effort": {
+      "hours": 4.0,
+      "complexity_points": 1.0
+    },
+    "expected_similarity_gain": 0.2235,
+    "expected_cf_gain": 0.1341,
+    "regression_probability": 29.9,
+    "confidence": "High",
+    "affected_properties": [
+      "navigator_own_keys[78]"
+    ],
+    "affected_modules": [
+      "Navigator",
+      "Other"
+    ],
+    "affected_tasks": [
+      "OPT-047"
+    ],
+    "knowledge_graph_impact": {
+      "affected_nodes": 1,
+      "affected_edges": 9,
+      "affected_clusters": [
+        "component:001"
+      ],
+      "hub_impact": 0.237,
+      "bridge_impact": 0.4146,
+      "centrality_gain": 0.3258,
+      "dependency_unlock": 0
+    },
+    "dependencies": [],
+    "supporting_evidence": [
+      "reports\\experiments\\exp_045\\fingerprint_importance\\importance.json",
+      "reports\\experiments\\exp_048\\fingerprint_risk\\risk.json",
+      "reports\\experiments\\exp_052\\optimization_planner\\ranking.json",
+      "reports\\experiments\\exp_060\\optimization_executor\\tasks.json",
+      "reports\\experiments\\exp_068\\knowledge_graph\\graph.json"
+    ],
+    "reasoning": {
+      "score_components": {
+        "importance": 25.0,
+        "risk": 46.0,
+        "degree_centrality": 0.237,
+        "betweenness_centrality": 0.4146,
+        "dependency_count": 0,
+        "dependency_unlock": 0,
+        "similarity_opportunity": 22.35,
+        "historical_success": 0.0,
+        "historical_failure": 0.0,
+        "module_maturity": 77.0,
+        "evidence_confidence": 1.0
+      },
+      "explanation": "Score combines importance, risk, graph centrality, dependencies, historical outcomes, gain, difficulty, maturity, and evidence confidence."
+    },
+    "recommendation_type": "Quick Win",
+    "score": 22.187192,
+    "metrics": {
+      "importance": 25.0,
+      "risk": 46.0,
+      "degree_centrality": 0.237,
+      "betweenness_centrality": 0.4146,
+      "dependency_count": 0,
+      "dependency_unlock": 0,
+      "similarity_opportunity": 22.35,
+      "historical_success": 0.0,
+      "historical_failure": 0.0,
+      "historical_occurrences": 0,
+      "module_maturity": 77.0,
+      "evidence_confidence": 1.0,
+      "score": 22.187192,
+      "roi": 0.2235,
+      "gain": 0.2235,
+      "cf_gain": 0.1341,
+      "difficulty": "Easy",
+      "risk_level": "Low",
+      "effort_hours": 4.0,
+      "confidence_label": "High"
+    },
+    "sprint": "Sprint 2",
+    "status": "PLANNED"
+  },
+  {
+    "recommendation_id": "REC-048",
+    "title": "Align navigator_own_keys[79] (Other) with the reference profile",
+    "description": "Restore navigator_own_keys[79] with the native Other prototype/descriptor shape before tuning values.",
+    "category": "Navigator",
+    "priority": "Medium",
+    "difficulty": "Easy",
+    "estimated_effort": {
+      "hours": 4.0,
+      "complexity_points": 1.0
+    },
+    "expected_similarity_gain": 0.2235,
+    "expected_cf_gain": 0.1341,
+    "regression_probability": 29.9,
+    "confidence": "High",
+    "affected_properties": [
+      "navigator_own_keys[79]"
+    ],
+    "affected_modules": [
+      "Navigator",
+      "Other"
+    ],
+    "affected_tasks": [
+      "OPT-048"
+    ],
+    "knowledge_graph_impact": {
+      "affected_nodes": 1,
+      "affected_edges": 9,
+      "affected_clusters": [
+        "component:001"
+      ],
+      "hub_impact": 0.237,
+      "bridge_impact": 0.4146,
+      "centrality_gain": 0.3258,
+      "dependency_unlock": 0
+    },
+    "dependencies": [],
+    "supporting_evidence": [
+      "reports\\experiments\\exp_045\\fingerprint_importance\\importance.json",
+      "reports\\experiments\\exp_048\\fingerprint_risk\\risk.json",
+      "reports\\experiments\\exp_052\\optimization_planner\\ranking.json",
+      "reports\\experiments\\exp_060\\optimization_executor\\tasks.json",
+      "reports\\experiments\\exp_068\\knowledge_graph\\graph.json"
+    ],
+    "reasoning": {
+      "score_components": {
+        "importance": 25.0,
+        "risk": 46.0,
+        "degree_centrality": 0.237,
+        "betweenness_centrality": 0.4146,
+        "dependency_count": 0,
+        "dependency_unlock": 0,
+        "similarity_opportunity": 22.35,
+        "historical_success": 0.0,
+        "historical_failure": 0.0,
+        "module_maturity": 77.0,
+        "evidence_confidence": 1.0
+      },
+      "explanation": "Score combines importance, risk, graph centrality, dependencies, historical outcomes, gain, difficulty, maturity, and evidence confidence."
+    },
+    "recommendation_type": "Quick Win",
+    "score": 22.187192,
+    "metrics": {
+      "importance": 25.0,
+      "risk": 46.0,
+      "degree_centrality": 0.237,
+      "betweenness_centrality": 0.4146,
+      "dependency_count": 0,
+      "dependency_unlock": 0,
+      "similarity_opportunity": 22.35,
+      "historical_success": 0.0,
+      "historical_failure": 0.0,
+      "historical_occurrences": 0,
+      "module_maturity": 77.0,
+      "evidence_confidence": 1.0,
+      "score": 22.187192,
+      "roi": 0.2235,
+      "gain": 0.2235,
+      "cf_gain": 0.1341,
+      "difficulty": "Easy",
+      "risk_level": "Low",
+      "effort_hours": 4.0,
+      "confidence_label": "High"
+    },
+    "sprint": "Sprint 2",
+    "status": "PLANNED"
+  },
+  {
+    "recommendation_id": "REC-049",
+    "title": "Align navigator_own_keys[80] (Other) with the reference profile",
+    "description": "Restore navigator_own_keys[80] with the native Other prototype/descriptor shape before tuning values.",
+    "category": "Navigator",
+    "priority": "Medium",
+    "difficulty": "Easy",
+    "estimated_effort": {
+      "hours": 4.0,
+      "complexity_points": 1.0
+    },
+    "expected_similarity_gain": 0.2235,
+    "expected_cf_gain": 0.1341,
+    "regression_probability": 29.9,
+    "confidence": "High",
+    "affected_properties": [
+      "navigator_own_keys[80]"
+    ],
+    "affected_modules": [
+      "Navigator",
+      "Other"
+    ],
+    "affected_tasks": [
+      "OPT-049"
+    ],
+    "knowledge_graph_impact": {
+      "affected_nodes": 1,
+      "affected_edges": 9,
+      "affected_clusters": [
+        "component:001"
+      ],
+      "hub_impact": 0.237,
+      "bridge_impact": 0.4146,
+      "centrality_gain": 0.3258,
+      "dependency_unlock": 0
+    },
+    "dependencies": [],
+    "supporting_evidence": [
+      "reports\\experiments\\exp_045\\fingerprint_importance\\importance.json",
+      "reports\\experiments\\exp_048\\fingerprint_risk\\risk.json",
+      "reports\\experiments\\exp_052\\optimization_planner\\ranking.json",
+      "reports\\experiments\\exp_060\\optimization_executor\\tasks.json",
+      "reports\\experiments\\exp_068\\knowledge_graph\\graph.json"
+    ],
+    "reasoning": {
+      "score_components": {
+        "importance": 25.0,
+        "risk": 46.0,
+        "degree_centrality": 0.237,
+        "betweenness_centrality": 0.4146,
+        "dependency_count": 0,
+        "dependency_unlock": 0,
+        "similarity_opportunity": 22.35,
+        "historical_success": 0.0,
+        "historical_failure": 0.0,
+        "module_maturity": 77.0,
+        "evidence_confidence": 1.0
+      },
+      "explanation": "Score combines importance, risk, graph centrality, dependencies, historical outcomes, gain, difficulty, maturity, and evidence confidence."
+    },
+    "recommendation_type": "Quick Win",
+    "score": 22.187192,
+    "metrics": {
+      "importance": 25.0,
+      "risk": 46.0,
+      "degree_centrality": 0.237,
+      "betweenness_centrality": 0.4146,
+      "dependency_count": 0,
+      "dependency_unlock": 0,
+      "similarity_opportunity": 22.35,
+      "historical_success": 0.0,
+      "historical_failure": 0.0,
+      "historical_occurrences": 0,
+      "module_maturity": 77.0,
+      "evidence_confidence": 1.0,
+      "score": 22.187192,
+      "roi": 0.2235,
+      "gain": 0.2235,
+      "cf_gain": 0.1341,
+      "difficulty": "Easy",
+      "risk_level": "Low",
+      "effort_hours": 4.0,
+      "confidence_label": "High"
+    },
+    "sprint": "Sprint 2",
+    "status": "PLANNED"
+  },
+  {
+    "recommendation_id": "REC-050",
+    "title": "Align navigator_own_keys[81] (Other) with the reference profile",
+    "description": "Restore navigator_own_keys[81] with the native Other prototype/descriptor shape before tuning values.",
+    "category": "Navigator",
+    "priority": "Medium",
+    "difficulty": "Easy",
+    "estimated_effort": {
+      "hours": 4.0,
+      "complexity_points": 1.0
+    },
+    "expected_similarity_gain": 0.2235,
+    "expected_cf_gain": 0.1341,
+    "regression_probability": 29.9,
+    "confidence": "High",
+    "affected_properties": [
+      "navigator_own_keys[81]"
+    ],
+    "affected_modules": [
+      "Navigator",
+      "Other"
+    ],
+    "affected_tasks": [
+      "OPT-050"
+    ],
+    "knowledge_graph_impact": {
+      "affected_nodes": 1,
+      "affected_edges": 9,
+      "affected_clusters": [
+        "component:001"
+      ],
+      "hub_impact": 0.237,
+      "bridge_impact": 0.4146,
+      "centrality_gain": 0.3258,
+      "dependency_unlock": 0
+    },
+    "dependencies": [],
+    "supporting_evidence": [
+      "reports\\experiments\\exp_045\\fingerprint_importance\\importance.json",
+      "reports\\experiments\\exp_048\\fingerprint_risk\\risk.json",
+      "reports\\experiments\\exp_052\\optimization_planner\\ranking.json",
+      "reports\\experiments\\exp_060\\optimization_executor\\tasks.json",
+      "reports\\experiments\\exp_068\\knowledge_graph\\graph.json"
+    ],
+    "reasoning": {
+      "score_components": {
+        "importance": 25.0,
+        "risk": 46.0,
+        "degree_centrality": 0.237,
+        "betweenness_centrality": 0.4146,
+        "dependency_count": 0,
+        "dependency_unlock": 0,
+        "similarity_opportunity": 22.35,
+        "historical_success": 0.0,
+        "historical_failure": 0.0,
+        "module_maturity": 77.0,
+        "evidence_confidence": 1.0
+      },
+      "explanation": "Score combines importance, risk, graph centrality, dependencies, historical outcomes, gain, difficulty, maturity, and evidence confidence."
+    },
+    "recommendation_type": "Quick Win",
+    "score": 22.187192,
+    "metrics": {
+      "importance": 25.0,
+      "risk": 46.0,
+      "degree_centrality": 0.237,
+      "betweenness_centrality": 0.4146,
+      "dependency_count": 0,
+      "dependency_unlock": 0,
+      "similarity_opportunity": 22.35,
+      "historical_success": 0.0,
+      "historical_failure": 0.0,
+      "historical_occurrences": 0,
+      "module_maturity": 77.0,
+      "evidence_confidence": 1.0,
+      "score": 22.187192,
+      "roi": 0.2235,
+      "gain": 0.2235,
+      "cf_gain": 0.1341,
+      "difficulty": "Easy",
+      "risk_level": "Low",
+      "effort_hours": 4.0,
+      "confidence_label": "High"
+    },
+    "sprint": "Sprint 2",
+    "status": "PLANNED"
+  },
+  {
+    "recommendation_id": "REC-051",
+    "title": "Align window_keys[239] (Other) with the reference profile",
+    "description": "Restore window_keys[239] with the native Other prototype/descriptor shape before tuning values.",
+    "category": "Window",
+    "priority": "Medium",
+    "difficulty": "Easy",
+    "estimated_effort": {
+      "hours": 4.0,
+      "complexity_points": 1.0
+    },
+    "expected_similarity_gain": 0.2235,
+    "expected_cf_gain": 0.1341,
+    "regression_probability": 29.9,
+    "confidence": "High",
+    "affected_properties": [
+      "window_keys[239]"
+    ],
+    "affected_modules": [
+      "Other",
+      "Window"
+    ],
+    "affected_tasks": [
+      "OPT-051"
+    ],
+    "knowledge_graph_impact": {
+      "affected_nodes": 1,
+      "affected_edges": 9,
+      "affected_clusters": [
+        "component:001"
+      ],
+      "hub_impact": 0.237,
+      "bridge_impact": 0.4146,
+      "centrality_gain": 0.3258,
+      "dependency_unlock": 0
+    },
+    "dependencies": [],
+    "supporting_evidence": [
+      "reports\\experiments\\exp_045\\fingerprint_importance\\importance.json",
+      "reports\\experiments\\exp_048\\fingerprint_risk\\risk.json",
+      "reports\\experiments\\exp_052\\optimization_planner\\ranking.json",
+      "reports\\experiments\\exp_060\\optimization_executor\\tasks.json",
+      "reports\\experiments\\exp_068\\knowledge_graph\\graph.json"
+    ],
+    "reasoning": {
+      "score_components": {
+        "importance": 25.0,
+        "risk": 46.0,
+        "degree_centrality": 0.237,
+        "betweenness_centrality": 0.4146,
+        "dependency_count": 0,
+        "dependency_unlock": 0,
+        "similarity_opportunity": 22.35,
+        "historical_success": 0.0,
+        "historical_failure": 0.0,
+        "module_maturity": 77.0,
+        "evidence_confidence": 1.0
+      },
+      "explanation": "Score combines importance, risk, graph centrality, dependencies, historical outcomes, gain, difficulty, maturity, and evidence confidence."
+    },
+    "recommendation_type": "Quick Win",
+    "score": 22.187192,
+    "metrics": {
+      "importance": 25.0,
+      "risk": 46.0,
+      "degree_centrality": 0.237,
+      "betweenness_centrality": 0.4146,
+      "dependency_count": 0,
+      "dependency_unlock": 0,
+      "similarity_opportunity": 22.35,
+      "historical_success": 0.0,
+      "historical_failure": 0.0,
+      "historical_occurrences": 0,
+      "module_maturity": 77.0,
+      "evidence_confidence": 1.0,
+      "score": 22.187192,
+      "roi": 0.2235,
+      "gain": 0.2235,
+      "cf_gain": 0.1341,
+      "difficulty": "Easy",
+      "risk_level": "Low",
+      "effort_hours": 4.0,
+      "confidence_label": "High"
+    },
+    "sprint": "Sprint 2",
+    "status": "PLANNED"
+  },
+  {
+    "recommendation_id": "REC-052",
+    "title": "Align window_keys[242] (Other) with the reference profile",
+    "description": "Restore window_keys[242] with the native Other prototype/descriptor shape before tuning values.",
+    "category": "Window",
+    "priority": "Medium",
+    "difficulty": "Easy",
+    "estimated_effort": {
+      "hours": 4.0,
+      "complexity_points": 1.0
+    },
+    "expected_similarity_gain": 0.2235,
+    "expected_cf_gain": 0.1341,
+    "regression_probability": 29.9,
+    "confidence": "High",
+    "affected_properties": [
+      "window_keys[242]"
+    ],
+    "affected_modules": [
+      "Other",
+      "Window"
+    ],
+    "affected_tasks": [
+      "OPT-052"
+    ],
+    "knowledge_graph_impact": {
+      "affected_nodes": 1,
+      "affected_edges": 9,
+      "affected_clusters": [
+        "component:001"
+      ],
+      "hub_impact": 0.237,
+      "bridge_impact": 0.4146,
+      "centrality_gain": 0.3258,
+      "dependency_unlock": 0
+    },
+    "dependencies": [],
+    "supporting_evidence": [
+      "reports\\experiments\\exp_045\\fingerprint_importance\\importance.json",
+      "reports\\experiments\\exp_048\\fingerprint_risk\\risk.json",
+      "reports\\experiments\\exp_052\\optimization_planner\\ranking.json",
+      "reports\\experiments\\exp_060\\optimization_executor\\tasks.json",
+      "reports\\experiments\\exp_068\\knowledge_graph\\graph.json"
+    ],
+    "reasoning": {
+      "score_components": {
+        "importance": 25.0,
+        "risk": 46.0,
+        "degree_centrality": 0.237,
+        "betweenness_centrality": 0.4146,
+        "dependency_count": 0,
+        "dependency_unlock": 0,
+        "similarity_opportunity": 22.35,
+        "historical_success": 0.0,
+        "historical_failure": 0.0,
+        "module_maturity": 77.0,
+        "evidence_confidence": 1.0
+      },
+      "explanation": "Score combines importance, risk, graph centrality, dependencies, historical outcomes, gain, difficulty, maturity, and evidence confidence."
+    },
+    "recommendation_type": "Quick Win",
+    "score": 22.187192,
+    "metrics": {
+      "importance": 25.0,
+      "risk": 46.0,
+      "degree_centrality": 0.237,
+      "betweenness_centrality": 0.4146,
+      "dependency_count": 0,
+      "dependency_unlock": 0,
+      "similarity_opportunity": 22.35,
+      "historical_success": 0.0,
+      "historical_failure": 0.0,
+      "historical_occurrences": 0,
+      "module_maturity": 77.0,
+      "evidence_confidence": 1.0,
+      "score": 22.187192,
+      "roi": 0.2235,
+      "gain": 0.2235,
+      "cf_gain": 0.1341,
+      "difficulty": "Easy",
+      "risk_level": "Low",
+      "effort_hours": 4.0,
+      "confidence_label": "High"
+    },
+    "sprint": "Sprint 2",
+    "status": "PLANNED"
+  }
+]

@@ -1,0 +1,18 @@
+{
+  "experiment": "Experiment 034 - Browser Launcher Framework",
+  "experiment_id": "exp_085",
+  "created_at": "2026-08-03T13:20:20.791851+07:00",
+  "result": "SUCCESS",
+  "playwright_status": "UNKNOWN",
+  "browser": "bundled",
+  "headless": true,
+  "persistent_profile_tested": true,
+  "stealth_hook_tested": true,
+  "network_requests": 0,
+  "sources": {
+    "launcher": "browser/launcher.py",
+    "config": "browser/config.py",
+    "profile": "browser/profile.py",
+    "context": "browser/context.py"
+  }
+}

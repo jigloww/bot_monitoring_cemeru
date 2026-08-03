@@ -1,0 +1,383 @@
+{
+  "regressions": [
+    {
+      "from": "exp_001",
+      "to": "exp_002",
+      "type": "missing_artifact",
+      "severity": "MEDIUM",
+      "reason": "Missing artifacts: compare, fingerprint, score, statistics, summary.",
+      "possible_cause": "Experiment produced a partial report.",
+      "confidence": "High"
+    },
+    {
+      "from": "exp_002",
+      "to": "exp_005",
+      "type": "missing_artifact",
+      "severity": "MEDIUM",
+      "reason": "Missing artifacts: compare, fingerprint, score, statistics, summary.",
+      "possible_cause": "Experiment produced a partial report.",
+      "confidence": "High"
+    },
+    {
+      "from": "exp_005",
+      "to": "exp_006",
+      "type": "missing_artifact",
+      "severity": "MEDIUM",
+      "reason": "Missing artifacts: fingerprint, statistics.",
+      "possible_cause": "Experiment produced a partial report.",
+      "confidence": "High"
+    },
+    {
+      "from": "exp_006",
+      "to": "exp_007",
+      "type": "missing_artifact",
+      "severity": "MEDIUM",
+      "reason": "Missing artifacts: fingerprint, statistics.",
+      "possible_cause": "Experiment produced a partial report.",
+      "confidence": "High"
+    },
+    {
+      "from": "exp_007",
+      "to": "exp_008",
+      "type": "missing_artifact",
+      "severity": "MEDIUM",
+      "reason": "Missing artifacts: statistics.",
+      "possible_cause": "Experiment produced a partial report.",
+      "confidence": "High"
+    },
+    {
+      "from": "exp_008",
+      "to": "exp_009",
+      "type": "missing_artifact",
+      "severity": "MEDIUM",
+      "reason": "Missing artifacts: statistics.",
+      "possible_cause": "Experiment produced a partial report.",
+      "confidence": "High"
+    },
+    {
+      "from": "exp_009",
+      "to": "exp_010",
+      "type": "missing_artifact",
+      "severity": "MEDIUM",
+      "reason": "Missing artifacts: statistics.",
+      "possible_cause": "Experiment produced a partial report.",
+      "confidence": "High"
+    },
+    {
+      "from": "exp_010",
+      "to": "exp_011",
+      "type": "category_decrease",
+      "category": "Navigator",
+      "severity": "MEDIUM",
+      "reason": "Navigator score decreased by -3.6 points.",
+      "possible_cause": "The category module or its runtime conditions changed.",
+      "confidence": "Medium"
+    },
+    {
+      "from": "exp_010",
+      "to": "exp_011",
+      "type": "missing_artifact",
+      "severity": "MEDIUM",
+      "reason": "Missing artifacts: statistics.",
+      "possible_cause": "Experiment produced a partial report.",
+      "confidence": "High"
+    },
+    {
+      "from": "exp_011",
+      "to": "exp_012",
+      "type": "missing_artifact",
+      "severity": "MEDIUM",
+      "reason": "Missing artifacts: statistics.",
+      "possible_cause": "Experiment produced a partial report.",
+      "confidence": "High"
+    },
+    {
+      "from": "exp_012",
+      "to": "exp_013",
+      "type": "missing_artifact",
+      "severity": "MEDIUM",
+      "reason": "Missing artifacts: compare, fingerprint, score, statistics, summary.",
+      "possible_cause": "Experiment produced a partial report.",
+      "confidence": "High"
+    },
+    {
+      "from": "exp_013",
+      "to": "exp_014",
+      "type": "missing_artifact",
+      "severity": "MEDIUM",
+      "reason": "Missing artifacts: statistics.",
+      "possible_cause": "Experiment produced a partial report.",
+      "confidence": "High"
+    },
+    {
+      "from": "exp_014",
+      "to": "exp_015",
+      "type": "missing_artifact",
+      "severity": "MEDIUM",
+      "reason": "Missing artifacts: compare, fingerprint, score, statistics.",
+      "possible_cause": "Experiment produced a partial report.",
+      "confidence": "High"
+    },
+    {
+      "from": "exp_015",
+      "to": "exp_016",
+      "type": "missing_artifact",
+      "severity": "MEDIUM",
+      "reason": "Missing artifacts: compare, fingerprint, score, statistics.",
+      "possible_cause": "Experiment produced a partial report.",
+      "confidence": "High"
+    },
+    {
+      "from": "exp_016",
+      "to": "exp_017",
+      "type": "missing_artifact",
+      "severity": "MEDIUM",
+      "reason": "Missing artifacts: compare, fingerprint, score, statistics.",
+      "possible_cause": "Experiment produced a partial report.",
+      "confidence": "High"
+    },
+    {
+      "from": "exp_017",
+      "to": "exp_018",
+      "type": "missing_artifact",
+      "severity": "MEDIUM",
+      "reason": "Missing artifacts: compare, fingerprint, score, statistics.",
+      "possible_cause": "Experiment produced a partial report.",
+      "confidence": "High"
+    },
+    {
+      "from": "exp_018",
+      "to": "exp_019",
+      "type": "missing_artifact",
+      "severity": "MEDIUM",
+      "reason": "Missing artifacts: compare, fingerprint, score, statistics.",
+      "possible_cause": "Experiment produced a partial report.",
+      "confidence": "High"
+    },
+    {
+      "from": "exp_019",
+      "to": "exp_020",
+      "type": "missing_artifact",
+      "severity": "MEDIUM",
+      "reason": "Missing artifacts: compare, fingerprint, score, statistics.",
+      "possible_cause": "Experiment produced a partial report.",
+      "confidence": "High"
+    },
+    {
+      "from": "exp_020",
+      "to": "exp_021",
+      "type": "missing_artifact",
+      "severity": "MEDIUM",
+      "reason": "Missing artifacts: compare, fingerprint, score.",
+      "possible_cause": "Experiment produced a partial report.",
+      "confidence": "High"
+    },
+    {
+      "from": "exp_021",
+      "to": "exp_022",
+      "type": "missing_artifact",
+      "severity": "MEDIUM",
+      "reason": "Missing artifacts: compare, fingerprint, score, statistics.",
+      "possible_cause": "Experiment produced a partial report.",
+      "confidence": "High"
+    },
+    {
+      "from": "exp_022",
+      "to": "exp_023",
+      "type": "missing_artifact",
+      "severity": "MEDIUM",
+      "reason": "Missing artifacts: compare, fingerprint, score.",
+      "possible_cause": "Experiment produced a partial report.",
+      "confidence": "High"
+    },
+    {
+      "from": "exp_023",
+      "to": "exp_024",
+      "type": "missing_artifact",
+      "severity": "MEDIUM",
+      "reason": "Missing artifacts: compare, fingerprint, score.",
+      "possible_cause": "Experiment produced a partial report.",
+      "confidence": "High"
+    },
+    {
+      "from": "exp_024",
+      "to": "exp_025",
+      "type": "missing_artifact",
+      "severity": "MEDIUM",
+      "reason": "Missing artifacts: compare, fingerprint, score.",
+      "possible_cause": "Experiment produced a partial report.",
+      "confidence": "High"
+    },
+    {
+      "from": "exp_025",
+      "to": "exp_026",
+      "type": "missing_artifact",
+      "severity": "MEDIUM",
+      "reason": "Missing artifacts: compare, fingerprint, score.",
+      "possible_cause": "Experiment produced a partial report.",
+      "confidence": "High"
+    },
+    {
+      "from": "exp_026",
+      "to": "exp_027",
+      "type": "missing_artifact",
+      "severity": "MEDIUM",
+      "reason": "Missing artifacts: compare, fingerprint, score.",
+      "possible_cause": "Experiment produced a partial report.",
+      "confidence": "High"
+    },
+    {
+      "from": "exp_027",
+      "to": "exp_028",
+      "type": "missing_artifact",
+      "severity": "MEDIUM",
+      "reason": "Missing artifacts: compare, score.",
+      "possible_cause": "Experiment produced a partial report.",
+      "confidence": "High"
+    },
+    {
+      "from": "exp_028",
+      "to": "exp_029",
+      "type": "fingerprint_hash_change",
+      "severity": "MEDIUM",
+      "reason": "Fingerprint hash changed between adjacent experiments.",
+      "possible_cause": "A module, browser build, profile, or environment changed.",
+      "confidence": "High"
+    },
+    {
+      "from": "exp_028",
+      "to": "exp_029",
+      "type": "missing_artifact",
+      "severity": "MEDIUM",
+      "reason": "Missing artifacts: compare, score.",
+      "possible_cause": "Experiment produced a partial report.",
+      "confidence": "High"
+    },
+    {
+      "from": "exp_029",
+      "to": "exp_030",
+      "type": "fingerprint_hash_change",
+      "severity": "MEDIUM",
+      "reason": "Fingerprint hash changed between adjacent experiments.",
+      "possible_cause": "A module, browser build, profile, or environment changed.",
+      "confidence": "High"
+    },
+    {
+      "from": "exp_029",
+      "to": "exp_030",
+      "type": "missing_artifact",
+      "severity": "MEDIUM",
+      "reason": "Missing artifacts: compare, score.",
+      "possible_cause": "Experiment produced a partial report.",
+      "confidence": "High"
+    },
+    {
+      "from": "exp_030",
+      "to": "exp_031",
+      "type": "fingerprint_hash_change",
+      "severity": "MEDIUM",
+      "reason": "Fingerprint hash changed between adjacent experiments.",
+      "possible_cause": "A module, browser build, profile, or environment changed.",
+      "confidence": "High"
+    },
+    {
+      "from": "exp_030",
+      "to": "exp_031",
+      "type": "missing_artifact",
+      "severity": "MEDIUM",
+      "reason": "Missing artifacts: compare, score.",
+      "possible_cause": "Experiment produced a partial report.",
+      "confidence": "High"
+    },
+    {
+      "from": "exp_031",
+      "to": "exp_032",
+      "type": "fingerprint_hash_change",
+      "severity": "MEDIUM",
+      "reason": "Fingerprint hash changed between adjacent experiments.",
+      "possible_cause": "A module, browser build, profile, or environment changed.",
+      "confidence": "High"
+    },
+    {
+      "from": "exp_031",
+      "to": "exp_032",
+      "type": "missing_artifact",
+      "severity": "MEDIUM",
+      "reason": "Missing artifacts: compare, score.",
+      "possible_cause": "Experiment produced a partial report.",
+      "confidence": "High"
+    },
+    {
+      "from": "exp_032",
+      "to": "exp_033",
+      "type": "module_removed",
+      "severity": "HIGH",
+      "reason": "Modules removed: environment, fonts, navigator, performance, permissions, screen, speech, storage, webgl, window.",
+      "possible_cause": "Artifact or registry coverage changed.",
+      "confidence": "Medium"
+    },
+    {
+      "from": "exp_032",
+      "to": "exp_033",
+      "type": "missing_artifact",
+      "severity": "MEDIUM",
+      "reason": "Missing artifacts: compare, fingerprint, score.",
+      "possible_cause": "Experiment produced a partial report.",
+      "confidence": "High"
+    },
+    {
+      "from": "exp_033",
+      "to": "exp_034",
+      "type": "missing_artifact",
+      "severity": "MEDIUM",
+      "reason": "Missing artifacts: compare, fingerprint, score.",
+      "possible_cause": "Experiment produced a partial report.",
+      "confidence": "High"
+    },
+    {
+      "from": "exp_034",
+      "to": "exp_035",
+      "type": "missing_artifact",
+      "severity": "MEDIUM",
+      "reason": "Missing artifacts: compare, fingerprint, score.",
+      "possible_cause": "Experiment produced a partial report.",
+      "confidence": "High"
+    },
+    {
+      "from": "exp_035",
+      "to": "exp_036",
+      "type": "missing_artifact",
+      "severity": "MEDIUM",
+      "reason": "Missing artifacts: compare, fingerprint, score.",
+      "possible_cause": "Experiment produced a partial report.",
+      "confidence": "High"
+    },
+    {
+      "from": "exp_036",
+      "to": "exp_037",
+      "type": "missing_artifact",
+      "severity": "MEDIUM",
+      "reason": "Missing artifacts: compare, fingerprint, score, statistics, summary.",
+      "possible_cause": "Experiment produced a partial report.",
+      "confidence": "High"
+    },
+    {
+      "from": "exp_037",
+      "to": "exp_038",
+      "type": "missing_artifact",
+      "severity": "MEDIUM",
+      "reason": "Missing artifacts: compare, fingerprint, score, statistics, summary.",
+      "possible_cause": "Experiment produced a partial report.",
+      "confidence": "High"
+    },
+    {
+      "from": "exp_038",
+      "to": "exp_039",
+      "type": "missing_artifact",
+      "severity": "MEDIUM",
+      "reason": "Missing artifacts: compare, fingerprint, score, statistics, summary.",
+      "possible_cause": "Experiment produced a partial report.",
+      "confidence": "High"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "total_analyzed_properties": 471,
+  "differing_properties": 471,
+  "status_distribution": {
+    "ADDED": 5,
+    "DIFFERENT": 303,
+    "MISSING": 163
+  },
+  "risk_distribution": {
+    "Critical": 9,
+    "High": 10,
+    "Medium": 440,
+    "Low": 12
+  },
+  "importance_source": "reports\\experiments\\exp_045\\fingerprint_importance\\importance.json",
+  "evolution_source": "reports\\experiments\\exp_043\\fingerprint_evolution\\summary.json",
+  "comparator_source": "reports\\experiments\\exp_014\\webgl\\previous_stack_webgl\\compare.json",
+  "candidate_score": 78.9,
+  "browser_launches": 0
+}

@@ -1,0 +1,360 @@
+{
+  "domain": "fingerprint",
+  "session_a": "D:\\bot_monitoring_cemeru\\reports\\experiments\\exp_031\\session_profile",
+  "session_b": "D:\\bot_monitoring_cemeru\\reports\\experiments\\exp_032\\session_profile",
+  "changes": [
+    {
+      "path": "fingerprint$.algorithm",
+      "old_value": "sha256_file helper",
+      "new_value": "sha256_file helper",
+      "status": "UNCHANGED",
+      "severity": "INFO",
+      "reason": "The snapshot values are equal.",
+      "confidence": "High"
+    },
+    {
+      "path": "fingerprint$.experiment_id",
+      "old_value": "exp_031",
+      "new_value": "exp_032",
+      "status": "UNKNOWN",
+      "severity": "INFO",
+      "reason": "Experiment metadata is intentionally excluded from similarity.",
+      "confidence": "High"
+    },
+    {
+      "path": "fingerprint$.hashes.environment",
+      "old_value": "b77f2471394bfad95e320ef97cab0f96b95106297764d7d2053f73c3dd8f32df",
+      "new_value": "bc822f649121a4f395db6d8e4fc3a33de3f31af072ce75b7c08139448f9bf015",
+      "status": "CHANGED",
+      "severity": "MEDIUM",
+      "reason": "The field value differs between the two snapshots.",
+      "confidence": "High"
+    },
+    {
+      "path": "fingerprint$.hashes.fonts",
+      "old_value": "fe8e33de0b19e4db9815af301cfc9a4181d5124f7fb121d1e73850e7f6c5628f",
+      "new_value": "f07d74c60e8c37d758b859b34472d87a52da285fee6e0716f81ee61079b32e4a",
+      "status": "CHANGED",
+      "severity": "MEDIUM",
+      "reason": "The field value differs between the two snapshots.",
+      "confidence": "High"
+    },
+    {
+      "path": "fingerprint$.hashes.navigator",
+      "old_value": "10ced5ba68854ad18f3a26d2ab37b767e20e1f93730f8d91c8c996ba215579e3",
+      "new_value": "48633bd52d75bbdd7ef999cd7247c4c9c98b6ff18cad466086f3c98f15c47cdb",
+      "status": "CHANGED",
+      "severity": "MEDIUM",
+      "reason": "The field value differs between the two snapshots.",
+      "confidence": "High"
+    },
+    {
+      "path": "fingerprint$.hashes.performance",
+      "old_value": "10ced5ba68854ad18f3a26d2ab37b767e20e1f93730f8d91c8c996ba215579e3",
+      "new_value": "48633bd52d75bbdd7ef999cd7247c4c9c98b6ff18cad466086f3c98f15c47cdb",
+      "status": "CHANGED",
+      "severity": "MEDIUM",
+      "reason": "Runtime timing or memory is expected to vary between sessions.",
+      "confidence": "High"
+    },
+    {
+      "path": "fingerprint$.hashes.permissions",
+      "old_value": "8059f1466a266844ae2985534f8496498964bbb6bebf62e08f419546a9d024f1",
+      "new_value": "36529439e5df975bb66e40e97e3e1f9d9d915de90afedf51abdcba5fd3a5801b",
+      "status": "CHANGED",
+      "severity": "MEDIUM",
+      "reason": "The field value differs between the two snapshots.",
+      "confidence": "High"
+    },
+    {
+      "path": "fingerprint$.hashes.screen",
+      "old_value": "10ced5ba68854ad18f3a26d2ab37b767e20e1f93730f8d91c8c996ba215579e3",
+      "new_value": "48633bd52d75bbdd7ef999cd7247c4c9c98b6ff18cad466086f3c98f15c47cdb",
+      "status": "CHANGED",
+      "severity": "MEDIUM",
+      "reason": "The field value differs between the two snapshots.",
+      "confidence": "High"
+    },
+    {
+      "path": "fingerprint$.hashes.speech",
+      "old_value": "fe8e33de0b19e4db9815af301cfc9a4181d5124f7fb121d1e73850e7f6c5628f",
+      "new_value": "f07d74c60e8c37d758b859b34472d87a52da285fee6e0716f81ee61079b32e4a",
+      "status": "CHANGED",
+      "severity": "MEDIUM",
+      "reason": "The field value differs between the two snapshots.",
+      "confidence": "High"
+    },
+    {
+      "path": "fingerprint$.hashes.storage",
+      "old_value": "8d107affb2aa9eb5658009eca03a76cecea45265c9a5960fe6d9c2c3ff1e5180",
+      "new_value": "48b5c98bf91c14c9c6c5c0014574cf1355d88c397665dc640cf19d54283596d9",
+      "status": "CHANGED",
+      "severity": "MEDIUM",
+      "reason": "The field value differs between the two snapshots.",
+      "confidence": "High"
+    },
+    {
+      "path": "fingerprint$.hashes.webgl",
+      "old_value": "948aa76c9440fd9bc724d1fb9f103f9f2c0f81bdb0478670d8aad4fec6cfa5ac",
+      "new_value": "905e79e09c078f794a7979fbef34c5731d5d8b3088bea95a21098748a1307a2d",
+      "status": "CHANGED",
+      "severity": "MEDIUM",
+      "reason": "The field value differs between the two snapshots.",
+      "confidence": "High"
+    },
+    {
+      "path": "fingerprint$.hashes.window",
+      "old_value": "10ced5ba68854ad18f3a26d2ab37b767e20e1f93730f8d91c8c996ba215579e3",
+      "new_value": "48633bd52d75bbdd7ef999cd7247c4c9c98b6ff18cad466086f3c98f15c47cdb",
+      "status": "CHANGED",
+      "severity": "MEDIUM",
+      "reason": "The field value differs between the two snapshots.",
+      "confidence": "High"
+    },
+    {
+      "path": "fingerprint$.source_artifacts.environment",
+      "old_value": "environment.json",
+      "new_value": "environment.json",
+      "status": "UNCHANGED",
+      "severity": "INFO",
+      "reason": "The snapshot values are equal.",
+      "confidence": "High"
+    },
+    {
+      "path": "fingerprint$.source_artifacts.fonts",
+      "old_value": "profile.json",
+      "new_value": "profile.json",
+      "status": "UNCHANGED",
+      "severity": "LOW",
+      "reason": "The snapshot values are equal.",
+      "confidence": "High"
+    },
+    {
+      "path": "fingerprint$.source_artifacts.navigator",
+      "old_value": "navigator.json",
+      "new_value": "navigator.json",
+      "status": "UNCHANGED",
+      "severity": "INFO",
+      "reason": "The snapshot values are equal.",
+      "confidence": "High"
+    },
+    {
+      "path": "fingerprint$.source_artifacts.performance",
+      "old_value": "performance.json",
+      "new_value": "performance.json",
+      "status": "UNCHANGED",
+      "severity": "INFO",
+      "reason": "The snapshot values are equal.",
+      "confidence": "High"
+    },
+    {
+      "path": "fingerprint$.source_artifacts.permissions",
+      "old_value": "permissions.json",
+      "new_value": "permissions.json",
+      "status": "UNCHANGED",
+      "severity": "MEDIUM",
+      "reason": "The snapshot values are equal.",
+      "confidence": "High"
+    },
+    {
+      "path": "fingerprint$.source_artifacts.screen",
+      "old_value": "screen.json",
+      "new_value": "screen.json",
+      "status": "UNCHANGED",
+      "severity": "INFO",
+      "reason": "The snapshot values are equal.",
+      "confidence": "High"
+    },
+    {
+      "path": "fingerprint$.source_artifacts.speech",
+      "old_value": "profile.json",
+      "new_value": "profile.json",
+      "status": "UNCHANGED",
+      "severity": "LOW",
+      "reason": "The snapshot values are equal.",
+      "confidence": "High"
+    },
+    {
+      "path": "fingerprint$.source_artifacts.storage",
+      "old_value": "storage.json",
+      "new_value": "storage.json",
+      "status": "UNCHANGED",
+      "severity": "MEDIUM",
+      "reason": "The snapshot values are equal.",
+      "confidence": "High"
+    },
+    {
+      "path": "fingerprint$.source_artifacts.webgl",
+      "old_value": "webgl.json",
+      "new_value": "webgl.json",
+      "status": "UNCHANGED",
+      "severity": "MEDIUM",
+      "reason": "The snapshot values are equal.",
+      "confidence": "High"
+    },
+    {
+      "path": "fingerprint$.source_artifacts.window",
+      "old_value": "window.json",
+      "new_value": "window.json",
+      "status": "UNCHANGED",
+      "severity": "INFO",
+      "reason": "The snapshot values are equal.",
+      "confidence": "High"
+    }
+  ],
+  "statistics": {
+    "total_fields": 22,
+    "unchanged_fields": 11,
+    "changed_fields": 10,
+    "added_fields": 0,
+    "removed_fields": 0,
+    "unknown_fields": 1,
+    "comparable_fields": 21,
+    "similarity": 52.38,
+    "info_changes": 1,
+    "low_changes": 0,
+    "medium_changes": 10,
+    "high_changes": 0,
+    "critical_changes": 0,
+    "fingerprint_match_percentage": 0.0
+  },
+  "source_unknown": false,
+  "module_hashes": [
+    {
+      "path": "fingerprint.hashes.environment",
+      "old_value": "b77f2471394bfad95e320ef97cab0f96b95106297764d7d2053f73c3dd8f32df",
+      "new_value": "bc822f649121a4f395db6d8e4fc3a33de3f31af072ce75b7c08139448f9bf015",
+      "status": "CHANGED",
+      "severity": "MEDIUM",
+      "reason": "The field value differs between the two snapshots.",
+      "confidence": "High"
+    },
+    {
+      "path": "fingerprint.hashes.fonts",
+      "old_value": "fe8e33de0b19e4db9815af301cfc9a4181d5124f7fb121d1e73850e7f6c5628f",
+      "new_value": "f07d74c60e8c37d758b859b34472d87a52da285fee6e0716f81ee61079b32e4a",
+      "status": "CHANGED",
+      "severity": "MEDIUM",
+      "reason": "The field value differs between the two snapshots.",
+      "confidence": "High"
+    },
+    {
+      "path": "fingerprint.hashes.navigator",
+      "old_value": "10ced5ba68854ad18f3a26d2ab37b767e20e1f93730f8d91c8c996ba215579e3",
+      "new_value": "48633bd52d75bbdd7ef999cd7247c4c9c98b6ff18cad466086f3c98f15c47cdb",
+      "status": "CHANGED",
+      "severity": "MEDIUM",
+      "reason": "The field value differs between the two snapshots.",
+      "confidence": "High"
+    },
+    {
+      "path": "fingerprint.hashes.performance",
+      "old_value": "10ced5ba68854ad18f3a26d2ab37b767e20e1f93730f8d91c8c996ba215579e3",
+      "new_value": "48633bd52d75bbdd7ef999cd7247c4c9c98b6ff18cad466086f3c98f15c47cdb",
+      "status": "CHANGED",
+      "severity": "MEDIUM",
+      "reason": "Runtime timing or memory is expected to vary between sessions.",
+      "confidence": "High"
+    },
+    {
+      "path": "fingerprint.hashes.permissions",
+      "old_value": "8059f1466a266844ae2985534f8496498964bbb6bebf62e08f419546a9d024f1",
+      "new_value": "36529439e5df975bb66e40e97e3e1f9d9d915de90afedf51abdcba5fd3a5801b",
+      "status": "CHANGED",
+      "severity": "MEDIUM",
+      "reason": "The field value differs between the two snapshots.",
+      "confidence": "High"
+    },
+    {
+      "path": "fingerprint.hashes.screen",
+      "old_value": "10ced5ba68854ad18f3a26d2ab37b767e20e1f93730f8d91c8c996ba215579e3",
+      "new_value": "48633bd52d75bbdd7ef999cd7247c4c9c98b6ff18cad466086f3c98f15c47cdb",
+      "status": "CHANGED",
+      "severity": "MEDIUM",
+      "reason": "The field value differs between the two snapshots.",
+      "confidence": "High"
+    },
+    {
+      "path": "fingerprint.hashes.speech",
+      "old_value": "fe8e33de0b19e4db9815af301cfc9a4181d5124f7fb121d1e73850e7f6c5628f",
+      "new_value": "f07d74c60e8c37d758b859b34472d87a52da285fee6e0716f81ee61079b32e4a",
+      "status": "CHANGED",
+      "severity": "MEDIUM",
+      "reason": "The field value differs between the two snapshots.",
+      "confidence": "High"
+    },
+    {
+      "path": "fingerprint.hashes.storage",
+      "old_value": "8d107affb2aa9eb5658009eca03a76cecea45265c9a5960fe6d9c2c3ff1e5180",
+      "new_value": "48b5c98bf91c14c9c6c5c0014574cf1355d88c397665dc640cf19d54283596d9",
+      "status": "CHANGED",
+      "severity": "MEDIUM",
+      "reason": "The field value differs between the two snapshots.",
+      "confidence": "High"
+    },
+    {
+      "path": "fingerprint.hashes.webgl",
+      "old_value": "948aa76c9440fd9bc724d1fb9f103f9f2c0f81bdb0478670d8aad4fec6cfa5ac",
+      "new_value": "905e79e09c078f794a7979fbef34c5731d5d8b3088bea95a21098748a1307a2d",
+      "status": "CHANGED",
+      "severity": "MEDIUM",
+      "reason": "The field value differs between the two snapshots.",
+      "confidence": "High"
+    },
+    {
+      "path": "fingerprint.hashes.window",
+      "old_value": "10ced5ba68854ad18f3a26d2ab37b767e20e1f93730f8d91c8c996ba215579e3",
+      "new_value": "48633bd52d75bbdd7ef999cd7247c4c9c98b6ff18cad466086f3c98f15c47cdb",
+      "status": "CHANGED",
+      "severity": "MEDIUM",
+      "reason": "The field value differs between the two snapshots.",
+      "confidence": "High"
+    }
+  ],
+  "module_statistics": {
+    "total_modules": 10,
+    "unchanged_modules": 0,
+    "changed_modules": [
+      "environment",
+      "fonts",
+      "navigator",
+      "performance",
+      "permissions",
+      "screen",
+      "speech",
+      "storage",
+      "webgl",
+      "window"
+    ],
+    "match_percentage": 0.0
+  },
+  "summary_hashes": [
+    {
+      "path": "fingerprint.summary.fingerprint_hash",
+      "old_value": null,
+      "new_value": null,
+      "status": "ADDED",
+      "severity": "MEDIUM",
+      "reason": "The field is present only in session B.",
+      "confidence": "High"
+    },
+    {
+      "path": "fingerprint.summary.profile_hash",
+      "old_value": null,
+      "new_value": null,
+      "status": "ADDED",
+      "severity": "MEDIUM",
+      "reason": "The field is present only in session B.",
+      "confidence": "High"
+    },
+    {
+      "path": "fingerprint.summary.environment_hash",
+      "old_value": null,
+      "new_value": null,
+      "status": "ADDED",
+      "severity": "MEDIUM",
+      "reason": "The field is present only in session B.",
+      "confidence": "High"
+    }
+  ]
+}

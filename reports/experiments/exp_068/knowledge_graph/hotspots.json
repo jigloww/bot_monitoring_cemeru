@@ -1,0 +1,17 @@
+{
+  "most_influential_property": "property:navigator.userAgent",
+  "most_connected_module": "Navigator",
+  "highest_risk_cluster": "component:001",
+  "highest_roi_cluster": "OPT-014",
+  "most_critical_dependency_chain": {
+    "task_ids": [
+      "OPT-001",
+      "OPT-009"
+    ],
+    "length": 2,
+    "estimated_gain": 0.793,
+    "estimated_effort": 11.0,
+    "estimated_risk": 163.2
+  },
+  "most_frequently_appearing_property": "property:webgl.aliased_point_size_range[1]"
+}

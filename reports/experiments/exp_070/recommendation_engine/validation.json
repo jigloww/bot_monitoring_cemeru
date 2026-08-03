@@ -1,0 +1,14 @@
+{
+  "json_valid": true,
+  "artifact_completeness": true,
+  "deterministic_ordering": true,
+  "recommendation_uniqueness": true,
+  "score_normalization": true,
+  "dependency_validation": true,
+  "conflict_validation": false,
+  "markdown_validation": true,
+  "browser_launches": 0,
+  "network_requests": 0,
+  "historical_artifacts_unchanged": true,
+  "valid": false
+}

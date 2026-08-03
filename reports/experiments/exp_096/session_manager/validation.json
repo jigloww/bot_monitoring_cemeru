@@ -1,0 +1,18 @@
+{
+  "session_start": true,
+  "session_stop": true,
+  "restart_recovery": true,
+  "manual_restart": true,
+  "health_states": true,
+  "page_registry_start": true,
+  "page_registry_add": true,
+  "page_cleanup": true,
+  "browser_disconnect_simulation": true,
+  "persistent_profile_preservation": true,
+  "temporary_profile_cleanup": true,
+  "idempotent_shutdown": true,
+  "failed_state": true,
+  "browser_launches": 0,
+  "network_requests": 0,
+  "valid": true
+}

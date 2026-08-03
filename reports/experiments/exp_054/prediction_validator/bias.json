@@ -1,0 +1,17 @@
+{
+  "overall": {
+    "mbe": null,
+    "mae": null,
+    "rmse": null
+  },
+  "cf_score": {
+    "mbe": null,
+    "mae": null,
+    "rmse": null
+  },
+  "property": {
+    "mbe": null,
+    "mae": null,
+    "rmse": null
+  }
+}

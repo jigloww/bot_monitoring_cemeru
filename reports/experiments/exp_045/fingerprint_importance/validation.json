@@ -1,0 +1,12 @@
+{
+  "artifact_completeness": true,
+  "missing_artifacts": [],
+  "json_valid": true,
+  "deterministic_ordering": true,
+  "ranking_ordered": true,
+  "ranking_valid": true,
+  "markdown_valid": true,
+  "source_artifacts_unchanged": true,
+  "browser_launches": 0,
+  "valid": true
+}

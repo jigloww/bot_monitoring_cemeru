@@ -1,0 +1,14 @@
+{
+  "experiment_id": "exp_026",
+  "runs": [
+    {
+      "run_id": "run_001",
+      "errors": [
+        {
+          "kind": "browser_error",
+          "message": "No module named 'playwright'"
+        }
+      ]
+    }
+  ]
+}

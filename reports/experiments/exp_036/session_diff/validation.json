@@ -1,0 +1,8 @@
+{
+  "artifact_completeness": true,
+  "missing_artifacts": [],
+  "similarity_calculation_valid": true,
+  "statuses_valid": true,
+  "markdown_valid": true,
+  "deterministic_domain_count": true
+}

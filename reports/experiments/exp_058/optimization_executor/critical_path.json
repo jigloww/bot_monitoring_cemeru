@@ -1,0 +1,32 @@
+{
+  "longest_dependency_chain": {
+    "task_ids": [
+      "OPT-001",
+      "OPT-009"
+    ],
+    "length": 2,
+    "estimated_gain": 0.793,
+    "estimated_effort": 11.0,
+    "estimated_risk": 163.2
+  },
+  "highest_value_chain": {
+    "task_ids": [
+      "OPT-001",
+      "OPT-009"
+    ],
+    "length": 2,
+    "estimated_gain": 0.793,
+    "estimated_effort": 11.0,
+    "estimated_risk": 163.2
+  },
+  "highest_risk_chain": {
+    "task_ids": [
+      "OPT-001",
+      "OPT-009"
+    ],
+    "length": 2,
+    "estimated_gain": 0.793,
+    "estimated_effort": 11.0,
+    "estimated_risk": 163.2
+  }
+}

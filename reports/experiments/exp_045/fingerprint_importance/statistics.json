@@ -1,0 +1,38 @@
+{
+  "total_properties": 872,
+  "status_counts": {
+    "EQUAL": 401,
+    "DIFFERENT": 303,
+    "MISSING": 163,
+    "ADDED": 5,
+    "UNKNOWN": 0
+  },
+  "severity_counts": {
+    "CRITICAL": 13,
+    "HIGH": 0,
+    "MEDIUM": 17,
+    "LOW": 441,
+    "INFORMATIONAL": 401
+  },
+  "category_counts": {
+    "Chrome": 17,
+    "Environment": 29,
+    "Fonts": 26,
+    "Navigator": 192,
+    "Other": 445,
+    "Performance": 10,
+    "Permissions": 7,
+    "Screen": 8,
+    "Speech": 67,
+    "Storage": 10,
+    "WebGL": 52,
+    "Window": 9
+  },
+  "equal_percentage": 45.99,
+  "different_percentage": 54.01,
+  "weighted_mismatch_percentage": 96.32,
+  "estimated_similarity_gain_pct": 96.32,
+  "baseline_source": "D:\\bot_monitoring_cemeru\\reports\\fingerprint\\fingerprint_real.json",
+  "candidate_source": "D:\\bot_monitoring_cemeru\\reports\\experiments\\exp_014\\webgl\\previous_stack_webgl\\fingerprint.json",
+  "browser_launches": 0
+}

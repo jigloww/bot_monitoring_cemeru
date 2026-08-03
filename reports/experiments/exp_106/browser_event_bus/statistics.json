@@ -1,0 +1,14 @@
+{
+  "browser_launches": 0,
+  "network_requests": 0,
+  "events_emitted": 4,
+  "events_processed": 4,
+  "events_failed": 3,
+  "events_dropped": 0,
+  "listeners_registered": 4,
+  "listener_errors": 3,
+  "average_dispatch_time": 0.00010000000000000002,
+  "peak_queue_size": 3,
+  "concurrent_events": 800,
+  "bounded_events_dropped": 372
+}

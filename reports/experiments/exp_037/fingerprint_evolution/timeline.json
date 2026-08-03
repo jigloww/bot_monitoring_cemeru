@@ -1,0 +1,1399 @@
+{
+  "experiments": [
+    {
+      "experiment_id": "exp_001",
+      "experiment_name": "navigator-module-smoke",
+      "timestamp": "2026-08-02T22:50:43.445540+07:00",
+      "overall_score": 51.6,
+      "cf_score": 54.8,
+      "category_scores": {
+        "Navigator": 72.7,
+        "WebGL": 62.5,
+        "Canvas": 50.0,
+        "Audio": 100.0,
+        "Chrome": 0.0,
+        "Plugins": 100.0,
+        "Fonts": 100.0,
+        "Window": 11.1,
+        "Screen": 50.0,
+        "Permissions": 85.7,
+        "Speech": 0.0,
+        "Performance": 10.0,
+        "Storage": 0.0,
+        "Battery": 0.0,
+        "RTC": 100.0,
+        "Features": 83.3,
+        "Other": 52.5
+      },
+      "total_diff": null,
+      "improved": [],
+      "regressed": [],
+      "fingerprint_hash": null,
+      "environment_hash": null,
+      "profile_hash": null,
+      "module_hashes": {},
+      "result": "SUCCESS",
+      "missing_artifacts": [
+        "statistics"
+      ],
+      "source_artifacts": {
+        "summary": "exp_001\\summary.json",
+        "score": "exp_001\\navigator\\score.json",
+        "compare": "exp_001\\navigator\\compare.json",
+        "fingerprint": "exp_001\\generated\\fingerprint.json",
+        "statistics": null
+      }
+    },
+    {
+      "experiment_id": "exp_002",
+      "experiment_name": "exp_002",
+      "timestamp": "2026-08-02T16:07:16.513353+00:00",
+      "overall_score": null,
+      "cf_score": null,
+      "category_scores": {
+        "Navigator": null,
+        "Window": null,
+        "Screen": null,
+        "Chrome": null,
+        "Permissions": null,
+        "Fonts": null,
+        "Speech": null,
+        "Performance": null,
+        "WebGL": null
+      },
+      "total_diff": null,
+      "improved": [],
+      "regressed": [],
+      "fingerprint_hash": null,
+      "environment_hash": null,
+      "profile_hash": null,
+      "module_hashes": {},
+      "result": "UNKNOWN",
+      "missing_artifacts": [
+        "summary",
+        "score",
+        "compare",
+        "fingerprint",
+        "statistics"
+      ],
+      "source_artifacts": {
+        "summary": null,
+        "score": null,
+        "compare": null,
+        "fingerprint": null,
+        "statistics": null
+      }
+    },
+    {
+      "experiment_id": "exp_005",
+      "experiment_name": "exp_005",
+      "timestamp": "2026-08-02T16:12:01.412466+00:00",
+      "overall_score": null,
+      "cf_score": null,
+      "category_scores": {
+        "Navigator": null,
+        "Window": null,
+        "Screen": null,
+        "Chrome": null,
+        "Permissions": null,
+        "Fonts": null,
+        "Speech": null,
+        "Performance": null,
+        "WebGL": null
+      },
+      "total_diff": null,
+      "improved": [],
+      "regressed": [],
+      "fingerprint_hash": null,
+      "environment_hash": null,
+      "profile_hash": null,
+      "module_hashes": {},
+      "result": "UNKNOWN",
+      "missing_artifacts": [
+        "summary",
+        "score",
+        "compare",
+        "fingerprint",
+        "statistics"
+      ],
+      "source_artifacts": {
+        "summary": null,
+        "score": null,
+        "compare": null,
+        "fingerprint": null,
+        "statistics": null
+      }
+    },
+    {
+      "experiment_id": "exp_006",
+      "experiment_name": "Window Evaluation",
+      "timestamp": "2026-08-02T23:18:39.140783+07:00",
+      "overall_score": null,
+      "cf_score": null,
+      "category_scores": {
+        "Navigator": null,
+        "Window": null,
+        "Screen": null,
+        "Chrome": null,
+        "Permissions": null,
+        "Fonts": null,
+        "Speech": null,
+        "Performance": null,
+        "WebGL": null
+      },
+      "total_diff": null,
+      "improved": [],
+      "regressed": [],
+      "fingerprint_hash": null,
+      "environment_hash": null,
+      "profile_hash": null,
+      "module_hashes": {},
+      "result": "UNKNOWN",
+      "missing_artifacts": [
+        "fingerprint",
+        "statistics"
+      ],
+      "source_artifacts": {
+        "summary": "exp_006\\window\\summary.json",
+        "score": "exp_006\\window\\score.json",
+        "compare": "exp_006\\window\\compare.json",
+        "fingerprint": null,
+        "statistics": null
+      }
+    },
+    {
+      "experiment_id": "exp_007",
+      "experiment_name": "Screen Evaluation",
+      "timestamp": "2026-08-02T23:27:46.188873+07:00",
+      "overall_score": null,
+      "cf_score": null,
+      "category_scores": {
+        "Navigator": null,
+        "Window": null,
+        "Screen": null,
+        "Chrome": null,
+        "Permissions": null,
+        "Fonts": null,
+        "Speech": null,
+        "Performance": null,
+        "WebGL": null
+      },
+      "total_diff": null,
+      "improved": [],
+      "regressed": [],
+      "fingerprint_hash": null,
+      "environment_hash": null,
+      "profile_hash": null,
+      "module_hashes": {},
+      "result": "UNKNOWN",
+      "missing_artifacts": [
+        "fingerprint",
+        "statistics"
+      ],
+      "source_artifacts": {
+        "summary": "exp_007\\screen\\summary.json",
+        "score": "exp_007\\screen\\score.json",
+        "compare": "exp_007\\screen\\compare.json",
+        "fingerprint": null,
+        "statistics": null
+      }
+    },
+    {
+      "experiment_id": "exp_008",
+      "experiment_name": "Experiment 008 - Chrome Runtime Evaluation",
+      "timestamp": "2026-08-02T23:42:21.260919+07:00",
+      "overall_score": 65.8,
+      "cf_score": 74.3,
+      "category_scores": {
+        "Navigator": 74.5,
+        "WebGL": 62.5,
+        "Canvas": 50.0,
+        "Audio": 100.0,
+        "Chrome": 100.0,
+        "Plugins": 100.0,
+        "Fonts": 100.0,
+        "Window": 100.0,
+        "Screen": 100.0,
+        "Permissions": 85.7,
+        "Speech": 0.0,
+        "Performance": 10.0,
+        "Storage": 0.0,
+        "Battery": 0.0,
+        "RTC": 100.0,
+        "Features": 83.3,
+        "Other": 52.5
+      },
+      "total_diff": null,
+      "improved": [],
+      "regressed": [],
+      "fingerprint_hash": null,
+      "environment_hash": null,
+      "profile_hash": null,
+      "module_hashes": {},
+      "result": "UNKNOWN",
+      "missing_artifacts": [
+        "statistics"
+      ],
+      "source_artifacts": {
+        "summary": "exp_008\\chrome\\summary.json",
+        "score": "exp_008\\chrome\\navigator_window_screen_chrome\\score.json",
+        "compare": "exp_008\\chrome\\navigator_window_screen_chrome\\compare.json",
+        "fingerprint": "exp_008\\chrome\\fingerprint.json",
+        "statistics": null
+      }
+    },
+    {
+      "experiment_id": "exp_009",
+      "experiment_name": "Experiment 009 - Permissions Evaluation",
+      "timestamp": "2026-08-03T00:01:01.052425+07:00",
+      "overall_score": 66.6,
+      "cf_score": 74.9,
+      "category_scores": {
+        "Navigator": 74.5,
+        "WebGL": 62.5,
+        "Canvas": 50.0,
+        "Audio": 100.0,
+        "Chrome": 100.0,
+        "Plugins": 100.0,
+        "Fonts": 100.0,
+        "Window": 100.0,
+        "Screen": 100.0,
+        "Permissions": 100.0,
+        "Speech": 0.0,
+        "Performance": 10.0,
+        "Storage": 0.0,
+        "Battery": 0.0,
+        "RTC": 100.0,
+        "Features": 83.3,
+        "Other": 52.5
+      },
+      "total_diff": null,
+      "improved": [],
+      "regressed": [],
+      "fingerprint_hash": null,
+      "environment_hash": null,
+      "profile_hash": null,
+      "module_hashes": {},
+      "result": "UNKNOWN",
+      "missing_artifacts": [
+        "statistics"
+      ],
+      "source_artifacts": {
+        "summary": "exp_009\\permissions\\summary.json",
+        "score": "exp_009\\permissions\\navigator_window_screen_chrome_permissions\\score.json",
+        "compare": "exp_009\\permissions\\navigator_window_screen_chrome_permissions\\compare.json",
+        "fingerprint": "exp_009\\permissions\\fingerprint.json",
+        "statistics": null
+      }
+    },
+    {
+      "experiment_id": "exp_010",
+      "experiment_name": "Experiment 010 - Fonts Evaluation",
+      "timestamp": "2026-08-03T07:30:52.595916+07:00",
+      "overall_score": 66.6,
+      "cf_score": 74.9,
+      "category_scores": {
+        "Navigator": 74.5,
+        "WebGL": 62.5,
+        "Canvas": 50.0,
+        "Audio": 100.0,
+        "Chrome": 100.0,
+        "Plugins": 100.0,
+        "Fonts": 100.0,
+        "Window": 100.0,
+        "Screen": 100.0,
+        "Permissions": 100.0,
+        "Speech": 0.0,
+        "Performance": 10.0,
+        "Storage": 0.0,
+        "Battery": 0.0,
+        "RTC": 100.0,
+        "Features": 83.3,
+        "Other": 52.5
+      },
+      "total_diff": null,
+      "improved": [],
+      "regressed": [],
+      "fingerprint_hash": null,
+      "environment_hash": null,
+      "profile_hash": null,
+      "module_hashes": {},
+      "result": "UNKNOWN",
+      "missing_artifacts": [
+        "statistics"
+      ],
+      "source_artifacts": {
+        "summary": "exp_010\\fonts\\summary.json",
+        "score": "exp_010\\fonts\\navigator_window_screen_chrome_permissions_fonts\\score.json",
+        "compare": "exp_010\\fonts\\navigator_window_screen_chrome_permissions_fonts\\compare.json",
+        "fingerprint": "exp_010\\fonts\\fingerprint.json",
+        "statistics": null
+      }
+    },
+    {
+      "experiment_id": "exp_011",
+      "experiment_name": "Experiment 011 - Speech Evaluation",
+      "timestamp": "2026-08-03T07:57:04.044468+07:00",
+      "overall_score": 72.3,
+      "cf_score": 78.7,
+      "category_scores": {
+        "Navigator": 70.9,
+        "WebGL": 62.5,
+        "Canvas": 50.0,
+        "Audio": 100.0,
+        "Chrome": 100.0,
+        "Plugins": 100.0,
+        "Fonts": 100.0,
+        "Window": 100.0,
+        "Screen": 100.0,
+        "Permissions": 100.0,
+        "Speech": 100.0,
+        "Performance": 10.0,
+        "Storage": 0.0,
+        "Battery": 0.0,
+        "RTC": 100.0,
+        "Features": 83.3,
+        "Other": 52.5
+      },
+      "total_diff": null,
+      "improved": [],
+      "regressed": [],
+      "fingerprint_hash": null,
+      "environment_hash": null,
+      "profile_hash": null,
+      "module_hashes": {},
+      "result": "UNKNOWN",
+      "missing_artifacts": [
+        "statistics"
+      ],
+      "source_artifacts": {
+        "summary": "exp_011\\speech\\summary.json",
+        "score": "exp_011\\speech\\fonts_speech\\score.json",
+        "compare": "exp_011\\speech\\fonts_speech\\compare.json",
+        "fingerprint": "exp_011\\speech\\fingerprint.json",
+        "statistics": null
+      }
+    },
+    {
+      "experiment_id": "exp_012",
+      "experiment_name": "Experiment 012 - Performance Evaluation",
+      "timestamp": "2026-08-03T08:13:24.456849+07:00",
+      "overall_score": 77.0,
+      "cf_score": 81.6,
+      "category_scores": {
+        "Navigator": 70.9,
+        "WebGL": 62.5,
+        "Canvas": 50.0,
+        "Audio": 100.0,
+        "Chrome": 100.0,
+        "Plugins": 100.0,
+        "Fonts": 100.0,
+        "Window": 100.0,
+        "Screen": 100.0,
+        "Permissions": 100.0,
+        "Speech": 100.0,
+        "Performance": 90.0,
+        "Storage": 0.0,
+        "Battery": 0.0,
+        "RTC": 100.0,
+        "Features": 83.3,
+        "Other": 52.5
+      },
+      "total_diff": null,
+      "improved": [],
+      "regressed": [],
+      "fingerprint_hash": null,
+      "environment_hash": null,
+      "profile_hash": null,
+      "module_hashes": {},
+      "result": "UNKNOWN",
+      "missing_artifacts": [
+        "statistics"
+      ],
+      "source_artifacts": {
+        "summary": "exp_012\\performance\\summary.json",
+        "score": "exp_012\\performance\\performance\\score.json",
+        "compare": "exp_012\\performance\\performance\\compare.json",
+        "fingerprint": "exp_012\\performance\\fingerprint.json",
+        "statistics": null
+      }
+    },
+    {
+      "experiment_id": "exp_013",
+      "experiment_name": "exp_013",
+      "timestamp": "2026-08-03T01:21:18.321109+00:00",
+      "overall_score": null,
+      "cf_score": null,
+      "category_scores": {
+        "Navigator": null,
+        "Window": null,
+        "Screen": null,
+        "Chrome": null,
+        "Permissions": null,
+        "Fonts": null,
+        "Speech": null,
+        "Performance": null,
+        "WebGL": null
+      },
+      "total_diff": null,
+      "improved": [],
+      "regressed": [],
+      "fingerprint_hash": null,
+      "environment_hash": null,
+      "profile_hash": null,
+      "module_hashes": {},
+      "result": "UNKNOWN",
+      "missing_artifacts": [
+        "summary",
+        "score",
+        "compare",
+        "fingerprint",
+        "statistics"
+      ],
+      "source_artifacts": {
+        "summary": null,
+        "score": null,
+        "compare": null,
+        "fingerprint": null,
+        "statistics": null
+      }
+    },
+    {
+      "experiment_id": "exp_014",
+      "experiment_name": "Experiment 014 - WebGL Evaluation",
+      "timestamp": "2026-08-03T08:33:18.664842+07:00",
+      "overall_score": 78.9,
+      "cf_score": 84.8,
+      "category_scores": {
+        "Navigator": 70.9,
+        "WebGL": 93.8,
+        "Canvas": 50.0,
+        "Audio": 100.0,
+        "Chrome": 100.0,
+        "Plugins": 100.0,
+        "Fonts": 100.0,
+        "Window": 100.0,
+        "Screen": 100.0,
+        "Permissions": 100.0,
+        "Speech": 100.0,
+        "Performance": 90.0,
+        "Storage": 0.0,
+        "Battery": 0.0,
+        "RTC": 100.0,
+        "Features": 83.3,
+        "Other": 52.5
+      },
+      "total_diff": null,
+      "improved": [],
+      "regressed": [],
+      "fingerprint_hash": null,
+      "environment_hash": null,
+      "profile_hash": null,
+      "module_hashes": {},
+      "result": "UNKNOWN",
+      "missing_artifacts": [
+        "statistics"
+      ],
+      "source_artifacts": {
+        "summary": "exp_014\\webgl\\summary.json",
+        "score": "exp_014\\webgl\\previous_stack_webgl\\score.json",
+        "compare": "exp_014\\webgl\\previous_stack_webgl\\compare.json",
+        "fingerprint": "exp_014\\webgl\\fingerprint.json",
+        "statistics": null
+      }
+    },
+    {
+      "experiment_id": "exp_015",
+      "experiment_name": "Experiment 015 - Cloudflare Evaluation",
+      "timestamp": "2026-08-03T01:41:49.898605+00:00",
+      "overall_score": null,
+      "cf_score": null,
+      "category_scores": {
+        "Navigator": null,
+        "Window": null,
+        "Screen": null,
+        "Chrome": null,
+        "Permissions": null,
+        "Fonts": null,
+        "Speech": null,
+        "Performance": null,
+        "WebGL": null
+      },
+      "total_diff": null,
+      "improved": [],
+      "regressed": [],
+      "fingerprint_hash": null,
+      "environment_hash": null,
+      "profile_hash": null,
+      "module_hashes": {},
+      "result": "UNKNOWN",
+      "missing_artifacts": [
+        "score",
+        "compare",
+        "fingerprint",
+        "statistics"
+      ],
+      "source_artifacts": {
+        "summary": "exp_015\\cloudflare\\summary.json",
+        "score": null,
+        "compare": null,
+        "fingerprint": null,
+        "statistics": null
+      }
+    },
+    {
+      "experiment_id": "exp_016",
+      "experiment_name": "Experiment 015 - Cloudflare Evaluation",
+      "timestamp": "2026-08-03T01:42:49.716008+00:00",
+      "overall_score": null,
+      "cf_score": null,
+      "category_scores": {
+        "Navigator": null,
+        "Window": null,
+        "Screen": null,
+        "Chrome": null,
+        "Permissions": null,
+        "Fonts": null,
+        "Speech": null,
+        "Performance": null,
+        "WebGL": null
+      },
+      "total_diff": null,
+      "improved": [],
+      "regressed": [],
+      "fingerprint_hash": null,
+      "environment_hash": null,
+      "profile_hash": null,
+      "module_hashes": {},
+      "result": "UNKNOWN",
+      "missing_artifacts": [
+        "score",
+        "compare",
+        "fingerprint",
+        "statistics"
+      ],
+      "source_artifacts": {
+        "summary": "exp_016\\cloudflare\\summary.json",
+        "score": null,
+        "compare": null,
+        "fingerprint": null,
+        "statistics": null
+      }
+    },
+    {
+      "experiment_id": "exp_017",
+      "experiment_name": "Experiment 015 - Cloudflare Evaluation",
+      "timestamp": "2026-08-03T01:43:36.738567+00:00",
+      "overall_score": null,
+      "cf_score": null,
+      "category_scores": {
+        "Navigator": null,
+        "Window": null,
+        "Screen": null,
+        "Chrome": null,
+        "Permissions": null,
+        "Fonts": null,
+        "Speech": null,
+        "Performance": null,
+        "WebGL": null
+      },
+      "total_diff": null,
+      "improved": [],
+      "regressed": [],
+      "fingerprint_hash": null,
+      "environment_hash": null,
+      "profile_hash": null,
+      "module_hashes": {},
+      "result": "UNKNOWN",
+      "missing_artifacts": [
+        "score",
+        "compare",
+        "fingerprint",
+        "statistics"
+      ],
+      "source_artifacts": {
+        "summary": "exp_017\\cloudflare\\summary.json",
+        "score": null,
+        "compare": null,
+        "fingerprint": null,
+        "statistics": null
+      }
+    },
+    {
+      "experiment_id": "exp_018",
+      "experiment_name": "Experiment 015 - Cloudflare Evaluation",
+      "timestamp": "2026-08-03T01:44:22.333182+00:00",
+      "overall_score": null,
+      "cf_score": null,
+      "category_scores": {
+        "Navigator": null,
+        "Window": null,
+        "Screen": null,
+        "Chrome": null,
+        "Permissions": null,
+        "Fonts": null,
+        "Speech": null,
+        "Performance": null,
+        "WebGL": null
+      },
+      "total_diff": null,
+      "improved": [],
+      "regressed": [],
+      "fingerprint_hash": null,
+      "environment_hash": null,
+      "profile_hash": null,
+      "module_hashes": {},
+      "result": "UNKNOWN",
+      "missing_artifacts": [
+        "score",
+        "compare",
+        "fingerprint",
+        "statistics"
+      ],
+      "source_artifacts": {
+        "summary": "exp_018\\cloudflare\\summary.json",
+        "score": null,
+        "compare": null,
+        "fingerprint": null,
+        "statistics": null
+      }
+    },
+    {
+      "experiment_id": "exp_019",
+      "experiment_name": "Experiment 016 - Environment Validation",
+      "timestamp": "2026-08-03T08:52:46.847793+07:00",
+      "overall_score": null,
+      "cf_score": null,
+      "category_scores": {
+        "Navigator": null,
+        "Window": null,
+        "Screen": null,
+        "Chrome": null,
+        "Permissions": null,
+        "Fonts": null,
+        "Speech": null,
+        "Performance": null,
+        "WebGL": null
+      },
+      "total_diff": null,
+      "improved": [],
+      "regressed": [],
+      "fingerprint_hash": null,
+      "environment_hash": null,
+      "profile_hash": null,
+      "module_hashes": {},
+      "result": "UNKNOWN",
+      "missing_artifacts": [
+        "score",
+        "compare",
+        "fingerprint",
+        "statistics"
+      ],
+      "source_artifacts": {
+        "summary": "exp_019\\environment\\summary.json",
+        "score": null,
+        "compare": null,
+        "fingerprint": null,
+        "statistics": null
+      }
+    },
+    {
+      "experiment_id": "exp_020",
+      "experiment_name": "Experiment 016 - Environment Validation",
+      "timestamp": "2026-08-03T08:54:04.885451+07:00",
+      "overall_score": null,
+      "cf_score": null,
+      "category_scores": {
+        "Navigator": null,
+        "Window": null,
+        "Screen": null,
+        "Chrome": null,
+        "Permissions": null,
+        "Fonts": null,
+        "Speech": null,
+        "Performance": null,
+        "WebGL": null
+      },
+      "total_diff": null,
+      "improved": [],
+      "regressed": [],
+      "fingerprint_hash": null,
+      "environment_hash": null,
+      "profile_hash": null,
+      "module_hashes": {},
+      "result": "UNKNOWN",
+      "missing_artifacts": [
+        "score",
+        "compare",
+        "fingerprint",
+        "statistics"
+      ],
+      "source_artifacts": {
+        "summary": "exp_020\\environment\\summary.json",
+        "score": null,
+        "compare": null,
+        "fingerprint": null,
+        "statistics": null
+      }
+    },
+    {
+      "experiment_id": "exp_021",
+      "experiment_name": "Experiment 017 - Real Cloudflare A/B Benchmark",
+      "timestamp": "2026-08-03T08:59:12.461519+07:00",
+      "overall_score": null,
+      "cf_score": null,
+      "category_scores": {
+        "Navigator": null,
+        "Window": null,
+        "Screen": null,
+        "Chrome": null,
+        "Permissions": null,
+        "Fonts": null,
+        "Speech": null,
+        "Performance": null,
+        "WebGL": null
+      },
+      "total_diff": null,
+      "improved": [],
+      "regressed": [],
+      "fingerprint_hash": null,
+      "environment_hash": null,
+      "profile_hash": null,
+      "module_hashes": {},
+      "result": "UNKNOWN",
+      "missing_artifacts": [
+        "score",
+        "compare",
+        "fingerprint"
+      ],
+      "source_artifacts": {
+        "summary": "exp_021\\ab_benchmark\\summary.json",
+        "score": null,
+        "compare": null,
+        "fingerprint": null,
+        "statistics": "exp_021\\ab_benchmark\\statistics.json"
+      }
+    },
+    {
+      "experiment_id": "exp_022",
+      "experiment_name": "Phase 4 - Network & Environment Diagnostic Suite",
+      "timestamp": "2026-08-03T09:04:34.568026+07:00",
+      "overall_score": null,
+      "cf_score": null,
+      "category_scores": {
+        "Navigator": null,
+        "Window": null,
+        "Screen": null,
+        "Chrome": null,
+        "Permissions": null,
+        "Fonts": null,
+        "Speech": null,
+        "Performance": null,
+        "WebGL": null
+      },
+      "total_diff": null,
+      "improved": [],
+      "regressed": [],
+      "fingerprint_hash": null,
+      "environment_hash": null,
+      "profile_hash": null,
+      "module_hashes": {},
+      "result": "UNKNOWN",
+      "missing_artifacts": [
+        "score",
+        "compare",
+        "fingerprint",
+        "statistics"
+      ],
+      "source_artifacts": {
+        "summary": "exp_022\\network\\summary.json",
+        "score": null,
+        "compare": null,
+        "fingerprint": null,
+        "statistics": null
+      }
+    },
+    {
+      "experiment_id": "exp_023",
+      "experiment_name": "Experiment 018 — Real Browser Validation",
+      "timestamp": "2026-08-03T02:31:53.507408+00:00",
+      "overall_score": null,
+      "cf_score": null,
+      "category_scores": {
+        "Navigator": null,
+        "Window": null,
+        "Screen": null,
+        "Chrome": null,
+        "Permissions": null,
+        "Fonts": null,
+        "Speech": null,
+        "Performance": null,
+        "WebGL": null
+      },
+      "total_diff": null,
+      "improved": [],
+      "regressed": [],
+      "fingerprint_hash": null,
+      "environment_hash": null,
+      "profile_hash": null,
+      "module_hashes": {},
+      "result": "UNKNOWN",
+      "missing_artifacts": [
+        "score",
+        "compare",
+        "fingerprint"
+      ],
+      "source_artifacts": {
+        "summary": "exp_023\\real_validation\\summary.json",
+        "score": null,
+        "compare": null,
+        "fingerprint": null,
+        "statistics": "exp_023\\real_validation\\statistics.json"
+      }
+    },
+    {
+      "experiment_id": "exp_024",
+      "experiment_name": "Experiment 018 — Real Browser Validation",
+      "timestamp": "2026-08-03T02:33:02.935769+00:00",
+      "overall_score": null,
+      "cf_score": null,
+      "category_scores": {
+        "Navigator": null,
+        "Window": null,
+        "Screen": null,
+        "Chrome": null,
+        "Permissions": null,
+        "Fonts": null,
+        "Speech": null,
+        "Performance": null,
+        "WebGL": null
+      },
+      "total_diff": null,
+      "improved": [],
+      "regressed": [],
+      "fingerprint_hash": null,
+      "environment_hash": null,
+      "profile_hash": null,
+      "module_hashes": {},
+      "result": "UNKNOWN",
+      "missing_artifacts": [
+        "score",
+        "compare",
+        "fingerprint"
+      ],
+      "source_artifacts": {
+        "summary": "exp_024\\real_validation\\summary.json",
+        "score": null,
+        "compare": null,
+        "fingerprint": null,
+        "statistics": "exp_024\\real_validation\\statistics.json"
+      }
+    },
+    {
+      "experiment_id": "exp_025",
+      "experiment_name": "Experiment 019 — Challenge Timeline Analyzer",
+      "timestamp": "2026-08-03T10:38:27.003280+07:00",
+      "overall_score": null,
+      "cf_score": null,
+      "category_scores": {
+        "Navigator": null,
+        "Window": null,
+        "Screen": null,
+        "Chrome": null,
+        "Permissions": null,
+        "Fonts": null,
+        "Speech": null,
+        "Performance": null,
+        "WebGL": null
+      },
+      "total_diff": null,
+      "improved": [],
+      "regressed": [],
+      "fingerprint_hash": null,
+      "environment_hash": null,
+      "profile_hash": null,
+      "module_hashes": {},
+      "result": "FAILED",
+      "missing_artifacts": [
+        "score",
+        "compare",
+        "fingerprint"
+      ],
+      "source_artifacts": {
+        "summary": "exp_025\\challenge_timeline\\summary.json",
+        "score": null,
+        "compare": null,
+        "fingerprint": null,
+        "statistics": "exp_025\\challenge_timeline\\statistics.json"
+      }
+    },
+    {
+      "experiment_id": "exp_026",
+      "experiment_name": "Experiment 019 — Challenge Timeline Analyzer",
+      "timestamp": "2026-08-03T10:38:41.848750+07:00",
+      "overall_score": null,
+      "cf_score": null,
+      "category_scores": {
+        "Navigator": null,
+        "Window": null,
+        "Screen": null,
+        "Chrome": null,
+        "Permissions": null,
+        "Fonts": null,
+        "Speech": null,
+        "Performance": null,
+        "WebGL": null
+      },
+      "total_diff": null,
+      "improved": [],
+      "regressed": [],
+      "fingerprint_hash": null,
+      "environment_hash": null,
+      "profile_hash": null,
+      "module_hashes": {},
+      "result": "UNKNOWN",
+      "missing_artifacts": [
+        "score",
+        "compare",
+        "fingerprint"
+      ],
+      "source_artifacts": {
+        "summary": "exp_026\\challenge_timeline\\summary.json",
+        "score": null,
+        "compare": null,
+        "fingerprint": null,
+        "statistics": "exp_026\\challenge_timeline\\statistics.json"
+      }
+    },
+    {
+      "experiment_id": "exp_027",
+      "experiment_name": "Experiment 019 — Challenge Timeline Analyzer",
+      "timestamp": "2026-08-03T10:41:05.561587+07:00",
+      "overall_score": null,
+      "cf_score": null,
+      "category_scores": {
+        "Navigator": null,
+        "Window": null,
+        "Screen": null,
+        "Chrome": null,
+        "Permissions": null,
+        "Fonts": null,
+        "Speech": null,
+        "Performance": null,
+        "WebGL": null
+      },
+      "total_diff": null,
+      "improved": [],
+      "regressed": [],
+      "fingerprint_hash": null,
+      "environment_hash": null,
+      "profile_hash": null,
+      "module_hashes": {},
+      "result": "UNKNOWN",
+      "missing_artifacts": [
+        "score",
+        "compare",
+        "fingerprint"
+      ],
+      "source_artifacts": {
+        "summary": "exp_027\\challenge_timeline\\summary.json",
+        "score": null,
+        "compare": null,
+        "fingerprint": null,
+        "statistics": "exp_027\\challenge_timeline\\statistics.json"
+      }
+    },
+    {
+      "experiment_id": "exp_028",
+      "experiment_name": "Experiment 020 — Browser Session Profiler",
+      "timestamp": "2026-08-03T03:59:23.086114+00:00",
+      "overall_score": null,
+      "cf_score": null,
+      "category_scores": {
+        "Navigator": null,
+        "Window": null,
+        "Screen": null,
+        "Chrome": null,
+        "Permissions": null,
+        "Fonts": null,
+        "Speech": null,
+        "Performance": null,
+        "WebGL": null
+      },
+      "total_diff": null,
+      "improved": [],
+      "regressed": [],
+      "fingerprint_hash": "cbcd59f195cfcc493f53db05bcd903d47cb5b8f32dc34ab8857e4dad16e4589a",
+      "environment_hash": "28f1780e7e510bbe48cd06718036b632b59022613e87a7f562d016ac0293c560",
+      "profile_hash": "8900f47ecdd859e9cadd7308682af4500c64031636602a20ef6834163fd121bc",
+      "module_hashes": {
+        "navigator": "901e49d5582b39b286e56f4ad7187dacb5772e6feaddf1ddabc7899962f05db7",
+        "window": "901e49d5582b39b286e56f4ad7187dacb5772e6feaddf1ddabc7899962f05db7",
+        "screen": "901e49d5582b39b286e56f4ad7187dacb5772e6feaddf1ddabc7899962f05db7",
+        "permissions": "382168cd576cbe447781f0833d1a7dbc32384e0914a481777f52c5d4f6b7aa6e",
+        "fonts": "8900f47ecdd859e9cadd7308682af4500c64031636602a20ef6834163fd121bc",
+        "speech": "8900f47ecdd859e9cadd7308682af4500c64031636602a20ef6834163fd121bc",
+        "webgl": "596b356f26991d2b2746c6a97417afba07cedfbbf27a0e48e29327747d2e5690",
+        "performance": "901e49d5582b39b286e56f4ad7187dacb5772e6feaddf1ddabc7899962f05db7",
+        "storage": "a622d0760b18153ecd24075c20690f02a23486bd8c509043b0f764cae7d898c7",
+        "environment": "28f1780e7e510bbe48cd06718036b632b59022613e87a7f562d016ac0293c560"
+      },
+      "result": "UNKNOWN",
+      "missing_artifacts": [
+        "score",
+        "compare"
+      ],
+      "source_artifacts": {
+        "summary": "exp_028\\session_profile\\summary.json",
+        "score": null,
+        "compare": null,
+        "fingerprint": "exp_028\\session_profile\\fingerprint.json",
+        "statistics": "exp_028\\session_profile\\statistics.json"
+      }
+    },
+    {
+      "experiment_id": "exp_029",
+      "experiment_name": "Experiment 020 — Browser Session Profiler",
+      "timestamp": "2026-08-03T03:59:26.684999+00:00",
+      "overall_score": null,
+      "cf_score": null,
+      "category_scores": {
+        "Navigator": null,
+        "Window": null,
+        "Screen": null,
+        "Chrome": null,
+        "Permissions": null,
+        "Fonts": null,
+        "Speech": null,
+        "Performance": null,
+        "WebGL": null
+      },
+      "total_diff": null,
+      "improved": [],
+      "regressed": [],
+      "fingerprint_hash": "2a3a04e0a034763e54b3385511ef71bb558df8baf41ccc1ab22407ed4e579f52",
+      "environment_hash": "2cf05af5eb73df4c75cfc853305de48749ce8059fd6a62d5a7e7123a57f9bb15",
+      "profile_hash": "64fe89cc748bacdf7fd36fa7e2143079bde00d3e509d3eb48811083f8f3fdbfb",
+      "module_hashes": {
+        "navigator": "e814bc8c0db5ea8f876fe01010f922bc6e496a2c37a488cd5174179de7b70543",
+        "window": "e814bc8c0db5ea8f876fe01010f922bc6e496a2c37a488cd5174179de7b70543",
+        "screen": "e814bc8c0db5ea8f876fe01010f922bc6e496a2c37a488cd5174179de7b70543",
+        "permissions": "422d09248cfbe058553b814fdad7fe281e56b5702a1ebdee6dcff4f56cda3506",
+        "fonts": "64fe89cc748bacdf7fd36fa7e2143079bde00d3e509d3eb48811083f8f3fdbfb",
+        "speech": "64fe89cc748bacdf7fd36fa7e2143079bde00d3e509d3eb48811083f8f3fdbfb",
+        "webgl": "5e101b744fea5496236b594eaec60d87eaf6b6fbb5126a952ab2b2ed940bf1eb",
+        "performance": "e814bc8c0db5ea8f876fe01010f922bc6e496a2c37a488cd5174179de7b70543",
+        "storage": "2903164f45e5e9f990d49c70414002918c7df97cbbf38cda739a91ff7bb72941",
+        "environment": "2cf05af5eb73df4c75cfc853305de48749ce8059fd6a62d5a7e7123a57f9bb15"
+      },
+      "result": "UNKNOWN",
+      "missing_artifacts": [
+        "score",
+        "compare"
+      ],
+      "source_artifacts": {
+        "summary": "exp_029\\session_profile\\summary.json",
+        "score": null,
+        "compare": null,
+        "fingerprint": "exp_029\\session_profile\\fingerprint.json",
+        "statistics": "exp_029\\session_profile\\statistics.json"
+      }
+    },
+    {
+      "experiment_id": "exp_030",
+      "experiment_name": "Experiment 020 — Browser Session Profiler",
+      "timestamp": "2026-08-03T04:00:58.802854+00:00",
+      "overall_score": null,
+      "cf_score": null,
+      "category_scores": {
+        "Navigator": null,
+        "Window": null,
+        "Screen": null,
+        "Chrome": null,
+        "Permissions": null,
+        "Fonts": null,
+        "Speech": null,
+        "Performance": null,
+        "WebGL": null
+      },
+      "total_diff": null,
+      "improved": [],
+      "regressed": [],
+      "fingerprint_hash": "f15675a56da41c2504f0f47dcefa7b1e4b0817c8fbea3557c5ba4c3a14646ae0",
+      "environment_hash": "b735553cb89670162b4a6bf24ff001f5f88da5490d0176db1cbca710b406d507",
+      "profile_hash": "ceb80979c6f327624705053567c4d8e4441aee42ae1e0b1789767760f88eef98",
+      "module_hashes": {
+        "navigator": "f4cee22c3e20da28d927c30b8b11376944c056543c01726cb7f2738657d6e27b",
+        "window": "f4cee22c3e20da28d927c30b8b11376944c056543c01726cb7f2738657d6e27b",
+        "screen": "f4cee22c3e20da28d927c30b8b11376944c056543c01726cb7f2738657d6e27b",
+        "permissions": "800d91f32b253e49381eeef881e13ddee473afe6e759ed9cf7500f84f20f4acc",
+        "fonts": "ceb80979c6f327624705053567c4d8e4441aee42ae1e0b1789767760f88eef98",
+        "speech": "ceb80979c6f327624705053567c4d8e4441aee42ae1e0b1789767760f88eef98",
+        "webgl": "b5406cab33ab1b4547b5373ecae19b76845e1f8282900f1d89b3f0f8ef88d251",
+        "performance": "f4cee22c3e20da28d927c30b8b11376944c056543c01726cb7f2738657d6e27b",
+        "storage": "07283e582ab589f84bdb70712798d60cfd2a6aec7ea51506b309408f8f3814a1",
+        "environment": "b735553cb89670162b4a6bf24ff001f5f88da5490d0176db1cbca710b406d507"
+      },
+      "result": "UNKNOWN",
+      "missing_artifacts": [
+        "score",
+        "compare"
+      ],
+      "source_artifacts": {
+        "summary": "exp_030\\session_profile\\summary.json",
+        "score": null,
+        "compare": null,
+        "fingerprint": "exp_030\\session_profile\\fingerprint.json",
+        "statistics": "exp_030\\session_profile\\statistics.json"
+      }
+    },
+    {
+      "experiment_id": "exp_031",
+      "experiment_name": "Experiment 020 — Browser Session Profiler",
+      "timestamp": "2026-08-03T04:00:59.324299+00:00",
+      "overall_score": null,
+      "cf_score": null,
+      "category_scores": {
+        "Navigator": null,
+        "Window": null,
+        "Screen": null,
+        "Chrome": null,
+        "Permissions": null,
+        "Fonts": null,
+        "Speech": null,
+        "Performance": null,
+        "WebGL": null
+      },
+      "total_diff": null,
+      "improved": [],
+      "regressed": [],
+      "fingerprint_hash": "4aa3124370c5c6f1e0c4c2d8b3cd95c71559ea05da848c636dd446611fdbbead",
+      "environment_hash": "b77f2471394bfad95e320ef97cab0f96b95106297764d7d2053f73c3dd8f32df",
+      "profile_hash": "fe8e33de0b19e4db9815af301cfc9a4181d5124f7fb121d1e73850e7f6c5628f",
+      "module_hashes": {
+        "navigator": "10ced5ba68854ad18f3a26d2ab37b767e20e1f93730f8d91c8c996ba215579e3",
+        "window": "10ced5ba68854ad18f3a26d2ab37b767e20e1f93730f8d91c8c996ba215579e3",
+        "screen": "10ced5ba68854ad18f3a26d2ab37b767e20e1f93730f8d91c8c996ba215579e3",
+        "permissions": "8059f1466a266844ae2985534f8496498964bbb6bebf62e08f419546a9d024f1",
+        "fonts": "fe8e33de0b19e4db9815af301cfc9a4181d5124f7fb121d1e73850e7f6c5628f",
+        "speech": "fe8e33de0b19e4db9815af301cfc9a4181d5124f7fb121d1e73850e7f6c5628f",
+        "webgl": "948aa76c9440fd9bc724d1fb9f103f9f2c0f81bdb0478670d8aad4fec6cfa5ac",
+        "performance": "10ced5ba68854ad18f3a26d2ab37b767e20e1f93730f8d91c8c996ba215579e3",
+        "storage": "8d107affb2aa9eb5658009eca03a76cecea45265c9a5960fe6d9c2c3ff1e5180",
+        "environment": "b77f2471394bfad95e320ef97cab0f96b95106297764d7d2053f73c3dd8f32df"
+      },
+      "result": "UNKNOWN",
+      "missing_artifacts": [
+        "score",
+        "compare"
+      ],
+      "source_artifacts": {
+        "summary": "exp_031\\session_profile\\summary.json",
+        "score": null,
+        "compare": null,
+        "fingerprint": "exp_031\\session_profile\\fingerprint.json",
+        "statistics": "exp_031\\session_profile\\statistics.json"
+      }
+    },
+    {
+      "experiment_id": "exp_032",
+      "experiment_name": "Experiment 020 — Browser Session Profiler",
+      "timestamp": "2026-08-03T04:01:34.978518+00:00",
+      "overall_score": null,
+      "cf_score": null,
+      "category_scores": {
+        "Navigator": null,
+        "Window": null,
+        "Screen": null,
+        "Chrome": null,
+        "Permissions": null,
+        "Fonts": null,
+        "Speech": null,
+        "Performance": null,
+        "WebGL": null
+      },
+      "total_diff": null,
+      "improved": [],
+      "regressed": [],
+      "fingerprint_hash": "7ef46eb1f8e32eb46c0e275a44c193d1ac963c72c321e46b244012e585544b6f",
+      "environment_hash": "bc822f649121a4f395db6d8e4fc3a33de3f31af072ce75b7c08139448f9bf015",
+      "profile_hash": "f07d74c60e8c37d758b859b34472d87a52da285fee6e0716f81ee61079b32e4a",
+      "module_hashes": {
+        "navigator": "48633bd52d75bbdd7ef999cd7247c4c9c98b6ff18cad466086f3c98f15c47cdb",
+        "window": "48633bd52d75bbdd7ef999cd7247c4c9c98b6ff18cad466086f3c98f15c47cdb",
+        "screen": "48633bd52d75bbdd7ef999cd7247c4c9c98b6ff18cad466086f3c98f15c47cdb",
+        "permissions": "36529439e5df975bb66e40e97e3e1f9d9d915de90afedf51abdcba5fd3a5801b",
+        "fonts": "f07d74c60e8c37d758b859b34472d87a52da285fee6e0716f81ee61079b32e4a",
+        "speech": "f07d74c60e8c37d758b859b34472d87a52da285fee6e0716f81ee61079b32e4a",
+        "webgl": "905e79e09c078f794a7979fbef34c5731d5d8b3088bea95a21098748a1307a2d",
+        "performance": "48633bd52d75bbdd7ef999cd7247c4c9c98b6ff18cad466086f3c98f15c47cdb",
+        "storage": "48b5c98bf91c14c9c6c5c0014574cf1355d88c397665dc640cf19d54283596d9",
+        "environment": "bc822f649121a4f395db6d8e4fc3a33de3f31af072ce75b7c08139448f9bf015"
+      },
+      "result": "UNKNOWN",
+      "missing_artifacts": [
+        "score",
+        "compare"
+      ],
+      "source_artifacts": {
+        "summary": "exp_032\\session_profile\\summary.json",
+        "score": null,
+        "compare": null,
+        "fingerprint": "exp_032\\session_profile\\fingerprint.json",
+        "statistics": "exp_032\\session_profile\\statistics.json"
+      }
+    },
+    {
+      "experiment_id": "exp_033",
+      "experiment_name": "Experiment 021 — Session Diff Analyzer",
+      "timestamp": "2026-08-03T11:10:50.031593+07:00",
+      "overall_score": null,
+      "cf_score": null,
+      "category_scores": {
+        "Navigator": null,
+        "Window": null,
+        "Screen": null,
+        "Chrome": null,
+        "Permissions": null,
+        "Fonts": null,
+        "Speech": null,
+        "Performance": null,
+        "WebGL": null
+      },
+      "total_diff": null,
+      "improved": [],
+      "regressed": [],
+      "fingerprint_hash": null,
+      "environment_hash": null,
+      "profile_hash": null,
+      "module_hashes": {},
+      "result": "DIFFERENT",
+      "missing_artifacts": [
+        "score",
+        "compare",
+        "fingerprint"
+      ],
+      "source_artifacts": {
+        "summary": "exp_033\\session_diff\\summary.json",
+        "score": null,
+        "compare": null,
+        "fingerprint": null,
+        "statistics": "exp_033\\session_diff\\statistics.json"
+      }
+    },
+    {
+      "experiment_id": "exp_034",
+      "experiment_name": "Experiment 021 — Session Diff Analyzer",
+      "timestamp": "2026-08-03T11:11:06.560838+07:00",
+      "overall_score": null,
+      "cf_score": null,
+      "category_scores": {
+        "Navigator": null,
+        "Window": null,
+        "Screen": null,
+        "Chrome": null,
+        "Permissions": null,
+        "Fonts": null,
+        "Speech": null,
+        "Performance": null,
+        "WebGL": null
+      },
+      "total_diff": null,
+      "improved": [],
+      "regressed": [],
+      "fingerprint_hash": null,
+      "environment_hash": null,
+      "profile_hash": null,
+      "module_hashes": {},
+      "result": "UNKNOWN",
+      "missing_artifacts": [
+        "score",
+        "compare",
+        "fingerprint"
+      ],
+      "source_artifacts": {
+        "summary": "exp_034\\session_diff\\summary.json",
+        "score": null,
+        "compare": null,
+        "fingerprint": null,
+        "statistics": "exp_034\\session_diff\\statistics.json"
+      }
+    },
+    {
+      "experiment_id": "exp_035",
+      "experiment_name": "Experiment 021 — Session Diff Analyzer",
+      "timestamp": "2026-08-03T11:11:31.193032+07:00",
+      "overall_score": null,
+      "cf_score": null,
+      "category_scores": {
+        "Navigator": null,
+        "Window": null,
+        "Screen": null,
+        "Chrome": null,
+        "Permissions": null,
+        "Fonts": null,
+        "Speech": null,
+        "Performance": null,
+        "WebGL": null
+      },
+      "total_diff": null,
+      "improved": [],
+      "regressed": [],
+      "fingerprint_hash": null,
+      "environment_hash": null,
+      "profile_hash": null,
+      "module_hashes": {},
+      "result": "UNKNOWN",
+      "missing_artifacts": [
+        "score",
+        "compare",
+        "fingerprint"
+      ],
+      "source_artifacts": {
+        "summary": "exp_035\\session_diff\\summary.json",
+        "score": null,
+        "compare": null,
+        "fingerprint": null,
+        "statistics": "exp_035\\session_diff\\statistics.json"
+      }
+    },
+    {
+      "experiment_id": "exp_036",
+      "experiment_name": "Experiment 021 — Session Diff Analyzer",
+      "timestamp": "2026-08-03T11:11:50.484132+07:00",
+      "overall_score": null,
+      "cf_score": null,
+      "category_scores": {
+        "Navigator": null,
+        "Window": null,
+        "Screen": null,
+        "Chrome": null,
+        "Permissions": null,
+        "Fonts": null,
+        "Speech": null,
+        "Performance": null,
+        "WebGL": null
+      },
+      "total_diff": null,
+      "improved": [],
+      "regressed": [],
+      "fingerprint_hash": null,
+      "environment_hash": null,
+      "profile_hash": null,
+      "module_hashes": {},
+      "result": "UNKNOWN",
+      "missing_artifacts": [
+        "score",
+        "compare",
+        "fingerprint"
+      ],
+      "source_artifacts": {
+        "summary": "exp_036\\session_diff\\summary.json",
+        "score": null,
+        "compare": null,
+        "fingerprint": null,
+        "statistics": "exp_036\\session_diff\\statistics.json"
+      }
+    }
+  ]
+}

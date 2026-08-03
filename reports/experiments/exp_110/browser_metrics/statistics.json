@@ -1,0 +1,13 @@
+{
+  "browser_launches": 0,
+  "network_requests": 0,
+  "events_received": 22,
+  "events_processed": 22,
+  "navigation_success_rate": 0.6666666666666666,
+  "navigation_failure_rate": 0.3333333333333333,
+  "pool_reuse_rate": 0.5,
+  "average_navigation_time": 133.33333333333334,
+  "volume_events": 800,
+  "volume_dispatches": 800,
+  "volume_sequence_count": 800
+}

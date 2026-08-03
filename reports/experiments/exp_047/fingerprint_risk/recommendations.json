@@ -1,0 +1,130 @@
+{
+  "recommendations": [
+    {
+      "priority": "Critical",
+      "property": "navigator.userAgent",
+      "recommendation": "Align UA, UA-CH brands, platform, vendor, and version fields as one coherent browser profile.",
+      "basis": "Risk 81.6; estimated gain 0.3965."
+    },
+    {
+      "priority": "Critical",
+      "property": "navigator.userAgentData.brands[1].version",
+      "recommendation": "Align UA, UA-CH brands, platform, vendor, and version fields as one coherent browser profile.",
+      "basis": "Risk 81.6; estimated gain 0.3965."
+    },
+    {
+      "priority": "Critical",
+      "property": "navigator.userAgentData.brands[2].version",
+      "recommendation": "Align UA, UA-CH brands, platform, vendor, and version fields as one coherent browser profile.",
+      "basis": "Risk 81.6; estimated gain 0.3965."
+    },
+    {
+      "priority": "Critical",
+      "property": "navigator.userAgentData.high_entropy.brands[1].version",
+      "recommendation": "Align UA, UA-CH brands, platform, vendor, and version fields as one coherent browser profile.",
+      "basis": "Risk 81.6; estimated gain 0.3965."
+    },
+    {
+      "priority": "Critical",
+      "property": "navigator.userAgentData.high_entropy.brands[2].version",
+      "recommendation": "Align UA, UA-CH brands, platform, vendor, and version fields as one coherent browser profile.",
+      "basis": "Risk 81.6; estimated gain 0.3965."
+    },
+    {
+      "priority": "Critical",
+      "property": "navigator.userAgentData.high_entropy.fullVersionList[1].version",
+      "recommendation": "Align UA, UA-CH brands, platform, vendor, and version fields as one coherent browser profile.",
+      "basis": "Risk 81.6; estimated gain 0.3965."
+    },
+    {
+      "priority": "Critical",
+      "property": "navigator.userAgentData.high_entropy.fullVersionList[2].version",
+      "recommendation": "Align UA, UA-CH brands, platform, vendor, and version fields as one coherent browser profile.",
+      "basis": "Risk 81.6; estimated gain 0.3965."
+    },
+    {
+      "priority": "Critical",
+      "property": "navigator.userAgentData.high_entropy.platformVersion",
+      "recommendation": "Align UA, UA-CH brands, platform, vendor, and version fields as one coherent browser profile.",
+      "basis": "Risk 81.6; estimated gain 0.3965."
+    },
+    {
+      "priority": "Critical",
+      "property": "navigator.userAgentData.high_entropy.uaFullVersion",
+      "recommendation": "Align UA, UA-CH brands, platform, vendor, and version fields as one coherent browser profile.",
+      "basis": "Risk 81.6; estimated gain 0.3965."
+    },
+    {
+      "priority": "High",
+      "property": "navigator.languages[1]",
+      "recommendation": "Restore navigator.languages[1] with the native Navigator prototype/descriptor shape before tuning values.",
+      "basis": "Risk 73.0; estimated gain 0.3547."
+    },
+    {
+      "priority": "High",
+      "property": "navigator.languages[2]",
+      "recommendation": "Restore navigator.languages[2] with the native Navigator prototype/descriptor shape before tuning values.",
+      "basis": "Risk 73.0; estimated gain 0.3547."
+    },
+    {
+      "priority": "High",
+      "property": "navigator.language",
+      "recommendation": "Review the Navigator surface for value, descriptor, prototype, and cross-property consistency.",
+      "basis": "Risk 72.0; estimated gain 0.3499."
+    },
+    {
+      "priority": "High",
+      "property": "navigator.languages[0]",
+      "recommendation": "Review the Navigator surface for value, descriptor, prototype, and cross-property consistency.",
+      "basis": "Risk 72.0; estimated gain 0.3499."
+    },
+    {
+      "priority": "High",
+      "property": "canvas.hash",
+      "recommendation": "Review the Other surface for value, descriptor, prototype, and cross-property consistency.",
+      "basis": "Risk 66.75; estimated gain 0.3243."
+    },
+    {
+      "priority": "High",
+      "property": "canvas.length",
+      "recommendation": "Review the Other surface for value, descriptor, prototype, and cross-property consistency.",
+      "basis": "Risk 66.75; estimated gain 0.3243."
+    },
+    {
+      "priority": "High",
+      "property": "intl.collator.locale",
+      "recommendation": "Review the Environment surface for value, descriptor, prototype, and cross-property consistency.",
+      "basis": "Risk 60.75; estimated gain 0.2952."
+    },
+    {
+      "priority": "High",
+      "property": "intl.listFormat.locale",
+      "recommendation": "Review the Environment surface for value, descriptor, prototype, and cross-property consistency.",
+      "basis": "Risk 60.75; estimated gain 0.2952."
+    },
+    {
+      "priority": "High",
+      "property": "intl.numberFormat.locale",
+      "recommendation": "Review the Environment surface for value, descriptor, prototype, and cross-property consistency.",
+      "basis": "Risk 60.75; estimated gain 0.2952."
+    },
+    {
+      "priority": "High",
+      "property": "timezone.locale",
+      "recommendation": "Review the Environment surface for value, descriptor, prototype, and cross-property consistency.",
+      "basis": "Risk 60.75; estimated gain 0.2952."
+    },
+    {
+      "priority": "Medium",
+      "property": "indexeddb.databases[0]",
+      "recommendation": "Restore indexeddb.databases[0] with the native Storage prototype/descriptor shape before tuning values.",
+      "basis": "Risk 57.25; estimated gain 0.2782."
+    },
+    {
+      "priority": "Quick Win",
+      "property": "canvas.hash",
+      "recommendation": "Start with the highest gain-to-effort quick win after confirming it is stable in the target environment.",
+      "basis": "Deterministic gain/effort ranking."
+    }
+  ]
+}

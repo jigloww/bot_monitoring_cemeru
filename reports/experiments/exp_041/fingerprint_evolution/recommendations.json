@@ -1,0 +1,64 @@
+{
+  "recommendations": [
+    {
+      "module": "Navigator",
+      "priority": "HIGH",
+      "recommendation": "Review Navigator because its category trend is regressing.",
+      "basis": "category trend"
+    },
+    {
+      "module": "Window",
+      "priority": "LOW",
+      "recommendation": "Window is improving across observed experiments; preserve the current configuration.",
+      "basis": "category trend"
+    },
+    {
+      "module": "Screen",
+      "priority": "LOW",
+      "recommendation": "Screen is improving across observed experiments; preserve the current configuration.",
+      "basis": "category trend"
+    },
+    {
+      "module": "Chrome",
+      "priority": "LOW",
+      "recommendation": "Chrome is improving across observed experiments; preserve the current configuration.",
+      "basis": "category trend"
+    },
+    {
+      "module": "Permissions",
+      "priority": "LOW",
+      "recommendation": "Permissions is improving across observed experiments; preserve the current configuration.",
+      "basis": "category trend"
+    },
+    {
+      "module": "Speech",
+      "priority": "LOW",
+      "recommendation": "Speech is improving across observed experiments; preserve the current configuration.",
+      "basis": "category trend"
+    },
+    {
+      "module": "Performance",
+      "priority": "LOW",
+      "recommendation": "Performance is improving across observed experiments; preserve the current configuration.",
+      "basis": "category trend"
+    },
+    {
+      "module": "WebGL",
+      "priority": "LOW",
+      "recommendation": "WebGL is improving across observed experiments; preserve the current configuration.",
+      "basis": "category trend"
+    },
+    {
+      "module": "Project",
+      "priority": "HIGH",
+      "recommendation": "Control browser, profile, and environment variables before attributing score movement to stealth changes.",
+      "basis": "overall variance"
+    },
+    {
+      "module": "Experiment artifacts",
+      "priority": "MEDIUM",
+      "recommendation": "Complete missing score and fingerprint artifacts before using the trend for release decisions.",
+      "basis": "missing artifact regressions"
+    }
+  ]
+}

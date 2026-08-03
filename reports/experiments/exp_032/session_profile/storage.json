@@ -1,0 +1,14 @@
+{
+  "experiment_id": "exp_032",
+  "runs": [
+    {
+      "cookies": {
+        "count": 0
+      },
+      "localStorageKeys": [],
+      "sessionStorageKeys": [],
+      "indexedDBNames": [],
+      "cacheNames": []
+    }
+  ]
+}

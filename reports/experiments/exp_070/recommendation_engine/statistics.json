@@ -1,0 +1,30 @@
+{
+  "recommendation_count": 471,
+  "priority_count": 50,
+  "quickwin_count": 10,
+  "avoid_count": 0,
+  "module_count": 5,
+  "goal_count": 7,
+  "type_distribution": {
+    "Dependency Unlock": 2,
+    "Experimental": 59,
+    "Long Term": 11,
+    "Quick Win": 399
+  },
+  "difficulty_distribution": {
+    "Easy": 399,
+    "Hard": 1,
+    "Medium": 60,
+    "Very Hard": 11
+  },
+  "risk_distribution": {
+    "High": 12,
+    "Low": 399,
+    "Medium": 60
+  },
+  "knowledge_graph_nodes": 2111,
+  "knowledge_graph_edges": 5721,
+  "browser_launches": 0,
+  "network_requests": 0,
+  "source_count": 26
+}

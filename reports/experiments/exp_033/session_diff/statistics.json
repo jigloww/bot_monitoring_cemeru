@@ -1,0 +1,18 @@
+{
+  "total_fields": 62,
+  "unchanged_fields": 39,
+  "changed_fields": 10,
+  "added_fields": 0,
+  "removed_fields": 0,
+  "unknown_fields": 13,
+  "comparable_fields": 49,
+  "similarity": 79.59,
+  "info_changes": 13,
+  "low_changes": 0,
+  "medium_changes": 10,
+  "high_changes": 0,
+  "critical_changes": 0,
+  "fingerprint_similarity": 0.0,
+  "environment_similarity": 100.0,
+  "profile_similarity": null
+}

@@ -1,0 +1,14 @@
+{
+  "experiment_id": "exp_030",
+  "runs": [
+    {
+      "supported": false,
+      "count": 0,
+      "ids": [],
+      "origins": [],
+      "manifest_versions": [],
+      "source": "not_exposed_to_web_context",
+      "contents_read": false
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "node_syntax": true,
+  "python_compile": true,
+  "artifact_completeness": true,
+  "descriptor_tests": false,
+  "prototype_tests": false,
+  "instanceof_tests": false,
+  "illegal_invocation": false,
+  "native_source": false,
+  "rendering_integrity": false,
+  "image_data_validation": false,
+  "canvas_hash_validation": false,
+  "offscreen_validation": true,
+  "idempotence_validation": false,
+  "playwright_smoke": false,
+  "playwright_status": "UNKNOWN",
+  "stable_regressions": 0,
+  "valid": true
+}
