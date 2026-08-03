@@ -1,0 +1,55 @@
+{
+  "experiment_id": "exp_023",
+  "runs": [
+    {
+      "run_id": "run_001_plain",
+      "mode": "plain",
+      "cookies": {
+        "count": 0,
+        "names": [],
+        "cf_clearance": false,
+        "__cf_bm": false
+      }
+    },
+    {
+      "run_id": "run_001_playwright_stealth",
+      "mode": "playwright_stealth",
+      "cookies": {
+        "count": 0,
+        "names": [],
+        "cf_clearance": false,
+        "__cf_bm": false
+      }
+    },
+    {
+      "run_id": "run_001_local_stealth",
+      "mode": "local_stealth",
+      "cookies": {
+        "count": 0,
+        "names": [],
+        "cf_clearance": false,
+        "__cf_bm": false
+      }
+    },
+    {
+      "run_id": "run_001_chrome_cdp",
+      "mode": "chrome_cdp",
+      "cookies": {
+        "count": 0,
+        "names": [],
+        "cf_clearance": false,
+        "__cf_bm": false
+      }
+    },
+    {
+      "run_id": "run_001_chrome_manual_profile",
+      "mode": "chrome_manual_profile",
+      "cookies": {
+        "count": 0,
+        "names": [],
+        "cf_clearance": false,
+        "__cf_bm": false
+      }
+    }
+  ]
+}

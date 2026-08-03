@@ -1,0 +1,35 @@
+{
+  "experiment": "Experiment 018 — Real Browser Validation",
+  "experiment_id": "exp_024",
+  "started_at": "2026-08-03T09:33:02.934766+07:00",
+  "target_url": "https://bromotenggersemeru.id/",
+  "modes": [
+    "plain",
+    "playwright_stealth",
+    "local_stealth",
+    "chrome_cdp",
+    "chrome_manual_profile"
+  ],
+  "runs": 1,
+  "timeout_ms": 10000,
+  "wait_ms": 1000,
+  "headless": true,
+  "profile_type": "ephemeral",
+  "quota_check": true,
+  "observational_only": true,
+  "challenge_interaction": false,
+  "stealth_modified": false,
+  "environment": {
+    "system": "Windows",
+    "release": "11",
+    "version": "10.0.26200",
+    "machine": "AMD64",
+    "processor": "Intel64 Family 6 Model 186 Stepping 2, GenuineIntel",
+    "python": "3.12.10"
+  },
+  "git": {
+    "commit": "2eae58c2421ac403123dbf3bc770e5ce2e189312",
+    "dirty": true
+  },
+  "playwright_version": "unknown"
+}

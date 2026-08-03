@@ -1,0 +1,493 @@
+{
+  "experiment_id": "exp_020",
+  "playwright": {
+    "status": "PASS",
+    "version": "1.61.0"
+  },
+  "browsers": {
+    "chromium": {
+      "launch": {
+        "status": "PASS",
+        "value": {
+          "version": "149.0.7827.55",
+          "launch_time_ms": 4206.04
+        },
+        "error": null,
+        "root_cause": null,
+        "confidence": "High",
+        "recommendation": "Browser launch is healthy."
+      },
+      "executable_path": "C:\\Users\\acer\\AppData\\Local\\ms-playwright\\chromium-1228\\chrome-win64\\chrome.exe",
+      "visits": [
+        {
+          "url": "about:blank",
+          "final_url": "about:blank",
+          "http_status": null,
+          "response_headers": {},
+          "cf_headers": {
+            "cf-ray": null,
+            "cf-cache-status": null,
+            "server": null
+          },
+          "redirect_count": 0,
+          "js_redirect_count": 0,
+          "navigation_time_ms": 441.1,
+          "responses": [],
+          "request_failures": [],
+          "console": [],
+          "page_errors": [],
+          "navigation_error": null,
+          "performance_timing": {
+            "timeOrigin": 1785721988169.1,
+            "firstContentfulPaint": null,
+            "navigation": {
+              "duration": 43.60000000055879,
+              "domContentLoadedEventEnd": 42.700000000186265,
+              "loadEventEnd": 43.60000000055879,
+              "redirectCount": 0,
+              "type": "navigate"
+            }
+          },
+          "result": {
+            "status": "PASS",
+            "value": {
+              "url": "about:blank",
+              "status": null
+            },
+            "error": null,
+            "root_cause": null,
+            "confidence": "High",
+            "recommendation": "about:blank opened successfully."
+          }
+        },
+        {
+          "url": "https://www.google.com/",
+          "final_url": "chrome-error://chromewebdata/",
+          "http_status": null,
+          "response_headers": {},
+          "cf_headers": {
+            "cf-ray": null,
+            "cf-cache-status": null,
+            "server": null
+          },
+          "redirect_count": 0,
+          "js_redirect_count": 0,
+          "navigation_time_ms": 409.83,
+          "responses": [],
+          "request_failures": [
+            {
+              "url": "https://www.google.com/",
+              "resource_type": "document",
+              "failure": "net::ERR_NETWORK_ACCESS_DENIED"
+            }
+          ],
+          "console": [],
+          "page_errors": [],
+          "navigation_error": "Page.goto: net::ERR_NETWORK_ACCESS_DENIED at https://www.google.com/\nCall log:\n  - navigating to \"https://www.google.com/\", waiting until \"domcontentloaded\"\n",
+          "performance_timing": {
+            "timeOrigin": 1785721988568.6,
+            "firstContentfulPaint": null,
+            "navigation": {
+              "duration": 228.09999999962747,
+              "domContentLoadedEventEnd": 227.29999999981374,
+              "loadEventEnd": 228.09999999962747,
+              "redirectCount": 0,
+              "type": "navigate"
+            }
+          },
+          "result": {
+            "status": "UNKNOWN",
+            "value": {
+              "url": "https://www.google.com/",
+              "status": null
+            },
+            "error": "Page.goto: net::ERR_NETWORK_ACCESS_DENIED at https://www.google.com/\nCall log:\n  - navigating to \"https://www.google.com/\", waiting until \"domcontentloaded\"\n",
+            "root_cause": "Network",
+            "confidence": "Medium",
+            "recommendation": "Repeat the navigation with network access and inspect browser logs."
+          }
+        },
+        {
+          "url": "https://cloudflare.com/",
+          "final_url": "chrome-error://chromewebdata/",
+          "http_status": null,
+          "response_headers": {},
+          "cf_headers": {
+            "cf-ray": null,
+            "cf-cache-status": null,
+            "server": null
+          },
+          "redirect_count": 0,
+          "js_redirect_count": 0,
+          "navigation_time_ms": 351.99,
+          "responses": [],
+          "request_failures": [
+            {
+              "url": "https://cloudflare.com/",
+              "resource_type": "document",
+              "failure": "net::ERR_NETWORK_ACCESS_DENIED"
+            }
+          ],
+          "console": [],
+          "page_errors": [],
+          "navigation_error": "Page.goto: net::ERR_NETWORK_ACCESS_DENIED at https://cloudflare.com/\nCall log:\n  - navigating to \"https://cloudflare.com/\", waiting until \"domcontentloaded\"\n",
+          "performance_timing": {
+            "timeOrigin": 1785721988977.1,
+            "firstContentfulPaint": null,
+            "navigation": {
+              "duration": 13.300000000745058,
+              "domContentLoadedEventEnd": 13.100000000558794,
+              "loadEventEnd": 13.300000000745058,
+              "redirectCount": 0,
+              "type": "navigate"
+            }
+          },
+          "result": {
+            "status": "UNKNOWN",
+            "value": {
+              "url": "https://cloudflare.com/",
+              "status": null
+            },
+            "error": "Page.goto: net::ERR_NETWORK_ACCESS_DENIED at https://cloudflare.com/\nCall log:\n  - navigating to \"https://cloudflare.com/\", waiting until \"domcontentloaded\"\n",
+            "root_cause": "Network",
+            "confidence": "Medium",
+            "recommendation": "Repeat the navigation with network access and inspect browser logs."
+          }
+        },
+        {
+          "url": "https://github.com/",
+          "final_url": "chrome-error://chromewebdata/",
+          "http_status": null,
+          "response_headers": {},
+          "cf_headers": {
+            "cf-ray": null,
+            "cf-cache-status": null,
+            "server": null
+          },
+          "redirect_count": 0,
+          "js_redirect_count": 0,
+          "navigation_time_ms": 365.77,
+          "responses": [],
+          "request_failures": [
+            {
+              "url": "https://github.com/",
+              "resource_type": "document",
+              "failure": "net::ERR_NETWORK_ACCESS_DENIED"
+            }
+          ],
+          "console": [],
+          "page_errors": [],
+          "navigation_error": "Page.goto: net::ERR_NETWORK_ACCESS_DENIED at https://github.com/\nCall log:\n  - navigating to \"https://github.com/\", waiting until \"domcontentloaded\"\n",
+          "performance_timing": {
+            "timeOrigin": 1785721989330.9,
+            "firstContentfulPaint": null,
+            "navigation": {
+              "duration": 14.899999999441206,
+              "domContentLoadedEventEnd": 14.5,
+              "loadEventEnd": 14.899999999441206,
+              "redirectCount": 0,
+              "type": "navigate"
+            }
+          },
+          "result": {
+            "status": "UNKNOWN",
+            "value": {
+              "url": "https://github.com/",
+              "status": null
+            },
+            "error": "Page.goto: net::ERR_NETWORK_ACCESS_DENIED at https://github.com/\nCall log:\n  - navigating to \"https://github.com/\", waiting until \"domcontentloaded\"\n",
+            "root_cause": "Network",
+            "confidence": "Medium",
+            "recommendation": "Repeat the navigation with network access and inspect browser logs."
+          }
+        },
+        {
+          "url": "https://bromotenggersemeru.id/",
+          "final_url": "chrome-error://chromewebdata/",
+          "http_status": null,
+          "response_headers": {},
+          "cf_headers": {
+            "cf-ray": null,
+            "cf-cache-status": null,
+            "server": null
+          },
+          "redirect_count": 0,
+          "js_redirect_count": 0,
+          "navigation_time_ms": 365.66,
+          "responses": [],
+          "request_failures": [
+            {
+              "url": "https://bromotenggersemeru.id/",
+              "resource_type": "document",
+              "failure": "net::ERR_NETWORK_ACCESS_DENIED"
+            }
+          ],
+          "console": [],
+          "page_errors": [],
+          "navigation_error": "Page.goto: net::ERR_NETWORK_ACCESS_DENIED at https://bromotenggersemeru.id/\nCall log:\n  - navigating to \"https://bromotenggersemeru.id/\", waiting until \"domcontentloaded\"\n",
+          "performance_timing": {
+            "timeOrigin": 1785721989700.2,
+            "firstContentfulPaint": null,
+            "navigation": {
+              "duration": 24.899999999441206,
+              "domContentLoadedEventEnd": 24.200000000186265,
+              "loadEventEnd": 24.899999999441206,
+              "redirectCount": 0,
+              "type": "navigate"
+            }
+          },
+          "result": {
+            "status": "UNKNOWN",
+            "value": {
+              "url": "https://bromotenggersemeru.id/",
+              "status": null
+            },
+            "error": "Page.goto: net::ERR_NETWORK_ACCESS_DENIED at https://bromotenggersemeru.id/\nCall log:\n  - navigating to \"https://bromotenggersemeru.id/\", waiting until \"domcontentloaded\"\n",
+            "root_cause": "Network",
+            "confidence": "Medium",
+            "recommendation": "Repeat the navigation with network access and inspect browser logs."
+          }
+        }
+      ],
+      "webgl": {
+        "available": true,
+        "vendor": "Google Inc. (Google)",
+        "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (Subzero) (0x0000C0DE)), SwiftShader driver)",
+        "version": "WebGL 1.0 (OpenGL ES 2.0 Chromium)",
+        "swiftshader": true,
+        "backend": "Vulkan",
+        "webgl2": false
+      }
+    },
+    "chrome": {
+      "launch": {
+        "status": "PASS",
+        "value": {
+          "version": "151.0.7922.72",
+          "launch_time_ms": 48553.18
+        },
+        "error": null,
+        "root_cause": null,
+        "confidence": "High",
+        "recommendation": "Browser launch is healthy."
+      },
+      "executable_path": "C:\\Users\\acer\\AppData\\Local\\ms-playwright\\chromium-1228\\chrome-win64\\chrome.exe",
+      "visits": [
+        {
+          "url": "about:blank",
+          "final_url": "about:blank",
+          "http_status": null,
+          "response_headers": {},
+          "cf_headers": {
+            "cf-ray": null,
+            "cf-cache-status": null,
+            "server": null
+          },
+          "redirect_count": 0,
+          "js_redirect_count": 0,
+          "navigation_time_ms": 735.31,
+          "responses": [],
+          "request_failures": [],
+          "console": [],
+          "page_errors": [],
+          "navigation_error": null,
+          "performance_timing": {
+            "timeOrigin": 1785721993274.7,
+            "firstContentfulPaint": null,
+            "navigation": {
+              "duration": 352.6000000005588,
+              "domContentLoadedEventEnd": 350.6000000005588,
+              "loadEventEnd": 352.6000000005588,
+              "redirectCount": 0,
+              "type": "navigate"
+            }
+          },
+          "result": {
+            "status": "PASS",
+            "value": {
+              "url": "about:blank",
+              "status": null
+            },
+            "error": null,
+            "root_cause": null,
+            "confidence": "High",
+            "recommendation": "about:blank opened successfully."
+          }
+        },
+        {
+          "url": "https://www.google.com/",
+          "final_url": "about:blank",
+          "http_status": null,
+          "response_headers": {},
+          "cf_headers": {
+            "cf-ray": null,
+            "cf-cache-status": null,
+            "server": null
+          },
+          "redirect_count": 0,
+          "js_redirect_count": 0,
+          "navigation_time_ms": 14456.47,
+          "responses": [],
+          "request_failures": [
+            {
+              "url": "https://www.google.com/",
+              "resource_type": "document",
+              "failure": "net::ERR_NETWORK_ACCESS_DENIED"
+            }
+          ],
+          "console": [],
+          "page_errors": [],
+          "navigation_error": "Page.goto: Timeout 5000ms exceeded.\nCall log:\n  - navigating to \"https://www.google.com/\", waiting until \"domcontentloaded\"\n",
+          "performance_timing": {
+            "error": "Page.evaluate: Execution context was destroyed, most likely because of a navigation"
+          },
+          "result": {
+            "status": "UNKNOWN",
+            "value": {
+              "url": "https://www.google.com/",
+              "status": null
+            },
+            "error": "Page.goto: Timeout 5000ms exceeded.\nCall log:\n  - navigating to \"https://www.google.com/\", waiting until \"domcontentloaded\"\n",
+            "root_cause": "Browser",
+            "confidence": "Medium",
+            "recommendation": "Repeat the navigation with network access and inspect browser logs."
+          }
+        },
+        {
+          "url": "https://cloudflare.com/",
+          "final_url": "chrome-error://chromewebdata/",
+          "http_status": null,
+          "response_headers": {},
+          "cf_headers": {
+            "cf-ray": null,
+            "cf-cache-status": null,
+            "server": null
+          },
+          "redirect_count": 0,
+          "js_redirect_count": 0,
+          "navigation_time_ms": 15268.68,
+          "responses": [],
+          "request_failures": [
+            {
+              "url": "https://cloudflare.com/",
+              "resource_type": "document",
+              "failure": "net::ERR_NETWORK_ACCESS_DENIED"
+            }
+          ],
+          "console": [],
+          "page_errors": [],
+          "navigation_error": "Page.goto: Timeout 5000ms exceeded.\nCall log:\n  - navigating to \"https://cloudflare.com/\", waiting until \"domcontentloaded\"\n",
+          "performance_timing": {
+            "error": "Page.evaluate: Execution context was destroyed, most likely because of a navigation"
+          },
+          "result": {
+            "status": "UNKNOWN",
+            "value": {
+              "url": "https://cloudflare.com/",
+              "status": null
+            },
+            "error": "Page.goto: Timeout 5000ms exceeded.\nCall log:\n  - navigating to \"https://cloudflare.com/\", waiting until \"domcontentloaded\"\n",
+            "root_cause": "Browser",
+            "confidence": "Medium",
+            "recommendation": "Repeat the navigation with network access and inspect browser logs."
+          }
+        },
+        {
+          "url": "https://github.com/",
+          "final_url": "chrome-error://chromewebdata/",
+          "http_status": null,
+          "response_headers": {},
+          "cf_headers": {
+            "cf-ray": null,
+            "cf-cache-status": null,
+            "server": null
+          },
+          "redirect_count": 0,
+          "js_redirect_count": 0,
+          "navigation_time_ms": 15278.07,
+          "responses": [],
+          "request_failures": [
+            {
+              "url": "https://github.com/",
+              "resource_type": "document",
+              "failure": "net::ERR_NETWORK_ACCESS_DENIED"
+            }
+          ],
+          "console": [],
+          "page_errors": [],
+          "navigation_error": "Page.goto: Timeout 5000ms exceeded.\nCall log:\n  - navigating to \"https://github.com/\", waiting until \"domcontentloaded\"\n",
+          "performance_timing": {
+            "error": "Page.evaluate: Execution context was destroyed, most likely because of a navigation"
+          },
+          "result": {
+            "status": "UNKNOWN",
+            "value": {
+              "url": "https://github.com/",
+              "status": null
+            },
+            "error": "Page.goto: Timeout 5000ms exceeded.\nCall log:\n  - navigating to \"https://github.com/\", waiting until \"domcontentloaded\"\n",
+            "root_cause": "Browser",
+            "confidence": "Medium",
+            "recommendation": "Repeat the navigation with network access and inspect browser logs."
+          }
+        },
+        {
+          "url": "https://bromotenggersemeru.id/",
+          "final_url": "chrome-error://chromewebdata/",
+          "http_status": null,
+          "response_headers": {},
+          "cf_headers": {
+            "cf-ray": null,
+            "cf-cache-status": null,
+            "server": null
+          },
+          "redirect_count": 0,
+          "js_redirect_count": 1,
+          "navigation_time_ms": 351.59,
+          "responses": [],
+          "request_failures": [
+            {
+              "url": "https://bromotenggersemeru.id/",
+              "resource_type": "document",
+              "failure": "net::ERR_NETWORK_ACCESS_DENIED"
+            }
+          ],
+          "console": [],
+          "page_errors": [],
+          "navigation_error": "Page.goto: net::ERR_NETWORK_ACCESS_DENIED at https://bromotenggersemeru.id/\nCall log:\n  - navigating to \"https://bromotenggersemeru.id/\", waiting until \"domcontentloaded\"\n",
+          "performance_timing": {
+            "timeOrigin": 1785722039006.6,
+            "firstContentfulPaint": 52,
+            "navigation": {
+              "duration": 39.80000000074506,
+              "domContentLoadedEventEnd": 38.10000000055879,
+              "loadEventEnd": 39.80000000074506,
+              "redirectCount": 0,
+              "type": "navigate"
+            }
+          },
+          "result": {
+            "status": "UNKNOWN",
+            "value": {
+              "url": "https://bromotenggersemeru.id/",
+              "status": null
+            },
+            "error": "Page.goto: net::ERR_NETWORK_ACCESS_DENIED at https://bromotenggersemeru.id/\nCall log:\n  - navigating to \"https://bromotenggersemeru.id/\", waiting until \"domcontentloaded\"\n",
+            "root_cause": "Network",
+            "confidence": "Medium",
+            "recommendation": "Repeat the navigation with network access and inspect browser logs."
+          }
+        }
+      ],
+      "webgl": {
+        "available": true,
+        "vendor": "Google Inc. (Intel)",
+        "renderer": "ANGLE (Intel, Intel(R) UHD Graphics (0x0000A7A8) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+        "version": "WebGL 1.0 (OpenGL ES 2.0 Chromium)",
+        "swiftshader": false,
+        "backend": "Direct3D",
+        "webgl2": false
+      }
+    }
+  }
+}

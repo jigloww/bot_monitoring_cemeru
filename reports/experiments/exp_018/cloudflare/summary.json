@@ -1,0 +1,51 @@
+{
+  "experiment": "Experiment 015 - Cloudflare Evaluation",
+  "experiment_id": "exp_018",
+  "run_count": 1,
+  "status_counts": {
+    "PASS": 0,
+    "WARNING": 0,
+    "FAIL": 0,
+    "UNKNOWN": 1
+  },
+  "statistics": {
+    "http_success": 0,
+    "blocked": 0,
+    "challenge_detected": 0,
+    "challenge_solved": 0,
+    "challenge_timeout": 0,
+    "clearance_acquired": 0,
+    "challenge_success_rate_pct": null,
+    "clearance_acquisition_rate_pct": 0.0,
+    "http_success_rate_pct": 0.0,
+    "mean_challenge_duration_ms": null,
+    "min_challenge_duration_ms": null,
+    "max_challenge_duration_ms": null,
+    "unexpected_browser_errors": 1
+  },
+  "runs": [
+    {
+      "run_id": "run_001",
+      "status": "UNKNOWN",
+      "reason": "Browser or network error prevented an HTTP outcome from being observed.",
+      "http_success": false,
+      "blocked": false,
+      "challenge_detected": false,
+      "challenge_solved": false,
+      "challenge_timeout": false,
+      "challenge_duration_ms": null,
+      "clearance_acquired": false,
+      "waiting_ms": 1000,
+      "browser_errors": 1
+    }
+  ],
+  "analysis_only": true,
+  "configuration": {
+    "url": "https://bromotenggersemeru.id/",
+    "headless": true,
+    "persistent_profile": false,
+    "stealth_enabled": true,
+    "wait_ms": 1000,
+    "timeout_ms": 10000
+  }
+}

@@ -1,0 +1,162 @@
+{
+  "timestamp": "2026-08-03T09:04:29.634902+07:00",
+  "resolver": [
+    "fe80::1%10"
+  ],
+  "public_ip": {
+    "status": "UNKNOWN",
+    "value": null,
+    "error": "https://api.ipify.org?format=json: <urlopen error [WinError 10013] An attempt was made to access a socket in a way forbidden by its access permissions>; https://ifconfig.me/ip: <urlopen error [WinError 10013] An attempt was made to access a socket in a way forbidden by its access permissions>",
+    "root_cause": "Network",
+    "confidence": "Medium",
+    "recommendation": "Repeat public-IP discovery from a network that permits outbound HTTPS."
+  },
+  "local_ip": {
+    "addresses": [
+      "169.254.5.186",
+      "192.168.1.34",
+      "fe80::29b4:cb6c:f6f9:6b15",
+      "fe80::b74:8632:8a10:fc26"
+    ],
+    "ipv4": [
+      "169.254.5.186",
+      "192.168.1.34"
+    ],
+    "ipv6": [
+      "fe80::29b4:cb6c:f6f9:6b15",
+      "fe80::b74:8632:8a10:fc26"
+    ],
+    "status": "PASS"
+  },
+  "tcp_connectivity": {
+    "https://www.google.com/": {
+      "status": "UNKNOWN",
+      "value": {
+        "host": "www.google.com",
+        "port": 443
+      },
+      "error": "[WinError 10013] An attempt was made to access a socket in a way forbidden by its access permissions",
+      "root_cause": "Network",
+      "confidence": "Medium",
+      "recommendation": "Check egress and resolver results outside the sandbox."
+    },
+    "https://cloudflare.com/": {
+      "status": "UNKNOWN",
+      "value": {
+        "host": "cloudflare.com",
+        "port": 443
+      },
+      "error": "[WinError 10013] An attempt was made to access a socket in a way forbidden by its access permissions",
+      "root_cause": "Network",
+      "confidence": "Medium",
+      "recommendation": "Check egress and resolver results outside the sandbox."
+    },
+    "https://github.com/": {
+      "status": "UNKNOWN",
+      "value": {
+        "host": "github.com",
+        "port": 443
+      },
+      "error": "[WinError 10013] An attempt was made to access a socket in a way forbidden by its access permissions",
+      "root_cause": "Network",
+      "confidence": "Medium",
+      "recommendation": "Check egress and resolver results outside the sandbox."
+    },
+    "https://bromotenggersemeru.id/": {
+      "status": "UNKNOWN",
+      "value": {
+        "host": "bromotenggersemeru.id",
+        "port": 443
+      },
+      "error": "[WinError 10013] An attempt was made to access a socket in a way forbidden by its access permissions",
+      "root_cause": "Network",
+      "confidence": "Medium",
+      "recommendation": "Check egress and resolver results outside the sandbox."
+    }
+  },
+  "checks": {
+    "https://www.google.com/": {
+      "status": "PASS",
+      "value": {
+        "host": "www.google.com",
+        "addresses": [
+          "142.251.150.119",
+          "142.251.151.119",
+          "142.251.152.119",
+          "142.251.153.119",
+          "142.251.154.119",
+          "142.251.155.119",
+          "142.251.156.119",
+          "142.251.157.119"
+        ],
+        "families": [
+          "IPv4"
+        ],
+        "latency_ms": 58.49
+      },
+      "error": null,
+      "root_cause": null,
+      "confidence": "High",
+      "recommendation": "DNS resolution is available."
+    },
+    "https://cloudflare.com/": {
+      "status": "PASS",
+      "value": {
+        "host": "cloudflare.com",
+        "addresses": [
+          "104.16.132.229",
+          "104.16.133.229"
+        ],
+        "families": [
+          "IPv4"
+        ],
+        "latency_ms": 6.5
+      },
+      "error": null,
+      "root_cause": null,
+      "confidence": "High",
+      "recommendation": "DNS resolution is available."
+    },
+    "https://github.com/": {
+      "status": "PASS",
+      "value": {
+        "host": "github.com",
+        "addresses": [
+          "20.205.243.166"
+        ],
+        "families": [
+          "IPv4"
+        ],
+        "latency_ms": 5.77
+      },
+      "error": null,
+      "root_cause": null,
+      "confidence": "High",
+      "recommendation": "DNS resolution is available."
+    },
+    "https://bromotenggersemeru.id/": {
+      "status": "PASS",
+      "value": {
+        "host": "bromotenggersemeru.id",
+        "addresses": [
+          "104.21.17.119",
+          "172.67.176.188"
+        ],
+        "families": [
+          "IPv4"
+        ],
+        "latency_ms": 2.81
+      },
+      "error": null,
+      "root_cause": null,
+      "confidence": "High",
+      "recommendation": "DNS resolution is available."
+    }
+  },
+  "status_counts": {
+    "PASS": 4,
+    "WARNING": 0,
+    "FAIL": 0,
+    "UNKNOWN": 0
+  }
+}

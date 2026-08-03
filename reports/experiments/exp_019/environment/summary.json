@@ -1,0 +1,29 @@
+{
+  "experiment": "Experiment 016 - Environment Validation",
+  "experiment_id": "exp_019",
+  "created_at": "2026-08-03T08:52:46.847793+07:00",
+  "status": "UNKNOWN",
+  "readiness": {
+    "browser_readiness": "PASS",
+    "network_readiness": "PASS",
+    "cloudflare_readiness": "UNKNOWN",
+    "overall_readiness": "UNKNOWN"
+  },
+  "root_cause": {
+    "root_cause": "Cloudflare or target-site behavior",
+    "confidence": "Medium",
+    "recommendation": "Repeat from a permitted network and compare HTTP/CF headers; do not infer from fingerprint similarity."
+  },
+  "analysis_only": true,
+  "inputs": {
+    "urls": [
+      "https://www.google.com/",
+      "https://cloudflare.com/",
+      "https://github.com/",
+      "https://bromotenggersemeru.id/"
+    ],
+    "headless": true,
+    "persistent_profile": false,
+    "sandbox": true
+  }
+}

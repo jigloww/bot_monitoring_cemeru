@@ -1,0 +1,417 @@
+{
+  "experiment": "Experiment 013 - Fingerprint Consistency Validator",
+  "experiment_id": "exp_013",
+  "created_at": "2026-08-03T08:21:18.314333+07:00",
+  "analysis_only": true,
+  "sources": {
+    "reference": {
+      "path": "reports\\fingerprint\\fingerprint_real.json"
+    },
+    "candidate": {
+      "path": "reports\\experiments\\exp_012\\performance\\performance\\fingerprint.json",
+      "metadata": {
+        "experiment": "Experiment 012 - Performance Evaluation",
+        "mode": "performance",
+        "label": "Navigator + Window + Screen + Chrome + Permissions + Fonts + Speech + Performance",
+        "collected_at": "2026-08-03T08:13:24.402373+07:00",
+        "url": "about:blank",
+        "channel": "chromium (bundled)",
+        "headless": true,
+        "wait_ms": 5000,
+        "generated_patches_applied": true,
+        "modules_applied": [
+          "navigator",
+          "window",
+          "screen",
+          "chrome",
+          "permissions",
+          "fonts",
+          "speech",
+          "performance"
+        ],
+        "performance_profile_source": "baseline.performance",
+        "browser_version": "149.0.7827.55"
+      }
+    }
+  },
+  "summary": {
+    "overall_consistency_score": 92.0,
+    "category_scores": {
+      "Navigator": {
+        "score": 94.3,
+        "rules": 7,
+        "pass": 6,
+        "warning": 1,
+        "fail": 0
+      },
+      "Window": {
+        "score": 100.0,
+        "rules": 3,
+        "pass": 3,
+        "warning": 0,
+        "fail": 0
+      },
+      "Screen": {
+        "score": 100.0,
+        "rules": 3,
+        "pass": 3,
+        "warning": 0,
+        "fail": 0
+      },
+      "Chrome": {
+        "score": 80.0,
+        "rules": 2,
+        "pass": 1,
+        "warning": 1,
+        "fail": 0
+      },
+      "Permissions": {
+        "score": 60.0,
+        "rules": 1,
+        "pass": 0,
+        "warning": 1,
+        "fail": 0
+      },
+      "Fonts": {
+        "score": 100.0,
+        "rules": 1,
+        "pass": 1,
+        "warning": 0,
+        "fail": 0
+      },
+      "Speech": {
+        "score": 100.0,
+        "rules": 1,
+        "pass": 1,
+        "warning": 0,
+        "fail": 0
+      },
+      "Performance": {
+        "score": 100.0,
+        "rules": 1,
+        "pass": 1,
+        "warning": 0,
+        "fail": 0
+      },
+      "Cross-Domain": {
+        "score": 88.0,
+        "rules": 10,
+        "pass": 7,
+        "warning": 3,
+        "fail": 0
+      }
+    },
+    "rule_count": 15,
+    "pass_count": 12,
+    "warning_count": 3,
+    "fail_count": 0,
+    "status": "WARNING"
+  },
+  "issues": [
+    {
+      "rule": "ua_ua_ch",
+      "name": "UA ↔ UA-CH consistency",
+      "domains": [
+        "Navigator",
+        "Cross-Domain"
+      ],
+      "status": "PASS",
+      "severity": "Low",
+      "reason": "UA browser family/version agree with UA-CH brands.",
+      "recommended_fix": "No change required.",
+      "confidence": "High",
+      "observed": {
+        "browser": "Chrome",
+        "major": "149",
+        "brands": [
+          {
+            "brand": "Chromium",
+            "version": "149"
+          },
+          {
+            "brand": "Google Chrome",
+            "version": "149"
+          }
+        ]
+      },
+      "expected": null
+    },
+    {
+      "rule": "platform_ua",
+      "name": "Platform ↔ UA consistency",
+      "domains": [
+        "Navigator"
+      ],
+      "status": "PASS",
+      "severity": "Low",
+      "reason": "Platform agrees with the operating-system token in userAgent.",
+      "recommended_fix": "Keep navigator.platform and the UA operating-system token aligned.",
+      "confidence": "High",
+      "observed": {
+        "platform": "Win32",
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36"
+      },
+      "expected": null
+    },
+    {
+      "rule": "screen_window",
+      "name": "Screen ↔ Window consistency",
+      "domains": [
+        "Screen",
+        "Window",
+        "Cross-Domain"
+      ],
+      "status": "PASS",
+      "severity": "Low",
+      "reason": "Window viewport fits inside the reported screen.",
+      "recommended_fix": "Ensure outer/inner viewport and screen dimensions form a physically possible layout.",
+      "confidence": "High",
+      "observed": {
+        "screen": [
+          1536.0,
+          864.0
+        ],
+        "inner": [
+          1036.0,
+          703.0
+        ],
+        "outer": [
+          1051.0,
+          798.0
+        ]
+      },
+      "expected": null
+    },
+    {
+      "rule": "chrome_runtime_browser",
+      "name": "chrome.runtime ↔ browser consistency",
+      "domains": [
+        "Chrome",
+        "Cross-Domain"
+      ],
+      "status": "WARNING",
+      "severity": "Low",
+      "reason": "window.chrome is present but chrome.runtime is absent; this can be valid on extension-free pages.",
+      "recommended_fix": "Only expose chrome.runtime when the target browser context requires it.",
+      "confidence": "Medium",
+      "observed": {
+        "chromePresent": true,
+        "runtimePresent": false
+      },
+      "expected": null
+    },
+    {
+      "rule": "languages_language",
+      "name": "Languages ↔ language consistency",
+      "domains": [
+        "Navigator"
+      ],
+      "status": "PASS",
+      "severity": "Low",
+      "reason": "Primary language is the first languages entry.",
+      "recommended_fix": "Set navigator.language equal to languages[0] and keep locale ordering coherent.",
+      "confidence": "High",
+      "observed": {
+        "language": "en-GB",
+        "languages": [
+          "en-GB"
+        ]
+      },
+      "expected": null
+    },
+    {
+      "rule": "hardware_memory",
+      "name": "hardwareConcurrency ↔ deviceMemory consistency",
+      "domains": [
+        "Navigator",
+        "Cross-Domain"
+      ],
+      "status": "PASS",
+      "severity": "Low",
+      "reason": "Hardware concurrency and memory are plausible together.",
+      "recommended_fix": "Use a profile with a realistic CPU/memory pairing.",
+      "confidence": "Medium",
+      "observed": {
+        "hardwareConcurrency": 12.0,
+        "deviceMemory": 8.0
+      },
+      "expected": null
+    },
+    {
+      "rule": "performance_memory_browser",
+      "name": "performance.memory ↔ browser consistency",
+      "domains": [
+        "Performance",
+        "Cross-Domain"
+      ],
+      "status": "PASS",
+      "severity": "Low",
+      "reason": "Chrome exposes a coherent performance.memory object.",
+      "recommended_fix": "No change required.",
+      "confidence": "High",
+      "observed": {
+        "browser": "Chrome",
+        "memoryPresent": true
+      },
+      "expected": null
+    },
+    {
+      "rule": "fonts_platform",
+      "name": "Fonts ↔ platform consistency",
+      "domains": [
+        "Fonts",
+        "Cross-Domain"
+      ],
+      "status": "PASS",
+      "severity": "Low",
+      "reason": "Font inventory is plausible for the reported platform.",
+      "recommended_fix": "No change required.",
+      "confidence": "Medium",
+      "observed": {
+        "platform": "Win32",
+        "count": 25.0
+      },
+      "expected": null
+    },
+    {
+      "rule": "speech_platform",
+      "name": "Speech voices ↔ platform consistency",
+      "domains": [
+        "Speech",
+        "Cross-Domain"
+      ],
+      "status": "PASS",
+      "severity": "Low",
+      "reason": "Speech voices contain platform-neutral, valid locale records.",
+      "recommended_fix": "Keep voice locale records complete and aligned with the platform/browser profile.",
+      "confidence": "Medium",
+      "observed": {
+        "platform": "Win32",
+        "count": 22.0
+      },
+      "expected": null
+    },
+    {
+      "rule": "viewport_screen",
+      "name": "Viewport ↔ screen consistency",
+      "domains": [
+        "Window",
+        "Screen"
+      ],
+      "status": "PASS",
+      "severity": "Low",
+      "reason": "Viewport fits inside the available screen area.",
+      "recommended_fix": "Keep inner viewport dimensions within screen.availWidth/availHeight.",
+      "confidence": "High",
+      "observed": {
+        "inner": [
+          1036,
+          703
+        ],
+        "available": [
+          1536,
+          816
+        ]
+      },
+      "expected": null
+    },
+    {
+      "rule": "dpr_viewport",
+      "name": "DPR ↔ viewport consistency",
+      "domains": [
+        "Window",
+        "Screen"
+      ],
+      "status": "PASS",
+      "severity": "Low",
+      "reason": "DPR and viewport dimensions form a plausible display relationship.",
+      "recommended_fix": "Keep devicePixelRatio, viewport, and screen dimensions from contradictory profiles.",
+      "confidence": "Medium",
+      "observed": {
+        "dpr": 1.25,
+        "inner": [
+          1036.0,
+          703.0
+        ],
+        "screen": [
+          1536.0,
+          864.0
+        ]
+      },
+      "expected": null
+    },
+    {
+      "rule": "vendor_browser",
+      "name": "navigator.vendor ↔ browser consistency",
+      "domains": [
+        "Navigator",
+        "Chrome"
+      ],
+      "status": "PASS",
+      "severity": "Low",
+      "reason": "Chrome UA and navigator.vendor agree.",
+      "recommended_fix": "No change required.",
+      "confidence": "High",
+      "observed": {
+        "browser": "Chrome",
+        "vendor": "Google Inc."
+      },
+      "expected": null
+    },
+    {
+      "rule": "webdriver_automation",
+      "name": "navigator.webdriver ↔ automation consistency",
+      "domains": [
+        "Navigator",
+        "Cross-Domain"
+      ],
+      "status": "WARNING",
+      "severity": "Medium",
+      "reason": "Automation metadata is present while navigator.webdriver is hidden.",
+      "recommended_fix": "Treat webdriver spoofing as an intentional, documented stealth decision and keep other automation signals aligned.",
+      "confidence": "High",
+      "observed": {
+        "automated": true,
+        "webdriver": false
+      },
+      "expected": null
+    },
+    {
+      "rule": "plugins_mimetypes",
+      "name": "Plugin count ↔ MIME type consistency",
+      "domains": [
+        "Navigator",
+        "Cross-Domain"
+      ],
+      "status": "PASS",
+      "severity": "Low",
+      "reason": "Plugin and MIME type counts are mutually plausible.",
+      "recommended_fix": "Keep navigator.plugins and navigator.mimeTypes generated from one coherent profile.",
+      "confidence": "High",
+      "observed": {
+        "pluginCount": 5.0,
+        "mimeCount": 2.0
+      },
+      "expected": null
+    },
+    {
+      "rule": "permissions_secure_context",
+      "name": "Permissions ↔ secure context consistency",
+      "domains": [
+        "Permissions",
+        "Cross-Domain"
+      ],
+      "status": "WARNING",
+      "severity": "Low",
+      "reason": "Secure-context status cannot be inferred from the recorded URL.",
+      "recommended_fix": "Record a secure-context signal or evaluate permissions on the target origin.",
+      "confidence": "Low",
+      "observed": {
+        "url": "",
+        "secureContext": null,
+        "grantedSensitive": false
+      },
+      "expected": null
+    }
+  ]
+}

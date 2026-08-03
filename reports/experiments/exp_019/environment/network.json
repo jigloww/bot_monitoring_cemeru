@@ -1,0 +1,244 @@
+{
+  "timestamp": "2026-08-03T08:52:02.351086+07:00",
+  "checks": {
+    "dns": {
+      "https://www.google.com/": {
+        "status": "PASS",
+        "value": {
+          "host": "www.google.com",
+          "addresses": [
+            "142.251.150.119",
+            "142.251.151.119",
+            "142.251.152.119",
+            "142.251.153.119",
+            "142.251.154.119",
+            "142.251.155.119",
+            "142.251.156.119",
+            "142.251.157.119"
+          ],
+          "latency_ms": 1.05
+        },
+        "error": null,
+        "root_cause": null,
+        "confidence": "High",
+        "recommendation": "No DNS action required."
+      },
+      "https://cloudflare.com/": {
+        "status": "PASS",
+        "value": {
+          "host": "cloudflare.com",
+          "addresses": [
+            "104.16.132.229",
+            "104.16.133.229"
+          ],
+          "latency_ms": 0.66
+        },
+        "error": null,
+        "root_cause": null,
+        "confidence": "High",
+        "recommendation": "No DNS action required."
+      },
+      "https://github.com/": {
+        "status": "PASS",
+        "value": {
+          "host": "github.com",
+          "addresses": [
+            "20.205.243.166"
+          ],
+          "latency_ms": 0.54
+        },
+        "error": null,
+        "root_cause": null,
+        "confidence": "High",
+        "recommendation": "No DNS action required."
+      },
+      "https://bromotenggersemeru.id/": {
+        "status": "PASS",
+        "value": {
+          "host": "bromotenggersemeru.id",
+          "addresses": [
+            "104.21.17.119",
+            "172.67.176.188"
+          ],
+          "latency_ms": 0.51
+        },
+        "error": null,
+        "root_cause": null,
+        "confidence": "High",
+        "recommendation": "No DNS action required."
+      }
+    },
+    "socket_https": {
+      "https://www.google.com/": {
+        "status": "UNKNOWN",
+        "value": {
+          "host": "www.google.com",
+          "port": 443
+        },
+        "error": "[WinError 10013] An attempt was made to access a socket in a way forbidden by its access permissions",
+        "root_cause": "Network",
+        "confidence": "Medium",
+        "recommendation": "Check network egress and resolver results."
+      },
+      "https://cloudflare.com/": {
+        "status": "UNKNOWN",
+        "value": {
+          "host": "cloudflare.com",
+          "port": 443
+        },
+        "error": "[WinError 10013] An attempt was made to access a socket in a way forbidden by its access permissions",
+        "root_cause": "Network",
+        "confidence": "Medium",
+        "recommendation": "Check network egress and resolver results."
+      },
+      "https://github.com/": {
+        "status": "UNKNOWN",
+        "value": {
+          "host": "github.com",
+          "port": 443
+        },
+        "error": "[WinError 10013] An attempt was made to access a socket in a way forbidden by its access permissions",
+        "root_cause": "Network",
+        "confidence": "Medium",
+        "recommendation": "Check network egress and resolver results."
+      },
+      "https://bromotenggersemeru.id/": {
+        "status": "UNKNOWN",
+        "value": {
+          "host": "bromotenggersemeru.id",
+          "port": 443
+        },
+        "error": "[WinError 10013] An attempt was made to access a socket in a way forbidden by its access permissions",
+        "root_cause": "Network",
+        "confidence": "Medium",
+        "recommendation": "Check network egress and resolver results."
+      }
+    },
+    "https_connectivity": {
+      "https://www.google.com/": {
+        "status": "UNKNOWN",
+        "value": {
+          "url": "https://www.google.com/"
+        },
+        "error": "[WinError 10013] An attempt was made to access a socket in a way forbidden by its access permissions",
+        "root_cause": "Network",
+        "confidence": "Medium",
+        "recommendation": "Repeat from an unrestricted network."
+      },
+      "https://cloudflare.com/": {
+        "status": "UNKNOWN",
+        "value": {
+          "url": "https://cloudflare.com/"
+        },
+        "error": "[WinError 10013] An attempt was made to access a socket in a way forbidden by its access permissions",
+        "root_cause": "Network",
+        "confidence": "Medium",
+        "recommendation": "Repeat from an unrestricted network."
+      },
+      "https://github.com/": {
+        "status": "UNKNOWN",
+        "value": {
+          "url": "https://github.com/"
+        },
+        "error": "[WinError 10013] An attempt was made to access a socket in a way forbidden by its access permissions",
+        "root_cause": "Network",
+        "confidence": "Medium",
+        "recommendation": "Repeat from an unrestricted network."
+      },
+      "https://bromotenggersemeru.id/": {
+        "status": "UNKNOWN",
+        "value": {
+          "url": "https://bromotenggersemeru.id/"
+        },
+        "error": "[WinError 10013] An attempt was made to access a socket in a way forbidden by its access permissions",
+        "root_cause": "Network",
+        "confidence": "Medium",
+        "recommendation": "Repeat from an unrestricted network."
+      }
+    },
+    "http_connectivity": {
+      "http://example.com/": {
+        "status": "UNKNOWN",
+        "value": {
+          "url": "http://example.com/"
+        },
+        "error": "[WinError 10013] An attempt was made to access a socket in a way forbidden by its access permissions",
+        "root_cause": "Network",
+        "confidence": "Medium",
+        "recommendation": "Repeat from an unrestricted network."
+      }
+    },
+    "certificate_validation": {
+      "https://www.google.com/": {
+        "status": "UNKNOWN",
+        "value": {
+          "url": "https://www.google.com/"
+        },
+        "error": "[WinError 10013] An attempt was made to access a socket in a way forbidden by its access permissions",
+        "root_cause": "Network",
+        "confidence": "Medium",
+        "recommendation": "Repeat from an unrestricted network."
+      },
+      "https://cloudflare.com/": {
+        "status": "UNKNOWN",
+        "value": {
+          "url": "https://cloudflare.com/"
+        },
+        "error": "[WinError 10013] An attempt was made to access a socket in a way forbidden by its access permissions",
+        "root_cause": "Network",
+        "confidence": "Medium",
+        "recommendation": "Repeat from an unrestricted network."
+      },
+      "https://github.com/": {
+        "status": "UNKNOWN",
+        "value": {
+          "url": "https://github.com/"
+        },
+        "error": "[WinError 10013] An attempt was made to access a socket in a way forbidden by its access permissions",
+        "root_cause": "Network",
+        "confidence": "Medium",
+        "recommendation": "Repeat from an unrestricted network."
+      },
+      "https://bromotenggersemeru.id/": {
+        "status": "UNKNOWN",
+        "value": {
+          "url": "https://bromotenggersemeru.id/"
+        },
+        "error": "[WinError 10013] An attempt was made to access a socket in a way forbidden by its access permissions",
+        "root_cause": "Network",
+        "confidence": "Medium",
+        "recommendation": "Repeat from an unrestricted network."
+      }
+    },
+    "redirect_support": {
+      "https://www.google.com/": {
+        "status": "UNKNOWN",
+        "redirect": null
+      },
+      "https://cloudflare.com/": {
+        "status": "UNKNOWN",
+        "redirect": null
+      },
+      "https://github.com/": {
+        "status": "UNKNOWN",
+        "redirect": null
+      },
+      "https://bromotenggersemeru.id/": {
+        "status": "UNKNOWN",
+        "redirect": null
+      }
+    }
+  },
+  "status_counts": {
+    "PASS": 4,
+    "WARNING": 0,
+    "FAIL": 0,
+    "UNKNOWN": 17
+  },
+  "latency_ms": {
+    "https://www.google.com/": null,
+    "https://cloudflare.com/": null,
+    "https://github.com/": null,
+    "https://bromotenggersemeru.id/": null
+  }
+}

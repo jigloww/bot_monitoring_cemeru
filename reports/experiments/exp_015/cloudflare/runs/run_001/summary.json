@@ -1,0 +1,14 @@
+{
+  "run_id": "run_001",
+  "status": "UNKNOWN",
+  "reason": "Browser or network error prevented an HTTP outcome from being observed.",
+  "http_success": false,
+  "blocked": false,
+  "challenge_detected": false,
+  "challenge_solved": false,
+  "challenge_timeout": false,
+  "challenge_duration_ms": null,
+  "clearance_acquired": false,
+  "waiting_ms": 1000,
+  "browser_errors": 1
+}

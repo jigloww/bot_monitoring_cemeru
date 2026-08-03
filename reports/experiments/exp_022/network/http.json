@@ -1,0 +1,117 @@
+{
+  "timestamp": "2026-08-03T09:04:30.982397+07:00",
+  "checks": {
+    "https://www.google.com/": {
+      "GET": {
+        "status": "UNKNOWN",
+        "value": {
+          "method": "GET",
+          "requested_url": "https://www.google.com/",
+          "redirect_chain": []
+        },
+        "error": "[WinError 10013] An attempt was made to access a socket in a way forbidden by its access permissions",
+        "root_cause": "Network",
+        "confidence": "Medium",
+        "recommendation": "Repeat HTTP diagnostics outside the restricted environment."
+      },
+      "HEAD": {
+        "status": "UNKNOWN",
+        "value": {
+          "method": "HEAD",
+          "requested_url": "https://www.google.com/",
+          "redirect_chain": []
+        },
+        "error": "[WinError 10013] An attempt was made to access a socket in a way forbidden by its access permissions",
+        "root_cause": "Network",
+        "confidence": "Medium",
+        "recommendation": "Repeat HTTP diagnostics outside the restricted environment."
+      }
+    },
+    "https://cloudflare.com/": {
+      "GET": {
+        "status": "UNKNOWN",
+        "value": {
+          "method": "GET",
+          "requested_url": "https://cloudflare.com/",
+          "redirect_chain": []
+        },
+        "error": "[WinError 10013] An attempt was made to access a socket in a way forbidden by its access permissions",
+        "root_cause": "Network",
+        "confidence": "Medium",
+        "recommendation": "Repeat HTTP diagnostics outside the restricted environment."
+      },
+      "HEAD": {
+        "status": "UNKNOWN",
+        "value": {
+          "method": "HEAD",
+          "requested_url": "https://cloudflare.com/",
+          "redirect_chain": []
+        },
+        "error": "[WinError 10013] An attempt was made to access a socket in a way forbidden by its access permissions",
+        "root_cause": "Network",
+        "confidence": "Medium",
+        "recommendation": "Repeat HTTP diagnostics outside the restricted environment."
+      }
+    },
+    "https://github.com/": {
+      "GET": {
+        "status": "UNKNOWN",
+        "value": {
+          "method": "GET",
+          "requested_url": "https://github.com/",
+          "redirect_chain": []
+        },
+        "error": "[WinError 10013] An attempt was made to access a socket in a way forbidden by its access permissions",
+        "root_cause": "Network",
+        "confidence": "Medium",
+        "recommendation": "Repeat HTTP diagnostics outside the restricted environment."
+      },
+      "HEAD": {
+        "status": "UNKNOWN",
+        "value": {
+          "method": "HEAD",
+          "requested_url": "https://github.com/",
+          "redirect_chain": []
+        },
+        "error": "[WinError 10013] An attempt was made to access a socket in a way forbidden by its access permissions",
+        "root_cause": "Network",
+        "confidence": "Medium",
+        "recommendation": "Repeat HTTP diagnostics outside the restricted environment."
+      }
+    },
+    "https://bromotenggersemeru.id/": {
+      "GET": {
+        "status": "UNKNOWN",
+        "value": {
+          "method": "GET",
+          "requested_url": "https://bromotenggersemeru.id/",
+          "redirect_chain": []
+        },
+        "error": "[WinError 10013] An attempt was made to access a socket in a way forbidden by its access permissions",
+        "root_cause": "Network",
+        "confidence": "Medium",
+        "recommendation": "Repeat HTTP diagnostics outside the restricted environment."
+      },
+      "HEAD": {
+        "status": "UNKNOWN",
+        "value": {
+          "method": "HEAD",
+          "requested_url": "https://bromotenggersemeru.id/",
+          "redirect_chain": []
+        },
+        "error": "[WinError 10013] An attempt was made to access a socket in a way forbidden by its access permissions",
+        "root_cause": "Network",
+        "confidence": "Medium",
+        "recommendation": "Repeat HTTP diagnostics outside the restricted environment."
+      }
+    }
+  },
+  "http2_support": false,
+  "http3_support": false,
+  "status_counts": {
+    "PASS": 0,
+    "WARNING": 0,
+    "FAIL": 0,
+    "UNKNOWN": 8
+  }
+}

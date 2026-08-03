@@ -1,0 +1,34 @@
+{
+  "experiment": "Experiment 017 - Real Cloudflare A/B Benchmark",
+  "experiment_id": "exp_021",
+  "modes": [
+    {
+      "mode": "plain",
+      "label": "Plain Playwright (Chromium)",
+      "optional": false
+    },
+    {
+      "mode": "playwright_stealth",
+      "label": "Playwright + playwright-stealth",
+      "optional": false
+    },
+    {
+      "mode": "local_stealth",
+      "label": "Local Stealth Framework",
+      "optional": false
+    },
+    {
+      "mode": "chrome_cdp",
+      "label": "Real Chrome via CDP",
+      "optional": true
+    }
+  ],
+  "configuration": {
+    "runs_per_mode": 1,
+    "timeout_ms": 5000,
+    "wait_ms": 300,
+    "headless": true,
+    "persistent_profile": false,
+    "cdp_configured": false
+  }
+}

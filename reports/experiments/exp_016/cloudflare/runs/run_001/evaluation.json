@@ -1,0 +1,99 @@
+{
+  "experiment": "Experiment 015 - Cloudflare Evaluation",
+  "run_id": "run_001",
+  "created_at": "2026-08-03T08:42:53.147067+07:00",
+  "url_tested": "https://bromotenggersemeru.id/",
+  "final_url": "chrome-error://chromewebdata/",
+  "http_status": null,
+  "redirect_count": 0,
+  "js_redirect_count": 0,
+  "reload_count": 0,
+  "cf_ray": null,
+  "cf_cache_status": null,
+  "server": null,
+  "response_headers": {},
+  "challenge": {
+    "detected": false,
+    "solved": false,
+    "timeout": false,
+    "turnstile_detected": false,
+    "captcha_detected": false,
+    "samples": 5
+  },
+  "waiting_ms": 1000,
+  "challenge_duration_ms": null,
+  "performance_timing": {
+    "timeOrigin": 1785721371340.9,
+    "now": 1080,
+    "firstContentfulPaint": null,
+    "navigation": {
+      "name": "https://bromotenggersemeru.id/",
+      "entryType": "navigation",
+      "startTime": 0,
+      "duration": 98.29999999981374,
+      "type": "navigate",
+      "redirectCount": 0,
+      "nextHopProtocol": "",
+      "transferSize": 0,
+      "requestStart": 0.09999999962747097,
+      "responseStart": 0.09999999962747097,
+      "responseEnd": 97.5,
+      "domInteractive": 97.5,
+      "domContentLoadedEventEnd": 97.79999999981374,
+      "loadEventEnd": 98.29999999981374
+    },
+    "legacyTiming": {
+      "navigationStart": 1785721371340,
+      "fetchStart": 1785721371341,
+      "requestStart": 1785721371341,
+      "responseStart": 1785721371341,
+      "responseEnd": 1785721371438,
+      "domInteractive": 1785721371438,
+      "domContentLoadedEventEnd": 1785721371438,
+      "loadEventEnd": 1785721371439
+    },
+    "resourceCount": 0
+  },
+  "browser_metadata": {
+    "browser_version": "149.0.7827.55",
+    "playwright_version": "1.61.0",
+    "headless": true,
+    "headed": false,
+    "persistent_profile": false,
+    "profile_path": null,
+    "url_tested": "https://bromotenggersemeru.id/",
+    "stealth_enabled": true,
+    "stealth_modules_enabled": [
+      "navigator",
+      "window",
+      "screen",
+      "permissions",
+      "fonts",
+      "speech",
+      "chrome",
+      "webgl"
+    ],
+    "navigator": {
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36",
+      "platform": "Win32",
+      "language": "en-GB",
+      "webdriver": true
+    },
+    "context_options": {}
+  },
+  "navigation_error": "Page.goto: net::ERR_NETWORK_ACCESS_DENIED at https://bromotenggersemeru.id/\nCall log:\n  - navigating to \"https://bromotenggersemeru.id/\", waiting until \"domcontentloaded\"\n",
+  "unexpected_browser_errors": [
+    "browser close: Event loop is closed! Is Playwright already stopped?"
+  ],
+  "outcome": {
+    "status": "UNKNOWN",
+    "reason": "Browser or network error prevented an HTTP outcome from being observed.",
+    "blocked": false,
+    "http_success": false
+  },
+  "cookie_acquisition": {
+    "cf_clearance": false,
+    "__cf_bm": false,
+    "cookie_count": 0
+  }
+}

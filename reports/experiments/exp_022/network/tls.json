@@ -1,0 +1,55 @@
+{
+  "timestamp": "2026-08-03T09:04:30.271727+07:00",
+  "checks": {
+    "https://www.google.com/": {
+      "status": "UNKNOWN",
+      "value": {
+        "url": "https://www.google.com/",
+        "sni": "www.google.com"
+      },
+      "error": "[WinError 10013] An attempt was made to access a socket in a way forbidden by its access permissions",
+      "root_cause": "Network",
+      "confidence": "Medium",
+      "recommendation": "Repeat TLS diagnostics from an unrestricted network."
+    },
+    "https://cloudflare.com/": {
+      "status": "UNKNOWN",
+      "value": {
+        "url": "https://cloudflare.com/",
+        "sni": "cloudflare.com"
+      },
+      "error": "[WinError 10013] An attempt was made to access a socket in a way forbidden by its access permissions",
+      "root_cause": "Network",
+      "confidence": "Medium",
+      "recommendation": "Repeat TLS diagnostics from an unrestricted network."
+    },
+    "https://github.com/": {
+      "status": "UNKNOWN",
+      "value": {
+        "url": "https://github.com/",
+        "sni": "github.com"
+      },
+      "error": "[WinError 10013] An attempt was made to access a socket in a way forbidden by its access permissions",
+      "root_cause": "Network",
+      "confidence": "Medium",
+      "recommendation": "Repeat TLS diagnostics from an unrestricted network."
+    },
+    "https://bromotenggersemeru.id/": {
+      "status": "UNKNOWN",
+      "value": {
+        "url": "https://bromotenggersemeru.id/",
+        "sni": "bromotenggersemeru.id"
+      },
+      "error": "[WinError 10013] An attempt was made to access a socket in a way forbidden by its access permissions",
+      "root_cause": "Network",
+      "confidence": "Medium",
+      "recommendation": "Repeat TLS diagnostics from an unrestricted network."
+    }
+  },
+  "status_counts": {
+    "PASS": 0,
+    "WARNING": 0,
+    "FAIL": 0,
+    "UNKNOWN": 4
+  }
+}

@@ -88,10 +88,13 @@ for _name, _desc, _status in [
     ("screen",      "screen.* property overrides",      "active"),
     ("document",    "document.* property overrides",    "placeholder"),
     ("permissions", "Permissions API spoofing",         "active"),
+    ("fonts",       "Font Loading API spoofing",        "active"),
+    ("speech",      "Speech Synthesis API spoofing",    "active"),
     ("chrome",      "Chrome runtime spoofing",          "active"),
     ("history",     "history.* overrides",              "placeholder"),
     ("location",    "location.* overrides",             "placeholder"),
     ("performance", "Performance timing spoofing",      "placeholder"),
+    ("webgl",       "WebGL fingerprint compatibility",   "active"),
 ]:
     _DEFAULT_REGISTRY.register_module(StealthModule(
         name=_name, js_file=_MODULES_DIR / f"{_name}.js",

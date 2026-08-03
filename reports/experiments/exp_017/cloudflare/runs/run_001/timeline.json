@@ -1,0 +1,122 @@
+{
+  "run_id": "run_001",
+  "events": [
+    {
+      "sequence": 1,
+      "event": "stealth_applied",
+      "timestamp": "2026-08-03T08:43:38.379782+07:00",
+      "elapsed_ms": 1416.99,
+      "modules": [
+        "navigator",
+        "window",
+        "screen",
+        "chrome",
+        "permissions",
+        "fonts",
+        "speech",
+        "performance",
+        "webgl"
+      ]
+    },
+    {
+      "sequence": 2,
+      "event": "navigation_start",
+      "timestamp": "2026-08-03T08:43:38.400774+07:00",
+      "elapsed_ms": 1438.11,
+      "url": "https://bromotenggersemeru.id/"
+    },
+    {
+      "sequence": 3,
+      "event": "navigation_error",
+      "timestamp": "2026-08-03T08:43:38.437776+07:00",
+      "elapsed_ms": 1475.48,
+      "error": "Page.goto: net::ERR_NETWORK_ACCESS_DENIED at https://bromotenggersemeru.id/\nCall log:\n  - navigating to \"https://bromotenggersemeru.id/\", waiting until \"domcontentloaded\"\n",
+      "timeout": false
+    },
+    {
+      "sequence": 4,
+      "event": "frame_navigated",
+      "timestamp": "2026-08-03T08:43:38.507463+07:00",
+      "elapsed_ms": 1545.5,
+      "url": "chrome-error://chromewebdata/"
+    },
+    {
+      "sequence": 5,
+      "event": "domcontentloaded",
+      "timestamp": "2026-08-03T08:43:38.523192+07:00",
+      "elapsed_ms": 1560.9
+    },
+    {
+      "sequence": 6,
+      "event": "load",
+      "timestamp": "2026-08-03T08:43:38.523192+07:00",
+      "elapsed_ms": 1561.16
+    },
+    {
+      "sequence": 7,
+      "event": "navigation_end",
+      "timestamp": "2026-08-03T08:43:39.507936+07:00",
+      "elapsed_ms": 2545.18,
+      "url": "chrome-error://chromewebdata/",
+      "status": null
+    },
+    {
+      "sequence": 8,
+      "event": "observation_end",
+      "timestamp": "2026-08-03T08:43:39.507936+07:00",
+      "elapsed_ms": 2545.21,
+      "waiting_ms": 1000
+    }
+  ],
+  "challenge_samples": [
+    {
+      "title": "",
+      "challengeText": false,
+      "challengeNodes": false,
+      "challenge": false,
+      "turnstile": false,
+      "captcha": false,
+      "url": "chrome-error://chromewebdata/",
+      "elapsed_ms": 1737.37
+    },
+    {
+      "title": "",
+      "challengeText": false,
+      "challengeNodes": false,
+      "challenge": false,
+      "turnstile": false,
+      "captcha": false,
+      "url": "chrome-error://chromewebdata/",
+      "elapsed_ms": 1998.69
+    },
+    {
+      "title": "",
+      "challengeText": false,
+      "challengeNodes": false,
+      "challenge": false,
+      "turnstile": false,
+      "captcha": false,
+      "url": "chrome-error://chromewebdata/",
+      "elapsed_ms": 2266.88
+    },
+    {
+      "title": "",
+      "challengeText": false,
+      "challengeNodes": false,
+      "challenge": false,
+      "turnstile": false,
+      "captcha": false,
+      "url": "chrome-error://chromewebdata/",
+      "elapsed_ms": 2531.47
+    },
+    {
+      "title": "",
+      "challengeText": false,
+      "challengeNodes": false,
+      "challenge": false,
+      "turnstile": false,
+      "captcha": false,
+      "url": "chrome-error://chromewebdata/"
+    }
+  ]
+}

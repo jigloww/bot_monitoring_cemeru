@@ -1,0 +1,29 @@
+{
+  "experiment": "Experiment 016 - Environment Validation",
+  "experiment_id": "exp_020",
+  "created_at": "2026-08-03T08:54:04.885451+07:00",
+  "status": "UNKNOWN",
+  "readiness": {
+    "browser_readiness": "PASS",
+    "network_readiness": "UNKNOWN",
+    "cloudflare_readiness": "UNKNOWN",
+    "overall_readiness": "UNKNOWN"
+  },
+  "root_cause": {
+    "root_cause": "VPS network/DNS/TLS environment",
+    "confidence": "High",
+    "recommendation": "Validate DNS, egress firewall, proxy, certificate trust, and socket connectivity outside this sandbox."
+  },
+  "analysis_only": true,
+  "inputs": {
+    "urls": [
+      "https://www.google.com/",
+      "https://cloudflare.com/",
+      "https://github.com/",
+      "https://bromotenggersemeru.id/"
+    ],
+    "headless": true,
+    "persistent_profile": false,
+    "sandbox": true
+  }
+}

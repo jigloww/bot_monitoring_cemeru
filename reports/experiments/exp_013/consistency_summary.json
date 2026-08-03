@@ -1,0 +1,109 @@
+{
+  "experiment": "Experiment 013 - Fingerprint Consistency Validator",
+  "experiment_id": "exp_013",
+  "created_at": "2026-08-03T08:21:18.314333+07:00",
+  "overall_consistency_score": 92.0,
+  "category_scores": {
+    "Navigator": {
+      "score": 94.3,
+      "rules": 7,
+      "pass": 6,
+      "warning": 1,
+      "fail": 0
+    },
+    "Window": {
+      "score": 100.0,
+      "rules": 3,
+      "pass": 3,
+      "warning": 0,
+      "fail": 0
+    },
+    "Screen": {
+      "score": 100.0,
+      "rules": 3,
+      "pass": 3,
+      "warning": 0,
+      "fail": 0
+    },
+    "Chrome": {
+      "score": 80.0,
+      "rules": 2,
+      "pass": 1,
+      "warning": 1,
+      "fail": 0
+    },
+    "Permissions": {
+      "score": 60.0,
+      "rules": 1,
+      "pass": 0,
+      "warning": 1,
+      "fail": 0
+    },
+    "Fonts": {
+      "score": 100.0,
+      "rules": 1,
+      "pass": 1,
+      "warning": 0,
+      "fail": 0
+    },
+    "Speech": {
+      "score": 100.0,
+      "rules": 1,
+      "pass": 1,
+      "warning": 0,
+      "fail": 0
+    },
+    "Performance": {
+      "score": 100.0,
+      "rules": 1,
+      "pass": 1,
+      "warning": 0,
+      "fail": 0
+    },
+    "Cross-Domain": {
+      "score": 88.0,
+      "rules": 10,
+      "pass": 7,
+      "warning": 3,
+      "fail": 0
+    }
+  },
+  "counts": {
+    "rule_count": 15,
+    "pass_count": 12,
+    "warning_count": 3,
+    "fail_count": 0
+  },
+  "status": "WARNING",
+  "sources": {
+    "reference": {
+      "path": "reports\\fingerprint\\fingerprint_real.json"
+    },
+    "candidate": {
+      "path": "reports\\experiments\\exp_012\\performance\\performance\\fingerprint.json",
+      "metadata": {
+        "experiment": "Experiment 012 - Performance Evaluation",
+        "mode": "performance",
+        "label": "Navigator + Window + Screen + Chrome + Permissions + Fonts + Speech + Performance",
+        "collected_at": "2026-08-03T08:13:24.402373+07:00",
+        "url": "about:blank",
+        "channel": "chromium (bundled)",
+        "headless": true,
+        "wait_ms": 5000,
+        "generated_patches_applied": true,
+        "modules_applied": [
+          "navigator",
+          "window",
+          "screen",
+          "chrome",
+          "permissions",
+          "fonts",
+          "speech",
+          "performance"
+        ],
+        "performance_profile_source": "baseline.performance",
+        "browser_version": "149.0.7827.55"
+      }
+    }
+  }
+}

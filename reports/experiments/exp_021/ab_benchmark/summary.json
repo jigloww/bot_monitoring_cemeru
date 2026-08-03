@@ -1,0 +1,123 @@
+{
+  "experiment": "Experiment 017 - Real Cloudflare A/B Benchmark",
+  "experiment_id": "exp_021",
+  "created_at": "2026-08-03T08:59:12.461519+07:00",
+  "analysis_only": true,
+  "target_url": "https://bromotenggersemeru.id/",
+  "run_count": 4,
+  "mode_count": 4,
+  "status_counts": {
+    "PASS": 0,
+    "WARNING": 0,
+    "FAIL": 0,
+    "UNKNOWN": 4
+  },
+  "ranking": [
+    "plain",
+    "playwright_stealth",
+    "local_stealth",
+    "chrome_cdp"
+  ],
+  "statistics": {
+    "plain": {
+      "mode": "plain",
+      "mode_label": "Plain Playwright (Chromium)",
+      "run_count": 1,
+      "status_counts": {
+        "PASS": 0,
+        "WARNING": 0,
+        "FAIL": 0,
+        "UNKNOWN": 1
+      },
+      "success_rate_pct": 0.0,
+      "challenge_rate_pct": 0.0,
+      "clearance_acquisition_rate_pct": 0.0,
+      "average_challenge_duration_ms": null,
+      "average_navigation_time_ms": 557.65,
+      "average_redirects": 0.0,
+      "failure_rate_pct": 0.0,
+      "crash_rate_pct": 0.0,
+      "timeout_rate_pct": 0.0,
+      "cookie_acquisition_rate_pct": 0.0,
+      "challenge_success_rate_pct": null,
+      "classification": "UNUSABLE"
+    },
+    "playwright_stealth": {
+      "mode": "playwright_stealth",
+      "mode_label": "Playwright + playwright-stealth",
+      "run_count": 1,
+      "status_counts": {
+        "PASS": 0,
+        "WARNING": 0,
+        "FAIL": 0,
+        "UNKNOWN": 1
+      },
+      "success_rate_pct": 0.0,
+      "challenge_rate_pct": 0.0,
+      "clearance_acquisition_rate_pct": 0.0,
+      "average_challenge_duration_ms": null,
+      "average_navigation_time_ms": 381.83,
+      "average_redirects": 0.0,
+      "failure_rate_pct": 0.0,
+      "crash_rate_pct": 0.0,
+      "timeout_rate_pct": 0.0,
+      "cookie_acquisition_rate_pct": 0.0,
+      "challenge_success_rate_pct": null,
+      "classification": "UNUSABLE"
+    },
+    "local_stealth": {
+      "mode": "local_stealth",
+      "mode_label": "Local Stealth Framework",
+      "run_count": 1,
+      "status_counts": {
+        "PASS": 0,
+        "WARNING": 0,
+        "FAIL": 0,
+        "UNKNOWN": 1
+      },
+      "success_rate_pct": 0.0,
+      "challenge_rate_pct": 0.0,
+      "clearance_acquisition_rate_pct": 0.0,
+      "average_challenge_duration_ms": null,
+      "average_navigation_time_ms": 410.34,
+      "average_redirects": 0.0,
+      "failure_rate_pct": 0.0,
+      "crash_rate_pct": 0.0,
+      "timeout_rate_pct": 0.0,
+      "cookie_acquisition_rate_pct": 0.0,
+      "challenge_success_rate_pct": null,
+      "classification": "UNUSABLE"
+    },
+    "chrome_cdp": {
+      "mode": "chrome_cdp",
+      "mode_label": "Real Chrome via CDP",
+      "run_count": 1,
+      "status_counts": {
+        "PASS": 0,
+        "WARNING": 0,
+        "FAIL": 0,
+        "UNKNOWN": 1
+      },
+      "success_rate_pct": 0.0,
+      "challenge_rate_pct": 0.0,
+      "clearance_acquisition_rate_pct": 0.0,
+      "average_challenge_duration_ms": null,
+      "average_navigation_time_ms": null,
+      "average_redirects": 0.0,
+      "failure_rate_pct": 0.0,
+      "crash_rate_pct": 0.0,
+      "timeout_rate_pct": 0.0,
+      "cookie_acquisition_rate_pct": 0.0,
+      "challenge_success_rate_pct": null,
+      "classification": "UNUSABLE"
+    }
+  },
+  "configuration": {
+    "runs_per_mode": 1,
+    "timeout_ms": 5000,
+    "wait_ms": 300,
+    "headless": true,
+    "persistent_profile": false,
+    "cdp_configured": false
+  }
+}

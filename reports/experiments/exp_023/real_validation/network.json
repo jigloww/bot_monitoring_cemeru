@@ -1,0 +1,55 @@
+{
+  "experiment_id": "exp_023",
+  "runs": [
+    {
+      "run_id": "run_001_plain",
+      "mode": "plain",
+      "http_status": null,
+      "final_url": null,
+      "redirect_count": 0,
+      "requests": [],
+      "request_failures": [],
+      "response_failures": []
+    },
+    {
+      "run_id": "run_001_playwright_stealth",
+      "mode": "playwright_stealth",
+      "http_status": null,
+      "final_url": null,
+      "redirect_count": 0,
+      "requests": [],
+      "request_failures": [],
+      "response_failures": []
+    },
+    {
+      "run_id": "run_001_local_stealth",
+      "mode": "local_stealth",
+      "http_status": null,
+      "final_url": null,
+      "redirect_count": 0,
+      "requests": [],
+      "request_failures": [],
+      "response_failures": []
+    },
+    {
+      "run_id": "run_001_chrome_cdp",
+      "mode": "chrome_cdp",
+      "http_status": null,
+      "final_url": null,
+      "redirect_count": 0,
+      "requests": [],
+      "request_failures": [],
+      "response_failures": []
+    },
+    {
+      "run_id": "run_001_chrome_manual_profile",
+      "mode": "chrome_manual_profile",
+      "http_status": null,
+      "final_url": null,
+      "redirect_count": 0,
+      "requests": [],
+      "request_failures": [],
+      "response_failures": []
+    }
+  ]
+}

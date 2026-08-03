@@ -1,0 +1,153 @@
+{
+  "timestamp": "2026-08-03T09:04:34.565036+07:00",
+  "playwright_version": "1.61.0",
+  "browsers": {
+    "chromium": {
+      "status": "PASS",
+      "version": "149.0.7827.55",
+      "visits": [
+        {
+          "url": "about:blank",
+          "status": null,
+          "final_url": "about:blank",
+          "elapsed_ms": 228.86,
+          "error": null,
+          "result": {
+            "status": "PASS",
+            "value": {
+              "status": null,
+              "elapsed_ms": 228.86
+            },
+            "error": null,
+            "root_cause": null,
+            "confidence": "High",
+            "recommendation": "Navigation succeeded."
+          }
+        },
+        {
+          "url": "https://www.google.com/",
+          "status": null,
+          "final_url": "chrome-error://chromewebdata/",
+          "elapsed_ms": 250.11,
+          "error": "Page.goto: net::ERR_NETWORK_ACCESS_DENIED at https://www.google.com/\nCall log:\n  - navigating to \"https://www.google.com/\", waiting until \"domcontentloaded\"\n",
+          "result": {
+            "status": "UNKNOWN",
+            "value": {
+              "status": null,
+              "elapsed_ms": 250.11
+            },
+            "error": "Page.goto: net::ERR_NETWORK_ACCESS_DENIED at https://www.google.com/\nCall log:\n  - navigating to \"https://www.google.com/\", waiting until \"domcontentloaded\"\n",
+            "root_cause": "TLS/network",
+            "confidence": "Medium",
+            "recommendation": "Inspect Playwright network errors."
+          }
+        },
+        {
+          "url": "https://cloudflare.com/",
+          "status": null,
+          "final_url": "chrome-error://chromewebdata/",
+          "elapsed_ms": 233.12,
+          "error": "Page.goto: net::ERR_NETWORK_ACCESS_DENIED at https://cloudflare.com/\nCall log:\n  - navigating to \"https://cloudflare.com/\", waiting until \"domcontentloaded\"\n",
+          "result": {
+            "status": "UNKNOWN",
+            "value": {
+              "status": null,
+              "elapsed_ms": 233.12
+            },
+            "error": "Page.goto: net::ERR_NETWORK_ACCESS_DENIED at https://cloudflare.com/\nCall log:\n  - navigating to \"https://cloudflare.com/\", waiting until \"domcontentloaded\"\n",
+            "root_cause": "TLS/network",
+            "confidence": "Medium",
+            "recommendation": "Inspect Playwright network errors."
+          }
+        },
+        {
+          "url": "https://github.com/",
+          "status": null,
+          "final_url": "chrome-error://chromewebdata/",
+          "elapsed_ms": 231.26,
+          "error": "Page.goto: net::ERR_NETWORK_ACCESS_DENIED at https://github.com/\nCall log:\n  - navigating to \"https://github.com/\", waiting until \"domcontentloaded\"\n",
+          "result": {
+            "status": "UNKNOWN",
+            "value": {
+              "status": null,
+              "elapsed_ms": 231.26
+            },
+            "error": "Page.goto: net::ERR_NETWORK_ACCESS_DENIED at https://github.com/\nCall log:\n  - navigating to \"https://github.com/\", waiting until \"domcontentloaded\"\n",
+            "root_cause": "TLS/network",
+            "confidence": "Medium",
+            "recommendation": "Inspect Playwright network errors."
+          }
+        },
+        {
+          "url": "https://bromotenggersemeru.id/",
+          "status": null,
+          "final_url": "chrome-error://chromewebdata/",
+          "elapsed_ms": 233.7,
+          "error": "Page.goto: net::ERR_NETWORK_ACCESS_DENIED at https://bromotenggersemeru.id/\nCall log:\n  - navigating to \"https://bromotenggersemeru.id/\", waiting until \"domcontentloaded\"\n",
+          "result": {
+            "status": "UNKNOWN",
+            "value": {
+              "status": null,
+              "elapsed_ms": 233.7
+            },
+            "error": "Page.goto: net::ERR_NETWORK_ACCESS_DENIED at https://bromotenggersemeru.id/\nCall log:\n  - navigating to \"https://bromotenggersemeru.id/\", waiting until \"domcontentloaded\"\n",
+            "root_cause": "TLS/network",
+            "confidence": "Medium",
+            "recommendation": "Inspect Playwright network errors."
+          }
+        }
+      ],
+      "failed_requests": [
+        {
+          "url": "https://www.google.com/",
+          "failure": "net::ERR_NETWORK_ACCESS_DENIED",
+          "resource_type": "document"
+        },
+        {
+          "url": "https://cloudflare.com/",
+          "failure": "net::ERR_NETWORK_ACCESS_DENIED",
+          "resource_type": "document"
+        },
+        {
+          "url": "https://github.com/",
+          "failure": "net::ERR_NETWORK_ACCESS_DENIED",
+          "resource_type": "document"
+        },
+        {
+          "url": "https://bromotenggersemeru.id/",
+          "failure": "net::ERR_NETWORK_ACCESS_DENIED",
+          "resource_type": "document"
+        }
+      ],
+      "blocked_requests": [],
+      "security_errors": [],
+      "certificate_errors": [],
+      "console": [],
+      "page_errors": [],
+      "request_timing": [
+        {
+          "url": "about:blank",
+          "elapsed_ms": 228.86
+        },
+        {
+          "url": "https://www.google.com/",
+          "elapsed_ms": 250.11
+        },
+        {
+          "url": "https://cloudflare.com/",
+          "elapsed_ms": 233.12
+        },
+        {
+          "url": "https://github.com/",
+          "elapsed_ms": 231.26
+        },
+        {
+          "url": "https://bromotenggersemeru.id/",
+          "elapsed_ms": 233.7
+        }
+      ],
+      "proxy_detected": false,
+      "offline": false
+    }
+  }
+}

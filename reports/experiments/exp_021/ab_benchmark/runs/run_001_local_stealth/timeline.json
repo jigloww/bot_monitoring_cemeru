@@ -1,0 +1,61 @@
+{
+  "run_id": "run_001_local_stealth",
+  "events": [
+    {
+      "sequence": 1,
+      "event": "navigation_start",
+      "timestamp": "2026-08-03T08:59:11.319774+07:00",
+      "elapsed_ms": 1.88,
+      "url": "https://bromotenggersemeru.id/"
+    },
+    {
+      "sequence": 2,
+      "event": "request_failure",
+      "timestamp": "2026-08-03T08:59:11.383422+07:00",
+      "elapsed_ms": 65.44,
+      "url": "https://bromotenggersemeru.id/",
+      "failure": "net::ERR_NETWORK_ACCESS_DENIED"
+    },
+    {
+      "sequence": 3,
+      "event": "navigation_error",
+      "timestamp": "2026-08-03T08:59:11.384930+07:00",
+      "elapsed_ms": 67.07,
+      "error": "Page.goto: net::ERR_NETWORK_ACCESS_DENIED at https://bromotenggersemeru.id/\nCall log:\n  - navigating to \"https://bromotenggersemeru.id/\", waiting until \"domcontentloaded\"\n",
+      "timeout": false
+    },
+    {
+      "sequence": 4,
+      "event": "navigation_end",
+      "timestamp": "2026-08-03T08:59:11.725704+07:00",
+      "elapsed_ms": 407.77,
+      "url": "chrome-error://chromewebdata/",
+      "status": null
+    }
+  ],
+  "samples": [
+    {
+      "title": "",
+      "challenge": false,
+      "turnstile": false,
+      "captcha": false,
+      "url": "chrome-error://chromewebdata/",
+      "elapsed_ms": 333.64
+    },
+    {
+      "title": "",
+      "challenge": false,
+      "turnstile": false,
+      "captcha": false,
+      "url": "chrome-error://chromewebdata/",
+      "elapsed_ms": 404.55
+    },
+    {
+      "title": "",
+      "challenge": false,
+      "turnstile": false,
+      "captcha": false,
+      "url": "chrome-error://chromewebdata/"
+    }
+  ]
+}

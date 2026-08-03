@@ -1,0 +1,39 @@
+{
+  "experiment": "Phase 4 - Network & Environment Diagnostic Suite",
+  "experiment_id": "exp_022",
+  "created_at": "2026-08-03T09:04:34.568026+07:00",
+  "analysis_only": true,
+  "subsystem_status": {
+    "system": "PASS",
+    "dns": "PASS",
+    "tls": "UNKNOWN",
+    "http": "UNKNOWN",
+    "browser_network": "PASS"
+  },
+  "overall_status": "UNKNOWN",
+  "root_cause": {
+    "root_cause": "VPS cannot establish a reliable HTTPS session",
+    "confidence": "High",
+    "recommendation": "Repeat from an unrestricted network and inspect socket/TLS diagnostics."
+  },
+  "statistics": {
+    "dns": {
+      "PASS": 4,
+      "WARNING": 0,
+      "FAIL": 0,
+      "UNKNOWN": 0
+    },
+    "tls": {
+      "PASS": 0,
+      "WARNING": 0,
+      "FAIL": 0,
+      "UNKNOWN": 4
+    },
+    "http": {
+      "PASS": 0,
+      "WARNING": 0,
+      "FAIL": 0,
+      "UNKNOWN": 8
+    }
+  }
+}

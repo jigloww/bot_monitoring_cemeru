@@ -1,0 +1,13 @@
+{
+  "experiment_id": "exp_016",
+  "runs": [
+    {
+      "run_id": "run_001",
+      "cookies": [],
+      "cookie_count": 0,
+      "cf_cookies": {},
+      "cf_clearance_acquired": false,
+      "cf_bm_acquired": false
+    }
+  ]
+}

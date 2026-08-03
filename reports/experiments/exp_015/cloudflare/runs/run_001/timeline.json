@@ -1,0 +1,105 @@
+{
+  "run_id": "run_001",
+  "events": [
+    {
+      "sequence": 1,
+      "event": "navigation_start",
+      "timestamp": "2026-08-03T08:41:51.777951+07:00",
+      "elapsed_ms": 1668.08,
+      "url": "https://bromotenggersemeru.id/"
+    },
+    {
+      "sequence": 2,
+      "event": "navigation_error",
+      "timestamp": "2026-08-03T08:41:51.909662+07:00",
+      "elapsed_ms": 1800.02,
+      "error": "Page.goto: net::ERR_NETWORK_ACCESS_DENIED at https://bromotenggersemeru.id/\nCall log:\n  - navigating to \"https://bromotenggersemeru.id/\", waiting until \"domcontentloaded\"\n",
+      "timeout": false
+    },
+    {
+      "sequence": 3,
+      "event": "frame_navigated",
+      "timestamp": "2026-08-03T08:41:51.984613+07:00",
+      "elapsed_ms": 1875.31,
+      "url": "chrome-error://chromewebdata/"
+    },
+    {
+      "sequence": 4,
+      "event": "domcontentloaded",
+      "timestamp": "2026-08-03T08:41:51.993613+07:00",
+      "elapsed_ms": 1884.53
+    },
+    {
+      "sequence": 5,
+      "event": "load",
+      "timestamp": "2026-08-03T08:41:52.002611+07:00",
+      "elapsed_ms": 1892.87
+    },
+    {
+      "sequence": 6,
+      "event": "navigation_end",
+      "timestamp": "2026-08-03T08:41:52.986232+07:00",
+      "elapsed_ms": 2877.14,
+      "url": "chrome-error://chromewebdata/",
+      "status": null
+    },
+    {
+      "sequence": 7,
+      "event": "observation_end",
+      "timestamp": "2026-08-03T08:41:52.986232+07:00",
+      "elapsed_ms": 2877.18,
+      "waiting_ms": 1000
+    }
+  ],
+  "challenge_samples": [
+    {
+      "title": "",
+      "challengeText": false,
+      "challengeNodes": false,
+      "challenge": false,
+      "turnstile": false,
+      "captcha": false,
+      "url": "chrome-error://chromewebdata/",
+      "elapsed_ms": 2068.73
+    },
+    {
+      "title": "",
+      "challengeText": false,
+      "challengeNodes": false,
+      "challenge": false,
+      "turnstile": false,
+      "captcha": false,
+      "url": "chrome-error://chromewebdata/",
+      "elapsed_ms": 2330.9
+    },
+    {
+      "title": "",
+      "challengeText": false,
+      "challengeNodes": false,
+      "challenge": false,
+      "turnstile": false,
+      "captcha": false,
+      "url": "chrome-error://chromewebdata/",
+      "elapsed_ms": 2597.47
+    },
+    {
+      "title": "",
+      "challengeText": false,
+      "challengeNodes": false,
+      "challenge": false,
+      "turnstile": false,
+      "captcha": false,
+      "url": "chrome-error://chromewebdata/",
+      "elapsed_ms": 2865.14
+    },
+    {
+      "title": "",
+      "challengeText": false,
+      "challengeNodes": false,
+      "challenge": false,
+      "turnstile": false,
+      "captcha": false,
+      "url": "chrome-error://chromewebdata/"
+    }
+  ]
+}

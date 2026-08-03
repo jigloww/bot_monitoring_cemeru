@@ -1,0 +1,103 @@
+{
+  "run_id": "run_001_plain",
+  "mode": "plain",
+  "mode_label": "Plain Playwright (Chromium)",
+  "timestamp": "2026-08-03T08:59:07.294476+07:00",
+  "url": "https://bromotenggersemeru.id/",
+  "navigation_success": false,
+  "http_status": null,
+  "redirect_count": 0,
+  "js_redirect_count": 0,
+  "challenge_detected": false,
+  "challenge_duration_ms": null,
+  "challenge_timeout": false,
+  "turnstile_detected": false,
+  "captcha_detected": false,
+  "cf_clearance_acquired": false,
+  "__cf_bm_acquired": false,
+  "cookie_count": 0,
+  "cf_cookie_names": [],
+  "console_errors": [],
+  "request_failures": [
+    {
+      "url": "https://bromotenggersemeru.id/",
+      "resource_type": "document",
+      "failure": "net::ERR_NETWORK_ACCESS_DENIED"
+    }
+  ],
+  "response_failures": [],
+  "browser_crashed": false,
+  "navigation_timeout": false,
+  "final_url": "chrome-error://chromewebdata/",
+  "elapsed_time_ms": 557.65,
+  "browser_version": "149.0.7827.55",
+  "playwright_version": "1.61.0",
+  "stealth_modules_enabled": [],
+  "headless": true,
+  "persistent_profile": false,
+  "response_headers": {},
+  "outcome": {
+    "status": "UNKNOWN",
+    "reason": "No HTTP outcome was observed after navigation error.",
+    "value": null,
+    "error": "Page.goto: net::ERR_NETWORK_ACCESS_DENIED at https://bromotenggersemeru.id/\nCall log:\n  - navigating to \"https://bromotenggersemeru.id/\", waiting until \"domcontentloaded\"\n"
+  },
+  "timeline": [
+    {
+      "sequence": 1,
+      "event": "navigation_start",
+      "timestamp": "2026-08-03T08:59:06.741453+07:00",
+      "elapsed_ms": 4.73,
+      "url": "https://bromotenggersemeru.id/"
+    },
+    {
+      "sequence": 2,
+      "event": "request_failure",
+      "timestamp": "2026-08-03T08:59:06.921800+07:00",
+      "elapsed_ms": 185.28,
+      "url": "https://bromotenggersemeru.id/",
+      "failure": "net::ERR_NETWORK_ACCESS_DENIED"
+    },
+    {
+      "sequence": 3,
+      "event": "navigation_error",
+      "timestamp": "2026-08-03T08:59:06.928833+07:00",
+      "elapsed_ms": 191.84,
+      "error": "Page.goto: net::ERR_NETWORK_ACCESS_DENIED at https://bromotenggersemeru.id/\nCall log:\n  - navigating to \"https://bromotenggersemeru.id/\", waiting until \"domcontentloaded\"\n",
+      "timeout": false
+    },
+    {
+      "sequence": 4,
+      "event": "navigation_end",
+      "timestamp": "2026-08-03T08:59:07.291464+07:00",
+      "elapsed_ms": 554.93,
+      "url": "chrome-error://chromewebdata/",
+      "status": null
+    }
+  ],
+  "samples": [
+    {
+      "title": "",
+      "challenge": false,
+      "turnstile": false,
+      "captcha": false,
+      "url": "chrome-error://chromewebdata/",
+      "elapsed_ms": 480.72
+    },
+    {
+      "title": "",
+      "challenge": false,
+      "turnstile": false,
+      "captcha": false,
+      "url": "chrome-error://chromewebdata/",
+      "elapsed_ms": 551.68
+    },
+    {
+      "title": "",
+      "challenge": false,
+      "turnstile": false,
+      "captcha": false,
+      "url": "chrome-error://chromewebdata/"
+    }
+  ]
+}

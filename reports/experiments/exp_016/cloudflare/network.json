@@ -1,0 +1,19 @@
+{
+  "experiment_id": "exp_016",
+  "runs": [
+    {
+      "run_id": "run_001",
+      "requests": [
+        {
+          "url": "https://bromotenggersemeru.id/",
+          "method": "GET",
+          "resource_type": "document",
+          "is_navigation": true,
+          "redirected_from": null
+        }
+      ],
+      "responses": [],
+      "main_navigations": []
+    }
+  ]
+}
