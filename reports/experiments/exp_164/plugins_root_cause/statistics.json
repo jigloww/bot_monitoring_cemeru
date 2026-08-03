@@ -1,0 +1,44 @@
+{
+  "remaining_differences": 639,
+  "root_cause_count": 7,
+  "estimated_differences_removed": 638,
+  "status_distribution": {
+    "ADDED": 333,
+    "CHANGED": 89,
+    "MISSING": 217
+  },
+  "root_cause_distribution": {
+    "aggregate_fingerprint_mismatch": 1,
+    "cross_reference_inconsistency": 8,
+    "module_added_nonbaseline_surface": 333,
+    "module_missing_baseline_surface": 125,
+    "wrong_descriptor": 105,
+    "wrong_native_function_surface": 7,
+    "wrong_prototype_chain": 60
+  },
+  "severity_distribution": {
+    "CRITICAL": 638,
+    "HIGH": 1
+  },
+  "group_counts": {
+    "by_property": 639,
+    "by_object": 639,
+    "by_prototype": 638,
+    "by_descriptor": 489,
+    "by_method": 131,
+    "by_cross_reference": 18,
+    "by_plugin": 305,
+    "by_mimetype": 202
+  },
+  "estimated_similarity_gain": 3.3379,
+  "estimated_cloudflare_impact": 59.04,
+  "browser_launches": 0,
+  "network_requests": 0,
+  "cycle_detected": false,
+  "inputs_available": {
+    "real": true,
+    "compare": true,
+    "risk": true,
+    "evaluation": true
+  }
+}

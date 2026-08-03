@@ -1,0 +1,17 @@
+{
+  "experiment": "Experiment 035 - Real MediaDevices Collector",
+  "experiment_id": "exp_120",
+  "created_at": "2026-08-03T18:33:19.033609+07:00",
+  "result": "PARTIAL",
+  "url": "about:blank",
+  "browser_started": true,
+  "navigation_succeeded": false,
+  "media_devices_available": false,
+  "device_count": 0,
+  "fingerprint_sha256": "a45ece4ce299ebd88c7ee2df10c998c236b51656c3028c463cb85e895ab3cec7",
+  "error": null,
+  "validation_valid": true,
+  "browser_launches": 1,
+  "network_requests": 0,
+  "historical_artifacts_modified": false
+}

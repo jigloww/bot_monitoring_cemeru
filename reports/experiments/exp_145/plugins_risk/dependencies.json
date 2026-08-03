@@ -1,0 +1,56 @@
+{
+  "nodes": [
+    "foundation.cross_reference",
+    "foundation.descriptors",
+    "foundation.methods",
+    "foundation.mimetypearray",
+    "foundation.pluginarray",
+    "foundation.prototype"
+  ],
+  "edges": [
+    {
+      "from": "foundation.methods",
+      "to": "foundation.descriptors",
+      "relationship": "depends_on"
+    },
+    {
+      "from": "foundation.mimetypearray",
+      "to": "foundation.cross_reference",
+      "relationship": "depends_on"
+    },
+    {
+      "from": "foundation.mimetypearray",
+      "to": "foundation.prototype",
+      "relationship": "depends_on"
+    },
+    {
+      "from": "foundation.pluginarray",
+      "to": "foundation.cross_reference",
+      "relationship": "depends_on"
+    },
+    {
+      "from": "foundation.pluginarray",
+      "to": "foundation.prototype",
+      "relationship": "depends_on"
+    },
+    {
+      "from": "foundation.prototype",
+      "to": "foundation.descriptors",
+      "relationship": "depends_on"
+    },
+    {
+      "from": "foundation.prototype",
+      "to": "foundation.methods",
+      "relationship": "depends_on"
+    }
+  ],
+  "execution_order": [
+    "foundation.mimetypearray",
+    "foundation.pluginarray",
+    "foundation.cross_reference",
+    "foundation.prototype",
+    "foundation.methods",
+    "foundation.descriptors"
+  ],
+  "cycle_detected": false
+}

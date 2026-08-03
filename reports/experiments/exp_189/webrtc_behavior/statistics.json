@@ -1,0 +1,26 @@
+{
+  "constructor_available": true,
+  "local_peer_connections_created": 2,
+  "configuration_properties": 8,
+  "state_count": 9,
+  "observed_ice_gathering_states": [
+    "new",
+    "new"
+  ],
+  "event_properties": 5,
+  "offer_resolved": true,
+  "answer_resolved": true,
+  "answer_without_remote_outcome": "rejected",
+  "datachannel_created": true,
+  "datachannel_send_invoked": false,
+  "promise_count": 3,
+  "exception_count": 6,
+  "event_supported_count": 5,
+  "offer_fields": 2,
+  "answer_fields": 2,
+  "browser_launches": 1,
+  "network_requests": 0,
+  "capture_status": "SUCCESS",
+  "capture_error": null,
+  "fingerprint_sha256": "931a660e5d918c7ed179874f22f620faedb8058b6301a78e6ed7360335ece280"
+}

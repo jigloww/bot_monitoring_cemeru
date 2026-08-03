@@ -1,0 +1,11 @@
+{
+  "real_artifact_count": 10,
+  "comparator_artifact_count": 9,
+  "real_hash_matches": 10,
+  "comparator_hash_matches": 9,
+  "validation_checks": 13,
+  "browser_launches": 1,
+  "network_requests": 0,
+  "fresh_capture": true,
+  "real_identity_fields": 0
+}

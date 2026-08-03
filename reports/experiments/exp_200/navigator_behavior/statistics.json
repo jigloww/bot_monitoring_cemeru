@@ -1,0 +1,19 @@
+{
+  "runtime_value_count": 12,
+  "getter_count": 31,
+  "getter_stable_count": 31,
+  "getter_illegal_throw_count": 31,
+  "prototype_property_count": 37,
+  "method_count": 5,
+  "native_method_count": 11,
+  "subapi_count": 4,
+  "available_subapi_count": 4,
+  "enumeration_key_count": 0,
+  "identity_checks": 5,
+  "exception_checks": 3,
+  "browser_launches": 1,
+  "network_requests": 0,
+  "capture_status": "SUCCESS",
+  "capture_error": null,
+  "fingerprint_sha256": "252a24b92a80f69764edd0c76eafbbfc858923155259b10da2e9e4325e32a746"
+}

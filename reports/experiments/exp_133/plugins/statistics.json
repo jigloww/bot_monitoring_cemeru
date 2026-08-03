@@ -1,0 +1,15 @@
+{
+  "plugin_count": 5,
+  "mime_type_count": 2,
+  "property_count": 14,
+  "method_count": 11,
+  "descriptor_count": 11,
+  "cross_reference_mismatches": 0,
+  "bidirectional_integrity": true,
+  "native_method_count": 5,
+  "browser_started": true,
+  "navigation_succeeded": true,
+  "browser_launches": 1,
+  "network_requests": 1,
+  "capture_status": "SUCCESS"
+}

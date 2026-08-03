@@ -1,0 +1,507 @@
+{
+  "exists": true,
+  "typeof": "object",
+  "constructor": "PluginArray",
+  "toString": "[object PluginArray]",
+  "ownProperties": [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "Chrome PDF Viewer",
+    "Chromium PDF Viewer",
+    "Microsoft Edge PDF Viewer",
+    "PDF Viewer",
+    "WebKit built-in PDF"
+  ],
+  "prototypeChain": [
+    "PluginArray",
+    "PluginArray",
+    "Object"
+  ],
+  "length": 5,
+  "prototype": "PluginArray",
+  "inheritedProperties": [
+    "Symbol(Symbol.iterator)",
+    "Symbol(Symbol.toStringTag)",
+    "constructor",
+    "item",
+    "length",
+    "namedItem",
+    "refresh"
+  ],
+  "descriptors": {
+    "constructor": {
+      "configurable": true,
+      "enumerable": false,
+      "writable": true,
+      "hasGetter": false,
+      "hasSetter": false,
+      "valueType": "function",
+      "getterSource": null,
+      "setterSource": null,
+      "valueSource": "function PluginArray() { [native code] }"
+    },
+    "item": {
+      "configurable": true,
+      "enumerable": true,
+      "writable": true,
+      "hasGetter": false,
+      "hasSetter": false,
+      "valueType": "function",
+      "getterSource": null,
+      "setterSource": null,
+      "valueSource": "function item() { [native code] }"
+    },
+    "length": {
+      "configurable": true,
+      "enumerable": true,
+      "writable": null,
+      "hasGetter": true,
+      "hasSetter": false,
+      "valueType": null,
+      "getterSource": "function get length() { [native code] }",
+      "setterSource": null,
+      "valueSource": null
+    },
+    "namedItem": {
+      "configurable": true,
+      "enumerable": true,
+      "writable": true,
+      "hasGetter": false,
+      "hasSetter": false,
+      "valueType": "function",
+      "getterSource": null,
+      "setterSource": null,
+      "valueSource": "function namedItem() { [native code] }"
+    },
+    "refresh": {
+      "configurable": true,
+      "enumerable": true,
+      "writable": true,
+      "hasGetter": false,
+      "hasSetter": false,
+      "valueType": "function",
+      "getterSource": null,
+      "setterSource": null,
+      "valueSource": "function refresh() { [native code] }"
+    }
+  },
+  "methods": {
+    "entries": {
+      "available": false,
+      "typeof": "undefined",
+      "source": null,
+      "nativeSource": false,
+      "descriptor": null
+    },
+    "item": {
+      "available": true,
+      "typeof": "function",
+      "source": "function item() { [native code] }",
+      "nativeSource": true,
+      "descriptor": {
+        "configurable": true,
+        "enumerable": true,
+        "writable": true,
+        "hasGetter": false,
+        "hasSetter": false,
+        "valueType": "function",
+        "getterSource": null,
+        "setterSource": null,
+        "valueSource": "function item() { [native code] }"
+      }
+    },
+    "keys": {
+      "available": false,
+      "typeof": "undefined",
+      "source": null,
+      "nativeSource": false,
+      "descriptor": null
+    },
+    "namedItem": {
+      "available": true,
+      "typeof": "function",
+      "source": "function namedItem() { [native code] }",
+      "nativeSource": true,
+      "descriptor": {
+        "configurable": true,
+        "enumerable": true,
+        "writable": true,
+        "hasGetter": false,
+        "hasSetter": false,
+        "valueType": "function",
+        "getterSource": null,
+        "setterSource": null,
+        "valueSource": "function namedItem() { [native code] }"
+      }
+    },
+    "refresh": {
+      "available": true,
+      "typeof": "function",
+      "source": "function refresh() { [native code] }",
+      "nativeSource": true,
+      "descriptor": {
+        "configurable": true,
+        "enumerable": true,
+        "writable": true,
+        "hasGetter": false,
+        "hasSetter": false,
+        "valueType": "function",
+        "getterSource": null,
+        "setterSource": null,
+        "valueSource": "function refresh() { [native code] }"
+      }
+    },
+    "values": {
+      "available": false,
+      "typeof": "undefined",
+      "source": null,
+      "nativeSource": false,
+      "descriptor": null
+    }
+  },
+  "illegalInvocation": {
+    "entries": null,
+    "item": true,
+    "keys": null,
+    "namedItem": true,
+    "refresh": true,
+    "values": null
+  },
+  "instanceof": true,
+  "symbolToStringTag": {
+    "configurable": true,
+    "enumerable": false,
+    "writable": false,
+    "hasGetter": false,
+    "hasSetter": false,
+    "valueType": "string",
+    "getterSource": null,
+    "setterSource": null,
+    "valueSource": null
+  },
+  "items": [
+    {
+      "index": 0,
+      "name": "PDF Viewer",
+      "filename": "internal-pdf-viewer",
+      "description": "Portable Document Format",
+      "length": 2,
+      "ownProperties": [
+        "0",
+        "1",
+        "application/pdf",
+        "text/pdf"
+      ],
+      "prototype": "PluginArray",
+      "descriptors": {
+        "0": {
+          "configurable": true,
+          "enumerable": true,
+          "writable": false,
+          "hasGetter": false,
+          "hasSetter": false,
+          "valueType": "object",
+          "getterSource": null,
+          "setterSource": null,
+          "valueSource": null
+        },
+        "1": {
+          "configurable": true,
+          "enumerable": true,
+          "writable": false,
+          "hasGetter": false,
+          "hasSetter": false,
+          "valueType": "object",
+          "getterSource": null,
+          "setterSource": null,
+          "valueSource": null
+        },
+        "application/pdf": {
+          "configurable": true,
+          "enumerable": false,
+          "writable": false,
+          "hasGetter": false,
+          "hasSetter": false,
+          "valueType": "object",
+          "getterSource": null,
+          "setterSource": null,
+          "valueSource": null
+        },
+        "text/pdf": {
+          "configurable": true,
+          "enumerable": false,
+          "writable": false,
+          "hasGetter": false,
+          "hasSetter": false,
+          "valueType": "object",
+          "getterSource": null,
+          "setterSource": null,
+          "valueSource": null
+        }
+      },
+      "mimeTypes": [
+        "application/pdf",
+        "text/pdf"
+      ]
+    },
+    {
+      "index": 1,
+      "name": "Chrome PDF Viewer",
+      "filename": "internal-pdf-viewer",
+      "description": "Portable Document Format",
+      "length": 2,
+      "ownProperties": [
+        "0",
+        "1",
+        "application/pdf",
+        "text/pdf"
+      ],
+      "prototype": "PluginArray",
+      "descriptors": {
+        "0": {
+          "configurable": true,
+          "enumerable": true,
+          "writable": false,
+          "hasGetter": false,
+          "hasSetter": false,
+          "valueType": "object",
+          "getterSource": null,
+          "setterSource": null,
+          "valueSource": null
+        },
+        "1": {
+          "configurable": true,
+          "enumerable": true,
+          "writable": false,
+          "hasGetter": false,
+          "hasSetter": false,
+          "valueType": "object",
+          "getterSource": null,
+          "setterSource": null,
+          "valueSource": null
+        },
+        "application/pdf": {
+          "configurable": true,
+          "enumerable": false,
+          "writable": false,
+          "hasGetter": false,
+          "hasSetter": false,
+          "valueType": "object",
+          "getterSource": null,
+          "setterSource": null,
+          "valueSource": null
+        },
+        "text/pdf": {
+          "configurable": true,
+          "enumerable": false,
+          "writable": false,
+          "hasGetter": false,
+          "hasSetter": false,
+          "valueType": "object",
+          "getterSource": null,
+          "setterSource": null,
+          "valueSource": null
+        }
+      },
+      "mimeTypes": [
+        "application/pdf",
+        "text/pdf"
+      ]
+    },
+    {
+      "index": 2,
+      "name": "Chromium PDF Viewer",
+      "filename": "internal-pdf-viewer",
+      "description": "Portable Document Format",
+      "length": 2,
+      "ownProperties": [
+        "0",
+        "1",
+        "application/pdf",
+        "text/pdf"
+      ],
+      "prototype": "PluginArray",
+      "descriptors": {
+        "0": {
+          "configurable": true,
+          "enumerable": true,
+          "writable": false,
+          "hasGetter": false,
+          "hasSetter": false,
+          "valueType": "object",
+          "getterSource": null,
+          "setterSource": null,
+          "valueSource": null
+        },
+        "1": {
+          "configurable": true,
+          "enumerable": true,
+          "writable": false,
+          "hasGetter": false,
+          "hasSetter": false,
+          "valueType": "object",
+          "getterSource": null,
+          "setterSource": null,
+          "valueSource": null
+        },
+        "application/pdf": {
+          "configurable": true,
+          "enumerable": false,
+          "writable": false,
+          "hasGetter": false,
+          "hasSetter": false,
+          "valueType": "object",
+          "getterSource": null,
+          "setterSource": null,
+          "valueSource": null
+        },
+        "text/pdf": {
+          "configurable": true,
+          "enumerable": false,
+          "writable": false,
+          "hasGetter": false,
+          "hasSetter": false,
+          "valueType": "object",
+          "getterSource": null,
+          "setterSource": null,
+          "valueSource": null
+        }
+      },
+      "mimeTypes": [
+        "application/pdf",
+        "text/pdf"
+      ]
+    },
+    {
+      "index": 3,
+      "name": "Microsoft Edge PDF Viewer",
+      "filename": "internal-pdf-viewer",
+      "description": "Portable Document Format",
+      "length": 2,
+      "ownProperties": [
+        "0",
+        "1",
+        "application/pdf",
+        "text/pdf"
+      ],
+      "prototype": "PluginArray",
+      "descriptors": {
+        "0": {
+          "configurable": true,
+          "enumerable": true,
+          "writable": false,
+          "hasGetter": false,
+          "hasSetter": false,
+          "valueType": "object",
+          "getterSource": null,
+          "setterSource": null,
+          "valueSource": null
+        },
+        "1": {
+          "configurable": true,
+          "enumerable": true,
+          "writable": false,
+          "hasGetter": false,
+          "hasSetter": false,
+          "valueType": "object",
+          "getterSource": null,
+          "setterSource": null,
+          "valueSource": null
+        },
+        "application/pdf": {
+          "configurable": true,
+          "enumerable": false,
+          "writable": false,
+          "hasGetter": false,
+          "hasSetter": false,
+          "valueType": "object",
+          "getterSource": null,
+          "setterSource": null,
+          "valueSource": null
+        },
+        "text/pdf": {
+          "configurable": true,
+          "enumerable": false,
+          "writable": false,
+          "hasGetter": false,
+          "hasSetter": false,
+          "valueType": "object",
+          "getterSource": null,
+          "setterSource": null,
+          "valueSource": null
+        }
+      },
+      "mimeTypes": [
+        "application/pdf",
+        "text/pdf"
+      ]
+    },
+    {
+      "index": 4,
+      "name": "WebKit built-in PDF",
+      "filename": "internal-pdf-viewer",
+      "description": "Portable Document Format",
+      "length": 2,
+      "ownProperties": [
+        "0",
+        "1",
+        "application/pdf",
+        "text/pdf"
+      ],
+      "prototype": "PluginArray",
+      "descriptors": {
+        "0": {
+          "configurable": true,
+          "enumerable": true,
+          "writable": false,
+          "hasGetter": false,
+          "hasSetter": false,
+          "valueType": "object",
+          "getterSource": null,
+          "setterSource": null,
+          "valueSource": null
+        },
+        "1": {
+          "configurable": true,
+          "enumerable": true,
+          "writable": false,
+          "hasGetter": false,
+          "hasSetter": false,
+          "valueType": "object",
+          "getterSource": null,
+          "setterSource": null,
+          "valueSource": null
+        },
+        "application/pdf": {
+          "configurable": true,
+          "enumerable": false,
+          "writable": false,
+          "hasGetter": false,
+          "hasSetter": false,
+          "valueType": "object",
+          "getterSource": null,
+          "setterSource": null,
+          "valueSource": null
+        },
+        "text/pdf": {
+          "configurable": true,
+          "enumerable": false,
+          "writable": false,
+          "hasGetter": false,
+          "hasSetter": false,
+          "valueType": "object",
+          "getterSource": null,
+          "setterSource": null,
+          "valueSource": null
+        }
+      },
+      "mimeTypes": [
+        "application/pdf",
+        "text/pdf"
+      ]
+    }
+  ]
+}

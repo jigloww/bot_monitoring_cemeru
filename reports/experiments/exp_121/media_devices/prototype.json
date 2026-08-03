@@ -1,0 +1,64 @@
+{
+  "navigator": {
+    "exists": true,
+    "typeof": "object",
+    "constructor": "Navigator",
+    "prototype": "Navigator",
+    "ownProperties": [],
+    "mediaDevicesDescriptor": {
+      "configurable": true,
+      "enumerable": true,
+      "writable": null,
+      "hasGetter": true,
+      "hasSetter": false,
+      "valueType": null,
+      "getterSource": "function get mediaDevices() { [native code] }",
+      "setterSource": null,
+      "valueSource": null
+    }
+  },
+  "mediaDevices": {
+    "exists": true,
+    "typeof": "object",
+    "constructor": "MediaDevices",
+    "prototype": "MediaDevices",
+    "ownProperties": [],
+    "prototypeProperties": [
+      "Symbol(Symbol.toStringTag)",
+      "constructor",
+      "enumerateDevices",
+      "getDisplayMedia",
+      "getSupportedConstraints",
+      "getUserMedia",
+      "ondevicechange",
+      "setCaptureHandleConfig"
+    ],
+    "prototypeChain": [
+      "MediaDevices",
+      "MediaDevices",
+      "EventTarget",
+      "Object"
+    ],
+    "instanceof": true,
+    "toStringTag": "[object MediaDevices]",
+    "toStringTagDescriptor": {
+      "configurable": true,
+      "enumerable": false,
+      "writable": false,
+      "hasGetter": false,
+      "hasSetter": false,
+      "valueType": "string",
+      "getterSource": null,
+      "setterSource": null,
+      "valueSource": null
+    }
+  },
+  "permissionApi": {
+    "available": true,
+    "prototype": [
+      "Permissions",
+      "Permissions",
+      "Object"
+    ]
+  }
+}

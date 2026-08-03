@@ -1,0 +1,2135 @@
+[
+  {
+    "path": "methods.mime_prototypes.0.constructor.available",
+    "category": "Methods",
+    "status": "MISSING",
+    "real": true,
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "methods.mime_prototypes.0.constructor.descriptor.configurable",
+    "category": "Methods",
+    "status": "MISSING",
+    "real": true,
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "methods.mime_prototypes.0.constructor.descriptor.enumerable",
+    "category": "Methods",
+    "status": "MISSING",
+    "real": false,
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "methods.mime_prototypes.0.constructor.descriptor.getterSource",
+    "category": "Methods",
+    "status": "MISSING",
+    "real": null,
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "methods.mime_prototypes.0.constructor.descriptor.hasGetter",
+    "category": "Methods",
+    "status": "MISSING",
+    "real": false,
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "methods.mime_prototypes.0.constructor.descriptor.hasSetter",
+    "category": "Methods",
+    "status": "MISSING",
+    "real": false,
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "methods.mime_prototypes.0.constructor.descriptor.setterSource",
+    "category": "Methods",
+    "status": "MISSING",
+    "real": null,
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "methods.mime_prototypes.0.constructor.descriptor.valueSource",
+    "category": "Methods",
+    "status": "MISSING",
+    "real": "function MimeType() { [native code] }",
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "methods.mime_prototypes.0.constructor.descriptor.valueType",
+    "category": "Methods",
+    "status": "MISSING",
+    "real": "function",
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "methods.mime_prototypes.0.constructor.descriptor.writable",
+    "category": "Methods",
+    "status": "MISSING",
+    "real": true,
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "methods.mime_prototypes.0.constructor.nativeSource",
+    "category": "Methods",
+    "status": "MISSING",
+    "real": true,
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "methods.mime_prototypes.0.constructor.source",
+    "category": "Methods",
+    "status": "MISSING",
+    "real": "function MimeType() { [native code] }",
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "methods.mime_prototypes.0.constructor.typeof",
+    "category": "Methods",
+    "status": "MISSING",
+    "real": "function",
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "methods.mime_prototypes.1.constructor.available",
+    "category": "Methods",
+    "status": "MISSING",
+    "real": true,
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "methods.mime_prototypes.1.constructor.descriptor.configurable",
+    "category": "Methods",
+    "status": "MISSING",
+    "real": true,
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "methods.mime_prototypes.1.constructor.descriptor.enumerable",
+    "category": "Methods",
+    "status": "MISSING",
+    "real": false,
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "methods.mime_prototypes.1.constructor.descriptor.getterSource",
+    "category": "Methods",
+    "status": "MISSING",
+    "real": null,
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "methods.mime_prototypes.1.constructor.descriptor.hasGetter",
+    "category": "Methods",
+    "status": "MISSING",
+    "real": false,
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "methods.mime_prototypes.1.constructor.descriptor.hasSetter",
+    "category": "Methods",
+    "status": "MISSING",
+    "real": false,
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "methods.mime_prototypes.1.constructor.descriptor.setterSource",
+    "category": "Methods",
+    "status": "MISSING",
+    "real": null,
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "methods.mime_prototypes.1.constructor.descriptor.valueSource",
+    "category": "Methods",
+    "status": "MISSING",
+    "real": "function MimeType() { [native code] }",
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "methods.mime_prototypes.1.constructor.descriptor.valueType",
+    "category": "Methods",
+    "status": "MISSING",
+    "real": "function",
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "methods.mime_prototypes.1.constructor.descriptor.writable",
+    "category": "Methods",
+    "status": "MISSING",
+    "real": true,
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "methods.mime_prototypes.1.constructor.nativeSource",
+    "category": "Methods",
+    "status": "MISSING",
+    "real": true,
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "methods.mime_prototypes.1.constructor.source",
+    "category": "Methods",
+    "status": "MISSING",
+    "real": "function MimeType() { [native code] }",
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "methods.mime_prototypes.1.constructor.typeof",
+    "category": "Methods",
+    "status": "MISSING",
+    "real": "function",
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "methods.plugin_prototypes.0.constructor.available",
+    "category": "Methods",
+    "status": "MISSING",
+    "real": true,
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "methods.plugin_prototypes.0.constructor.descriptor.configurable",
+    "category": "Methods",
+    "status": "MISSING",
+    "real": true,
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "methods.plugin_prototypes.0.constructor.descriptor.enumerable",
+    "category": "Methods",
+    "status": "MISSING",
+    "real": false,
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "methods.plugin_prototypes.0.constructor.descriptor.getterSource",
+    "category": "Methods",
+    "status": "MISSING",
+    "real": null,
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "methods.plugin_prototypes.0.constructor.descriptor.hasGetter",
+    "category": "Methods",
+    "status": "MISSING",
+    "real": false,
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "methods.plugin_prototypes.0.constructor.descriptor.hasSetter",
+    "category": "Methods",
+    "status": "MISSING",
+    "real": false,
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "methods.plugin_prototypes.0.constructor.descriptor.setterSource",
+    "category": "Methods",
+    "status": "MISSING",
+    "real": null,
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "methods.plugin_prototypes.0.constructor.descriptor.valueSource",
+    "category": "Methods",
+    "status": "MISSING",
+    "real": "function Plugin() { [native code] }",
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "methods.plugin_prototypes.0.constructor.descriptor.valueType",
+    "category": "Methods",
+    "status": "MISSING",
+    "real": "function",
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "methods.plugin_prototypes.0.constructor.descriptor.writable",
+    "category": "Methods",
+    "status": "MISSING",
+    "real": true,
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "methods.plugin_prototypes.0.constructor.nativeSource",
+    "category": "Methods",
+    "status": "MISSING",
+    "real": true,
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "methods.plugin_prototypes.0.constructor.source",
+    "category": "Methods",
+    "status": "MISSING",
+    "real": "function Plugin() { [native code] }",
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "methods.plugin_prototypes.0.constructor.typeof",
+    "category": "Methods",
+    "status": "MISSING",
+    "real": "function",
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "methods.plugin_prototypes.0.item.available",
+    "category": "Methods",
+    "status": "MISSING",
+    "real": true,
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "methods.plugin_prototypes.0.item.descriptor.configurable",
+    "category": "Methods",
+    "status": "MISSING",
+    "real": true,
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "methods.plugin_prototypes.0.item.descriptor.enumerable",
+    "category": "Methods",
+    "status": "MISSING",
+    "real": true,
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "methods.plugin_prototypes.0.item.descriptor.getterSource",
+    "category": "Methods",
+    "status": "MISSING",
+    "real": null,
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "methods.plugin_prototypes.0.item.descriptor.hasGetter",
+    "category": "Methods",
+    "status": "MISSING",
+    "real": false,
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "methods.plugin_prototypes.0.item.descriptor.hasSetter",
+    "category": "Methods",
+    "status": "MISSING",
+    "real": false,
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "methods.plugin_prototypes.0.item.descriptor.setterSource",
+    "category": "Methods",
+    "status": "MISSING",
+    "real": null,
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "methods.plugin_prototypes.0.item.descriptor.valueSource",
+    "category": "Methods",
+    "status": "MISSING",
+    "real": "function item() { [native code] }",
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "methods.plugin_prototypes.0.item.descriptor.valueType",
+    "category": "Methods",
+    "status": "MISSING",
+    "real": "function",
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "methods.plugin_prototypes.0.item.descriptor.writable",
+    "category": "Methods",
+    "status": "MISSING",
+    "real": true,
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "methods.plugin_prototypes.0.item.nativeSource",
+    "category": "Methods",
+    "status": "MISSING",
+    "real": true,
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "methods.plugin_prototypes.0.item.source",
+    "category": "Methods",
+    "status": "MISSING",
+    "real": "function item() { [native code] }",
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "methods.plugin_prototypes.0.item.typeof",
+    "category": "Methods",
+    "status": "MISSING",
+    "real": "function",
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "methods.plugin_prototypes.0.namedItem.available",
+    "category": "Methods",
+    "status": "MISSING",
+    "real": true,
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "methods.plugin_prototypes.0.namedItem.descriptor.configurable",
+    "category": "Methods",
+    "status": "MISSING",
+    "real": true,
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "methods.plugin_prototypes.0.namedItem.descriptor.enumerable",
+    "category": "Methods",
+    "status": "MISSING",
+    "real": true,
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "methods.plugin_prototypes.0.namedItem.descriptor.getterSource",
+    "category": "Methods",
+    "status": "MISSING",
+    "real": null,
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "methods.plugin_prototypes.0.namedItem.descriptor.hasGetter",
+    "category": "Methods",
+    "status": "MISSING",
+    "real": false,
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "methods.plugin_prototypes.0.namedItem.descriptor.hasSetter",
+    "category": "Methods",
+    "status": "MISSING",
+    "real": false,
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "methods.plugin_prototypes.0.namedItem.descriptor.setterSource",
+    "category": "Methods",
+    "status": "MISSING",
+    "real": null,
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "methods.plugin_prototypes.0.namedItem.descriptor.valueSource",
+    "category": "Methods",
+    "status": "MISSING",
+    "real": "function namedItem() { [native code] }",
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "methods.plugin_prototypes.0.namedItem.descriptor.valueType",
+    "category": "Methods",
+    "status": "MISSING",
+    "real": "function",
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "methods.plugin_prototypes.0.namedItem.descriptor.writable",
+    "category": "Methods",
+    "status": "MISSING",
+    "real": true,
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "methods.plugin_prototypes.0.namedItem.nativeSource",
+    "category": "Methods",
+    "status": "MISSING",
+    "real": true,
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "methods.plugin_prototypes.0.namedItem.source",
+    "category": "Methods",
+    "status": "MISSING",
+    "real": "function namedItem() { [native code] }",
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "methods.plugin_prototypes.0.namedItem.typeof",
+    "category": "Methods",
+    "status": "MISSING",
+    "real": "function",
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "methods.plugin_prototypes.1.constructor.available",
+    "category": "Methods",
+    "status": "MISSING",
+    "real": true,
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "methods.plugin_prototypes.1.constructor.descriptor.configurable",
+    "category": "Methods",
+    "status": "MISSING",
+    "real": true,
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "methods.plugin_prototypes.1.constructor.descriptor.enumerable",
+    "category": "Methods",
+    "status": "MISSING",
+    "real": false,
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "methods.plugin_prototypes.1.constructor.descriptor.getterSource",
+    "category": "Methods",
+    "status": "MISSING",
+    "real": null,
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "methods.plugin_prototypes.1.constructor.descriptor.hasGetter",
+    "category": "Methods",
+    "status": "MISSING",
+    "real": false,
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "methods.plugin_prototypes.1.constructor.descriptor.hasSetter",
+    "category": "Methods",
+    "status": "MISSING",
+    "real": false,
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "methods.plugin_prototypes.1.constructor.descriptor.setterSource",
+    "category": "Methods",
+    "status": "MISSING",
+    "real": null,
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "methods.plugin_prototypes.1.constructor.descriptor.valueSource",
+    "category": "Methods",
+    "status": "MISSING",
+    "real": "function Plugin() { [native code] }",
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "methods.plugin_prototypes.1.constructor.descriptor.valueType",
+    "category": "Methods",
+    "status": "MISSING",
+    "real": "function",
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "methods.plugin_prototypes.1.constructor.descriptor.writable",
+    "category": "Methods",
+    "status": "MISSING",
+    "real": true,
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "methods.plugin_prototypes.1.constructor.nativeSource",
+    "category": "Methods",
+    "status": "MISSING",
+    "real": true,
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "methods.plugin_prototypes.1.constructor.source",
+    "category": "Methods",
+    "status": "MISSING",
+    "real": "function Plugin() { [native code] }",
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "methods.plugin_prototypes.1.constructor.typeof",
+    "category": "Methods",
+    "status": "MISSING",
+    "real": "function",
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "methods.plugin_prototypes.1.item.available",
+    "category": "Methods",
+    "status": "MISSING",
+    "real": true,
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "methods.plugin_prototypes.1.item.descriptor.configurable",
+    "category": "Methods",
+    "status": "MISSING",
+    "real": true,
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "methods.plugin_prototypes.1.item.descriptor.enumerable",
+    "category": "Methods",
+    "status": "MISSING",
+    "real": true,
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "methods.plugin_prototypes.1.item.descriptor.getterSource",
+    "category": "Methods",
+    "status": "MISSING",
+    "real": null,
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "methods.plugin_prototypes.1.item.descriptor.hasGetter",
+    "category": "Methods",
+    "status": "MISSING",
+    "real": false,
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "methods.plugin_prototypes.1.item.descriptor.hasSetter",
+    "category": "Methods",
+    "status": "MISSING",
+    "real": false,
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "methods.plugin_prototypes.1.item.descriptor.setterSource",
+    "category": "Methods",
+    "status": "MISSING",
+    "real": null,
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "methods.plugin_prototypes.1.item.descriptor.valueSource",
+    "category": "Methods",
+    "status": "MISSING",
+    "real": "function item() { [native code] }",
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "methods.plugin_prototypes.1.item.descriptor.valueType",
+    "category": "Methods",
+    "status": "MISSING",
+    "real": "function",
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "methods.plugin_prototypes.1.item.descriptor.writable",
+    "category": "Methods",
+    "status": "MISSING",
+    "real": true,
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "methods.plugin_prototypes.1.item.nativeSource",
+    "category": "Methods",
+    "status": "MISSING",
+    "real": true,
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "methods.plugin_prototypes.1.item.source",
+    "category": "Methods",
+    "status": "MISSING",
+    "real": "function item() { [native code] }",
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "methods.plugin_prototypes.1.item.typeof",
+    "category": "Methods",
+    "status": "MISSING",
+    "real": "function",
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "methods.plugin_prototypes.1.namedItem.available",
+    "category": "Methods",
+    "status": "MISSING",
+    "real": true,
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "methods.plugin_prototypes.1.namedItem.descriptor.configurable",
+    "category": "Methods",
+    "status": "MISSING",
+    "real": true,
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "methods.plugin_prototypes.1.namedItem.descriptor.enumerable",
+    "category": "Methods",
+    "status": "MISSING",
+    "real": true,
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "methods.plugin_prototypes.1.namedItem.descriptor.getterSource",
+    "category": "Methods",
+    "status": "MISSING",
+    "real": null,
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "methods.plugin_prototypes.1.namedItem.descriptor.hasGetter",
+    "category": "Methods",
+    "status": "MISSING",
+    "real": false,
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "methods.plugin_prototypes.1.namedItem.descriptor.hasSetter",
+    "category": "Methods",
+    "status": "MISSING",
+    "real": false,
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "methods.plugin_prototypes.1.namedItem.descriptor.setterSource",
+    "category": "Methods",
+    "status": "MISSING",
+    "real": null,
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "methods.plugin_prototypes.1.namedItem.descriptor.valueSource",
+    "category": "Methods",
+    "status": "MISSING",
+    "real": "function namedItem() { [native code] }",
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "methods.plugin_prototypes.1.namedItem.descriptor.valueType",
+    "category": "Methods",
+    "status": "MISSING",
+    "real": "function",
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "methods.plugin_prototypes.1.namedItem.descriptor.writable",
+    "category": "Methods",
+    "status": "MISSING",
+    "real": true,
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "methods.plugin_prototypes.1.namedItem.nativeSource",
+    "category": "Methods",
+    "status": "MISSING",
+    "real": true,
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "methods.plugin_prototypes.1.namedItem.source",
+    "category": "Methods",
+    "status": "MISSING",
+    "real": "function namedItem() { [native code] }",
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "methods.plugin_prototypes.1.namedItem.typeof",
+    "category": "Methods",
+    "status": "MISSING",
+    "real": "function",
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "methods.plugin_prototypes.2.constructor.available",
+    "category": "Methods",
+    "status": "MISSING",
+    "real": true,
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "methods.plugin_prototypes.2.constructor.descriptor.configurable",
+    "category": "Methods",
+    "status": "MISSING",
+    "real": true,
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "methods.plugin_prototypes.2.constructor.descriptor.enumerable",
+    "category": "Methods",
+    "status": "MISSING",
+    "real": false,
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "methods.plugin_prototypes.2.constructor.descriptor.getterSource",
+    "category": "Methods",
+    "status": "MISSING",
+    "real": null,
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "methods.plugin_prototypes.2.constructor.descriptor.hasGetter",
+    "category": "Methods",
+    "status": "MISSING",
+    "real": false,
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "methods.plugin_prototypes.2.constructor.descriptor.hasSetter",
+    "category": "Methods",
+    "status": "MISSING",
+    "real": false,
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "methods.plugin_prototypes.2.constructor.descriptor.setterSource",
+    "category": "Methods",
+    "status": "MISSING",
+    "real": null,
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "methods.plugin_prototypes.2.constructor.descriptor.valueSource",
+    "category": "Methods",
+    "status": "MISSING",
+    "real": "function Plugin() { [native code] }",
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "methods.plugin_prototypes.2.constructor.descriptor.valueType",
+    "category": "Methods",
+    "status": "MISSING",
+    "real": "function",
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "methods.plugin_prototypes.2.constructor.descriptor.writable",
+    "category": "Methods",
+    "status": "MISSING",
+    "real": true,
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "methods.plugin_prototypes.2.constructor.nativeSource",
+    "category": "Methods",
+    "status": "MISSING",
+    "real": true,
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "methods.plugin_prototypes.2.constructor.source",
+    "category": "Methods",
+    "status": "MISSING",
+    "real": "function Plugin() { [native code] }",
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "methods.plugin_prototypes.2.constructor.typeof",
+    "category": "Methods",
+    "status": "MISSING",
+    "real": "function",
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "methods.plugin_prototypes.2.item.available",
+    "category": "Methods",
+    "status": "MISSING",
+    "real": true,
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "methods.plugin_prototypes.2.item.descriptor.configurable",
+    "category": "Methods",
+    "status": "MISSING",
+    "real": true,
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "methods.plugin_prototypes.2.item.descriptor.enumerable",
+    "category": "Methods",
+    "status": "MISSING",
+    "real": true,
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "methods.plugin_prototypes.2.item.descriptor.getterSource",
+    "category": "Methods",
+    "status": "MISSING",
+    "real": null,
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "methods.plugin_prototypes.2.item.descriptor.hasGetter",
+    "category": "Methods",
+    "status": "MISSING",
+    "real": false,
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "methods.plugin_prototypes.2.item.descriptor.hasSetter",
+    "category": "Methods",
+    "status": "MISSING",
+    "real": false,
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "methods.plugin_prototypes.2.item.descriptor.setterSource",
+    "category": "Methods",
+    "status": "MISSING",
+    "real": null,
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "methods.plugin_prototypes.2.item.descriptor.valueSource",
+    "category": "Methods",
+    "status": "MISSING",
+    "real": "function item() { [native code] }",
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "methods.plugin_prototypes.2.item.descriptor.valueType",
+    "category": "Methods",
+    "status": "MISSING",
+    "real": "function",
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "methods.plugin_prototypes.2.item.descriptor.writable",
+    "category": "Methods",
+    "status": "MISSING",
+    "real": true,
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "methods.plugin_prototypes.2.item.nativeSource",
+    "category": "Methods",
+    "status": "MISSING",
+    "real": true,
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "methods.plugin_prototypes.2.item.source",
+    "category": "Methods",
+    "status": "MISSING",
+    "real": "function item() { [native code] }",
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "methods.plugin_prototypes.2.item.typeof",
+    "category": "Methods",
+    "status": "MISSING",
+    "real": "function",
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "methods.plugin_prototypes.2.namedItem.available",
+    "category": "Methods",
+    "status": "MISSING",
+    "real": true,
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "methods.plugin_prototypes.2.namedItem.descriptor.configurable",
+    "category": "Methods",
+    "status": "MISSING",
+    "real": true,
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "methods.plugin_prototypes.2.namedItem.descriptor.enumerable",
+    "category": "Methods",
+    "status": "MISSING",
+    "real": true,
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "methods.plugin_prototypes.2.namedItem.descriptor.getterSource",
+    "category": "Methods",
+    "status": "MISSING",
+    "real": null,
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "methods.plugin_prototypes.2.namedItem.descriptor.hasGetter",
+    "category": "Methods",
+    "status": "MISSING",
+    "real": false,
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "methods.plugin_prototypes.2.namedItem.descriptor.hasSetter",
+    "category": "Methods",
+    "status": "MISSING",
+    "real": false,
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "methods.plugin_prototypes.2.namedItem.descriptor.setterSource",
+    "category": "Methods",
+    "status": "MISSING",
+    "real": null,
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "methods.plugin_prototypes.2.namedItem.descriptor.valueSource",
+    "category": "Methods",
+    "status": "MISSING",
+    "real": "function namedItem() { [native code] }",
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "methods.plugin_prototypes.2.namedItem.descriptor.valueType",
+    "category": "Methods",
+    "status": "MISSING",
+    "real": "function",
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "methods.plugin_prototypes.2.namedItem.descriptor.writable",
+    "category": "Methods",
+    "status": "MISSING",
+    "real": true,
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "methods.plugin_prototypes.2.namedItem.nativeSource",
+    "category": "Methods",
+    "status": "MISSING",
+    "real": true,
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "methods.plugin_prototypes.2.namedItem.source",
+    "category": "Methods",
+    "status": "MISSING",
+    "real": "function namedItem() { [native code] }",
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "methods.plugin_prototypes.2.namedItem.typeof",
+    "category": "Methods",
+    "status": "MISSING",
+    "real": "function",
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "methods.plugin_prototypes.3.constructor.available",
+    "category": "Methods",
+    "status": "MISSING",
+    "real": true,
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "methods.plugin_prototypes.3.constructor.descriptor.configurable",
+    "category": "Methods",
+    "status": "MISSING",
+    "real": true,
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "methods.plugin_prototypes.3.constructor.descriptor.enumerable",
+    "category": "Methods",
+    "status": "MISSING",
+    "real": false,
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "methods.plugin_prototypes.3.constructor.descriptor.getterSource",
+    "category": "Methods",
+    "status": "MISSING",
+    "real": null,
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "methods.plugin_prototypes.3.constructor.descriptor.hasGetter",
+    "category": "Methods",
+    "status": "MISSING",
+    "real": false,
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "methods.plugin_prototypes.3.constructor.descriptor.hasSetter",
+    "category": "Methods",
+    "status": "MISSING",
+    "real": false,
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "methods.plugin_prototypes.3.constructor.descriptor.setterSource",
+    "category": "Methods",
+    "status": "MISSING",
+    "real": null,
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "methods.plugin_prototypes.3.constructor.descriptor.valueSource",
+    "category": "Methods",
+    "status": "MISSING",
+    "real": "function Plugin() { [native code] }",
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "methods.plugin_prototypes.3.constructor.descriptor.valueType",
+    "category": "Methods",
+    "status": "MISSING",
+    "real": "function",
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "methods.plugin_prototypes.3.constructor.descriptor.writable",
+    "category": "Methods",
+    "status": "MISSING",
+    "real": true,
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "methods.plugin_prototypes.3.constructor.nativeSource",
+    "category": "Methods",
+    "status": "MISSING",
+    "real": true,
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "methods.plugin_prototypes.3.constructor.source",
+    "category": "Methods",
+    "status": "MISSING",
+    "real": "function Plugin() { [native code] }",
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "methods.plugin_prototypes.3.constructor.typeof",
+    "category": "Methods",
+    "status": "MISSING",
+    "real": "function",
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "methods.plugin_prototypes.3.item.available",
+    "category": "Methods",
+    "status": "MISSING",
+    "real": true,
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "methods.plugin_prototypes.3.item.descriptor.configurable",
+    "category": "Methods",
+    "status": "MISSING",
+    "real": true,
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "methods.plugin_prototypes.3.item.descriptor.enumerable",
+    "category": "Methods",
+    "status": "MISSING",
+    "real": true,
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "methods.plugin_prototypes.3.item.descriptor.getterSource",
+    "category": "Methods",
+    "status": "MISSING",
+    "real": null,
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "methods.plugin_prototypes.3.item.descriptor.hasGetter",
+    "category": "Methods",
+    "status": "MISSING",
+    "real": false,
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "methods.plugin_prototypes.3.item.descriptor.hasSetter",
+    "category": "Methods",
+    "status": "MISSING",
+    "real": false,
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "methods.plugin_prototypes.3.item.descriptor.setterSource",
+    "category": "Methods",
+    "status": "MISSING",
+    "real": null,
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "methods.plugin_prototypes.3.item.descriptor.valueSource",
+    "category": "Methods",
+    "status": "MISSING",
+    "real": "function item() { [native code] }",
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "methods.plugin_prototypes.3.item.descriptor.valueType",
+    "category": "Methods",
+    "status": "MISSING",
+    "real": "function",
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "methods.plugin_prototypes.3.item.descriptor.writable",
+    "category": "Methods",
+    "status": "MISSING",
+    "real": true,
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "methods.plugin_prototypes.3.item.nativeSource",
+    "category": "Methods",
+    "status": "MISSING",
+    "real": true,
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "methods.plugin_prototypes.3.item.source",
+    "category": "Methods",
+    "status": "MISSING",
+    "real": "function item() { [native code] }",
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "methods.plugin_prototypes.3.item.typeof",
+    "category": "Methods",
+    "status": "MISSING",
+    "real": "function",
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "methods.plugin_prototypes.3.namedItem.available",
+    "category": "Methods",
+    "status": "MISSING",
+    "real": true,
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "methods.plugin_prototypes.3.namedItem.descriptor.configurable",
+    "category": "Methods",
+    "status": "MISSING",
+    "real": true,
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "methods.plugin_prototypes.3.namedItem.descriptor.enumerable",
+    "category": "Methods",
+    "status": "MISSING",
+    "real": true,
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "methods.plugin_prototypes.3.namedItem.descriptor.getterSource",
+    "category": "Methods",
+    "status": "MISSING",
+    "real": null,
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "methods.plugin_prototypes.3.namedItem.descriptor.hasGetter",
+    "category": "Methods",
+    "status": "MISSING",
+    "real": false,
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "methods.plugin_prototypes.3.namedItem.descriptor.hasSetter",
+    "category": "Methods",
+    "status": "MISSING",
+    "real": false,
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "methods.plugin_prototypes.3.namedItem.descriptor.setterSource",
+    "category": "Methods",
+    "status": "MISSING",
+    "real": null,
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "methods.plugin_prototypes.3.namedItem.descriptor.valueSource",
+    "category": "Methods",
+    "status": "MISSING",
+    "real": "function namedItem() { [native code] }",
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "methods.plugin_prototypes.3.namedItem.descriptor.valueType",
+    "category": "Methods",
+    "status": "MISSING",
+    "real": "function",
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "methods.plugin_prototypes.3.namedItem.descriptor.writable",
+    "category": "Methods",
+    "status": "MISSING",
+    "real": true,
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "methods.plugin_prototypes.3.namedItem.nativeSource",
+    "category": "Methods",
+    "status": "MISSING",
+    "real": true,
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "methods.plugin_prototypes.3.namedItem.source",
+    "category": "Methods",
+    "status": "MISSING",
+    "real": "function namedItem() { [native code] }",
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "methods.plugin_prototypes.3.namedItem.typeof",
+    "category": "Methods",
+    "status": "MISSING",
+    "real": "function",
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "methods.plugin_prototypes.4.constructor.available",
+    "category": "Methods",
+    "status": "MISSING",
+    "real": true,
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "methods.plugin_prototypes.4.constructor.descriptor.configurable",
+    "category": "Methods",
+    "status": "MISSING",
+    "real": true,
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "methods.plugin_prototypes.4.constructor.descriptor.enumerable",
+    "category": "Methods",
+    "status": "MISSING",
+    "real": false,
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "methods.plugin_prototypes.4.constructor.descriptor.getterSource",
+    "category": "Methods",
+    "status": "MISSING",
+    "real": null,
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "methods.plugin_prototypes.4.constructor.descriptor.hasGetter",
+    "category": "Methods",
+    "status": "MISSING",
+    "real": false,
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "methods.plugin_prototypes.4.constructor.descriptor.hasSetter",
+    "category": "Methods",
+    "status": "MISSING",
+    "real": false,
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "methods.plugin_prototypes.4.constructor.descriptor.setterSource",
+    "category": "Methods",
+    "status": "MISSING",
+    "real": null,
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "methods.plugin_prototypes.4.constructor.descriptor.valueSource",
+    "category": "Methods",
+    "status": "MISSING",
+    "real": "function Plugin() { [native code] }",
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "methods.plugin_prototypes.4.constructor.descriptor.valueType",
+    "category": "Methods",
+    "status": "MISSING",
+    "real": "function",
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "methods.plugin_prototypes.4.constructor.descriptor.writable",
+    "category": "Methods",
+    "status": "MISSING",
+    "real": true,
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "methods.plugin_prototypes.4.constructor.nativeSource",
+    "category": "Methods",
+    "status": "MISSING",
+    "real": true,
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "methods.plugin_prototypes.4.constructor.source",
+    "category": "Methods",
+    "status": "MISSING",
+    "real": "function Plugin() { [native code] }",
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "methods.plugin_prototypes.4.constructor.typeof",
+    "category": "Methods",
+    "status": "MISSING",
+    "real": "function",
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "methods.plugin_prototypes.4.item.available",
+    "category": "Methods",
+    "status": "MISSING",
+    "real": true,
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "methods.plugin_prototypes.4.item.descriptor.configurable",
+    "category": "Methods",
+    "status": "MISSING",
+    "real": true,
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "methods.plugin_prototypes.4.item.descriptor.enumerable",
+    "category": "Methods",
+    "status": "MISSING",
+    "real": true,
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "methods.plugin_prototypes.4.item.descriptor.getterSource",
+    "category": "Methods",
+    "status": "MISSING",
+    "real": null,
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "methods.plugin_prototypes.4.item.descriptor.hasGetter",
+    "category": "Methods",
+    "status": "MISSING",
+    "real": false,
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "methods.plugin_prototypes.4.item.descriptor.hasSetter",
+    "category": "Methods",
+    "status": "MISSING",
+    "real": false,
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "methods.plugin_prototypes.4.item.descriptor.setterSource",
+    "category": "Methods",
+    "status": "MISSING",
+    "real": null,
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "methods.plugin_prototypes.4.item.descriptor.valueSource",
+    "category": "Methods",
+    "status": "MISSING",
+    "real": "function item() { [native code] }",
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "methods.plugin_prototypes.4.item.descriptor.valueType",
+    "category": "Methods",
+    "status": "MISSING",
+    "real": "function",
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "methods.plugin_prototypes.4.item.descriptor.writable",
+    "category": "Methods",
+    "status": "MISSING",
+    "real": true,
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "methods.plugin_prototypes.4.item.nativeSource",
+    "category": "Methods",
+    "status": "MISSING",
+    "real": true,
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "methods.plugin_prototypes.4.item.source",
+    "category": "Methods",
+    "status": "MISSING",
+    "real": "function item() { [native code] }",
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "methods.plugin_prototypes.4.item.typeof",
+    "category": "Methods",
+    "status": "MISSING",
+    "real": "function",
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "methods.plugin_prototypes.4.namedItem.available",
+    "category": "Methods",
+    "status": "MISSING",
+    "real": true,
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "methods.plugin_prototypes.4.namedItem.descriptor.configurable",
+    "category": "Methods",
+    "status": "MISSING",
+    "real": true,
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "methods.plugin_prototypes.4.namedItem.descriptor.enumerable",
+    "category": "Methods",
+    "status": "MISSING",
+    "real": true,
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "methods.plugin_prototypes.4.namedItem.descriptor.getterSource",
+    "category": "Methods",
+    "status": "MISSING",
+    "real": null,
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "methods.plugin_prototypes.4.namedItem.descriptor.hasGetter",
+    "category": "Methods",
+    "status": "MISSING",
+    "real": false,
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "methods.plugin_prototypes.4.namedItem.descriptor.hasSetter",
+    "category": "Methods",
+    "status": "MISSING",
+    "real": false,
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "methods.plugin_prototypes.4.namedItem.descriptor.setterSource",
+    "category": "Methods",
+    "status": "MISSING",
+    "real": null,
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "methods.plugin_prototypes.4.namedItem.descriptor.valueSource",
+    "category": "Methods",
+    "status": "MISSING",
+    "real": "function namedItem() { [native code] }",
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "methods.plugin_prototypes.4.namedItem.descriptor.valueType",
+    "category": "Methods",
+    "status": "MISSING",
+    "real": "function",
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "methods.plugin_prototypes.4.namedItem.descriptor.writable",
+    "category": "Methods",
+    "status": "MISSING",
+    "real": true,
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "methods.plugin_prototypes.4.namedItem.nativeSource",
+    "category": "Methods",
+    "status": "MISSING",
+    "real": true,
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "methods.plugin_prototypes.4.namedItem.source",
+    "category": "Methods",
+    "status": "MISSING",
+    "real": "function namedItem() { [native code] }",
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "methods.plugin_prototypes.4.namedItem.typeof",
+    "category": "Methods",
+    "status": "MISSING",
+    "real": "function",
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "prototype.mimeTypeArray.ownProperties",
+    "category": "Prototype",
+    "status": "ADDED",
+    "real": null,
+    "playwright": [],
+    "severity": "CRITICAL",
+    "reason": "The property exists in Playwright but is absent from the Real Browser baseline."
+  },
+  {
+    "path": "prototype.mimeTypeArray.ownProperties[0]",
+    "category": "Prototype",
+    "status": "MISSING",
+    "real": "0",
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "prototype.mimeTypeArray.ownProperties[1]",
+    "category": "Prototype",
+    "status": "MISSING",
+    "real": "1",
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "prototype.mimeTypeArray.ownProperties[2]",
+    "category": "Prototype",
+    "status": "MISSING",
+    "real": "application/pdf",
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "prototype.mimeTypeArray.ownProperties[3]",
+    "category": "Prototype",
+    "status": "MISSING",
+    "real": "text/pdf",
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "prototype.pluginArray.ownProperties",
+    "category": "Prototype",
+    "status": "ADDED",
+    "real": null,
+    "playwright": [],
+    "severity": "CRITICAL",
+    "reason": "The property exists in Playwright but is absent from the Real Browser baseline."
+  },
+  {
+    "path": "prototype.pluginArray.ownProperties[0]",
+    "category": "Prototype",
+    "status": "MISSING",
+    "real": "0",
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "prototype.pluginArray.ownProperties[1]",
+    "category": "Prototype",
+    "status": "MISSING",
+    "real": "1",
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "prototype.pluginArray.ownProperties[2]",
+    "category": "Prototype",
+    "status": "MISSING",
+    "real": "2",
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "prototype.pluginArray.ownProperties[3]",
+    "category": "Prototype",
+    "status": "MISSING",
+    "real": "3",
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "prototype.pluginArray.ownProperties[4]",
+    "category": "Prototype",
+    "status": "MISSING",
+    "real": "4",
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "prototype.pluginArray.ownProperties[5]",
+    "category": "Prototype",
+    "status": "MISSING",
+    "real": "Chrome PDF Viewer",
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "prototype.pluginArray.ownProperties[6]",
+    "category": "Prototype",
+    "status": "MISSING",
+    "real": "Chromium PDF Viewer",
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "prototype.pluginArray.ownProperties[7]",
+    "category": "Prototype",
+    "status": "MISSING",
+    "real": "Microsoft Edge PDF Viewer",
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "prototype.pluginArray.ownProperties[8]",
+    "category": "Prototype",
+    "status": "MISSING",
+    "real": "PDF Viewer",
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  },
+  {
+    "path": "prototype.pluginArray.ownProperties[9]",
+    "category": "Prototype",
+    "status": "MISSING",
+    "real": "WebKit built-in PDF",
+    "playwright": null,
+    "severity": "CRITICAL",
+    "reason": "The property exists in the Real Browser baseline but is absent from Playwright."
+  }
+]

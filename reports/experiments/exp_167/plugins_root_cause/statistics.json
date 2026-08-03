@@ -1,0 +1,124 @@
+{
+  "remaining_differences": 639,
+  "root_cause_count": 7,
+  "estimated_differences_removed": 638,
+  "status_distribution": {
+    "ADDED": 333,
+    "CHANGED": 89,
+    "MISSING": 217
+  },
+  "root_cause_distribution": {
+    "aggregate_fingerprint_mismatch": 1,
+    "cross_reference_inconsistency": 8,
+    "module_added_nonbaseline_surface": 333,
+    "module_missing_baseline_surface": 125,
+    "wrong_descriptor": 98,
+    "wrong_native_function_surface": 14,
+    "wrong_prototype_chain": 60
+  },
+  "severity_distribution": {
+    "CRITICAL": 638,
+    "HIGH": 1
+  },
+  "group_counts": {
+    "by_property": 639,
+    "by_object": 639,
+    "by_prototype": 638,
+    "by_descriptor": 489,
+    "by_method": 131,
+    "by_cross_reference": 18,
+    "by_plugin": 305,
+    "by_mimetype": 202
+  },
+  "estimated_similarity_gain": 3.3379,
+  "estimated_cloudflare_impact": 58.85,
+  "browser_launches": 0,
+  "network_requests": 0,
+  "cycle_detected": false,
+  "inputs_available": {
+    "real": true,
+    "compare": true,
+    "risk": true,
+    "evaluation": true
+  },
+  "input_hashes_before": {
+    "real": {
+      "navigator.json": "cb297f239216da392565a29648f6540b1264533259b8ffa9cd0b0aad0aa95c77",
+      "plugins.json": "a78dd985b9ff5ef5387237a4353d32f0c7de0d36fc1c28267a0594cf2cd33218",
+      "mime_types.json": "50ea8df3bd746c11509d313c8cdbd54eadf7d4d8fbc316261d4441a4f717a0b8",
+      "prototype.json": "63bd4a2b2a06868fa3162cbff89e208f32c315cde40aeff43018646bf442eaab",
+      "descriptors.json": "1363d78af0d84ebd120e38862f85e883679e7db43bb7f6d357a1f28517089129",
+      "methods.json": "75e290d303fdf89522b987fe7e5b934ca061503aced05b9fa09e049909c8b216",
+      "cross_reference.json": "c5744c85d6ceacdb8856986b53c36fc043085775cf6766a222b853d9a55f923c",
+      "fingerprint.json": "c06ac7a732d03163ebff04677c790f2ef12adf6780c7eb88df1cbd67535c0af9"
+    },
+    "compare": {
+      "compare.json": "736d7952b0c24305e59494507d505be09e78eeb2f03db8797a227074d51622dd",
+      "differences.json": "f748bf08a6fe162cad36285ae1fbdca7c579c8cbaad4d6eba3c950c7d61883b1",
+      "similarity.json": "f64d8d862cd004606277d52f31d94cd93c2c6b90a63876aacdf418184642ce70",
+      "statistics.json": "63772bec31f3d4aa38d8355f607573c09ad250a0287596b158d629fc535d122a",
+      "summary.json": "7807203bd825ebc9429809d138d2fc19b6ca4033d113dddc1b30888ed57a0d19",
+      "validation.json": "b00f3fb32c1f07b1cd3148cbb9a1e5499ad907f05c60f292ab3836a0d086bac2"
+    },
+    "risk": {
+      "risk.json": "d3bc8209844f971dbcdb66546b27653e0ad0e18abc77809f8d6291b60f5476ab",
+      "ranking.json": "80ab27d66ac7069adbbf5a60393ed600129e2f104f02cf28f2b283fdde0e1a99",
+      "dependencies.json": "a346a6fc649c82b894337903b273fe007295f6c0e89010d0afd1a111fbd58ef9",
+      "roi.json": "e430566bda68f19b44208de620641bbccd54a259c490aa688053984a92c0735e",
+      "recommendations.json": "0ae3acfb66b055e611ae890a5260de141b8da00cc1e6ef7de3eb7a4d7e000b44",
+      "roadmap.json": "62bed225cc06d2b7c126d99d96096e0f15c259697a8e4bb90191cb44e82bc0ee",
+      "statistics.json": "726c7d07b58f3572956aab321d1f4c36bf7628f532f6a8b18455cb5369171fe1",
+      "summary.json": "f4b37b0e5181fd1da7b03fcc5cbf0b1b56741d644174bd04d3cc6d3f4a36ce44",
+      "validation.json": "932028505cf1a373f3aebd21e69739840b6ce9ca978ac22629f8cc1aefb4573d"
+    },
+    "evaluation": {
+      "compare.json": "f5dbf29aec2a7c24f9aedcf30860c106b84457f56aa7ab0386b30933c07528a2",
+      "differences.json": "67db9cf2ea1a684e514529fa190ef9a23ea81867828a1a22bd72ef5272a95f65",
+      "similarity.json": "5ab329da11e722a167eaa5afa87ffef890be3592f029191d52bc1dec05aab9b2",
+      "score.json": "aa80743d4018f179a9e27de4da11b3b098b0cb9ae7140caa545c80c5e25ff764",
+      "statistics.json": "f1d794b8af5a7ba6cd9a6bf0e72d8efcc0d50be9fd7003afd4a06335fce78556",
+      "summary.json": "241552d643ae2f81f18fb99ad6d8edf6a3869cce496e2a59be354f370ed5fde8",
+      "validation.json": "b2f005525ffe668f7d5a23df5343aa4b81fcaf174389742ead9d8bda95666b79"
+    }
+  },
+  "input_hashes_after": {
+    "real": {
+      "navigator.json": "cb297f239216da392565a29648f6540b1264533259b8ffa9cd0b0aad0aa95c77",
+      "plugins.json": "a78dd985b9ff5ef5387237a4353d32f0c7de0d36fc1c28267a0594cf2cd33218",
+      "mime_types.json": "50ea8df3bd746c11509d313c8cdbd54eadf7d4d8fbc316261d4441a4f717a0b8",
+      "prototype.json": "63bd4a2b2a06868fa3162cbff89e208f32c315cde40aeff43018646bf442eaab",
+      "descriptors.json": "1363d78af0d84ebd120e38862f85e883679e7db43bb7f6d357a1f28517089129",
+      "methods.json": "75e290d303fdf89522b987fe7e5b934ca061503aced05b9fa09e049909c8b216",
+      "cross_reference.json": "c5744c85d6ceacdb8856986b53c36fc043085775cf6766a222b853d9a55f923c",
+      "fingerprint.json": "c06ac7a732d03163ebff04677c790f2ef12adf6780c7eb88df1cbd67535c0af9"
+    },
+    "compare": {
+      "compare.json": "736d7952b0c24305e59494507d505be09e78eeb2f03db8797a227074d51622dd",
+      "differences.json": "f748bf08a6fe162cad36285ae1fbdca7c579c8cbaad4d6eba3c950c7d61883b1",
+      "similarity.json": "f64d8d862cd004606277d52f31d94cd93c2c6b90a63876aacdf418184642ce70",
+      "statistics.json": "63772bec31f3d4aa38d8355f607573c09ad250a0287596b158d629fc535d122a",
+      "summary.json": "7807203bd825ebc9429809d138d2fc19b6ca4033d113dddc1b30888ed57a0d19",
+      "validation.json": "b00f3fb32c1f07b1cd3148cbb9a1e5499ad907f05c60f292ab3836a0d086bac2"
+    },
+    "risk": {
+      "risk.json": "d3bc8209844f971dbcdb66546b27653e0ad0e18abc77809f8d6291b60f5476ab",
+      "ranking.json": "80ab27d66ac7069adbbf5a60393ed600129e2f104f02cf28f2b283fdde0e1a99",
+      "dependencies.json": "a346a6fc649c82b894337903b273fe007295f6c0e89010d0afd1a111fbd58ef9",
+      "roi.json": "e430566bda68f19b44208de620641bbccd54a259c490aa688053984a92c0735e",
+      "recommendations.json": "0ae3acfb66b055e611ae890a5260de141b8da00cc1e6ef7de3eb7a4d7e000b44",
+      "roadmap.json": "62bed225cc06d2b7c126d99d96096e0f15c259697a8e4bb90191cb44e82bc0ee",
+      "statistics.json": "726c7d07b58f3572956aab321d1f4c36bf7628f532f6a8b18455cb5369171fe1",
+      "summary.json": "f4b37b0e5181fd1da7b03fcc5cbf0b1b56741d644174bd04d3cc6d3f4a36ce44",
+      "validation.json": "932028505cf1a373f3aebd21e69739840b6ce9ca978ac22629f8cc1aefb4573d"
+    },
+    "evaluation": {
+      "compare.json": "f5dbf29aec2a7c24f9aedcf30860c106b84457f56aa7ab0386b30933c07528a2",
+      "differences.json": "67db9cf2ea1a684e514529fa190ef9a23ea81867828a1a22bd72ef5272a95f65",
+      "similarity.json": "5ab329da11e722a167eaa5afa87ffef890be3592f029191d52bc1dec05aab9b2",
+      "score.json": "aa80743d4018f179a9e27de4da11b3b098b0cb9ae7140caa545c80c5e25ff764",
+      "statistics.json": "f1d794b8af5a7ba6cd9a6bf0e72d8efcc0d50be9fd7003afd4a06335fce78556",
+      "summary.json": "241552d643ae2f81f18fb99ad6d8edf6a3869cce496e2a59be354f370ed5fde8",
+      "validation.json": "b2f005525ffe668f7d5a23df5343aa4b81fcaf174389742ead9d8bda95666b79"
+    }
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "experiment": "Experiment 035 - Real MediaDevices Collector",
+  "experiment_id": "exp_120",
+  "algorithm": "sha256",
+  "sha256": "a45ece4ce299ebd88c7ee2df10c998c236b51656c3028c463cb85e895ab3cec7",
+  "data": {
+    "navigator": {
+      "exists": true,
+      "typeof": "undefined",
+      "constructor": "Navigator",
+      "prototype": "Navigator",
+      "ownProperties": [],
+      "mediaDevicesDescriptor": null
+    },
+    "mediaDevices": {
+      "exists": false,
+      "typeof": "undefined",
+      "constructor": null,
+      "prototype": null,
+      "ownProperties": [],
+      "prototypeProperties": [],
+      "prototypeChain": [],
+      "instanceof": false,
+      "toStringTag": null,
+      "toStringTagDescriptor": null
+    },
+    "methods": {
+      "enumerateDevices": {
+        "available": false,
+        "typeof": "undefined",
+        "source": null,
+        "nativeSource": false,
+        "descriptor": null
+      },
+      "getUserMedia": {
+        "available": false,
+        "typeof": "undefined",
+        "source": null,
+        "nativeSource": false,
+        "descriptor": null
+      },
+      "getDisplayMedia": {
+        "available": false,
+        "typeof": "undefined",
+        "source": null,
+        "nativeSource": false,
+        "descriptor": null
+      },
+      "selectAudioOutput": {
+        "available": false,
+        "typeof": "undefined",
+        "source": null,
+        "nativeSource": false,
+        "descriptor": null
+      }
+    },
+    "descriptors": {
+      "navigatorPrototype": null,
+      "mediaDevicesPrototype": {},
+      "methods": {}
+    },
+    "devices": {
+      "supported": false,
+      "enumerationError": "navigator.mediaDevices.enumerateDevices is unavailable",
+      "devices": [],
+      "counts": {
+        "audioinput": 0,
+        "audiooutput": 0,
+        "videoinput": 0,
+        "default": 0
+      },
+      "total": 0
+    },
+    "permissions": {
+      "camera": {
+        "name": "camera",
+        "supported": true,
+        "state": "denied",
+        "error": null
+      },
+      "microphone": {
+        "name": "microphone",
+        "supported": true,
+        "state": "denied",
+        "error": null
+      }
+    },
+    "permissionApi": {
+      "available": true,
+      "prototype": [
+        "Permissions",
+        "Permissions",
+        "Object"
+      ]
+    }
+  }
+}

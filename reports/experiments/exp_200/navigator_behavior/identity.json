@@ -1,0 +1,21 @@
+{
+  "constructorRepeatedEqual": true,
+  "frozen": {
+    "navigator": false,
+    "prototype": false,
+    "subapis": {
+      "connection": false,
+      "mediaCapabilities": false,
+      "permissions": false,
+      "storage": true
+    }
+  },
+  "navigatorSelfEqual": true,
+  "prototypeRepeatedEqual": true,
+  "subapis": {
+    "connection": true,
+    "mediaCapabilities": true,
+    "permissions": true,
+    "storage": true
+  }
+}

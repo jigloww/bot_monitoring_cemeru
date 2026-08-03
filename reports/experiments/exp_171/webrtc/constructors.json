@@ -1,0 +1,241 @@
+{
+  "RTCDataChannel": {
+    "name": "RTCDataChannel",
+    "available": true,
+    "typeof": "function",
+    "source": "function RTCDataChannel() { [native code] }",
+    "nativeSource": true,
+    "descriptor": {
+      "configurable": true,
+      "enumerable": false,
+      "writable": true,
+      "hasGetter": false,
+      "hasSetter": false,
+      "valueType": "function",
+      "getterSource": null,
+      "setterSource": null,
+      "valueSource": "function RTCDataChannel() { [native code] }"
+    },
+    "ownProperties": [
+      "length",
+      "name",
+      "prototype"
+    ],
+    "staticMembers": {},
+    "prototypeName": "RTCDataChannel",
+    "prototypeIdentity": true
+  },
+  "RTCIceCandidate": {
+    "name": "RTCIceCandidate",
+    "available": true,
+    "typeof": "function",
+    "source": "function RTCIceCandidate() { [native code] }",
+    "nativeSource": true,
+    "descriptor": {
+      "configurable": true,
+      "enumerable": false,
+      "writable": true,
+      "hasGetter": false,
+      "hasSetter": false,
+      "valueType": "function",
+      "getterSource": null,
+      "setterSource": null,
+      "valueSource": "function RTCIceCandidate() { [native code] }"
+    },
+    "ownProperties": [
+      "length",
+      "name",
+      "prototype"
+    ],
+    "staticMembers": {},
+    "prototypeName": "RTCIceCandidate",
+    "prototypeIdentity": true
+  },
+  "RTCPeerConnection": {
+    "name": "RTCPeerConnection",
+    "available": true,
+    "typeof": "function",
+    "source": "function RTCPeerConnection() { [native code] }",
+    "nativeSource": true,
+    "descriptor": {
+      "configurable": true,
+      "enumerable": false,
+      "writable": true,
+      "hasGetter": false,
+      "hasSetter": false,
+      "valueType": "function",
+      "getterSource": null,
+      "setterSource": null,
+      "valueSource": "function RTCPeerConnection() { [native code] }"
+    },
+    "ownProperties": [
+      "generateCertificate",
+      "length",
+      "name",
+      "prototype"
+    ],
+    "staticMembers": {
+      "generateCertificate": {
+        "available": true,
+        "typeof": "function",
+        "source": "function generateCertificate() { [native code] }",
+        "nativeSource": true,
+        "descriptor": {
+          "configurable": true,
+          "enumerable": true,
+          "writable": true,
+          "hasGetter": false,
+          "hasSetter": false,
+          "valueType": "function",
+          "getterSource": null,
+          "setterSource": null,
+          "valueSource": "function generateCertificate() { [native code] }"
+        }
+      }
+    },
+    "prototypeName": "RTCPeerConnection",
+    "prototypeIdentity": true
+  },
+  "RTCRtpReceiver": {
+    "name": "RTCRtpReceiver",
+    "available": true,
+    "typeof": "function",
+    "source": "function RTCRtpReceiver() { [native code] }",
+    "nativeSource": true,
+    "descriptor": {
+      "configurable": true,
+      "enumerable": false,
+      "writable": true,
+      "hasGetter": false,
+      "hasSetter": false,
+      "valueType": "function",
+      "getterSource": null,
+      "setterSource": null,
+      "valueSource": "function RTCRtpReceiver() { [native code] }"
+    },
+    "ownProperties": [
+      "getCapabilities",
+      "length",
+      "name",
+      "prototype"
+    ],
+    "staticMembers": {
+      "getCapabilities": {
+        "available": true,
+        "typeof": "function",
+        "source": "function getCapabilities() { [native code] }",
+        "nativeSource": true,
+        "descriptor": {
+          "configurable": true,
+          "enumerable": true,
+          "writable": true,
+          "hasGetter": false,
+          "hasSetter": false,
+          "valueType": "function",
+          "getterSource": null,
+          "setterSource": null,
+          "valueSource": "function getCapabilities() { [native code] }"
+        }
+      }
+    },
+    "prototypeName": "RTCRtpReceiver",
+    "prototypeIdentity": true
+  },
+  "RTCRtpSender": {
+    "name": "RTCRtpSender",
+    "available": true,
+    "typeof": "function",
+    "source": "function RTCRtpSender() { [native code] }",
+    "nativeSource": true,
+    "descriptor": {
+      "configurable": true,
+      "enumerable": false,
+      "writable": true,
+      "hasGetter": false,
+      "hasSetter": false,
+      "valueType": "function",
+      "getterSource": null,
+      "setterSource": null,
+      "valueSource": "function RTCRtpSender() { [native code] }"
+    },
+    "ownProperties": [
+      "getCapabilities",
+      "length",
+      "name",
+      "prototype"
+    ],
+    "staticMembers": {
+      "getCapabilities": {
+        "available": true,
+        "typeof": "function",
+        "source": "function getCapabilities() { [native code] }",
+        "nativeSource": true,
+        "descriptor": {
+          "configurable": true,
+          "enumerable": true,
+          "writable": true,
+          "hasGetter": false,
+          "hasSetter": false,
+          "valueType": "function",
+          "getterSource": null,
+          "setterSource": null,
+          "valueSource": "function getCapabilities() { [native code] }"
+        }
+      }
+    },
+    "prototypeName": "RTCRtpSender",
+    "prototypeIdentity": true
+  },
+  "RTCRtpTransceiver": {
+    "name": "RTCRtpTransceiver",
+    "available": true,
+    "typeof": "function",
+    "source": "function RTCRtpTransceiver() { [native code] }",
+    "nativeSource": true,
+    "descriptor": {
+      "configurable": true,
+      "enumerable": false,
+      "writable": true,
+      "hasGetter": false,
+      "hasSetter": false,
+      "valueType": "function",
+      "getterSource": null,
+      "setterSource": null,
+      "valueSource": "function RTCRtpTransceiver() { [native code] }"
+    },
+    "ownProperties": [
+      "length",
+      "name",
+      "prototype"
+    ],
+    "staticMembers": {},
+    "prototypeName": "RTCRtpTransceiver",
+    "prototypeIdentity": true
+  },
+  "RTCSessionDescription": {
+    "name": "RTCSessionDescription",
+    "available": true,
+    "typeof": "function",
+    "source": "function RTCSessionDescription() { [native code] }",
+    "nativeSource": true,
+    "descriptor": {
+      "configurable": true,
+      "enumerable": false,
+      "writable": true,
+      "hasGetter": false,
+      "hasSetter": false,
+      "valueType": "function",
+      "getterSource": null,
+      "setterSource": null,
+      "valueSource": "function RTCSessionDescription() { [native code] }"
+    },
+    "ownProperties": [
+      "length",
+      "name",
+      "prototype"
+    ],
+    "staticMembers": {},
+    "prototypeName": "RTCSessionDescription",
+    "prototypeIdentity": true
+  }
+}

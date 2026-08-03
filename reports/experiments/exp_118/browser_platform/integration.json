@@ -1,0 +1,524 @@
+{
+  "api": {
+    "BrowserConfig": {
+      "methods": [
+        "to_dict",
+        "from_dict",
+        "context_options",
+        "launch_options"
+      ],
+      "available": [
+        "to_dict",
+        "from_dict",
+        "context_options",
+        "launch_options"
+      ]
+    },
+    "BrowserSessionManager": {
+      "methods": [
+        "start",
+        "stop",
+        "restart",
+        "is_running",
+        "health",
+        "get_browser",
+        "get_context",
+        "new_page",
+        "close_page",
+        "shutdown"
+      ],
+      "available": [
+        "start",
+        "stop",
+        "restart",
+        "is_running",
+        "health",
+        "get_browser",
+        "get_context",
+        "new_page",
+        "close_page",
+        "shutdown"
+      ]
+    },
+    "BrowserPool": {
+      "methods": [
+        "create",
+        "acquire",
+        "release",
+        "remove",
+        "shutdown",
+        "snapshot",
+        "statistics"
+      ],
+      "available": [
+        "create",
+        "acquire",
+        "release",
+        "remove",
+        "shutdown",
+        "snapshot",
+        "statistics"
+      ]
+    },
+    "BrowserHealthService": {
+      "methods": [
+        "start",
+        "stop",
+        "tick",
+        "snapshot",
+        "health",
+        "is_healthy",
+        "register_session"
+      ],
+      "available": [
+        "start",
+        "stop",
+        "tick",
+        "snapshot",
+        "health",
+        "is_healthy",
+        "register_session"
+      ]
+    },
+    "BrowserEventBus": {
+      "methods": [
+        "subscribe",
+        "unsubscribe",
+        "emit",
+        "dispatch",
+        "clear",
+        "listeners",
+        "snapshot",
+        "statistics",
+        "shutdown"
+      ],
+      "available": [
+        "subscribe",
+        "unsubscribe",
+        "emit",
+        "dispatch",
+        "clear",
+        "listeners",
+        "snapshot",
+        "statistics",
+        "shutdown"
+      ]
+    },
+    "BrowserMetricsService": {
+      "methods": [
+        "start",
+        "stop",
+        "snapshot",
+        "statistics",
+        "shutdown"
+      ],
+      "available": [
+        "start",
+        "stop",
+        "snapshot",
+        "statistics",
+        "shutdown"
+      ]
+    },
+    "launch_browser": {
+      "callable": true,
+      "signature": "(config: 'BrowserConfig | dict[str, Any] | None' = None, *, playwright: 'Any' = None, stealth_hook: 'Any' = None) -> 'BrowserSession'"
+    }
+  },
+  "cross_component": {
+    "configuration": {
+      "browser": "bundled",
+      "executable_path": null,
+      "channel": "",
+      "headless": true,
+      "persistent": false,
+      "profile_path": null,
+      "user_data_dir": null,
+      "viewport": {
+        "width": 1280,
+        "height": 720
+      },
+      "user_agent": null,
+      "locale": "en-US",
+      "timezone": "UTC",
+      "extra_http_headers": null,
+      "downloads_dir": null,
+      "permissions": [
+        "notifications"
+      ],
+      "proxy": null,
+      "args": [],
+      "env": null,
+      "geolocation": null,
+      "color_scheme": null,
+      "reduced_motion": null,
+      "java_script_enabled": true,
+      "accept_downloads": true,
+      "ignore_https_errors": false,
+      "enable_stealth": false,
+      "url": "about:blank",
+      "timeout": 60000
+    },
+    "monitoring_integration": {
+      "path": "D:\\bot_monitoring_cemeru\\bot\\clients\\playwright_client.py",
+      "uses_browser_config": true,
+      "uses_launcher": true,
+      "invokes_launcher": true,
+      "builds_config": true,
+      "direct_playwright_launch": false
+    },
+    "metrics_snapshot": {
+      "timestamp": "2026-01-01T00:00:00Z",
+      "counters": {
+        "browser_count": 1,
+        "browser_crash_count": 0,
+        "browser_restart_count": 0,
+        "contexts_closed": 0,
+        "contexts_created": 0,
+        "critical_events": 0,
+        "events_processed": 3,
+        "events_received": 3,
+        "healthy_events": 0,
+        "heartbeat_count": 0,
+        "navigation_failed": 0,
+        "navigation_finished": 0,
+        "navigation_started": 0,
+        "pages_closed": 0,
+        "pages_created": 0,
+        "pool_acquire": 1,
+        "pool_release": 1,
+        "session_created": 1,
+        "session_released": 1,
+        "session_reused": 0,
+        "warning_events": 0
+      },
+      "timers": {
+        "browser_uptime": {
+          "count": 0,
+          "average": 0.0,
+          "median": 0.0,
+          "minimum": 0.0,
+          "maximum": 0.0,
+          "success_rate": 0.0,
+          "failure_rate": 0.0,
+          "moving_average": 0.0
+        },
+        "dispatch_latency": {
+          "count": 3,
+          "average": 0.0,
+          "median": 0.0,
+          "minimum": 0.0,
+          "maximum": 0.0,
+          "success_rate": 0.0,
+          "failure_rate": 0.0,
+          "moving_average": 0.0
+        },
+        "listener_latency": {
+          "count": 3,
+          "average": 0.0,
+          "median": 0.0,
+          "minimum": 0.0,
+          "maximum": 0.0,
+          "success_rate": 0.0,
+          "failure_rate": 0.0,
+          "moving_average": 0.0
+        },
+        "navigation_time": {
+          "count": 0,
+          "average": 0.0,
+          "median": 0.0,
+          "minimum": 0.0,
+          "maximum": 0.0,
+          "success_rate": 0.0,
+          "failure_rate": 0.0,
+          "moving_average": 0.0
+        },
+        "session_lifetime": {
+          "count": 1,
+          "average": 25.0,
+          "median": 25.0,
+          "minimum": 25.0,
+          "maximum": 25.0,
+          "success_rate": 0.0,
+          "failure_rate": 0.0,
+          "moving_average": 25.0
+        }
+      },
+      "rates": {
+        "navigation_success_rate": 0.0,
+        "navigation_failure_rate": 0.0,
+        "pool_reuse_rate": 0.0,
+        "average_navigation_time": 0.0,
+        "service_uptime": 0.0
+      },
+      "service_uptime": 0.0,
+      "last_update": "2026-01-01T00:00:00Z"
+    },
+    "metrics_statistics": {
+      "timestamp": "2026-01-01T00:00:00Z",
+      "counters": {
+        "browser_count": 1,
+        "browser_crash_count": 0,
+        "browser_restart_count": 0,
+        "contexts_closed": 0,
+        "contexts_created": 0,
+        "critical_events": 0,
+        "events_processed": 3,
+        "events_received": 3,
+        "healthy_events": 0,
+        "heartbeat_count": 0,
+        "navigation_failed": 0,
+        "navigation_finished": 0,
+        "navigation_started": 0,
+        "pages_closed": 0,
+        "pages_created": 0,
+        "pool_acquire": 1,
+        "pool_release": 1,
+        "session_created": 1,
+        "session_released": 1,
+        "session_reused": 0,
+        "warning_events": 0
+      },
+      "timers": {
+        "browser_uptime": {
+          "count": 0,
+          "average": 0.0,
+          "median": 0.0,
+          "minimum": 0.0,
+          "maximum": 0.0,
+          "success_rate": 0.0,
+          "failure_rate": 0.0,
+          "moving_average": 0.0
+        },
+        "dispatch_latency": {
+          "count": 3,
+          "average": 0.0,
+          "median": 0.0,
+          "minimum": 0.0,
+          "maximum": 0.0,
+          "success_rate": 0.0,
+          "failure_rate": 0.0,
+          "moving_average": 0.0
+        },
+        "listener_latency": {
+          "count": 3,
+          "average": 0.0,
+          "median": 0.0,
+          "minimum": 0.0,
+          "maximum": 0.0,
+          "success_rate": 0.0,
+          "failure_rate": 0.0,
+          "moving_average": 0.0
+        },
+        "navigation_time": {
+          "count": 0,
+          "average": 0.0,
+          "median": 0.0,
+          "minimum": 0.0,
+          "maximum": 0.0,
+          "success_rate": 0.0,
+          "failure_rate": 0.0,
+          "moving_average": 0.0
+        },
+        "session_lifetime": {
+          "count": 1,
+          "average": 25.0,
+          "median": 25.0,
+          "minimum": 25.0,
+          "maximum": 25.0,
+          "success_rate": 0.0,
+          "failure_rate": 0.0,
+          "moving_average": 25.0
+        }
+      },
+      "rates": {
+        "navigation_success_rate": 0.0,
+        "navigation_failure_rate": 0.0,
+        "pool_reuse_rate": 0.0,
+        "average_navigation_time": 0.0,
+        "service_uptime": 0.0
+      },
+      "moving_averages": {
+        "browser_uptime": 0.0,
+        "dispatch_latency": 0.0,
+        "listener_latency": 0.0,
+        "navigation_time": 0.0,
+        "session_lifetime": 25.0
+      },
+      "service_uptime": 0.0,
+      "last_update": "2026-01-01T00:00:00Z"
+    },
+    "health_snapshot": {
+      "timestamp": "2026-08-03T11:23:47.242313+00:00",
+      "browser_alive": true,
+      "context_alive": true,
+      "page_count": 1,
+      "uptime": 4.0,
+      "restart_count": 0,
+      "heartbeat_age": 0.0,
+      "status": "HEALTHY",
+      "recommendation": "NONE",
+      "last_successful_navigation": "2026-01-01T00:00:00Z",
+      "last_heartbeat": "2026-08-03T11:23:47.242313+00:00",
+      "memory_bytes": null,
+      "cpu_percent": null,
+      "crash_detected": false,
+      "hung_browser": false,
+      "reason": null
+    },
+    "health_metrics": {
+      "total_checks": 2,
+      "healthy_checks": 2,
+      "warning_checks": 0,
+      "critical_checks": 0,
+      "failed_checks": 0,
+      "average_check_duration": 0.0
+    },
+    "pool_snapshot": {
+      "timestamp": "2026-08-03T11:23:47.242313+00:00",
+      "state": "IDLE",
+      "max_size": 2,
+      "idle_timeout": 300.0,
+      "sessions": [
+        {
+          "session_id": 1,
+          "state": "IDLE",
+          "acquire_count": 2,
+          "age": 0.0,
+          "idle_for": 0.0,
+          "idle_timeout_exceeded": false,
+          "error": null
+        }
+      ],
+      "statistics": {
+        "total_sessions_created": 1,
+        "active_sessions": 1,
+        "idle_sessions": 1,
+        "busy_sessions": 0,
+        "failed_sessions": 0,
+        "peak_sessions": 1,
+        "acquire_count": 2,
+        "release_count": 2,
+        "reuse_rate": 0.5,
+        "average_session_lifetime": 0.0
+      },
+      "shutdown": false
+    },
+    "pool_statistics": {
+      "total_sessions_created": 1,
+      "active_sessions": 1,
+      "idle_sessions": 1,
+      "busy_sessions": 0,
+      "failed_sessions": 0,
+      "peak_sessions": 1,
+      "acquire_count": 2,
+      "release_count": 2,
+      "reuse_rate": 0.5,
+      "average_session_lifetime": 0.0
+    },
+    "manager_count": 1,
+    "manager_shutdown_counts": [
+      1
+    ],
+    "close_events_dispatched": 1
+  },
+  "thread_safety": {
+    "produced": 400,
+    "processed": 400,
+    "metrics": {
+      "timestamp": "fixed",
+      "counters": {
+        "browser_count": 0,
+        "browser_crash_count": 0,
+        "browser_restart_count": 0,
+        "contexts_closed": 0,
+        "contexts_created": 0,
+        "critical_events": 0,
+        "events_processed": 400,
+        "events_received": 400,
+        "healthy_events": 0,
+        "heartbeat_count": 400,
+        "navigation_failed": 0,
+        "navigation_finished": 0,
+        "navigation_started": 0,
+        "pages_closed": 0,
+        "pages_created": 0,
+        "pool_acquire": 0,
+        "pool_release": 0,
+        "session_created": 0,
+        "session_released": 0,
+        "session_reused": 0,
+        "warning_events": 0
+      },
+      "timers": {
+        "browser_uptime": {
+          "count": 0,
+          "average": 0.0,
+          "median": 0.0,
+          "minimum": 0.0,
+          "maximum": 0.0,
+          "success_rate": 0.0,
+          "failure_rate": 0.0,
+          "moving_average": 0.0
+        },
+        "dispatch_latency": {
+          "count": 400,
+          "average": 0.0,
+          "median": 0.0,
+          "minimum": 0.0,
+          "maximum": 0.0,
+          "success_rate": 0.0,
+          "failure_rate": 0.0,
+          "moving_average": 0.0
+        },
+        "listener_latency": {
+          "count": 400,
+          "average": 0.0,
+          "median": 0.0,
+          "minimum": 0.0,
+          "maximum": 0.0,
+          "success_rate": 0.0,
+          "failure_rate": 0.0,
+          "moving_average": 0.0
+        },
+        "navigation_time": {
+          "count": 0,
+          "average": 0.0,
+          "median": 0.0,
+          "minimum": 0.0,
+          "maximum": 0.0,
+          "success_rate": 0.0,
+          "failure_rate": 0.0,
+          "moving_average": 0.0
+        },
+        "session_lifetime": {
+          "count": 0,
+          "average": 0.0,
+          "median": 0.0,
+          "minimum": 0.0,
+          "maximum": 0.0,
+          "success_rate": 0.0,
+          "failure_rate": 0.0,
+          "moving_average": 0.0
+        }
+      },
+      "rates": {
+        "navigation_success_rate": 0.0,
+        "navigation_failure_rate": 0.0,
+        "pool_reuse_rate": 0.0,
+        "average_navigation_time": 0.0,
+        "service_uptime": 0.0
+      },
+      "moving_averages": {
+        "browser_uptime": 0.0,
+        "dispatch_latency": 0.0,
+        "listener_latency": 0.0,
+        "navigation_time": 0.0,
+        "session_lifetime": 0.0
+      },
+      "service_uptime": 0.0,
+      "last_update": "fixed"
+    },
+    "sequence_order_valid": true
+  }
+}

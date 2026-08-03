@@ -1,0 +1,34 @@
+{
+  "real": {
+    "engine": "unknown",
+    "version": null,
+    "executable": null,
+    "pid": null,
+    "pid_available": false,
+    "channel": null,
+    "headless": null,
+    "persistent": null,
+    "locale": null,
+    "timezone": null,
+    "os": "Windows",
+    "architecture": "AMD64",
+    "source": "D:\\bot_monitoring_cemeru\\reports\\experiments\\exp_122\\media_devices",
+    "identity_completeness": 0
+  },
+  "playwright": {
+    "engine": "chromium",
+    "version": "151.0.7922.72",
+    "configured_browser": "chrome",
+    "channel": "chrome",
+    "executable": null,
+    "pid": null,
+    "pid_available": false,
+    "pid_scope": "browser_pid_not_exposed_by_platform",
+    "headless": true,
+    "persistent": false,
+    "locale": null,
+    "timezone": null,
+    "os": "Windows",
+    "architecture": "AMD64"
+  }
+}

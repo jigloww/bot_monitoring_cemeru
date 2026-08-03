@@ -1,0 +1,73 @@
+{
+  "descriptors": {
+    "sdp": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": null,
+      "hasGetter": false,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": null,
+      "valueType": "string",
+      "writable": true
+    },
+    "type": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": null,
+      "hasGetter": false,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": null,
+      "valueType": "string",
+      "writable": true
+    }
+  },
+  "exists": true,
+  "instanceofRTCSessionDescription": false,
+  "ownProperties": [
+    "sdp",
+    "type"
+  ],
+  "prototype": {
+    "chain": [
+      "Object",
+      "Object"
+    ],
+    "constructor": "Object",
+    "descriptors": {
+      "sdp": {
+        "configurable": true,
+        "enumerable": true,
+        "getterSource": null,
+        "hasGetter": false,
+        "hasSetter": false,
+        "setterSource": null,
+        "valueSource": null,
+        "valueType": "string",
+        "writable": true
+      },
+      "type": {
+        "configurable": true,
+        "enumerable": true,
+        "getterSource": null,
+        "hasGetter": false,
+        "hasSetter": false,
+        "setterSource": null,
+        "valueSource": null,
+        "valueType": "string",
+        "writable": true
+      }
+    },
+    "ownProperties": [
+      "sdp",
+      "type"
+    ],
+    "prototype": "Object",
+    "toStringTag": "[object Object]"
+  },
+  "sdpLength": 458,
+  "sdpPrefix": "v=0\r\no=- <session> <version> IN IP4 127.0.0.1\r\ns=-\r\nt=0 0\r\na=group:BUNDLE 0\r\na=e",
+  "toStringTag": "[object Object]",
+  "type": "offer"
+}

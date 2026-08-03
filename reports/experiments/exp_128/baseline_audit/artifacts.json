@@ -1,0 +1,127 @@
+{
+  "real": {
+    "descriptors.json": {
+      "path": "D:\\bot_monitoring_cemeru\\reports\\experiments\\exp_122\\media_devices\\descriptors.json",
+      "sha256": "d0ecd75e017d0342447287da51e7565c3c61276a657beacebb467871bb6070cf",
+      "size_bytes": 3572,
+      "modified_timestamp": 1785756876.8163483
+    },
+    "devices.json": {
+      "path": "D:\\bot_monitoring_cemeru\\reports\\experiments\\exp_122\\media_devices\\devices.json",
+      "sha256": "37d130170f6123c984d762a67eac94ee1026533782a57added263e1bdb769a0d",
+      "size_bytes": 1191,
+      "modified_timestamp": 1785756876.8125026
+    },
+    "fingerprint.json": {
+      "path": "D:\\bot_monitoring_cemeru\\reports\\experiments\\exp_122\\media_devices\\fingerprint.json",
+      "sha256": "bcb7902086a4e7ecb3d9d3c4b397a90b2eb17cf698b5fababc4408b94d13f418",
+      "size_bytes": 9410,
+      "modified_timestamp": 1785756876.82136
+    },
+    "media_devices_report.md": {
+      "path": "D:\\bot_monitoring_cemeru\\reports\\experiments\\exp_122\\media_devices\\media_devices_report.md",
+      "sha256": "d10c7b12b8d4356e9bbdbc7f61d33816196d22bafd76858b95b8fd1d6c6f6d3f",
+      "size_bytes": 1024,
+      "modified_timestamp": 1785756876.8264253
+    },
+    "methods.json": {
+      "path": "D:\\bot_monitoring_cemeru\\reports\\experiments\\exp_122\\media_devices\\methods.json",
+      "sha256": "23fa7f4500ca4d43bb6e66bce2d3ef3dd12e841c79d176eecd597613c63969cd",
+      "size_bytes": 1576,
+      "modified_timestamp": 1785756876.8183472
+    },
+    "permissions.json": {
+      "path": "D:\\bot_monitoring_cemeru\\reports\\experiments\\exp_122\\media_devices\\permissions.json",
+      "sha256": "6a701abab5ed07937ece07abc9d5e810115170de4efdae8d987bc7b8fc28a6cd",
+      "size_bytes": 221,
+      "modified_timestamp": 1785756876.8125026
+    },
+    "prototype.json": {
+      "path": "D:\\bot_monitoring_cemeru\\reports\\experiments\\exp_122\\media_devices\\prototype.json",
+      "sha256": "6f9e5cc4764993b27f5bc2d614a58bd7d5182afcf3462143d7af5dc8e37b5fa5",
+      "size_bytes": 1479,
+      "modified_timestamp": 1785756876.8150148
+    },
+    "statistics.json": {
+      "path": "D:\\bot_monitoring_cemeru\\reports\\experiments\\exp_122\\media_devices\\statistics.json",
+      "sha256": "28dfabe1d7e297ac51f07c9322964cc64816382f9a0e42ce22bb9f2a239f1b8e",
+      "size_bytes": 494,
+      "modified_timestamp": 1785756876.8224058
+    },
+    "summary.json": {
+      "path": "D:\\bot_monitoring_cemeru\\reports\\experiments\\exp_122\\media_devices\\summary.json",
+      "sha256": "1097b153a6bcc0e096d264411eb012f244d280c63036432103db78b775b98e59",
+      "size_bytes": 548,
+      "modified_timestamp": 1785756876.8234236
+    },
+    "validation.json": {
+      "path": "D:\\bot_monitoring_cemeru\\reports\\experiments\\exp_122\\media_devices\\validation.json",
+      "sha256": "ab67649ce83b2e97e26fbc0292341da7aef5e5cecca1307a7f69c0af4f4ca678",
+      "size_bytes": 307,
+      "modified_timestamp": 1785756876.8244197
+    }
+  },
+  "comparator": {
+    "compare.json": {
+      "path": "D:\\bot_monitoring_cemeru\\reports\\experiments\\exp_126\\media_devices_compare\\compare.json",
+      "sha256": "d8e41010161ec1fde54ad3bc6f0ae0f1a36f2c2860c17e4d81795ce5a39a47d8",
+      "size_bytes": 18753,
+      "modified_timestamp": 1785757306.5197842
+    },
+    "critical.json": {
+      "path": "D:\\bot_monitoring_cemeru\\reports\\experiments\\exp_126\\media_devices_compare\\critical.json",
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "size_bytes": 3,
+      "modified_timestamp": 1785757306.5242567
+    },
+    "differences.json": {
+      "path": "D:\\bot_monitoring_cemeru\\reports\\experiments\\exp_126\\media_devices_compare\\differences.json",
+      "sha256": "b3492fabe06e25e9be37ccdbe856aa446f88be5abb7840341a06dc90cbd27179",
+      "size_bytes": 45434,
+      "modified_timestamp": 1785757306.5232694
+    },
+    "media_devices_compare.md": {
+      "path": "D:\\bot_monitoring_cemeru\\reports\\experiments\\exp_126\\media_devices_compare\\media_devices_compare.md",
+      "sha256": "9568429f493c93c528d0f5282c22d18292cfb173d0081e3b763f1afc16f06cf8",
+      "size_bytes": 1293,
+      "modified_timestamp": 1785757306.5282614
+    },
+    "recommendations.json": {
+      "path": "D:\\bot_monitoring_cemeru\\reports\\experiments\\exp_126\\media_devices_compare\\recommendations.json",
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "size_bytes": 3,
+      "modified_timestamp": 1785757306.5252602
+    },
+    "similarity.json": {
+      "path": "D:\\bot_monitoring_cemeru\\reports\\experiments\\exp_126\\media_devices_compare\\similarity.json",
+      "sha256": "7543324857a68c4a34a8a6fa9e4618d9b23c92dd63d577a68afe5d40385ee0ad",
+      "size_bytes": 1227,
+      "modified_timestamp": 1785757306.5197842
+    },
+    "statistics.json": {
+      "path": "D:\\bot_monitoring_cemeru\\reports\\experiments\\exp_126\\media_devices_compare\\statistics.json",
+      "sha256": "294b8307bd4741a329dae4f48936adaaf106c666ae9fd42c4c695edbd918890a",
+      "size_bytes": 287,
+      "modified_timestamp": 1785757306.5262578
+    },
+    "summary.json": {
+      "path": "D:\\bot_monitoring_cemeru\\reports\\experiments\\exp_126\\media_devices_compare\\summary.json",
+      "sha256": "0a85d5a90b8b362bf8edf6925f153c2cefea81ad30ed0e7234569e574d595355",
+      "size_bytes": 495,
+      "modified_timestamp": 1785757306.52726
+    },
+    "validation.json": {
+      "path": "D:\\bot_monitoring_cemeru\\reports\\experiments\\exp_126\\media_devices_compare\\validation.json",
+      "sha256": "77f9804816a71a2eeebb0f75fc5691c08b8aafa9e4577cf7bdf96ce8a2f155f6",
+      "size_bytes": 316,
+      "modified_timestamp": 1785757306.5282614
+    }
+  },
+  "real_directory_sha256": "62cbe3b0c4b6f5204ee8aeb3e16968f98eb1466b0928495e9071f386d269fc36",
+  "comparator_directory_sha256": "67a3915db7eae9de6a98728a00419b3a55c1cac53c234857089fff5e2a6aa7eb",
+  "lineage": {
+    "real": "D:\\bot_monitoring_cemeru\\reports\\experiments\\exp_122\\media_devices",
+    "comparator": "D:\\bot_monitoring_cemeru\\reports\\experiments\\exp_126\\media_devices_compare",
+    "comparator_real_reference": "D:\\bot_monitoring_cemeru\\reports\\experiments\\exp_122\\media_devices"
+  }
+}

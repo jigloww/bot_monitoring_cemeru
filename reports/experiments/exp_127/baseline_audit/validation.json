@@ -1,0 +1,15 @@
+{
+  "python_compile": true,
+  "json_validation": true,
+  "artifact_completeness": true,
+  "deterministic_ordering": true,
+  "serialization": true,
+  "read_only_verification": true,
+  "independent_capture_validation": true,
+  "independent_browser_validation": true,
+  "replay_detection": true,
+  "artifact_reuse_detection": true,
+  "collector_reuse_detection": true,
+  "thread_safety": true,
+  "valid": true
+}

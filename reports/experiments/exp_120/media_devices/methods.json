@@ -1,0 +1,30 @@
+{
+  "enumerateDevices": {
+    "available": false,
+    "typeof": "undefined",
+    "source": null,
+    "nativeSource": false,
+    "descriptor": null
+  },
+  "getUserMedia": {
+    "available": false,
+    "typeof": "undefined",
+    "source": null,
+    "nativeSource": false,
+    "descriptor": null
+  },
+  "getDisplayMedia": {
+    "available": false,
+    "typeof": "undefined",
+    "source": null,
+    "nativeSource": false,
+    "descriptor": null
+  },
+  "selectAudioOutput": {
+    "available": false,
+    "typeof": "undefined",
+    "source": null,
+    "nativeSource": false,
+    "descriptor": null
+  }
+}

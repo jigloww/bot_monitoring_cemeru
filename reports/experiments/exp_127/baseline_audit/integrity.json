@@ -1,0 +1,15 @@
+{
+  "real_artifact_present": true,
+  "comparator_artifact_present": true,
+  "distinct_artifact_paths": true,
+  "comparator_reference_matches_real": true,
+  "independent_capture": true,
+  "independent_browser": true,
+  "collector_reuse_detected": false,
+  "artifact_reuse_detected": false,
+  "replay_detected": false,
+  "input_lineage_valid": true,
+  "read_only_verification": true,
+  "launch_configuration_intended": true,
+  "previous_artifacts_untouched": true
+}

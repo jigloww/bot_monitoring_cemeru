@@ -1,0 +1,12 @@
+{
+  "supported": false,
+  "enumerationError": "navigator.mediaDevices.enumerateDevices is unavailable",
+  "devices": [],
+  "counts": {
+    "audioinput": 0,
+    "audiooutput": 0,
+    "videoinput": 0,
+    "default": 0
+  },
+  "total": 0
+}

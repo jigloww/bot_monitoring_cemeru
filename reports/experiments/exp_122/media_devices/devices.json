@@ -1,0 +1,43 @@
+{
+  "supported": true,
+  "enumerationError": null,
+  "devices": [
+    {
+      "kind": "audioinput",
+      "label": "",
+      "deviceIdLength": 0,
+      "deviceIdHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "groupIdLength": 0,
+      "groupIdHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "isDefault": false,
+      "index": 0
+    },
+    {
+      "kind": "videoinput",
+      "label": "",
+      "deviceIdLength": 0,
+      "deviceIdHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "groupIdLength": 0,
+      "groupIdHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "isDefault": false,
+      "index": 1
+    },
+    {
+      "kind": "audiooutput",
+      "label": "",
+      "deviceIdLength": 0,
+      "deviceIdHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "groupIdLength": 0,
+      "groupIdHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "isDefault": false,
+      "index": 2
+    }
+  ],
+  "counts": {
+    "audioinput": 1,
+    "audiooutput": 1,
+    "videoinput": 1,
+    "default": 0
+  },
+  "total": 3
+}

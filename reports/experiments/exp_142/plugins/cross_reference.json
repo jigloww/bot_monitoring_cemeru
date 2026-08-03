@@ -1,0 +1,30 @@
+{
+  "pluginMimeTypes": {
+    "0": [
+      "application/pdf",
+      "text/pdf"
+    ],
+    "1": [
+      "application/pdf",
+      "text/pdf"
+    ],
+    "2": [
+      "application/pdf",
+      "text/pdf"
+    ],
+    "3": [
+      "application/pdf",
+      "text/pdf"
+    ],
+    "4": [
+      "application/pdf",
+      "text/pdf"
+    ]
+  },
+  "mimeEnabledPlugins": {
+    "application/pdf": 0,
+    "text/pdf": 0
+  },
+  "mismatches": [],
+  "bidirectionalValid": true
+}

@@ -1,0 +1,17 @@
+{
+  "experiment": "Experiment 035 - Real MediaDevices Collector",
+  "experiment_id": "exp_122",
+  "created_at": "2026-08-03T18:34:36.810538+07:00",
+  "result": "SUCCESS",
+  "url": "https://example.com",
+  "browser_started": true,
+  "navigation_succeeded": true,
+  "media_devices_available": true,
+  "device_count": 3,
+  "fingerprint_sha256": "15c4d53b6257cb7969a2b29a168d5976063843020bc3552696ea58bc0bb44895",
+  "error": null,
+  "validation_valid": true,
+  "browser_launches": 1,
+  "network_requests": 1,
+  "historical_artifacts_modified": false
+}

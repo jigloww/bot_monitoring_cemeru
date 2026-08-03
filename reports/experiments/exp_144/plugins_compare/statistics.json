@@ -1,0 +1,26 @@
+{
+  "total_compared": 803,
+  "equal": 528,
+  "different": 3,
+  "missing": 261,
+  "added": 4,
+  "removed": 7,
+  "severity": {
+    "CRITICAL": 237,
+    "HIGH": 13,
+    "MEDIUM": 25,
+    "LOW": 0
+  },
+  "real_plugin_count": 5,
+  "playwright_plugin_count": 0,
+  "real_mime_type_count": 2,
+  "playwright_mime_type_count": 0,
+  "real_property_count": 1814,
+  "playwright_property_count": 536,
+  "recommendation_count": 275,
+  "browser_launches": 1,
+  "network_requests": 1,
+  "capture_status": "SUCCESS",
+  "real_baseline_available": true,
+  "playwright_artifact_available": true
+}

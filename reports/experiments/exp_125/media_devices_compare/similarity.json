@@ -1,0 +1,69 @@
+{
+  "overall": 100.0,
+  "domains": {
+    "Availability": {
+      "total": 4,
+      "equal": 4,
+      "different": 0,
+      "missing": 0,
+      "added": 0,
+      "similarity": 100.0
+    },
+    "Descriptors": {
+      "total": 99,
+      "equal": 99,
+      "different": 0,
+      "missing": 0,
+      "added": 0,
+      "similarity": 100.0
+    },
+    "Devices": {
+      "total": 31,
+      "equal": 31,
+      "different": 0,
+      "missing": 0,
+      "added": 0,
+      "similarity": 100.0
+    },
+    "Fingerprint": {
+      "total": 1,
+      "equal": 1,
+      "different": 0,
+      "missing": 0,
+      "added": 0,
+      "similarity": 100.0
+    },
+    "Methods": {
+      "total": 44,
+      "equal": 44,
+      "different": 0,
+      "missing": 0,
+      "added": 0,
+      "similarity": 100.0
+    },
+    "Permissions": {
+      "total": 12,
+      "equal": 12,
+      "different": 0,
+      "missing": 0,
+      "added": 0,
+      "similarity": 100.0
+    },
+    "Prototype": {
+      "total": 38,
+      "equal": 38,
+      "different": 0,
+      "missing": 0,
+      "added": 0,
+      "similarity": 100.0
+    }
+  },
+  "fingerprint": {
+    "total": 1,
+    "equal": 1,
+    "different": 0,
+    "missing": 0,
+    "added": 0,
+    "similarity": 100.0
+  }
+}

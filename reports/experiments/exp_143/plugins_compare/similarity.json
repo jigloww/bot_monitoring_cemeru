@@ -1,0 +1,85 @@
+{
+  "overall": 61.34,
+  "navigator": 100.0,
+  "plugins": 89.38,
+  "mime_types": 93.7,
+  "prototype": 60.0,
+  "descriptors": 100.0,
+  "methods": 35.17,
+  "cross_reference": 12.5,
+  "fingerprint": 0.0,
+  "domains": {
+    "Cross References": {
+      "total": 16,
+      "equal": 2,
+      "changed": 0,
+      "missing": 12,
+      "added": 2,
+      "removed": 0,
+      "similarity": 12.5
+    },
+    "Descriptors": {
+      "total": 99,
+      "equal": 99,
+      "changed": 0,
+      "missing": 0,
+      "added": 0,
+      "removed": 0,
+      "similarity": 100.0
+    },
+    "Fingerprint": {
+      "total": 1,
+      "equal": 0,
+      "changed": 1,
+      "missing": 0,
+      "added": 0,
+      "removed": 0,
+      "similarity": 0.0
+    },
+    "Methods": {
+      "total": 344,
+      "equal": 121,
+      "changed": 0,
+      "missing": 221,
+      "added": 2,
+      "removed": 0,
+      "similarity": 35.17
+    },
+    "MimeTypeArray": {
+      "total": 127,
+      "equal": 119,
+      "changed": 1,
+      "missing": 4,
+      "added": 1,
+      "removed": 2,
+      "similarity": 93.7
+    },
+    "Navigator": {
+      "total": 20,
+      "equal": 20,
+      "changed": 0,
+      "missing": 0,
+      "added": 0,
+      "removed": 0,
+      "similarity": 100.0
+    },
+    "PluginArray": {
+      "total": 160,
+      "equal": 143,
+      "changed": 1,
+      "missing": 10,
+      "added": 1,
+      "removed": 5,
+      "similarity": 89.38
+    },
+    "Prototype": {
+      "total": 40,
+      "equal": 24,
+      "changed": 0,
+      "missing": 14,
+      "added": 2,
+      "removed": 0,
+      "similarity": 60.0
+    }
+  }
+}

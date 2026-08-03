@@ -1,0 +1,314 @@
+{
+  "experiment": "Experiment 035 - Real MediaDevices Collector",
+  "experiment_id": "exp_122",
+  "algorithm": "sha256",
+  "sha256": "15c4d53b6257cb7969a2b29a168d5976063843020bc3552696ea58bc0bb44895",
+  "data": {
+    "navigator": {
+      "exists": true,
+      "typeof": "object",
+      "constructor": "Navigator",
+      "prototype": "Navigator",
+      "ownProperties": [],
+      "mediaDevicesDescriptor": {
+        "configurable": true,
+        "enumerable": true,
+        "writable": null,
+        "hasGetter": true,
+        "hasSetter": false,
+        "valueType": null,
+        "getterSource": "function get mediaDevices() { [native code] }",
+        "setterSource": null,
+        "valueSource": null
+      }
+    },
+    "mediaDevices": {
+      "exists": true,
+      "typeof": "object",
+      "constructor": "MediaDevices",
+      "prototype": "MediaDevices",
+      "ownProperties": [],
+      "prototypeProperties": [
+        "Symbol(Symbol.toStringTag)",
+        "constructor",
+        "enumerateDevices",
+        "getDisplayMedia",
+        "getSupportedConstraints",
+        "getUserMedia",
+        "ondevicechange",
+        "setCaptureHandleConfig"
+      ],
+      "prototypeChain": [
+        "MediaDevices",
+        "MediaDevices",
+        "EventTarget",
+        "Object"
+      ],
+      "instanceof": true,
+      "toStringTag": "[object MediaDevices]",
+      "toStringTagDescriptor": {
+        "configurable": true,
+        "enumerable": false,
+        "writable": false,
+        "hasGetter": false,
+        "hasSetter": false,
+        "valueType": "string",
+        "getterSource": null,
+        "setterSource": null,
+        "valueSource": null
+      }
+    },
+    "methods": {
+      "enumerateDevices": {
+        "available": true,
+        "typeof": "function",
+        "source": "function enumerateDevices() { [native code] }",
+        "nativeSource": true,
+        "descriptor": {
+          "configurable": true,
+          "enumerable": true,
+          "writable": true,
+          "hasGetter": false,
+          "hasSetter": false,
+          "valueType": "function",
+          "getterSource": null,
+          "setterSource": null,
+          "valueSource": "function enumerateDevices() { [native code] }"
+        }
+      },
+      "getUserMedia": {
+        "available": true,
+        "typeof": "function",
+        "source": "function getUserMedia() { [native code] }",
+        "nativeSource": true,
+        "descriptor": {
+          "configurable": true,
+          "enumerable": true,
+          "writable": true,
+          "hasGetter": false,
+          "hasSetter": false,
+          "valueType": "function",
+          "getterSource": null,
+          "setterSource": null,
+          "valueSource": "function getUserMedia() { [native code] }"
+        }
+      },
+      "getDisplayMedia": {
+        "available": true,
+        "typeof": "function",
+        "source": "function getDisplayMedia() { [native code] }",
+        "nativeSource": true,
+        "descriptor": {
+          "configurable": true,
+          "enumerable": true,
+          "writable": true,
+          "hasGetter": false,
+          "hasSetter": false,
+          "valueType": "function",
+          "getterSource": null,
+          "setterSource": null,
+          "valueSource": "function getDisplayMedia() { [native code] }"
+        }
+      },
+      "selectAudioOutput": {
+        "available": false,
+        "typeof": "undefined",
+        "source": null,
+        "nativeSource": false,
+        "descriptor": null
+      }
+    },
+    "descriptors": {
+      "navigatorPrototype": {
+        "configurable": true,
+        "enumerable": true,
+        "writable": null,
+        "hasGetter": true,
+        "hasSetter": false,
+        "valueType": null,
+        "getterSource": "function get mediaDevices() { [native code] }",
+        "setterSource": null,
+        "valueSource": null
+      },
+      "mediaDevicesPrototype": {
+        "constructor": {
+          "configurable": true,
+          "enumerable": false,
+          "writable": true,
+          "hasGetter": false,
+          "hasSetter": false,
+          "valueType": "function",
+          "getterSource": null,
+          "setterSource": null,
+          "valueSource": "function MediaDevices() { [native code] }"
+        },
+        "enumerateDevices": {
+          "configurable": true,
+          "enumerable": true,
+          "writable": true,
+          "hasGetter": false,
+          "hasSetter": false,
+          "valueType": "function",
+          "getterSource": null,
+          "setterSource": null,
+          "valueSource": "function enumerateDevices() { [native code] }"
+        },
+        "getDisplayMedia": {
+          "configurable": true,
+          "enumerable": true,
+          "writable": true,
+          "hasGetter": false,
+          "hasSetter": false,
+          "valueType": "function",
+          "getterSource": null,
+          "setterSource": null,
+          "valueSource": "function getDisplayMedia() { [native code] }"
+        },
+        "getSupportedConstraints": {
+          "configurable": true,
+          "enumerable": true,
+          "writable": true,
+          "hasGetter": false,
+          "hasSetter": false,
+          "valueType": "function",
+          "getterSource": null,
+          "setterSource": null,
+          "valueSource": "function getSupportedConstraints() { [native code] }"
+        },
+        "getUserMedia": {
+          "configurable": true,
+          "enumerable": true,
+          "writable": true,
+          "hasGetter": false,
+          "hasSetter": false,
+          "valueType": "function",
+          "getterSource": null,
+          "setterSource": null,
+          "valueSource": "function getUserMedia() { [native code] }"
+        },
+        "ondevicechange": {
+          "configurable": true,
+          "enumerable": true,
+          "writable": null,
+          "hasGetter": true,
+          "hasSetter": true,
+          "valueType": null,
+          "getterSource": "function get ondevicechange() { [native code] }",
+          "setterSource": "function set ondevicechange() { [native code] }",
+          "valueSource": null
+        },
+        "setCaptureHandleConfig": {
+          "configurable": true,
+          "enumerable": true,
+          "writable": true,
+          "hasGetter": false,
+          "hasSetter": false,
+          "valueType": "function",
+          "getterSource": null,
+          "setterSource": null,
+          "valueSource": "function setCaptureHandleConfig() { [native code] }"
+        }
+      },
+      "methods": {
+        "enumerateDevices": {
+          "configurable": true,
+          "enumerable": true,
+          "writable": true,
+          "hasGetter": false,
+          "hasSetter": false,
+          "valueType": "function",
+          "getterSource": null,
+          "setterSource": null,
+          "valueSource": "function enumerateDevices() { [native code] }"
+        },
+        "getDisplayMedia": {
+          "configurable": true,
+          "enumerable": true,
+          "writable": true,
+          "hasGetter": false,
+          "hasSetter": false,
+          "valueType": "function",
+          "getterSource": null,
+          "setterSource": null,
+          "valueSource": "function getDisplayMedia() { [native code] }"
+        },
+        "getUserMedia": {
+          "configurable": true,
+          "enumerable": true,
+          "writable": true,
+          "hasGetter": false,
+          "hasSetter": false,
+          "valueType": "function",
+          "getterSource": null,
+          "setterSource": null,
+          "valueSource": "function getUserMedia() { [native code] }"
+        }
+      }
+    },
+    "devices": {
+      "supported": true,
+      "enumerationError": null,
+      "devices": [
+        {
+          "kind": "audioinput",
+          "label": "",
+          "deviceIdLength": 0,
+          "deviceIdHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "groupIdLength": 0,
+          "groupIdHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "isDefault": false,
+          "index": 0
+        },
+        {
+          "kind": "videoinput",
+          "label": "",
+          "deviceIdLength": 0,
+          "deviceIdHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "groupIdLength": 0,
+          "groupIdHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "isDefault": false,
+          "index": 1
+        },
+        {
+          "kind": "audiooutput",
+          "label": "",
+          "deviceIdLength": 0,
+          "deviceIdHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "groupIdLength": 0,
+          "groupIdHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "isDefault": false,
+          "index": 2
+        }
+      ],
+      "counts": {
+        "audioinput": 1,
+        "audiooutput": 1,
+        "videoinput": 1,
+        "default": 0
+      },
+      "total": 3
+    },
+    "permissions": {
+      "camera": {
+        "name": "camera",
+        "supported": true,
+        "state": "prompt",
+        "error": null
+      },
+      "microphone": {
+        "name": "microphone",
+        "supported": true,
+        "state": "prompt",
+        "error": null
+      }
+    },
+    "permissionApi": {
+      "available": true,
+      "prototype": [
+        "Permissions",
+        "Permissions",
+        "Object"
+      ]
+    }
+  }
+}

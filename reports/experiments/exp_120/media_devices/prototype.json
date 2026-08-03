@@ -1,0 +1,30 @@
+{
+  "navigator": {
+    "exists": true,
+    "typeof": "undefined",
+    "constructor": "Navigator",
+    "prototype": "Navigator",
+    "ownProperties": [],
+    "mediaDevicesDescriptor": null
+  },
+  "mediaDevices": {
+    "exists": false,
+    "typeof": "undefined",
+    "constructor": null,
+    "prototype": null,
+    "ownProperties": [],
+    "prototypeProperties": [],
+    "prototypeChain": [],
+    "instanceof": false,
+    "toStringTag": null,
+    "toStringTagDescriptor": null
+  },
+  "permissionApi": {
+    "available": true,
+    "prototype": [
+      "Permissions",
+      "Permissions",
+      "Object"
+    ]
+  }
+}

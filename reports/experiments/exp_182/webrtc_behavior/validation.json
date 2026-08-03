@@ -1,0 +1,18 @@
+{
+  "python_compile": true,
+  "json_validation": true,
+  "artifact_completeness": true,
+  "promise_validation": true,
+  "exception_validation": true,
+  "deterministic_ordering": true,
+  "read_only_verification": true,
+  "no_stun_turn": true,
+  "no_media_devices": true,
+  "no_packet_transmission": true,
+  "no_stealth_injection": true,
+  "no_ice_gathering_request": true,
+  "browser_platform_verification": true,
+  "browser_launches": 1,
+  "network_requests": 0,
+  "valid": true
+}

@@ -1,0 +1,22 @@
+{
+  "primitive_value_count": 21,
+  "navigator_own_property_count": 0,
+  "navigator_inherited_property_count": 48,
+  "prototype_property_count": 37,
+  "descriptor_count": 37,
+  "getter_count": 31,
+  "setter_count": 0,
+  "navigator_method_count": 5,
+  "subapi_method_count": 6,
+  "native_source_count": 11,
+  "native_source_failures": 0,
+  "getter_illegal_invocation_count": 31,
+  "getter_illegal_throw_count": 31,
+  "subapi_count": 19,
+  "available_subapi_count": 3,
+  "browser_launches": 1,
+  "network_requests": 0,
+  "capture_status": "SUCCESS",
+  "capture_error": null,
+  "fingerprint_sha256": "f0f86803de2d0a223b4607031feebdd9445f8df3d831b736caad99bdba98d619"
+}

@@ -1,0 +1,97 @@
+{
+  "total_compared_fields": 1354,
+  "equal_fields": 1287,
+  "all_differences": 67,
+  "remaining_runtime_differences": 0,
+  "critical_differences": 0,
+  "supplemental_differences": 67,
+  "status_distribution": {
+    "ADDED": 67,
+    "EQUAL": 1287
+  },
+  "severity_distribution": {
+    "INFO": 67
+  },
+  "domain_distribution": {
+    "configuration": {
+      "total": 184,
+      "equal": 184,
+      "remaining": 0,
+      "changed": 0,
+      "missing": 0,
+      "added": 0,
+      "similarity": 100.0
+    },
+    "states": {
+      "total": 564,
+      "equal": 564,
+      "remaining": 0,
+      "changed": 0,
+      "missing": 0,
+      "added": 0,
+      "similarity": 100.0
+    },
+    "offer": {
+      "total": 51,
+      "equal": 51,
+      "remaining": 0,
+      "changed": 0,
+      "missing": 0,
+      "added": 0,
+      "similarity": 100.0
+    },
+    "answer": {
+      "total": 58,
+      "equal": 58,
+      "remaining": 0,
+      "changed": 0,
+      "missing": 0,
+      "added": 0,
+      "similarity": 100.0
+    },
+    "datachannel": {
+      "total": 212,
+      "equal": 212,
+      "remaining": 0,
+      "changed": 0,
+      "missing": 0,
+      "added": 0,
+      "similarity": 100.0
+    },
+    "events": {
+      "total": 55,
+      "equal": 55,
+      "remaining": 0,
+      "changed": 0,
+      "missing": 0,
+      "added": 0,
+      "similarity": 100.0
+    },
+    "exceptions": {
+      "total": 46,
+      "equal": 46,
+      "remaining": 0,
+      "changed": 0,
+      "missing": 0,
+      "added": 0,
+      "similarity": 100.0
+    },
+    "promises": {
+      "total": 117,
+      "equal": 117,
+      "remaining": 0,
+      "changed": 0,
+      "missing": 0,
+      "added": 0,
+      "similarity": 100.0
+    }
+  },
+  "baseline_directory": "D:\\bot_monitoring_cemeru\\reports\\experiments\\exp_190\\webrtc_behavior",
+  "baseline_hash": "5bb2e4378d71a74ff7152c1a2690ec90f40a7baf3b034f886f75444e89beda90",
+  "candidate_hash": "5bb2e4378d71a74ff7152c1a2690ec90f40a7baf3b034f886f75444e89beda90",
+  "capture_status": "SUCCESS",
+  "capture_error": null,
+  "browser_launches": 1,
+  "network_requests": 0,
+  "local_peer_connections_created": 3
+}

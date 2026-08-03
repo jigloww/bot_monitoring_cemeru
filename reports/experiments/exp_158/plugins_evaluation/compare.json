@@ -1,0 +1,5856 @@
+{
+  "experiment": "Experiment 042 - Plugins Stealth Evaluation",
+  "experiment_id": "exp_158",
+  "real": {
+    "navigator": {
+      "constructor": "Navigator",
+      "ownProperties": [],
+      "pluginsDescriptor": {
+        "configurable": true,
+        "enumerable": true,
+        "writable": null,
+        "hasGetter": true,
+        "hasSetter": false,
+        "valueType": null,
+        "getterSource": "function get plugins() { [native code] }",
+        "setterSource": null,
+        "valueSource": null
+      },
+      "mimeTypesDescriptor": {
+        "configurable": true,
+        "enumerable": true,
+        "writable": null,
+        "hasGetter": true,
+        "hasSetter": false,
+        "valueType": null,
+        "getterSource": "function get mimeTypes() { [native code] }",
+        "setterSource": null,
+        "valueSource": null
+      }
+    },
+    "plugins": {
+      "exists": true,
+      "typeof": "object",
+      "constructor": "PluginArray",
+      "toString": "[object PluginArray]",
+      "ownProperties": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "Chrome PDF Viewer",
+        "Chromium PDF Viewer",
+        "Microsoft Edge PDF Viewer",
+        "PDF Viewer",
+        "WebKit built-in PDF"
+      ],
+      "prototypeChain": [
+        "PluginArray",
+        "PluginArray",
+        "Object"
+      ],
+      "length": 5,
+      "prototype": "PluginArray",
+      "inheritedProperties": [
+        "Symbol(Symbol.iterator)",
+        "Symbol(Symbol.toStringTag)",
+        "constructor",
+        "item",
+        "length",
+        "namedItem",
+        "refresh"
+      ],
+      "descriptors": {
+        "constructor": {
+          "configurable": true,
+          "enumerable": false,
+          "writable": true,
+          "hasGetter": false,
+          "hasSetter": false,
+          "valueType": "function",
+          "getterSource": null,
+          "setterSource": null,
+          "valueSource": "function PluginArray() { [native code] }"
+        },
+        "item": {
+          "configurable": true,
+          "enumerable": true,
+          "writable": true,
+          "hasGetter": false,
+          "hasSetter": false,
+          "valueType": "function",
+          "getterSource": null,
+          "setterSource": null,
+          "valueSource": "function item() { [native code] }"
+        },
+        "length": {
+          "configurable": true,
+          "enumerable": true,
+          "writable": null,
+          "hasGetter": true,
+          "hasSetter": false,
+          "valueType": null,
+          "getterSource": "function get length() { [native code] }",
+          "setterSource": null,
+          "valueSource": null
+        },
+        "namedItem": {
+          "configurable": true,
+          "enumerable": true,
+          "writable": true,
+          "hasGetter": false,
+          "hasSetter": false,
+          "valueType": "function",
+          "getterSource": null,
+          "setterSource": null,
+          "valueSource": "function namedItem() { [native code] }"
+        },
+        "refresh": {
+          "configurable": true,
+          "enumerable": true,
+          "writable": true,
+          "hasGetter": false,
+          "hasSetter": false,
+          "valueType": "function",
+          "getterSource": null,
+          "setterSource": null,
+          "valueSource": "function refresh() { [native code] }"
+        }
+      },
+      "methods": {
+        "entries": {
+          "available": false,
+          "typeof": "undefined",
+          "source": null,
+          "nativeSource": false,
+          "descriptor": null
+        },
+        "item": {
+          "available": true,
+          "typeof": "function",
+          "source": "function item() { [native code] }",
+          "nativeSource": true,
+          "descriptor": {
+            "configurable": true,
+            "enumerable": true,
+            "writable": true,
+            "hasGetter": false,
+            "hasSetter": false,
+            "valueType": "function",
+            "getterSource": null,
+            "setterSource": null,
+            "valueSource": "function item() { [native code] }"
+          }
+        },
+        "keys": {
+          "available": false,
+          "typeof": "undefined",
+          "source": null,
+          "nativeSource": false,
+          "descriptor": null
+        },
+        "namedItem": {
+          "available": true,
+          "typeof": "function",
+          "source": "function namedItem() { [native code] }",
+          "nativeSource": true,
+          "descriptor": {
+            "configurable": true,
+            "enumerable": true,
+            "writable": true,
+            "hasGetter": false,
+            "hasSetter": false,
+            "valueType": "function",
+            "getterSource": null,
+            "setterSource": null,
+            "valueSource": "function namedItem() { [native code] }"
+          }
+        },
+        "refresh": {
+          "available": true,
+          "typeof": "function",
+          "source": "function refresh() { [native code] }",
+          "nativeSource": true,
+          "descriptor": {
+            "configurable": true,
+            "enumerable": true,
+            "writable": true,
+            "hasGetter": false,
+            "hasSetter": false,
+            "valueType": "function",
+            "getterSource": null,
+            "setterSource": null,
+            "valueSource": "function refresh() { [native code] }"
+          }
+        },
+        "values": {
+          "available": false,
+          "typeof": "undefined",
+          "source": null,
+          "nativeSource": false,
+          "descriptor": null
+        },
+        "Symbol.iterator": {
+          "available": true,
+          "typeof": "function",
+          "source": "function values() { [native code] }",
+          "nativeSource": true,
+          "descriptor": {
+            "configurable": true,
+            "enumerable": false,
+            "writable": true,
+            "hasGetter": false,
+            "hasSetter": false,
+            "valueType": "function",
+            "getterSource": null,
+            "setterSource": null,
+            "valueSource": "function values() { [native code] }"
+          }
+        }
+      },
+      "illegalInvocation": {
+        "entries": null,
+        "item": true,
+        "keys": null,
+        "namedItem": true,
+        "refresh": true,
+        "values": null
+      },
+      "instanceof": true,
+      "symbolToStringTag": {
+        "configurable": true,
+        "enumerable": false,
+        "writable": false,
+        "hasGetter": false,
+        "hasSetter": false,
+        "valueType": "string",
+        "getterSource": null,
+        "setterSource": null,
+        "valueSource": null
+      },
+      "items": [
+        {
+          "index": 0,
+          "name": "PDF Viewer",
+          "filename": "internal-pdf-viewer",
+          "description": "Portable Document Format",
+          "length": 2,
+          "ownProperties": [
+            "0",
+            "1",
+            "application/pdf",
+            "text/pdf"
+          ],
+          "prototype": "Plugin",
+          "prototypeChain": [
+            "Plugin",
+            "Plugin",
+            "Object"
+          ],
+          "prototypeProperties": [
+            "Symbol(Symbol.iterator)",
+            "Symbol(Symbol.toStringTag)",
+            "constructor",
+            "description",
+            "filename",
+            "item",
+            "length",
+            "name",
+            "namedItem"
+          ],
+          "prototypeDescriptors": {
+            "constructor": {
+              "configurable": true,
+              "enumerable": false,
+              "writable": true,
+              "hasGetter": false,
+              "hasSetter": false,
+              "valueType": "function",
+              "getterSource": null,
+              "setterSource": null,
+              "valueSource": "function Plugin() { [native code] }"
+            },
+            "description": {
+              "configurable": true,
+              "enumerable": true,
+              "writable": null,
+              "hasGetter": true,
+              "hasSetter": false,
+              "valueType": null,
+              "getterSource": "function get description() { [native code] }",
+              "setterSource": null,
+              "valueSource": null
+            },
+            "filename": {
+              "configurable": true,
+              "enumerable": true,
+              "writable": null,
+              "hasGetter": true,
+              "hasSetter": false,
+              "valueType": null,
+              "getterSource": "function get filename() { [native code] }",
+              "setterSource": null,
+              "valueSource": null
+            },
+            "item": {
+              "configurable": true,
+              "enumerable": true,
+              "writable": true,
+              "hasGetter": false,
+              "hasSetter": false,
+              "valueType": "function",
+              "getterSource": null,
+              "setterSource": null,
+              "valueSource": "function item() { [native code] }"
+            },
+            "length": {
+              "configurable": true,
+              "enumerable": true,
+              "writable": null,
+              "hasGetter": true,
+              "hasSetter": false,
+              "valueType": null,
+              "getterSource": "function get length() { [native code] }",
+              "setterSource": null,
+              "valueSource": null
+            },
+            "name": {
+              "configurable": true,
+              "enumerable": true,
+              "writable": null,
+              "hasGetter": true,
+              "hasSetter": false,
+              "valueType": null,
+              "getterSource": "function get name() { [native code] }",
+              "setterSource": null,
+              "valueSource": null
+            },
+            "namedItem": {
+              "configurable": true,
+              "enumerable": true,
+              "writable": true,
+              "hasGetter": false,
+              "hasSetter": false,
+              "valueType": "function",
+              "getterSource": null,
+              "setterSource": null,
+              "valueSource": "function namedItem() { [native code] }"
+            }
+          },
+          "prototypeMethods": {
+            "constructor": {
+              "available": true,
+              "typeof": "function",
+              "source": "function Plugin() { [native code] }",
+              "nativeSource": true,
+              "descriptor": {
+                "configurable": true,
+                "enumerable": false,
+                "writable": true,
+                "hasGetter": false,
+                "hasSetter": false,
+                "valueType": "function",
+                "getterSource": null,
+                "setterSource": null,
+                "valueSource": "function Plugin() { [native code] }"
+              }
+            },
+            "item": {
+              "available": true,
+              "typeof": "function",
+              "source": "function item() { [native code] }",
+              "nativeSource": true,
+              "descriptor": {
+                "configurable": true,
+                "enumerable": true,
+                "writable": true,
+                "hasGetter": false,
+                "hasSetter": false,
+                "valueType": "function",
+                "getterSource": null,
+                "setterSource": null,
+                "valueSource": "function item() { [native code] }"
+              }
+            },
+            "namedItem": {
+              "available": true,
+              "typeof": "function",
+              "source": "function namedItem() { [native code] }",
+              "nativeSource": true,
+              "descriptor": {
+                "configurable": true,
+                "enumerable": true,
+                "writable": true,
+                "hasGetter": false,
+                "hasSetter": false,
+                "valueType": "function",
+                "getterSource": null,
+                "setterSource": null,
+                "valueSource": "function namedItem() { [native code] }"
+              }
+            }
+          },
+          "prototypeToStringTag": {
+            "configurable": true,
+            "enumerable": false,
+            "writable": false,
+            "hasGetter": false,
+            "hasSetter": false,
+            "valueType": "string",
+            "getterSource": null,
+            "setterSource": null,
+            "valueSource": null
+          },
+          "descriptors": {
+            "0": {
+              "configurable": true,
+              "enumerable": true,
+              "writable": false,
+              "hasGetter": false,
+              "hasSetter": false,
+              "valueType": "object",
+              "getterSource": null,
+              "setterSource": null,
+              "valueSource": null
+            },
+            "1": {
+              "configurable": true,
+              "enumerable": true,
+              "writable": false,
+              "hasGetter": false,
+              "hasSetter": false,
+              "valueType": "object",
+              "getterSource": null,
+              "setterSource": null,
+              "valueSource": null
+            },
+            "application/pdf": {
+              "configurable": true,
+              "enumerable": false,
+              "writable": false,
+              "hasGetter": false,
+              "hasSetter": false,
+              "valueType": "object",
+              "getterSource": null,
+              "setterSource": null,
+              "valueSource": null
+            },
+            "text/pdf": {
+              "configurable": true,
+              "enumerable": false,
+              "writable": false,
+              "hasGetter": false,
+              "hasSetter": false,
+              "valueType": "object",
+              "getterSource": null,
+              "setterSource": null,
+              "valueSource": null
+            }
+          },
+          "mimeTypes": [
+            "application/pdf",
+            "text/pdf"
+          ]
+        },
+        {
+          "index": 1,
+          "name": "Chrome PDF Viewer",
+          "filename": "internal-pdf-viewer",
+          "description": "Portable Document Format",
+          "length": 2,
+          "ownProperties": [
+            "0",
+            "1",
+            "application/pdf",
+            "text/pdf"
+          ],
+          "prototype": "Plugin",
+          "prototypeChain": [
+            "Plugin",
+            "Plugin",
+            "Object"
+          ],
+          "prototypeProperties": [
+            "Symbol(Symbol.iterator)",
+            "Symbol(Symbol.toStringTag)",
+            "constructor",
+            "description",
+            "filename",
+            "item",
+            "length",
+            "name",
+            "namedItem"
+          ],
+          "prototypeDescriptors": {
+            "constructor": {
+              "configurable": true,
+              "enumerable": false,
+              "writable": true,
+              "hasGetter": false,
+              "hasSetter": false,
+              "valueType": "function",
+              "getterSource": null,
+              "setterSource": null,
+              "valueSource": "function Plugin() { [native code] }"
+            },
+            "description": {
+              "configurable": true,
+              "enumerable": true,
+              "writable": null,
+              "hasGetter": true,
+              "hasSetter": false,
+              "valueType": null,
+              "getterSource": "function get description() { [native code] }",
+              "setterSource": null,
+              "valueSource": null
+            },
+            "filename": {
+              "configurable": true,
+              "enumerable": true,
+              "writable": null,
+              "hasGetter": true,
+              "hasSetter": false,
+              "valueType": null,
+              "getterSource": "function get filename() { [native code] }",
+              "setterSource": null,
+              "valueSource": null
+            },
+            "item": {
+              "configurable": true,
+              "enumerable": true,
+              "writable": true,
+              "hasGetter": false,
+              "hasSetter": false,
+              "valueType": "function",
+              "getterSource": null,
+              "setterSource": null,
+              "valueSource": "function item() { [native code] }"
+            },
+            "length": {
+              "configurable": true,
+              "enumerable": true,
+              "writable": null,
+              "hasGetter": true,
+              "hasSetter": false,
+              "valueType": null,
+              "getterSource": "function get length() { [native code] }",
+              "setterSource": null,
+              "valueSource": null
+            },
+            "name": {
+              "configurable": true,
+              "enumerable": true,
+              "writable": null,
+              "hasGetter": true,
+              "hasSetter": false,
+              "valueType": null,
+              "getterSource": "function get name() { [native code] }",
+              "setterSource": null,
+              "valueSource": null
+            },
+            "namedItem": {
+              "configurable": true,
+              "enumerable": true,
+              "writable": true,
+              "hasGetter": false,
+              "hasSetter": false,
+              "valueType": "function",
+              "getterSource": null,
+              "setterSource": null,
+              "valueSource": "function namedItem() { [native code] }"
+            }
+          },
+          "prototypeMethods": {
+            "constructor": {
+              "available": true,
+              "typeof": "function",
+              "source": "function Plugin() { [native code] }",
+              "nativeSource": true,
+              "descriptor": {
+                "configurable": true,
+                "enumerable": false,
+                "writable": true,
+                "hasGetter": false,
+                "hasSetter": false,
+                "valueType": "function",
+                "getterSource": null,
+                "setterSource": null,
+                "valueSource": "function Plugin() { [native code] }"
+              }
+            },
+            "item": {
+              "available": true,
+              "typeof": "function",
+              "source": "function item() { [native code] }",
+              "nativeSource": true,
+              "descriptor": {
+                "configurable": true,
+                "enumerable": true,
+                "writable": true,
+                "hasGetter": false,
+                "hasSetter": false,
+                "valueType": "function",
+                "getterSource": null,
+                "setterSource": null,
+                "valueSource": "function item() { [native code] }"
+              }
+            },
+            "namedItem": {
+              "available": true,
+              "typeof": "function",
+              "source": "function namedItem() { [native code] }",
+              "nativeSource": true,
+              "descriptor": {
+                "configurable": true,
+                "enumerable": true,
+                "writable": true,
+                "hasGetter": false,
+                "hasSetter": false,
+                "valueType": "function",
+                "getterSource": null,
+                "setterSource": null,
+                "valueSource": "function namedItem() { [native code] }"
+              }
+            }
+          },
+          "prototypeToStringTag": {
+            "configurable": true,
+            "enumerable": false,
+            "writable": false,
+            "hasGetter": false,
+            "hasSetter": false,
+            "valueType": "string",
+            "getterSource": null,
+            "setterSource": null,
+            "valueSource": null
+          },
+          "descriptors": {
+            "0": {
+              "configurable": true,
+              "enumerable": true,
+              "writable": false,
+              "hasGetter": false,
+              "hasSetter": false,
+              "valueType": "object",
+              "getterSource": null,
+              "setterSource": null,
+              "valueSource": null
+            },
+            "1": {
+              "configurable": true,
+              "enumerable": true,
+              "writable": false,
+              "hasGetter": false,
+              "hasSetter": false,
+              "valueType": "object",
+              "getterSource": null,
+              "setterSource": null,
+              "valueSource": null
+            },
+            "application/pdf": {
+              "configurable": true,
+              "enumerable": false,
+              "writable": false,
+              "hasGetter": false,
+              "hasSetter": false,
+              "valueType": "object",
+              "getterSource": null,
+              "setterSource": null,
+              "valueSource": null
+            },
+            "text/pdf": {
+              "configurable": true,
+              "enumerable": false,
+              "writable": false,
+              "hasGetter": false,
+              "hasSetter": false,
+              "valueType": "object",
+              "getterSource": null,
+              "setterSource": null,
+              "valueSource": null
+            }
+          },
+          "mimeTypes": [
+            "application/pdf",
+            "text/pdf"
+          ]
+        },
+        {
+          "index": 2,
+          "name": "Chromium PDF Viewer",
+          "filename": "internal-pdf-viewer",
+          "description": "Portable Document Format",
+          "length": 2,
+          "ownProperties": [
+            "0",
+            "1",
+            "application/pdf",
+            "text/pdf"
+          ],
+          "prototype": "Plugin",
+          "prototypeChain": [
+            "Plugin",
+            "Plugin",
+            "Object"
+          ],
+          "prototypeProperties": [
+            "Symbol(Symbol.iterator)",
+            "Symbol(Symbol.toStringTag)",
+            "constructor",
+            "description",
+            "filename",
+            "item",
+            "length",
+            "name",
+            "namedItem"
+          ],
+          "prototypeDescriptors": {
+            "constructor": {
+              "configurable": true,
+              "enumerable": false,
+              "writable": true,
+              "hasGetter": false,
+              "hasSetter": false,
+              "valueType": "function",
+              "getterSource": null,
+              "setterSource": null,
+              "valueSource": "function Plugin() { [native code] }"
+            },
+            "description": {
+              "configurable": true,
+              "enumerable": true,
+              "writable": null,
+              "hasGetter": true,
+              "hasSetter": false,
+              "valueType": null,
+              "getterSource": "function get description() { [native code] }",
+              "setterSource": null,
+              "valueSource": null
+            },
+            "filename": {
+              "configurable": true,
+              "enumerable": true,
+              "writable": null,
+              "hasGetter": true,
+              "hasSetter": false,
+              "valueType": null,
+              "getterSource": "function get filename() { [native code] }",
+              "setterSource": null,
+              "valueSource": null
+            },
+            "item": {
+              "configurable": true,
+              "enumerable": true,
+              "writable": true,
+              "hasGetter": false,
+              "hasSetter": false,
+              "valueType": "function",
+              "getterSource": null,
+              "setterSource": null,
+              "valueSource": "function item() { [native code] }"
+            },
+            "length": {
+              "configurable": true,
+              "enumerable": true,
+              "writable": null,
+              "hasGetter": true,
+              "hasSetter": false,
+              "valueType": null,
+              "getterSource": "function get length() { [native code] }",
+              "setterSource": null,
+              "valueSource": null
+            },
+            "name": {
+              "configurable": true,
+              "enumerable": true,
+              "writable": null,
+              "hasGetter": true,
+              "hasSetter": false,
+              "valueType": null,
+              "getterSource": "function get name() { [native code] }",
+              "setterSource": null,
+              "valueSource": null
+            },
+            "namedItem": {
+              "configurable": true,
+              "enumerable": true,
+              "writable": true,
+              "hasGetter": false,
+              "hasSetter": false,
+              "valueType": "function",
+              "getterSource": null,
+              "setterSource": null,
+              "valueSource": "function namedItem() { [native code] }"
+            }
+          },
+          "prototypeMethods": {
+            "constructor": {
+              "available": true,
+              "typeof": "function",
+              "source": "function Plugin() { [native code] }",
+              "nativeSource": true,
+              "descriptor": {
+                "configurable": true,
+                "enumerable": false,
+                "writable": true,
+                "hasGetter": false,
+                "hasSetter": false,
+                "valueType": "function",
+                "getterSource": null,
+                "setterSource": null,
+                "valueSource": "function Plugin() { [native code] }"
+              }
+            },
+            "item": {
+              "available": true,
+              "typeof": "function",
+              "source": "function item() { [native code] }",
+              "nativeSource": true,
+              "descriptor": {
+                "configurable": true,
+                "enumerable": true,
+                "writable": true,
+                "hasGetter": false,
+                "hasSetter": false,
+                "valueType": "function",
+                "getterSource": null,
+                "setterSource": null,
+                "valueSource": "function item() { [native code] }"
+              }
+            },
+            "namedItem": {
+              "available": true,
+              "typeof": "function",
+              "source": "function namedItem() { [native code] }",
+              "nativeSource": true,
+              "descriptor": {
+                "configurable": true,
+                "enumerable": true,
+                "writable": true,
+                "hasGetter": false,
+                "hasSetter": false,
+                "valueType": "function",
+                "getterSource": null,
+                "setterSource": null,
+                "valueSource": "function namedItem() { [native code] }"
+              }
+            }
+          },
+          "prototypeToStringTag": {
+            "configurable": true,
+            "enumerable": false,
+            "writable": false,
+            "hasGetter": false,
+            "hasSetter": false,
+            "valueType": "string",
+            "getterSource": null,
+            "setterSource": null,
+            "valueSource": null
+          },
+          "descriptors": {
+            "0": {
+              "configurable": true,
+              "enumerable": true,
+              "writable": false,
+              "hasGetter": false,
+              "hasSetter": false,
+              "valueType": "object",
+              "getterSource": null,
+              "setterSource": null,
+              "valueSource": null
+            },
+            "1": {
+              "configurable": true,
+              "enumerable": true,
+              "writable": false,
+              "hasGetter": false,
+              "hasSetter": false,
+              "valueType": "object",
+              "getterSource": null,
+              "setterSource": null,
+              "valueSource": null
+            },
+            "application/pdf": {
+              "configurable": true,
+              "enumerable": false,
+              "writable": false,
+              "hasGetter": false,
+              "hasSetter": false,
+              "valueType": "object",
+              "getterSource": null,
+              "setterSource": null,
+              "valueSource": null
+            },
+            "text/pdf": {
+              "configurable": true,
+              "enumerable": false,
+              "writable": false,
+              "hasGetter": false,
+              "hasSetter": false,
+              "valueType": "object",
+              "getterSource": null,
+              "setterSource": null,
+              "valueSource": null
+            }
+          },
+          "mimeTypes": [
+            "application/pdf",
+            "text/pdf"
+          ]
+        },
+        {
+          "index": 3,
+          "name": "Microsoft Edge PDF Viewer",
+          "filename": "internal-pdf-viewer",
+          "description": "Portable Document Format",
+          "length": 2,
+          "ownProperties": [
+            "0",
+            "1",
+            "application/pdf",
+            "text/pdf"
+          ],
+          "prototype": "Plugin",
+          "prototypeChain": [
+            "Plugin",
+            "Plugin",
+            "Object"
+          ],
+          "prototypeProperties": [
+            "Symbol(Symbol.iterator)",
+            "Symbol(Symbol.toStringTag)",
+            "constructor",
+            "description",
+            "filename",
+            "item",
+            "length",
+            "name",
+            "namedItem"
+          ],
+          "prototypeDescriptors": {
+            "constructor": {
+              "configurable": true,
+              "enumerable": false,
+              "writable": true,
+              "hasGetter": false,
+              "hasSetter": false,
+              "valueType": "function",
+              "getterSource": null,
+              "setterSource": null,
+              "valueSource": "function Plugin() { [native code] }"
+            },
+            "description": {
+              "configurable": true,
+              "enumerable": true,
+              "writable": null,
+              "hasGetter": true,
+              "hasSetter": false,
+              "valueType": null,
+              "getterSource": "function get description() { [native code] }",
+              "setterSource": null,
+              "valueSource": null
+            },
+            "filename": {
+              "configurable": true,
+              "enumerable": true,
+              "writable": null,
+              "hasGetter": true,
+              "hasSetter": false,
+              "valueType": null,
+              "getterSource": "function get filename() { [native code] }",
+              "setterSource": null,
+              "valueSource": null
+            },
+            "item": {
+              "configurable": true,
+              "enumerable": true,
+              "writable": true,
+              "hasGetter": false,
+              "hasSetter": false,
+              "valueType": "function",
+              "getterSource": null,
+              "setterSource": null,
+              "valueSource": "function item() { [native code] }"
+            },
+            "length": {
+              "configurable": true,
+              "enumerable": true,
+              "writable": null,
+              "hasGetter": true,
+              "hasSetter": false,
+              "valueType": null,
+              "getterSource": "function get length() { [native code] }",
+              "setterSource": null,
+              "valueSource": null
+            },
+            "name": {
+              "configurable": true,
+              "enumerable": true,
+              "writable": null,
+              "hasGetter": true,
+              "hasSetter": false,
+              "valueType": null,
+              "getterSource": "function get name() { [native code] }",
+              "setterSource": null,
+              "valueSource": null
+            },
+            "namedItem": {
+              "configurable": true,
+              "enumerable": true,
+              "writable": true,
+              "hasGetter": false,
+              "hasSetter": false,
+              "valueType": "function",
+              "getterSource": null,
+              "setterSource": null,
+              "valueSource": "function namedItem() { [native code] }"
+            }
+          },
+          "prototypeMethods": {
+            "constructor": {
+              "available": true,
+              "typeof": "function",
+              "source": "function Plugin() { [native code] }",
+              "nativeSource": true,
+              "descriptor": {
+                "configurable": true,
+                "enumerable": false,
+                "writable": true,
+                "hasGetter": false,
+                "hasSetter": false,
+                "valueType": "function",
+                "getterSource": null,
+                "setterSource": null,
+                "valueSource": "function Plugin() { [native code] }"
+              }
+            },
+            "item": {
+              "available": true,
+              "typeof": "function",
+              "source": "function item() { [native code] }",
+              "nativeSource": true,
+              "descriptor": {
+                "configurable": true,
+                "enumerable": true,
+                "writable": true,
+                "hasGetter": false,
+                "hasSetter": false,
+                "valueType": "function",
+                "getterSource": null,
+                "setterSource": null,
+                "valueSource": "function item() { [native code] }"
+              }
+            },
+            "namedItem": {
+              "available": true,
+              "typeof": "function",
+              "source": "function namedItem() { [native code] }",
+              "nativeSource": true,
+              "descriptor": {
+                "configurable": true,
+                "enumerable": true,
+                "writable": true,
+                "hasGetter": false,
+                "hasSetter": false,
+                "valueType": "function",
+                "getterSource": null,
+                "setterSource": null,
+                "valueSource": "function namedItem() { [native code] }"
+              }
+            }
+          },
+          "prototypeToStringTag": {
+            "configurable": true,
+            "enumerable": false,
+            "writable": false,
+            "hasGetter": false,
+            "hasSetter": false,
+            "valueType": "string",
+            "getterSource": null,
+            "setterSource": null,
+            "valueSource": null
+          },
+          "descriptors": {
+            "0": {
+              "configurable": true,
+              "enumerable": true,
+              "writable": false,
+              "hasGetter": false,
+              "hasSetter": false,
+              "valueType": "object",
+              "getterSource": null,
+              "setterSource": null,
+              "valueSource": null
+            },
+            "1": {
+              "configurable": true,
+              "enumerable": true,
+              "writable": false,
+              "hasGetter": false,
+              "hasSetter": false,
+              "valueType": "object",
+              "getterSource": null,
+              "setterSource": null,
+              "valueSource": null
+            },
+            "application/pdf": {
+              "configurable": true,
+              "enumerable": false,
+              "writable": false,
+              "hasGetter": false,
+              "hasSetter": false,
+              "valueType": "object",
+              "getterSource": null,
+              "setterSource": null,
+              "valueSource": null
+            },
+            "text/pdf": {
+              "configurable": true,
+              "enumerable": false,
+              "writable": false,
+              "hasGetter": false,
+              "hasSetter": false,
+              "valueType": "object",
+              "getterSource": null,
+              "setterSource": null,
+              "valueSource": null
+            }
+          },
+          "mimeTypes": [
+            "application/pdf",
+            "text/pdf"
+          ]
+        },
+        {
+          "index": 4,
+          "name": "WebKit built-in PDF",
+          "filename": "internal-pdf-viewer",
+          "description": "Portable Document Format",
+          "length": 2,
+          "ownProperties": [
+            "0",
+            "1",
+            "application/pdf",
+            "text/pdf"
+          ],
+          "prototype": "Plugin",
+          "prototypeChain": [
+            "Plugin",
+            "Plugin",
+            "Object"
+          ],
+          "prototypeProperties": [
+            "Symbol(Symbol.iterator)",
+            "Symbol(Symbol.toStringTag)",
+            "constructor",
+            "description",
+            "filename",
+            "item",
+            "length",
+            "name",
+            "namedItem"
+          ],
+          "prototypeDescriptors": {
+            "constructor": {
+              "configurable": true,
+              "enumerable": false,
+              "writable": true,
+              "hasGetter": false,
+              "hasSetter": false,
+              "valueType": "function",
+              "getterSource": null,
+              "setterSource": null,
+              "valueSource": "function Plugin() { [native code] }"
+            },
+            "description": {
+              "configurable": true,
+              "enumerable": true,
+              "writable": null,
+              "hasGetter": true,
+              "hasSetter": false,
+              "valueType": null,
+              "getterSource": "function get description() { [native code] }",
+              "setterSource": null,
+              "valueSource": null
+            },
+            "filename": {
+              "configurable": true,
+              "enumerable": true,
+              "writable": null,
+              "hasGetter": true,
+              "hasSetter": false,
+              "valueType": null,
+              "getterSource": "function get filename() { [native code] }",
+              "setterSource": null,
+              "valueSource": null
+            },
+            "item": {
+              "configurable": true,
+              "enumerable": true,
+              "writable": true,
+              "hasGetter": false,
+              "hasSetter": false,
+              "valueType": "function",
+              "getterSource": null,
+              "setterSource": null,
+              "valueSource": "function item() { [native code] }"
+            },
+            "length": {
+              "configurable": true,
+              "enumerable": true,
+              "writable": null,
+              "hasGetter": true,
+              "hasSetter": false,
+              "valueType": null,
+              "getterSource": "function get length() { [native code] }",
+              "setterSource": null,
+              "valueSource": null
+            },
+            "name": {
+              "configurable": true,
+              "enumerable": true,
+              "writable": null,
+              "hasGetter": true,
+              "hasSetter": false,
+              "valueType": null,
+              "getterSource": "function get name() { [native code] }",
+              "setterSource": null,
+              "valueSource": null
+            },
+            "namedItem": {
+              "configurable": true,
+              "enumerable": true,
+              "writable": true,
+              "hasGetter": false,
+              "hasSetter": false,
+              "valueType": "function",
+              "getterSource": null,
+              "setterSource": null,
+              "valueSource": "function namedItem() { [native code] }"
+            }
+          },
+          "prototypeMethods": {
+            "constructor": {
+              "available": true,
+              "typeof": "function",
+              "source": "function Plugin() { [native code] }",
+              "nativeSource": true,
+              "descriptor": {
+                "configurable": true,
+                "enumerable": false,
+                "writable": true,
+                "hasGetter": false,
+                "hasSetter": false,
+                "valueType": "function",
+                "getterSource": null,
+                "setterSource": null,
+                "valueSource": "function Plugin() { [native code] }"
+              }
+            },
+            "item": {
+              "available": true,
+              "typeof": "function",
+              "source": "function item() { [native code] }",
+              "nativeSource": true,
+              "descriptor": {
+                "configurable": true,
+                "enumerable": true,
+                "writable": true,
+                "hasGetter": false,
+                "hasSetter": false,
+                "valueType": "function",
+                "getterSource": null,
+                "setterSource": null,
+                "valueSource": "function item() { [native code] }"
+              }
+            },
+            "namedItem": {
+              "available": true,
+              "typeof": "function",
+              "source": "function namedItem() { [native code] }",
+              "nativeSource": true,
+              "descriptor": {
+                "configurable": true,
+                "enumerable": true,
+                "writable": true,
+                "hasGetter": false,
+                "hasSetter": false,
+                "valueType": "function",
+                "getterSource": null,
+                "setterSource": null,
+                "valueSource": "function namedItem() { [native code] }"
+              }
+            }
+          },
+          "prototypeToStringTag": {
+            "configurable": true,
+            "enumerable": false,
+            "writable": false,
+            "hasGetter": false,
+            "hasSetter": false,
+            "valueType": "string",
+            "getterSource": null,
+            "setterSource": null,
+            "valueSource": null
+          },
+          "descriptors": {
+            "0": {
+              "configurable": true,
+              "enumerable": true,
+              "writable": false,
+              "hasGetter": false,
+              "hasSetter": false,
+              "valueType": "object",
+              "getterSource": null,
+              "setterSource": null,
+              "valueSource": null
+            },
+            "1": {
+              "configurable": true,
+              "enumerable": true,
+              "writable": false,
+              "hasGetter": false,
+              "hasSetter": false,
+              "valueType": "object",
+              "getterSource": null,
+              "setterSource": null,
+              "valueSource": null
+            },
+            "application/pdf": {
+              "configurable": true,
+              "enumerable": false,
+              "writable": false,
+              "hasGetter": false,
+              "hasSetter": false,
+              "valueType": "object",
+              "getterSource": null,
+              "setterSource": null,
+              "valueSource": null
+            },
+            "text/pdf": {
+              "configurable": true,
+              "enumerable": false,
+              "writable": false,
+              "hasGetter": false,
+              "hasSetter": false,
+              "valueType": "object",
+              "getterSource": null,
+              "setterSource": null,
+              "valueSource": null
+            }
+          },
+          "mimeTypes": [
+            "application/pdf",
+            "text/pdf"
+          ]
+        }
+      ]
+    },
+    "mime_types": {
+      "exists": true,
+      "typeof": "object",
+      "constructor": "MimeTypeArray",
+      "toString": "[object MimeTypeArray]",
+      "ownProperties": [
+        "0",
+        "1",
+        "application/pdf",
+        "text/pdf"
+      ],
+      "prototypeChain": [
+        "MimeTypeArray",
+        "MimeTypeArray",
+        "Object"
+      ],
+      "length": 2,
+      "prototype": "MimeTypeArray",
+      "inheritedProperties": [
+        "Symbol(Symbol.iterator)",
+        "Symbol(Symbol.toStringTag)",
+        "constructor",
+        "item",
+        "length",
+        "namedItem"
+      ],
+      "descriptors": {
+        "constructor": {
+          "configurable": true,
+          "enumerable": false,
+          "writable": true,
+          "hasGetter": false,
+          "hasSetter": false,
+          "valueType": "function",
+          "getterSource": null,
+          "setterSource": null,
+          "valueSource": "function MimeTypeArray() { [native code] }"
+        },
+        "item": {
+          "configurable": true,
+          "enumerable": true,
+          "writable": true,
+          "hasGetter": false,
+          "hasSetter": false,
+          "valueType": "function",
+          "getterSource": null,
+          "setterSource": null,
+          "valueSource": "function item() { [native code] }"
+        },
+        "length": {
+          "configurable": true,
+          "enumerable": true,
+          "writable": null,
+          "hasGetter": true,
+          "hasSetter": false,
+          "valueType": null,
+          "getterSource": "function get length() { [native code] }",
+          "setterSource": null,
+          "valueSource": null
+        },
+        "namedItem": {
+          "configurable": true,
+          "enumerable": true,
+          "writable": true,
+          "hasGetter": false,
+          "hasSetter": false,
+          "valueType": "function",
+          "getterSource": null,
+          "setterSource": null,
+          "valueSource": "function namedItem() { [native code] }"
+        }
+      },
+      "methods": {
+        "entries": {
+          "available": false,
+          "typeof": "undefined",
+          "source": null,
+          "nativeSource": false,
+          "descriptor": null
+        },
+        "item": {
+          "available": true,
+          "typeof": "function",
+          "source": "function item() { [native code] }",
+          "nativeSource": true,
+          "descriptor": {
+            "configurable": true,
+            "enumerable": true,
+            "writable": true,
+            "hasGetter": false,
+            "hasSetter": false,
+            "valueType": "function",
+            "getterSource": null,
+            "setterSource": null,
+            "valueSource": "function item() { [native code] }"
+          }
+        },
+        "keys": {
+          "available": false,
+          "typeof": "undefined",
+          "source": null,
+          "nativeSource": false,
+          "descriptor": null
+        },
+        "namedItem": {
+          "available": true,
+          "typeof": "function",
+          "source": "function namedItem() { [native code] }",
+          "nativeSource": true,
+          "descriptor": {
+            "configurable": true,
+            "enumerable": true,
+            "writable": true,
+            "hasGetter": false,
+            "hasSetter": false,
+            "valueType": "function",
+            "getterSource": null,
+            "setterSource": null,
+            "valueSource": "function namedItem() { [native code] }"
+          }
+        },
+        "values": {
+          "available": false,
+          "typeof": "undefined",
+          "source": null,
+          "nativeSource": false,
+          "descriptor": null
+        },
+        "Symbol.iterator": {
+          "available": true,
+          "typeof": "function",
+          "source": "function values() { [native code] }",
+          "nativeSource": true,
+          "descriptor": {
+            "configurable": true,
+            "enumerable": false,
+            "writable": true,
+            "hasGetter": false,
+            "hasSetter": false,
+            "valueType": "function",
+            "getterSource": null,
+            "setterSource": null,
+            "valueSource": "function values() { [native code] }"
+          }
+        }
+      },
+      "illegalInvocation": {
+        "entries": null,
+        "item": true,
+        "keys": null,
+        "namedItem": true,
+        "values": null
+      },
+      "instanceof": true,
+      "symbolToStringTag": {
+        "configurable": true,
+        "enumerable": false,
+        "writable": false,
+        "hasGetter": false,
+        "hasSetter": false,
+        "valueType": "string",
+        "getterSource": null,
+        "setterSource": null,
+        "valueSource": null
+      },
+      "items": [
+        {
+          "index": 0,
+          "type": "application/pdf",
+          "suffixes": "pdf",
+          "description": "Portable Document Format",
+          "enabledPluginIndex": 0,
+          "enabledPluginName": "PDF Viewer",
+          "ownProperties": [],
+          "prototype": "MimeType",
+          "prototypeChain": [
+            "MimeType",
+            "MimeType",
+            "Object"
+          ],
+          "prototypeProperties": [
+            "Symbol(Symbol.toStringTag)",
+            "constructor",
+            "description",
+            "enabledPlugin",
+            "suffixes",
+            "type"
+          ],
+          "prototypeDescriptors": {
+            "constructor": {
+              "configurable": true,
+              "enumerable": false,
+              "writable": true,
+              "hasGetter": false,
+              "hasSetter": false,
+              "valueType": "function",
+              "getterSource": null,
+              "setterSource": null,
+              "valueSource": "function MimeType() { [native code] }"
+            },
+            "description": {
+              "configurable": true,
+              "enumerable": true,
+              "writable": null,
+              "hasGetter": true,
+              "hasSetter": false,
+              "valueType": null,
+              "getterSource": "function get description() { [native code] }",
+              "setterSource": null,
+              "valueSource": null
+            },
+            "enabledPlugin": {
+              "configurable": true,
+              "enumerable": true,
+              "writable": null,
+              "hasGetter": true,
+              "hasSetter": false,
+              "valueType": null,
+              "getterSource": "function get enabledPlugin() { [native code] }",
+              "setterSource": null,
+              "valueSource": null
+            },
+            "suffixes": {
+              "configurable": true,
+              "enumerable": true,
+              "writable": null,
+              "hasGetter": true,
+              "hasSetter": false,
+              "valueType": null,
+              "getterSource": "function get suffixes() { [native code] }",
+              "setterSource": null,
+              "valueSource": null
+            },
+            "type": {
+              "configurable": true,
+              "enumerable": true,
+              "writable": null,
+              "hasGetter": true,
+              "hasSetter": false,
+              "valueType": null,
+              "getterSource": "function get type() { [native code] }",
+              "setterSource": null,
+              "valueSource": null
+            }
+          },
+          "prototypeMethods": {
+            "constructor": {
+              "available": true,
+              "typeof": "function",
+              "source": "function MimeType() { [native code] }",
+              "nativeSource": true,
+              "descriptor": {
+                "configurable": true,
+                "enumerable": false,
+                "writable": true,
+                "hasGetter": false,
+                "hasSetter": false,
+                "valueType": "function",
+                "getterSource": null,
+                "setterSource": null,
+                "valueSource": "function MimeType() { [native code] }"
+              }
+            }
+          },
+          "prototypeToStringTag": {
+            "configurable": true,
+            "enumerable": false,
+            "writable": false,
+            "hasGetter": false,
+            "hasSetter": false,
+            "valueType": "string",
+            "getterSource": null,
+            "setterSource": null,
+            "valueSource": null
+          },
+          "descriptors": {}
+        },
+        {
+          "index": 1,
+          "type": "text/pdf",
+          "suffixes": "pdf",
+          "description": "Portable Document Format",
+          "enabledPluginIndex": 0,
+          "enabledPluginName": "PDF Viewer",
+          "ownProperties": [],
+          "prototype": "MimeType",
+          "prototypeChain": [
+            "MimeType",
+            "MimeType",
+            "Object"
+          ],
+          "prototypeProperties": [
+            "Symbol(Symbol.toStringTag)",
+            "constructor",
+            "description",
+            "enabledPlugin",
+            "suffixes",
+            "type"
+          ],
+          "prototypeDescriptors": {
+            "constructor": {
+              "configurable": true,
+              "enumerable": false,
+              "writable": true,
+              "hasGetter": false,
+              "hasSetter": false,
+              "valueType": "function",
+              "getterSource": null,
+              "setterSource": null,
+              "valueSource": "function MimeType() { [native code] }"
+            },
+            "description": {
+              "configurable": true,
+              "enumerable": true,
+              "writable": null,
+              "hasGetter": true,
+              "hasSetter": false,
+              "valueType": null,
+              "getterSource": "function get description() { [native code] }",
+              "setterSource": null,
+              "valueSource": null
+            },
+            "enabledPlugin": {
+              "configurable": true,
+              "enumerable": true,
+              "writable": null,
+              "hasGetter": true,
+              "hasSetter": false,
+              "valueType": null,
+              "getterSource": "function get enabledPlugin() { [native code] }",
+              "setterSource": null,
+              "valueSource": null
+            },
+            "suffixes": {
+              "configurable": true,
+              "enumerable": true,
+              "writable": null,
+              "hasGetter": true,
+              "hasSetter": false,
+              "valueType": null,
+              "getterSource": "function get suffixes() { [native code] }",
+              "setterSource": null,
+              "valueSource": null
+            },
+            "type": {
+              "configurable": true,
+              "enumerable": true,
+              "writable": null,
+              "hasGetter": true,
+              "hasSetter": false,
+              "valueType": null,
+              "getterSource": "function get type() { [native code] }",
+              "setterSource": null,
+              "valueSource": null
+            }
+          },
+          "prototypeMethods": {
+            "constructor": {
+              "available": true,
+              "typeof": "function",
+              "source": "function MimeType() { [native code] }",
+              "nativeSource": true,
+              "descriptor": {
+                "configurable": true,
+                "enumerable": false,
+                "writable": true,
+                "hasGetter": false,
+                "hasSetter": false,
+                "valueType": "function",
+                "getterSource": null,
+                "setterSource": null,
+                "valueSource": "function MimeType() { [native code] }"
+              }
+            }
+          },
+          "prototypeToStringTag": {
+            "configurable": true,
+            "enumerable": false,
+            "writable": false,
+            "hasGetter": false,
+            "hasSetter": false,
+            "valueType": "string",
+            "getterSource": null,
+            "setterSource": null,
+            "valueSource": null
+          },
+          "descriptors": {}
+        }
+      ]
+    },
+    "prototype": {
+      "pluginArray": {
+        "exists": true,
+        "typeof": "object",
+        "constructor": "PluginArray",
+        "toString": "[object PluginArray]",
+        "ownProperties": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "Chrome PDF Viewer",
+          "Chromium PDF Viewer",
+          "Microsoft Edge PDF Viewer",
+          "PDF Viewer",
+          "WebKit built-in PDF"
+        ],
+        "prototypeChain": [
+          "PluginArray",
+          "PluginArray",
+          "Object"
+        ]
+      },
+      "mimeTypeArray": {
+        "exists": true,
+        "typeof": "object",
+        "constructor": "MimeTypeArray",
+        "toString": "[object MimeTypeArray]",
+        "ownProperties": [
+          "0",
+          "1",
+          "application/pdf",
+          "text/pdf"
+        ],
+        "prototypeChain": [
+          "MimeTypeArray",
+          "MimeTypeArray",
+          "Object"
+        ]
+      },
+      "pluginChain": [
+        "PluginArray",
+        "PluginArray",
+        "Object"
+      ],
+      "mimeChain": [
+        "MimeTypeArray",
+        "MimeTypeArray",
+        "Object"
+      ],
+      "pluginInstanceof": true,
+      "mimeInstanceof": true,
+      "pluginToStringTag": "[object PluginArray]",
+      "mimeToStringTag": "[object MimeTypeArray]"
+    },
+    "descriptors": {
+      "navigator": {
+        "plugins": {
+          "configurable": true,
+          "enumerable": true,
+          "writable": null,
+          "hasGetter": true,
+          "hasSetter": false,
+          "valueType": null,
+          "getterSource": "function get plugins() { [native code] }",
+          "setterSource": null,
+          "valueSource": null
+        },
+        "mimeTypes": {
+          "configurable": true,
+          "enumerable": true,
+          "writable": null,
+          "hasGetter": true,
+          "hasSetter": false,
+          "valueType": null,
+          "getterSource": "function get mimeTypes() { [native code] }",
+          "setterSource": null,
+          "valueSource": null
+        }
+      },
+      "plugins": {
+        "constructor": {
+          "configurable": true,
+          "enumerable": false,
+          "writable": true,
+          "hasGetter": false,
+          "hasSetter": false,
+          "valueType": "function",
+          "getterSource": null,
+          "setterSource": null,
+          "valueSource": "function PluginArray() { [native code] }"
+        },
+        "item": {
+          "configurable": true,
+          "enumerable": true,
+          "writable": true,
+          "hasGetter": false,
+          "hasSetter": false,
+          "valueType": "function",
+          "getterSource": null,
+          "setterSource": null,
+          "valueSource": "function item() { [native code] }"
+        },
+        "length": {
+          "configurable": true,
+          "enumerable": true,
+          "writable": null,
+          "hasGetter": true,
+          "hasSetter": false,
+          "valueType": null,
+          "getterSource": "function get length() { [native code] }",
+          "setterSource": null,
+          "valueSource": null
+        },
+        "namedItem": {
+          "configurable": true,
+          "enumerable": true,
+          "writable": true,
+          "hasGetter": false,
+          "hasSetter": false,
+          "valueType": "function",
+          "getterSource": null,
+          "setterSource": null,
+          "valueSource": "function namedItem() { [native code] }"
+        },
+        "refresh": {
+          "configurable": true,
+          "enumerable": true,
+          "writable": true,
+          "hasGetter": false,
+          "hasSetter": false,
+          "valueType": "function",
+          "getterSource": null,
+          "setterSource": null,
+          "valueSource": "function refresh() { [native code] }"
+        }
+      },
+      "mimeTypes": {
+        "constructor": {
+          "configurable": true,
+          "enumerable": false,
+          "writable": true,
+          "hasGetter": false,
+          "hasSetter": false,
+          "valueType": "function",
+          "getterSource": null,
+          "setterSource": null,
+          "valueSource": "function MimeTypeArray() { [native code] }"
+        },
+        "item": {
+          "configurable": true,
+          "enumerable": true,
+          "writable": true,
+          "hasGetter": false,
+          "hasSetter": false,
+          "valueType": "function",
+          "getterSource": null,
+          "setterSource": null,
+          "valueSource": "function item() { [native code] }"
+        },
+        "length": {
+          "configurable": true,
+          "enumerable": true,
+          "writable": null,
+          "hasGetter": true,
+          "hasSetter": false,
+          "valueType": null,
+          "getterSource": "function get length() { [native code] }",
+          "setterSource": null,
+          "valueSource": null
+        },
+        "namedItem": {
+          "configurable": true,
+          "enumerable": true,
+          "writable": true,
+          "hasGetter": false,
+          "hasSetter": false,
+          "valueType": "function",
+          "getterSource": null,
+          "setterSource": null,
+          "valueSource": "function namedItem() { [native code] }"
+        }
+      }
+    },
+    "methods": {
+      "plugins": {
+        "entries": {
+          "available": false,
+          "typeof": "undefined",
+          "source": null,
+          "nativeSource": false,
+          "descriptor": null
+        },
+        "item": {
+          "available": true,
+          "typeof": "function",
+          "source": "function item() { [native code] }",
+          "nativeSource": true,
+          "descriptor": {
+            "configurable": true,
+            "enumerable": true,
+            "writable": true,
+            "hasGetter": false,
+            "hasSetter": false,
+            "valueType": "function",
+            "getterSource": null,
+            "setterSource": null,
+            "valueSource": "function item() { [native code] }"
+          }
+        },
+        "keys": {
+          "available": false,
+          "typeof": "undefined",
+          "source": null,
+          "nativeSource": false,
+          "descriptor": null
+        },
+        "namedItem": {
+          "available": true,
+          "typeof": "function",
+          "source": "function namedItem() { [native code] }",
+          "nativeSource": true,
+          "descriptor": {
+            "configurable": true,
+            "enumerable": true,
+            "writable": true,
+            "hasGetter": false,
+            "hasSetter": false,
+            "valueType": "function",
+            "getterSource": null,
+            "setterSource": null,
+            "valueSource": "function namedItem() { [native code] }"
+          }
+        },
+        "refresh": {
+          "available": true,
+          "typeof": "function",
+          "source": "function refresh() { [native code] }",
+          "nativeSource": true,
+          "descriptor": {
+            "configurable": true,
+            "enumerable": true,
+            "writable": true,
+            "hasGetter": false,
+            "hasSetter": false,
+            "valueType": "function",
+            "getterSource": null,
+            "setterSource": null,
+            "valueSource": "function refresh() { [native code] }"
+          }
+        },
+        "values": {
+          "available": false,
+          "typeof": "undefined",
+          "source": null,
+          "nativeSource": false,
+          "descriptor": null
+        },
+        "Symbol.iterator": {
+          "available": true,
+          "typeof": "function",
+          "source": "function values() { [native code] }",
+          "nativeSource": true,
+          "descriptor": {
+            "configurable": true,
+            "enumerable": false,
+            "writable": true,
+            "hasGetter": false,
+            "hasSetter": false,
+            "valueType": "function",
+            "getterSource": null,
+            "setterSource": null,
+            "valueSource": "function values() { [native code] }"
+          }
+        }
+      },
+      "plugin_prototypes": {
+        "0": {
+          "constructor": {
+            "available": true,
+            "typeof": "function",
+            "source": "function Plugin() { [native code] }",
+            "nativeSource": true,
+            "descriptor": {
+              "configurable": true,
+              "enumerable": false,
+              "writable": true,
+              "hasGetter": false,
+              "hasSetter": false,
+              "valueType": "function",
+              "getterSource": null,
+              "setterSource": null,
+              "valueSource": "function Plugin() { [native code] }"
+            }
+          },
+          "item": {
+            "available": true,
+            "typeof": "function",
+            "source": "function item() { [native code] }",
+            "nativeSource": true,
+            "descriptor": {
+              "configurable": true,
+              "enumerable": true,
+              "writable": true,
+              "hasGetter": false,
+              "hasSetter": false,
+              "valueType": "function",
+              "getterSource": null,
+              "setterSource": null,
+              "valueSource": "function item() { [native code] }"
+            }
+          },
+          "namedItem": {
+            "available": true,
+            "typeof": "function",
+            "source": "function namedItem() { [native code] }",
+            "nativeSource": true,
+            "descriptor": {
+              "configurable": true,
+              "enumerable": true,
+              "writable": true,
+              "hasGetter": false,
+              "hasSetter": false,
+              "valueType": "function",
+              "getterSource": null,
+              "setterSource": null,
+              "valueSource": "function namedItem() { [native code] }"
+            }
+          }
+        },
+        "1": {
+          "constructor": {
+            "available": true,
+            "typeof": "function",
+            "source": "function Plugin() { [native code] }",
+            "nativeSource": true,
+            "descriptor": {
+              "configurable": true,
+              "enumerable": false,
+              "writable": true,
+              "hasGetter": false,
+              "hasSetter": false,
+              "valueType": "function",
+              "getterSource": null,
+              "setterSource": null,
+              "valueSource": "function Plugin() { [native code] }"
+            }
+          },
+          "item": {
+            "available": true,
+            "typeof": "function",
+            "source": "function item() { [native code] }",
+            "nativeSource": true,
+            "descriptor": {
+              "configurable": true,
+              "enumerable": true,
+              "writable": true,
+              "hasGetter": false,
+              "hasSetter": false,
+              "valueType": "function",
+              "getterSource": null,
+              "setterSource": null,
+              "valueSource": "function item() { [native code] }"
+            }
+          },
+          "namedItem": {
+            "available": true,
+            "typeof": "function",
+            "source": "function namedItem() { [native code] }",
+            "nativeSource": true,
+            "descriptor": {
+              "configurable": true,
+              "enumerable": true,
+              "writable": true,
+              "hasGetter": false,
+              "hasSetter": false,
+              "valueType": "function",
+              "getterSource": null,
+              "setterSource": null,
+              "valueSource": "function namedItem() { [native code] }"
+            }
+          }
+        },
+        "2": {
+          "constructor": {
+            "available": true,
+            "typeof": "function",
+            "source": "function Plugin() { [native code] }",
+            "nativeSource": true,
+            "descriptor": {
+              "configurable": true,
+              "enumerable": false,
+              "writable": true,
+              "hasGetter": false,
+              "hasSetter": false,
+              "valueType": "function",
+              "getterSource": null,
+              "setterSource": null,
+              "valueSource": "function Plugin() { [native code] }"
+            }
+          },
+          "item": {
+            "available": true,
+            "typeof": "function",
+            "source": "function item() { [native code] }",
+            "nativeSource": true,
+            "descriptor": {
+              "configurable": true,
+              "enumerable": true,
+              "writable": true,
+              "hasGetter": false,
+              "hasSetter": false,
+              "valueType": "function",
+              "getterSource": null,
+              "setterSource": null,
+              "valueSource": "function item() { [native code] }"
+            }
+          },
+          "namedItem": {
+            "available": true,
+            "typeof": "function",
+            "source": "function namedItem() { [native code] }",
+            "nativeSource": true,
+            "descriptor": {
+              "configurable": true,
+              "enumerable": true,
+              "writable": true,
+              "hasGetter": false,
+              "hasSetter": false,
+              "valueType": "function",
+              "getterSource": null,
+              "setterSource": null,
+              "valueSource": "function namedItem() { [native code] }"
+            }
+          }
+        },
+        "3": {
+          "constructor": {
+            "available": true,
+            "typeof": "function",
+            "source": "function Plugin() { [native code] }",
+            "nativeSource": true,
+            "descriptor": {
+              "configurable": true,
+              "enumerable": false,
+              "writable": true,
+              "hasGetter": false,
+              "hasSetter": false,
+              "valueType": "function",
+              "getterSource": null,
+              "setterSource": null,
+              "valueSource": "function Plugin() { [native code] }"
+            }
+          },
+          "item": {
+            "available": true,
+            "typeof": "function",
+            "source": "function item() { [native code] }",
+            "nativeSource": true,
+            "descriptor": {
+              "configurable": true,
+              "enumerable": true,
+              "writable": true,
+              "hasGetter": false,
+              "hasSetter": false,
+              "valueType": "function",
+              "getterSource": null,
+              "setterSource": null,
+              "valueSource": "function item() { [native code] }"
+            }
+          },
+          "namedItem": {
+            "available": true,
+            "typeof": "function",
+            "source": "function namedItem() { [native code] }",
+            "nativeSource": true,
+            "descriptor": {
+              "configurable": true,
+              "enumerable": true,
+              "writable": true,
+              "hasGetter": false,
+              "hasSetter": false,
+              "valueType": "function",
+              "getterSource": null,
+              "setterSource": null,
+              "valueSource": "function namedItem() { [native code] }"
+            }
+          }
+        },
+        "4": {
+          "constructor": {
+            "available": true,
+            "typeof": "function",
+            "source": "function Plugin() { [native code] }",
+            "nativeSource": true,
+            "descriptor": {
+              "configurable": true,
+              "enumerable": false,
+              "writable": true,
+              "hasGetter": false,
+              "hasSetter": false,
+              "valueType": "function",
+              "getterSource": null,
+              "setterSource": null,
+              "valueSource": "function Plugin() { [native code] }"
+            }
+          },
+          "item": {
+            "available": true,
+            "typeof": "function",
+            "source": "function item() { [native code] }",
+            "nativeSource": true,
+            "descriptor": {
+              "configurable": true,
+              "enumerable": true,
+              "writable": true,
+              "hasGetter": false,
+              "hasSetter": false,
+              "valueType": "function",
+              "getterSource": null,
+              "setterSource": null,
+              "valueSource": "function item() { [native code] }"
+            }
+          },
+          "namedItem": {
+            "available": true,
+            "typeof": "function",
+            "source": "function namedItem() { [native code] }",
+            "nativeSource": true,
+            "descriptor": {
+              "configurable": true,
+              "enumerable": true,
+              "writable": true,
+              "hasGetter": false,
+              "hasSetter": false,
+              "valueType": "function",
+              "getterSource": null,
+              "setterSource": null,
+              "valueSource": "function namedItem() { [native code] }"
+            }
+          }
+        }
+      },
+      "mimeTypes": {
+        "entries": {
+          "available": false,
+          "typeof": "undefined",
+          "source": null,
+          "nativeSource": false,
+          "descriptor": null
+        },
+        "item": {
+          "available": true,
+          "typeof": "function",
+          "source": "function item() { [native code] }",
+          "nativeSource": true,
+          "descriptor": {
+            "configurable": true,
+            "enumerable": true,
+            "writable": true,
+            "hasGetter": false,
+            "hasSetter": false,
+            "valueType": "function",
+            "getterSource": null,
+            "setterSource": null,
+            "valueSource": "function item() { [native code] }"
+          }
+        },
+        "keys": {
+          "available": false,
+          "typeof": "undefined",
+          "source": null,
+          "nativeSource": false,
+          "descriptor": null
+        },
+        "namedItem": {
+          "available": true,
+          "typeof": "function",
+          "source": "function namedItem() { [native code] }",
+          "nativeSource": true,
+          "descriptor": {
+            "configurable": true,
+            "enumerable": true,
+            "writable": true,
+            "hasGetter": false,
+            "hasSetter": false,
+            "valueType": "function",
+            "getterSource": null,
+            "setterSource": null,
+            "valueSource": "function namedItem() { [native code] }"
+          }
+        },
+        "values": {
+          "available": false,
+          "typeof": "undefined",
+          "source": null,
+          "nativeSource": false,
+          "descriptor": null
+        },
+        "Symbol.iterator": {
+          "available": true,
+          "typeof": "function",
+          "source": "function values() { [native code] }",
+          "nativeSource": true,
+          "descriptor": {
+            "configurable": true,
+            "enumerable": false,
+            "writable": true,
+            "hasGetter": false,
+            "hasSetter": false,
+            "valueType": "function",
+            "getterSource": null,
+            "setterSource": null,
+            "valueSource": "function values() { [native code] }"
+          }
+        }
+      },
+      "mime_prototypes": {
+        "0": {
+          "constructor": {
+            "available": true,
+            "typeof": "function",
+            "source": "function MimeType() { [native code] }",
+            "nativeSource": true,
+            "descriptor": {
+              "configurable": true,
+              "enumerable": false,
+              "writable": true,
+              "hasGetter": false,
+              "hasSetter": false,
+              "valueType": "function",
+              "getterSource": null,
+              "setterSource": null,
+              "valueSource": "function MimeType() { [native code] }"
+            }
+          }
+        },
+        "1": {
+          "constructor": {
+            "available": true,
+            "typeof": "function",
+            "source": "function MimeType() { [native code] }",
+            "nativeSource": true,
+            "descriptor": {
+              "configurable": true,
+              "enumerable": false,
+              "writable": true,
+              "hasGetter": false,
+              "hasSetter": false,
+              "valueType": "function",
+              "getterSource": null,
+              "setterSource": null,
+              "valueSource": "function MimeType() { [native code] }"
+            }
+          }
+        }
+      }
+    },
+    "cross_reference": {
+      "pluginMimeTypes": {
+        "0": [
+          "application/pdf",
+          "text/pdf"
+        ],
+        "1": [
+          "application/pdf",
+          "text/pdf"
+        ],
+        "2": [
+          "application/pdf",
+          "text/pdf"
+        ],
+        "3": [
+          "application/pdf",
+          "text/pdf"
+        ],
+        "4": [
+          "application/pdf",
+          "text/pdf"
+        ]
+      },
+      "mimeEnabledPlugins": {
+        "application/pdf": 0,
+        "text/pdf": 0
+      },
+      "mismatches": [],
+      "bidirectionalValid": true
+    }
+  },
+  "plain": {
+    "navigator": {
+      "constructor": "Navigator",
+      "ownProperties": [],
+      "pluginsDescriptor": {
+        "configurable": true,
+        "enumerable": true,
+        "writable": null,
+        "hasGetter": true,
+        "hasSetter": false,
+        "valueType": null,
+        "getterSource": "function get plugins() { [native code] }",
+        "setterSource": null,
+        "valueSource": null
+      },
+      "mimeTypesDescriptor": {
+        "configurable": true,
+        "enumerable": true,
+        "writable": null,
+        "hasGetter": true,
+        "hasSetter": false,
+        "valueType": null,
+        "getterSource": "function get mimeTypes() { [native code] }",
+        "setterSource": null,
+        "valueSource": null
+      }
+    },
+    "plugins": {
+      "exists": true,
+      "typeof": "object",
+      "constructor": "PluginArray",
+      "toString": "[object PluginArray]",
+      "ownProperties": [],
+      "prototypeChain": [
+        "PluginArray",
+        "PluginArray",
+        "Object"
+      ],
+      "length": 0,
+      "prototype": "PluginArray",
+      "inheritedProperties": [
+        "Symbol(Symbol.iterator)",
+        "Symbol(Symbol.toStringTag)",
+        "constructor",
+        "item",
+        "length",
+        "namedItem",
+        "refresh"
+      ],
+      "descriptors": {
+        "constructor": {
+          "configurable": true,
+          "enumerable": false,
+          "writable": true,
+          "hasGetter": false,
+          "hasSetter": false,
+          "valueType": "function",
+          "getterSource": null,
+          "setterSource": null,
+          "valueSource": "function PluginArray() { [native code] }"
+        },
+        "item": {
+          "configurable": true,
+          "enumerable": true,
+          "writable": true,
+          "hasGetter": false,
+          "hasSetter": false,
+          "valueType": "function",
+          "getterSource": null,
+          "setterSource": null,
+          "valueSource": "function item() { [native code] }"
+        },
+        "length": {
+          "configurable": true,
+          "enumerable": true,
+          "writable": null,
+          "hasGetter": true,
+          "hasSetter": false,
+          "valueType": null,
+          "getterSource": "function get length() { [native code] }",
+          "setterSource": null,
+          "valueSource": null
+        },
+        "namedItem": {
+          "configurable": true,
+          "enumerable": true,
+          "writable": true,
+          "hasGetter": false,
+          "hasSetter": false,
+          "valueType": "function",
+          "getterSource": null,
+          "setterSource": null,
+          "valueSource": "function namedItem() { [native code] }"
+        },
+        "refresh": {
+          "configurable": true,
+          "enumerable": true,
+          "writable": true,
+          "hasGetter": false,
+          "hasSetter": false,
+          "valueType": "function",
+          "getterSource": null,
+          "setterSource": null,
+          "valueSource": "function refresh() { [native code] }"
+        }
+      },
+      "methods": {
+        "entries": {
+          "available": false,
+          "typeof": "undefined",
+          "source": null,
+          "nativeSource": false,
+          "descriptor": null
+        },
+        "item": {
+          "available": true,
+          "typeof": "function",
+          "source": "function item() { [native code] }",
+          "nativeSource": true,
+          "descriptor": {
+            "configurable": true,
+            "enumerable": true,
+            "writable": true,
+            "hasGetter": false,
+            "hasSetter": false,
+            "valueType": "function",
+            "getterSource": null,
+            "setterSource": null,
+            "valueSource": "function item() { [native code] }"
+          }
+        },
+        "keys": {
+          "available": false,
+          "typeof": "undefined",
+          "source": null,
+          "nativeSource": false,
+          "descriptor": null
+        },
+        "namedItem": {
+          "available": true,
+          "typeof": "function",
+          "source": "function namedItem() { [native code] }",
+          "nativeSource": true,
+          "descriptor": {
+            "configurable": true,
+            "enumerable": true,
+            "writable": true,
+            "hasGetter": false,
+            "hasSetter": false,
+            "valueType": "function",
+            "getterSource": null,
+            "setterSource": null,
+            "valueSource": "function namedItem() { [native code] }"
+          }
+        },
+        "refresh": {
+          "available": true,
+          "typeof": "function",
+          "source": "function refresh() { [native code] }",
+          "nativeSource": true,
+          "descriptor": {
+            "configurable": true,
+            "enumerable": true,
+            "writable": true,
+            "hasGetter": false,
+            "hasSetter": false,
+            "valueType": "function",
+            "getterSource": null,
+            "setterSource": null,
+            "valueSource": "function refresh() { [native code] }"
+          }
+        },
+        "values": {
+          "available": false,
+          "typeof": "undefined",
+          "source": null,
+          "nativeSource": false,
+          "descriptor": null
+        },
+        "Symbol.iterator": {
+          "available": true,
+          "typeof": "function",
+          "source": "function values() { [native code] }",
+          "nativeSource": true,
+          "descriptor": {
+            "configurable": true,
+            "enumerable": false,
+            "writable": true,
+            "hasGetter": false,
+            "hasSetter": false,
+            "valueType": "function",
+            "getterSource": null,
+            "setterSource": null,
+            "valueSource": "function values() { [native code] }"
+          }
+        }
+      },
+      "illegalInvocation": {
+        "entries": null,
+        "item": true,
+        "keys": null,
+        "namedItem": true,
+        "refresh": true,
+        "values": null
+      },
+      "instanceof": true,
+      "symbolToStringTag": {
+        "configurable": true,
+        "enumerable": false,
+        "writable": false,
+        "hasGetter": false,
+        "hasSetter": false,
+        "valueType": "string",
+        "getterSource": null,
+        "setterSource": null,
+        "valueSource": null
+      },
+      "items": []
+    },
+    "mime_types": {
+      "exists": true,
+      "typeof": "object",
+      "constructor": "MimeTypeArray",
+      "toString": "[object MimeTypeArray]",
+      "ownProperties": [],
+      "prototypeChain": [
+        "MimeTypeArray",
+        "MimeTypeArray",
+        "Object"
+      ],
+      "length": 0,
+      "prototype": "MimeTypeArray",
+      "inheritedProperties": [
+        "Symbol(Symbol.iterator)",
+        "Symbol(Symbol.toStringTag)",
+        "constructor",
+        "item",
+        "length",
+        "namedItem"
+      ],
+      "descriptors": {
+        "constructor": {
+          "configurable": true,
+          "enumerable": false,
+          "writable": true,
+          "hasGetter": false,
+          "hasSetter": false,
+          "valueType": "function",
+          "getterSource": null,
+          "setterSource": null,
+          "valueSource": "function MimeTypeArray() { [native code] }"
+        },
+        "item": {
+          "configurable": true,
+          "enumerable": true,
+          "writable": true,
+          "hasGetter": false,
+          "hasSetter": false,
+          "valueType": "function",
+          "getterSource": null,
+          "setterSource": null,
+          "valueSource": "function item() { [native code] }"
+        },
+        "length": {
+          "configurable": true,
+          "enumerable": true,
+          "writable": null,
+          "hasGetter": true,
+          "hasSetter": false,
+          "valueType": null,
+          "getterSource": "function get length() { [native code] }",
+          "setterSource": null,
+          "valueSource": null
+        },
+        "namedItem": {
+          "configurable": true,
+          "enumerable": true,
+          "writable": true,
+          "hasGetter": false,
+          "hasSetter": false,
+          "valueType": "function",
+          "getterSource": null,
+          "setterSource": null,
+          "valueSource": "function namedItem() { [native code] }"
+        }
+      },
+      "methods": {
+        "entries": {
+          "available": false,
+          "typeof": "undefined",
+          "source": null,
+          "nativeSource": false,
+          "descriptor": null
+        },
+        "item": {
+          "available": true,
+          "typeof": "function",
+          "source": "function item() { [native code] }",
+          "nativeSource": true,
+          "descriptor": {
+            "configurable": true,
+            "enumerable": true,
+            "writable": true,
+            "hasGetter": false,
+            "hasSetter": false,
+            "valueType": "function",
+            "getterSource": null,
+            "setterSource": null,
+            "valueSource": "function item() { [native code] }"
+          }
+        },
+        "keys": {
+          "available": false,
+          "typeof": "undefined",
+          "source": null,
+          "nativeSource": false,
+          "descriptor": null
+        },
+        "namedItem": {
+          "available": true,
+          "typeof": "function",
+          "source": "function namedItem() { [native code] }",
+          "nativeSource": true,
+          "descriptor": {
+            "configurable": true,
+            "enumerable": true,
+            "writable": true,
+            "hasGetter": false,
+            "hasSetter": false,
+            "valueType": "function",
+            "getterSource": null,
+            "setterSource": null,
+            "valueSource": "function namedItem() { [native code] }"
+          }
+        },
+        "values": {
+          "available": false,
+          "typeof": "undefined",
+          "source": null,
+          "nativeSource": false,
+          "descriptor": null
+        },
+        "Symbol.iterator": {
+          "available": true,
+          "typeof": "function",
+          "source": "function values() { [native code] }",
+          "nativeSource": true,
+          "descriptor": {
+            "configurable": true,
+            "enumerable": false,
+            "writable": true,
+            "hasGetter": false,
+            "hasSetter": false,
+            "valueType": "function",
+            "getterSource": null,
+            "setterSource": null,
+            "valueSource": "function values() { [native code] }"
+          }
+        }
+      },
+      "illegalInvocation": {
+        "entries": null,
+        "item": true,
+        "keys": null,
+        "namedItem": true,
+        "values": null
+      },
+      "instanceof": true,
+      "symbolToStringTag": {
+        "configurable": true,
+        "enumerable": false,
+        "writable": false,
+        "hasGetter": false,
+        "hasSetter": false,
+        "valueType": "string",
+        "getterSource": null,
+        "setterSource": null,
+        "valueSource": null
+      },
+      "items": []
+    },
+    "prototype": {
+      "pluginArray": {
+        "exists": true,
+        "typeof": "object",
+        "constructor": "PluginArray",
+        "toString": "[object PluginArray]",
+        "ownProperties": [],
+        "prototypeChain": [
+          "PluginArray",
+          "PluginArray",
+          "Object"
+        ]
+      },
+      "mimeTypeArray": {
+        "exists": true,
+        "typeof": "object",
+        "constructor": "MimeTypeArray",
+        "toString": "[object MimeTypeArray]",
+        "ownProperties": [],
+        "prototypeChain": [
+          "MimeTypeArray",
+          "MimeTypeArray",
+          "Object"
+        ]
+      },
+      "pluginChain": [
+        "PluginArray",
+        "PluginArray",
+        "Object"
+      ],
+      "mimeChain": [
+        "MimeTypeArray",
+        "MimeTypeArray",
+        "Object"
+      ],
+      "pluginInstanceof": true,
+      "mimeInstanceof": true,
+      "pluginToStringTag": "[object PluginArray]",
+      "mimeToStringTag": "[object MimeTypeArray]"
+    },
+    "descriptors": {
+      "navigator": {
+        "plugins": {
+          "configurable": true,
+          "enumerable": true,
+          "writable": null,
+          "hasGetter": true,
+          "hasSetter": false,
+          "valueType": null,
+          "getterSource": "function get plugins() { [native code] }",
+          "setterSource": null,
+          "valueSource": null
+        },
+        "mimeTypes": {
+          "configurable": true,
+          "enumerable": true,
+          "writable": null,
+          "hasGetter": true,
+          "hasSetter": false,
+          "valueType": null,
+          "getterSource": "function get mimeTypes() { [native code] }",
+          "setterSource": null,
+          "valueSource": null
+        }
+      },
+      "plugins": {
+        "constructor": {
+          "configurable": true,
+          "enumerable": false,
+          "writable": true,
+          "hasGetter": false,
+          "hasSetter": false,
+          "valueType": "function",
+          "getterSource": null,
+          "setterSource": null,
+          "valueSource": "function PluginArray() { [native code] }"
+        },
+        "item": {
+          "configurable": true,
+          "enumerable": true,
+          "writable": true,
+          "hasGetter": false,
+          "hasSetter": false,
+          "valueType": "function",
+          "getterSource": null,
+          "setterSource": null,
+          "valueSource": "function item() { [native code] }"
+        },
+        "length": {
+          "configurable": true,
+          "enumerable": true,
+          "writable": null,
+          "hasGetter": true,
+          "hasSetter": false,
+          "valueType": null,
+          "getterSource": "function get length() { [native code] }",
+          "setterSource": null,
+          "valueSource": null
+        },
+        "namedItem": {
+          "configurable": true,
+          "enumerable": true,
+          "writable": true,
+          "hasGetter": false,
+          "hasSetter": false,
+          "valueType": "function",
+          "getterSource": null,
+          "setterSource": null,
+          "valueSource": "function namedItem() { [native code] }"
+        },
+        "refresh": {
+          "configurable": true,
+          "enumerable": true,
+          "writable": true,
+          "hasGetter": false,
+          "hasSetter": false,
+          "valueType": "function",
+          "getterSource": null,
+          "setterSource": null,
+          "valueSource": "function refresh() { [native code] }"
+        }
+      },
+      "mimeTypes": {
+        "constructor": {
+          "configurable": true,
+          "enumerable": false,
+          "writable": true,
+          "hasGetter": false,
+          "hasSetter": false,
+          "valueType": "function",
+          "getterSource": null,
+          "setterSource": null,
+          "valueSource": "function MimeTypeArray() { [native code] }"
+        },
+        "item": {
+          "configurable": true,
+          "enumerable": true,
+          "writable": true,
+          "hasGetter": false,
+          "hasSetter": false,
+          "valueType": "function",
+          "getterSource": null,
+          "setterSource": null,
+          "valueSource": "function item() { [native code] }"
+        },
+        "length": {
+          "configurable": true,
+          "enumerable": true,
+          "writable": null,
+          "hasGetter": true,
+          "hasSetter": false,
+          "valueType": null,
+          "getterSource": "function get length() { [native code] }",
+          "setterSource": null,
+          "valueSource": null
+        },
+        "namedItem": {
+          "configurable": true,
+          "enumerable": true,
+          "writable": true,
+          "hasGetter": false,
+          "hasSetter": false,
+          "valueType": "function",
+          "getterSource": null,
+          "setterSource": null,
+          "valueSource": "function namedItem() { [native code] }"
+        }
+      }
+    },
+    "methods": {
+      "plugins": {
+        "entries": {
+          "available": false,
+          "typeof": "undefined",
+          "source": null,
+          "nativeSource": false,
+          "descriptor": null
+        },
+        "item": {
+          "available": true,
+          "typeof": "function",
+          "source": "function item() { [native code] }",
+          "nativeSource": true,
+          "descriptor": {
+            "configurable": true,
+            "enumerable": true,
+            "writable": true,
+            "hasGetter": false,
+            "hasSetter": false,
+            "valueType": "function",
+            "getterSource": null,
+            "setterSource": null,
+            "valueSource": "function item() { [native code] }"
+          }
+        },
+        "keys": {
+          "available": false,
+          "typeof": "undefined",
+          "source": null,
+          "nativeSource": false,
+          "descriptor": null
+        },
+        "namedItem": {
+          "available": true,
+          "typeof": "function",
+          "source": "function namedItem() { [native code] }",
+          "nativeSource": true,
+          "descriptor": {
+            "configurable": true,
+            "enumerable": true,
+            "writable": true,
+            "hasGetter": false,
+            "hasSetter": false,
+            "valueType": "function",
+            "getterSource": null,
+            "setterSource": null,
+            "valueSource": "function namedItem() { [native code] }"
+          }
+        },
+        "refresh": {
+          "available": true,
+          "typeof": "function",
+          "source": "function refresh() { [native code] }",
+          "nativeSource": true,
+          "descriptor": {
+            "configurable": true,
+            "enumerable": true,
+            "writable": true,
+            "hasGetter": false,
+            "hasSetter": false,
+            "valueType": "function",
+            "getterSource": null,
+            "setterSource": null,
+            "valueSource": "function refresh() { [native code] }"
+          }
+        },
+        "values": {
+          "available": false,
+          "typeof": "undefined",
+          "source": null,
+          "nativeSource": false,
+          "descriptor": null
+        },
+        "Symbol.iterator": {
+          "available": true,
+          "typeof": "function",
+          "source": "function values() { [native code] }",
+          "nativeSource": true,
+          "descriptor": {
+            "configurable": true,
+            "enumerable": false,
+            "writable": true,
+            "hasGetter": false,
+            "hasSetter": false,
+            "valueType": "function",
+            "getterSource": null,
+            "setterSource": null,
+            "valueSource": "function values() { [native code] }"
+          }
+        }
+      },
+      "plugin_prototypes": {},
+      "mimeTypes": {
+        "entries": {
+          "available": false,
+          "typeof": "undefined",
+          "source": null,
+          "nativeSource": false,
+          "descriptor": null
+        },
+        "item": {
+          "available": true,
+          "typeof": "function",
+          "source": "function item() { [native code] }",
+          "nativeSource": true,
+          "descriptor": {
+            "configurable": true,
+            "enumerable": true,
+            "writable": true,
+            "hasGetter": false,
+            "hasSetter": false,
+            "valueType": "function",
+            "getterSource": null,
+            "setterSource": null,
+            "valueSource": "function item() { [native code] }"
+          }
+        },
+        "keys": {
+          "available": false,
+          "typeof": "undefined",
+          "source": null,
+          "nativeSource": false,
+          "descriptor": null
+        },
+        "namedItem": {
+          "available": true,
+          "typeof": "function",
+          "source": "function namedItem() { [native code] }",
+          "nativeSource": true,
+          "descriptor": {
+            "configurable": true,
+            "enumerable": true,
+            "writable": true,
+            "hasGetter": false,
+            "hasSetter": false,
+            "valueType": "function",
+            "getterSource": null,
+            "setterSource": null,
+            "valueSource": "function namedItem() { [native code] }"
+          }
+        },
+        "values": {
+          "available": false,
+          "typeof": "undefined",
+          "source": null,
+          "nativeSource": false,
+          "descriptor": null
+        },
+        "Symbol.iterator": {
+          "available": true,
+          "typeof": "function",
+          "source": "function values() { [native code] }",
+          "nativeSource": true,
+          "descriptor": {
+            "configurable": true,
+            "enumerable": false,
+            "writable": true,
+            "hasGetter": false,
+            "hasSetter": false,
+            "valueType": "function",
+            "getterSource": null,
+            "setterSource": null,
+            "valueSource": "function values() { [native code] }"
+          }
+        }
+      },
+      "mime_prototypes": {}
+    },
+    "cross_reference": {
+      "pluginMimeTypes": {},
+      "mimeEnabledPlugins": {},
+      "mismatches": [],
+      "bidirectionalValid": true
+    }
+  },
+  "plugins": {
+    "navigator": {
+      "constructor": "Navigator",
+      "ownProperties": [],
+      "pluginsDescriptor": {
+        "configurable": true,
+        "enumerable": true,
+        "writable": null,
+        "hasGetter": true,
+        "hasSetter": false,
+        "valueType": null,
+        "getterSource": "function get plugins() { [native code] }",
+        "setterSource": null,
+        "valueSource": null
+      },
+      "mimeTypesDescriptor": {
+        "configurable": true,
+        "enumerable": true,
+        "writable": null,
+        "hasGetter": true,
+        "hasSetter": false,
+        "valueType": null,
+        "getterSource": "function get mimeTypes() { [native code] }",
+        "setterSource": null,
+        "valueSource": null
+      }
+    },
+    "plugins": {
+      "exists": true,
+      "typeof": "object",
+      "constructor": "PluginArray",
+      "toString": "[object PluginArray]",
+      "ownProperties": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "Chrome PDF Viewer",
+        "Chromium PDF Viewer",
+        "Microsoft Edge PDF Viewer",
+        "PDF Viewer",
+        "WebKit built-in PDF"
+      ],
+      "prototypeChain": [
+        "PluginArray",
+        "PluginArray",
+        "Object"
+      ],
+      "length": 5,
+      "prototype": "PluginArray",
+      "inheritedProperties": [
+        "Symbol(Symbol.iterator)",
+        "Symbol(Symbol.toStringTag)",
+        "constructor",
+        "item",
+        "length",
+        "namedItem",
+        "refresh"
+      ],
+      "descriptors": {
+        "constructor": {
+          "configurable": true,
+          "enumerable": false,
+          "writable": true,
+          "hasGetter": false,
+          "hasSetter": false,
+          "valueType": "function",
+          "getterSource": null,
+          "setterSource": null,
+          "valueSource": "function PluginArray() { [native code] }"
+        },
+        "item": {
+          "configurable": true,
+          "enumerable": true,
+          "writable": true,
+          "hasGetter": false,
+          "hasSetter": false,
+          "valueType": "function",
+          "getterSource": null,
+          "setterSource": null,
+          "valueSource": "function item() { [native code] }"
+        },
+        "length": {
+          "configurable": true,
+          "enumerable": true,
+          "writable": null,
+          "hasGetter": true,
+          "hasSetter": false,
+          "valueType": null,
+          "getterSource": "function get length() { [native code] }",
+          "setterSource": null,
+          "valueSource": null
+        },
+        "namedItem": {
+          "configurable": true,
+          "enumerable": true,
+          "writable": true,
+          "hasGetter": false,
+          "hasSetter": false,
+          "valueType": "function",
+          "getterSource": null,
+          "setterSource": null,
+          "valueSource": "function namedItem() { [native code] }"
+        },
+        "refresh": {
+          "configurable": true,
+          "enumerable": true,
+          "writable": true,
+          "hasGetter": false,
+          "hasSetter": false,
+          "valueType": "function",
+          "getterSource": null,
+          "setterSource": null,
+          "valueSource": "function refresh() { [native code] }"
+        }
+      },
+      "methods": {
+        "entries": {
+          "available": false,
+          "typeof": "undefined",
+          "source": null,
+          "nativeSource": false,
+          "descriptor": null
+        },
+        "item": {
+          "available": true,
+          "typeof": "function",
+          "source": "function item() { [native code] }",
+          "nativeSource": true,
+          "descriptor": {
+            "configurable": true,
+            "enumerable": true,
+            "writable": true,
+            "hasGetter": false,
+            "hasSetter": false,
+            "valueType": "function",
+            "getterSource": null,
+            "setterSource": null,
+            "valueSource": "function item() { [native code] }"
+          }
+        },
+        "keys": {
+          "available": false,
+          "typeof": "undefined",
+          "source": null,
+          "nativeSource": false,
+          "descriptor": null
+        },
+        "namedItem": {
+          "available": true,
+          "typeof": "function",
+          "source": "function namedItem() { [native code] }",
+          "nativeSource": true,
+          "descriptor": {
+            "configurable": true,
+            "enumerable": true,
+            "writable": true,
+            "hasGetter": false,
+            "hasSetter": false,
+            "valueType": "function",
+            "getterSource": null,
+            "setterSource": null,
+            "valueSource": "function namedItem() { [native code] }"
+          }
+        },
+        "refresh": {
+          "available": true,
+          "typeof": "function",
+          "source": "function refresh() { [native code] }",
+          "nativeSource": true,
+          "descriptor": {
+            "configurable": true,
+            "enumerable": true,
+            "writable": true,
+            "hasGetter": false,
+            "hasSetter": false,
+            "valueType": "function",
+            "getterSource": null,
+            "setterSource": null,
+            "valueSource": "function refresh() { [native code] }"
+          }
+        },
+        "values": {
+          "available": false,
+          "typeof": "undefined",
+          "source": null,
+          "nativeSource": false,
+          "descriptor": null
+        },
+        "Symbol.iterator": {
+          "available": true,
+          "typeof": "function",
+          "source": "function values() { [native code] }",
+          "nativeSource": true,
+          "descriptor": {
+            "configurable": true,
+            "enumerable": false,
+            "writable": true,
+            "hasGetter": false,
+            "hasSetter": false,
+            "valueType": "function",
+            "getterSource": null,
+            "setterSource": null,
+            "valueSource": "function values() { [native code] }"
+          }
+        }
+      },
+      "illegalInvocation": {
+        "entries": null,
+        "item": true,
+        "keys": null,
+        "namedItem": true,
+        "refresh": true,
+        "values": null
+      },
+      "instanceof": true,
+      "symbolToStringTag": {
+        "configurable": true,
+        "enumerable": false,
+        "writable": false,
+        "hasGetter": false,
+        "hasSetter": false,
+        "valueType": "string",
+        "getterSource": null,
+        "setterSource": null,
+        "valueSource": null
+      },
+      "items": [
+        {
+          "index": 0,
+          "name": "PDF Viewer",
+          "filename": "internal-pdf-viewer",
+          "description": "Portable Document Format",
+          "length": 2,
+          "ownProperties": [
+            "0",
+            "1",
+            "application/pdf",
+            "text/pdf"
+          ],
+          "prototype": "PluginArray",
+          "prototypeChain": [
+            "PluginArray",
+            "PluginArray",
+            "Object"
+          ],
+          "prototypeProperties": [
+            "Symbol(Symbol.iterator)",
+            "Symbol(Symbol.toStringTag)",
+            "constructor",
+            "item",
+            "length",
+            "namedItem",
+            "refresh"
+          ],
+          "prototypeDescriptors": {
+            "constructor": {
+              "configurable": true,
+              "enumerable": false,
+              "writable": true,
+              "hasGetter": false,
+              "hasSetter": false,
+              "valueType": "function",
+              "getterSource": null,
+              "setterSource": null,
+              "valueSource": "function PluginArray() { [native code] }"
+            },
+            "item": {
+              "configurable": true,
+              "enumerable": true,
+              "writable": true,
+              "hasGetter": false,
+              "hasSetter": false,
+              "valueType": "function",
+              "getterSource": null,
+              "setterSource": null,
+              "valueSource": "function item() { [native code] }"
+            },
+            "length": {
+              "configurable": true,
+              "enumerable": true,
+              "writable": null,
+              "hasGetter": true,
+              "hasSetter": false,
+              "valueType": null,
+              "getterSource": "function get length() { [native code] }",
+              "setterSource": null,
+              "valueSource": null
+            },
+            "namedItem": {
+              "configurable": true,
+              "enumerable": true,
+              "writable": true,
+              "hasGetter": false,
+              "hasSetter": false,
+              "valueType": "function",
+              "getterSource": null,
+              "setterSource": null,
+              "valueSource": "function namedItem() { [native code] }"
+            },
+            "refresh": {
+              "configurable": true,
+              "enumerable": true,
+              "writable": true,
+              "hasGetter": false,
+              "hasSetter": false,
+              "valueType": "function",
+              "getterSource": null,
+              "setterSource": null,
+              "valueSource": "function refresh() { [native code] }"
+            }
+          },
+          "prototypeMethods": {
+            "constructor": {
+              "available": true,
+              "typeof": "function",
+              "source": "function PluginArray() { [native code] }",
+              "nativeSource": true,
+              "descriptor": {
+                "configurable": true,
+                "enumerable": false,
+                "writable": true,
+                "hasGetter": false,
+                "hasSetter": false,
+                "valueType": "function",
+                "getterSource": null,
+                "setterSource": null,
+                "valueSource": "function PluginArray() { [native code] }"
+              }
+            },
+            "item": {
+              "available": true,
+              "typeof": "function",
+              "source": "function item() { [native code] }",
+              "nativeSource": true,
+              "descriptor": {
+                "configurable": true,
+                "enumerable": true,
+                "writable": true,
+                "hasGetter": false,
+                "hasSetter": false,
+                "valueType": "function",
+                "getterSource": null,
+                "setterSource": null,
+                "valueSource": "function item() { [native code] }"
+              }
+            },
+            "namedItem": {
+              "available": true,
+              "typeof": "function",
+              "source": "function namedItem() { [native code] }",
+              "nativeSource": true,
+              "descriptor": {
+                "configurable": true,
+                "enumerable": true,
+                "writable": true,
+                "hasGetter": false,
+                "hasSetter": false,
+                "valueType": "function",
+                "getterSource": null,
+                "setterSource": null,
+                "valueSource": "function namedItem() { [native code] }"
+              }
+            },
+            "refresh": {
+              "available": true,
+              "typeof": "function",
+              "source": "function refresh() { [native code] }",
+              "nativeSource": true,
+              "descriptor": {
+                "configurable": true,
+                "enumerable": true,
+                "writable": true,
+                "hasGetter": false,
+                "hasSetter": false,
+                "valueType": "function",
+                "getterSource": null,
+                "setterSource": null,
+                "valueSource": "function refresh() { [native code] }"
+              }
+            }
+          },
+          "prototypeToStringTag": {
+            "configurable": true,
+            "enumerable": false,
+            "writable": false,
+            "hasGetter": false,
+            "hasSetter": false,
+            "valueType": "string",
+            "getterSource": null,
+            "setterSource": null,
+            "valueSource": null
+          },
+          "descriptors": {
+            "0": {
+              "configurable": true,
+              "enumerable": true,
+              "writable": false,
+              "hasGetter": false,
+              "hasSetter": false,
+              "valueType": "object",
+              "getterSource": null,
+              "setterSource": null,
+              "valueSource": null
+            },
+            "1": {
+              "configurable": true,
+              "enumerable": true,
+              "writable": false,
+              "hasGetter": false,
+              "hasSetter": false,
+              "valueType": "object",
+              "getterSource": null,
+              "setterSource": null,
+              "valueSource": null
+            },
+            "application/pdf": {
+              "configurable": true,
+              "enumerable": false,
+              "writable": false,
+              "hasGetter": false,
+              "hasSetter": false,
+              "valueType": "object",
+              "getterSource": null,
+              "setterSource": null,
+              "valueSource": null
+            },
+            "text/pdf": {
+              "configurable": true,
+              "enumerable": false,
+              "writable": false,
+              "hasGetter": false,
+              "hasSetter": false,
+              "valueType": "object",
+              "getterSource": null,
+              "setterSource": null,
+              "valueSource": null
+            }
+          },
+          "mimeTypes": [
+            "application/pdf",
+            "text/pdf"
+          ]
+        },
+        {
+          "index": 1,
+          "name": "Chrome PDF Viewer",
+          "filename": "internal-pdf-viewer",
+          "description": "Portable Document Format",
+          "length": 2,
+          "ownProperties": [
+            "0",
+            "1",
+            "application/pdf",
+            "text/pdf"
+          ],
+          "prototype": "PluginArray",
+          "prototypeChain": [
+            "PluginArray",
+            "PluginArray",
+            "Object"
+          ],
+          "prototypeProperties": [
+            "Symbol(Symbol.iterator)",
+            "Symbol(Symbol.toStringTag)",
+            "constructor",
+            "item",
+            "length",
+            "namedItem",
+            "refresh"
+          ],
+          "prototypeDescriptors": {
+            "constructor": {
+              "configurable": true,
+              "enumerable": false,
+              "writable": true,
+              "hasGetter": false,
+              "hasSetter": false,
+              "valueType": "function",
+              "getterSource": null,
+              "setterSource": null,
+              "valueSource": "function PluginArray() { [native code] }"
+            },
+            "item": {
+              "configurable": true,
+              "enumerable": true,
+              "writable": true,
+              "hasGetter": false,
+              "hasSetter": false,
+              "valueType": "function",
+              "getterSource": null,
+              "setterSource": null,
+              "valueSource": "function item() { [native code] }"
+            },
+            "length": {
+              "configurable": true,
+              "enumerable": true,
+              "writable": null,
+              "hasGetter": true,
+              "hasSetter": false,
+              "valueType": null,
+              "getterSource": "function get length() { [native code] }",
+              "setterSource": null,
+              "valueSource": null
+            },
+            "namedItem": {
+              "configurable": true,
+              "enumerable": true,
+              "writable": true,
+              "hasGetter": false,
+              "hasSetter": false,
+              "valueType": "function",
+              "getterSource": null,
+              "setterSource": null,
+              "valueSource": "function namedItem() { [native code] }"
+            },
+            "refresh": {
+              "configurable": true,
+              "enumerable": true,
+              "writable": true,
+              "hasGetter": false,
+              "hasSetter": false,
+              "valueType": "function",
+              "getterSource": null,
+              "setterSource": null,
+              "valueSource": "function refresh() { [native code] }"
+            }
+          },
+          "prototypeMethods": {
+            "constructor": {
+              "available": true,
+              "typeof": "function",
+              "source": "function PluginArray() { [native code] }",
+              "nativeSource": true,
+              "descriptor": {
+                "configurable": true,
+                "enumerable": false,
+                "writable": true,
+                "hasGetter": false,
+                "hasSetter": false,
+                "valueType": "function",
+                "getterSource": null,
+                "setterSource": null,
+                "valueSource": "function PluginArray() { [native code] }"
+              }
+            },
+            "item": {
+              "available": true,
+              "typeof": "function",
+              "source": "function item() { [native code] }",
+              "nativeSource": true,
+              "descriptor": {
+                "configurable": true,
+                "enumerable": true,
+                "writable": true,
+                "hasGetter": false,
+                "hasSetter": false,
+                "valueType": "function",
+                "getterSource": null,
+                "setterSource": null,
+                "valueSource": "function item() { [native code] }"
+              }
+            },
+            "namedItem": {
+              "available": true,
+              "typeof": "function",
+              "source": "function namedItem() { [native code] }",
+              "nativeSource": true,
+              "descriptor": {
+                "configurable": true,
+                "enumerable": true,
+                "writable": true,
+                "hasGetter": false,
+                "hasSetter": false,
+                "valueType": "function",
+                "getterSource": null,
+                "setterSource": null,
+                "valueSource": "function namedItem() { [native code] }"
+              }
+            },
+            "refresh": {
+              "available": true,
+              "typeof": "function",
+              "source": "function refresh() { [native code] }",
+              "nativeSource": true,
+              "descriptor": {
+                "configurable": true,
+                "enumerable": true,
+                "writable": true,
+                "hasGetter": false,
+                "hasSetter": false,
+                "valueType": "function",
+                "getterSource": null,
+                "setterSource": null,
+                "valueSource": "function refresh() { [native code] }"
+              }
+            }
+          },
+          "prototypeToStringTag": {
+            "configurable": true,
+            "enumerable": false,
+            "writable": false,
+            "hasGetter": false,
+            "hasSetter": false,
+            "valueType": "string",
+            "getterSource": null,
+            "setterSource": null,
+            "valueSource": null
+          },
+          "descriptors": {
+            "0": {
+              "configurable": true,
+              "enumerable": true,
+              "writable": false,
+              "hasGetter": false,
+              "hasSetter": false,
+              "valueType": "object",
+              "getterSource": null,
+              "setterSource": null,
+              "valueSource": null
+            },
+            "1": {
+              "configurable": true,
+              "enumerable": true,
+              "writable": false,
+              "hasGetter": false,
+              "hasSetter": false,
+              "valueType": "object",
+              "getterSource": null,
+              "setterSource": null,
+              "valueSource": null
+            },
+            "application/pdf": {
+              "configurable": true,
+              "enumerable": false,
+              "writable": false,
+              "hasGetter": false,
+              "hasSetter": false,
+              "valueType": "object",
+              "getterSource": null,
+              "setterSource": null,
+              "valueSource": null
+            },
+            "text/pdf": {
+              "configurable": true,
+              "enumerable": false,
+              "writable": false,
+              "hasGetter": false,
+              "hasSetter": false,
+              "valueType": "object",
+              "getterSource": null,
+              "setterSource": null,
+              "valueSource": null
+            }
+          },
+          "mimeTypes": [
+            "application/pdf",
+            "text/pdf"
+          ]
+        },
+        {
+          "index": 2,
+          "name": "Chromium PDF Viewer",
+          "filename": "internal-pdf-viewer",
+          "description": "Portable Document Format",
+          "length": 2,
+          "ownProperties": [
+            "0",
+            "1",
+            "application/pdf",
+            "text/pdf"
+          ],
+          "prototype": "PluginArray",
+          "prototypeChain": [
+            "PluginArray",
+            "PluginArray",
+            "Object"
+          ],
+          "prototypeProperties": [
+            "Symbol(Symbol.iterator)",
+            "Symbol(Symbol.toStringTag)",
+            "constructor",
+            "item",
+            "length",
+            "namedItem",
+            "refresh"
+          ],
+          "prototypeDescriptors": {
+            "constructor": {
+              "configurable": true,
+              "enumerable": false,
+              "writable": true,
+              "hasGetter": false,
+              "hasSetter": false,
+              "valueType": "function",
+              "getterSource": null,
+              "setterSource": null,
+              "valueSource": "function PluginArray() { [native code] }"
+            },
+            "item": {
+              "configurable": true,
+              "enumerable": true,
+              "writable": true,
+              "hasGetter": false,
+              "hasSetter": false,
+              "valueType": "function",
+              "getterSource": null,
+              "setterSource": null,
+              "valueSource": "function item() { [native code] }"
+            },
+            "length": {
+              "configurable": true,
+              "enumerable": true,
+              "writable": null,
+              "hasGetter": true,
+              "hasSetter": false,
+              "valueType": null,
+              "getterSource": "function get length() { [native code] }",
+              "setterSource": null,
+              "valueSource": null
+            },
+            "namedItem": {
+              "configurable": true,
+              "enumerable": true,
+              "writable": true,
+              "hasGetter": false,
+              "hasSetter": false,
+              "valueType": "function",
+              "getterSource": null,
+              "setterSource": null,
+              "valueSource": "function namedItem() { [native code] }"
+            },
+            "refresh": {
+              "configurable": true,
+              "enumerable": true,
+              "writable": true,
+              "hasGetter": false,
+              "hasSetter": false,
+              "valueType": "function",
+              "getterSource": null,
+              "setterSource": null,
+              "valueSource": "function refresh() { [native code] }"
+            }
+          },
+          "prototypeMethods": {
+            "constructor": {
+              "available": true,
+              "typeof": "function",
+              "source": "function PluginArray() { [native code] }",
+              "nativeSource": true,
+              "descriptor": {
+                "configurable": true,
+                "enumerable": false,
+                "writable": true,
+                "hasGetter": false,
+                "hasSetter": false,
+                "valueType": "function",
+                "getterSource": null,
+                "setterSource": null,
+                "valueSource": "function PluginArray() { [native code] }"
+              }
+            },
+            "item": {
+              "available": true,
+              "typeof": "function",
+              "source": "function item() { [native code] }",
+              "nativeSource": true,
+              "descriptor": {
+                "configurable": true,
+                "enumerable": true,
+                "writable": true,
+                "hasGetter": false,
+                "hasSetter": false,
+                "valueType": "function",
+                "getterSource": null,
+                "setterSource": null,
+                "valueSource": "function item() { [native code] }"
+              }
+            },
+            "namedItem": {
+              "available": true,
+              "typeof": "function",
+              "source": "function namedItem() { [native code] }",
+              "nativeSource": true,
+              "descriptor": {
+                "configurable": true,
+                "enumerable": true,
+                "writable": true,
+                "hasGetter": false,
+                "hasSetter": false,
+                "valueType": "function",
+                "getterSource": null,
+                "setterSource": null,
+                "valueSource": "function namedItem() { [native code] }"
+              }
+            },
+            "refresh": {
+              "available": true,
+              "typeof": "function",
+              "source": "function refresh() { [native code] }",
+              "nativeSource": true,
+              "descriptor": {
+                "configurable": true,
+                "enumerable": true,
+                "writable": true,
+                "hasGetter": false,
+                "hasSetter": false,
+                "valueType": "function",
+                "getterSource": null,
+                "setterSource": null,
+                "valueSource": "function refresh() { [native code] }"
+              }
+            }
+          },
+          "prototypeToStringTag": {
+            "configurable": true,
+            "enumerable": false,
+            "writable": false,
+            "hasGetter": false,
+            "hasSetter": false,
+            "valueType": "string",
+            "getterSource": null,
+            "setterSource": null,
+            "valueSource": null
+          },
+          "descriptors": {
+            "0": {
+              "configurable": true,
+              "enumerable": true,
+              "writable": false,
+              "hasGetter": false,
+              "hasSetter": false,
+              "valueType": "object",
+              "getterSource": null,
+              "setterSource": null,
+              "valueSource": null
+            },
+            "1": {
+              "configurable": true,
+              "enumerable": true,
+              "writable": false,
+              "hasGetter": false,
+              "hasSetter": false,
+              "valueType": "object",
+              "getterSource": null,
+              "setterSource": null,
+              "valueSource": null
+            },
+            "application/pdf": {
+              "configurable": true,
+              "enumerable": false,
+              "writable": false,
+              "hasGetter": false,
+              "hasSetter": false,
+              "valueType": "object",
+              "getterSource": null,
+              "setterSource": null,
+              "valueSource": null
+            },
+            "text/pdf": {
+              "configurable": true,
+              "enumerable": false,
+              "writable": false,
+              "hasGetter": false,
+              "hasSetter": false,
+              "valueType": "object",
+              "getterSource": null,
+              "setterSource": null,
+              "valueSource": null
+            }
+          },
+          "mimeTypes": [
+            "application/pdf",
+            "text/pdf"
+          ]
+        },
+        {
+          "index": 3,
+          "name": "Microsoft Edge PDF Viewer",
+          "filename": "internal-pdf-viewer",
+          "description": "Portable Document Format",
+          "length": 2,
+          "ownProperties": [
+            "0",
+            "1",
+            "application/pdf",
+            "text/pdf"
+          ],
+          "prototype": "PluginArray",
+          "prototypeChain": [
+            "PluginArray",
+            "PluginArray",
+            "Object"
+          ],
+          "prototypeProperties": [
+            "Symbol(Symbol.iterator)",
+            "Symbol(Symbol.toStringTag)",
+            "constructor",
+            "item",
+            "length",
+            "namedItem",
+            "refresh"
+          ],
+          "prototypeDescriptors": {
+            "constructor": {
+              "configurable": true,
+              "enumerable": false,
+              "writable": true,
+              "hasGetter": false,
+              "hasSetter": false,
+              "valueType": "function",
+              "getterSource": null,
+              "setterSource": null,
+              "valueSource": "function PluginArray() { [native code] }"
+            },
+            "item": {
+              "configurable": true,
+              "enumerable": true,
+              "writable": true,
+              "hasGetter": false,
+              "hasSetter": false,
+              "valueType": "function",
+              "getterSource": null,
+              "setterSource": null,
+              "valueSource": "function item() { [native code] }"
+            },
+            "length": {
+              "configurable": true,
+              "enumerable": true,
+              "writable": null,
+              "hasGetter": true,
+              "hasSetter": false,
+              "valueType": null,
+              "getterSource": "function get length() { [native code] }",
+              "setterSource": null,
+              "valueSource": null
+            },
+            "namedItem": {
+              "configurable": true,
+              "enumerable": true,
+              "writable": true,
+              "hasGetter": false,
+              "hasSetter": false,
+              "valueType": "function",
+              "getterSource": null,
+              "setterSource": null,
+              "valueSource": "function namedItem() { [native code] }"
+            },
+            "refresh": {
+              "configurable": true,
+              "enumerable": true,
+              "writable": true,
+              "hasGetter": false,
+              "hasSetter": false,
+              "valueType": "function",
+              "getterSource": null,
+              "setterSource": null,
+              "valueSource": "function refresh() { [native code] }"
+            }
+          },
+          "prototypeMethods": {
+            "constructor": {
+              "available": true,
+              "typeof": "function",
+              "source": "function PluginArray() { [native code] }",
+              "nativeSource": true,
+              "descriptor": {
+                "configurable": true,
+                "enumerable": false,
+                "writable": true,
+                "hasGetter": false,
+                "hasSetter": false,
+                "valueType": "function",
+                "getterSource": null,
+                "setterSource": null,
+                "valueSource": "function PluginArray() { [native code] }"
+              }
+            },
+            "item": {
+              "available": true,
+              "typeof": "function",
+              "source": "function item() { [native code] }",
+              "nativeSource": true,
+              "descriptor": {
+                "configurable": true,
+                "enumerable": true,
+                "writable": true,
+                "hasGetter": false,
+                "hasSetter": false,
+                "valueType": "function",
+                "getterSource": null,
+                "setterSource": null,
+                "valueSource": "function item() { [native code] }"
+              }
+            },
+            "namedItem": {
+              "available": true,
+              "typeof": "function",
+              "source": "function namedItem() { [native code] }",
+              "nativeSource": true,
+              "descriptor": {
+                "configurable": true,
+                "enumerable": true,
+                "writable": true,
+                "hasGetter": false,
+                "hasSetter": false,
+                "valueType": "function",
+                "getterSource": null,
+                "setterSource": null,
+                "valueSource": "function namedItem() { [native code] }"
+              }
+            },
+            "refresh": {
+              "available": true,
+              "typeof": "function",
+              "source": "function refresh() { [native code] }",
+              "nativeSource": true,
+              "descriptor": {
+                "configurable": true,
+                "enumerable": true,
+                "writable": true,
+                "hasGetter": false,
+                "hasSetter": false,
+                "valueType": "function",
+                "getterSource": null,
+                "setterSource": null,
+                "valueSource": "function refresh() { [native code] }"
+              }
+            }
+          },
+          "prototypeToStringTag": {
+            "configurable": true,
+            "enumerable": false,
+            "writable": false,
+            "hasGetter": false,
+            "hasSetter": false,
+            "valueType": "string",
+            "getterSource": null,
+            "setterSource": null,
+            "valueSource": null
+          },
+          "descriptors": {
+            "0": {
+              "configurable": true,
+              "enumerable": true,
+              "writable": false,
+              "hasGetter": false,
+              "hasSetter": false,
+              "valueType": "object",
+              "getterSource": null,
+              "setterSource": null,
+              "valueSource": null
+            },
+            "1": {
+              "configurable": true,
+              "enumerable": true,
+              "writable": false,
+              "hasGetter": false,
+              "hasSetter": false,
+              "valueType": "object",
+              "getterSource": null,
+              "setterSource": null,
+              "valueSource": null
+            },
+            "application/pdf": {
+              "configurable": true,
+              "enumerable": false,
+              "writable": false,
+              "hasGetter": false,
+              "hasSetter": false,
+              "valueType": "object",
+              "getterSource": null,
+              "setterSource": null,
+              "valueSource": null
+            },
+            "text/pdf": {
+              "configurable": true,
+              "enumerable": false,
+              "writable": false,
+              "hasGetter": false,
+              "hasSetter": false,
+              "valueType": "object",
+              "getterSource": null,
+              "setterSource": null,
+              "valueSource": null
+            }
+          },
+          "mimeTypes": [
+            "application/pdf",
+            "text/pdf"
+          ]
+        },
+        {
+          "index": 4,
+          "name": "WebKit built-in PDF",
+          "filename": "internal-pdf-viewer",
+          "description": "Portable Document Format",
+          "length": 2,
+          "ownProperties": [
+            "0",
+            "1",
+            "application/pdf",
+            "text/pdf"
+          ],
+          "prototype": "PluginArray",
+          "prototypeChain": [
+            "PluginArray",
+            "PluginArray",
+            "Object"
+          ],
+          "prototypeProperties": [
+            "Symbol(Symbol.iterator)",
+            "Symbol(Symbol.toStringTag)",
+            "constructor",
+            "item",
+            "length",
+            "namedItem",
+            "refresh"
+          ],
+          "prototypeDescriptors": {
+            "constructor": {
+              "configurable": true,
+              "enumerable": false,
+              "writable": true,
+              "hasGetter": false,
+              "hasSetter": false,
+              "valueType": "function",
+              "getterSource": null,
+              "setterSource": null,
+              "valueSource": "function PluginArray() { [native code] }"
+            },
+            "item": {
+              "configurable": true,
+              "enumerable": true,
+              "writable": true,
+              "hasGetter": false,
+              "hasSetter": false,
+              "valueType": "function",
+              "getterSource": null,
+              "setterSource": null,
+              "valueSource": "function item() { [native code] }"
+            },
+            "length": {
+              "configurable": true,
+              "enumerable": true,
+              "writable": null,
+              "hasGetter": true,
+              "hasSetter": false,
+              "valueType": null,
+              "getterSource": "function get length() { [native code] }",
+              "setterSource": null,
+              "valueSource": null
+            },
+            "namedItem": {
+              "configurable": true,
+              "enumerable": true,
+              "writable": true,
+              "hasGetter": false,
+              "hasSetter": false,
+              "valueType": "function",
+              "getterSource": null,
+              "setterSource": null,
+              "valueSource": "function namedItem() { [native code] }"
+            },
+            "refresh": {
+              "configurable": true,
+              "enumerable": true,
+              "writable": true,
+              "hasGetter": false,
+              "hasSetter": false,
+              "valueType": "function",
+              "getterSource": null,
+              "setterSource": null,
+              "valueSource": "function refresh() { [native code] }"
+            }
+          },
+          "prototypeMethods": {
+            "constructor": {
+              "available": true,
+              "typeof": "function",
+              "source": "function PluginArray() { [native code] }",
+              "nativeSource": true,
+              "descriptor": {
+                "configurable": true,
+                "enumerable": false,
+                "writable": true,
+                "hasGetter": false,
+                "hasSetter": false,
+                "valueType": "function",
+                "getterSource": null,
+                "setterSource": null,
+                "valueSource": "function PluginArray() { [native code] }"
+              }
+            },
+            "item": {
+              "available": true,
+              "typeof": "function",
+              "source": "function item() { [native code] }",
+              "nativeSource": true,
+              "descriptor": {
+                "configurable": true,
+                "enumerable": true,
+                "writable": true,
+                "hasGetter": false,
+                "hasSetter": false,
+                "valueType": "function",
+                "getterSource": null,
+                "setterSource": null,
+                "valueSource": "function item() { [native code] }"
+              }
+            },
+            "namedItem": {
+              "available": true,
+              "typeof": "function",
+              "source": "function namedItem() { [native code] }",
+              "nativeSource": true,
+              "descriptor": {
+                "configurable": true,
+                "enumerable": true,
+                "writable": true,
+                "hasGetter": false,
+                "hasSetter": false,
+                "valueType": "function",
+                "getterSource": null,
+                "setterSource": null,
+                "valueSource": "function namedItem() { [native code] }"
+              }
+            },
+            "refresh": {
+              "available": true,
+              "typeof": "function",
+              "source": "function refresh() { [native code] }",
+              "nativeSource": true,
+              "descriptor": {
+                "configurable": true,
+                "enumerable": true,
+                "writable": true,
+                "hasGetter": false,
+                "hasSetter": false,
+                "valueType": "function",
+                "getterSource": null,
+                "setterSource": null,
+                "valueSource": "function refresh() { [native code] }"
+              }
+            }
+          },
+          "prototypeToStringTag": {
+            "configurable": true,
+            "enumerable": false,
+            "writable": false,
+            "hasGetter": false,
+            "hasSetter": false,
+            "valueType": "string",
+            "getterSource": null,
+            "setterSource": null,
+            "valueSource": null
+          },
+          "descriptors": {
+            "0": {
+              "configurable": true,
+              "enumerable": true,
+              "writable": false,
+              "hasGetter": false,
+              "hasSetter": false,
+              "valueType": "object",
+              "getterSource": null,
+              "setterSource": null,
+              "valueSource": null
+            },
+            "1": {
+              "configurable": true,
+              "enumerable": true,
+              "writable": false,
+              "hasGetter": false,
+              "hasSetter": false,
+              "valueType": "object",
+              "getterSource": null,
+              "setterSource": null,
+              "valueSource": null
+            },
+            "application/pdf": {
+              "configurable": true,
+              "enumerable": false,
+              "writable": false,
+              "hasGetter": false,
+              "hasSetter": false,
+              "valueType": "object",
+              "getterSource": null,
+              "setterSource": null,
+              "valueSource": null
+            },
+            "text/pdf": {
+              "configurable": true,
+              "enumerable": false,
+              "writable": false,
+              "hasGetter": false,
+              "hasSetter": false,
+              "valueType": "object",
+              "getterSource": null,
+              "setterSource": null,
+              "valueSource": null
+            }
+          },
+          "mimeTypes": [
+            "application/pdf",
+            "text/pdf"
+          ]
+        }
+      ]
+    },
+    "mime_types": {
+      "exists": true,
+      "typeof": "object",
+      "constructor": "MimeTypeArray",
+      "toString": "[object MimeTypeArray]",
+      "ownProperties": [
+        "0",
+        "1",
+        "application/pdf",
+        "text/pdf"
+      ],
+      "prototypeChain": [
+        "MimeTypeArray",
+        "MimeTypeArray",
+        "Object"
+      ],
+      "length": 2,
+      "prototype": "MimeTypeArray",
+      "inheritedProperties": [
+        "Symbol(Symbol.iterator)",
+        "Symbol(Symbol.toStringTag)",
+        "constructor",
+        "item",
+        "length",
+        "namedItem"
+      ],
+      "descriptors": {
+        "constructor": {
+          "configurable": true,
+          "enumerable": false,
+          "writable": true,
+          "hasGetter": false,
+          "hasSetter": false,
+          "valueType": "function",
+          "getterSource": null,
+          "setterSource": null,
+          "valueSource": "function MimeTypeArray() { [native code] }"
+        },
+        "item": {
+          "configurable": true,
+          "enumerable": true,
+          "writable": true,
+          "hasGetter": false,
+          "hasSetter": false,
+          "valueType": "function",
+          "getterSource": null,
+          "setterSource": null,
+          "valueSource": "function item() { [native code] }"
+        },
+        "length": {
+          "configurable": true,
+          "enumerable": true,
+          "writable": null,
+          "hasGetter": true,
+          "hasSetter": false,
+          "valueType": null,
+          "getterSource": "function get length() { [native code] }",
+          "setterSource": null,
+          "valueSource": null
+        },
+        "namedItem": {
+          "configurable": true,
+          "enumerable": true,
+          "writable": true,
+          "hasGetter": false,
+          "hasSetter": false,
+          "valueType": "function",
+          "getterSource": null,
+          "setterSource": null,
+          "valueSource": "function namedItem() { [native code] }"
+        }
+      },
+      "methods": {
+        "entries": {
+          "available": false,
+          "typeof": "undefined",
+          "source": null,
+          "nativeSource": false,
+          "descriptor": null
+        },
+        "item": {
+          "available": true,
+          "typeof": "function",
+          "source": "function item() { [native code] }",
+          "nativeSource": true,
+          "descriptor": {
+            "configurable": true,
+            "enumerable": true,
+            "writable": true,
+            "hasGetter": false,
+            "hasSetter": false,
+            "valueType": "function",
+            "getterSource": null,
+            "setterSource": null,
+            "valueSource": "function item() { [native code] }"
+          }
+        },
+        "keys": {
+          "available": false,
+          "typeof": "undefined",
+          "source": null,
+          "nativeSource": false,
+          "descriptor": null
+        },
+        "namedItem": {
+          "available": true,
+          "typeof": "function",
+          "source": "function namedItem() { [native code] }",
+          "nativeSource": true,
+          "descriptor": {
+            "configurable": true,
+            "enumerable": true,
+            "writable": true,
+            "hasGetter": false,
+            "hasSetter": false,
+            "valueType": "function",
+            "getterSource": null,
+            "setterSource": null,
+            "valueSource": "function namedItem() { [native code] }"
+          }
+        },
+        "values": {
+          "available": false,
+          "typeof": "undefined",
+          "source": null,
+          "nativeSource": false,
+          "descriptor": null
+        },
+        "Symbol.iterator": {
+          "available": true,
+          "typeof": "function",
+          "source": "function values() { [native code] }",
+          "nativeSource": true,
+          "descriptor": {
+            "configurable": true,
+            "enumerable": false,
+            "writable": true,
+            "hasGetter": false,
+            "hasSetter": false,
+            "valueType": "function",
+            "getterSource": null,
+            "setterSource": null,
+            "valueSource": "function values() { [native code] }"
+          }
+        }
+      },
+      "illegalInvocation": {
+        "entries": null,
+        "item": true,
+        "keys": null,
+        "namedItem": true,
+        "values": null
+      },
+      "instanceof": true,
+      "symbolToStringTag": {
+        "configurable": true,
+        "enumerable": false,
+        "writable": false,
+        "hasGetter": false,
+        "hasSetter": false,
+        "valueType": "string",
+        "getterSource": null,
+        "setterSource": null,
+        "valueSource": null
+      },
+      "items": [
+        {
+          "index": 0,
+          "type": "application/pdf",
+          "suffixes": "pdf",
+          "description": "Portable Document Format",
+          "enabledPluginIndex": 0,
+          "enabledPluginName": "PDF Viewer",
+          "ownProperties": [],
+          "prototype": "MimeTypeArray",
+          "prototypeChain": [
+            "MimeTypeArray",
+            "MimeTypeArray",
+            "Object"
+          ],
+          "prototypeProperties": [
+            "Symbol(Symbol.iterator)",
+            "Symbol(Symbol.toStringTag)",
+            "constructor",
+            "item",
+            "length",
+            "namedItem"
+          ],
+          "prototypeDescriptors": {
+            "constructor": {
+              "configurable": true,
+              "enumerable": false,
+              "writable": true,
+              "hasGetter": false,
+              "hasSetter": false,
+              "valueType": "function",
+              "getterSource": null,
+              "setterSource": null,
+              "valueSource": "function MimeTypeArray() { [native code] }"
+            },
+            "item": {
+              "configurable": true,
+              "enumerable": true,
+              "writable": true,
+              "hasGetter": false,
+              "hasSetter": false,
+              "valueType": "function",
+              "getterSource": null,
+              "setterSource": null,
+              "valueSource": "function item() { [native code] }"
+            },
+            "length": {
+              "configurable": true,
+              "enumerable": true,
+              "writable": null,
+              "hasGetter": true,
+              "hasSetter": false,
+              "valueType": null,
+              "getterSource": "function get length() { [native code] }",
+              "setterSource": null,
+              "valueSource": null
+            },
+            "namedItem": {
+              "configurable": true,
+              "enumerable": true,
+              "writable": true,
+              "hasGetter": false,
+              "hasSetter": false,
+              "valueType": "function",
+              "getterSource": null,
+              "setterSource": null,
+              "valueSource": "function namedItem() { [native code] }"
+            }
+          },
+          "prototypeMethods": {
+            "constructor": {
+              "available": true,
+              "typeof": "function",
+              "source": "function MimeTypeArray() { [native code] }",
+              "nativeSource": true,
+              "descriptor": {
+                "configurable": true,
+                "enumerable": false,
+                "writable": true,
+                "hasGetter": false,
+                "hasSetter": false,
+                "valueType": "function",
+                "getterSource": null,
+                "setterSource": null,
+                "valueSource": "function MimeTypeArray() { [native code] }"
+              }
+            },
+            "item": {
+              "available": true,
+              "typeof": "function",
+              "source": "function item() { [native code] }",
+              "nativeSource": true,
+              "descriptor": {
+                "configurable": true,
+                "enumerable": true,
+                "writable": true,
+                "hasGetter": false,
+                "hasSetter": false,
+                "valueType": "function",
+                "getterSource": null,
+                "setterSource": null,
+                "valueSource": "function item() { [native code] }"
+              }
+            },
+            "namedItem": {
+              "available": true,
+              "typeof": "function",
+              "source": "function namedItem() { [native code] }",
+              "nativeSource": true,
+              "descriptor": {
+                "configurable": true,
+                "enumerable": true,
+                "writable": true,
+                "hasGetter": false,
+                "hasSetter": false,
+                "valueType": "function",
+                "getterSource": null,
+                "setterSource": null,
+                "valueSource": "function namedItem() { [native code] }"
+              }
+            }
+          },
+          "prototypeToStringTag": {
+            "configurable": true,
+            "enumerable": false,
+            "writable": false,
+            "hasGetter": false,
+            "hasSetter": false,
+            "valueType": "string",
+            "getterSource": null,
+            "setterSource": null,
+            "valueSource": null
+          },
+          "descriptors": {}
+        },
+        {
+          "index": 1,
+          "type": "text/pdf",
+          "suffixes": "pdf",
+          "description": "Portable Document Format",
+          "enabledPluginIndex": 0,
+          "enabledPluginName": "PDF Viewer",
+          "ownProperties": [],
+          "prototype": "MimeTypeArray",
+          "prototypeChain": [
+            "MimeTypeArray",
+            "MimeTypeArray",
+            "Object"
+          ],
+          "prototypeProperties": [
+            "Symbol(Symbol.iterator)",
+            "Symbol(Symbol.toStringTag)",
+            "constructor",
+            "item",
+            "length",
+            "namedItem"
+          ],
+          "prototypeDescriptors": {
+            "constructor": {
+              "configurable": true,
+              "enumerable": false,
+              "writable": true,
+              "hasGetter": false,
+              "hasSetter": false,
+              "valueType": "function",
+              "getterSource": null,
+              "setterSource": null,
+              "valueSource": "function MimeTypeArray() { [native code] }"
+            },
+            "item": {
+              "configurable": true,
+              "enumerable": true,
+              "writable": true,
+              "hasGetter": false,
+              "hasSetter": false,
+              "valueType": "function",
+              "getterSource": null,
+              "setterSource": null,
+              "valueSource": "function item() { [native code] }"
+            },
+            "length": {
+              "configurable": true,
+              "enumerable": true,
+              "writable": null,
+              "hasGetter": true,
+              "hasSetter": false,
+              "valueType": null,
+              "getterSource": "function get length() { [native code] }",
+              "setterSource": null,
+              "valueSource": null
+            },
+            "namedItem": {
+              "configurable": true,
+              "enumerable": true,
+              "writable": true,
+              "hasGetter": false,
+              "hasSetter": false,
+              "valueType": "function",
+              "getterSource": null,
+              "setterSource": null,
+              "valueSource": "function namedItem() { [native code] }"
+            }
+          },
+          "prototypeMethods": {
+            "constructor": {
+              "available": true,
+              "typeof": "function",
+              "source": "function MimeTypeArray() { [native code] }",
+              "nativeSource": true,
+              "descriptor": {
+                "configurable": true,
+                "enumerable": false,
+                "writable": true,
+                "hasGetter": false,
+                "hasSetter": false,
+                "valueType": "function",
+                "getterSource": null,
+                "setterSource": null,
+                "valueSource": "function MimeTypeArray() { [native code] }"
+              }
+            },
+            "item": {
+              "available": true,
+              "typeof": "function",
+              "source": "function item() { [native code] }",
+              "nativeSource": true,
+              "descriptor": {
+                "configurable": true,
+                "enumerable": true,
+                "writable": true,
+                "hasGetter": false,
+                "hasSetter": false,
+                "valueType": "function",
+                "getterSource": null,
+                "setterSource": null,
+                "valueSource": "function item() { [native code] }"
+              }
+            },
+            "namedItem": {
+              "available": true,
+              "typeof": "function",
+              "source": "function namedItem() { [native code] }",
+              "nativeSource": true,
+              "descriptor": {
+                "configurable": true,
+                "enumerable": true,
+                "writable": true,
+                "hasGetter": false,
+                "hasSetter": false,
+                "valueType": "function",
+                "getterSource": null,
+                "setterSource": null,
+                "valueSource": "function namedItem() { [native code] }"
+              }
+            }
+          },
+          "prototypeToStringTag": {
+            "configurable": true,
+            "enumerable": false,
+            "writable": false,
+            "hasGetter": false,
+            "hasSetter": false,
+            "valueType": "string",
+            "getterSource": null,
+            "setterSource": null,
+            "valueSource": null
+          },
+          "descriptors": {}
+        }
+      ]
+    },
+    "prototype": {
+      "pluginArray": {
+        "exists": true,
+        "typeof": "object",
+        "constructor": "PluginArray",
+        "toString": "[object PluginArray]",
+        "ownProperties": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "Chrome PDF Viewer",
+          "Chromium PDF Viewer",
+          "Microsoft Edge PDF Viewer",
+          "PDF Viewer",
+          "WebKit built-in PDF"
+        ],
+        "prototypeChain": [
+          "PluginArray",
+          "PluginArray",
+          "Object"
+        ]
+      },
+      "mimeTypeArray": {
+        "exists": true,
+        "typeof": "object",
+        "constructor": "MimeTypeArray",
+        "toString": "[object MimeTypeArray]",
+        "ownProperties": [
+          "0",
+          "1",
+          "application/pdf",
+          "text/pdf"
+        ],
+        "prototypeChain": [
+          "MimeTypeArray",
+          "MimeTypeArray",
+          "Object"
+        ]
+      },
+      "pluginChain": [
+        "PluginArray",
+        "PluginArray",
+        "Object"
+      ],
+      "mimeChain": [
+        "MimeTypeArray",
+        "MimeTypeArray",
+        "Object"
+      ],
+      "pluginInstanceof": true,
+      "mimeInstanceof": true,
+      "pluginToStringTag": "[object PluginArray]",
+      "mimeToStringTag": "[object MimeTypeArray]"
+    },
+    "descriptors": {
+      "navigator": {
+        "plugins": {
+          "configurable": true,
+          "enumerable": true,
+          "writable": null,
+          "hasGetter": true,
+          "hasSetter": false,
+          "valueType": null,
+          "getterSource": "function get plugins() { [native code] }",
+          "setterSource": null,
+          "valueSource": null
+        },
+        "mimeTypes": {
+          "configurable": true,
+          "enumerable": true,
+          "writable": null,
+          "hasGetter": true,
+          "hasSetter": false,
+          "valueType": null,
+          "getterSource": "function get mimeTypes() { [native code] }",
+          "setterSource": null,
+          "valueSource": null
+        }
+      },
+      "plugins": {
+        "constructor": {
+          "configurable": true,
+          "enumerable": false,
+          "writable": true,
+          "hasGetter": false,
+          "hasSetter": false,
+          "valueType": "function",
+          "getterSource": null,
+          "setterSource": null,
+          "valueSource": "function PluginArray() { [native code] }"
+        },
+        "item": {
+          "configurable": true,
+          "enumerable": true,
+          "writable": true,
+          "hasGetter": false,
+          "hasSetter": false,
+          "valueType": "function",
+          "getterSource": null,
+          "setterSource": null,
+          "valueSource": "function item() { [native code] }"
+        },
+        "length": {
+          "configurable": true,
+          "enumerable": true,
+          "writable": null,
+          "hasGetter": true,
+          "hasSetter": false,
+          "valueType": null,
+          "getterSource": "function get length() { [native code] }",
+          "setterSource": null,
+          "valueSource": null
+        },
+        "namedItem": {
+          "configurable": true,
+          "enumerable": true,
+          "writable": true,
+          "hasGetter": false,
+          "hasSetter": false,
+          "valueType": "function",
+          "getterSource": null,
+          "setterSource": null,
+          "valueSource": "function namedItem() { [native code] }"
+        },
+        "refresh": {
+          "configurable": true,
+          "enumerable": true,
+          "writable": true,
+          "hasGetter": false,
+          "hasSetter": false,
+          "valueType": "function",
+          "getterSource": null,
+          "setterSource": null,
+          "valueSource": "function refresh() { [native code] }"
+        }
+      },
+      "mimeTypes": {
+        "constructor": {
+          "configurable": true,
+          "enumerable": false,
+          "writable": true,
+          "hasGetter": false,
+          "hasSetter": false,
+          "valueType": "function",
+          "getterSource": null,
+          "setterSource": null,
+          "valueSource": "function MimeTypeArray() { [native code] }"
+        },
+        "item": {
+          "configurable": true,
+          "enumerable": true,
+          "writable": true,
+          "hasGetter": false,
+          "hasSetter": false,
+          "valueType": "function",
+          "getterSource": null,
+          "setterSource": null,
+          "valueSource": "function item() { [native code] }"
+        },
+        "length": {
+          "configurable": true,
+          "enumerable": true,
+          "writable": null,
+          "hasGetter": true,
+          "hasSetter": false,
+          "valueType": null,
+          "getterSource": "function get length() { [native code] }",
+          "setterSource": null,
+          "valueSource": null
+        },
+        "namedItem": {
+          "configurable": true,
+          "enumerable": true,
+          "writable": true,
+          "hasGetter": false,
+          "hasSetter": false,
+          "valueType": "function",
+          "getterSource": null,
+          "setterSource": null,
+          "valueSource": "function namedItem() { [native code] }"
+        }
+      }
+    },
+    "methods": {
+      "plugins": {
+        "entries": {
+          "available": false,
+          "typeof": "undefined",
+          "source": null,
+          "nativeSource": false,
+          "descriptor": null
+        },
+        "item": {
+          "available": true,
+          "typeof": "function",
+          "source": "function item() { [native code] }",
+          "nativeSource": true,
+          "descriptor": {
+            "configurable": true,
+            "enumerable": true,
+            "writable": true,
+            "hasGetter": false,
+            "hasSetter": false,
+            "valueType": "function",
+            "getterSource": null,
+            "setterSource": null,
+            "valueSource": "function item() { [native code] }"
+          }
+        },
+        "keys": {
+          "available": false,
+          "typeof": "undefined",
+          "source": null,
+          "nativeSource": false,
+          "descriptor": null
+        },
+        "namedItem": {
+          "available": true,
+          "typeof": "function",
+          "source": "function namedItem() { [native code] }",
+          "nativeSource": true,
+          "descriptor": {
+            "configurable": true,
+            "enumerable": true,
+            "writable": true,
+            "hasGetter": false,
+            "hasSetter": false,
+            "valueType": "function",
+            "getterSource": null,
+            "setterSource": null,
+            "valueSource": "function namedItem() { [native code] }"
+          }
+        },
+        "refresh": {
+          "available": true,
+          "typeof": "function",
+          "source": "function refresh() { [native code] }",
+          "nativeSource": true,
+          "descriptor": {
+            "configurable": true,
+            "enumerable": true,
+            "writable": true,
+            "hasGetter": false,
+            "hasSetter": false,
+            "valueType": "function",
+            "getterSource": null,
+            "setterSource": null,
+            "valueSource": "function refresh() { [native code] }"
+          }
+        },
+        "values": {
+          "available": false,
+          "typeof": "undefined",
+          "source": null,
+          "nativeSource": false,
+          "descriptor": null
+        },
+        "Symbol.iterator": {
+          "available": true,
+          "typeof": "function",
+          "source": "function values() { [native code] }",
+          "nativeSource": true,
+          "descriptor": {
+            "configurable": true,
+            "enumerable": false,
+            "writable": true,
+            "hasGetter": false,
+            "hasSetter": false,
+            "valueType": "function",
+            "getterSource": null,
+            "setterSource": null,
+            "valueSource": "function values() { [native code] }"
+          }
+        }
+      },
+      "plugin_prototypes": {
+        "0": {
+          "constructor": {
+            "available": true,
+            "typeof": "function",
+            "source": "function PluginArray() { [native code] }",
+            "nativeSource": true,
+            "descriptor": {
+              "configurable": true,
+              "enumerable": false,
+              "writable": true,
+              "hasGetter": false,
+              "hasSetter": false,
+              "valueType": "function",
+              "getterSource": null,
+              "setterSource": null,
+              "valueSource": "function PluginArray() { [native code] }"
+            }
+          },
+          "item": {
+            "available": true,
+            "typeof": "function",
+            "source": "function item() { [native code] }",
+            "nativeSource": true,
+            "descriptor": {
+              "configurable": true,
+              "enumerable": true,
+              "writable": true,
+              "hasGetter": false,
+              "hasSetter": false,
+              "valueType": "function",
+              "getterSource": null,
+              "setterSource": null,
+              "valueSource": "function item() { [native code] }"
+            }
+          },
+          "namedItem": {
+            "available": true,
+            "typeof": "function",
+            "source": "function namedItem() { [native code] }",
+            "nativeSource": true,
+            "descriptor": {
+              "configurable": true,
+              "enumerable": true,
+              "writable": true,
+              "hasGetter": false,
+              "hasSetter": false,
+              "valueType": "function",
+              "getterSource": null,
+              "setterSource": null,
+              "valueSource": "function namedItem() { [native code] }"
+            }
+          },
+          "refresh": {
+            "available": true,
+            "typeof": "function",
+            "source": "function refresh() { [native code] }",
+            "nativeSource": true,
+            "descriptor": {
+              "configurable": true,
+              "enumerable": true,
+              "writable": true,
+              "hasGetter": false,
+              "hasSetter": false,
+              "valueType": "function",
+              "getterSource": null,
+              "setterSource": null,
+              "valueSource": "function refresh() { [native code] }"
+            }
+          }
+        },
+        "1": {
+          "constructor": {
+            "available": true,
+            "typeof": "function",
+            "source": "function PluginArray() { [native code] }",
+            "nativeSource": true,
+            "descriptor": {
+              "configurable": true,
+              "enumerable": false,
+              "writable": true,
+              "hasGetter": false,
+              "hasSetter": false,
+              "valueType": "function",
+              "getterSource": null,
+              "setterSource": null,
+              "valueSource": "function PluginArray() { [native code] }"
+            }
+          },
+          "item": {
+            "available": true,
+            "typeof": "function",
+            "source": "function item() { [native code] }",
+            "nativeSource": true,
+            "descriptor": {
+              "configurable": true,
+              "enumerable": true,
+              "writable": true,
+              "hasGetter": false,
+              "hasSetter": false,
+              "valueType": "function",
+              "getterSource": null,
+              "setterSource": null,
+              "valueSource": "function item() { [native code] }"
+            }
+          },
+          "namedItem": {
+            "available": true,
+            "typeof": "function",
+            "source": "function namedItem() { [native code] }",
+            "nativeSource": true,
+            "descriptor": {
+              "configurable": true,
+              "enumerable": true,
+              "writable": true,
+              "hasGetter": false,
+              "hasSetter": false,
+              "valueType": "function",
+              "getterSource": null,
+              "setterSource": null,
+              "valueSource": "function namedItem() { [native code] }"
+            }
+          },
+          "refresh": {
+            "available": true,
+            "typeof": "function",
+            "source": "function refresh() { [native code] }",
+            "nativeSource": true,
+            "descriptor": {
+              "configurable": true,
+              "enumerable": true,
+              "writable": true,
+              "hasGetter": false,
+              "hasSetter": false,
+              "valueType": "function",
+              "getterSource": null,
+              "setterSource": null,
+              "valueSource": "function refresh() { [native code] }"
+            }
+          }
+        },
+        "2": {
+          "constructor": {
+            "available": true,
+            "typeof": "function",
+            "source": "function PluginArray() { [native code] }",
+            "nativeSource": true,
+            "descriptor": {
+              "configurable": true,
+              "enumerable": false,
+              "writable": true,
+              "hasGetter": false,
+              "hasSetter": false,
+              "valueType": "function",
+              "getterSource": null,
+              "setterSource": null,
+              "valueSource": "function PluginArray() { [native code] }"
+            }
+          },
+          "item": {
+            "available": true,
+            "typeof": "function",
+            "source": "function item() { [native code] }",
+            "nativeSource": true,
+            "descriptor": {
+              "configurable": true,
+              "enumerable": true,
+              "writable": true,
+              "hasGetter": false,
+              "hasSetter": false,
+              "valueType": "function",
+              "getterSource": null,
+              "setterSource": null,
+              "valueSource": "function item() { [native code] }"
+            }
+          },
+          "namedItem": {
+            "available": true,
+            "typeof": "function",
+            "source": "function namedItem() { [native code] }",
+            "nativeSource": true,
+            "descriptor": {
+              "configurable": true,
+              "enumerable": true,
+              "writable": true,
+              "hasGetter": false,
+              "hasSetter": false,
+              "valueType": "function",
+              "getterSource": null,
+              "setterSource": null,
+              "valueSource": "function namedItem() { [native code] }"
+            }
+          },
+          "refresh": {
+            "available": true,
+            "typeof": "function",
+            "source": "function refresh() { [native code] }",
+            "nativeSource": true,
+            "descriptor": {
+              "configurable": true,
+              "enumerable": true,
+              "writable": true,
+              "hasGetter": false,
+              "hasSetter": false,
+              "valueType": "function",
+              "getterSource": null,
+              "setterSource": null,
+              "valueSource": "function refresh() { [native code] }"
+            }
+          }
+        },
+        "3": {
+          "constructor": {
+            "available": true,
+            "typeof": "function",
+            "source": "function PluginArray() { [native code] }",
+            "nativeSource": true,
+            "descriptor": {
+              "configurable": true,
+              "enumerable": false,
+              "writable": true,
+              "hasGetter": false,
+              "hasSetter": false,
+              "valueType": "function",
+              "getterSource": null,
+              "setterSource": null,
+              "valueSource": "function PluginArray() { [native code] }"
+            }
+          },
+          "item": {
+            "available": true,
+            "typeof": "function",
+            "source": "function item() { [native code] }",
+            "nativeSource": true,
+            "descriptor": {
+              "configurable": true,
+              "enumerable": true,
+              "writable": true,
+              "hasGetter": false,
+              "hasSetter": false,
+              "valueType": "function",
+              "getterSource": null,
+              "setterSource": null,
+              "valueSource": "function item() { [native code] }"
+            }
+          },
+          "namedItem": {
+            "available": true,
+            "typeof": "function",
+            "source": "function namedItem() { [native code] }",
+            "nativeSource": true,
+            "descriptor": {
+              "configurable": true,
+              "enumerable": true,
+              "writable": true,
+              "hasGetter": false,
+              "hasSetter": false,
+              "valueType": "function",
+              "getterSource": null,
+              "setterSource": null,
+              "valueSource": "function namedItem() { [native code] }"
+            }
+          },
+          "refresh": {
+            "available": true,
+            "typeof": "function",
+            "source": "function refresh() { [native code] }",
+            "nativeSource": true,
+            "descriptor": {
+              "configurable": true,
+              "enumerable": true,
+              "writable": true,
+              "hasGetter": false,
+              "hasSetter": false,
+              "valueType": "function",
+              "getterSource": null,
+              "setterSource": null,
+              "valueSource": "function refresh() { [native code] }"
+            }
+          }
+        },
+        "4": {
+          "constructor": {
+            "available": true,
+            "typeof": "function",
+            "source": "function PluginArray() { [native code] }",
+            "nativeSource": true,
+            "descriptor": {
+              "configurable": true,
+              "enumerable": false,
+              "writable": true,
+              "hasGetter": false,
+              "hasSetter": false,
+              "valueType": "function",
+              "getterSource": null,
+              "setterSource": null,
+              "valueSource": "function PluginArray() { [native code] }"
+            }
+          },
+          "item": {
+            "available": true,
+            "typeof": "function",
+            "source": "function item() { [native code] }",
+            "nativeSource": true,
+            "descriptor": {
+              "configurable": true,
+              "enumerable": true,
+              "writable": true,
+              "hasGetter": false,
+              "hasSetter": false,
+              "valueType": "function",
+              "getterSource": null,
+              "setterSource": null,
+              "valueSource": "function item() { [native code] }"
+            }
+          },
+          "namedItem": {
+            "available": true,
+            "typeof": "function",
+            "source": "function namedItem() { [native code] }",
+            "nativeSource": true,
+            "descriptor": {
+              "configurable": true,
+              "enumerable": true,
+              "writable": true,
+              "hasGetter": false,
+              "hasSetter": false,
+              "valueType": "function",
+              "getterSource": null,
+              "setterSource": null,
+              "valueSource": "function namedItem() { [native code] }"
+            }
+          },
+          "refresh": {
+            "available": true,
+            "typeof": "function",
+            "source": "function refresh() { [native code] }",
+            "nativeSource": true,
+            "descriptor": {
+              "configurable": true,
+              "enumerable": true,
+              "writable": true,
+              "hasGetter": false,
+              "hasSetter": false,
+              "valueType": "function",
+              "getterSource": null,
+              "setterSource": null,
+              "valueSource": "function refresh() { [native code] }"
+            }
+          }
+        }
+      },
+      "mimeTypes": {
+        "entries": {
+          "available": false,
+          "typeof": "undefined",
+          "source": null,
+          "nativeSource": false,
+          "descriptor": null
+        },
+        "item": {
+          "available": true,
+          "typeof": "function",
+          "source": "function item() { [native code] }",
+          "nativeSource": true,
+          "descriptor": {
+            "configurable": true,
+            "enumerable": true,
+            "writable": true,
+            "hasGetter": false,
+            "hasSetter": false,
+            "valueType": "function",
+            "getterSource": null,
+            "setterSource": null,
+            "valueSource": "function item() { [native code] }"
+          }
+        },
+        "keys": {
+          "available": false,
+          "typeof": "undefined",
+          "source": null,
+          "nativeSource": false,
+          "descriptor": null
+        },
+        "namedItem": {
+          "available": true,
+          "typeof": "function",
+          "source": "function namedItem() { [native code] }",
+          "nativeSource": true,
+          "descriptor": {
+            "configurable": true,
+            "enumerable": true,
+            "writable": true,
+            "hasGetter": false,
+            "hasSetter": false,
+            "valueType": "function",
+            "getterSource": null,
+            "setterSource": null,
+            "valueSource": "function namedItem() { [native code] }"
+          }
+        },
+        "values": {
+          "available": false,
+          "typeof": "undefined",
+          "source": null,
+          "nativeSource": false,
+          "descriptor": null
+        },
+        "Symbol.iterator": {
+          "available": true,
+          "typeof": "function",
+          "source": "function values() { [native code] }",
+          "nativeSource": true,
+          "descriptor": {
+            "configurable": true,
+            "enumerable": false,
+            "writable": true,
+            "hasGetter": false,
+            "hasSetter": false,
+            "valueType": "function",
+            "getterSource": null,
+            "setterSource": null,
+            "valueSource": "function values() { [native code] }"
+          }
+        }
+      },
+      "mime_prototypes": {
+        "0": {
+          "constructor": {
+            "available": true,
+            "typeof": "function",
+            "source": "function MimeTypeArray() { [native code] }",
+            "nativeSource": true,
+            "descriptor": {
+              "configurable": true,
+              "enumerable": false,
+              "writable": true,
+              "hasGetter": false,
+              "hasSetter": false,
+              "valueType": "function",
+              "getterSource": null,
+              "setterSource": null,
+              "valueSource": "function MimeTypeArray() { [native code] }"
+            }
+          },
+          "item": {
+            "available": true,
+            "typeof": "function",
+            "source": "function item() { [native code] }",
+            "nativeSource": true,
+            "descriptor": {
+              "configurable": true,
+              "enumerable": true,
+              "writable": true,
+              "hasGetter": false,
+              "hasSetter": false,
+              "valueType": "function",
+              "getterSource": null,
+              "setterSource": null,
+              "valueSource": "function item() { [native code] }"
+            }
+          },
+          "namedItem": {
+            "available": true,
+            "typeof": "function",
+            "source": "function namedItem() { [native code] }",
+            "nativeSource": true,
+            "descriptor": {
+              "configurable": true,
+              "enumerable": true,
+              "writable": true,
+              "hasGetter": false,
+              "hasSetter": false,
+              "valueType": "function",
+              "getterSource": null,
+              "setterSource": null,
+              "valueSource": "function namedItem() { [native code] }"
+            }
+          }
+        },
+        "1": {
+          "constructor": {
+            "available": true,
+            "typeof": "function",
+            "source": "function MimeTypeArray() { [native code] }",
+            "nativeSource": true,
+            "descriptor": {
+              "configurable": true,
+              "enumerable": false,
+              "writable": true,
+              "hasGetter": false,
+              "hasSetter": false,
+              "valueType": "function",
+              "getterSource": null,
+              "setterSource": null,
+              "valueSource": "function MimeTypeArray() { [native code] }"
+            }
+          },
+          "item": {
+            "available": true,
+            "typeof": "function",
+            "source": "function item() { [native code] }",
+            "nativeSource": true,
+            "descriptor": {
+              "configurable": true,
+              "enumerable": true,
+              "writable": true,
+              "hasGetter": false,
+              "hasSetter": false,
+              "valueType": "function",
+              "getterSource": null,
+              "setterSource": null,
+              "valueSource": "function item() { [native code] }"
+            }
+          },
+          "namedItem": {
+            "available": true,
+            "typeof": "function",
+            "source": "function namedItem() { [native code] }",
+            "nativeSource": true,
+            "descriptor": {
+              "configurable": true,
+              "enumerable": true,
+              "writable": true,
+              "hasGetter": false,
+              "hasSetter": false,
+              "valueType": "function",
+              "getterSource": null,
+              "setterSource": null,
+              "valueSource": "function namedItem() { [native code] }"
+            }
+          }
+        }
+      }
+    },
+    "cross_reference": {
+      "pluginMimeTypes": {
+        "0": [
+          "application/pdf",
+          "text/pdf"
+        ],
+        "1": [
+          "application/pdf",
+          "text/pdf"
+        ],
+        "2": [
+          "application/pdf",
+          "text/pdf"
+        ],
+        "3": [
+          "application/pdf",
+          "text/pdf"
+        ],
+        "4": [
+          "application/pdf",
+          "text/pdf"
+        ]
+      },
+      "mimeEnabledPlugins": {
+        "application/pdf": 0,
+        "text/pdf": 0
+      },
+      "mismatches": [],
+      "bidirectionalValid": true
+    }
+  },
+  "plain_error": null,
+  "plugins_error": null,
+  "profile": {
+    "plugins": [
+      {
+        "name": "PDF Viewer",
+        "filename": "internal-pdf-viewer",
+        "description": "Portable Document Format",
+        "mimeTypes": [
+          {
+            "type": "application/pdf",
+            "suffixes": "",
+            "description": ""
+          },
+          {
+            "type": "text/pdf",
+            "suffixes": "",
+            "description": ""
+          }
+        ]
+      },
+      {
+        "name": "Chrome PDF Viewer",
+        "filename": "internal-pdf-viewer",
+        "description": "Portable Document Format",
+        "mimeTypes": [
+          {
+            "type": "application/pdf",
+            "suffixes": "",
+            "description": ""
+          },
+          {
+            "type": "text/pdf",
+            "suffixes": "",
+            "description": ""
+          }
+        ]
+      },
+      {
+        "name": "Chromium PDF Viewer",
+        "filename": "internal-pdf-viewer",
+        "description": "Portable Document Format",
+        "mimeTypes": [
+          {
+            "type": "application/pdf",
+            "suffixes": "",
+            "description": ""
+          },
+          {
+            "type": "text/pdf",
+            "suffixes": "",
+            "description": ""
+          }
+        ]
+      },
+      {
+        "name": "Microsoft Edge PDF Viewer",
+        "filename": "internal-pdf-viewer",
+        "description": "Portable Document Format",
+        "mimeTypes": [
+          {
+            "type": "application/pdf",
+            "suffixes": "",
+            "description": ""
+          },
+          {
+            "type": "text/pdf",
+            "suffixes": "",
+            "description": ""
+          }
+        ]
+      },
+      {
+        "name": "WebKit built-in PDF",
+        "filename": "internal-pdf-viewer",
+        "description": "Portable Document Format",
+        "mimeTypes": [
+          {
+            "type": "application/pdf",
+            "suffixes": "",
+            "description": ""
+          },
+          {
+            "type": "text/pdf",
+            "suffixes": "",
+            "description": ""
+          }
+        ]
+      }
+    ],
+    "mimeTypes": [
+      {
+        "type": "application/pdf",
+        "suffixes": "pdf",
+        "description": "Portable Document Format",
+        "enabledPlugin": "PDF Viewer"
+      },
+      {
+        "type": "text/pdf",
+        "suffixes": "pdf",
+        "description": "Portable Document Format",
+        "enabledPlugin": "PDF Viewer"
+      }
+    ]
+  },
+  "fingerprints": {
+    "real": "5f4ca489bc043291b820688bbee69dd425fbf002d97c3d026b4c82e84bdea9e9",
+    "plain": "4706e174613632ff4bddea1734faa2fb6bd18724cf1b608f099c2f572627b6b9",
+    "plugins": "644c0b45d81f018003d23c7a7040abaffbe10a78ddd34df6abd6e6feede2badb"
+  }
+}

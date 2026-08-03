@@ -1,0 +1,26 @@
+{
+  "constructor": "Navigator",
+  "ownProperties": [],
+  "pluginsDescriptor": {
+    "configurable": true,
+    "enumerable": true,
+    "writable": null,
+    "hasGetter": true,
+    "hasSetter": false,
+    "valueType": null,
+    "getterSource": "function get plugins() { [native code] }",
+    "setterSource": null,
+    "valueSource": null
+  },
+  "mimeTypesDescriptor": {
+    "configurable": true,
+    "enumerable": true,
+    "writable": null,
+    "hasGetter": true,
+    "hasSetter": false,
+    "valueType": null,
+    "getterSource": "function get mimeTypes() { [native code] }",
+    "setterSource": null,
+    "valueSource": null
+  }
+}

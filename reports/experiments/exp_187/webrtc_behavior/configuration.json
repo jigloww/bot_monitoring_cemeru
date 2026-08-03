@@ -1,0 +1,238 @@
+{
+  "method": {
+    "descriptor": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": null,
+      "hasGetter": false,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": "function getConfiguration() { [native code] }",
+      "valueType": "function",
+      "writable": true
+    },
+    "nativeSource": true,
+    "source": "function getConfiguration() { [native code] }"
+  },
+  "requested": {
+    "iceCandidatePoolSize": 0,
+    "iceServers": []
+  },
+  "returned": {
+    "bundlePolicy": "balanced",
+    "descriptors": {
+      "alwaysNegotiateDataChannels": {
+        "configurable": true,
+        "enumerable": true,
+        "getterSource": null,
+        "hasGetter": false,
+        "hasSetter": false,
+        "setterSource": null,
+        "valueSource": null,
+        "valueType": "boolean",
+        "writable": true
+      },
+      "bundlePolicy": {
+        "configurable": true,
+        "enumerable": true,
+        "getterSource": null,
+        "hasGetter": false,
+        "hasSetter": false,
+        "setterSource": null,
+        "valueSource": null,
+        "valueType": "string",
+        "writable": true
+      },
+      "certificates": {
+        "configurable": true,
+        "enumerable": true,
+        "getterSource": null,
+        "hasGetter": false,
+        "hasSetter": false,
+        "setterSource": null,
+        "valueSource": null,
+        "valueType": "object",
+        "writable": true
+      },
+      "encodedInsertableStreams": {
+        "configurable": true,
+        "enumerable": true,
+        "getterSource": null,
+        "hasGetter": false,
+        "hasSetter": false,
+        "setterSource": null,
+        "valueSource": null,
+        "valueType": "boolean",
+        "writable": true
+      },
+      "iceCandidatePoolSize": {
+        "configurable": true,
+        "enumerable": true,
+        "getterSource": null,
+        "hasGetter": false,
+        "hasSetter": false,
+        "setterSource": null,
+        "valueSource": null,
+        "valueType": "number",
+        "writable": true
+      },
+      "iceServers": {
+        "configurable": true,
+        "enumerable": true,
+        "getterSource": null,
+        "hasGetter": false,
+        "hasSetter": false,
+        "setterSource": null,
+        "valueSource": null,
+        "valueType": "object",
+        "writable": true
+      },
+      "iceTransportPolicy": {
+        "configurable": true,
+        "enumerable": true,
+        "getterSource": null,
+        "hasGetter": false,
+        "hasSetter": false,
+        "setterSource": null,
+        "valueSource": null,
+        "valueType": "string",
+        "writable": true
+      },
+      "rtcpMuxPolicy": {
+        "configurable": true,
+        "enumerable": true,
+        "getterSource": null,
+        "hasGetter": false,
+        "hasSetter": false,
+        "setterSource": null,
+        "valueSource": null,
+        "valueType": "string",
+        "writable": true
+      }
+    },
+    "iceCandidatePoolSize": 0,
+    "iceServers": [],
+    "iceTransportPolicy": "all",
+    "ownProperties": [
+      "alwaysNegotiateDataChannels",
+      "bundlePolicy",
+      "certificates",
+      "encodedInsertableStreams",
+      "iceCandidatePoolSize",
+      "iceServers",
+      "iceTransportPolicy",
+      "rtcpMuxPolicy"
+    ],
+    "prototype": {
+      "chain": [
+        "Object",
+        "Object"
+      ],
+      "constructor": "Object",
+      "descriptors": {
+        "alwaysNegotiateDataChannels": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": null,
+          "hasGetter": false,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": null,
+          "valueType": "boolean",
+          "writable": true
+        },
+        "bundlePolicy": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": null,
+          "hasGetter": false,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": null,
+          "valueType": "string",
+          "writable": true
+        },
+        "certificates": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": null,
+          "hasGetter": false,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": null,
+          "valueType": "object",
+          "writable": true
+        },
+        "encodedInsertableStreams": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": null,
+          "hasGetter": false,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": null,
+          "valueType": "boolean",
+          "writable": true
+        },
+        "iceCandidatePoolSize": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": null,
+          "hasGetter": false,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": null,
+          "valueType": "number",
+          "writable": true
+        },
+        "iceServers": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": null,
+          "hasGetter": false,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": null,
+          "valueType": "object",
+          "writable": true
+        },
+        "iceTransportPolicy": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": null,
+          "hasGetter": false,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": null,
+          "valueType": "string",
+          "writable": true
+        },
+        "rtcpMuxPolicy": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": null,
+          "hasGetter": false,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": null,
+          "valueType": "string",
+          "writable": true
+        }
+      },
+      "ownProperties": [
+        "alwaysNegotiateDataChannels",
+        "bundlePolicy",
+        "certificates",
+        "encodedInsertableStreams",
+        "iceCandidatePoolSize",
+        "iceServers",
+        "iceTransportPolicy",
+        "rtcpMuxPolicy"
+      ],
+      "prototype": "Object",
+      "toStringTag": "[object Object]"
+    },
+    "rtcpMuxPolicy": "require",
+    "toStringTag": "[object Object]"
+  }
+}

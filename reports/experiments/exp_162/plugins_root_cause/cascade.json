@@ -1,0 +1,86 @@
+{
+  "nodes": [
+    "aggregate_fingerprint_mismatch",
+    "cross_reference_inconsistency",
+    "module_added_nonbaseline_surface",
+    "module_missing_baseline_surface",
+    "wrong_descriptor",
+    "wrong_prototype_chain"
+  ],
+  "edges": [
+    {
+      "from": "cross_reference_inconsistency",
+      "to": "aggregate_fingerprint_mismatch",
+      "relationship": "causes"
+    },
+    {
+      "from": "cross_reference_inconsistency",
+      "to": "aggregate_fingerprint_mismatch",
+      "relationship": "depends_on"
+    },
+    {
+      "from": "module_added_nonbaseline_surface",
+      "to": "aggregate_fingerprint_mismatch",
+      "relationship": "causes"
+    },
+    {
+      "from": "module_added_nonbaseline_surface",
+      "to": "aggregate_fingerprint_mismatch",
+      "relationship": "depends_on"
+    },
+    {
+      "from": "module_missing_baseline_surface",
+      "to": "aggregate_fingerprint_mismatch",
+      "relationship": "causes"
+    },
+    {
+      "from": "module_missing_baseline_surface",
+      "to": "aggregate_fingerprint_mismatch",
+      "relationship": "depends_on"
+    },
+    {
+      "from": "wrong_descriptor",
+      "to": "aggregate_fingerprint_mismatch",
+      "relationship": "causes"
+    },
+    {
+      "from": "wrong_descriptor",
+      "to": "aggregate_fingerprint_mismatch",
+      "relationship": "depends_on"
+    },
+    {
+      "from": "wrong_prototype_chain",
+      "to": "aggregate_fingerprint_mismatch",
+      "relationship": "causes"
+    },
+    {
+      "from": "wrong_prototype_chain",
+      "to": "aggregate_fingerprint_mismatch",
+      "relationship": "depends_on"
+    },
+    {
+      "from": "wrong_prototype_chain",
+      "to": "module_added_nonbaseline_surface",
+      "relationship": "depends_on"
+    },
+    {
+      "from": "wrong_prototype_chain",
+      "to": "module_missing_baseline_surface",
+      "relationship": "depends_on"
+    },
+    {
+      "from": "wrong_prototype_chain",
+      "to": "wrong_descriptor",
+      "relationship": "depends_on"
+    }
+  ],
+  "execution_order": [
+    "cross_reference_inconsistency",
+    "wrong_prototype_chain",
+    "module_added_nonbaseline_surface",
+    "module_missing_baseline_surface",
+    "wrong_descriptor",
+    "aggregate_fingerprint_mismatch"
+  ],
+  "cycle_detected": false
+}

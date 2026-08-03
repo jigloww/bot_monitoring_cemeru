@@ -1,0 +1,15 @@
+{
+  "constructor_count": 7,
+  "available_constructor_count": 7,
+  "prototype_count": 7,
+  "prototype_method_count": 52,
+  "static_member_count": 3,
+  "descriptor_count": 198,
+  "native_source_count": 52,
+  "native_source_failures": 0,
+  "illegal_invocation_count": 49,
+  "illegal_invocation_throw_count": 39,
+  "browser_launches": 1,
+  "network_requests": 0,
+  "capture_status": "SUCCESS"
+}

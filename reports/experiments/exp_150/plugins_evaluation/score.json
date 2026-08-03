@@ -1,0 +1,24 @@
+{
+  "plain": {
+    "overall": 0.0,
+    "plugin": 0.0,
+    "mime_type": 0.0
+  },
+  "plugins": {
+    "overall": 0.0,
+    "plugin": 0.0,
+    "mime_type": 0.0
+  },
+  "delta": {
+    "overall": 0.0,
+    "Cross References": 0.0,
+    "Descriptors": 0.0,
+    "Fingerprint": 0.0,
+    "Methods": 0.0,
+    "MimeTypeArray": 0.0,
+    "Navigator": 0.0,
+    "PluginArray": 0.0,
+    "Prototype": 0.0
+  },
+  "regression_count": 0
+}

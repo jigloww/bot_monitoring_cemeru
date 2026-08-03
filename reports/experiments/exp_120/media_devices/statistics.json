@@ -1,0 +1,25 @@
+{
+  "total_properties": 0,
+  "total_methods": 4,
+  "device_counts": {
+    "audioinput": 0,
+    "audiooutput": 0,
+    "videoinput": 0,
+    "default": 0
+  },
+  "permission_counts": {
+    "total": 2,
+    "supported": 2,
+    "granted": 0,
+    "denied": 2,
+    "prompt": 0
+  },
+  "descriptor_count": 0,
+  "native_method_count": 0,
+  "devices_total": 0,
+  "browser_started": true,
+  "navigation_succeeded": false,
+  "media_devices_available": false,
+  "browser_launches": 1,
+  "network_requests": 0
+}

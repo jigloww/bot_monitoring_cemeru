@@ -1,0 +1,14 @@
+{
+  "camera": {
+    "name": "camera",
+    "supported": true,
+    "state": "denied",
+    "error": null
+  },
+  "microphone": {
+    "name": "microphone",
+    "supported": true,
+    "state": "denied",
+    "error": null
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "Patch Now": {
+    "count": 0,
+    "estimated_similarity_gain": 0,
+    "estimated_cf_gain": 0,
+    "items": []
+  },
+  "Patch Later": {
+    "count": 0,
+    "estimated_similarity_gain": 0,
+    "estimated_cf_gain": 0,
+    "items": []
+  },
+  "Never Patch": {
+    "count": 0,
+    "estimated_similarity_gain": 0,
+    "estimated_cf_gain": 0,
+    "items": []
+  },
+  "execution_order": [
+    "foundation.mimetypearray",
+    "foundation.pluginarray",
+    "foundation.cross_reference",
+    "foundation.prototype",
+    "foundation.methods",
+    "foundation.descriptors"
+  ],
+  "cycle_detected": false
+}

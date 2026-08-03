@@ -1,0 +1,15 @@
+{
+  "experiment": "Experiment 038 - Real Plugins & MimeTypes Collector",
+  "experiment_id": "exp_135",
+  "created_at": "2026-08-03T18:54:15.448164+07:00",
+  "result": "SUCCESS",
+  "capture_status": "SUCCESS",
+  "error": null,
+  "plugin_count": 5,
+  "mime_type_count": 2,
+  "fingerprint_sha256": "753da23aafdff109ec3a73dca01f8168ec2d4b9971316cb401212f6ff7b9d8c1",
+  "browser_launches": 1,
+  "network_requests": 1,
+  "validation_valid": true,
+  "historical_artifacts_modified": false
+}

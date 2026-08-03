@@ -1,0 +1,31 @@
+{
+  "binaryType": "arraybuffer",
+  "bufferedAmount": 0,
+  "created": true,
+  "descriptors": {},
+  "id": null,
+  "instanceofRTCDataChannel": true,
+  "label": "webrtc-behavior-probe",
+  "maxPacketLifeTime": null,
+  "maxRetransmits": null,
+  "negotiated": false,
+  "ordered": true,
+  "ownProperties": [],
+  "protocol": "",
+  "prototype": {
+    "chain": [
+      "RTCDataChannel",
+      "RTCDataChannel",
+      "EventTarget",
+      "Object"
+    ],
+    "constructor": "RTCDataChannel",
+    "descriptors": {},
+    "ownProperties": [],
+    "prototype": "RTCDataChannel",
+    "toStringTag": "[object RTCDataChannel]"
+  },
+  "readyState": "connecting",
+  "sendInvoked": false,
+  "toStringTag": "[object RTCDataChannel]"
+}

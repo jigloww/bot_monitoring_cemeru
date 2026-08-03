@@ -1,0 +1,77 @@
+{
+  "onconnectionstatechange": {
+    "descriptor": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": "function get onconnectionstatechange() { [native code] }",
+      "hasGetter": true,
+      "hasSetter": true,
+      "setterSource": "function set onconnectionstatechange() { [native code] }",
+      "valueSource": null,
+      "valueType": null,
+      "writable": null
+    },
+    "initial": null,
+    "supported": true
+  },
+  "ondatachannel": {
+    "descriptor": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": "function get ondatachannel() { [native code] }",
+      "hasGetter": true,
+      "hasSetter": true,
+      "setterSource": "function set ondatachannel() { [native code] }",
+      "valueSource": null,
+      "valueType": null,
+      "writable": null
+    },
+    "initial": null,
+    "supported": true
+  },
+  "onicecandidate": {
+    "descriptor": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": "function get onicecandidate() { [native code] }",
+      "hasGetter": true,
+      "hasSetter": true,
+      "setterSource": "function set onicecandidate() { [native code] }",
+      "valueSource": null,
+      "valueType": null,
+      "writable": null
+    },
+    "initial": null,
+    "supported": true
+  },
+  "onsignalingstatechange": {
+    "descriptor": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": "function get onsignalingstatechange() { [native code] }",
+      "hasGetter": true,
+      "hasSetter": true,
+      "setterSource": "function set onsignalingstatechange() { [native code] }",
+      "valueSource": null,
+      "valueType": null,
+      "writable": null
+    },
+    "initial": null,
+    "supported": true
+  },
+  "ontrack": {
+    "descriptor": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": "function get ontrack() { [native code] }",
+      "hasGetter": true,
+      "hasSetter": true,
+      "setterSource": "function set ontrack() { [native code] }",
+      "valueSource": null,
+      "valueType": null,
+      "writable": null
+    },
+    "initial": null,
+    "supported": true
+  }
+}

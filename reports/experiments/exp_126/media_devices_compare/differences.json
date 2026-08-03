@@ -1,0 +1,1834 @@
+[
+  {
+    "path": "mediaDevices.exists",
+    "category": "Availability",
+    "status": "Equal",
+    "real": true,
+    "playwright": true,
+    "severity": "LOW"
+  },
+  {
+    "path": "mediaDevices.typeof",
+    "category": "Availability",
+    "status": "Equal",
+    "real": "object",
+    "playwright": "object",
+    "severity": "LOW"
+  },
+  {
+    "path": "navigator.exists",
+    "category": "Availability",
+    "status": "Equal",
+    "real": true,
+    "playwright": true,
+    "severity": "LOW"
+  },
+  {
+    "path": "navigator.typeof",
+    "category": "Availability",
+    "status": "Equal",
+    "real": "object",
+    "playwright": "object",
+    "severity": "LOW"
+  },
+  {
+    "path": "descriptors.mediaDevicesPrototype.constructor.configurable",
+    "category": "Descriptors",
+    "status": "Equal",
+    "real": true,
+    "playwright": true,
+    "severity": "LOW"
+  },
+  {
+    "path": "descriptors.mediaDevicesPrototype.constructor.enumerable",
+    "category": "Descriptors",
+    "status": "Equal",
+    "real": false,
+    "playwright": false,
+    "severity": "LOW"
+  },
+  {
+    "path": "descriptors.mediaDevicesPrototype.constructor.getterSource",
+    "category": "Descriptors",
+    "status": "Equal",
+    "real": null,
+    "playwright": null,
+    "severity": "LOW"
+  },
+  {
+    "path": "descriptors.mediaDevicesPrototype.constructor.hasGetter",
+    "category": "Descriptors",
+    "status": "Equal",
+    "real": false,
+    "playwright": false,
+    "severity": "LOW"
+  },
+  {
+    "path": "descriptors.mediaDevicesPrototype.constructor.hasSetter",
+    "category": "Descriptors",
+    "status": "Equal",
+    "real": false,
+    "playwright": false,
+    "severity": "LOW"
+  },
+  {
+    "path": "descriptors.mediaDevicesPrototype.constructor.setterSource",
+    "category": "Descriptors",
+    "status": "Equal",
+    "real": null,
+    "playwright": null,
+    "severity": "LOW"
+  },
+  {
+    "path": "descriptors.mediaDevicesPrototype.constructor.valueSource",
+    "category": "Descriptors",
+    "status": "Equal",
+    "real": "function MediaDevices() { [native code] }",
+    "playwright": "function MediaDevices() { [native code] }",
+    "severity": "LOW"
+  },
+  {
+    "path": "descriptors.mediaDevicesPrototype.constructor.valueType",
+    "category": "Descriptors",
+    "status": "Equal",
+    "real": "function",
+    "playwright": "function",
+    "severity": "LOW"
+  },
+  {
+    "path": "descriptors.mediaDevicesPrototype.constructor.writable",
+    "category": "Descriptors",
+    "status": "Equal",
+    "real": true,
+    "playwright": true,
+    "severity": "LOW"
+  },
+  {
+    "path": "descriptors.mediaDevicesPrototype.enumerateDevices.configurable",
+    "category": "Descriptors",
+    "status": "Equal",
+    "real": true,
+    "playwright": true,
+    "severity": "LOW"
+  },
+  {
+    "path": "descriptors.mediaDevicesPrototype.enumerateDevices.enumerable",
+    "category": "Descriptors",
+    "status": "Equal",
+    "real": true,
+    "playwright": true,
+    "severity": "LOW"
+  },
+  {
+    "path": "descriptors.mediaDevicesPrototype.enumerateDevices.getterSource",
+    "category": "Descriptors",
+    "status": "Equal",
+    "real": null,
+    "playwright": null,
+    "severity": "LOW"
+  },
+  {
+    "path": "descriptors.mediaDevicesPrototype.enumerateDevices.hasGetter",
+    "category": "Descriptors",
+    "status": "Equal",
+    "real": false,
+    "playwright": false,
+    "severity": "LOW"
+  },
+  {
+    "path": "descriptors.mediaDevicesPrototype.enumerateDevices.hasSetter",
+    "category": "Descriptors",
+    "status": "Equal",
+    "real": false,
+    "playwright": false,
+    "severity": "LOW"
+  },
+  {
+    "path": "descriptors.mediaDevicesPrototype.enumerateDevices.setterSource",
+    "category": "Descriptors",
+    "status": "Equal",
+    "real": null,
+    "playwright": null,
+    "severity": "LOW"
+  },
+  {
+    "path": "descriptors.mediaDevicesPrototype.enumerateDevices.valueSource",
+    "category": "Descriptors",
+    "status": "Equal",
+    "real": "function enumerateDevices() { [native code] }",
+    "playwright": "function enumerateDevices() { [native code] }",
+    "severity": "LOW"
+  },
+  {
+    "path": "descriptors.mediaDevicesPrototype.enumerateDevices.valueType",
+    "category": "Descriptors",
+    "status": "Equal",
+    "real": "function",
+    "playwright": "function",
+    "severity": "LOW"
+  },
+  {
+    "path": "descriptors.mediaDevicesPrototype.enumerateDevices.writable",
+    "category": "Descriptors",
+    "status": "Equal",
+    "real": true,
+    "playwright": true,
+    "severity": "LOW"
+  },
+  {
+    "path": "descriptors.mediaDevicesPrototype.getDisplayMedia.configurable",
+    "category": "Descriptors",
+    "status": "Equal",
+    "real": true,
+    "playwright": true,
+    "severity": "LOW"
+  },
+  {
+    "path": "descriptors.mediaDevicesPrototype.getDisplayMedia.enumerable",
+    "category": "Descriptors",
+    "status": "Equal",
+    "real": true,
+    "playwright": true,
+    "severity": "LOW"
+  },
+  {
+    "path": "descriptors.mediaDevicesPrototype.getDisplayMedia.getterSource",
+    "category": "Descriptors",
+    "status": "Equal",
+    "real": null,
+    "playwright": null,
+    "severity": "LOW"
+  },
+  {
+    "path": "descriptors.mediaDevicesPrototype.getDisplayMedia.hasGetter",
+    "category": "Descriptors",
+    "status": "Equal",
+    "real": false,
+    "playwright": false,
+    "severity": "LOW"
+  },
+  {
+    "path": "descriptors.mediaDevicesPrototype.getDisplayMedia.hasSetter",
+    "category": "Descriptors",
+    "status": "Equal",
+    "real": false,
+    "playwright": false,
+    "severity": "LOW"
+  },
+  {
+    "path": "descriptors.mediaDevicesPrototype.getDisplayMedia.setterSource",
+    "category": "Descriptors",
+    "status": "Equal",
+    "real": null,
+    "playwright": null,
+    "severity": "LOW"
+  },
+  {
+    "path": "descriptors.mediaDevicesPrototype.getDisplayMedia.valueSource",
+    "category": "Descriptors",
+    "status": "Equal",
+    "real": "function getDisplayMedia() { [native code] }",
+    "playwright": "function getDisplayMedia() { [native code] }",
+    "severity": "LOW"
+  },
+  {
+    "path": "descriptors.mediaDevicesPrototype.getDisplayMedia.valueType",
+    "category": "Descriptors",
+    "status": "Equal",
+    "real": "function",
+    "playwright": "function",
+    "severity": "LOW"
+  },
+  {
+    "path": "descriptors.mediaDevicesPrototype.getDisplayMedia.writable",
+    "category": "Descriptors",
+    "status": "Equal",
+    "real": true,
+    "playwright": true,
+    "severity": "LOW"
+  },
+  {
+    "path": "descriptors.mediaDevicesPrototype.getSupportedConstraints.configurable",
+    "category": "Descriptors",
+    "status": "Equal",
+    "real": true,
+    "playwright": true,
+    "severity": "LOW"
+  },
+  {
+    "path": "descriptors.mediaDevicesPrototype.getSupportedConstraints.enumerable",
+    "category": "Descriptors",
+    "status": "Equal",
+    "real": true,
+    "playwright": true,
+    "severity": "LOW"
+  },
+  {
+    "path": "descriptors.mediaDevicesPrototype.getSupportedConstraints.getterSource",
+    "category": "Descriptors",
+    "status": "Equal",
+    "real": null,
+    "playwright": null,
+    "severity": "LOW"
+  },
+  {
+    "path": "descriptors.mediaDevicesPrototype.getSupportedConstraints.hasGetter",
+    "category": "Descriptors",
+    "status": "Equal",
+    "real": false,
+    "playwright": false,
+    "severity": "LOW"
+  },
+  {
+    "path": "descriptors.mediaDevicesPrototype.getSupportedConstraints.hasSetter",
+    "category": "Descriptors",
+    "status": "Equal",
+    "real": false,
+    "playwright": false,
+    "severity": "LOW"
+  },
+  {
+    "path": "descriptors.mediaDevicesPrototype.getSupportedConstraints.setterSource",
+    "category": "Descriptors",
+    "status": "Equal",
+    "real": null,
+    "playwright": null,
+    "severity": "LOW"
+  },
+  {
+    "path": "descriptors.mediaDevicesPrototype.getSupportedConstraints.valueSource",
+    "category": "Descriptors",
+    "status": "Equal",
+    "real": "function getSupportedConstraints() { [native code] }",
+    "playwright": "function getSupportedConstraints() { [native code] }",
+    "severity": "LOW"
+  },
+  {
+    "path": "descriptors.mediaDevicesPrototype.getSupportedConstraints.valueType",
+    "category": "Descriptors",
+    "status": "Equal",
+    "real": "function",
+    "playwright": "function",
+    "severity": "LOW"
+  },
+  {
+    "path": "descriptors.mediaDevicesPrototype.getSupportedConstraints.writable",
+    "category": "Descriptors",
+    "status": "Equal",
+    "real": true,
+    "playwright": true,
+    "severity": "LOW"
+  },
+  {
+    "path": "descriptors.mediaDevicesPrototype.getUserMedia.configurable",
+    "category": "Descriptors",
+    "status": "Equal",
+    "real": true,
+    "playwright": true,
+    "severity": "LOW"
+  },
+  {
+    "path": "descriptors.mediaDevicesPrototype.getUserMedia.enumerable",
+    "category": "Descriptors",
+    "status": "Equal",
+    "real": true,
+    "playwright": true,
+    "severity": "LOW"
+  },
+  {
+    "path": "descriptors.mediaDevicesPrototype.getUserMedia.getterSource",
+    "category": "Descriptors",
+    "status": "Equal",
+    "real": null,
+    "playwright": null,
+    "severity": "LOW"
+  },
+  {
+    "path": "descriptors.mediaDevicesPrototype.getUserMedia.hasGetter",
+    "category": "Descriptors",
+    "status": "Equal",
+    "real": false,
+    "playwright": false,
+    "severity": "LOW"
+  },
+  {
+    "path": "descriptors.mediaDevicesPrototype.getUserMedia.hasSetter",
+    "category": "Descriptors",
+    "status": "Equal",
+    "real": false,
+    "playwright": false,
+    "severity": "LOW"
+  },
+  {
+    "path": "descriptors.mediaDevicesPrototype.getUserMedia.setterSource",
+    "category": "Descriptors",
+    "status": "Equal",
+    "real": null,
+    "playwright": null,
+    "severity": "LOW"
+  },
+  {
+    "path": "descriptors.mediaDevicesPrototype.getUserMedia.valueSource",
+    "category": "Descriptors",
+    "status": "Equal",
+    "real": "function getUserMedia() { [native code] }",
+    "playwright": "function getUserMedia() { [native code] }",
+    "severity": "LOW"
+  },
+  {
+    "path": "descriptors.mediaDevicesPrototype.getUserMedia.valueType",
+    "category": "Descriptors",
+    "status": "Equal",
+    "real": "function",
+    "playwright": "function",
+    "severity": "LOW"
+  },
+  {
+    "path": "descriptors.mediaDevicesPrototype.getUserMedia.writable",
+    "category": "Descriptors",
+    "status": "Equal",
+    "real": true,
+    "playwright": true,
+    "severity": "LOW"
+  },
+  {
+    "path": "descriptors.mediaDevicesPrototype.ondevicechange.configurable",
+    "category": "Descriptors",
+    "status": "Equal",
+    "real": true,
+    "playwright": true,
+    "severity": "LOW"
+  },
+  {
+    "path": "descriptors.mediaDevicesPrototype.ondevicechange.enumerable",
+    "category": "Descriptors",
+    "status": "Equal",
+    "real": true,
+    "playwright": true,
+    "severity": "LOW"
+  },
+  {
+    "path": "descriptors.mediaDevicesPrototype.ondevicechange.getterSource",
+    "category": "Descriptors",
+    "status": "Equal",
+    "real": "function get ondevicechange() { [native code] }",
+    "playwright": "function get ondevicechange() { [native code] }",
+    "severity": "LOW"
+  },
+  {
+    "path": "descriptors.mediaDevicesPrototype.ondevicechange.hasGetter",
+    "category": "Descriptors",
+    "status": "Equal",
+    "real": true,
+    "playwright": true,
+    "severity": "LOW"
+  },
+  {
+    "path": "descriptors.mediaDevicesPrototype.ondevicechange.hasSetter",
+    "category": "Descriptors",
+    "status": "Equal",
+    "real": true,
+    "playwright": true,
+    "severity": "LOW"
+  },
+  {
+    "path": "descriptors.mediaDevicesPrototype.ondevicechange.setterSource",
+    "category": "Descriptors",
+    "status": "Equal",
+    "real": "function set ondevicechange() { [native code] }",
+    "playwright": "function set ondevicechange() { [native code] }",
+    "severity": "LOW"
+  },
+  {
+    "path": "descriptors.mediaDevicesPrototype.ondevicechange.valueSource",
+    "category": "Descriptors",
+    "status": "Equal",
+    "real": null,
+    "playwright": null,
+    "severity": "LOW"
+  },
+  {
+    "path": "descriptors.mediaDevicesPrototype.ondevicechange.valueType",
+    "category": "Descriptors",
+    "status": "Equal",
+    "real": null,
+    "playwright": null,
+    "severity": "LOW"
+  },
+  {
+    "path": "descriptors.mediaDevicesPrototype.ondevicechange.writable",
+    "category": "Descriptors",
+    "status": "Equal",
+    "real": null,
+    "playwright": null,
+    "severity": "LOW"
+  },
+  {
+    "path": "descriptors.mediaDevicesPrototype.setCaptureHandleConfig.configurable",
+    "category": "Descriptors",
+    "status": "Equal",
+    "real": true,
+    "playwright": true,
+    "severity": "LOW"
+  },
+  {
+    "path": "descriptors.mediaDevicesPrototype.setCaptureHandleConfig.enumerable",
+    "category": "Descriptors",
+    "status": "Equal",
+    "real": true,
+    "playwright": true,
+    "severity": "LOW"
+  },
+  {
+    "path": "descriptors.mediaDevicesPrototype.setCaptureHandleConfig.getterSource",
+    "category": "Descriptors",
+    "status": "Equal",
+    "real": null,
+    "playwright": null,
+    "severity": "LOW"
+  },
+  {
+    "path": "descriptors.mediaDevicesPrototype.setCaptureHandleConfig.hasGetter",
+    "category": "Descriptors",
+    "status": "Equal",
+    "real": false,
+    "playwright": false,
+    "severity": "LOW"
+  },
+  {
+    "path": "descriptors.mediaDevicesPrototype.setCaptureHandleConfig.hasSetter",
+    "category": "Descriptors",
+    "status": "Equal",
+    "real": false,
+    "playwright": false,
+    "severity": "LOW"
+  },
+  {
+    "path": "descriptors.mediaDevicesPrototype.setCaptureHandleConfig.setterSource",
+    "category": "Descriptors",
+    "status": "Equal",
+    "real": null,
+    "playwright": null,
+    "severity": "LOW"
+  },
+  {
+    "path": "descriptors.mediaDevicesPrototype.setCaptureHandleConfig.valueSource",
+    "category": "Descriptors",
+    "status": "Equal",
+    "real": "function setCaptureHandleConfig() { [native code] }",
+    "playwright": "function setCaptureHandleConfig() { [native code] }",
+    "severity": "LOW"
+  },
+  {
+    "path": "descriptors.mediaDevicesPrototype.setCaptureHandleConfig.valueType",
+    "category": "Descriptors",
+    "status": "Equal",
+    "real": "function",
+    "playwright": "function",
+    "severity": "LOW"
+  },
+  {
+    "path": "descriptors.mediaDevicesPrototype.setCaptureHandleConfig.writable",
+    "category": "Descriptors",
+    "status": "Equal",
+    "real": true,
+    "playwright": true,
+    "severity": "LOW"
+  },
+  {
+    "path": "descriptors.methods.enumerateDevices.configurable",
+    "category": "Descriptors",
+    "status": "Equal",
+    "real": true,
+    "playwright": true,
+    "severity": "LOW"
+  },
+  {
+    "path": "descriptors.methods.enumerateDevices.enumerable",
+    "category": "Descriptors",
+    "status": "Equal",
+    "real": true,
+    "playwright": true,
+    "severity": "LOW"
+  },
+  {
+    "path": "descriptors.methods.enumerateDevices.getterSource",
+    "category": "Descriptors",
+    "status": "Equal",
+    "real": null,
+    "playwright": null,
+    "severity": "LOW"
+  },
+  {
+    "path": "descriptors.methods.enumerateDevices.hasGetter",
+    "category": "Descriptors",
+    "status": "Equal",
+    "real": false,
+    "playwright": false,
+    "severity": "LOW"
+  },
+  {
+    "path": "descriptors.methods.enumerateDevices.hasSetter",
+    "category": "Descriptors",
+    "status": "Equal",
+    "real": false,
+    "playwright": false,
+    "severity": "LOW"
+  },
+  {
+    "path": "descriptors.methods.enumerateDevices.setterSource",
+    "category": "Descriptors",
+    "status": "Equal",
+    "real": null,
+    "playwright": null,
+    "severity": "LOW"
+  },
+  {
+    "path": "descriptors.methods.enumerateDevices.valueSource",
+    "category": "Descriptors",
+    "status": "Equal",
+    "real": "function enumerateDevices() { [native code] }",
+    "playwright": "function enumerateDevices() { [native code] }",
+    "severity": "LOW"
+  },
+  {
+    "path": "descriptors.methods.enumerateDevices.valueType",
+    "category": "Descriptors",
+    "status": "Equal",
+    "real": "function",
+    "playwright": "function",
+    "severity": "LOW"
+  },
+  {
+    "path": "descriptors.methods.enumerateDevices.writable",
+    "category": "Descriptors",
+    "status": "Equal",
+    "real": true,
+    "playwright": true,
+    "severity": "LOW"
+  },
+  {
+    "path": "descriptors.methods.getDisplayMedia.configurable",
+    "category": "Descriptors",
+    "status": "Equal",
+    "real": true,
+    "playwright": true,
+    "severity": "LOW"
+  },
+  {
+    "path": "descriptors.methods.getDisplayMedia.enumerable",
+    "category": "Descriptors",
+    "status": "Equal",
+    "real": true,
+    "playwright": true,
+    "severity": "LOW"
+  },
+  {
+    "path": "descriptors.methods.getDisplayMedia.getterSource",
+    "category": "Descriptors",
+    "status": "Equal",
+    "real": null,
+    "playwright": null,
+    "severity": "LOW"
+  },
+  {
+    "path": "descriptors.methods.getDisplayMedia.hasGetter",
+    "category": "Descriptors",
+    "status": "Equal",
+    "real": false,
+    "playwright": false,
+    "severity": "LOW"
+  },
+  {
+    "path": "descriptors.methods.getDisplayMedia.hasSetter",
+    "category": "Descriptors",
+    "status": "Equal",
+    "real": false,
+    "playwright": false,
+    "severity": "LOW"
+  },
+  {
+    "path": "descriptors.methods.getDisplayMedia.setterSource",
+    "category": "Descriptors",
+    "status": "Equal",
+    "real": null,
+    "playwright": null,
+    "severity": "LOW"
+  },
+  {
+    "path": "descriptors.methods.getDisplayMedia.valueSource",
+    "category": "Descriptors",
+    "status": "Equal",
+    "real": "function getDisplayMedia() { [native code] }",
+    "playwright": "function getDisplayMedia() { [native code] }",
+    "severity": "LOW"
+  },
+  {
+    "path": "descriptors.methods.getDisplayMedia.valueType",
+    "category": "Descriptors",
+    "status": "Equal",
+    "real": "function",
+    "playwright": "function",
+    "severity": "LOW"
+  },
+  {
+    "path": "descriptors.methods.getDisplayMedia.writable",
+    "category": "Descriptors",
+    "status": "Equal",
+    "real": true,
+    "playwright": true,
+    "severity": "LOW"
+  },
+  {
+    "path": "descriptors.methods.getUserMedia.configurable",
+    "category": "Descriptors",
+    "status": "Equal",
+    "real": true,
+    "playwright": true,
+    "severity": "LOW"
+  },
+  {
+    "path": "descriptors.methods.getUserMedia.enumerable",
+    "category": "Descriptors",
+    "status": "Equal",
+    "real": true,
+    "playwright": true,
+    "severity": "LOW"
+  },
+  {
+    "path": "descriptors.methods.getUserMedia.getterSource",
+    "category": "Descriptors",
+    "status": "Equal",
+    "real": null,
+    "playwright": null,
+    "severity": "LOW"
+  },
+  {
+    "path": "descriptors.methods.getUserMedia.hasGetter",
+    "category": "Descriptors",
+    "status": "Equal",
+    "real": false,
+    "playwright": false,
+    "severity": "LOW"
+  },
+  {
+    "path": "descriptors.methods.getUserMedia.hasSetter",
+    "category": "Descriptors",
+    "status": "Equal",
+    "real": false,
+    "playwright": false,
+    "severity": "LOW"
+  },
+  {
+    "path": "descriptors.methods.getUserMedia.setterSource",
+    "category": "Descriptors",
+    "status": "Equal",
+    "real": null,
+    "playwright": null,
+    "severity": "LOW"
+  },
+  {
+    "path": "descriptors.methods.getUserMedia.valueSource",
+    "category": "Descriptors",
+    "status": "Equal",
+    "real": "function getUserMedia() { [native code] }",
+    "playwright": "function getUserMedia() { [native code] }",
+    "severity": "LOW"
+  },
+  {
+    "path": "descriptors.methods.getUserMedia.valueType",
+    "category": "Descriptors",
+    "status": "Equal",
+    "real": "function",
+    "playwright": "function",
+    "severity": "LOW"
+  },
+  {
+    "path": "descriptors.methods.getUserMedia.writable",
+    "category": "Descriptors",
+    "status": "Equal",
+    "real": true,
+    "playwright": true,
+    "severity": "LOW"
+  },
+  {
+    "path": "descriptors.navigatorPrototype.configurable",
+    "category": "Descriptors",
+    "status": "Equal",
+    "real": true,
+    "playwright": true,
+    "severity": "LOW"
+  },
+  {
+    "path": "descriptors.navigatorPrototype.enumerable",
+    "category": "Descriptors",
+    "status": "Equal",
+    "real": true,
+    "playwright": true,
+    "severity": "LOW"
+  },
+  {
+    "path": "descriptors.navigatorPrototype.getterSource",
+    "category": "Descriptors",
+    "status": "Equal",
+    "real": "function get mediaDevices() { [native code] }",
+    "playwright": "function get mediaDevices() { [native code] }",
+    "severity": "LOW"
+  },
+  {
+    "path": "descriptors.navigatorPrototype.hasGetter",
+    "category": "Descriptors",
+    "status": "Equal",
+    "real": true,
+    "playwright": true,
+    "severity": "LOW"
+  },
+  {
+    "path": "descriptors.navigatorPrototype.hasSetter",
+    "category": "Descriptors",
+    "status": "Equal",
+    "real": false,
+    "playwright": false,
+    "severity": "LOW"
+  },
+  {
+    "path": "descriptors.navigatorPrototype.setterSource",
+    "category": "Descriptors",
+    "status": "Equal",
+    "real": null,
+    "playwright": null,
+    "severity": "LOW"
+  },
+  {
+    "path": "descriptors.navigatorPrototype.valueSource",
+    "category": "Descriptors",
+    "status": "Equal",
+    "real": null,
+    "playwright": null,
+    "severity": "LOW"
+  },
+  {
+    "path": "descriptors.navigatorPrototype.valueType",
+    "category": "Descriptors",
+    "status": "Equal",
+    "real": null,
+    "playwright": null,
+    "severity": "LOW"
+  },
+  {
+    "path": "descriptors.navigatorPrototype.writable",
+    "category": "Descriptors",
+    "status": "Equal",
+    "real": null,
+    "playwright": null,
+    "severity": "LOW"
+  },
+  {
+    "path": "devices.counts.audioinput",
+    "category": "Devices",
+    "status": "Equal",
+    "real": 1,
+    "playwright": 1,
+    "severity": "LOW"
+  },
+  {
+    "path": "devices.counts.audiooutput",
+    "category": "Devices",
+    "status": "Equal",
+    "real": 1,
+    "playwright": 1,
+    "severity": "LOW"
+  },
+  {
+    "path": "devices.counts.default",
+    "category": "Devices",
+    "status": "Equal",
+    "real": 0,
+    "playwright": 0,
+    "severity": "LOW"
+  },
+  {
+    "path": "devices.counts.videoinput",
+    "category": "Devices",
+    "status": "Equal",
+    "real": 1,
+    "playwright": 1,
+    "severity": "LOW"
+  },
+  {
+    "path": "devices.devices[0].deviceIdHash",
+    "category": "Devices",
+    "status": "Equal",
+    "real": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "playwright": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "severity": "LOW"
+  },
+  {
+    "path": "devices.devices[0].deviceIdLength",
+    "category": "Devices",
+    "status": "Equal",
+    "real": 0,
+    "playwright": 0,
+    "severity": "LOW"
+  },
+  {
+    "path": "devices.devices[0].groupIdHash",
+    "category": "Devices",
+    "status": "Equal",
+    "real": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "playwright": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "severity": "LOW"
+  },
+  {
+    "path": "devices.devices[0].groupIdLength",
+    "category": "Devices",
+    "status": "Equal",
+    "real": 0,
+    "playwright": 0,
+    "severity": "LOW"
+  },
+  {
+    "path": "devices.devices[0].index",
+    "category": "Devices",
+    "status": "Equal",
+    "real": 0,
+    "playwright": 0,
+    "severity": "LOW"
+  },
+  {
+    "path": "devices.devices[0].isDefault",
+    "category": "Devices",
+    "status": "Equal",
+    "real": false,
+    "playwright": false,
+    "severity": "LOW"
+  },
+  {
+    "path": "devices.devices[0].kind",
+    "category": "Devices",
+    "status": "Equal",
+    "real": "audioinput",
+    "playwright": "audioinput",
+    "severity": "LOW"
+  },
+  {
+    "path": "devices.devices[0].label",
+    "category": "Devices",
+    "status": "Equal",
+    "real": "",
+    "playwright": "",
+    "severity": "LOW"
+  },
+  {
+    "path": "devices.devices[1].deviceIdHash",
+    "category": "Devices",
+    "status": "Equal",
+    "real": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "playwright": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "severity": "LOW"
+  },
+  {
+    "path": "devices.devices[1].deviceIdLength",
+    "category": "Devices",
+    "status": "Equal",
+    "real": 0,
+    "playwright": 0,
+    "severity": "LOW"
+  },
+  {
+    "path": "devices.devices[1].groupIdHash",
+    "category": "Devices",
+    "status": "Equal",
+    "real": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "playwright": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "severity": "LOW"
+  },
+  {
+    "path": "devices.devices[1].groupIdLength",
+    "category": "Devices",
+    "status": "Equal",
+    "real": 0,
+    "playwright": 0,
+    "severity": "LOW"
+  },
+  {
+    "path": "devices.devices[1].index",
+    "category": "Devices",
+    "status": "Equal",
+    "real": 1,
+    "playwright": 1,
+    "severity": "LOW"
+  },
+  {
+    "path": "devices.devices[1].isDefault",
+    "category": "Devices",
+    "status": "Equal",
+    "real": false,
+    "playwright": false,
+    "severity": "LOW"
+  },
+  {
+    "path": "devices.devices[1].kind",
+    "category": "Devices",
+    "status": "Equal",
+    "real": "videoinput",
+    "playwright": "videoinput",
+    "severity": "LOW"
+  },
+  {
+    "path": "devices.devices[1].label",
+    "category": "Devices",
+    "status": "Equal",
+    "real": "",
+    "playwright": "",
+    "severity": "LOW"
+  },
+  {
+    "path": "devices.devices[2].deviceIdHash",
+    "category": "Devices",
+    "status": "Equal",
+    "real": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "playwright": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "severity": "LOW"
+  },
+  {
+    "path": "devices.devices[2].deviceIdLength",
+    "category": "Devices",
+    "status": "Equal",
+    "real": 0,
+    "playwright": 0,
+    "severity": "LOW"
+  },
+  {
+    "path": "devices.devices[2].groupIdHash",
+    "category": "Devices",
+    "status": "Equal",
+    "real": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "playwright": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "severity": "LOW"
+  },
+  {
+    "path": "devices.devices[2].groupIdLength",
+    "category": "Devices",
+    "status": "Equal",
+    "real": 0,
+    "playwright": 0,
+    "severity": "LOW"
+  },
+  {
+    "path": "devices.devices[2].index",
+    "category": "Devices",
+    "status": "Equal",
+    "real": 2,
+    "playwright": 2,
+    "severity": "LOW"
+  },
+  {
+    "path": "devices.devices[2].isDefault",
+    "category": "Devices",
+    "status": "Equal",
+    "real": false,
+    "playwright": false,
+    "severity": "LOW"
+  },
+  {
+    "path": "devices.devices[2].kind",
+    "category": "Devices",
+    "status": "Equal",
+    "real": "audiooutput",
+    "playwright": "audiooutput",
+    "severity": "LOW"
+  },
+  {
+    "path": "devices.devices[2].label",
+    "category": "Devices",
+    "status": "Equal",
+    "real": "",
+    "playwright": "",
+    "severity": "LOW"
+  },
+  {
+    "path": "devices.enumerationError",
+    "category": "Devices",
+    "status": "Equal",
+    "real": null,
+    "playwright": null,
+    "severity": "LOW"
+  },
+  {
+    "path": "devices.supported",
+    "category": "Devices",
+    "status": "Equal",
+    "real": true,
+    "playwright": true,
+    "severity": "LOW"
+  },
+  {
+    "path": "devices.total",
+    "category": "Devices",
+    "status": "Equal",
+    "real": 3,
+    "playwright": 3,
+    "severity": "LOW"
+  },
+  {
+    "path": "fingerprint.sha256",
+    "category": "Fingerprint",
+    "status": "Equal",
+    "real": "15c4d53b6257cb7969a2b29a168d5976063843020bc3552696ea58bc0bb44895",
+    "playwright": "15c4d53b6257cb7969a2b29a168d5976063843020bc3552696ea58bc0bb44895",
+    "severity": "LOW"
+  },
+  {
+    "path": "methods.enumerateDevices.available",
+    "category": "Methods",
+    "status": "Equal",
+    "real": true,
+    "playwright": true,
+    "severity": "LOW"
+  },
+  {
+    "path": "methods.enumerateDevices.descriptor.configurable",
+    "category": "Methods",
+    "status": "Equal",
+    "real": true,
+    "playwright": true,
+    "severity": "LOW"
+  },
+  {
+    "path": "methods.enumerateDevices.descriptor.enumerable",
+    "category": "Methods",
+    "status": "Equal",
+    "real": true,
+    "playwright": true,
+    "severity": "LOW"
+  },
+  {
+    "path": "methods.enumerateDevices.descriptor.getterSource",
+    "category": "Methods",
+    "status": "Equal",
+    "real": null,
+    "playwright": null,
+    "severity": "LOW"
+  },
+  {
+    "path": "methods.enumerateDevices.descriptor.hasGetter",
+    "category": "Methods",
+    "status": "Equal",
+    "real": false,
+    "playwright": false,
+    "severity": "LOW"
+  },
+  {
+    "path": "methods.enumerateDevices.descriptor.hasSetter",
+    "category": "Methods",
+    "status": "Equal",
+    "real": false,
+    "playwright": false,
+    "severity": "LOW"
+  },
+  {
+    "path": "methods.enumerateDevices.descriptor.setterSource",
+    "category": "Methods",
+    "status": "Equal",
+    "real": null,
+    "playwright": null,
+    "severity": "LOW"
+  },
+  {
+    "path": "methods.enumerateDevices.descriptor.valueSource",
+    "category": "Methods",
+    "status": "Equal",
+    "real": "function enumerateDevices() { [native code] }",
+    "playwright": "function enumerateDevices() { [native code] }",
+    "severity": "LOW"
+  },
+  {
+    "path": "methods.enumerateDevices.descriptor.valueType",
+    "category": "Methods",
+    "status": "Equal",
+    "real": "function",
+    "playwright": "function",
+    "severity": "LOW"
+  },
+  {
+    "path": "methods.enumerateDevices.descriptor.writable",
+    "category": "Methods",
+    "status": "Equal",
+    "real": true,
+    "playwright": true,
+    "severity": "LOW"
+  },
+  {
+    "path": "methods.enumerateDevices.nativeSource",
+    "category": "Methods",
+    "status": "Equal",
+    "real": true,
+    "playwright": true,
+    "severity": "LOW"
+  },
+  {
+    "path": "methods.enumerateDevices.source",
+    "category": "Methods",
+    "status": "Equal",
+    "real": "function enumerateDevices() { [native code] }",
+    "playwright": "function enumerateDevices() { [native code] }",
+    "severity": "LOW"
+  },
+  {
+    "path": "methods.enumerateDevices.typeof",
+    "category": "Methods",
+    "status": "Equal",
+    "real": "function",
+    "playwright": "function",
+    "severity": "LOW"
+  },
+  {
+    "path": "methods.getDisplayMedia.available",
+    "category": "Methods",
+    "status": "Equal",
+    "real": true,
+    "playwright": true,
+    "severity": "LOW"
+  },
+  {
+    "path": "methods.getDisplayMedia.descriptor.configurable",
+    "category": "Methods",
+    "status": "Equal",
+    "real": true,
+    "playwright": true,
+    "severity": "LOW"
+  },
+  {
+    "path": "methods.getDisplayMedia.descriptor.enumerable",
+    "category": "Methods",
+    "status": "Equal",
+    "real": true,
+    "playwright": true,
+    "severity": "LOW"
+  },
+  {
+    "path": "methods.getDisplayMedia.descriptor.getterSource",
+    "category": "Methods",
+    "status": "Equal",
+    "real": null,
+    "playwright": null,
+    "severity": "LOW"
+  },
+  {
+    "path": "methods.getDisplayMedia.descriptor.hasGetter",
+    "category": "Methods",
+    "status": "Equal",
+    "real": false,
+    "playwright": false,
+    "severity": "LOW"
+  },
+  {
+    "path": "methods.getDisplayMedia.descriptor.hasSetter",
+    "category": "Methods",
+    "status": "Equal",
+    "real": false,
+    "playwright": false,
+    "severity": "LOW"
+  },
+  {
+    "path": "methods.getDisplayMedia.descriptor.setterSource",
+    "category": "Methods",
+    "status": "Equal",
+    "real": null,
+    "playwright": null,
+    "severity": "LOW"
+  },
+  {
+    "path": "methods.getDisplayMedia.descriptor.valueSource",
+    "category": "Methods",
+    "status": "Equal",
+    "real": "function getDisplayMedia() { [native code] }",
+    "playwright": "function getDisplayMedia() { [native code] }",
+    "severity": "LOW"
+  },
+  {
+    "path": "methods.getDisplayMedia.descriptor.valueType",
+    "category": "Methods",
+    "status": "Equal",
+    "real": "function",
+    "playwright": "function",
+    "severity": "LOW"
+  },
+  {
+    "path": "methods.getDisplayMedia.descriptor.writable",
+    "category": "Methods",
+    "status": "Equal",
+    "real": true,
+    "playwright": true,
+    "severity": "LOW"
+  },
+  {
+    "path": "methods.getDisplayMedia.nativeSource",
+    "category": "Methods",
+    "status": "Equal",
+    "real": true,
+    "playwright": true,
+    "severity": "LOW"
+  },
+  {
+    "path": "methods.getDisplayMedia.source",
+    "category": "Methods",
+    "status": "Equal",
+    "real": "function getDisplayMedia() { [native code] }",
+    "playwright": "function getDisplayMedia() { [native code] }",
+    "severity": "LOW"
+  },
+  {
+    "path": "methods.getDisplayMedia.typeof",
+    "category": "Methods",
+    "status": "Equal",
+    "real": "function",
+    "playwright": "function",
+    "severity": "LOW"
+  },
+  {
+    "path": "methods.getUserMedia.available",
+    "category": "Methods",
+    "status": "Equal",
+    "real": true,
+    "playwright": true,
+    "severity": "LOW"
+  },
+  {
+    "path": "methods.getUserMedia.descriptor.configurable",
+    "category": "Methods",
+    "status": "Equal",
+    "real": true,
+    "playwright": true,
+    "severity": "LOW"
+  },
+  {
+    "path": "methods.getUserMedia.descriptor.enumerable",
+    "category": "Methods",
+    "status": "Equal",
+    "real": true,
+    "playwright": true,
+    "severity": "LOW"
+  },
+  {
+    "path": "methods.getUserMedia.descriptor.getterSource",
+    "category": "Methods",
+    "status": "Equal",
+    "real": null,
+    "playwright": null,
+    "severity": "LOW"
+  },
+  {
+    "path": "methods.getUserMedia.descriptor.hasGetter",
+    "category": "Methods",
+    "status": "Equal",
+    "real": false,
+    "playwright": false,
+    "severity": "LOW"
+  },
+  {
+    "path": "methods.getUserMedia.descriptor.hasSetter",
+    "category": "Methods",
+    "status": "Equal",
+    "real": false,
+    "playwright": false,
+    "severity": "LOW"
+  },
+  {
+    "path": "methods.getUserMedia.descriptor.setterSource",
+    "category": "Methods",
+    "status": "Equal",
+    "real": null,
+    "playwright": null,
+    "severity": "LOW"
+  },
+  {
+    "path": "methods.getUserMedia.descriptor.valueSource",
+    "category": "Methods",
+    "status": "Equal",
+    "real": "function getUserMedia() { [native code] }",
+    "playwright": "function getUserMedia() { [native code] }",
+    "severity": "LOW"
+  },
+  {
+    "path": "methods.getUserMedia.descriptor.valueType",
+    "category": "Methods",
+    "status": "Equal",
+    "real": "function",
+    "playwright": "function",
+    "severity": "LOW"
+  },
+  {
+    "path": "methods.getUserMedia.descriptor.writable",
+    "category": "Methods",
+    "status": "Equal",
+    "real": true,
+    "playwright": true,
+    "severity": "LOW"
+  },
+  {
+    "path": "methods.getUserMedia.nativeSource",
+    "category": "Methods",
+    "status": "Equal",
+    "real": true,
+    "playwright": true,
+    "severity": "LOW"
+  },
+  {
+    "path": "methods.getUserMedia.source",
+    "category": "Methods",
+    "status": "Equal",
+    "real": "function getUserMedia() { [native code] }",
+    "playwright": "function getUserMedia() { [native code] }",
+    "severity": "LOW"
+  },
+  {
+    "path": "methods.getUserMedia.typeof",
+    "category": "Methods",
+    "status": "Equal",
+    "real": "function",
+    "playwright": "function",
+    "severity": "LOW"
+  },
+  {
+    "path": "methods.selectAudioOutput.available",
+    "category": "Methods",
+    "status": "Equal",
+    "real": false,
+    "playwright": false,
+    "severity": "LOW"
+  },
+  {
+    "path": "methods.selectAudioOutput.descriptor",
+    "category": "Methods",
+    "status": "Equal",
+    "real": null,
+    "playwright": null,
+    "severity": "LOW"
+  },
+  {
+    "path": "methods.selectAudioOutput.nativeSource",
+    "category": "Methods",
+    "status": "Equal",
+    "real": false,
+    "playwright": false,
+    "severity": "LOW"
+  },
+  {
+    "path": "methods.selectAudioOutput.source",
+    "category": "Methods",
+    "status": "Equal",
+    "real": null,
+    "playwright": null,
+    "severity": "LOW"
+  },
+  {
+    "path": "methods.selectAudioOutput.typeof",
+    "category": "Methods",
+    "status": "Equal",
+    "real": "undefined",
+    "playwright": "undefined",
+    "severity": "LOW"
+  },
+  {
+    "path": "permissionApi.available",
+    "category": "Permissions",
+    "status": "Equal",
+    "real": true,
+    "playwright": true,
+    "severity": "LOW"
+  },
+  {
+    "path": "permissionApi.prototype[0]",
+    "category": "Permissions",
+    "status": "Equal",
+    "real": "Permissions",
+    "playwright": "Permissions",
+    "severity": "LOW"
+  },
+  {
+    "path": "permissionApi.prototype[1]",
+    "category": "Permissions",
+    "status": "Equal",
+    "real": "Permissions",
+    "playwright": "Permissions",
+    "severity": "LOW"
+  },
+  {
+    "path": "permissionApi.prototype[2]",
+    "category": "Permissions",
+    "status": "Equal",
+    "real": "Object",
+    "playwright": "Object",
+    "severity": "LOW"
+  },
+  {
+    "path": "permissions.camera.error",
+    "category": "Permissions",
+    "status": "Equal",
+    "real": null,
+    "playwright": null,
+    "severity": "LOW"
+  },
+  {
+    "path": "permissions.camera.name",
+    "category": "Permissions",
+    "status": "Equal",
+    "real": "camera",
+    "playwright": "camera",
+    "severity": "LOW"
+  },
+  {
+    "path": "permissions.camera.state",
+    "category": "Permissions",
+    "status": "Equal",
+    "real": "prompt",
+    "playwright": "prompt",
+    "severity": "LOW"
+  },
+  {
+    "path": "permissions.camera.supported",
+    "category": "Permissions",
+    "status": "Equal",
+    "real": true,
+    "playwright": true,
+    "severity": "LOW"
+  },
+  {
+    "path": "permissions.microphone.error",
+    "category": "Permissions",
+    "status": "Equal",
+    "real": null,
+    "playwright": null,
+    "severity": "LOW"
+  },
+  {
+    "path": "permissions.microphone.name",
+    "category": "Permissions",
+    "status": "Equal",
+    "real": "microphone",
+    "playwright": "microphone",
+    "severity": "LOW"
+  },
+  {
+    "path": "permissions.microphone.state",
+    "category": "Permissions",
+    "status": "Equal",
+    "real": "prompt",
+    "playwright": "prompt",
+    "severity": "LOW"
+  },
+  {
+    "path": "permissions.microphone.supported",
+    "category": "Permissions",
+    "status": "Equal",
+    "real": true,
+    "playwright": true,
+    "severity": "LOW"
+  },
+  {
+    "path": "mediaDevices.constructor",
+    "category": "Prototype",
+    "status": "Equal",
+    "real": "MediaDevices",
+    "playwright": "MediaDevices",
+    "severity": "LOW"
+  },
+  {
+    "path": "mediaDevices.instanceof",
+    "category": "Prototype",
+    "status": "Equal",
+    "real": true,
+    "playwright": true,
+    "severity": "LOW"
+  },
+  {
+    "path": "mediaDevices.ownProperties",
+    "category": "Prototype",
+    "status": "Equal",
+    "real": [],
+    "playwright": [],
+    "severity": "LOW"
+  },
+  {
+    "path": "mediaDevices.prototype",
+    "category": "Prototype",
+    "status": "Equal",
+    "real": "MediaDevices",
+    "playwright": "MediaDevices",
+    "severity": "LOW"
+  },
+  {
+    "path": "mediaDevices.prototypeChain[0]",
+    "category": "Prototype",
+    "status": "Equal",
+    "real": "MediaDevices",
+    "playwright": "MediaDevices",
+    "severity": "LOW"
+  },
+  {
+    "path": "mediaDevices.prototypeChain[1]",
+    "category": "Prototype",
+    "status": "Equal",
+    "real": "MediaDevices",
+    "playwright": "MediaDevices",
+    "severity": "LOW"
+  },
+  {
+    "path": "mediaDevices.prototypeChain[2]",
+    "category": "Prototype",
+    "status": "Equal",
+    "real": "EventTarget",
+    "playwright": "EventTarget",
+    "severity": "LOW"
+  },
+  {
+    "path": "mediaDevices.prototypeChain[3]",
+    "category": "Prototype",
+    "status": "Equal",
+    "real": "Object",
+    "playwright": "Object",
+    "severity": "LOW"
+  },
+  {
+    "path": "mediaDevices.prototypeProperties[0]",
+    "category": "Prototype",
+    "status": "Equal",
+    "real": "Symbol(Symbol.toStringTag)",
+    "playwright": "Symbol(Symbol.toStringTag)",
+    "severity": "LOW"
+  },
+  {
+    "path": "mediaDevices.prototypeProperties[1]",
+    "category": "Prototype",
+    "status": "Equal",
+    "real": "constructor",
+    "playwright": "constructor",
+    "severity": "LOW"
+  },
+  {
+    "path": "mediaDevices.prototypeProperties[2]",
+    "category": "Prototype",
+    "status": "Equal",
+    "real": "enumerateDevices",
+    "playwright": "enumerateDevices",
+    "severity": "LOW"
+  },
+  {
+    "path": "mediaDevices.prototypeProperties[3]",
+    "category": "Prototype",
+    "status": "Equal",
+    "real": "getDisplayMedia",
+    "playwright": "getDisplayMedia",
+    "severity": "LOW"
+  },
+  {
+    "path": "mediaDevices.prototypeProperties[4]",
+    "category": "Prototype",
+    "status": "Equal",
+    "real": "getSupportedConstraints",
+    "playwright": "getSupportedConstraints",
+    "severity": "LOW"
+  },
+  {
+    "path": "mediaDevices.prototypeProperties[5]",
+    "category": "Prototype",
+    "status": "Equal",
+    "real": "getUserMedia",
+    "playwright": "getUserMedia",
+    "severity": "LOW"
+  },
+  {
+    "path": "mediaDevices.prototypeProperties[6]",
+    "category": "Prototype",
+    "status": "Equal",
+    "real": "ondevicechange",
+    "playwright": "ondevicechange",
+    "severity": "LOW"
+  },
+  {
+    "path": "mediaDevices.prototypeProperties[7]",
+    "category": "Prototype",
+    "status": "Equal",
+    "real": "setCaptureHandleConfig",
+    "playwright": "setCaptureHandleConfig",
+    "severity": "LOW"
+  },
+  {
+    "path": "mediaDevices.toStringTag",
+    "category": "Prototype",
+    "status": "Equal",
+    "real": "[object MediaDevices]",
+    "playwright": "[object MediaDevices]",
+    "severity": "LOW"
+  },
+  {
+    "path": "mediaDevices.toStringTagDescriptor.configurable",
+    "category": "Prototype",
+    "status": "Equal",
+    "real": true,
+    "playwright": true,
+    "severity": "LOW"
+  },
+  {
+    "path": "mediaDevices.toStringTagDescriptor.enumerable",
+    "category": "Prototype",
+    "status": "Equal",
+    "real": false,
+    "playwright": false,
+    "severity": "LOW"
+  },
+  {
+    "path": "mediaDevices.toStringTagDescriptor.getterSource",
+    "category": "Prototype",
+    "status": "Equal",
+    "real": null,
+    "playwright": null,
+    "severity": "LOW"
+  },
+  {
+    "path": "mediaDevices.toStringTagDescriptor.hasGetter",
+    "category": "Prototype",
+    "status": "Equal",
+    "real": false,
+    "playwright": false,
+    "severity": "LOW"
+  },
+  {
+    "path": "mediaDevices.toStringTagDescriptor.hasSetter",
+    "category": "Prototype",
+    "status": "Equal",
+    "real": false,
+    "playwright": false,
+    "severity": "LOW"
+  },
+  {
+    "path": "mediaDevices.toStringTagDescriptor.setterSource",
+    "category": "Prototype",
+    "status": "Equal",
+    "real": null,
+    "playwright": null,
+    "severity": "LOW"
+  },
+  {
+    "path": "mediaDevices.toStringTagDescriptor.valueSource",
+    "category": "Prototype",
+    "status": "Equal",
+    "real": null,
+    "playwright": null,
+    "severity": "LOW"
+  },
+  {
+    "path": "mediaDevices.toStringTagDescriptor.valueType",
+    "category": "Prototype",
+    "status": "Equal",
+    "real": "string",
+    "playwright": "string",
+    "severity": "LOW"
+  },
+  {
+    "path": "mediaDevices.toStringTagDescriptor.writable",
+    "category": "Prototype",
+    "status": "Equal",
+    "real": false,
+    "playwright": false,
+    "severity": "LOW"
+  },
+  {
+    "path": "navigator.constructor",
+    "category": "Prototype",
+    "status": "Equal",
+    "real": "Navigator",
+    "playwright": "Navigator",
+    "severity": "LOW"
+  },
+  {
+    "path": "navigator.mediaDevicesDescriptor.configurable",
+    "category": "Prototype",
+    "status": "Equal",
+    "real": true,
+    "playwright": true,
+    "severity": "LOW"
+  },
+  {
+    "path": "navigator.mediaDevicesDescriptor.enumerable",
+    "category": "Prototype",
+    "status": "Equal",
+    "real": true,
+    "playwright": true,
+    "severity": "LOW"
+  },
+  {
+    "path": "navigator.mediaDevicesDescriptor.getterSource",
+    "category": "Prototype",
+    "status": "Equal",
+    "real": "function get mediaDevices() { [native code] }",
+    "playwright": "function get mediaDevices() { [native code] }",
+    "severity": "LOW"
+  },
+  {
+    "path": "navigator.mediaDevicesDescriptor.hasGetter",
+    "category": "Prototype",
+    "status": "Equal",
+    "real": true,
+    "playwright": true,
+    "severity": "LOW"
+  },
+  {
+    "path": "navigator.mediaDevicesDescriptor.hasSetter",
+    "category": "Prototype",
+    "status": "Equal",
+    "real": false,
+    "playwright": false,
+    "severity": "LOW"
+  },
+  {
+    "path": "navigator.mediaDevicesDescriptor.setterSource",
+    "category": "Prototype",
+    "status": "Equal",
+    "real": null,
+    "playwright": null,
+    "severity": "LOW"
+  },
+  {
+    "path": "navigator.mediaDevicesDescriptor.valueSource",
+    "category": "Prototype",
+    "status": "Equal",
+    "real": null,
+    "playwright": null,
+    "severity": "LOW"
+  },
+  {
+    "path": "navigator.mediaDevicesDescriptor.valueType",
+    "category": "Prototype",
+    "status": "Equal",
+    "real": null,
+    "playwright": null,
+    "severity": "LOW"
+  },
+  {
+    "path": "navigator.mediaDevicesDescriptor.writable",
+    "category": "Prototype",
+    "status": "Equal",
+    "real": null,
+    "playwright": null,
+    "severity": "LOW"
+  },
+  {
+    "path": "navigator.ownProperties",
+    "category": "Prototype",
+    "status": "Equal",
+    "real": [],
+    "playwright": [],
+    "severity": "LOW"
+  },
+  {
+    "path": "navigator.prototype",
+    "category": "Prototype",
+    "status": "Equal",
+    "real": "Navigator",
+    "playwright": "Navigator",
+    "severity": "LOW"
+  }
+]

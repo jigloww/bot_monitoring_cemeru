@@ -1,0 +1,15 @@
+{
+  "python_compile": true,
+  "json_validation": true,
+  "artifact_completeness": true,
+  "deterministic_ordering": true,
+  "prototype_validation": true,
+  "descriptor_validation": true,
+  "native_source_validation": true,
+  "cross_reference_validation": true,
+  "regression_detection": true,
+  "browser_platform_verification": false,
+  "plugins_module_only": true,
+  "immutable_input_verification": true,
+  "valid": false
+}

@@ -1,0 +1,674 @@
+{
+  "recommendations": [
+    {
+      "priority": 1,
+      "scope": "Supplemental",
+      "domain": "negotiation",
+      "path": "negotiation.available",
+      "severity": "INFO",
+      "recommendation": "Collect a matching Experiment 047 baseline for this supplemental setter behavior.",
+      "expected_similarity_gain": 0.0,
+      "confidence": "Medium"
+    },
+    {
+      "priority": 2,
+      "scope": "Supplemental",
+      "domain": "negotiation",
+      "path": "negotiation.localDescriptionTouched",
+      "severity": "INFO",
+      "recommendation": "Collect a matching Experiment 047 baseline for this supplemental setter behavior.",
+      "expected_similarity_gain": 0.0,
+      "confidence": "Medium"
+    },
+    {
+      "priority": 3,
+      "scope": "Supplemental",
+      "domain": "negotiation",
+      "path": "negotiation.methods.setLocalDescription.illegalInvocation.error.constructor",
+      "severity": "INFO",
+      "recommendation": "Collect a matching Experiment 047 baseline for this supplemental setter behavior.",
+      "expected_similarity_gain": 0.0,
+      "confidence": "Medium"
+    },
+    {
+      "priority": 4,
+      "scope": "Supplemental",
+      "domain": "negotiation",
+      "path": "negotiation.methods.setLocalDescription.illegalInvocation.error.isDOMException",
+      "severity": "INFO",
+      "recommendation": "Collect a matching Experiment 047 baseline for this supplemental setter behavior.",
+      "expected_similarity_gain": 0.0,
+      "confidence": "Medium"
+    },
+    {
+      "priority": 5,
+      "scope": "Supplemental",
+      "domain": "negotiation",
+      "path": "negotiation.methods.setLocalDescription.illegalInvocation.error.isError",
+      "severity": "INFO",
+      "recommendation": "Collect a matching Experiment 047 baseline for this supplemental setter behavior.",
+      "expected_similarity_gain": 0.0,
+      "confidence": "Medium"
+    },
+    {
+      "priority": 6,
+      "scope": "Supplemental",
+      "domain": "negotiation",
+      "path": "negotiation.methods.setLocalDescription.illegalInvocation.error.isTypeError",
+      "severity": "INFO",
+      "recommendation": "Collect a matching Experiment 047 baseline for this supplemental setter behavior.",
+      "expected_similarity_gain": 0.0,
+      "confidence": "Medium"
+    },
+    {
+      "priority": 7,
+      "scope": "Supplemental",
+      "domain": "negotiation",
+      "path": "negotiation.methods.setLocalDescription.illegalInvocation.error.message",
+      "severity": "INFO",
+      "recommendation": "Collect a matching Experiment 047 baseline for this supplemental setter behavior.",
+      "expected_similarity_gain": 0.0,
+      "confidence": "Medium"
+    },
+    {
+      "priority": 8,
+      "scope": "Supplemental",
+      "domain": "negotiation",
+      "path": "negotiation.methods.setLocalDescription.illegalInvocation.error.name",
+      "severity": "INFO",
+      "recommendation": "Collect a matching Experiment 047 baseline for this supplemental setter behavior.",
+      "expected_similarity_gain": 0.0,
+      "confidence": "Medium"
+    },
+    {
+      "priority": 9,
+      "scope": "Supplemental",
+      "domain": "negotiation",
+      "path": "negotiation.methods.setLocalDescription.illegalInvocation.outcome",
+      "severity": "INFO",
+      "recommendation": "Collect a matching Experiment 047 baseline for this supplemental setter behavior.",
+      "expected_similarity_gain": 0.0,
+      "confidence": "Medium"
+    },
+    {
+      "priority": 10,
+      "scope": "Supplemental",
+      "domain": "negotiation",
+      "path": "negotiation.methods.setLocalDescription.illegalInvocation.promise",
+      "severity": "INFO",
+      "recommendation": "Collect a matching Experiment 047 baseline for this supplemental setter behavior.",
+      "expected_similarity_gain": 0.0,
+      "confidence": "Medium"
+    },
+    {
+      "priority": 11,
+      "scope": "Supplemental",
+      "domain": "negotiation",
+      "path": "negotiation.methods.setLocalDescription.invalidArgument.error.constructor",
+      "severity": "INFO",
+      "recommendation": "Collect a matching Experiment 047 baseline for this supplemental setter behavior.",
+      "expected_similarity_gain": 0.0,
+      "confidence": "Medium"
+    },
+    {
+      "priority": 12,
+      "scope": "Supplemental",
+      "domain": "negotiation",
+      "path": "negotiation.methods.setLocalDescription.invalidArgument.error.isDOMException",
+      "severity": "INFO",
+      "recommendation": "Collect a matching Experiment 047 baseline for this supplemental setter behavior.",
+      "expected_similarity_gain": 0.0,
+      "confidence": "Medium"
+    },
+    {
+      "priority": 13,
+      "scope": "Supplemental",
+      "domain": "negotiation",
+      "path": "negotiation.methods.setLocalDescription.invalidArgument.error.isError",
+      "severity": "INFO",
+      "recommendation": "Collect a matching Experiment 047 baseline for this supplemental setter behavior.",
+      "expected_similarity_gain": 0.0,
+      "confidence": "Medium"
+    },
+    {
+      "priority": 14,
+      "scope": "Supplemental",
+      "domain": "negotiation",
+      "path": "negotiation.methods.setLocalDescription.invalidArgument.error.isTypeError",
+      "severity": "INFO",
+      "recommendation": "Collect a matching Experiment 047 baseline for this supplemental setter behavior.",
+      "expected_similarity_gain": 0.0,
+      "confidence": "Medium"
+    },
+    {
+      "priority": 15,
+      "scope": "Supplemental",
+      "domain": "negotiation",
+      "path": "negotiation.methods.setLocalDescription.invalidArgument.error.message",
+      "severity": "INFO",
+      "recommendation": "Collect a matching Experiment 047 baseline for this supplemental setter behavior.",
+      "expected_similarity_gain": 0.0,
+      "confidence": "Medium"
+    },
+    {
+      "priority": 16,
+      "scope": "Supplemental",
+      "domain": "negotiation",
+      "path": "negotiation.methods.setLocalDescription.invalidArgument.error.name",
+      "severity": "INFO",
+      "recommendation": "Collect a matching Experiment 047 baseline for this supplemental setter behavior.",
+      "expected_similarity_gain": 0.0,
+      "confidence": "Medium"
+    },
+    {
+      "priority": 17,
+      "scope": "Supplemental",
+      "domain": "negotiation",
+      "path": "negotiation.methods.setLocalDescription.invalidArgument.outcome",
+      "severity": "INFO",
+      "recommendation": "Collect a matching Experiment 047 baseline for this supplemental setter behavior.",
+      "expected_similarity_gain": 0.0,
+      "confidence": "Medium"
+    },
+    {
+      "priority": 18,
+      "scope": "Supplemental",
+      "domain": "negotiation",
+      "path": "negotiation.methods.setLocalDescription.invalidArgument.promise",
+      "severity": "INFO",
+      "recommendation": "Collect a matching Experiment 047 baseline for this supplemental setter behavior.",
+      "expected_similarity_gain": 0.0,
+      "confidence": "Medium"
+    },
+    {
+      "priority": 19,
+      "scope": "Supplemental",
+      "domain": "negotiation",
+      "path": "negotiation.methods.setLocalDescription.label",
+      "severity": "INFO",
+      "recommendation": "Collect a matching Experiment 047 baseline for this supplemental setter behavior.",
+      "expected_similarity_gain": 0.0,
+      "confidence": "Medium"
+    },
+    {
+      "priority": 20,
+      "scope": "Supplemental",
+      "domain": "negotiation",
+      "path": "negotiation.methods.setLocalDescription.method.descriptor.configurable",
+      "severity": "INFO",
+      "recommendation": "Collect a matching Experiment 047 baseline for this supplemental setter behavior.",
+      "expected_similarity_gain": 0.0,
+      "confidence": "Medium"
+    },
+    {
+      "priority": 21,
+      "scope": "Supplemental",
+      "domain": "negotiation",
+      "path": "negotiation.methods.setLocalDescription.method.descriptor.enumerable",
+      "severity": "INFO",
+      "recommendation": "Collect a matching Experiment 047 baseline for this supplemental setter behavior.",
+      "expected_similarity_gain": 0.0,
+      "confidence": "Medium"
+    },
+    {
+      "priority": 22,
+      "scope": "Supplemental",
+      "domain": "negotiation",
+      "path": "negotiation.methods.setLocalDescription.method.descriptor.getterSource",
+      "severity": "INFO",
+      "recommendation": "Collect a matching Experiment 047 baseline for this supplemental setter behavior.",
+      "expected_similarity_gain": 0.0,
+      "confidence": "Medium"
+    },
+    {
+      "priority": 23,
+      "scope": "Supplemental",
+      "domain": "negotiation",
+      "path": "negotiation.methods.setLocalDescription.method.descriptor.hasGetter",
+      "severity": "INFO",
+      "recommendation": "Collect a matching Experiment 047 baseline for this supplemental setter behavior.",
+      "expected_similarity_gain": 0.0,
+      "confidence": "Medium"
+    },
+    {
+      "priority": 24,
+      "scope": "Supplemental",
+      "domain": "negotiation",
+      "path": "negotiation.methods.setLocalDescription.method.descriptor.hasSetter",
+      "severity": "INFO",
+      "recommendation": "Collect a matching Experiment 047 baseline for this supplemental setter behavior.",
+      "expected_similarity_gain": 0.0,
+      "confidence": "Medium"
+    },
+    {
+      "priority": 25,
+      "scope": "Supplemental",
+      "domain": "negotiation",
+      "path": "negotiation.methods.setLocalDescription.method.descriptor.setterSource",
+      "severity": "INFO",
+      "recommendation": "Collect a matching Experiment 047 baseline for this supplemental setter behavior.",
+      "expected_similarity_gain": 0.0,
+      "confidence": "Medium"
+    },
+    {
+      "priority": 26,
+      "scope": "Supplemental",
+      "domain": "negotiation",
+      "path": "negotiation.methods.setLocalDescription.method.descriptor.valueSource",
+      "severity": "INFO",
+      "recommendation": "Collect a matching Experiment 047 baseline for this supplemental setter behavior.",
+      "expected_similarity_gain": 0.0,
+      "confidence": "Medium"
+    },
+    {
+      "priority": 27,
+      "scope": "Supplemental",
+      "domain": "negotiation",
+      "path": "negotiation.methods.setLocalDescription.method.descriptor.valueType",
+      "severity": "INFO",
+      "recommendation": "Collect a matching Experiment 047 baseline for this supplemental setter behavior.",
+      "expected_similarity_gain": 0.0,
+      "confidence": "Medium"
+    },
+    {
+      "priority": 28,
+      "scope": "Supplemental",
+      "domain": "negotiation",
+      "path": "negotiation.methods.setLocalDescription.method.descriptor.writable",
+      "severity": "INFO",
+      "recommendation": "Collect a matching Experiment 047 baseline for this supplemental setter behavior.",
+      "expected_similarity_gain": 0.0,
+      "confidence": "Medium"
+    },
+    {
+      "priority": 29,
+      "scope": "Supplemental",
+      "domain": "negotiation",
+      "path": "negotiation.methods.setLocalDescription.method.nativeSource",
+      "severity": "INFO",
+      "recommendation": "Collect a matching Experiment 047 baseline for this supplemental setter behavior.",
+      "expected_similarity_gain": 0.0,
+      "confidence": "Medium"
+    },
+    {
+      "priority": 30,
+      "scope": "Supplemental",
+      "domain": "negotiation",
+      "path": "negotiation.methods.setLocalDescription.method.source",
+      "severity": "INFO",
+      "recommendation": "Collect a matching Experiment 047 baseline for this supplemental setter behavior.",
+      "expected_similarity_gain": 0.0,
+      "confidence": "Medium"
+    },
+    {
+      "priority": 31,
+      "scope": "Supplemental",
+      "domain": "negotiation",
+      "path": "negotiation.methods.setLocalDescription.name",
+      "severity": "INFO",
+      "recommendation": "Collect a matching Experiment 047 baseline for this supplemental setter behavior.",
+      "expected_similarity_gain": 0.0,
+      "confidence": "Medium"
+    },
+    {
+      "priority": 32,
+      "scope": "Supplemental",
+      "domain": "negotiation",
+      "path": "negotiation.methods.setRemoteDescription.illegalInvocation.error.constructor",
+      "severity": "INFO",
+      "recommendation": "Collect a matching Experiment 047 baseline for this supplemental setter behavior.",
+      "expected_similarity_gain": 0.0,
+      "confidence": "Medium"
+    },
+    {
+      "priority": 33,
+      "scope": "Supplemental",
+      "domain": "negotiation",
+      "path": "negotiation.methods.setRemoteDescription.illegalInvocation.error.isDOMException",
+      "severity": "INFO",
+      "recommendation": "Collect a matching Experiment 047 baseline for this supplemental setter behavior.",
+      "expected_similarity_gain": 0.0,
+      "confidence": "Medium"
+    },
+    {
+      "priority": 34,
+      "scope": "Supplemental",
+      "domain": "negotiation",
+      "path": "negotiation.methods.setRemoteDescription.illegalInvocation.error.isError",
+      "severity": "INFO",
+      "recommendation": "Collect a matching Experiment 047 baseline for this supplemental setter behavior.",
+      "expected_similarity_gain": 0.0,
+      "confidence": "Medium"
+    },
+    {
+      "priority": 35,
+      "scope": "Supplemental",
+      "domain": "negotiation",
+      "path": "negotiation.methods.setRemoteDescription.illegalInvocation.error.isTypeError",
+      "severity": "INFO",
+      "recommendation": "Collect a matching Experiment 047 baseline for this supplemental setter behavior.",
+      "expected_similarity_gain": 0.0,
+      "confidence": "Medium"
+    },
+    {
+      "priority": 36,
+      "scope": "Supplemental",
+      "domain": "negotiation",
+      "path": "negotiation.methods.setRemoteDescription.illegalInvocation.error.message",
+      "severity": "INFO",
+      "recommendation": "Collect a matching Experiment 047 baseline for this supplemental setter behavior.",
+      "expected_similarity_gain": 0.0,
+      "confidence": "Medium"
+    },
+    {
+      "priority": 37,
+      "scope": "Supplemental",
+      "domain": "negotiation",
+      "path": "negotiation.methods.setRemoteDescription.illegalInvocation.error.name",
+      "severity": "INFO",
+      "recommendation": "Collect a matching Experiment 047 baseline for this supplemental setter behavior.",
+      "expected_similarity_gain": 0.0,
+      "confidence": "Medium"
+    },
+    {
+      "priority": 38,
+      "scope": "Supplemental",
+      "domain": "negotiation",
+      "path": "negotiation.methods.setRemoteDescription.illegalInvocation.outcome",
+      "severity": "INFO",
+      "recommendation": "Collect a matching Experiment 047 baseline for this supplemental setter behavior.",
+      "expected_similarity_gain": 0.0,
+      "confidence": "Medium"
+    },
+    {
+      "priority": 39,
+      "scope": "Supplemental",
+      "domain": "negotiation",
+      "path": "negotiation.methods.setRemoteDescription.illegalInvocation.promise",
+      "severity": "INFO",
+      "recommendation": "Collect a matching Experiment 047 baseline for this supplemental setter behavior.",
+      "expected_similarity_gain": 0.0,
+      "confidence": "Medium"
+    },
+    {
+      "priority": 40,
+      "scope": "Supplemental",
+      "domain": "negotiation",
+      "path": "negotiation.methods.setRemoteDescription.invalidArgument.error.constructor",
+      "severity": "INFO",
+      "recommendation": "Collect a matching Experiment 047 baseline for this supplemental setter behavior.",
+      "expected_similarity_gain": 0.0,
+      "confidence": "Medium"
+    },
+    {
+      "priority": 41,
+      "scope": "Supplemental",
+      "domain": "negotiation",
+      "path": "negotiation.methods.setRemoteDescription.invalidArgument.error.isDOMException",
+      "severity": "INFO",
+      "recommendation": "Collect a matching Experiment 047 baseline for this supplemental setter behavior.",
+      "expected_similarity_gain": 0.0,
+      "confidence": "Medium"
+    },
+    {
+      "priority": 42,
+      "scope": "Supplemental",
+      "domain": "negotiation",
+      "path": "negotiation.methods.setRemoteDescription.invalidArgument.error.isError",
+      "severity": "INFO",
+      "recommendation": "Collect a matching Experiment 047 baseline for this supplemental setter behavior.",
+      "expected_similarity_gain": 0.0,
+      "confidence": "Medium"
+    },
+    {
+      "priority": 43,
+      "scope": "Supplemental",
+      "domain": "negotiation",
+      "path": "negotiation.methods.setRemoteDescription.invalidArgument.error.isTypeError",
+      "severity": "INFO",
+      "recommendation": "Collect a matching Experiment 047 baseline for this supplemental setter behavior.",
+      "expected_similarity_gain": 0.0,
+      "confidence": "Medium"
+    },
+    {
+      "priority": 44,
+      "scope": "Supplemental",
+      "domain": "negotiation",
+      "path": "negotiation.methods.setRemoteDescription.invalidArgument.error.message",
+      "severity": "INFO",
+      "recommendation": "Collect a matching Experiment 047 baseline for this supplemental setter behavior.",
+      "expected_similarity_gain": 0.0,
+      "confidence": "Medium"
+    },
+    {
+      "priority": 45,
+      "scope": "Supplemental",
+      "domain": "negotiation",
+      "path": "negotiation.methods.setRemoteDescription.invalidArgument.error.name",
+      "severity": "INFO",
+      "recommendation": "Collect a matching Experiment 047 baseline for this supplemental setter behavior.",
+      "expected_similarity_gain": 0.0,
+      "confidence": "Medium"
+    },
+    {
+      "priority": 46,
+      "scope": "Supplemental",
+      "domain": "negotiation",
+      "path": "negotiation.methods.setRemoteDescription.invalidArgument.outcome",
+      "severity": "INFO",
+      "recommendation": "Collect a matching Experiment 047 baseline for this supplemental setter behavior.",
+      "expected_similarity_gain": 0.0,
+      "confidence": "Medium"
+    },
+    {
+      "priority": 47,
+      "scope": "Supplemental",
+      "domain": "negotiation",
+      "path": "negotiation.methods.setRemoteDescription.invalidArgument.promise",
+      "severity": "INFO",
+      "recommendation": "Collect a matching Experiment 047 baseline for this supplemental setter behavior.",
+      "expected_similarity_gain": 0.0,
+      "confidence": "Medium"
+    },
+    {
+      "priority": 48,
+      "scope": "Supplemental",
+      "domain": "negotiation",
+      "path": "negotiation.methods.setRemoteDescription.label",
+      "severity": "INFO",
+      "recommendation": "Collect a matching Experiment 047 baseline for this supplemental setter behavior.",
+      "expected_similarity_gain": 0.0,
+      "confidence": "Medium"
+    },
+    {
+      "priority": 49,
+      "scope": "Supplemental",
+      "domain": "negotiation",
+      "path": "negotiation.methods.setRemoteDescription.method.descriptor.configurable",
+      "severity": "INFO",
+      "recommendation": "Collect a matching Experiment 047 baseline for this supplemental setter behavior.",
+      "expected_similarity_gain": 0.0,
+      "confidence": "Medium"
+    },
+    {
+      "priority": 50,
+      "scope": "Supplemental",
+      "domain": "negotiation",
+      "path": "negotiation.methods.setRemoteDescription.method.descriptor.enumerable",
+      "severity": "INFO",
+      "recommendation": "Collect a matching Experiment 047 baseline for this supplemental setter behavior.",
+      "expected_similarity_gain": 0.0,
+      "confidence": "Medium"
+    },
+    {
+      "priority": 51,
+      "scope": "Supplemental",
+      "domain": "negotiation",
+      "path": "negotiation.methods.setRemoteDescription.method.descriptor.getterSource",
+      "severity": "INFO",
+      "recommendation": "Collect a matching Experiment 047 baseline for this supplemental setter behavior.",
+      "expected_similarity_gain": 0.0,
+      "confidence": "Medium"
+    },
+    {
+      "priority": 52,
+      "scope": "Supplemental",
+      "domain": "negotiation",
+      "path": "negotiation.methods.setRemoteDescription.method.descriptor.hasGetter",
+      "severity": "INFO",
+      "recommendation": "Collect a matching Experiment 047 baseline for this supplemental setter behavior.",
+      "expected_similarity_gain": 0.0,
+      "confidence": "Medium"
+    },
+    {
+      "priority": 53,
+      "scope": "Supplemental",
+      "domain": "negotiation",
+      "path": "negotiation.methods.setRemoteDescription.method.descriptor.hasSetter",
+      "severity": "INFO",
+      "recommendation": "Collect a matching Experiment 047 baseline for this supplemental setter behavior.",
+      "expected_similarity_gain": 0.0,
+      "confidence": "Medium"
+    },
+    {
+      "priority": 54,
+      "scope": "Supplemental",
+      "domain": "negotiation",
+      "path": "negotiation.methods.setRemoteDescription.method.descriptor.setterSource",
+      "severity": "INFO",
+      "recommendation": "Collect a matching Experiment 047 baseline for this supplemental setter behavior.",
+      "expected_similarity_gain": 0.0,
+      "confidence": "Medium"
+    },
+    {
+      "priority": 55,
+      "scope": "Supplemental",
+      "domain": "negotiation",
+      "path": "negotiation.methods.setRemoteDescription.method.descriptor.valueSource",
+      "severity": "INFO",
+      "recommendation": "Collect a matching Experiment 047 baseline for this supplemental setter behavior.",
+      "expected_similarity_gain": 0.0,
+      "confidence": "Medium"
+    },
+    {
+      "priority": 56,
+      "scope": "Supplemental",
+      "domain": "negotiation",
+      "path": "negotiation.methods.setRemoteDescription.method.descriptor.valueType",
+      "severity": "INFO",
+      "recommendation": "Collect a matching Experiment 047 baseline for this supplemental setter behavior.",
+      "expected_similarity_gain": 0.0,
+      "confidence": "Medium"
+    },
+    {
+      "priority": 57,
+      "scope": "Supplemental",
+      "domain": "negotiation",
+      "path": "negotiation.methods.setRemoteDescription.method.descriptor.writable",
+      "severity": "INFO",
+      "recommendation": "Collect a matching Experiment 047 baseline for this supplemental setter behavior.",
+      "expected_similarity_gain": 0.0,
+      "confidence": "Medium"
+    },
+    {
+      "priority": 58,
+      "scope": "Supplemental",
+      "domain": "negotiation",
+      "path": "negotiation.methods.setRemoteDescription.method.nativeSource",
+      "severity": "INFO",
+      "recommendation": "Collect a matching Experiment 047 baseline for this supplemental setter behavior.",
+      "expected_similarity_gain": 0.0,
+      "confidence": "Medium"
+    },
+    {
+      "priority": 59,
+      "scope": "Supplemental",
+      "domain": "negotiation",
+      "path": "negotiation.methods.setRemoteDescription.method.source",
+      "severity": "INFO",
+      "recommendation": "Collect a matching Experiment 047 baseline for this supplemental setter behavior.",
+      "expected_similarity_gain": 0.0,
+      "confidence": "Medium"
+    },
+    {
+      "priority": 60,
+      "scope": "Supplemental",
+      "domain": "negotiation",
+      "path": "negotiation.methods.setRemoteDescription.name",
+      "severity": "INFO",
+      "recommendation": "Collect a matching Experiment 047 baseline for this supplemental setter behavior.",
+      "expected_similarity_gain": 0.0,
+      "confidence": "Medium"
+    },
+    {
+      "priority": 61,
+      "scope": "Supplemental",
+      "domain": "negotiation",
+      "path": "negotiation.noIceGathering",
+      "severity": "INFO",
+      "recommendation": "Collect a matching Experiment 047 baseline for this supplemental setter behavior.",
+      "expected_similarity_gain": 0.0,
+      "confidence": "Medium"
+    },
+    {
+      "priority": 62,
+      "scope": "Supplemental",
+      "domain": "negotiation",
+      "path": "negotiation.remoteDescriptionTouched",
+      "severity": "INFO",
+      "recommendation": "Collect a matching Experiment 047 baseline for this supplemental setter behavior.",
+      "expected_similarity_gain": 0.0,
+      "confidence": "Medium"
+    },
+    {
+      "priority": 63,
+      "scope": "Supplemental",
+      "domain": "negotiation",
+      "path": "negotiation.states.canTrickleIceCandidates",
+      "severity": "INFO",
+      "recommendation": "Collect a matching Experiment 047 baseline for this supplemental setter behavior.",
+      "expected_similarity_gain": 0.0,
+      "confidence": "Medium"
+    },
+    {
+      "priority": 64,
+      "scope": "Supplemental",
+      "domain": "negotiation",
+      "path": "negotiation.states.connectionState",
+      "severity": "INFO",
+      "recommendation": "Collect a matching Experiment 047 baseline for this supplemental setter behavior.",
+      "expected_similarity_gain": 0.0,
+      "confidence": "Medium"
+    },
+    {
+      "priority": 65,
+      "scope": "Supplemental",
+      "domain": "negotiation",
+      "path": "negotiation.states.iceConnectionState",
+      "severity": "INFO",
+      "recommendation": "Collect a matching Experiment 047 baseline for this supplemental setter behavior.",
+      "expected_similarity_gain": 0.0,
+      "confidence": "Medium"
+    },
+    {
+      "priority": 66,
+      "scope": "Supplemental",
+      "domain": "negotiation",
+      "path": "negotiation.states.iceGatheringState",
+      "severity": "INFO",
+      "recommendation": "Collect a matching Experiment 047 baseline for this supplemental setter behavior.",
+      "expected_similarity_gain": 0.0,
+      "confidence": "Medium"
+    },
+    {
+      "priority": 67,
+      "scope": "Supplemental",
+      "domain": "negotiation",
+      "path": "negotiation.states.signalingState",
+      "severity": "INFO",
+      "recommendation": "Collect a matching Experiment 047 baseline for this supplemental setter behavior.",
+      "expected_similarity_gain": 0.0,
+      "confidence": "Medium"
+    }
+  ]
+}

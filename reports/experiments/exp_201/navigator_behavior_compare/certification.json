@@ -1,0 +1,11 @@
+{
+  "module": "Navigator",
+  "status": "NEEDS_REVIEW",
+  "patch_required": true,
+  "static_similarity": 0.0,
+  "behavior_similarity": 100.0,
+  "remaining_differences": 1,
+  "critical_differences": 1,
+  "certified": false,
+  "frozen": false
+}

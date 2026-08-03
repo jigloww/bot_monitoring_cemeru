@@ -1,0 +1,22 @@
+{
+  "plain": {
+    "overall": 100.0,
+    "plugin": 100.0,
+    "mime_type": 100.0
+  },
+  "plugins": {
+    "overall": 100.0,
+    "plugin": 100.0,
+    "mime_type": 100.0
+  },
+  "delta": {
+    "overall": 0.0,
+    "plugins": 0.0,
+    "mime_types": 0.0,
+    "prototype": 0.0,
+    "descriptors": 0.0,
+    "methods": 0.0,
+    "cross_reference": 0.0
+  },
+  "regression_count": 0
+}

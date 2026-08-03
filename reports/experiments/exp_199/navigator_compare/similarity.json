@@ -1,0 +1,94 @@
+{
+  "primitive": 100.0,
+  "prototype": 100.0,
+  "descriptor": 100.0,
+  "getter": 100.0,
+  "method": 100.0,
+  "native_source": 100.0,
+  "subapi": 100.0,
+  "fingerprint": 100.0,
+  "overall": 100.0,
+  "domains": {
+    "primitive": {
+      "total": 22,
+      "equal": 22,
+      "remaining": 0,
+      "changed": 0,
+      "missing": 0,
+      "added": 0,
+      "similarity": 100.0
+    },
+    "navigator": {
+      "total": 83,
+      "equal": 83,
+      "remaining": 0,
+      "changed": 0,
+      "missing": 0,
+      "added": 0,
+      "similarity": 100.0
+    },
+    "prototype": {
+      "total": 416,
+      "equal": 416,
+      "remaining": 0,
+      "changed": 0,
+      "missing": 0,
+      "added": 0,
+      "similarity": 100.0
+    },
+    "descriptors": {
+      "total": 621,
+      "equal": 621,
+      "remaining": 0,
+      "changed": 0,
+      "missing": 0,
+      "added": 0,
+      "similarity": 100.0
+    },
+    "methods": {
+      "total": 200,
+      "equal": 200,
+      "remaining": 0,
+      "changed": 0,
+      "missing": 0,
+      "added": 0,
+      "similarity": 100.0
+    },
+    "subapis": {
+      "total": 859,
+      "equal": 859,
+      "remaining": 0,
+      "changed": 0,
+      "missing": 0,
+      "added": 0,
+      "similarity": 100.0
+    },
+    "fingerprint": {
+      "total": 1,
+      "equal": 1,
+      "remaining": 0,
+      "changed": 0,
+      "missing": 0,
+      "added": 0,
+      "similarity": 100.0
+    },
+    "getter": {
+      "total": 279,
+      "equal": 279,
+      "remaining": 0,
+      "changed": 0,
+      "missing": 0,
+      "added": 0,
+      "similarity": 100.0
+    },
+    "native_source": {
+      "total": 200,
+      "equal": 200,
+      "remaining": 0,
+      "changed": 0,
+      "missing": 0,
+      "added": 0,
+      "similarity": 100.0
+    }
+  }
+}

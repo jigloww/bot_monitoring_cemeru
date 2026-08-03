@@ -1,0 +1,65 @@
+{
+  "total_compared": 4383,
+  "equal": 4383,
+  "remaining_differences": 0,
+  "critical_differences": 0,
+  "status_distribution": {
+    "EQUAL": 4383
+  },
+  "severity_distribution": {},
+  "domain_distribution": {
+    "Constructors": {
+      "total": 175,
+      "equal": 175,
+      "remaining": 0,
+      "changed": 0,
+      "missing": 0,
+      "added": 0,
+      "similarity": 100.0
+    },
+    "Descriptors": {
+      "total": 1278,
+      "equal": 1278,
+      "remaining": 0,
+      "changed": 0,
+      "missing": 0,
+      "added": 0,
+      "similarity": 100.0
+    },
+    "Fingerprint": {
+      "total": 1,
+      "equal": 1,
+      "remaining": 0,
+      "changed": 0,
+      "missing": 0,
+      "added": 0,
+      "similarity": 100.0
+    },
+    "Methods": {
+      "total": 802,
+      "equal": 802,
+      "remaining": 0,
+      "changed": 0,
+      "missing": 0,
+      "added": 0,
+      "similarity": 100.0
+    },
+    "Prototype": {
+      "total": 2127,
+      "equal": 2127,
+      "remaining": 0,
+      "changed": 0,
+      "missing": 0,
+      "added": 0,
+      "similarity": 100.0
+    }
+  },
+  "recommendation_count": 0,
+  "native_source_records": 52,
+  "native_source_failures": 0,
+  "browser_launches": 1,
+  "network_requests": 0,
+  "capture_status": "SUCCESS",
+  "baseline_hash": "31b13feafe648f6b7ad5919b590023db273da27a7736f9a1490dbee4e9802419",
+  "playwright_hash": "31b13feafe648f6b7ad5919b590023db273da27a7736f9a1490dbee4e9802419"
+}

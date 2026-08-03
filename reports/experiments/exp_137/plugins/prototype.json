@@ -1,0 +1,56 @@
+{
+  "pluginArray": {
+    "exists": true,
+    "typeof": "object",
+    "constructor": "PluginArray",
+    "toString": "[object PluginArray]",
+    "ownProperties": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "Chrome PDF Viewer",
+      "Chromium PDF Viewer",
+      "Microsoft Edge PDF Viewer",
+      "PDF Viewer",
+      "WebKit built-in PDF"
+    ],
+    "prototypeChain": [
+      "PluginArray",
+      "PluginArray",
+      "Object"
+    ]
+  },
+  "mimeTypeArray": {
+    "exists": true,
+    "typeof": "object",
+    "constructor": "MimeTypeArray",
+    "toString": "[object MimeTypeArray]",
+    "ownProperties": [
+      "0",
+      "1",
+      "application/pdf",
+      "text/pdf"
+    ],
+    "prototypeChain": [
+      "MimeTypeArray",
+      "MimeTypeArray",
+      "Object"
+    ]
+  },
+  "pluginChain": [
+    "PluginArray",
+    "PluginArray",
+    "Object"
+  ],
+  "mimeChain": [
+    "MimeTypeArray",
+    "MimeTypeArray",
+    "Object"
+  ],
+  "pluginInstanceof": true,
+  "mimeInstanceof": true,
+  "pluginToStringTag": "[object PluginArray]",
+  "mimeToStringTag": "[object MimeTypeArray]"
+}

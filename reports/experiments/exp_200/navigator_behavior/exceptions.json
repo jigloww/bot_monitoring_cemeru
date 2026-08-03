@@ -1,0 +1,1111 @@
+{
+  "constructorCall": {
+    "error": {
+      "constructor": "TypeError",
+      "isDOMException": false,
+      "isError": true,
+      "isTypeError": true,
+      "message": "Illegal constructor",
+      "name": "TypeError"
+    },
+    "throws": true
+  },
+  "constructorReflect": {
+    "error": {
+      "constructor": "TypeError",
+      "isDOMException": false,
+      "isError": true,
+      "isTypeError": true,
+      "message": "Failed to construct 'Navigator': Illegal constructor",
+      "name": "TypeError"
+    },
+    "throws": true
+  },
+  "getters": {
+    "appCodeName": {
+      "detached": {
+        "error": {
+          "constructor": "TypeError",
+          "isDOMException": false,
+          "isError": true,
+          "isTypeError": true,
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "throws": true
+      },
+      "invalidReceiver": {
+        "error": {
+          "constructor": "TypeError",
+          "isDOMException": false,
+          "isError": true,
+          "isTypeError": true,
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "throws": true
+      },
+      "prototypeReceiver": {
+        "error": {
+          "constructor": "TypeError",
+          "isDOMException": false,
+          "isError": true,
+          "isTypeError": true,
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "throws": true
+      }
+    },
+    "appName": {
+      "detached": {
+        "error": {
+          "constructor": "TypeError",
+          "isDOMException": false,
+          "isError": true,
+          "isTypeError": true,
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "throws": true
+      },
+      "invalidReceiver": {
+        "error": {
+          "constructor": "TypeError",
+          "isDOMException": false,
+          "isError": true,
+          "isTypeError": true,
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "throws": true
+      },
+      "prototypeReceiver": {
+        "error": {
+          "constructor": "TypeError",
+          "isDOMException": false,
+          "isError": true,
+          "isTypeError": true,
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "throws": true
+      }
+    },
+    "appVersion": {
+      "detached": {
+        "error": {
+          "constructor": "TypeError",
+          "isDOMException": false,
+          "isError": true,
+          "isTypeError": true,
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "throws": true
+      },
+      "invalidReceiver": {
+        "error": {
+          "constructor": "TypeError",
+          "isDOMException": false,
+          "isError": true,
+          "isTypeError": true,
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "throws": true
+      },
+      "prototypeReceiver": {
+        "error": {
+          "constructor": "TypeError",
+          "isDOMException": false,
+          "isError": true,
+          "isTypeError": true,
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "throws": true
+      }
+    },
+    "connection": {
+      "detached": {
+        "error": {
+          "constructor": "TypeError",
+          "isDOMException": false,
+          "isError": true,
+          "isTypeError": true,
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "throws": true
+      },
+      "invalidReceiver": {
+        "error": {
+          "constructor": "TypeError",
+          "isDOMException": false,
+          "isError": true,
+          "isTypeError": true,
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "throws": true
+      },
+      "prototypeReceiver": {
+        "error": {
+          "constructor": "TypeError",
+          "isDOMException": false,
+          "isError": true,
+          "isTypeError": true,
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "throws": true
+      }
+    },
+    "cookieEnabled": {
+      "detached": {
+        "error": {
+          "constructor": "TypeError",
+          "isDOMException": false,
+          "isError": true,
+          "isTypeError": true,
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "throws": true
+      },
+      "invalidReceiver": {
+        "error": {
+          "constructor": "TypeError",
+          "isDOMException": false,
+          "isError": true,
+          "isTypeError": true,
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "throws": true
+      },
+      "prototypeReceiver": {
+        "error": {
+          "constructor": "TypeError",
+          "isDOMException": false,
+          "isError": true,
+          "isTypeError": true,
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "throws": true
+      }
+    },
+    "doNotTrack": {
+      "detached": {
+        "error": {
+          "constructor": "TypeError",
+          "isDOMException": false,
+          "isError": true,
+          "isTypeError": true,
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "throws": true
+      },
+      "invalidReceiver": {
+        "error": {
+          "constructor": "TypeError",
+          "isDOMException": false,
+          "isError": true,
+          "isTypeError": true,
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "throws": true
+      },
+      "prototypeReceiver": {
+        "error": {
+          "constructor": "TypeError",
+          "isDOMException": false,
+          "isError": true,
+          "isTypeError": true,
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "throws": true
+      }
+    },
+    "geolocation": {
+      "detached": {
+        "error": {
+          "constructor": "TypeError",
+          "isDOMException": false,
+          "isError": true,
+          "isTypeError": true,
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "throws": true
+      },
+      "invalidReceiver": {
+        "error": {
+          "constructor": "TypeError",
+          "isDOMException": false,
+          "isError": true,
+          "isTypeError": true,
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "throws": true
+      },
+      "prototypeReceiver": {
+        "error": {
+          "constructor": "TypeError",
+          "isDOMException": false,
+          "isError": true,
+          "isTypeError": true,
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "throws": true
+      }
+    },
+    "hardwareConcurrency": {
+      "detached": {
+        "error": {
+          "constructor": "TypeError",
+          "isDOMException": false,
+          "isError": true,
+          "isTypeError": true,
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "throws": true
+      },
+      "invalidReceiver": {
+        "error": {
+          "constructor": "TypeError",
+          "isDOMException": false,
+          "isError": true,
+          "isTypeError": true,
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "throws": true
+      },
+      "prototypeReceiver": {
+        "error": {
+          "constructor": "TypeError",
+          "isDOMException": false,
+          "isError": true,
+          "isTypeError": true,
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "throws": true
+      }
+    },
+    "ink": {
+      "detached": {
+        "error": {
+          "constructor": "TypeError",
+          "isDOMException": false,
+          "isError": true,
+          "isTypeError": true,
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "throws": true
+      },
+      "invalidReceiver": {
+        "error": {
+          "constructor": "TypeError",
+          "isDOMException": false,
+          "isError": true,
+          "isTypeError": true,
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "throws": true
+      },
+      "prototypeReceiver": {
+        "error": {
+          "constructor": "TypeError",
+          "isDOMException": false,
+          "isError": true,
+          "isTypeError": true,
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "throws": true
+      }
+    },
+    "language": {
+      "detached": {
+        "error": {
+          "constructor": "TypeError",
+          "isDOMException": false,
+          "isError": true,
+          "isTypeError": true,
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "throws": true
+      },
+      "invalidReceiver": {
+        "error": {
+          "constructor": "TypeError",
+          "isDOMException": false,
+          "isError": true,
+          "isTypeError": true,
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "throws": true
+      },
+      "prototypeReceiver": {
+        "error": {
+          "constructor": "TypeError",
+          "isDOMException": false,
+          "isError": true,
+          "isTypeError": true,
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "throws": true
+      }
+    },
+    "languages": {
+      "detached": {
+        "error": {
+          "constructor": "TypeError",
+          "isDOMException": false,
+          "isError": true,
+          "isTypeError": true,
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "throws": true
+      },
+      "invalidReceiver": {
+        "error": {
+          "constructor": "TypeError",
+          "isDOMException": false,
+          "isError": true,
+          "isTypeError": true,
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "throws": true
+      },
+      "prototypeReceiver": {
+        "error": {
+          "constructor": "TypeError",
+          "isDOMException": false,
+          "isError": true,
+          "isTypeError": true,
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "throws": true
+      }
+    },
+    "maxTouchPoints": {
+      "detached": {
+        "error": {
+          "constructor": "TypeError",
+          "isDOMException": false,
+          "isError": true,
+          "isTypeError": true,
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "throws": true
+      },
+      "invalidReceiver": {
+        "error": {
+          "constructor": "TypeError",
+          "isDOMException": false,
+          "isError": true,
+          "isTypeError": true,
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "throws": true
+      },
+      "prototypeReceiver": {
+        "error": {
+          "constructor": "TypeError",
+          "isDOMException": false,
+          "isError": true,
+          "isTypeError": true,
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "throws": true
+      }
+    },
+    "mediaCapabilities": {
+      "detached": {
+        "error": {
+          "constructor": "TypeError",
+          "isDOMException": false,
+          "isError": true,
+          "isTypeError": true,
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "throws": true
+      },
+      "invalidReceiver": {
+        "error": {
+          "constructor": "TypeError",
+          "isDOMException": false,
+          "isError": true,
+          "isTypeError": true,
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "throws": true
+      },
+      "prototypeReceiver": {
+        "error": {
+          "constructor": "TypeError",
+          "isDOMException": false,
+          "isError": true,
+          "isTypeError": true,
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "throws": true
+      }
+    },
+    "mediaSession": {
+      "detached": {
+        "error": {
+          "constructor": "TypeError",
+          "isDOMException": false,
+          "isError": true,
+          "isTypeError": true,
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "throws": true
+      },
+      "invalidReceiver": {
+        "error": {
+          "constructor": "TypeError",
+          "isDOMException": false,
+          "isError": true,
+          "isTypeError": true,
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "throws": true
+      },
+      "prototypeReceiver": {
+        "error": {
+          "constructor": "TypeError",
+          "isDOMException": false,
+          "isError": true,
+          "isTypeError": true,
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "throws": true
+      }
+    },
+    "mimeTypes": {
+      "detached": {
+        "error": {
+          "constructor": "TypeError",
+          "isDOMException": false,
+          "isError": true,
+          "isTypeError": true,
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "throws": true
+      },
+      "invalidReceiver": {
+        "error": {
+          "constructor": "TypeError",
+          "isDOMException": false,
+          "isError": true,
+          "isTypeError": true,
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "throws": true
+      },
+      "prototypeReceiver": {
+        "error": {
+          "constructor": "TypeError",
+          "isDOMException": false,
+          "isError": true,
+          "isTypeError": true,
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "throws": true
+      }
+    },
+    "onLine": {
+      "detached": {
+        "error": {
+          "constructor": "TypeError",
+          "isDOMException": false,
+          "isError": true,
+          "isTypeError": true,
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "throws": true
+      },
+      "invalidReceiver": {
+        "error": {
+          "constructor": "TypeError",
+          "isDOMException": false,
+          "isError": true,
+          "isTypeError": true,
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "throws": true
+      },
+      "prototypeReceiver": {
+        "error": {
+          "constructor": "TypeError",
+          "isDOMException": false,
+          "isError": true,
+          "isTypeError": true,
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "throws": true
+      }
+    },
+    "pdfViewerEnabled": {
+      "detached": {
+        "error": {
+          "constructor": "TypeError",
+          "isDOMException": false,
+          "isError": true,
+          "isTypeError": true,
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "throws": true
+      },
+      "invalidReceiver": {
+        "error": {
+          "constructor": "TypeError",
+          "isDOMException": false,
+          "isError": true,
+          "isTypeError": true,
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "throws": true
+      },
+      "prototypeReceiver": {
+        "error": {
+          "constructor": "TypeError",
+          "isDOMException": false,
+          "isError": true,
+          "isTypeError": true,
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "throws": true
+      }
+    },
+    "permissions": {
+      "detached": {
+        "error": {
+          "constructor": "TypeError",
+          "isDOMException": false,
+          "isError": true,
+          "isTypeError": true,
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "throws": true
+      },
+      "invalidReceiver": {
+        "error": {
+          "constructor": "TypeError",
+          "isDOMException": false,
+          "isError": true,
+          "isTypeError": true,
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "throws": true
+      },
+      "prototypeReceiver": {
+        "error": {
+          "constructor": "TypeError",
+          "isDOMException": false,
+          "isError": true,
+          "isTypeError": true,
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "throws": true
+      }
+    },
+    "platform": {
+      "detached": {
+        "error": {
+          "constructor": "TypeError",
+          "isDOMException": false,
+          "isError": true,
+          "isTypeError": true,
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "throws": true
+      },
+      "invalidReceiver": {
+        "error": {
+          "constructor": "TypeError",
+          "isDOMException": false,
+          "isError": true,
+          "isTypeError": true,
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "throws": true
+      },
+      "prototypeReceiver": {
+        "error": {
+          "constructor": "TypeError",
+          "isDOMException": false,
+          "isError": true,
+          "isTypeError": true,
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "throws": true
+      }
+    },
+    "plugins": {
+      "detached": {
+        "error": {
+          "constructor": "TypeError",
+          "isDOMException": false,
+          "isError": true,
+          "isTypeError": true,
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "throws": true
+      },
+      "invalidReceiver": {
+        "error": {
+          "constructor": "TypeError",
+          "isDOMException": false,
+          "isError": true,
+          "isTypeError": true,
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "throws": true
+      },
+      "prototypeReceiver": {
+        "error": {
+          "constructor": "TypeError",
+          "isDOMException": false,
+          "isError": true,
+          "isTypeError": true,
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "throws": true
+      }
+    },
+    "product": {
+      "detached": {
+        "error": {
+          "constructor": "TypeError",
+          "isDOMException": false,
+          "isError": true,
+          "isTypeError": true,
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "throws": true
+      },
+      "invalidReceiver": {
+        "error": {
+          "constructor": "TypeError",
+          "isDOMException": false,
+          "isError": true,
+          "isTypeError": true,
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "throws": true
+      },
+      "prototypeReceiver": {
+        "error": {
+          "constructor": "TypeError",
+          "isDOMException": false,
+          "isError": true,
+          "isTypeError": true,
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "throws": true
+      }
+    },
+    "productSub": {
+      "detached": {
+        "error": {
+          "constructor": "TypeError",
+          "isDOMException": false,
+          "isError": true,
+          "isTypeError": true,
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "throws": true
+      },
+      "invalidReceiver": {
+        "error": {
+          "constructor": "TypeError",
+          "isDOMException": false,
+          "isError": true,
+          "isTypeError": true,
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "throws": true
+      },
+      "prototypeReceiver": {
+        "error": {
+          "constructor": "TypeError",
+          "isDOMException": false,
+          "isError": true,
+          "isTypeError": true,
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "throws": true
+      }
+    },
+    "scheduling": {
+      "detached": {
+        "error": {
+          "constructor": "TypeError",
+          "isDOMException": false,
+          "isError": true,
+          "isTypeError": true,
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "throws": true
+      },
+      "invalidReceiver": {
+        "error": {
+          "constructor": "TypeError",
+          "isDOMException": false,
+          "isError": true,
+          "isTypeError": true,
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "throws": true
+      },
+      "prototypeReceiver": {
+        "error": {
+          "constructor": "TypeError",
+          "isDOMException": false,
+          "isError": true,
+          "isTypeError": true,
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "throws": true
+      }
+    },
+    "userActivation": {
+      "detached": {
+        "error": {
+          "constructor": "TypeError",
+          "isDOMException": false,
+          "isError": true,
+          "isTypeError": true,
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "throws": true
+      },
+      "invalidReceiver": {
+        "error": {
+          "constructor": "TypeError",
+          "isDOMException": false,
+          "isError": true,
+          "isTypeError": true,
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "throws": true
+      },
+      "prototypeReceiver": {
+        "error": {
+          "constructor": "TypeError",
+          "isDOMException": false,
+          "isError": true,
+          "isTypeError": true,
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "throws": true
+      }
+    },
+    "userAgent": {
+      "detached": {
+        "error": {
+          "constructor": "TypeError",
+          "isDOMException": false,
+          "isError": true,
+          "isTypeError": true,
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "throws": true
+      },
+      "invalidReceiver": {
+        "error": {
+          "constructor": "TypeError",
+          "isDOMException": false,
+          "isError": true,
+          "isTypeError": true,
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "throws": true
+      },
+      "prototypeReceiver": {
+        "error": {
+          "constructor": "TypeError",
+          "isDOMException": false,
+          "isError": true,
+          "isTypeError": true,
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "throws": true
+      }
+    },
+    "vendor": {
+      "detached": {
+        "error": {
+          "constructor": "TypeError",
+          "isDOMException": false,
+          "isError": true,
+          "isTypeError": true,
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "throws": true
+      },
+      "invalidReceiver": {
+        "error": {
+          "constructor": "TypeError",
+          "isDOMException": false,
+          "isError": true,
+          "isTypeError": true,
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "throws": true
+      },
+      "prototypeReceiver": {
+        "error": {
+          "constructor": "TypeError",
+          "isDOMException": false,
+          "isError": true,
+          "isTypeError": true,
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "throws": true
+      }
+    },
+    "vendorSub": {
+      "detached": {
+        "error": {
+          "constructor": "TypeError",
+          "isDOMException": false,
+          "isError": true,
+          "isTypeError": true,
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "throws": true
+      },
+      "invalidReceiver": {
+        "error": {
+          "constructor": "TypeError",
+          "isDOMException": false,
+          "isError": true,
+          "isTypeError": true,
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "throws": true
+      },
+      "prototypeReceiver": {
+        "error": {
+          "constructor": "TypeError",
+          "isDOMException": false,
+          "isError": true,
+          "isTypeError": true,
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "throws": true
+      }
+    },
+    "webdriver": {
+      "detached": {
+        "error": {
+          "constructor": "TypeError",
+          "isDOMException": false,
+          "isError": true,
+          "isTypeError": true,
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "throws": true
+      },
+      "invalidReceiver": {
+        "error": {
+          "constructor": "TypeError",
+          "isDOMException": false,
+          "isError": true,
+          "isTypeError": true,
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "throws": true
+      },
+      "prototypeReceiver": {
+        "error": {
+          "constructor": "TypeError",
+          "isDOMException": false,
+          "isError": true,
+          "isTypeError": true,
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "throws": true
+      }
+    },
+    "webkitPersistentStorage": {
+      "detached": {
+        "error": {
+          "constructor": "TypeError",
+          "isDOMException": false,
+          "isError": true,
+          "isTypeError": true,
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "throws": true
+      },
+      "invalidReceiver": {
+        "error": {
+          "constructor": "TypeError",
+          "isDOMException": false,
+          "isError": true,
+          "isTypeError": true,
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "throws": true
+      },
+      "prototypeReceiver": {
+        "error": {
+          "constructor": "TypeError",
+          "isDOMException": false,
+          "isError": true,
+          "isTypeError": true,
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "throws": true
+      }
+    },
+    "webkitTemporaryStorage": {
+      "detached": {
+        "error": {
+          "constructor": "TypeError",
+          "isDOMException": false,
+          "isError": true,
+          "isTypeError": true,
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "throws": true
+      },
+      "invalidReceiver": {
+        "error": {
+          "constructor": "TypeError",
+          "isDOMException": false,
+          "isError": true,
+          "isTypeError": true,
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "throws": true
+      },
+      "prototypeReceiver": {
+        "error": {
+          "constructor": "TypeError",
+          "isDOMException": false,
+          "isError": true,
+          "isTypeError": true,
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "throws": true
+      }
+    },
+    "windowControlsOverlay": {
+      "detached": {
+        "error": {
+          "constructor": "TypeError",
+          "isDOMException": false,
+          "isError": true,
+          "isTypeError": true,
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "throws": true
+      },
+      "invalidReceiver": {
+        "error": {
+          "constructor": "TypeError",
+          "isDOMException": false,
+          "isError": true,
+          "isTypeError": true,
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "throws": true
+      },
+      "prototypeReceiver": {
+        "error": {
+          "constructor": "TypeError",
+          "isDOMException": false,
+          "isError": true,
+          "isTypeError": true,
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "throws": true
+      }
+    }
+  }
+}

@@ -1,0 +1,129 @@
+{
+  "navigator": {
+    "plugins": {
+      "configurable": true,
+      "enumerable": true,
+      "writable": null,
+      "hasGetter": true,
+      "hasSetter": false,
+      "valueType": null,
+      "getterSource": "function get plugins() { [native code] }",
+      "setterSource": null,
+      "valueSource": null
+    },
+    "mimeTypes": {
+      "configurable": true,
+      "enumerable": true,
+      "writable": null,
+      "hasGetter": true,
+      "hasSetter": false,
+      "valueType": null,
+      "getterSource": "function get mimeTypes() { [native code] }",
+      "setterSource": null,
+      "valueSource": null
+    }
+  },
+  "plugins": {
+    "constructor": {
+      "configurable": true,
+      "enumerable": false,
+      "writable": true,
+      "hasGetter": false,
+      "hasSetter": false,
+      "valueType": "function",
+      "getterSource": null,
+      "setterSource": null,
+      "valueSource": "function PluginArray() { [native code] }"
+    },
+    "item": {
+      "configurable": true,
+      "enumerable": true,
+      "writable": true,
+      "hasGetter": false,
+      "hasSetter": false,
+      "valueType": "function",
+      "getterSource": null,
+      "setterSource": null,
+      "valueSource": "function item() { [native code] }"
+    },
+    "length": {
+      "configurable": true,
+      "enumerable": true,
+      "writable": null,
+      "hasGetter": true,
+      "hasSetter": false,
+      "valueType": null,
+      "getterSource": "function get length() { [native code] }",
+      "setterSource": null,
+      "valueSource": null
+    },
+    "namedItem": {
+      "configurable": true,
+      "enumerable": true,
+      "writable": true,
+      "hasGetter": false,
+      "hasSetter": false,
+      "valueType": "function",
+      "getterSource": null,
+      "setterSource": null,
+      "valueSource": "function namedItem() { [native code] }"
+    },
+    "refresh": {
+      "configurable": true,
+      "enumerable": true,
+      "writable": true,
+      "hasGetter": false,
+      "hasSetter": false,
+      "valueType": "function",
+      "getterSource": null,
+      "setterSource": null,
+      "valueSource": "function refresh() { [native code] }"
+    }
+  },
+  "mimeTypes": {
+    "constructor": {
+      "configurable": true,
+      "enumerable": false,
+      "writable": true,
+      "hasGetter": false,
+      "hasSetter": false,
+      "valueType": "function",
+      "getterSource": null,
+      "setterSource": null,
+      "valueSource": "function MimeTypeArray() { [native code] }"
+    },
+    "item": {
+      "configurable": true,
+      "enumerable": true,
+      "writable": true,
+      "hasGetter": false,
+      "hasSetter": false,
+      "valueType": "function",
+      "getterSource": null,
+      "setterSource": null,
+      "valueSource": "function item() { [native code] }"
+    },
+    "length": {
+      "configurable": true,
+      "enumerable": true,
+      "writable": null,
+      "hasGetter": true,
+      "hasSetter": false,
+      "valueType": null,
+      "getterSource": "function get length() { [native code] }",
+      "setterSource": null,
+      "valueSource": null
+    },
+    "namedItem": {
+      "configurable": true,
+      "enumerable": true,
+      "writable": true,
+      "hasGetter": false,
+      "hasSetter": false,
+      "valueType": "function",
+      "getterSource": null,
+      "setterSource": null,
+      "valueSource": "function namedItem() { [native code] }"
+    }
+  }
+}

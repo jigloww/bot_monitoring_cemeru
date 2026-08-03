@@ -1,0 +1,22 @@
+{
+  "real": {
+    "type": "historical_real_browser",
+    "experiment_id": "exp_122",
+    "created_at": "2026-08-03T18:34:36.810538+07:00",
+    "artifact_directory": "D:\\bot_monitoring_cemeru\\reports\\experiments\\exp_122\\media_devices",
+    "fingerprint_sha256": "15c4d53b6257cb7969a2b29a168d5976063843020bc3552696ea58bc0bb44895"
+  },
+  "playwright": {
+    "type": "fresh_browser_platform_capture",
+    "experiment_id": "exp_130",
+    "captured_at": "2026-08-03T18:46:44.011286+07:00",
+    "artifact_directory": "D:\\bot_monitoring_cemeru\\reports\\experiments\\exp_126\\media_devices_compare",
+    "fresh_probe_sha256": "15c4d53b6257cb7969a2b29a168d5976063843020bc3552696ea58bc0bb44895",
+    "comparator_experiment_id": "exp_126"
+  },
+  "input_references": {
+    "real": "D:\\bot_monitoring_cemeru\\reports\\experiments\\exp_122\\media_devices",
+    "comparator": "D:\\bot_monitoring_cemeru\\reports\\experiments\\exp_126\\media_devices_compare",
+    "comparator_real_reference": "D:\\bot_monitoring_cemeru\\reports\\experiments\\exp_122\\media_devices"
+  }
+}

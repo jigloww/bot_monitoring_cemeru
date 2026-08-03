@@ -1,0 +1,83 @@
+{
+  "real": {
+    "engine": "unknown",
+    "version": null,
+    "executable": null,
+    "pid": null,
+    "pid_available": false,
+    "channel": null,
+    "headless": null,
+    "persistent": null,
+    "locale": null,
+    "timezone": null,
+    "os": "Windows",
+    "architecture": "AMD64",
+    "source": "D:\\bot_monitoring_cemeru\\reports\\experiments\\exp_122\\media_devices",
+    "identity_completeness": 0
+  },
+  "playwright": {
+    "engine": "chromium",
+    "version": "151.0.7922.72",
+    "configured_browser": "chrome",
+    "channel": "chrome",
+    "executable": null,
+    "pid": null,
+    "pid_available": false,
+    "pid_scope": "browser_pid_not_exposed_by_platform",
+    "headless": true,
+    "persistent": false,
+    "locale": null,
+    "timezone": null,
+    "os": "Windows",
+    "architecture": "AMD64"
+  },
+  "fresh_config": {
+    "browser": "chrome",
+    "executable_path": null,
+    "channel": "",
+    "headless": true,
+    "persistent": false,
+    "profile_path": null,
+    "user_data_dir": null,
+    "viewport": null,
+    "user_agent": null,
+    "locale": null,
+    "timezone": null,
+    "extra_http_headers": null,
+    "downloads_dir": null,
+    "permissions": [],
+    "proxy": "[REDACTED]",
+    "args": [],
+    "env": null,
+    "geolocation": null,
+    "color_scheme": null,
+    "reduced_motion": null,
+    "java_script_enabled": true,
+    "accept_downloads": true,
+    "ignore_https_errors": false,
+    "enable_stealth": false,
+    "url": "about:blank",
+    "timeout": 30000
+  },
+  "fresh_launch_options": {
+    "headless": true,
+    "args": [],
+    "channel": "chrome"
+  },
+  "executable_candidates": {
+    "chrome": null,
+    "chromium": null
+  },
+  "collector_process_pid": 16388,
+  "command_line": [
+    "python",
+    "experiments/baseline_integrity_audit.py",
+    "--headless"
+  ],
+  "platform": {
+    "os": "Windows",
+    "release": "11",
+    "architecture": "AMD64",
+    "python": "3.12.10"
+  }
+}

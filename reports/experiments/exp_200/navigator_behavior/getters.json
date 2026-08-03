@@ -1,0 +1,2052 @@
+{
+  "appCodeName": {
+    "available": true,
+    "descriptor": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": "function get appCodeName() { [native code] }",
+      "hasGetter": true,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": null,
+      "valueType": null,
+      "writable": null
+    },
+    "detached": {
+      "detached": {
+        "error": {
+          "constructor": "TypeError",
+          "isDOMException": false,
+          "isError": true,
+          "isTypeError": true,
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "throws": true
+      },
+      "invalidReceiver": {
+        "error": {
+          "constructor": "TypeError",
+          "isDOMException": false,
+          "isError": true,
+          "isTypeError": true,
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "throws": true
+      },
+      "prototypeReceiver": {
+        "error": {
+          "constructor": "TypeError",
+          "isDOMException": false,
+          "isError": true,
+          "isTypeError": true,
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "throws": true
+      }
+    },
+    "first": "Mozilla",
+    "length": 0,
+    "name": "get appCodeName",
+    "nativeSource": true,
+    "referenceStable": null,
+    "second": "Mozilla",
+    "source": "function get appCodeName() { [native code] }",
+    "third": "Mozilla",
+    "valueStable": true
+  },
+  "appName": {
+    "available": true,
+    "descriptor": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": "function get appName() { [native code] }",
+      "hasGetter": true,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": null,
+      "valueType": null,
+      "writable": null
+    },
+    "detached": {
+      "detached": {
+        "error": {
+          "constructor": "TypeError",
+          "isDOMException": false,
+          "isError": true,
+          "isTypeError": true,
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "throws": true
+      },
+      "invalidReceiver": {
+        "error": {
+          "constructor": "TypeError",
+          "isDOMException": false,
+          "isError": true,
+          "isTypeError": true,
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "throws": true
+      },
+      "prototypeReceiver": {
+        "error": {
+          "constructor": "TypeError",
+          "isDOMException": false,
+          "isError": true,
+          "isTypeError": true,
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "throws": true
+      }
+    },
+    "first": "Netscape",
+    "length": 0,
+    "name": "get appName",
+    "nativeSource": true,
+    "referenceStable": null,
+    "second": "Netscape",
+    "source": "function get appName() { [native code] }",
+    "third": "Netscape",
+    "valueStable": true
+  },
+  "appVersion": {
+    "available": true,
+    "descriptor": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": "function get appVersion() { [native code] }",
+      "hasGetter": true,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": null,
+      "valueType": null,
+      "writable": null
+    },
+    "detached": {
+      "detached": {
+        "error": {
+          "constructor": "TypeError",
+          "isDOMException": false,
+          "isError": true,
+          "isTypeError": true,
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "throws": true
+      },
+      "invalidReceiver": {
+        "error": {
+          "constructor": "TypeError",
+          "isDOMException": false,
+          "isError": true,
+          "isTypeError": true,
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "throws": true
+      },
+      "prototypeReceiver": {
+        "error": {
+          "constructor": "TypeError",
+          "isDOMException": false,
+          "isError": true,
+          "isTypeError": true,
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "throws": true
+      }
+    },
+    "first": "5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.0.0 Safari/537.36",
+    "length": 0,
+    "name": "get appVersion",
+    "nativeSource": true,
+    "referenceStable": null,
+    "second": "5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.0.0 Safari/537.36",
+    "source": "function get appVersion() { [native code] }",
+    "third": "5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.0.0 Safari/537.36",
+    "valueStable": true
+  },
+  "connection": {
+    "available": true,
+    "descriptor": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": "function get connection() { [native code] }",
+      "hasGetter": true,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": null,
+      "valueType": null,
+      "writable": null
+    },
+    "detached": {
+      "detached": {
+        "error": {
+          "constructor": "TypeError",
+          "isDOMException": false,
+          "isError": true,
+          "isTypeError": true,
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "throws": true
+      },
+      "invalidReceiver": {
+        "error": {
+          "constructor": "TypeError",
+          "isDOMException": false,
+          "isError": true,
+          "isTypeError": true,
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "throws": true
+      },
+      "prototypeReceiver": {
+        "error": {
+          "constructor": "TypeError",
+          "isDOMException": false,
+          "isError": true,
+          "isTypeError": true,
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "throws": true
+      }
+    },
+    "first": {
+      "constructor": "NetworkInformation",
+      "objectToString": "[object NetworkInformation]",
+      "ownProperties": [],
+      "type": "object"
+    },
+    "length": 0,
+    "name": "get connection",
+    "nativeSource": true,
+    "referenceStable": true,
+    "second": {
+      "constructor": "NetworkInformation",
+      "objectToString": "[object NetworkInformation]",
+      "ownProperties": [],
+      "type": "object"
+    },
+    "source": "function get connection() { [native code] }",
+    "third": {
+      "constructor": "NetworkInformation",
+      "objectToString": "[object NetworkInformation]",
+      "ownProperties": [],
+      "type": "object"
+    },
+    "valueStable": true
+  },
+  "cookieEnabled": {
+    "available": true,
+    "descriptor": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": "function get cookieEnabled() { [native code] }",
+      "hasGetter": true,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": null,
+      "valueType": null,
+      "writable": null
+    },
+    "detached": {
+      "detached": {
+        "error": {
+          "constructor": "TypeError",
+          "isDOMException": false,
+          "isError": true,
+          "isTypeError": true,
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "throws": true
+      },
+      "invalidReceiver": {
+        "error": {
+          "constructor": "TypeError",
+          "isDOMException": false,
+          "isError": true,
+          "isTypeError": true,
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "throws": true
+      },
+      "prototypeReceiver": {
+        "error": {
+          "constructor": "TypeError",
+          "isDOMException": false,
+          "isError": true,
+          "isTypeError": true,
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "throws": true
+      }
+    },
+    "first": true,
+    "length": 0,
+    "name": "get cookieEnabled",
+    "nativeSource": true,
+    "referenceStable": null,
+    "second": true,
+    "source": "function get cookieEnabled() { [native code] }",
+    "third": true,
+    "valueStable": true
+  },
+  "doNotTrack": {
+    "available": true,
+    "descriptor": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": "function get doNotTrack() { [native code] }",
+      "hasGetter": true,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": null,
+      "valueType": null,
+      "writable": null
+    },
+    "detached": {
+      "detached": {
+        "error": {
+          "constructor": "TypeError",
+          "isDOMException": false,
+          "isError": true,
+          "isTypeError": true,
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "throws": true
+      },
+      "invalidReceiver": {
+        "error": {
+          "constructor": "TypeError",
+          "isDOMException": false,
+          "isError": true,
+          "isTypeError": true,
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "throws": true
+      },
+      "prototypeReceiver": {
+        "error": {
+          "constructor": "TypeError",
+          "isDOMException": false,
+          "isError": true,
+          "isTypeError": true,
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "throws": true
+      }
+    },
+    "first": null,
+    "length": 0,
+    "name": "get doNotTrack",
+    "nativeSource": true,
+    "referenceStable": null,
+    "second": null,
+    "source": "function get doNotTrack() { [native code] }",
+    "third": null,
+    "valueStable": true
+  },
+  "geolocation": {
+    "available": true,
+    "descriptor": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": "function get geolocation() { [native code] }",
+      "hasGetter": true,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": null,
+      "valueType": null,
+      "writable": null
+    },
+    "detached": {
+      "detached": {
+        "error": {
+          "constructor": "TypeError",
+          "isDOMException": false,
+          "isError": true,
+          "isTypeError": true,
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "throws": true
+      },
+      "invalidReceiver": {
+        "error": {
+          "constructor": "TypeError",
+          "isDOMException": false,
+          "isError": true,
+          "isTypeError": true,
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "throws": true
+      },
+      "prototypeReceiver": {
+        "error": {
+          "constructor": "TypeError",
+          "isDOMException": false,
+          "isError": true,
+          "isTypeError": true,
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "throws": true
+      }
+    },
+    "first": {
+      "constructor": "Geolocation",
+      "objectToString": "[object Geolocation]",
+      "ownProperties": [],
+      "type": "object"
+    },
+    "length": 0,
+    "name": "get geolocation",
+    "nativeSource": true,
+    "referenceStable": true,
+    "second": {
+      "constructor": "Geolocation",
+      "objectToString": "[object Geolocation]",
+      "ownProperties": [],
+      "type": "object"
+    },
+    "source": "function get geolocation() { [native code] }",
+    "third": {
+      "constructor": "Geolocation",
+      "objectToString": "[object Geolocation]",
+      "ownProperties": [],
+      "type": "object"
+    },
+    "valueStable": true
+  },
+  "hardwareConcurrency": {
+    "available": true,
+    "descriptor": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": "function get hardwareConcurrency() { [native code] }",
+      "hasGetter": true,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": null,
+      "valueType": null,
+      "writable": null
+    },
+    "detached": {
+      "detached": {
+        "error": {
+          "constructor": "TypeError",
+          "isDOMException": false,
+          "isError": true,
+          "isTypeError": true,
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "throws": true
+      },
+      "invalidReceiver": {
+        "error": {
+          "constructor": "TypeError",
+          "isDOMException": false,
+          "isError": true,
+          "isTypeError": true,
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "throws": true
+      },
+      "prototypeReceiver": {
+        "error": {
+          "constructor": "TypeError",
+          "isDOMException": false,
+          "isError": true,
+          "isTypeError": true,
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "throws": true
+      }
+    },
+    "first": 12,
+    "length": 0,
+    "name": "get hardwareConcurrency",
+    "nativeSource": true,
+    "referenceStable": null,
+    "second": 12,
+    "source": "function get hardwareConcurrency() { [native code] }",
+    "third": 12,
+    "valueStable": true
+  },
+  "ink": {
+    "available": true,
+    "descriptor": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": "function get ink() { [native code] }",
+      "hasGetter": true,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": null,
+      "valueType": null,
+      "writable": null
+    },
+    "detached": {
+      "detached": {
+        "error": {
+          "constructor": "TypeError",
+          "isDOMException": false,
+          "isError": true,
+          "isTypeError": true,
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "throws": true
+      },
+      "invalidReceiver": {
+        "error": {
+          "constructor": "TypeError",
+          "isDOMException": false,
+          "isError": true,
+          "isTypeError": true,
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "throws": true
+      },
+      "prototypeReceiver": {
+        "error": {
+          "constructor": "TypeError",
+          "isDOMException": false,
+          "isError": true,
+          "isTypeError": true,
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "throws": true
+      }
+    },
+    "first": {
+      "constructor": "Ink",
+      "objectToString": "[object Ink]",
+      "ownProperties": [],
+      "type": "object"
+    },
+    "length": 0,
+    "name": "get ink",
+    "nativeSource": true,
+    "referenceStable": true,
+    "second": {
+      "constructor": "Ink",
+      "objectToString": "[object Ink]",
+      "ownProperties": [],
+      "type": "object"
+    },
+    "source": "function get ink() { [native code] }",
+    "third": {
+      "constructor": "Ink",
+      "objectToString": "[object Ink]",
+      "ownProperties": [],
+      "type": "object"
+    },
+    "valueStable": true
+  },
+  "language": {
+    "available": true,
+    "descriptor": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": "function get language() { [native code] }",
+      "hasGetter": true,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": null,
+      "valueType": null,
+      "writable": null
+    },
+    "detached": {
+      "detached": {
+        "error": {
+          "constructor": "TypeError",
+          "isDOMException": false,
+          "isError": true,
+          "isTypeError": true,
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "throws": true
+      },
+      "invalidReceiver": {
+        "error": {
+          "constructor": "TypeError",
+          "isDOMException": false,
+          "isError": true,
+          "isTypeError": true,
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "throws": true
+      },
+      "prototypeReceiver": {
+        "error": {
+          "constructor": "TypeError",
+          "isDOMException": false,
+          "isError": true,
+          "isTypeError": true,
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "throws": true
+      }
+    },
+    "first": "en-US",
+    "length": 0,
+    "name": "get language",
+    "nativeSource": true,
+    "referenceStable": null,
+    "second": "en-US",
+    "source": "function get language() { [native code] }",
+    "third": "en-US",
+    "valueStable": true
+  },
+  "languages": {
+    "available": true,
+    "descriptor": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": "function get languages() { [native code] }",
+      "hasGetter": true,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": null,
+      "valueType": null,
+      "writable": null
+    },
+    "detached": {
+      "detached": {
+        "error": {
+          "constructor": "TypeError",
+          "isDOMException": false,
+          "isError": true,
+          "isTypeError": true,
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "throws": true
+      },
+      "invalidReceiver": {
+        "error": {
+          "constructor": "TypeError",
+          "isDOMException": false,
+          "isError": true,
+          "isTypeError": true,
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "throws": true
+      },
+      "prototypeReceiver": {
+        "error": {
+          "constructor": "TypeError",
+          "isDOMException": false,
+          "isError": true,
+          "isTypeError": true,
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "throws": true
+      }
+    },
+    "first": [
+      "en-US",
+      "en"
+    ],
+    "length": 0,
+    "name": "get languages",
+    "nativeSource": true,
+    "referenceStable": true,
+    "second": [
+      "en-US",
+      "en"
+    ],
+    "source": "function get languages() { [native code] }",
+    "third": [
+      "en-US",
+      "en"
+    ],
+    "valueStable": true
+  },
+  "maxTouchPoints": {
+    "available": true,
+    "descriptor": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": "function get maxTouchPoints() { [native code] }",
+      "hasGetter": true,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": null,
+      "valueType": null,
+      "writable": null
+    },
+    "detached": {
+      "detached": {
+        "error": {
+          "constructor": "TypeError",
+          "isDOMException": false,
+          "isError": true,
+          "isTypeError": true,
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "throws": true
+      },
+      "invalidReceiver": {
+        "error": {
+          "constructor": "TypeError",
+          "isDOMException": false,
+          "isError": true,
+          "isTypeError": true,
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "throws": true
+      },
+      "prototypeReceiver": {
+        "error": {
+          "constructor": "TypeError",
+          "isDOMException": false,
+          "isError": true,
+          "isTypeError": true,
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "throws": true
+      }
+    },
+    "first": 0,
+    "length": 0,
+    "name": "get maxTouchPoints",
+    "nativeSource": true,
+    "referenceStable": null,
+    "second": 0,
+    "source": "function get maxTouchPoints() { [native code] }",
+    "third": 0,
+    "valueStable": true
+  },
+  "mediaCapabilities": {
+    "available": true,
+    "descriptor": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": "function get mediaCapabilities() { [native code] }",
+      "hasGetter": true,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": null,
+      "valueType": null,
+      "writable": null
+    },
+    "detached": {
+      "detached": {
+        "error": {
+          "constructor": "TypeError",
+          "isDOMException": false,
+          "isError": true,
+          "isTypeError": true,
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "throws": true
+      },
+      "invalidReceiver": {
+        "error": {
+          "constructor": "TypeError",
+          "isDOMException": false,
+          "isError": true,
+          "isTypeError": true,
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "throws": true
+      },
+      "prototypeReceiver": {
+        "error": {
+          "constructor": "TypeError",
+          "isDOMException": false,
+          "isError": true,
+          "isTypeError": true,
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "throws": true
+      }
+    },
+    "first": {
+      "constructor": "MediaCapabilities",
+      "objectToString": "[object MediaCapabilities]",
+      "ownProperties": [],
+      "type": "object"
+    },
+    "length": 0,
+    "name": "get mediaCapabilities",
+    "nativeSource": true,
+    "referenceStable": true,
+    "second": {
+      "constructor": "MediaCapabilities",
+      "objectToString": "[object MediaCapabilities]",
+      "ownProperties": [],
+      "type": "object"
+    },
+    "source": "function get mediaCapabilities() { [native code] }",
+    "third": {
+      "constructor": "MediaCapabilities",
+      "objectToString": "[object MediaCapabilities]",
+      "ownProperties": [],
+      "type": "object"
+    },
+    "valueStable": true
+  },
+  "mediaSession": {
+    "available": true,
+    "descriptor": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": "function get mediaSession() { [native code] }",
+      "hasGetter": true,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": null,
+      "valueType": null,
+      "writable": null
+    },
+    "detached": {
+      "detached": {
+        "error": {
+          "constructor": "TypeError",
+          "isDOMException": false,
+          "isError": true,
+          "isTypeError": true,
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "throws": true
+      },
+      "invalidReceiver": {
+        "error": {
+          "constructor": "TypeError",
+          "isDOMException": false,
+          "isError": true,
+          "isTypeError": true,
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "throws": true
+      },
+      "prototypeReceiver": {
+        "error": {
+          "constructor": "TypeError",
+          "isDOMException": false,
+          "isError": true,
+          "isTypeError": true,
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "throws": true
+      }
+    },
+    "first": {
+      "constructor": "MediaSession",
+      "objectToString": "[object MediaSession]",
+      "ownProperties": [],
+      "type": "object"
+    },
+    "length": 0,
+    "name": "get mediaSession",
+    "nativeSource": true,
+    "referenceStable": true,
+    "second": {
+      "constructor": "MediaSession",
+      "objectToString": "[object MediaSession]",
+      "ownProperties": [],
+      "type": "object"
+    },
+    "source": "function get mediaSession() { [native code] }",
+    "third": {
+      "constructor": "MediaSession",
+      "objectToString": "[object MediaSession]",
+      "ownProperties": [],
+      "type": "object"
+    },
+    "valueStable": true
+  },
+  "mimeTypes": {
+    "available": true,
+    "descriptor": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": "function get mimeTypes() { [native code] }",
+      "hasGetter": true,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": null,
+      "valueType": null,
+      "writable": null
+    },
+    "detached": {
+      "detached": {
+        "error": {
+          "constructor": "TypeError",
+          "isDOMException": false,
+          "isError": true,
+          "isTypeError": true,
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "throws": true
+      },
+      "invalidReceiver": {
+        "error": {
+          "constructor": "TypeError",
+          "isDOMException": false,
+          "isError": true,
+          "isTypeError": true,
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "throws": true
+      },
+      "prototypeReceiver": {
+        "error": {
+          "constructor": "TypeError",
+          "isDOMException": false,
+          "isError": true,
+          "isTypeError": true,
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "throws": true
+      }
+    },
+    "first": {
+      "constructor": "MimeTypeArray",
+      "objectToString": "[object MimeTypeArray]",
+      "ownProperties": [
+        "0",
+        "1",
+        "application/pdf",
+        "text/pdf"
+      ],
+      "type": "object"
+    },
+    "length": 0,
+    "name": "get mimeTypes",
+    "nativeSource": true,
+    "referenceStable": true,
+    "second": {
+      "constructor": "MimeTypeArray",
+      "objectToString": "[object MimeTypeArray]",
+      "ownProperties": [
+        "0",
+        "1",
+        "application/pdf",
+        "text/pdf"
+      ],
+      "type": "object"
+    },
+    "source": "function get mimeTypes() { [native code] }",
+    "third": {
+      "constructor": "MimeTypeArray",
+      "objectToString": "[object MimeTypeArray]",
+      "ownProperties": [
+        "0",
+        "1",
+        "application/pdf",
+        "text/pdf"
+      ],
+      "type": "object"
+    },
+    "valueStable": true
+  },
+  "onLine": {
+    "available": true,
+    "descriptor": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": "function get onLine() { [native code] }",
+      "hasGetter": true,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": null,
+      "valueType": null,
+      "writable": null
+    },
+    "detached": {
+      "detached": {
+        "error": {
+          "constructor": "TypeError",
+          "isDOMException": false,
+          "isError": true,
+          "isTypeError": true,
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "throws": true
+      },
+      "invalidReceiver": {
+        "error": {
+          "constructor": "TypeError",
+          "isDOMException": false,
+          "isError": true,
+          "isTypeError": true,
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "throws": true
+      },
+      "prototypeReceiver": {
+        "error": {
+          "constructor": "TypeError",
+          "isDOMException": false,
+          "isError": true,
+          "isTypeError": true,
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "throws": true
+      }
+    },
+    "first": true,
+    "length": 0,
+    "name": "get onLine",
+    "nativeSource": true,
+    "referenceStable": null,
+    "second": true,
+    "source": "function get onLine() { [native code] }",
+    "third": true,
+    "valueStable": true
+  },
+  "pdfViewerEnabled": {
+    "available": true,
+    "descriptor": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": "function get pdfViewerEnabled() { [native code] }",
+      "hasGetter": true,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": null,
+      "valueType": null,
+      "writable": null
+    },
+    "detached": {
+      "detached": {
+        "error": {
+          "constructor": "TypeError",
+          "isDOMException": false,
+          "isError": true,
+          "isTypeError": true,
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "throws": true
+      },
+      "invalidReceiver": {
+        "error": {
+          "constructor": "TypeError",
+          "isDOMException": false,
+          "isError": true,
+          "isTypeError": true,
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "throws": true
+      },
+      "prototypeReceiver": {
+        "error": {
+          "constructor": "TypeError",
+          "isDOMException": false,
+          "isError": true,
+          "isTypeError": true,
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "throws": true
+      }
+    },
+    "first": true,
+    "length": 0,
+    "name": "get pdfViewerEnabled",
+    "nativeSource": true,
+    "referenceStable": null,
+    "second": true,
+    "source": "function get pdfViewerEnabled() { [native code] }",
+    "third": true,
+    "valueStable": true
+  },
+  "permissions": {
+    "available": true,
+    "descriptor": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": "function get permissions() { [native code] }",
+      "hasGetter": true,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": null,
+      "valueType": null,
+      "writable": null
+    },
+    "detached": {
+      "detached": {
+        "error": {
+          "constructor": "TypeError",
+          "isDOMException": false,
+          "isError": true,
+          "isTypeError": true,
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "throws": true
+      },
+      "invalidReceiver": {
+        "error": {
+          "constructor": "TypeError",
+          "isDOMException": false,
+          "isError": true,
+          "isTypeError": true,
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "throws": true
+      },
+      "prototypeReceiver": {
+        "error": {
+          "constructor": "TypeError",
+          "isDOMException": false,
+          "isError": true,
+          "isTypeError": true,
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "throws": true
+      }
+    },
+    "first": {
+      "constructor": "Permissions",
+      "objectToString": "[object Permissions]",
+      "ownProperties": [],
+      "type": "object"
+    },
+    "length": 0,
+    "name": "get permissions",
+    "nativeSource": true,
+    "referenceStable": true,
+    "second": {
+      "constructor": "Permissions",
+      "objectToString": "[object Permissions]",
+      "ownProperties": [],
+      "type": "object"
+    },
+    "source": "function get permissions() { [native code] }",
+    "third": {
+      "constructor": "Permissions",
+      "objectToString": "[object Permissions]",
+      "ownProperties": [],
+      "type": "object"
+    },
+    "valueStable": true
+  },
+  "platform": {
+    "available": true,
+    "descriptor": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": "function get platform() { [native code] }",
+      "hasGetter": true,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": null,
+      "valueType": null,
+      "writable": null
+    },
+    "detached": {
+      "detached": {
+        "error": {
+          "constructor": "TypeError",
+          "isDOMException": false,
+          "isError": true,
+          "isTypeError": true,
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "throws": true
+      },
+      "invalidReceiver": {
+        "error": {
+          "constructor": "TypeError",
+          "isDOMException": false,
+          "isError": true,
+          "isTypeError": true,
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "throws": true
+      },
+      "prototypeReceiver": {
+        "error": {
+          "constructor": "TypeError",
+          "isDOMException": false,
+          "isError": true,
+          "isTypeError": true,
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "throws": true
+      }
+    },
+    "first": "Win32",
+    "length": 0,
+    "name": "get platform",
+    "nativeSource": true,
+    "referenceStable": null,
+    "second": "Win32",
+    "source": "function get platform() { [native code] }",
+    "third": "Win32",
+    "valueStable": true
+  },
+  "plugins": {
+    "available": true,
+    "descriptor": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": "function get plugins() { [native code] }",
+      "hasGetter": true,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": null,
+      "valueType": null,
+      "writable": null
+    },
+    "detached": {
+      "detached": {
+        "error": {
+          "constructor": "TypeError",
+          "isDOMException": false,
+          "isError": true,
+          "isTypeError": true,
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "throws": true
+      },
+      "invalidReceiver": {
+        "error": {
+          "constructor": "TypeError",
+          "isDOMException": false,
+          "isError": true,
+          "isTypeError": true,
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "throws": true
+      },
+      "prototypeReceiver": {
+        "error": {
+          "constructor": "TypeError",
+          "isDOMException": false,
+          "isError": true,
+          "isTypeError": true,
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "throws": true
+      }
+    },
+    "first": {
+      "constructor": "PluginArray",
+      "objectToString": "[object PluginArray]",
+      "ownProperties": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "Chrome PDF Viewer",
+        "Chromium PDF Viewer",
+        "Microsoft Edge PDF Viewer",
+        "PDF Viewer",
+        "WebKit built-in PDF"
+      ],
+      "type": "object"
+    },
+    "length": 0,
+    "name": "get plugins",
+    "nativeSource": true,
+    "referenceStable": true,
+    "second": {
+      "constructor": "PluginArray",
+      "objectToString": "[object PluginArray]",
+      "ownProperties": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "Chrome PDF Viewer",
+        "Chromium PDF Viewer",
+        "Microsoft Edge PDF Viewer",
+        "PDF Viewer",
+        "WebKit built-in PDF"
+      ],
+      "type": "object"
+    },
+    "source": "function get plugins() { [native code] }",
+    "third": {
+      "constructor": "PluginArray",
+      "objectToString": "[object PluginArray]",
+      "ownProperties": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "Chrome PDF Viewer",
+        "Chromium PDF Viewer",
+        "Microsoft Edge PDF Viewer",
+        "PDF Viewer",
+        "WebKit built-in PDF"
+      ],
+      "type": "object"
+    },
+    "valueStable": true
+  },
+  "product": {
+    "available": true,
+    "descriptor": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": "function get product() { [native code] }",
+      "hasGetter": true,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": null,
+      "valueType": null,
+      "writable": null
+    },
+    "detached": {
+      "detached": {
+        "error": {
+          "constructor": "TypeError",
+          "isDOMException": false,
+          "isError": true,
+          "isTypeError": true,
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "throws": true
+      },
+      "invalidReceiver": {
+        "error": {
+          "constructor": "TypeError",
+          "isDOMException": false,
+          "isError": true,
+          "isTypeError": true,
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "throws": true
+      },
+      "prototypeReceiver": {
+        "error": {
+          "constructor": "TypeError",
+          "isDOMException": false,
+          "isError": true,
+          "isTypeError": true,
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "throws": true
+      }
+    },
+    "first": "Gecko",
+    "length": 0,
+    "name": "get product",
+    "nativeSource": true,
+    "referenceStable": null,
+    "second": "Gecko",
+    "source": "function get product() { [native code] }",
+    "third": "Gecko",
+    "valueStable": true
+  },
+  "productSub": {
+    "available": true,
+    "descriptor": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": "function get productSub() { [native code] }",
+      "hasGetter": true,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": null,
+      "valueType": null,
+      "writable": null
+    },
+    "detached": {
+      "detached": {
+        "error": {
+          "constructor": "TypeError",
+          "isDOMException": false,
+          "isError": true,
+          "isTypeError": true,
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "throws": true
+      },
+      "invalidReceiver": {
+        "error": {
+          "constructor": "TypeError",
+          "isDOMException": false,
+          "isError": true,
+          "isTypeError": true,
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "throws": true
+      },
+      "prototypeReceiver": {
+        "error": {
+          "constructor": "TypeError",
+          "isDOMException": false,
+          "isError": true,
+          "isTypeError": true,
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "throws": true
+      }
+    },
+    "first": "20030107",
+    "length": 0,
+    "name": "get productSub",
+    "nativeSource": true,
+    "referenceStable": null,
+    "second": "20030107",
+    "source": "function get productSub() { [native code] }",
+    "third": "20030107",
+    "valueStable": true
+  },
+  "scheduling": {
+    "available": true,
+    "descriptor": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": "function get scheduling() { [native code] }",
+      "hasGetter": true,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": null,
+      "valueType": null,
+      "writable": null
+    },
+    "detached": {
+      "detached": {
+        "error": {
+          "constructor": "TypeError",
+          "isDOMException": false,
+          "isError": true,
+          "isTypeError": true,
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "throws": true
+      },
+      "invalidReceiver": {
+        "error": {
+          "constructor": "TypeError",
+          "isDOMException": false,
+          "isError": true,
+          "isTypeError": true,
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "throws": true
+      },
+      "prototypeReceiver": {
+        "error": {
+          "constructor": "TypeError",
+          "isDOMException": false,
+          "isError": true,
+          "isTypeError": true,
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "throws": true
+      }
+    },
+    "first": {
+      "constructor": "Scheduling",
+      "objectToString": "[object Scheduling]",
+      "ownProperties": [],
+      "type": "object"
+    },
+    "length": 0,
+    "name": "get scheduling",
+    "nativeSource": true,
+    "referenceStable": true,
+    "second": {
+      "constructor": "Scheduling",
+      "objectToString": "[object Scheduling]",
+      "ownProperties": [],
+      "type": "object"
+    },
+    "source": "function get scheduling() { [native code] }",
+    "third": {
+      "constructor": "Scheduling",
+      "objectToString": "[object Scheduling]",
+      "ownProperties": [],
+      "type": "object"
+    },
+    "valueStable": true
+  },
+  "userActivation": {
+    "available": true,
+    "descriptor": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": "function get userActivation() { [native code] }",
+      "hasGetter": true,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": null,
+      "valueType": null,
+      "writable": null
+    },
+    "detached": {
+      "detached": {
+        "error": {
+          "constructor": "TypeError",
+          "isDOMException": false,
+          "isError": true,
+          "isTypeError": true,
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "throws": true
+      },
+      "invalidReceiver": {
+        "error": {
+          "constructor": "TypeError",
+          "isDOMException": false,
+          "isError": true,
+          "isTypeError": true,
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "throws": true
+      },
+      "prototypeReceiver": {
+        "error": {
+          "constructor": "TypeError",
+          "isDOMException": false,
+          "isError": true,
+          "isTypeError": true,
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "throws": true
+      }
+    },
+    "first": {
+      "constructor": "UserActivation",
+      "objectToString": "[object UserActivation]",
+      "ownProperties": [],
+      "type": "object"
+    },
+    "length": 0,
+    "name": "get userActivation",
+    "nativeSource": true,
+    "referenceStable": true,
+    "second": {
+      "constructor": "UserActivation",
+      "objectToString": "[object UserActivation]",
+      "ownProperties": [],
+      "type": "object"
+    },
+    "source": "function get userActivation() { [native code] }",
+    "third": {
+      "constructor": "UserActivation",
+      "objectToString": "[object UserActivation]",
+      "ownProperties": [],
+      "type": "object"
+    },
+    "valueStable": true
+  },
+  "userAgent": {
+    "available": true,
+    "descriptor": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": "function get userAgent() { [native code] }",
+      "hasGetter": true,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": null,
+      "valueType": null,
+      "writable": null
+    },
+    "detached": {
+      "detached": {
+        "error": {
+          "constructor": "TypeError",
+          "isDOMException": false,
+          "isError": true,
+          "isTypeError": true,
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "throws": true
+      },
+      "invalidReceiver": {
+        "error": {
+          "constructor": "TypeError",
+          "isDOMException": false,
+          "isError": true,
+          "isTypeError": true,
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "throws": true
+      },
+      "prototypeReceiver": {
+        "error": {
+          "constructor": "TypeError",
+          "isDOMException": false,
+          "isError": true,
+          "isTypeError": true,
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "throws": true
+      }
+    },
+    "first": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.0.0 Safari/537.36",
+    "length": 0,
+    "name": "get userAgent",
+    "nativeSource": true,
+    "referenceStable": null,
+    "second": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.0.0 Safari/537.36",
+    "source": "function get userAgent() { [native code] }",
+    "third": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.0.0 Safari/537.36",
+    "valueStable": true
+  },
+  "vendor": {
+    "available": true,
+    "descriptor": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": "function get vendor() { [native code] }",
+      "hasGetter": true,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": null,
+      "valueType": null,
+      "writable": null
+    },
+    "detached": {
+      "detached": {
+        "error": {
+          "constructor": "TypeError",
+          "isDOMException": false,
+          "isError": true,
+          "isTypeError": true,
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "throws": true
+      },
+      "invalidReceiver": {
+        "error": {
+          "constructor": "TypeError",
+          "isDOMException": false,
+          "isError": true,
+          "isTypeError": true,
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "throws": true
+      },
+      "prototypeReceiver": {
+        "error": {
+          "constructor": "TypeError",
+          "isDOMException": false,
+          "isError": true,
+          "isTypeError": true,
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "throws": true
+      }
+    },
+    "first": "Google Inc.",
+    "length": 0,
+    "name": "get vendor",
+    "nativeSource": true,
+    "referenceStable": null,
+    "second": "Google Inc.",
+    "source": "function get vendor() { [native code] }",
+    "third": "Google Inc.",
+    "valueStable": true
+  },
+  "vendorSub": {
+    "available": true,
+    "descriptor": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": "function get vendorSub() { [native code] }",
+      "hasGetter": true,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": null,
+      "valueType": null,
+      "writable": null
+    },
+    "detached": {
+      "detached": {
+        "error": {
+          "constructor": "TypeError",
+          "isDOMException": false,
+          "isError": true,
+          "isTypeError": true,
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "throws": true
+      },
+      "invalidReceiver": {
+        "error": {
+          "constructor": "TypeError",
+          "isDOMException": false,
+          "isError": true,
+          "isTypeError": true,
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "throws": true
+      },
+      "prototypeReceiver": {
+        "error": {
+          "constructor": "TypeError",
+          "isDOMException": false,
+          "isError": true,
+          "isTypeError": true,
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "throws": true
+      }
+    },
+    "first": "",
+    "length": 0,
+    "name": "get vendorSub",
+    "nativeSource": true,
+    "referenceStable": null,
+    "second": "",
+    "source": "function get vendorSub() { [native code] }",
+    "third": "",
+    "valueStable": true
+  },
+  "webdriver": {
+    "available": true,
+    "descriptor": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": "function get webdriver() { [native code] }",
+      "hasGetter": true,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": null,
+      "valueType": null,
+      "writable": null
+    },
+    "detached": {
+      "detached": {
+        "error": {
+          "constructor": "TypeError",
+          "isDOMException": false,
+          "isError": true,
+          "isTypeError": true,
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "throws": true
+      },
+      "invalidReceiver": {
+        "error": {
+          "constructor": "TypeError",
+          "isDOMException": false,
+          "isError": true,
+          "isTypeError": true,
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "throws": true
+      },
+      "prototypeReceiver": {
+        "error": {
+          "constructor": "TypeError",
+          "isDOMException": false,
+          "isError": true,
+          "isTypeError": true,
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "throws": true
+      }
+    },
+    "first": true,
+    "length": 0,
+    "name": "get webdriver",
+    "nativeSource": true,
+    "referenceStable": null,
+    "second": true,
+    "source": "function get webdriver() { [native code] }",
+    "third": true,
+    "valueStable": true
+  },
+  "webkitPersistentStorage": {
+    "available": true,
+    "descriptor": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": "function get webkitPersistentStorage() { [native code] }",
+      "hasGetter": true,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": null,
+      "valueType": null,
+      "writable": null
+    },
+    "detached": {
+      "detached": {
+        "error": {
+          "constructor": "TypeError",
+          "isDOMException": false,
+          "isError": true,
+          "isTypeError": true,
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "throws": true
+      },
+      "invalidReceiver": {
+        "error": {
+          "constructor": "TypeError",
+          "isDOMException": false,
+          "isError": true,
+          "isTypeError": true,
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "throws": true
+      },
+      "prototypeReceiver": {
+        "error": {
+          "constructor": "TypeError",
+          "isDOMException": false,
+          "isError": true,
+          "isTypeError": true,
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "throws": true
+      }
+    },
+    "first": {
+      "constructor": "Object",
+      "objectToString": "[object DeprecatedStorageQuota]",
+      "ownProperties": [],
+      "type": "object"
+    },
+    "length": 0,
+    "name": "get webkitPersistentStorage",
+    "nativeSource": true,
+    "referenceStable": true,
+    "second": {
+      "constructor": "Object",
+      "objectToString": "[object DeprecatedStorageQuota]",
+      "ownProperties": [],
+      "type": "object"
+    },
+    "source": "function get webkitPersistentStorage() { [native code] }",
+    "third": {
+      "constructor": "Object",
+      "objectToString": "[object DeprecatedStorageQuota]",
+      "ownProperties": [],
+      "type": "object"
+    },
+    "valueStable": true
+  },
+  "webkitTemporaryStorage": {
+    "available": true,
+    "descriptor": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": "function get webkitTemporaryStorage() { [native code] }",
+      "hasGetter": true,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": null,
+      "valueType": null,
+      "writable": null
+    },
+    "detached": {
+      "detached": {
+        "error": {
+          "constructor": "TypeError",
+          "isDOMException": false,
+          "isError": true,
+          "isTypeError": true,
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "throws": true
+      },
+      "invalidReceiver": {
+        "error": {
+          "constructor": "TypeError",
+          "isDOMException": false,
+          "isError": true,
+          "isTypeError": true,
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "throws": true
+      },
+      "prototypeReceiver": {
+        "error": {
+          "constructor": "TypeError",
+          "isDOMException": false,
+          "isError": true,
+          "isTypeError": true,
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "throws": true
+      }
+    },
+    "first": {
+      "constructor": "Object",
+      "objectToString": "[object DeprecatedStorageQuota]",
+      "ownProperties": [],
+      "type": "object"
+    },
+    "length": 0,
+    "name": "get webkitTemporaryStorage",
+    "nativeSource": true,
+    "referenceStable": true,
+    "second": {
+      "constructor": "Object",
+      "objectToString": "[object DeprecatedStorageQuota]",
+      "ownProperties": [],
+      "type": "object"
+    },
+    "source": "function get webkitTemporaryStorage() { [native code] }",
+    "third": {
+      "constructor": "Object",
+      "objectToString": "[object DeprecatedStorageQuota]",
+      "ownProperties": [],
+      "type": "object"
+    },
+    "valueStable": true
+  },
+  "windowControlsOverlay": {
+    "available": true,
+    "descriptor": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": "function get windowControlsOverlay() { [native code] }",
+      "hasGetter": true,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": null,
+      "valueType": null,
+      "writable": null
+    },
+    "detached": {
+      "detached": {
+        "error": {
+          "constructor": "TypeError",
+          "isDOMException": false,
+          "isError": true,
+          "isTypeError": true,
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "throws": true
+      },
+      "invalidReceiver": {
+        "error": {
+          "constructor": "TypeError",
+          "isDOMException": false,
+          "isError": true,
+          "isTypeError": true,
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "throws": true
+      },
+      "prototypeReceiver": {
+        "error": {
+          "constructor": "TypeError",
+          "isDOMException": false,
+          "isError": true,
+          "isTypeError": true,
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "throws": true
+      }
+    },
+    "first": {
+      "constructor": "WindowControlsOverlay",
+      "objectToString": "[object WindowControlsOverlay]",
+      "ownProperties": [],
+      "type": "object"
+    },
+    "length": 0,
+    "name": "get windowControlsOverlay",
+    "nativeSource": true,
+    "referenceStable": true,
+    "second": {
+      "constructor": "WindowControlsOverlay",
+      "objectToString": "[object WindowControlsOverlay]",
+      "ownProperties": [],
+      "type": "object"
+    },
+    "source": "function get windowControlsOverlay() { [native code] }",
+    "third": {
+      "constructor": "WindowControlsOverlay",
+      "objectToString": "[object WindowControlsOverlay]",
+      "ownProperties": [],
+      "type": "object"
+    },
+    "valueStable": true
+  }
+}

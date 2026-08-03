@@ -1,0 +1,70 @@
+{
+  "constructorPrototype": {
+    "constructorIdentity": true,
+    "instanceofObject": true,
+    "objectToString": "[object RTCPeerConnection]"
+  },
+  "createAnswerIllegalInvocation": {
+    "error": {
+      "constructor": "TypeError",
+      "isDOMException": false,
+      "isError": true,
+      "isTypeError": true,
+      "message": "Failed to execute 'createAnswer' on 'RTCPeerConnection': Illegal invocation",
+      "name": "TypeError"
+    },
+    "promise": true,
+    "resolved": false,
+    "threw": true
+  },
+  "createAnswerWithoutRemote": {
+    "error": {
+      "constructor": "DOMException",
+      "isDOMException": true,
+      "isError": true,
+      "isTypeError": false,
+      "message": "Failed to execute 'createAnswer' on 'RTCPeerConnection': PeerConnection cannot create an answer in a state other than have-remote-offer or have-local-pranswer.",
+      "name": "InvalidStateError"
+    },
+    "promise": true
+  },
+  "createDataChannelIllegalInvocation": {
+    "error": {
+      "constructor": "TypeError",
+      "isDOMException": false,
+      "isError": true,
+      "isTypeError": true,
+      "message": "Illegal invocation",
+      "name": "TypeError"
+    },
+    "promise": false,
+    "resolved": null,
+    "threw": true
+  },
+  "createOfferIllegalInvocation": {
+    "error": {
+      "constructor": "TypeError",
+      "isDOMException": false,
+      "isError": true,
+      "isTypeError": true,
+      "message": "Failed to execute 'createOffer' on 'RTCPeerConnection': Illegal invocation",
+      "name": "TypeError"
+    },
+    "promise": true,
+    "resolved": false,
+    "threw": true
+  },
+  "getConfigurationIllegalInvocation": {
+    "error": {
+      "constructor": "TypeError",
+      "isDOMException": false,
+      "isError": true,
+      "isTypeError": true,
+      "message": "Illegal invocation",
+      "name": "TypeError"
+    },
+    "promise": false,
+    "resolved": null,
+    "threw": true
+  }
+}

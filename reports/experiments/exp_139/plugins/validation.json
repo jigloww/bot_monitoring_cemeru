@@ -1,0 +1,16 @@
+{
+  "python_compile": true,
+  "json_validation": true,
+  "artifact_completeness": true,
+  "deterministic_ordering": true,
+  "serialization": true,
+  "read_only_verification": true,
+  "browser_platform_verification": false,
+  "sha256_validation": true,
+  "prototype_consistency": true,
+  "item_prototype_consistency": true,
+  "native_method_sources": true,
+  "cross_reference_validation": true,
+  "no_stealth_injection": true,
+  "valid": false
+}

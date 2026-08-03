@@ -1,0 +1,37 @@
+{
+  "constructorPrototype": {
+    "constructorIdentity": true,
+    "instanceofObject": true,
+    "objectToString": "[object RTCPeerConnection]"
+  },
+  "createAnswerIllegalInvocation": {
+    "error": null,
+    "threw": false
+  },
+  "createDataChannelIllegalInvocation": {
+    "error": {
+      "constructor": "TypeError",
+      "isDOMException": false,
+      "isError": true,
+      "isTypeError": true,
+      "message": "Illegal invocation",
+      "name": "TypeError"
+    },
+    "threw": true
+  },
+  "createOfferIllegalInvocation": {
+    "error": null,
+    "threw": false
+  },
+  "getConfigurationIllegalInvocation": {
+    "error": {
+      "constructor": "TypeError",
+      "isDOMException": false,
+      "isError": true,
+      "isTypeError": true,
+      "message": "Illegal invocation",
+      "name": "TypeError"
+    },
+    "threw": true
+  }
+}

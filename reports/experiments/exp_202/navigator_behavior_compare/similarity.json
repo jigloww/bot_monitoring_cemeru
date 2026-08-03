@@ -1,0 +1,85 @@
+{
+  "runtime": 100.0,
+  "getter": 100.0,
+  "prototype": 100.0,
+  "identity": 100.0,
+  "exception": 100.0,
+  "subapi": 100.0,
+  "enumeration": 100.0,
+  "behavior_fingerprint": 100.0,
+  "overall_runtime": 100.0,
+  "domains": {
+    "enumeration": {
+      "total": 40,
+      "equal": 40,
+      "remaining": 0,
+      "changed": 0,
+      "missing": 0,
+      "added": 0,
+      "similarity": 100.0
+    },
+    "exceptions": {
+      "total": 665,
+      "equal": 665,
+      "remaining": 0,
+      "changed": 0,
+      "missing": 0,
+      "added": 0,
+      "similarity": 100.0
+    },
+    "fingerprint": {
+      "total": 1,
+      "equal": 1,
+      "remaining": 0,
+      "changed": 0,
+      "missing": 0,
+      "added": 0,
+      "similarity": 100.0
+    },
+    "getters": {
+      "total": 1396,
+      "equal": 1396,
+      "remaining": 0,
+      "changed": 0,
+      "missing": 0,
+      "added": 0,
+      "similarity": 100.0
+    },
+    "identity": {
+      "total": 13,
+      "equal": 13,
+      "remaining": 0,
+      "changed": 0,
+      "missing": 0,
+      "added": 0,
+      "similarity": 100.0
+    },
+    "prototype": {
+      "total": 384,
+      "equal": 384,
+      "remaining": 0,
+      "changed": 0,
+      "missing": 0,
+      "added": 0,
+      "similarity": 100.0
+    },
+    "runtime": {
+      "total": 175,
+      "equal": 175,
+      "remaining": 0,
+      "changed": 0,
+      "missing": 0,
+      "added": 0,
+      "similarity": 100.0
+    },
+    "subapi": {
+      "total": 245,
+      "equal": 245,
+      "remaining": 0,
+      "changed": 0,
+      "missing": 0,
+      "added": 0,
+      "similarity": 100.0
+    }
+  }
+}

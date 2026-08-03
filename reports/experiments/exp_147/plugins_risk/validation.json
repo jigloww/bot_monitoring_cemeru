@@ -1,0 +1,14 @@
+{
+  "python_compile": true,
+  "json_validation": true,
+  "artifact_completeness": true,
+  "deterministic_ordering": true,
+  "ranking_validation": true,
+  "roi_normalization": true,
+  "dependency_validation": true,
+  "immutable_input_verification": true,
+  "offline_only": true,
+  "browser_launches": 0,
+  "network_requests": 0,
+  "valid": false
+}

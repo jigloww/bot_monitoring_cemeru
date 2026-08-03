@@ -1,0 +1,14 @@
+{
+  "modules": 12,
+  "services": 6,
+  "exports": 35,
+  "dependencies": 24,
+  "validation_checks": 25,
+  "passed": 25,
+  "failed": 0,
+  "warnings": 0,
+  "browser_launches": 0,
+  "network_requests": 0,
+  "playwright_instances": 0,
+  "resource_leaks": 0
+}

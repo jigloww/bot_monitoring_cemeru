@@ -1,0 +1,81 @@
+{
+  "modes": {
+    "Plain": {
+      "overall": 0.0,
+      "plugins": 0.0,
+      "mime_types": 0.0,
+      "prototype": 0.0,
+      "descriptors": 0.0,
+      "methods": 0.0,
+      "cross_reference": 0.0,
+      "total_diff": 801,
+      "resolved": 0,
+      "regressions": 0
+    },
+    "Plugins": {
+      "overall": 0.0,
+      "plugins": 0.0,
+      "mime_types": 0.0,
+      "prototype": 0.0,
+      "descriptors": 0.0,
+      "methods": 0.0,
+      "cross_reference": 0.0,
+      "total_diff": 801,
+      "resolved": 0,
+      "regressions": 0
+    }
+  },
+  "delta": {
+    "overall": 0.0,
+    "Cross References": 0.0,
+    "Descriptors": 0.0,
+    "Fingerprint": 0.0,
+    "Methods": 0.0,
+    "MimeTypeArray": 0.0,
+    "Navigator": 0.0,
+    "PluginArray": 0.0,
+    "Prototype": 0.0
+  },
+  "domains": {
+    "Cross References": {
+      "plain": 0.0,
+      "plugins": 0.0,
+      "delta": 0.0
+    },
+    "Descriptors": {
+      "plain": 0.0,
+      "plugins": 0.0,
+      "delta": 0.0
+    },
+    "Fingerprint": {
+      "plain": 0.0,
+      "plugins": 0.0,
+      "delta": 0.0
+    },
+    "Methods": {
+      "plain": 0.0,
+      "plugins": 0.0,
+      "delta": 0.0
+    },
+    "MimeTypeArray": {
+      "plain": 0.0,
+      "plugins": 0.0,
+      "delta": 0.0
+    },
+    "Navigator": {
+      "plain": 0.0,
+      "plugins": 0.0,
+      "delta": 0.0
+    },
+    "PluginArray": {
+      "plain": 0.0,
+      "plugins": 0.0,
+      "delta": 0.0
+    },
+    "Prototype": {
+      "plain": 0.0,
+      "plugins": 0.0,
+      "delta": 0.0
+    }
+  }
+}

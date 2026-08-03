@@ -1,0 +1,17 @@
+{
+  "total_compared": 229,
+  "equal": 229,
+  "different": 0,
+  "missing": 0,
+  "added": 0,
+  "severity": {
+    "CRITICAL": 0,
+    "HIGH": 0,
+    "MEDIUM": 0,
+    "LOW": 0
+  },
+  "recommendation_count": 0,
+  "browser_launches": 1,
+  "network_requests": 1,
+  "capture_status": "SUCCESS"
+}

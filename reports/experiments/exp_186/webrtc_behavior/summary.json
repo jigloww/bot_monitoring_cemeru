@@ -1,0 +1,31 @@
+{
+  "experiment": "Experiment 047 - WebRTC Behavioral Collector",
+  "experiment_id": "exp_186",
+  "created_at": "2026-08-03T20:56:57.238841+07:00",
+  "result": "SUCCESS",
+  "browser": "chrome",
+  "headless": true,
+  "browser_platform": "BrowserSessionManager",
+  "constructor_available": true,
+  "initial_states": {
+    "canTrickleIceCandidates": null,
+    "connectionState": "new",
+    "currentLocalDescription": null,
+    "currentRemoteDescription": null,
+    "iceConnectionState": "new",
+    "iceGatheringState": "new",
+    "localDescription": null,
+    "remoteDescription": null,
+    "signalingState": "stable"
+  },
+  "offer_outcome": "resolved",
+  "answer_outcome": "resolved",
+  "datachannel_ready_state": "connecting",
+  "event_properties": 5,
+  "exception_count": 5,
+  "fingerprint_sha256": "1f57c41b5a49ede857d889dd921933c9c548986ed6e6d0a042dc53fb17381fe4",
+  "browser_launches": 1,
+  "network_requests": 0,
+  "historical_artifacts_modified": false,
+  "validation_valid": true
+}

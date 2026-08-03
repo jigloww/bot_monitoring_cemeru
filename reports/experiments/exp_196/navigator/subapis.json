@@ -1,0 +1,1143 @@
+{
+  "bluetooth": {
+    "availability": false,
+    "constructor": {
+      "available": false,
+      "descriptor": null,
+      "name": null,
+      "nativeSource": false,
+      "ownProperties": [],
+      "prototypeEquality": false,
+      "prototypeName": null,
+      "source": null
+    },
+    "descriptor": null,
+    "inheritedProperties": [],
+    "nativeMethods": {},
+    "objectToString": "[object Undefined]",
+    "ownProperties": [],
+    "prototype": {
+      "chain": [],
+      "constructor": null,
+      "descriptors": {},
+      "exists": false,
+      "inheritedProperties": [],
+      "objectToString": "[object Null]",
+      "ownProperties": [],
+      "symbolToStringTag": null
+    },
+    "prototypeChain": [],
+    "symbolToStringTag": null,
+    "typeof": "undefined"
+  },
+  "clipboard": {
+    "availability": false,
+    "constructor": {
+      "available": false,
+      "descriptor": null,
+      "name": null,
+      "nativeSource": false,
+      "ownProperties": [],
+      "prototypeEquality": false,
+      "prototypeName": null,
+      "source": null
+    },
+    "descriptor": null,
+    "inheritedProperties": [],
+    "nativeMethods": {},
+    "objectToString": "[object Undefined]",
+    "ownProperties": [],
+    "prototype": {
+      "chain": [],
+      "constructor": null,
+      "descriptors": {},
+      "exists": false,
+      "inheritedProperties": [],
+      "objectToString": "[object Null]",
+      "ownProperties": [],
+      "symbolToStringTag": null
+    },
+    "prototypeChain": [],
+    "symbolToStringTag": null,
+    "typeof": "undefined"
+  },
+  "connection": {
+    "availability": true,
+    "constructor": {
+      "available": true,
+      "descriptor": {
+        "configurable": true,
+        "enumerable": false,
+        "getterSource": null,
+        "hasGetter": false,
+        "hasSetter": false,
+        "setterSource": null,
+        "valueSource": "function NetworkInformation() { [native code] }",
+        "valueType": "function",
+        "writable": true
+      },
+      "name": "NetworkInformation",
+      "nativeSource": true,
+      "ownProperties": [
+        "length",
+        "name",
+        "prototype"
+      ],
+      "prototypeEquality": true,
+      "prototypeName": "NetworkInformation",
+      "source": "function NetworkInformation() { [native code] }"
+    },
+    "descriptor": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": "function get connection() { [native code] }",
+      "hasGetter": true,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": null,
+      "valueType": null,
+      "writable": null
+    },
+    "inheritedProperties": [
+      "Symbol(Symbol.toStringTag)",
+      "__defineGetter__",
+      "__defineSetter__",
+      "__lookupGetter__",
+      "__lookupSetter__",
+      "__proto__",
+      "addEventListener",
+      "constructor",
+      "dispatchEvent",
+      "downlink",
+      "effectiveType",
+      "hasOwnProperty",
+      "isPrototypeOf",
+      "onchange",
+      "propertyIsEnumerable",
+      "removeEventListener",
+      "rtt",
+      "saveData",
+      "toLocaleString",
+      "toString",
+      "valueOf",
+      "when"
+    ],
+    "nativeMethods": {
+      "constructor": {
+        "available": true,
+        "descriptor": {
+          "configurable": true,
+          "enumerable": false,
+          "getterSource": null,
+          "hasGetter": false,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": "function NetworkInformation() { [native code] }",
+          "valueType": "function",
+          "writable": true
+        },
+        "illegalInvocation": {
+          "tested": false,
+          "throws": null
+        },
+        "nativeSource": true,
+        "source": "function NetworkInformation() { [native code] }",
+        "typeof": "function"
+      }
+    },
+    "objectToString": "[object NetworkInformation]",
+    "ownProperties": [],
+    "prototype": {
+      "chain": [
+        "NetworkInformation",
+        "EventTarget",
+        "Object"
+      ],
+      "constructor": "NetworkInformation",
+      "descriptors": {
+        "Symbol(Symbol.toStringTag)": {
+          "configurable": true,
+          "enumerable": false,
+          "getterSource": null,
+          "hasGetter": false,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": null,
+          "valueType": "string",
+          "writable": false
+        },
+        "constructor": {
+          "configurable": true,
+          "enumerable": false,
+          "getterSource": null,
+          "hasGetter": false,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": "function NetworkInformation() { [native code] }",
+          "valueType": "function",
+          "writable": true
+        },
+        "downlink": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": "function get downlink() { [native code] }",
+          "hasGetter": true,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": null,
+          "valueType": null,
+          "writable": null
+        },
+        "effectiveType": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": "function get effectiveType() { [native code] }",
+          "hasGetter": true,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": null,
+          "valueType": null,
+          "writable": null
+        },
+        "onchange": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": "function get onchange() { [native code] }",
+          "hasGetter": true,
+          "hasSetter": true,
+          "setterSource": "function set onchange() { [native code] }",
+          "valueSource": null,
+          "valueType": null,
+          "writable": null
+        },
+        "rtt": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": "function get rtt() { [native code] }",
+          "hasGetter": true,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": null,
+          "valueType": null,
+          "writable": null
+        },
+        "saveData": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": "function get saveData() { [native code] }",
+          "hasGetter": true,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": null,
+          "valueType": null,
+          "writable": null
+        }
+      },
+      "exists": true,
+      "inheritedProperties": [
+        "__defineGetter__",
+        "__defineSetter__",
+        "__lookupGetter__",
+        "__lookupSetter__",
+        "__proto__",
+        "addEventListener",
+        "dispatchEvent",
+        "hasOwnProperty",
+        "isPrototypeOf",
+        "propertyIsEnumerable",
+        "removeEventListener",
+        "toLocaleString",
+        "toString",
+        "valueOf",
+        "when"
+      ],
+      "objectToString": "[object NetworkInformation]",
+      "ownProperties": [
+        "Symbol(Symbol.toStringTag)",
+        "constructor",
+        "downlink",
+        "effectiveType",
+        "onchange",
+        "rtt",
+        "saveData"
+      ],
+      "symbolToStringTag": {
+        "configurable": true,
+        "enumerable": false,
+        "getterSource": null,
+        "hasGetter": false,
+        "hasSetter": false,
+        "setterSource": null,
+        "valueSource": null,
+        "valueType": "string",
+        "writable": false
+      }
+    },
+    "prototypeChain": [
+      "NetworkInformation",
+      "NetworkInformation",
+      "EventTarget",
+      "Object"
+    ],
+    "symbolToStringTag": {
+      "configurable": true,
+      "enumerable": false,
+      "getterSource": null,
+      "hasGetter": false,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": null,
+      "valueType": "string",
+      "writable": false
+    },
+    "typeof": "object"
+  },
+  "credentials": {
+    "availability": false,
+    "constructor": {
+      "available": false,
+      "descriptor": null,
+      "name": null,
+      "nativeSource": false,
+      "ownProperties": [],
+      "prototypeEquality": false,
+      "prototypeName": null,
+      "source": null
+    },
+    "descriptor": null,
+    "inheritedProperties": [],
+    "nativeMethods": {},
+    "objectToString": "[object Undefined]",
+    "ownProperties": [],
+    "prototype": {
+      "chain": [],
+      "constructor": null,
+      "descriptors": {},
+      "exists": false,
+      "inheritedProperties": [],
+      "objectToString": "[object Null]",
+      "ownProperties": [],
+      "symbolToStringTag": null
+    },
+    "prototypeChain": [],
+    "symbolToStringTag": null,
+    "typeof": "undefined"
+  },
+  "gpu": {
+    "availability": false,
+    "constructor": {
+      "available": false,
+      "descriptor": null,
+      "name": null,
+      "nativeSource": false,
+      "ownProperties": [],
+      "prototypeEquality": false,
+      "prototypeName": null,
+      "source": null
+    },
+    "descriptor": null,
+    "inheritedProperties": [],
+    "nativeMethods": {},
+    "objectToString": "[object Undefined]",
+    "ownProperties": [],
+    "prototype": {
+      "chain": [],
+      "constructor": null,
+      "descriptors": {},
+      "exists": false,
+      "inheritedProperties": [],
+      "objectToString": "[object Null]",
+      "ownProperties": [],
+      "symbolToStringTag": null
+    },
+    "prototypeChain": [],
+    "symbolToStringTag": null,
+    "typeof": "undefined"
+  },
+  "hid": {
+    "availability": false,
+    "constructor": {
+      "available": false,
+      "descriptor": null,
+      "name": null,
+      "nativeSource": false,
+      "ownProperties": [],
+      "prototypeEquality": false,
+      "prototypeName": null,
+      "source": null
+    },
+    "descriptor": null,
+    "inheritedProperties": [],
+    "nativeMethods": {},
+    "objectToString": "[object Undefined]",
+    "ownProperties": [],
+    "prototype": {
+      "chain": [],
+      "constructor": null,
+      "descriptors": {},
+      "exists": false,
+      "inheritedProperties": [],
+      "objectToString": "[object Null]",
+      "ownProperties": [],
+      "symbolToStringTag": null
+    },
+    "prototypeChain": [],
+    "symbolToStringTag": null,
+    "typeof": "undefined"
+  },
+  "keyboard": {
+    "availability": false,
+    "constructor": {
+      "available": false,
+      "descriptor": null,
+      "name": null,
+      "nativeSource": false,
+      "ownProperties": [],
+      "prototypeEquality": false,
+      "prototypeName": null,
+      "source": null
+    },
+    "descriptor": null,
+    "inheritedProperties": [],
+    "nativeMethods": {},
+    "objectToString": "[object Undefined]",
+    "ownProperties": [],
+    "prototype": {
+      "chain": [],
+      "constructor": null,
+      "descriptors": {},
+      "exists": false,
+      "inheritedProperties": [],
+      "objectToString": "[object Null]",
+      "ownProperties": [],
+      "symbolToStringTag": null
+    },
+    "prototypeChain": [],
+    "symbolToStringTag": null,
+    "typeof": "undefined"
+  },
+  "locks": {
+    "availability": false,
+    "constructor": {
+      "available": false,
+      "descriptor": null,
+      "name": null,
+      "nativeSource": false,
+      "ownProperties": [],
+      "prototypeEquality": false,
+      "prototypeName": null,
+      "source": null
+    },
+    "descriptor": null,
+    "inheritedProperties": [],
+    "nativeMethods": {},
+    "objectToString": "[object Undefined]",
+    "ownProperties": [],
+    "prototype": {
+      "chain": [],
+      "constructor": null,
+      "descriptors": {},
+      "exists": false,
+      "inheritedProperties": [],
+      "objectToString": "[object Null]",
+      "ownProperties": [],
+      "symbolToStringTag": null
+    },
+    "prototypeChain": [],
+    "symbolToStringTag": null,
+    "typeof": "undefined"
+  },
+  "mediaCapabilities": {
+    "availability": true,
+    "constructor": {
+      "available": true,
+      "descriptor": {
+        "configurable": true,
+        "enumerable": false,
+        "getterSource": null,
+        "hasGetter": false,
+        "hasSetter": false,
+        "setterSource": null,
+        "valueSource": "function MediaCapabilities() { [native code] }",
+        "valueType": "function",
+        "writable": true
+      },
+      "name": "MediaCapabilities",
+      "nativeSource": true,
+      "ownProperties": [
+        "length",
+        "name",
+        "prototype"
+      ],
+      "prototypeEquality": true,
+      "prototypeName": "MediaCapabilities",
+      "source": "function MediaCapabilities() { [native code] }"
+    },
+    "descriptor": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": "function get mediaCapabilities() { [native code] }",
+      "hasGetter": true,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": null,
+      "valueType": null,
+      "writable": null
+    },
+    "inheritedProperties": [
+      "Symbol(Symbol.toStringTag)",
+      "__defineGetter__",
+      "__defineSetter__",
+      "__lookupGetter__",
+      "__lookupSetter__",
+      "__proto__",
+      "constructor",
+      "decodingInfo",
+      "encodingInfo",
+      "hasOwnProperty",
+      "isPrototypeOf",
+      "propertyIsEnumerable",
+      "toLocaleString",
+      "toString",
+      "valueOf"
+    ],
+    "nativeMethods": {
+      "constructor": {
+        "available": true,
+        "descriptor": {
+          "configurable": true,
+          "enumerable": false,
+          "getterSource": null,
+          "hasGetter": false,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": "function MediaCapabilities() { [native code] }",
+          "valueType": "function",
+          "writable": true
+        },
+        "illegalInvocation": {
+          "tested": false,
+          "throws": null
+        },
+        "nativeSource": true,
+        "source": "function MediaCapabilities() { [native code] }",
+        "typeof": "function"
+      },
+      "decodingInfo": {
+        "available": true,
+        "descriptor": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": null,
+          "hasGetter": false,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": "function decodingInfo() { [native code] }",
+          "valueType": "function",
+          "writable": true
+        },
+        "illegalInvocation": {
+          "tested": false,
+          "throws": null
+        },
+        "nativeSource": true,
+        "source": "function decodingInfo() { [native code] }",
+        "typeof": "function"
+      },
+      "encodingInfo": {
+        "available": true,
+        "descriptor": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": null,
+          "hasGetter": false,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": "function encodingInfo() { [native code] }",
+          "valueType": "function",
+          "writable": true
+        },
+        "illegalInvocation": {
+          "tested": false,
+          "throws": null
+        },
+        "nativeSource": true,
+        "source": "function encodingInfo() { [native code] }",
+        "typeof": "function"
+      }
+    },
+    "objectToString": "[object MediaCapabilities]",
+    "ownProperties": [],
+    "prototype": {
+      "chain": [
+        "MediaCapabilities",
+        "Object"
+      ],
+      "constructor": "MediaCapabilities",
+      "descriptors": {
+        "Symbol(Symbol.toStringTag)": {
+          "configurable": true,
+          "enumerable": false,
+          "getterSource": null,
+          "hasGetter": false,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": null,
+          "valueType": "string",
+          "writable": false
+        },
+        "constructor": {
+          "configurable": true,
+          "enumerable": false,
+          "getterSource": null,
+          "hasGetter": false,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": "function MediaCapabilities() { [native code] }",
+          "valueType": "function",
+          "writable": true
+        },
+        "decodingInfo": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": null,
+          "hasGetter": false,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": "function decodingInfo() { [native code] }",
+          "valueType": "function",
+          "writable": true
+        },
+        "encodingInfo": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": null,
+          "hasGetter": false,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": "function encodingInfo() { [native code] }",
+          "valueType": "function",
+          "writable": true
+        }
+      },
+      "exists": true,
+      "inheritedProperties": [
+        "__defineGetter__",
+        "__defineSetter__",
+        "__lookupGetter__",
+        "__lookupSetter__",
+        "__proto__",
+        "hasOwnProperty",
+        "isPrototypeOf",
+        "propertyIsEnumerable",
+        "toLocaleString",
+        "toString",
+        "valueOf"
+      ],
+      "objectToString": "[object MediaCapabilities]",
+      "ownProperties": [
+        "Symbol(Symbol.toStringTag)",
+        "constructor",
+        "decodingInfo",
+        "encodingInfo"
+      ],
+      "symbolToStringTag": {
+        "configurable": true,
+        "enumerable": false,
+        "getterSource": null,
+        "hasGetter": false,
+        "hasSetter": false,
+        "setterSource": null,
+        "valueSource": null,
+        "valueType": "string",
+        "writable": false
+      }
+    },
+    "prototypeChain": [
+      "MediaCapabilities",
+      "MediaCapabilities",
+      "Object"
+    ],
+    "symbolToStringTag": {
+      "configurable": true,
+      "enumerable": false,
+      "getterSource": null,
+      "hasGetter": false,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": null,
+      "valueType": "string",
+      "writable": false
+    },
+    "typeof": "object"
+  },
+  "mediaDevices": {
+    "availability": false,
+    "constructor": {
+      "available": false,
+      "descriptor": null,
+      "name": null,
+      "nativeSource": false,
+      "ownProperties": [],
+      "prototypeEquality": false,
+      "prototypeName": null,
+      "source": null
+    },
+    "descriptor": null,
+    "inheritedProperties": [],
+    "nativeMethods": {},
+    "objectToString": "[object Undefined]",
+    "ownProperties": [],
+    "prototype": {
+      "chain": [],
+      "constructor": null,
+      "descriptors": {},
+      "exists": false,
+      "inheritedProperties": [],
+      "objectToString": "[object Null]",
+      "ownProperties": [],
+      "symbolToStringTag": null
+    },
+    "prototypeChain": [],
+    "symbolToStringTag": null,
+    "typeof": "undefined"
+  },
+  "permissions": {
+    "availability": true,
+    "constructor": {
+      "available": true,
+      "descriptor": {
+        "configurable": true,
+        "enumerable": false,
+        "getterSource": null,
+        "hasGetter": false,
+        "hasSetter": false,
+        "setterSource": null,
+        "valueSource": "function Permissions() { [native code] }",
+        "valueType": "function",
+        "writable": true
+      },
+      "name": "Permissions",
+      "nativeSource": true,
+      "ownProperties": [
+        "length",
+        "name",
+        "prototype"
+      ],
+      "prototypeEquality": true,
+      "prototypeName": "Permissions",
+      "source": "function Permissions() { [native code] }"
+    },
+    "descriptor": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": "function get permissions() { [native code] }",
+      "hasGetter": true,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": null,
+      "valueType": null,
+      "writable": null
+    },
+    "inheritedProperties": [
+      "Symbol(Symbol.toStringTag)",
+      "__defineGetter__",
+      "__defineSetter__",
+      "__lookupGetter__",
+      "__lookupSetter__",
+      "__proto__",
+      "constructor",
+      "hasOwnProperty",
+      "isPrototypeOf",
+      "propertyIsEnumerable",
+      "query",
+      "toLocaleString",
+      "toString",
+      "valueOf"
+    ],
+    "nativeMethods": {
+      "constructor": {
+        "available": true,
+        "descriptor": {
+          "configurable": true,
+          "enumerable": false,
+          "getterSource": null,
+          "hasGetter": false,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": "function Permissions() { [native code] }",
+          "valueType": "function",
+          "writable": true
+        },
+        "illegalInvocation": {
+          "tested": false,
+          "throws": null
+        },
+        "nativeSource": true,
+        "source": "function Permissions() { [native code] }",
+        "typeof": "function"
+      },
+      "query": {
+        "available": true,
+        "descriptor": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": null,
+          "hasGetter": false,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": "function query() { [native code] }",
+          "valueType": "function",
+          "writable": true
+        },
+        "illegalInvocation": {
+          "tested": false,
+          "throws": null
+        },
+        "nativeSource": true,
+        "source": "function query() { [native code] }",
+        "typeof": "function"
+      }
+    },
+    "objectToString": "[object Permissions]",
+    "ownProperties": [],
+    "prototype": {
+      "chain": [
+        "Permissions",
+        "Object"
+      ],
+      "constructor": "Permissions",
+      "descriptors": {
+        "Symbol(Symbol.toStringTag)": {
+          "configurable": true,
+          "enumerable": false,
+          "getterSource": null,
+          "hasGetter": false,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": null,
+          "valueType": "string",
+          "writable": false
+        },
+        "constructor": {
+          "configurable": true,
+          "enumerable": false,
+          "getterSource": null,
+          "hasGetter": false,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": "function Permissions() { [native code] }",
+          "valueType": "function",
+          "writable": true
+        },
+        "query": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": null,
+          "hasGetter": false,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": "function query() { [native code] }",
+          "valueType": "function",
+          "writable": true
+        }
+      },
+      "exists": true,
+      "inheritedProperties": [
+        "__defineGetter__",
+        "__defineSetter__",
+        "__lookupGetter__",
+        "__lookupSetter__",
+        "__proto__",
+        "hasOwnProperty",
+        "isPrototypeOf",
+        "propertyIsEnumerable",
+        "toLocaleString",
+        "toString",
+        "valueOf"
+      ],
+      "objectToString": "[object Permissions]",
+      "ownProperties": [
+        "Symbol(Symbol.toStringTag)",
+        "constructor",
+        "query"
+      ],
+      "symbolToStringTag": {
+        "configurable": true,
+        "enumerable": false,
+        "getterSource": null,
+        "hasGetter": false,
+        "hasSetter": false,
+        "setterSource": null,
+        "valueSource": null,
+        "valueType": "string",
+        "writable": false
+      }
+    },
+    "prototypeChain": [
+      "Permissions",
+      "Permissions",
+      "Object"
+    ],
+    "symbolToStringTag": {
+      "configurable": true,
+      "enumerable": false,
+      "getterSource": null,
+      "hasGetter": false,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": null,
+      "valueType": "string",
+      "writable": false
+    },
+    "typeof": "object"
+  },
+  "presentation": {
+    "availability": false,
+    "constructor": {
+      "available": false,
+      "descriptor": null,
+      "name": null,
+      "nativeSource": false,
+      "ownProperties": [],
+      "prototypeEquality": false,
+      "prototypeName": null,
+      "source": null
+    },
+    "descriptor": null,
+    "inheritedProperties": [],
+    "nativeMethods": {},
+    "objectToString": "[object Undefined]",
+    "ownProperties": [],
+    "prototype": {
+      "chain": [],
+      "constructor": null,
+      "descriptors": {},
+      "exists": false,
+      "inheritedProperties": [],
+      "objectToString": "[object Null]",
+      "ownProperties": [],
+      "symbolToStringTag": null
+    },
+    "prototypeChain": [],
+    "symbolToStringTag": null,
+    "typeof": "undefined"
+  },
+  "serial": {
+    "availability": false,
+    "constructor": {
+      "available": false,
+      "descriptor": null,
+      "name": null,
+      "nativeSource": false,
+      "ownProperties": [],
+      "prototypeEquality": false,
+      "prototypeName": null,
+      "source": null
+    },
+    "descriptor": null,
+    "inheritedProperties": [],
+    "nativeMethods": {},
+    "objectToString": "[object Undefined]",
+    "ownProperties": [],
+    "prototype": {
+      "chain": [],
+      "constructor": null,
+      "descriptors": {},
+      "exists": false,
+      "inheritedProperties": [],
+      "objectToString": "[object Null]",
+      "ownProperties": [],
+      "symbolToStringTag": null
+    },
+    "prototypeChain": [],
+    "symbolToStringTag": null,
+    "typeof": "undefined"
+  },
+  "serviceWorker": {
+    "availability": false,
+    "constructor": {
+      "available": false,
+      "descriptor": null,
+      "name": null,
+      "nativeSource": false,
+      "ownProperties": [],
+      "prototypeEquality": false,
+      "prototypeName": null,
+      "source": null
+    },
+    "descriptor": null,
+    "inheritedProperties": [],
+    "nativeMethods": {},
+    "objectToString": "[object Undefined]",
+    "ownProperties": [],
+    "prototype": {
+      "chain": [],
+      "constructor": null,
+      "descriptors": {},
+      "exists": false,
+      "inheritedProperties": [],
+      "objectToString": "[object Null]",
+      "ownProperties": [],
+      "symbolToStringTag": null
+    },
+    "prototypeChain": [],
+    "symbolToStringTag": null,
+    "typeof": "undefined"
+  },
+  "storage": {
+    "availability": false,
+    "constructor": {
+      "available": false,
+      "descriptor": null,
+      "name": null,
+      "nativeSource": false,
+      "ownProperties": [],
+      "prototypeEquality": false,
+      "prototypeName": null,
+      "source": null
+    },
+    "descriptor": null,
+    "inheritedProperties": [],
+    "nativeMethods": {},
+    "objectToString": "[object Undefined]",
+    "ownProperties": [],
+    "prototype": {
+      "chain": [],
+      "constructor": null,
+      "descriptors": {},
+      "exists": false,
+      "inheritedProperties": [],
+      "objectToString": "[object Null]",
+      "ownProperties": [],
+      "symbolToStringTag": null
+    },
+    "prototypeChain": [],
+    "symbolToStringTag": null,
+    "typeof": "undefined"
+  },
+  "usb": {
+    "availability": false,
+    "constructor": {
+      "available": false,
+      "descriptor": null,
+      "name": null,
+      "nativeSource": false,
+      "ownProperties": [],
+      "prototypeEquality": false,
+      "prototypeName": null,
+      "source": null
+    },
+    "descriptor": null,
+    "inheritedProperties": [],
+    "nativeMethods": {},
+    "objectToString": "[object Undefined]",
+    "ownProperties": [],
+    "prototype": {
+      "chain": [],
+      "constructor": null,
+      "descriptors": {},
+      "exists": false,
+      "inheritedProperties": [],
+      "objectToString": "[object Null]",
+      "ownProperties": [],
+      "symbolToStringTag": null
+    },
+    "prototypeChain": [],
+    "symbolToStringTag": null,
+    "typeof": "undefined"
+  },
+  "virtualKeyboard": {
+    "availability": false,
+    "constructor": {
+      "available": false,
+      "descriptor": null,
+      "name": null,
+      "nativeSource": false,
+      "ownProperties": [],
+      "prototypeEquality": false,
+      "prototypeName": null,
+      "source": null
+    },
+    "descriptor": null,
+    "inheritedProperties": [],
+    "nativeMethods": {},
+    "objectToString": "[object Undefined]",
+    "ownProperties": [],
+    "prototype": {
+      "chain": [],
+      "constructor": null,
+      "descriptors": {},
+      "exists": false,
+      "inheritedProperties": [],
+      "objectToString": "[object Null]",
+      "ownProperties": [],
+      "symbolToStringTag": null
+    },
+    "prototypeChain": [],
+    "symbolToStringTag": null,
+    "typeof": "undefined"
+  },
+  "wakeLock": {
+    "availability": false,
+    "constructor": {
+      "available": false,
+      "descriptor": null,
+      "name": null,
+      "nativeSource": false,
+      "ownProperties": [],
+      "prototypeEquality": false,
+      "prototypeName": null,
+      "source": null
+    },
+    "descriptor": null,
+    "inheritedProperties": [],
+    "nativeMethods": {},
+    "objectToString": "[object Undefined]",
+    "ownProperties": [],
+    "prototype": {
+      "chain": [],
+      "constructor": null,
+      "descriptors": {},
+      "exists": false,
+      "inheritedProperties": [],
+      "objectToString": "[object Null]",
+      "ownProperties": [],
+      "symbolToStringTag": null
+    },
+    "prototypeChain": [],
+    "symbolToStringTag": null,
+    "typeof": "undefined"
+  },
+  "xr": {
+    "availability": false,
+    "constructor": {
+      "available": false,
+      "descriptor": null,
+      "name": null,
+      "nativeSource": false,
+      "ownProperties": [],
+      "prototypeEquality": false,
+      "prototypeName": null,
+      "source": null
+    },
+    "descriptor": null,
+    "inheritedProperties": [],
+    "nativeMethods": {},
+    "objectToString": "[object Undefined]",
+    "ownProperties": [],
+    "prototype": {
+      "chain": [],
+      "constructor": null,
+      "descriptors": {},
+      "exists": false,
+      "inheritedProperties": [],
+      "objectToString": "[object Null]",
+      "ownProperties": [],
+      "symbolToStringTag": null
+    },
+    "prototypeChain": [],
+    "symbolToStringTag": null,
+    "typeof": "undefined"
+  }
+}

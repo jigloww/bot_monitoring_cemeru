@@ -1,0 +1,15 @@
+{
+  "experiment": "Experiment 036 - MediaDevices Comparator",
+  "experiment_id": "exp_126",
+  "created_at": "2026-08-03T18:41:46.516779+07:00",
+  "result": "SUCCESS",
+  "real_baseline": "D:\\bot_monitoring_cemeru\\reports\\experiments\\exp_122\\media_devices",
+  "capture_status": "SUCCESS",
+  "capture_error": null,
+  "overall_similarity": 100.0,
+  "critical_differences": 0,
+  "difference_count": 0,
+  "browser_launches": 1,
+  "network_requests": 1,
+  "historical_artifacts_modified": false
+}

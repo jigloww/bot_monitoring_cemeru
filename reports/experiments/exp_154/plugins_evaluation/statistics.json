@@ -1,0 +1,17 @@
+{
+  "real_plugin_count": 5,
+  "real_mime_type_count": 2,
+  "plain_plugin_count": 0,
+  "plain_mime_type_count": 0,
+  "plugins_plugin_count": 5,
+  "plugins_mime_type_count": 2,
+  "plain_differences": 275,
+  "plugins_differences": 639,
+  "resolved_differences": 249,
+  "regression_count": 0,
+  "critical_remaining": 638,
+  "browser_launches": 2,
+  "network_requests": 0,
+  "plain_status": "SUCCESS",
+  "plugins_status": "SUCCESS"
+}

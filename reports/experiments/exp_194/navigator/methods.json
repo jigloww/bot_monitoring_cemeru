@@ -1,0 +1,304 @@
+{
+  "navigatorPrototype": {
+    "constructor": {
+      "available": true,
+      "descriptor": {
+        "configurable": true,
+        "enumerable": false,
+        "getterSource": null,
+        "hasGetter": false,
+        "hasSetter": false,
+        "setterSource": null,
+        "valueSource": "function Navigator() { [native code] }",
+        "valueType": "function",
+        "writable": true
+      },
+      "illegalInvocation": {
+        "error": {
+          "constructor": "TypeError",
+          "isError": true,
+          "isTypeError": true,
+          "message": "Illegal constructor",
+          "name": "TypeError"
+        },
+        "outcome": "threw",
+        "promise": false,
+        "tested": true,
+        "throws": true
+      },
+      "nativeSource": true,
+      "source": "function Navigator() { [native code] }",
+      "typeof": "function"
+    },
+    "getGamepads": {
+      "available": true,
+      "descriptor": {
+        "configurable": true,
+        "enumerable": true,
+        "getterSource": null,
+        "hasGetter": false,
+        "hasSetter": false,
+        "setterSource": null,
+        "valueSource": "function getGamepads() { [native code] }",
+        "valueType": "function",
+        "writable": true
+      },
+      "illegalInvocation": {
+        "error": {
+          "constructor": "TypeError",
+          "isError": true,
+          "isTypeError": true,
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "outcome": "threw",
+        "promise": false,
+        "tested": true,
+        "throws": true
+      },
+      "nativeSource": true,
+      "source": "function getGamepads() { [native code] }",
+      "typeof": "function"
+    },
+    "javaEnabled": {
+      "available": true,
+      "descriptor": {
+        "configurable": true,
+        "enumerable": true,
+        "getterSource": null,
+        "hasGetter": false,
+        "hasSetter": false,
+        "setterSource": null,
+        "valueSource": "function javaEnabled() { [native code] }",
+        "valueType": "function",
+        "writable": true
+      },
+      "illegalInvocation": {
+        "error": {
+          "constructor": "TypeError",
+          "isError": true,
+          "isTypeError": true,
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "outcome": "threw",
+        "promise": false,
+        "tested": true,
+        "throws": true
+      },
+      "nativeSource": true,
+      "source": "function javaEnabled() { [native code] }",
+      "typeof": "function"
+    },
+    "sendBeacon": {
+      "available": true,
+      "descriptor": {
+        "configurable": true,
+        "enumerable": true,
+        "getterSource": null,
+        "hasGetter": false,
+        "hasSetter": false,
+        "setterSource": null,
+        "valueSource": "function sendBeacon() { [native code] }",
+        "valueType": "function",
+        "writable": true
+      },
+      "illegalInvocation": {
+        "error": {
+          "constructor": "TypeError",
+          "isError": true,
+          "isTypeError": true,
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "outcome": "threw",
+        "promise": false,
+        "tested": true,
+        "throws": true
+      },
+      "nativeSource": true,
+      "source": "function sendBeacon() { [native code] }",
+      "typeof": "function"
+    },
+    "vibrate": {
+      "available": true,
+      "descriptor": {
+        "configurable": true,
+        "enumerable": true,
+        "getterSource": null,
+        "hasGetter": false,
+        "hasSetter": false,
+        "setterSource": null,
+        "valueSource": "function vibrate() { [native code] }",
+        "valueType": "function",
+        "writable": true
+      },
+      "illegalInvocation": {
+        "error": {
+          "constructor": "TypeError",
+          "isError": true,
+          "isTypeError": true,
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "outcome": "threw",
+        "promise": false,
+        "tested": true,
+        "throws": true
+      },
+      "nativeSource": true,
+      "source": "function vibrate() { [native code] }",
+      "typeof": "function"
+    }
+  },
+  "subApiMethods": {
+    "bluetooth": {},
+    "clipboard": {},
+    "connection": {
+      "constructor": {
+        "available": true,
+        "descriptor": {
+          "configurable": true,
+          "enumerable": false,
+          "getterSource": null,
+          "hasGetter": false,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": "function NetworkInformation() { [native code] }",
+          "valueType": "function",
+          "writable": true
+        },
+        "illegalInvocation": {
+          "tested": false,
+          "throws": null
+        },
+        "nativeSource": true,
+        "source": "function NetworkInformation() { [native code] }",
+        "typeof": "function"
+      }
+    },
+    "credentials": {},
+    "gpu": {},
+    "hid": {},
+    "keyboard": {},
+    "locks": {},
+    "mediaCapabilities": {
+      "constructor": {
+        "available": true,
+        "descriptor": {
+          "configurable": true,
+          "enumerable": false,
+          "getterSource": null,
+          "hasGetter": false,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": "function MediaCapabilities() { [native code] }",
+          "valueType": "function",
+          "writable": true
+        },
+        "illegalInvocation": {
+          "tested": false,
+          "throws": null
+        },
+        "nativeSource": true,
+        "source": "function MediaCapabilities() { [native code] }",
+        "typeof": "function"
+      },
+      "decodingInfo": {
+        "available": true,
+        "descriptor": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": null,
+          "hasGetter": false,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": "function decodingInfo() { [native code] }",
+          "valueType": "function",
+          "writable": true
+        },
+        "illegalInvocation": {
+          "tested": false,
+          "throws": null
+        },
+        "nativeSource": true,
+        "source": "function decodingInfo() { [native code] }",
+        "typeof": "function"
+      },
+      "encodingInfo": {
+        "available": true,
+        "descriptor": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": null,
+          "hasGetter": false,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": "function encodingInfo() { [native code] }",
+          "valueType": "function",
+          "writable": true
+        },
+        "illegalInvocation": {
+          "tested": false,
+          "throws": null
+        },
+        "nativeSource": true,
+        "source": "function encodingInfo() { [native code] }",
+        "typeof": "function"
+      }
+    },
+    "mediaDevices": {},
+    "permissions": {
+      "constructor": {
+        "available": true,
+        "descriptor": {
+          "configurable": true,
+          "enumerable": false,
+          "getterSource": null,
+          "hasGetter": false,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": "function Permissions() { [native code] }",
+          "valueType": "function",
+          "writable": true
+        },
+        "illegalInvocation": {
+          "tested": false,
+          "throws": null
+        },
+        "nativeSource": true,
+        "source": "function Permissions() { [native code] }",
+        "typeof": "function"
+      },
+      "query": {
+        "available": true,
+        "descriptor": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": null,
+          "hasGetter": false,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": "function query() { [native code] }",
+          "valueType": "function",
+          "writable": true
+        },
+        "illegalInvocation": {
+          "tested": false,
+          "throws": null
+        },
+        "nativeSource": true,
+        "source": "function query() { [native code] }",
+        "typeof": "function"
+      }
+    },
+    "presentation": {},
+    "serial": {},
+    "serviceWorker": {},
+    "storage": {},
+    "usb": {},
+    "virtualKeyboard": {},
+    "wakeLock": {},
+    "xr": {}
+  }
+}

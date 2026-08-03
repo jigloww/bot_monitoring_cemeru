@@ -1,0 +1,355 @@
+# Experiment 040 — Plugins & MimeTypes Risk Assessment
+
+Offline deterministic analysis of immutable comparator output. No browser, Playwright, network, or stealth code was used.
+
+## Executive Summary
+
+- Result: **SUCCESS**
+- Analyzed differences: **275**
+- Current overall similarity: **61.59%**
+- Estimated total similarity opportunity: **38.42%**
+
+## Risk Distribution
+
+| Group | Count |
+|---|---:|
+| Critical | 251 |
+| High | 23 |
+| Medium | 1 |
+| Low | 0 |
+
+## Top Risks
+
+| Rank | Property | Domain | Status | Severity | Risk | ROI | Action |
+|---:|---|---|---|---:|---:|---:|---|
+| 250 | `cross_reference.mimeEnabledPlugins.application/pdf` | Cross-reference | MISSING | Critical | 81.10 | 2.56 | Patch Later |
+| 251 | `cross_reference.mimeEnabledPlugins.text/pdf` | Cross-reference | MISSING | Critical | 81.10 | 2.56 | Patch Later |
+| 238 | `cross_reference.pluginMimeTypes.0[0]` | Cross-reference | MISSING | Critical | 86.10 | 2.71 | Patch Later |
+| 239 | `cross_reference.pluginMimeTypes.0[1]` | Cross-reference | MISSING | Critical | 86.10 | 2.71 | Patch Later |
+| 240 | `cross_reference.pluginMimeTypes.1[0]` | Cross-reference | MISSING | Critical | 86.10 | 2.71 | Patch Later |
+| 241 | `cross_reference.pluginMimeTypes.1[1]` | Cross-reference | MISSING | Critical | 86.10 | 2.71 | Patch Later |
+| 242 | `cross_reference.pluginMimeTypes.2[0]` | Cross-reference | MISSING | Critical | 86.10 | 2.71 | Patch Later |
+| 243 | `cross_reference.pluginMimeTypes.2[1]` | Cross-reference | MISSING | Critical | 86.10 | 2.71 | Patch Later |
+| 244 | `cross_reference.pluginMimeTypes.3[0]` | Cross-reference | MISSING | Critical | 86.10 | 2.71 | Patch Later |
+| 245 | `cross_reference.pluginMimeTypes.3[1]` | Cross-reference | MISSING | Critical | 86.10 | 2.71 | Patch Later |
+| 246 | `cross_reference.pluginMimeTypes.4[0]` | Cross-reference | MISSING | Critical | 86.10 | 2.71 | Patch Later |
+| 247 | `cross_reference.pluginMimeTypes.4[1]` | Cross-reference | MISSING | Critical | 86.10 | 2.71 | Patch Later |
+| 275 | `fingerprint.sha256` | Fingerprint | CHANGED | Medium | 36.20 | 1.14 | Never Patch |
+| 15 | `methods.mime_prototypes.0.constructor.available` | Methods | MISSING | Critical | 92.10 | 4.15 | Patch Later |
+| 16 | `methods.mime_prototypes.0.constructor.descriptor.configurable` | Methods | MISSING | Critical | 92.10 | 4.15 | Patch Later |
+| 17 | `methods.mime_prototypes.0.constructor.descriptor.enumerable` | Methods | MISSING | Critical | 92.10 | 4.15 | Patch Later |
+| 19 | `methods.mime_prototypes.0.constructor.descriptor.hasGetter` | Methods | MISSING | Critical | 92.10 | 4.15 | Patch Later |
+| 21 | `methods.mime_prototypes.0.constructor.descriptor.setterSource` | Methods | MISSING | Critical | 92.10 | 4.15 | Patch Later |
+| 18 | `methods.mime_prototypes.0.constructor.descriptor.getterSource` | Methods | MISSING | Critical | 92.10 | 4.15 | Patch Later |
+| 23 | `methods.mime_prototypes.0.constructor.descriptor.valueType` | Methods | MISSING | Critical | 92.10 | 4.15 | Patch Later |
+
+## Roadmap
+
+| Phase | Items | Estimated Gain |
+|---|---:|---:|
+| Patch Now | 0 | 0.00% |
+| Patch Later | 274 | 38.36% |
+| Never Patch | 1 | 0.06% |
+
+## Dependency Order
+
+```text
+1. foundation.mimetypearray
+2. foundation.pluginarray
+3. foundation.cross_reference
+4. foundation.prototype
+5. foundation.methods
+6. foundation.descriptors
+7. task_cross_reference_mimeenabledplugins_application_p_77ce6683
+8. task_cross_reference_mimeenabledplugins_text_pdf_92779b17
+9. task_cross_reference_pluginmimetypes_0_0_1b591d3c
+10. task_cross_reference_pluginmimetypes_0_1_09e9bff1
+11. task_cross_reference_pluginmimetypes_1_0_77860392
+12. task_cross_reference_pluginmimetypes_1_1_795362fb
+13. task_cross_reference_pluginmimetypes_2_0_4f709e4b
+14. task_cross_reference_pluginmimetypes_2_1_1d8b5729
+15. task_cross_reference_pluginmimetypes_3_0_815bf8a3
+16. task_cross_reference_pluginmimetypes_3_1_29dbee98
+17. task_cross_reference_pluginmimetypes_4_0_87c89731
+18. task_cross_reference_pluginmimetypes_4_1_1d1e01ab
+19. task_fingerprint_sha256_491d5cc8
+20. task_methods_mime_prototypes_0_constructor_available_e72032d8
+21. task_methods_mime_prototypes_0_constructor_descriptor_1e61cf3c
+22. task_methods_mime_prototypes_0_constructor_descriptor_203932ac
+23. task_methods_mime_prototypes_0_constructor_descriptor_31ae903c
+24. task_methods_mime_prototypes_0_constructor_descriptor_48ea219d
+25. task_methods_mime_prototypes_0_constructor_descriptor_8419182f
+26. task_methods_mime_prototypes_0_constructor_descriptor_9455d4f8
+27. task_methods_mime_prototypes_0_constructor_descriptor_c4586c8e
+28. task_methods_mime_prototypes_0_constructor_descriptor_e00bfe45
+29. task_methods_mime_prototypes_0_constructor_descriptor_f25064c8
+30. task_methods_mime_prototypes_0_constructor_nativesour_a88aeecf
+31. task_methods_mime_prototypes_0_constructor_source_4222081e
+32. task_methods_mime_prototypes_0_constructor_typeof_d6b55e9a
+33. task_methods_mime_prototypes_1_constructor_available_e944f05e
+34. task_methods_mime_prototypes_1_constructor_descriptor_2538ebb3
+35. task_methods_mime_prototypes_1_constructor_descriptor_4ba07c6f
+36. task_methods_mime_prototypes_1_constructor_descriptor_6edcb1a4
+37. task_methods_mime_prototypes_1_constructor_descriptor_8eca29dc
+38. task_methods_mime_prototypes_1_constructor_descriptor_9d342a6a
+39. task_methods_mime_prototypes_1_constructor_descriptor_9e2e906b
+40. task_methods_mime_prototypes_1_constructor_descriptor_dcd8c736
+41. task_methods_mime_prototypes_1_constructor_descriptor_ea7e61bb
+42. task_methods_mime_prototypes_1_constructor_descriptor_f79e9dd5
+43. task_methods_mime_prototypes_1_constructor_nativesour_3b814ccd
+44. task_methods_mime_prototypes_1_constructor_source_7df84dca
+45. task_methods_mime_prototypes_1_constructor_typeof_b438c57e
+46. task_methods_plugin_prototypes_0_constructor_availabl_28cba5ee
+47. task_methods_plugin_prototypes_0_constructor_descript_027ad8b9
+48. task_methods_plugin_prototypes_0_constructor_descript_056faa50
+49. task_methods_plugin_prototypes_0_constructor_descript_0f4a9686
+50. task_methods_plugin_prototypes_0_constructor_descript_447db8de
+51. task_methods_plugin_prototypes_0_constructor_descript_50db0f9d
+52. task_methods_plugin_prototypes_0_constructor_descript_6edaee5d
+53. task_methods_plugin_prototypes_0_constructor_descript_9fb8ff47
+54. task_methods_plugin_prototypes_0_constructor_descript_b7e2ca59
+55. task_methods_plugin_prototypes_0_constructor_descript_fa58f290
+56. task_methods_plugin_prototypes_0_constructor_nativeso_2c8936c0
+57. task_methods_plugin_prototypes_0_constructor_source_84790a07
+58. task_methods_plugin_prototypes_0_constructor_typeof_070af1c4
+59. task_methods_plugin_prototypes_0_item_available_e56caa2c
+60. task_methods_plugin_prototypes_0_item_descriptor_conf_f01ca2fc
+61. task_methods_plugin_prototypes_0_item_descriptor_enum_86ced1a2
+62. task_methods_plugin_prototypes_0_item_descriptor_gett_5939681f
+63. task_methods_plugin_prototypes_0_item_descriptor_hasg_cef3bc73
+64. task_methods_plugin_prototypes_0_item_descriptor_hass_09e386fa
+65. task_methods_plugin_prototypes_0_item_descriptor_sett_bb13b78b
+66. task_methods_plugin_prototypes_0_item_descriptor_valu_010a5ac9
+67. task_methods_plugin_prototypes_0_item_descriptor_valu_fd84f244
+68. task_methods_plugin_prototypes_0_item_descriptor_writ_5caa4692
+69. task_methods_plugin_prototypes_0_item_nativesource_2918b940
+70. task_methods_plugin_prototypes_0_item_source_10c13dee
+71. task_methods_plugin_prototypes_0_item_typeof_150b5a6c
+72. task_methods_plugin_prototypes_0_nameditem_available_471999df
+73. task_methods_plugin_prototypes_0_nameditem_descriptor_08405204
+74. task_methods_plugin_prototypes_0_nameditem_descriptor_0cf2dc2a
+75. task_methods_plugin_prototypes_0_nameditem_descriptor_16e0b12e
+76. task_methods_plugin_prototypes_0_nameditem_descriptor_41a4cbfb
+77. task_methods_plugin_prototypes_0_nameditem_descriptor_4c79c596
+78. task_methods_plugin_prototypes_0_nameditem_descriptor_61ea990c
+79. task_methods_plugin_prototypes_0_nameditem_descriptor_675d0245
+80. task_methods_plugin_prototypes_0_nameditem_descriptor_c1df3c4f
+81. task_methods_plugin_prototypes_0_nameditem_descriptor_dc76a672
+82. task_methods_plugin_prototypes_0_nameditem_nativesour_03a1830f
+83. task_methods_plugin_prototypes_0_nameditem_source_d56b2a17
+84. task_methods_plugin_prototypes_0_nameditem_typeof_4bdff8af
+85. task_methods_plugin_prototypes_1_constructor_availabl_e002deb7
+86. task_methods_plugin_prototypes_1_constructor_descript_19469e5b
+87. task_methods_plugin_prototypes_1_constructor_descript_5f5fdb61
+88. task_methods_plugin_prototypes_1_constructor_descript_60ecb347
+89. task_methods_plugin_prototypes_1_constructor_descript_89ae92a1
+90. task_methods_plugin_prototypes_1_constructor_descript_9c52e4b8
+91. task_methods_plugin_prototypes_1_constructor_descript_ab8e776f
+92. task_methods_plugin_prototypes_1_constructor_descript_b1743a9b
+93. task_methods_plugin_prototypes_1_constructor_descript_b5e18891
+94. task_methods_plugin_prototypes_1_constructor_descript_f3c48e38
+95. task_methods_plugin_prototypes_1_constructor_nativeso_96a21bfd
+96. task_methods_plugin_prototypes_1_constructor_source_93a6be81
+97. task_methods_plugin_prototypes_1_constructor_typeof_2653213f
+98. task_methods_plugin_prototypes_1_item_available_99c84802
+99. task_methods_plugin_prototypes_1_item_descriptor_conf_e0e0184e
+100. task_methods_plugin_prototypes_1_item_descriptor_enum_7d9748f1
+101. task_methods_plugin_prototypes_1_item_descriptor_gett_460fb6f2
+102. task_methods_plugin_prototypes_1_item_descriptor_hasg_fac10ebf
+103. task_methods_plugin_prototypes_1_item_descriptor_hass_71847d51
+104. task_methods_plugin_prototypes_1_item_descriptor_sett_0b36b43d
+105. task_methods_plugin_prototypes_1_item_descriptor_valu_6401e4ed
+106. task_methods_plugin_prototypes_1_item_descriptor_valu_6b51bf5d
+107. task_methods_plugin_prototypes_1_item_descriptor_writ_de93521d
+108. task_methods_plugin_prototypes_1_item_nativesource_f03047ed
+109. task_methods_plugin_prototypes_1_item_source_81314399
+110. task_methods_plugin_prototypes_1_item_typeof_9f958e4c
+111. task_methods_plugin_prototypes_1_nameditem_available_2bcc5166
+112. task_methods_plugin_prototypes_1_nameditem_descriptor_4089ed19
+113. task_methods_plugin_prototypes_1_nameditem_descriptor_6b1ae17b
+114. task_methods_plugin_prototypes_1_nameditem_descriptor_8d365af5
+115. task_methods_plugin_prototypes_1_nameditem_descriptor_95c4e524
+116. task_methods_plugin_prototypes_1_nameditem_descriptor_9e9dc289
+117. task_methods_plugin_prototypes_1_nameditem_descriptor_b7160541
+118. task_methods_plugin_prototypes_1_nameditem_descriptor_d3da8bd8
+119. task_methods_plugin_prototypes_1_nameditem_descriptor_da44f0a1
+120. task_methods_plugin_prototypes_1_nameditem_descriptor_fca39950
+121. task_methods_plugin_prototypes_1_nameditem_nativesour_1c74ea68
+122. task_methods_plugin_prototypes_1_nameditem_source_12ca540d
+123. task_methods_plugin_prototypes_1_nameditem_typeof_a19cba6e
+124. task_methods_plugin_prototypes_2_constructor_availabl_378e679b
+125. task_methods_plugin_prototypes_2_constructor_descript_15e1e992
+126. task_methods_plugin_prototypes_2_constructor_descript_20fe30bd
+127. task_methods_plugin_prototypes_2_constructor_descript_3bd4fa4b
+128. task_methods_plugin_prototypes_2_constructor_descript_3c2f9887
+129. task_methods_plugin_prototypes_2_constructor_descript_4ef5acf7
+130. task_methods_plugin_prototypes_2_constructor_descript_8ada7202
+131. task_methods_plugin_prototypes_2_constructor_descript_c39a4559
+132. task_methods_plugin_prototypes_2_constructor_descript_ddc002a6
+133. task_methods_plugin_prototypes_2_constructor_descript_dec5c8a4
+134. task_methods_plugin_prototypes_2_constructor_nativeso_10e3fad1
+135. task_methods_plugin_prototypes_2_constructor_source_5066f8b8
+136. task_methods_plugin_prototypes_2_constructor_typeof_4708fce0
+137. task_methods_plugin_prototypes_2_item_available_7ec58acd
+138. task_methods_plugin_prototypes_2_item_descriptor_conf_c58053fc
+139. task_methods_plugin_prototypes_2_item_descriptor_enum_4ab256b9
+140. task_methods_plugin_prototypes_2_item_descriptor_gett_1d74ea49
+141. task_methods_plugin_prototypes_2_item_descriptor_hasg_c758bd51
+142. task_methods_plugin_prototypes_2_item_descriptor_hass_580a2e67
+143. task_methods_plugin_prototypes_2_item_descriptor_sett_b453027e
+144. task_methods_plugin_prototypes_2_item_descriptor_valu_3a2d35f6
+145. task_methods_plugin_prototypes_2_item_descriptor_valu_6fcb9cc4
+146. task_methods_plugin_prototypes_2_item_descriptor_writ_00e8d25c
+147. task_methods_plugin_prototypes_2_item_nativesource_70b3731d
+148. task_methods_plugin_prototypes_2_item_source_5a6ba294
+149. task_methods_plugin_prototypes_2_item_typeof_752b418f
+150. task_methods_plugin_prototypes_2_nameditem_available_25de07fe
+151. task_methods_plugin_prototypes_2_nameditem_descriptor_1e8abf36
+152. task_methods_plugin_prototypes_2_nameditem_descriptor_393a27fe
+153. task_methods_plugin_prototypes_2_nameditem_descriptor_5c08a28c
+154. task_methods_plugin_prototypes_2_nameditem_descriptor_5f501d71
+155. task_methods_plugin_prototypes_2_nameditem_descriptor_76bdfdb4
+156. task_methods_plugin_prototypes_2_nameditem_descriptor_aef4f028
+157. task_methods_plugin_prototypes_2_nameditem_descriptor_cd7e829c
+158. task_methods_plugin_prototypes_2_nameditem_descriptor_f6178568
+159. task_methods_plugin_prototypes_2_nameditem_descriptor_f6ee8054
+160. task_methods_plugin_prototypes_2_nameditem_nativesour_fff7b9be
+161. task_methods_plugin_prototypes_2_nameditem_source_74540fce
+162. task_methods_plugin_prototypes_2_nameditem_typeof_a397b8e9
+163. task_methods_plugin_prototypes_3_constructor_availabl_e5493f16
+164. task_methods_plugin_prototypes_3_constructor_descript_02f55741
+165. task_methods_plugin_prototypes_3_constructor_descript_22db0d71
+166. task_methods_plugin_prototypes_3_constructor_descript_439a3560
+167. task_methods_plugin_prototypes_3_constructor_descript_71f92f8f
+168. task_methods_plugin_prototypes_3_constructor_descript_891c3c1d
+169. task_methods_plugin_prototypes_3_constructor_descript_a53f3574
+170. task_methods_plugin_prototypes_3_constructor_descript_bc4b4508
+171. task_methods_plugin_prototypes_3_constructor_descript_c16d597c
+172. task_methods_plugin_prototypes_3_constructor_descript_ce46dbb5
+173. task_methods_plugin_prototypes_3_constructor_nativeso_4f7f7abd
+174. task_methods_plugin_prototypes_3_constructor_source_2d9aea34
+175. task_methods_plugin_prototypes_3_constructor_typeof_c9041be2
+176. task_methods_plugin_prototypes_3_item_available_2a95730e
+177. task_methods_plugin_prototypes_3_item_descriptor_conf_d4714910
+178. task_methods_plugin_prototypes_3_item_descriptor_enum_0108d4d6
+179. task_methods_plugin_prototypes_3_item_descriptor_gett_8820fcda
+180. task_methods_plugin_prototypes_3_item_descriptor_hasg_477237f2
+181. task_methods_plugin_prototypes_3_item_descriptor_hass_bb769a42
+182. task_methods_plugin_prototypes_3_item_descriptor_sett_26c920c8
+183. task_methods_plugin_prototypes_3_item_descriptor_valu_1fc7ee48
+184. task_methods_plugin_prototypes_3_item_descriptor_valu_2a85586b
+185. task_methods_plugin_prototypes_3_item_descriptor_writ_ed7c7401
+186. task_methods_plugin_prototypes_3_item_nativesource_9f827024
+187. task_methods_plugin_prototypes_3_item_source_4b8b9277
+188. task_methods_plugin_prototypes_3_item_typeof_7e0f337d
+189. task_methods_plugin_prototypes_3_nameditem_available_d34ae616
+190. task_methods_plugin_prototypes_3_nameditem_descriptor_0d2bc4b1
+191. task_methods_plugin_prototypes_3_nameditem_descriptor_6c590f48
+192. task_methods_plugin_prototypes_3_nameditem_descriptor_6c613807
+193. task_methods_plugin_prototypes_3_nameditem_descriptor_6f21f352
+194. task_methods_plugin_prototypes_3_nameditem_descriptor_9aa01d0d
+195. task_methods_plugin_prototypes_3_nameditem_descriptor_9efa75c6
+196. task_methods_plugin_prototypes_3_nameditem_descriptor_a50bd114
+197. task_methods_plugin_prototypes_3_nameditem_descriptor_e2490770
+198. task_methods_plugin_prototypes_3_nameditem_descriptor_e2602752
+199. task_methods_plugin_prototypes_3_nameditem_nativesour_a7399c70
+200. task_methods_plugin_prototypes_3_nameditem_source_f8979d3f
+201. task_methods_plugin_prototypes_3_nameditem_typeof_1035199f
+202. task_methods_plugin_prototypes_4_constructor_availabl_cca754f8
+203. task_methods_plugin_prototypes_4_constructor_descript_1aeb1b2f
+204. task_methods_plugin_prototypes_4_constructor_descript_4b747e87
+205. task_methods_plugin_prototypes_4_constructor_descript_4d95e244
+206. task_methods_plugin_prototypes_4_constructor_descript_7b2e776f
+207. task_methods_plugin_prototypes_4_constructor_descript_810f71c9
+208. task_methods_plugin_prototypes_4_constructor_descript_8ec80a2b
+209. task_methods_plugin_prototypes_4_constructor_descript_8eddce1d
+210. task_methods_plugin_prototypes_4_constructor_descript_aca8ccf6
+211. task_methods_plugin_prototypes_4_constructor_descript_daefa86f
+212. task_methods_plugin_prototypes_4_constructor_nativeso_1171ffa6
+213. task_methods_plugin_prototypes_4_constructor_source_dda4dbe0
+214. task_methods_plugin_prototypes_4_constructor_typeof_94452c6a
+215. task_methods_plugin_prototypes_4_item_available_86e1772d
+216. task_methods_plugin_prototypes_4_item_descriptor_conf_8ae01ed8
+217. task_methods_plugin_prototypes_4_item_descriptor_enum_70bc63fd
+218. task_methods_plugin_prototypes_4_item_descriptor_gett_56c571ca
+219. task_methods_plugin_prototypes_4_item_descriptor_hasg_00520d13
+220. task_methods_plugin_prototypes_4_item_descriptor_hass_393eb408
+221. task_methods_plugin_prototypes_4_item_descriptor_sett_09376417
+222. task_methods_plugin_prototypes_4_item_descriptor_valu_6089eca2
+223. task_methods_plugin_prototypes_4_item_descriptor_valu_f08f20ed
+224. task_methods_plugin_prototypes_4_item_descriptor_writ_e059def5
+225. task_methods_plugin_prototypes_4_item_nativesource_749ce85e
+226. task_methods_plugin_prototypes_4_item_source_f767f005
+227. task_methods_plugin_prototypes_4_item_typeof_48e3f838
+228. task_methods_plugin_prototypes_4_nameditem_available_89de4033
+229. task_methods_plugin_prototypes_4_nameditem_descriptor_084dcf26
+230. task_methods_plugin_prototypes_4_nameditem_descriptor_25cd3825
+231. task_methods_plugin_prototypes_4_nameditem_descriptor_2f2c0a4c
+232. task_methods_plugin_prototypes_4_nameditem_descriptor_3a56db82
+233. task_methods_plugin_prototypes_4_nameditem_descriptor_5fe730dd
+234. task_methods_plugin_prototypes_4_nameditem_descriptor_b54ea037
+235. task_methods_plugin_prototypes_4_nameditem_descriptor_d89f9d9b
+236. task_methods_plugin_prototypes_4_nameditem_descriptor_e3c5f8db
+237. task_methods_plugin_prototypes_4_nameditem_descriptor_e8ce9445
+238. task_methods_plugin_prototypes_4_nameditem_nativesour_696b0882
+239. task_methods_plugin_prototypes_4_nameditem_source_a00fb8d6
+240. task_methods_plugin_prototypes_4_nameditem_typeof_40c2c643
+241. task_mime_types_items_application_pdf_23e4b398
+242. task_mime_types_items_text_pdf_8bf9a5b5
+243. task_mime_types_length_6db12221
+244. task_mime_types_ownproperties_0_bd27e8bb
+245. task_mime_types_ownproperties_1_75277276
+246. task_mime_types_ownproperties_2_e12ab666
+247. task_mime_types_ownproperties_3_86de773a
+248. task_mime_types_ownproperties_78ff2748
+249. task_plugins_items_chrome_pdf_viewer_25adf551
+250. task_plugins_items_chromium_pdf_viewer_4f221489
+251. task_plugins_items_microsoft_edge_pdf_viewer_97326a88
+252. task_plugins_items_pdf_viewer_5faef191
+253. task_plugins_items_webkit_built_in_pdf_ce44e4dc
+254. task_plugins_length_808c0b6a
+255. task_plugins_ownproperties_0_2c94618e
+256. task_plugins_ownproperties_1_abf41ac9
+257. task_plugins_ownproperties_2_8cf04eb2
+258. task_plugins_ownproperties_3_ed13e6fa
+259. task_plugins_ownproperties_4_dad0bb57
+260. task_plugins_ownproperties_5_09a32378
+261. task_plugins_ownproperties_67ce1df9
+262. task_plugins_ownproperties_6_674c5c93
+263. task_plugins_ownproperties_7_9b86b11f
+264. task_plugins_ownproperties_8_84383410
+265. task_plugins_ownproperties_9_b4529e5d
+266. task_prototype_mimetypearray_ownproperties_0_58d926fb
+267. task_prototype_mimetypearray_ownproperties_1_6a2c926e
+268. task_prototype_mimetypearray_ownproperties_2_c74565ff
+269. task_prototype_mimetypearray_ownproperties_3_15902cd3
+270. task_prototype_mimetypearray_ownproperties_6fefaa1a
+271. task_prototype_pluginarray_ownproperties_01011304
+272. task_prototype_pluginarray_ownproperties_0_2c36c000
+273. task_prototype_pluginarray_ownproperties_1_e38be7c5
+274. task_prototype_pluginarray_ownproperties_2_a7dfade1
+275. task_prototype_pluginarray_ownproperties_3_be11ea2a
+276. task_prototype_pluginarray_ownproperties_4_a12d52eb
+277. task_prototype_pluginarray_ownproperties_5_cd393265
+278. task_prototype_pluginarray_ownproperties_6_892c4840
+279. task_prototype_pluginarray_ownproperties_7_4d6372bd
+280. task_prototype_pluginarray_ownproperties_8_94c125fc
+281. task_prototype_pluginarray_ownproperties_9_dcc22864
+```
+
+## Validation
+
+| Check | Status |
+|---|---|
+| Python Compile | PASS |
+| Json Validation | PASS |
+| Artifact Completeness | PASS |
+| Deterministic Ordering | PASS |
+| Ranking Validation | FAIL |
+| Roi Normalization | PASS |
+| Dependency Validation | PASS |
+| Immutable Input Verification | PASS |
+| Offline Only | FAIL |
+| Browser Launches | FAIL |
+| Network Requests | FAIL |
+| Valid | FAIL |

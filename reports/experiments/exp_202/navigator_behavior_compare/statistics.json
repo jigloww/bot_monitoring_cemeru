@@ -1,0 +1,91 @@
+{
+  "total_compared_fields": 2919,
+  "equal_fields": 2919,
+  "remaining_differences": 0,
+  "critical_differences": 0,
+  "status_distribution": {
+    "EQUAL": 2919
+  },
+  "severity_distribution": {},
+  "domain_distribution": {
+    "enumeration": {
+      "total": 40,
+      "equal": 40,
+      "remaining": 0,
+      "changed": 0,
+      "missing": 0,
+      "added": 0,
+      "similarity": 100.0
+    },
+    "exceptions": {
+      "total": 665,
+      "equal": 665,
+      "remaining": 0,
+      "changed": 0,
+      "missing": 0,
+      "added": 0,
+      "similarity": 100.0
+    },
+    "fingerprint": {
+      "total": 1,
+      "equal": 1,
+      "remaining": 0,
+      "changed": 0,
+      "missing": 0,
+      "added": 0,
+      "similarity": 100.0
+    },
+    "getters": {
+      "total": 1396,
+      "equal": 1396,
+      "remaining": 0,
+      "changed": 0,
+      "missing": 0,
+      "added": 0,
+      "similarity": 100.0
+    },
+    "identity": {
+      "total": 13,
+      "equal": 13,
+      "remaining": 0,
+      "changed": 0,
+      "missing": 0,
+      "added": 0,
+      "similarity": 100.0
+    },
+    "prototype": {
+      "total": 384,
+      "equal": 384,
+      "remaining": 0,
+      "changed": 0,
+      "missing": 0,
+      "added": 0,
+      "similarity": 100.0
+    },
+    "runtime": {
+      "total": 175,
+      "equal": 175,
+      "remaining": 0,
+      "changed": 0,
+      "missing": 0,
+      "added": 0,
+      "similarity": 100.0
+    },
+    "subapi": {
+      "total": 245,
+      "equal": 245,
+      "remaining": 0,
+      "changed": 0,
+      "missing": 0,
+      "added": 0,
+      "similarity": 100.0
+    }
+  },
+  "baseline_directory": "D:\\bot_monitoring_cemeru\\reports\\experiments\\exp_200\\navigator_behavior",
+  "baseline_fingerprint": "252a24b92a80f69764edd0c76eafbbfc858923155259b10da2e9e4325e32a746",
+  "candidate_fingerprint": "252a24b92a80f69764edd0c76eafbbfc858923155259b10da2e9e4325e32a746",
+  "capture_status": "SUCCESS",
+  "capture_error": null,
+  "browser_launches": 1,
+  "network_requests": 0
+}

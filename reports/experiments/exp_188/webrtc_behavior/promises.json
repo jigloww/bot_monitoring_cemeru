@@ -1,0 +1,171 @@
+{
+  "createAnswer": {
+    "detail": {
+      "descriptors": {
+        "sdp": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": null,
+          "hasGetter": false,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": null,
+          "valueType": "string",
+          "writable": true
+        },
+        "type": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": null,
+          "hasGetter": false,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": null,
+          "valueType": "string",
+          "writable": true
+        }
+      },
+      "exists": true,
+      "instanceofRTCSessionDescription": false,
+      "ownProperties": [
+        "sdp",
+        "type"
+      ],
+      "prototype": {
+        "chain": [
+          "Object",
+          "Object"
+        ],
+        "constructor": "Object",
+        "descriptors": {
+          "sdp": {
+            "configurable": true,
+            "enumerable": true,
+            "getterSource": null,
+            "hasGetter": false,
+            "hasSetter": false,
+            "setterSource": null,
+            "valueSource": null,
+            "valueType": "string",
+            "writable": true
+          },
+          "type": {
+            "configurable": true,
+            "enumerable": true,
+            "getterSource": null,
+            "hasGetter": false,
+            "hasSetter": false,
+            "setterSource": null,
+            "valueSource": null,
+            "valueType": "string",
+            "writable": true
+          }
+        },
+        "ownProperties": [
+          "sdp",
+          "type"
+        ],
+        "prototype": "Object",
+        "toStringTag": "[object Object]"
+      },
+      "sdpLength": 447,
+      "sdpPrefix": "v=0\r\no=- <session> <version> IN IP4 127.0.0.1\r\ns=-\r\nt=0 0\r\na=group:BUNDLE 0\r\na=e",
+      "toStringTag": "[object Object]",
+      "type": "answer"
+    },
+    "isPromise": true,
+    "outcome": "resolved",
+    "thenable": true
+  },
+  "createAnswerWithoutRemote": {
+    "detail": {
+      "constructor": "DOMException",
+      "isDOMException": true,
+      "isError": true,
+      "isTypeError": false,
+      "message": "Failed to execute 'createAnswer' on 'RTCPeerConnection': PeerConnection cannot create an answer in a state other than have-remote-offer or have-local-pranswer.",
+      "name": "InvalidStateError"
+    },
+    "isPromise": true,
+    "outcome": "rejected",
+    "thenable": true
+  },
+  "createOffer": {
+    "detail": {
+      "descriptors": {
+        "sdp": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": null,
+          "hasGetter": false,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": null,
+          "valueType": "string",
+          "writable": true
+        },
+        "type": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": null,
+          "hasGetter": false,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": null,
+          "valueType": "string",
+          "writable": true
+        }
+      },
+      "exists": true,
+      "instanceofRTCSessionDescription": false,
+      "ownProperties": [
+        "sdp",
+        "type"
+      ],
+      "prototype": {
+        "chain": [
+          "Object",
+          "Object"
+        ],
+        "constructor": "Object",
+        "descriptors": {
+          "sdp": {
+            "configurable": true,
+            "enumerable": true,
+            "getterSource": null,
+            "hasGetter": false,
+            "hasSetter": false,
+            "setterSource": null,
+            "valueSource": null,
+            "valueType": "string",
+            "writable": true
+          },
+          "type": {
+            "configurable": true,
+            "enumerable": true,
+            "getterSource": null,
+            "hasGetter": false,
+            "hasSetter": false,
+            "setterSource": null,
+            "valueSource": null,
+            "valueType": "string",
+            "writable": true
+          }
+        },
+        "ownProperties": [
+          "sdp",
+          "type"
+        ],
+        "prototype": "Object",
+        "toStringTag": "[object Object]"
+      },
+      "sdpLength": 448,
+      "sdpPrefix": "v=0\r\no=- <session> <version> IN IP4 127.0.0.1\r\ns=-\r\nt=0 0\r\na=group:BUNDLE 0\r\na=e",
+      "toStringTag": "[object Object]",
+      "type": "offer"
+    },
+    "isPromise": true,
+    "outcome": "resolved",
+    "thenable": true
+  }
+}

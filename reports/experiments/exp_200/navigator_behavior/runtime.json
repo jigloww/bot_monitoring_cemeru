@@ -1,0 +1,605 @@
+{
+  "access": {
+    "cookieEnabled": {
+      "descriptor": {
+        "configurable": true,
+        "enumerable": true,
+        "getterSource": "function get cookieEnabled() { [native code] }",
+        "hasGetter": true,
+        "hasSetter": false,
+        "setterSource": null,
+        "valueSource": null,
+        "valueType": null,
+        "writable": null
+      },
+      "first": true,
+      "referenceEqual": null,
+      "second": true,
+      "stable": true,
+      "type": "boolean"
+    },
+    "deviceMemory": {
+      "descriptor": null,
+      "first": null,
+      "referenceEqual": null,
+      "second": null,
+      "stable": true,
+      "type": "undefined"
+    },
+    "hardwareConcurrency": {
+      "descriptor": {
+        "configurable": true,
+        "enumerable": true,
+        "getterSource": "function get hardwareConcurrency() { [native code] }",
+        "hasGetter": true,
+        "hasSetter": false,
+        "setterSource": null,
+        "valueSource": null,
+        "valueType": null,
+        "writable": null
+      },
+      "first": 12,
+      "referenceEqual": null,
+      "second": 12,
+      "stable": true,
+      "type": "number"
+    },
+    "language": {
+      "descriptor": {
+        "configurable": true,
+        "enumerable": true,
+        "getterSource": "function get language() { [native code] }",
+        "hasGetter": true,
+        "hasSetter": false,
+        "setterSource": null,
+        "valueSource": null,
+        "valueType": null,
+        "writable": null
+      },
+      "first": "en-US",
+      "referenceEqual": null,
+      "second": "en-US",
+      "stable": true,
+      "type": "string"
+    },
+    "languages": {
+      "descriptor": {
+        "configurable": true,
+        "enumerable": true,
+        "getterSource": "function get languages() { [native code] }",
+        "hasGetter": true,
+        "hasSetter": false,
+        "setterSource": null,
+        "valueSource": null,
+        "valueType": null,
+        "writable": null
+      },
+      "first": [
+        "en-US",
+        "en"
+      ],
+      "referenceEqual": true,
+      "second": [
+        "en-US",
+        "en"
+      ],
+      "stable": true,
+      "type": "object"
+    },
+    "maxTouchPoints": {
+      "descriptor": {
+        "configurable": true,
+        "enumerable": true,
+        "getterSource": "function get maxTouchPoints() { [native code] }",
+        "hasGetter": true,
+        "hasSetter": false,
+        "setterSource": null,
+        "valueSource": null,
+        "valueType": null,
+        "writable": null
+      },
+      "first": 0,
+      "referenceEqual": null,
+      "second": 0,
+      "stable": true,
+      "type": "number"
+    },
+    "onLine": {
+      "descriptor": {
+        "configurable": true,
+        "enumerable": true,
+        "getterSource": "function get onLine() { [native code] }",
+        "hasGetter": true,
+        "hasSetter": false,
+        "setterSource": null,
+        "valueSource": null,
+        "valueType": null,
+        "writable": null
+      },
+      "first": true,
+      "referenceEqual": null,
+      "second": true,
+      "stable": true,
+      "type": "boolean"
+    },
+    "pdfViewerEnabled": {
+      "descriptor": {
+        "configurable": true,
+        "enumerable": true,
+        "getterSource": "function get pdfViewerEnabled() { [native code] }",
+        "hasGetter": true,
+        "hasSetter": false,
+        "setterSource": null,
+        "valueSource": null,
+        "valueType": null,
+        "writable": null
+      },
+      "first": true,
+      "referenceEqual": null,
+      "second": true,
+      "stable": true,
+      "type": "boolean"
+    },
+    "platform": {
+      "descriptor": {
+        "configurable": true,
+        "enumerable": true,
+        "getterSource": "function get platform() { [native code] }",
+        "hasGetter": true,
+        "hasSetter": false,
+        "setterSource": null,
+        "valueSource": null,
+        "valueType": null,
+        "writable": null
+      },
+      "first": "Win32",
+      "referenceEqual": null,
+      "second": "Win32",
+      "stable": true,
+      "type": "string"
+    },
+    "userAgent": {
+      "descriptor": {
+        "configurable": true,
+        "enumerable": true,
+        "getterSource": "function get userAgent() { [native code] }",
+        "hasGetter": true,
+        "hasSetter": false,
+        "setterSource": null,
+        "valueSource": null,
+        "valueType": null,
+        "writable": null
+      },
+      "first": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.0.0 Safari/537.36",
+      "referenceEqual": null,
+      "second": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.0.0 Safari/537.36",
+      "stable": true,
+      "type": "string"
+    },
+    "vendor": {
+      "descriptor": {
+        "configurable": true,
+        "enumerable": true,
+        "getterSource": "function get vendor() { [native code] }",
+        "hasGetter": true,
+        "hasSetter": false,
+        "setterSource": null,
+        "valueSource": null,
+        "valueType": null,
+        "writable": null
+      },
+      "first": "Google Inc.",
+      "referenceEqual": null,
+      "second": "Google Inc.",
+      "stable": true,
+      "type": "string"
+    },
+    "webdriver": {
+      "descriptor": {
+        "configurable": true,
+        "enumerable": true,
+        "getterSource": "function get webdriver() { [native code] }",
+        "hasGetter": true,
+        "hasSetter": false,
+        "setterSource": null,
+        "valueSource": null,
+        "valueType": null,
+        "writable": null
+      },
+      "first": true,
+      "referenceEqual": null,
+      "second": true,
+      "stable": true,
+      "type": "boolean"
+    }
+  },
+  "enumeration": {
+    "entries": [],
+    "forIn": [
+      "appCodeName",
+      "appName",
+      "appVersion",
+      "connection",
+      "cookieEnabled",
+      "doNotTrack",
+      "geolocation",
+      "getGamepads",
+      "hardwareConcurrency",
+      "ink",
+      "javaEnabled",
+      "language",
+      "languages",
+      "maxTouchPoints",
+      "mediaCapabilities",
+      "mediaSession",
+      "mimeTypes",
+      "onLine",
+      "pdfViewerEnabled",
+      "permissions",
+      "platform",
+      "plugins",
+      "product",
+      "productSub",
+      "scheduling",
+      "sendBeacon",
+      "userActivation",
+      "userAgent",
+      "vendor",
+      "vendorSub",
+      "vibrate",
+      "webdriver",
+      "webkitPersistentStorage",
+      "webkitTemporaryStorage",
+      "windowControlsOverlay"
+    ],
+    "keysStable": true,
+    "objectKeys": [],
+    "reflectOwnKeys": [],
+    "values": []
+  },
+  "subapis": {
+    "connection": {
+      "available": true,
+      "constructor": "NetworkInformation",
+      "constructorSource": "function NetworkInformation() { [native code] }",
+      "descriptor": {
+        "configurable": true,
+        "enumerable": true,
+        "getterSource": "function get connection() { [native code] }",
+        "hasGetter": true,
+        "hasSetter": false,
+        "setterSource": null,
+        "valueSource": null,
+        "valueType": null,
+        "writable": null
+      },
+      "methods": {
+        "constructor": {
+          "available": true,
+          "descriptor": {
+            "configurable": true,
+            "enumerable": false,
+            "getterSource": null,
+            "hasGetter": false,
+            "hasSetter": false,
+            "setterSource": null,
+            "valueSource": "function NetworkInformation() { [native code] }",
+            "valueType": "function",
+            "writable": true
+          },
+          "illegalInvocation": {
+            "error": {
+              "constructor": "TypeError",
+              "isDOMException": false,
+              "isError": true,
+              "isTypeError": true,
+              "message": "Illegal constructor",
+              "name": "TypeError"
+            },
+            "outcome": "threw",
+            "promise": false,
+            "tested": true,
+            "throws": true
+          },
+          "length": 0,
+          "name": "NetworkInformation",
+          "nativeSource": true,
+          "source": "function NetworkInformation() { [native code] }",
+          "typeof": "function"
+        }
+      },
+      "objectToString": "[object NetworkInformation]",
+      "prototype": "NetworkInformation",
+      "prototypeChain": [
+        "NetworkInformation",
+        "NetworkInformation",
+        "EventTarget",
+        "Object"
+      ],
+      "referenceStable": true,
+      "symbolToStringTag": {
+        "configurable": true,
+        "enumerable": false,
+        "getterSource": null,
+        "hasGetter": false,
+        "hasSetter": false,
+        "setterSource": null,
+        "valueSource": null,
+        "valueType": "string",
+        "writable": false
+      },
+      "typeof": "object"
+    },
+    "mediaCapabilities": {
+      "available": true,
+      "constructor": "MediaCapabilities",
+      "constructorSource": "function MediaCapabilities() { [native code] }",
+      "descriptor": {
+        "configurable": true,
+        "enumerable": true,
+        "getterSource": "function get mediaCapabilities() { [native code] }",
+        "hasGetter": true,
+        "hasSetter": false,
+        "setterSource": null,
+        "valueSource": null,
+        "valueType": null,
+        "writable": null
+      },
+      "methods": {
+        "constructor": {
+          "available": true,
+          "descriptor": {
+            "configurable": true,
+            "enumerable": false,
+            "getterSource": null,
+            "hasGetter": false,
+            "hasSetter": false,
+            "setterSource": null,
+            "valueSource": "function MediaCapabilities() { [native code] }",
+            "valueType": "function",
+            "writable": true
+          },
+          "illegalInvocation": {
+            "error": {
+              "constructor": "TypeError",
+              "isDOMException": false,
+              "isError": true,
+              "isTypeError": true,
+              "message": "Illegal constructor",
+              "name": "TypeError"
+            },
+            "outcome": "threw",
+            "promise": false,
+            "tested": true,
+            "throws": true
+          },
+          "length": 0,
+          "name": "MediaCapabilities",
+          "nativeSource": true,
+          "source": "function MediaCapabilities() { [native code] }",
+          "typeof": "function"
+        },
+        "decodingInfo": {
+          "available": true,
+          "descriptor": {
+            "configurable": true,
+            "enumerable": true,
+            "getterSource": null,
+            "hasGetter": false,
+            "hasSetter": false,
+            "setterSource": null,
+            "valueSource": "function decodingInfo() { [native code] }",
+            "valueType": "function",
+            "writable": true
+          },
+          "illegalInvocation": {
+            "error": {
+              "constructor": "TypeError",
+              "isDOMException": false,
+              "isError": true,
+              "isTypeError": true,
+              "message": "Failed to execute 'decodingInfo' on 'MediaCapabilities': Illegal invocation",
+              "name": "TypeError"
+            },
+            "outcome": "rejected",
+            "promise": true,
+            "tested": true,
+            "throws": true
+          },
+          "length": 1,
+          "name": "decodingInfo",
+          "nativeSource": true,
+          "source": "function decodingInfo() { [native code] }",
+          "typeof": "function"
+        },
+        "encodingInfo": {
+          "available": true,
+          "descriptor": {
+            "configurable": true,
+            "enumerable": true,
+            "getterSource": null,
+            "hasGetter": false,
+            "hasSetter": false,
+            "setterSource": null,
+            "valueSource": "function encodingInfo() { [native code] }",
+            "valueType": "function",
+            "writable": true
+          },
+          "illegalInvocation": {
+            "error": {
+              "constructor": "TypeError",
+              "isDOMException": false,
+              "isError": true,
+              "isTypeError": true,
+              "message": "Failed to execute 'encodingInfo' on 'MediaCapabilities': Illegal invocation",
+              "name": "TypeError"
+            },
+            "outcome": "rejected",
+            "promise": true,
+            "tested": true,
+            "throws": true
+          },
+          "length": 1,
+          "name": "encodingInfo",
+          "nativeSource": true,
+          "source": "function encodingInfo() { [native code] }",
+          "typeof": "function"
+        }
+      },
+      "objectToString": "[object MediaCapabilities]",
+      "prototype": "MediaCapabilities",
+      "prototypeChain": [
+        "MediaCapabilities",
+        "MediaCapabilities",
+        "Object"
+      ],
+      "referenceStable": true,
+      "symbolToStringTag": {
+        "configurable": true,
+        "enumerable": false,
+        "getterSource": null,
+        "hasGetter": false,
+        "hasSetter": false,
+        "setterSource": null,
+        "valueSource": null,
+        "valueType": "string",
+        "writable": false
+      },
+      "typeof": "object"
+    },
+    "permissions": {
+      "available": true,
+      "constructor": "Permissions",
+      "constructorSource": "function Permissions() { [native code] }",
+      "descriptor": {
+        "configurable": true,
+        "enumerable": true,
+        "getterSource": "function get permissions() { [native code] }",
+        "hasGetter": true,
+        "hasSetter": false,
+        "setterSource": null,
+        "valueSource": null,
+        "valueType": null,
+        "writable": null
+      },
+      "methods": {
+        "constructor": {
+          "available": true,
+          "descriptor": {
+            "configurable": true,
+            "enumerable": false,
+            "getterSource": null,
+            "hasGetter": false,
+            "hasSetter": false,
+            "setterSource": null,
+            "valueSource": "function Permissions() { [native code] }",
+            "valueType": "function",
+            "writable": true
+          },
+          "illegalInvocation": {
+            "error": {
+              "constructor": "TypeError",
+              "isDOMException": false,
+              "isError": true,
+              "isTypeError": true,
+              "message": "Illegal constructor",
+              "name": "TypeError"
+            },
+            "outcome": "threw",
+            "promise": false,
+            "tested": true,
+            "throws": true
+          },
+          "length": 0,
+          "name": "Permissions",
+          "nativeSource": true,
+          "source": "function Permissions() { [native code] }",
+          "typeof": "function"
+        },
+        "query": {
+          "available": true,
+          "descriptor": {
+            "configurable": true,
+            "enumerable": true,
+            "getterSource": null,
+            "hasGetter": false,
+            "hasSetter": false,
+            "setterSource": null,
+            "valueSource": "function query() { [native code] }",
+            "valueType": "function",
+            "writable": true
+          },
+          "illegalInvocation": {
+            "error": {
+              "constructor": "TypeError",
+              "isDOMException": false,
+              "isError": true,
+              "isTypeError": true,
+              "message": "Failed to execute 'query' on 'Permissions': Illegal invocation",
+              "name": "TypeError"
+            },
+            "outcome": "rejected",
+            "promise": true,
+            "tested": true,
+            "throws": true
+          },
+          "length": 1,
+          "name": "query",
+          "nativeSource": true,
+          "source": "function query() { [native code] }",
+          "typeof": "function"
+        }
+      },
+      "objectToString": "[object Permissions]",
+      "prototype": "Permissions",
+      "prototypeChain": [
+        "Permissions",
+        "Permissions",
+        "Object"
+      ],
+      "referenceStable": true,
+      "symbolToStringTag": {
+        "configurable": true,
+        "enumerable": false,
+        "getterSource": null,
+        "hasGetter": false,
+        "hasSetter": false,
+        "setterSource": null,
+        "valueSource": null,
+        "valueType": "string",
+        "writable": false
+      },
+      "typeof": "object"
+    },
+    "storage": {
+      "available": true,
+      "constructor": null,
+      "constructorSource": null,
+      "descriptor": null,
+      "methods": {},
+      "objectToString": "[object Undefined]",
+      "prototype": null,
+      "prototypeChain": [],
+      "referenceStable": true,
+      "symbolToStringTag": null,
+      "typeof": "undefined"
+    }
+  },
+  "values": {
+    "cookieEnabled": true,
+    "deviceMemory": null,
+    "hardwareConcurrency": 12,
+    "language": "en-US",
+    "languages": [
+      "en-US",
+      "en"
+    ],
+    "maxTouchPoints": 0,
+    "onLine": true,
+    "pdfViewerEnabled": true,
+    "platform": "Win32",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.0.0 Safari/537.36",
+    "vendor": "Google Inc.",
+    "webdriver": true
+  }
+}

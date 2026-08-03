@@ -1,0 +1,2752 @@
+[
+  {
+    "priority": 1,
+    "path": "methods.mime_prototypes.0.constructor.available",
+    "category": "Methods",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright methods.mime_prototypes.0.constructor.available with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 2,
+    "path": "methods.mime_prototypes.0.constructor.descriptor.configurable",
+    "category": "Methods",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright methods.mime_prototypes.0.constructor.descriptor.configurable with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 3,
+    "path": "methods.mime_prototypes.0.constructor.descriptor.enumerable",
+    "category": "Methods",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright methods.mime_prototypes.0.constructor.descriptor.enumerable with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 4,
+    "path": "methods.mime_prototypes.0.constructor.descriptor.getterSource",
+    "category": "Methods",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright methods.mime_prototypes.0.constructor.descriptor.getterSource with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 5,
+    "path": "methods.mime_prototypes.0.constructor.descriptor.hasGetter",
+    "category": "Methods",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright methods.mime_prototypes.0.constructor.descriptor.hasGetter with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 6,
+    "path": "methods.mime_prototypes.0.constructor.descriptor.hasSetter",
+    "category": "Methods",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright methods.mime_prototypes.0.constructor.descriptor.hasSetter with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 7,
+    "path": "methods.mime_prototypes.0.constructor.descriptor.setterSource",
+    "category": "Methods",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright methods.mime_prototypes.0.constructor.descriptor.setterSource with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 8,
+    "path": "methods.mime_prototypes.0.constructor.descriptor.valueSource",
+    "category": "Methods",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright methods.mime_prototypes.0.constructor.descriptor.valueSource with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 9,
+    "path": "methods.mime_prototypes.0.constructor.descriptor.valueType",
+    "category": "Methods",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright methods.mime_prototypes.0.constructor.descriptor.valueType with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 10,
+    "path": "methods.mime_prototypes.0.constructor.descriptor.writable",
+    "category": "Methods",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright methods.mime_prototypes.0.constructor.descriptor.writable with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 11,
+    "path": "methods.mime_prototypes.0.constructor.nativeSource",
+    "category": "Methods",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright methods.mime_prototypes.0.constructor.nativeSource with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 12,
+    "path": "methods.mime_prototypes.0.constructor.source",
+    "category": "Methods",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright methods.mime_prototypes.0.constructor.source with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 13,
+    "path": "methods.mime_prototypes.0.constructor.typeof",
+    "category": "Methods",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright methods.mime_prototypes.0.constructor.typeof with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 14,
+    "path": "methods.mime_prototypes.1.constructor.available",
+    "category": "Methods",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright methods.mime_prototypes.1.constructor.available with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 15,
+    "path": "methods.mime_prototypes.1.constructor.descriptor.configurable",
+    "category": "Methods",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright methods.mime_prototypes.1.constructor.descriptor.configurable with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 16,
+    "path": "methods.mime_prototypes.1.constructor.descriptor.enumerable",
+    "category": "Methods",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright methods.mime_prototypes.1.constructor.descriptor.enumerable with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 17,
+    "path": "methods.mime_prototypes.1.constructor.descriptor.getterSource",
+    "category": "Methods",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright methods.mime_prototypes.1.constructor.descriptor.getterSource with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 18,
+    "path": "methods.mime_prototypes.1.constructor.descriptor.hasGetter",
+    "category": "Methods",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright methods.mime_prototypes.1.constructor.descriptor.hasGetter with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 19,
+    "path": "methods.mime_prototypes.1.constructor.descriptor.hasSetter",
+    "category": "Methods",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright methods.mime_prototypes.1.constructor.descriptor.hasSetter with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 20,
+    "path": "methods.mime_prototypes.1.constructor.descriptor.setterSource",
+    "category": "Methods",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright methods.mime_prototypes.1.constructor.descriptor.setterSource with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 21,
+    "path": "methods.mime_prototypes.1.constructor.descriptor.valueSource",
+    "category": "Methods",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright methods.mime_prototypes.1.constructor.descriptor.valueSource with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 22,
+    "path": "methods.mime_prototypes.1.constructor.descriptor.valueType",
+    "category": "Methods",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright methods.mime_prototypes.1.constructor.descriptor.valueType with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 23,
+    "path": "methods.mime_prototypes.1.constructor.descriptor.writable",
+    "category": "Methods",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright methods.mime_prototypes.1.constructor.descriptor.writable with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 24,
+    "path": "methods.mime_prototypes.1.constructor.nativeSource",
+    "category": "Methods",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright methods.mime_prototypes.1.constructor.nativeSource with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 25,
+    "path": "methods.mime_prototypes.1.constructor.source",
+    "category": "Methods",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright methods.mime_prototypes.1.constructor.source with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 26,
+    "path": "methods.mime_prototypes.1.constructor.typeof",
+    "category": "Methods",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright methods.mime_prototypes.1.constructor.typeof with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 27,
+    "path": "methods.plugin_prototypes.0.constructor.available",
+    "category": "Methods",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright methods.plugin_prototypes.0.constructor.available with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 28,
+    "path": "methods.plugin_prototypes.0.constructor.descriptor.configurable",
+    "category": "Methods",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright methods.plugin_prototypes.0.constructor.descriptor.configurable with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 29,
+    "path": "methods.plugin_prototypes.0.constructor.descriptor.enumerable",
+    "category": "Methods",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright methods.plugin_prototypes.0.constructor.descriptor.enumerable with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 30,
+    "path": "methods.plugin_prototypes.0.constructor.descriptor.getterSource",
+    "category": "Methods",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright methods.plugin_prototypes.0.constructor.descriptor.getterSource with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 31,
+    "path": "methods.plugin_prototypes.0.constructor.descriptor.hasGetter",
+    "category": "Methods",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright methods.plugin_prototypes.0.constructor.descriptor.hasGetter with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 32,
+    "path": "methods.plugin_prototypes.0.constructor.descriptor.hasSetter",
+    "category": "Methods",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright methods.plugin_prototypes.0.constructor.descriptor.hasSetter with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 33,
+    "path": "methods.plugin_prototypes.0.constructor.descriptor.setterSource",
+    "category": "Methods",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright methods.plugin_prototypes.0.constructor.descriptor.setterSource with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 34,
+    "path": "methods.plugin_prototypes.0.constructor.descriptor.valueSource",
+    "category": "Methods",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright methods.plugin_prototypes.0.constructor.descriptor.valueSource with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 35,
+    "path": "methods.plugin_prototypes.0.constructor.descriptor.valueType",
+    "category": "Methods",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright methods.plugin_prototypes.0.constructor.descriptor.valueType with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 36,
+    "path": "methods.plugin_prototypes.0.constructor.descriptor.writable",
+    "category": "Methods",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright methods.plugin_prototypes.0.constructor.descriptor.writable with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 37,
+    "path": "methods.plugin_prototypes.0.constructor.nativeSource",
+    "category": "Methods",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright methods.plugin_prototypes.0.constructor.nativeSource with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 38,
+    "path": "methods.plugin_prototypes.0.constructor.source",
+    "category": "Methods",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright methods.plugin_prototypes.0.constructor.source with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 39,
+    "path": "methods.plugin_prototypes.0.constructor.typeof",
+    "category": "Methods",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright methods.plugin_prototypes.0.constructor.typeof with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 40,
+    "path": "methods.plugin_prototypes.0.item.available",
+    "category": "Methods",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright methods.plugin_prototypes.0.item.available with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 41,
+    "path": "methods.plugin_prototypes.0.item.descriptor.configurable",
+    "category": "Methods",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright methods.plugin_prototypes.0.item.descriptor.configurable with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 42,
+    "path": "methods.plugin_prototypes.0.item.descriptor.enumerable",
+    "category": "Methods",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright methods.plugin_prototypes.0.item.descriptor.enumerable with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 43,
+    "path": "methods.plugin_prototypes.0.item.descriptor.getterSource",
+    "category": "Methods",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright methods.plugin_prototypes.0.item.descriptor.getterSource with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 44,
+    "path": "methods.plugin_prototypes.0.item.descriptor.hasGetter",
+    "category": "Methods",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright methods.plugin_prototypes.0.item.descriptor.hasGetter with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 45,
+    "path": "methods.plugin_prototypes.0.item.descriptor.hasSetter",
+    "category": "Methods",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright methods.plugin_prototypes.0.item.descriptor.hasSetter with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 46,
+    "path": "methods.plugin_prototypes.0.item.descriptor.setterSource",
+    "category": "Methods",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright methods.plugin_prototypes.0.item.descriptor.setterSource with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 47,
+    "path": "methods.plugin_prototypes.0.item.descriptor.valueSource",
+    "category": "Methods",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright methods.plugin_prototypes.0.item.descriptor.valueSource with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 48,
+    "path": "methods.plugin_prototypes.0.item.descriptor.valueType",
+    "category": "Methods",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright methods.plugin_prototypes.0.item.descriptor.valueType with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 49,
+    "path": "methods.plugin_prototypes.0.item.descriptor.writable",
+    "category": "Methods",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright methods.plugin_prototypes.0.item.descriptor.writable with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 50,
+    "path": "methods.plugin_prototypes.0.item.nativeSource",
+    "category": "Methods",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright methods.plugin_prototypes.0.item.nativeSource with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 51,
+    "path": "methods.plugin_prototypes.0.item.source",
+    "category": "Methods",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright methods.plugin_prototypes.0.item.source with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 52,
+    "path": "methods.plugin_prototypes.0.item.typeof",
+    "category": "Methods",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright methods.plugin_prototypes.0.item.typeof with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 53,
+    "path": "methods.plugin_prototypes.0.namedItem.available",
+    "category": "Methods",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright methods.plugin_prototypes.0.namedItem.available with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 54,
+    "path": "methods.plugin_prototypes.0.namedItem.descriptor.configurable",
+    "category": "Methods",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright methods.plugin_prototypes.0.namedItem.descriptor.configurable with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 55,
+    "path": "methods.plugin_prototypes.0.namedItem.descriptor.enumerable",
+    "category": "Methods",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright methods.plugin_prototypes.0.namedItem.descriptor.enumerable with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 56,
+    "path": "methods.plugin_prototypes.0.namedItem.descriptor.getterSource",
+    "category": "Methods",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright methods.plugin_prototypes.0.namedItem.descriptor.getterSource with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 57,
+    "path": "methods.plugin_prototypes.0.namedItem.descriptor.hasGetter",
+    "category": "Methods",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright methods.plugin_prototypes.0.namedItem.descriptor.hasGetter with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 58,
+    "path": "methods.plugin_prototypes.0.namedItem.descriptor.hasSetter",
+    "category": "Methods",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright methods.plugin_prototypes.0.namedItem.descriptor.hasSetter with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 59,
+    "path": "methods.plugin_prototypes.0.namedItem.descriptor.setterSource",
+    "category": "Methods",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright methods.plugin_prototypes.0.namedItem.descriptor.setterSource with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 60,
+    "path": "methods.plugin_prototypes.0.namedItem.descriptor.valueSource",
+    "category": "Methods",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright methods.plugin_prototypes.0.namedItem.descriptor.valueSource with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 61,
+    "path": "methods.plugin_prototypes.0.namedItem.descriptor.valueType",
+    "category": "Methods",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright methods.plugin_prototypes.0.namedItem.descriptor.valueType with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 62,
+    "path": "methods.plugin_prototypes.0.namedItem.descriptor.writable",
+    "category": "Methods",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright methods.plugin_prototypes.0.namedItem.descriptor.writable with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 63,
+    "path": "methods.plugin_prototypes.0.namedItem.nativeSource",
+    "category": "Methods",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright methods.plugin_prototypes.0.namedItem.nativeSource with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 64,
+    "path": "methods.plugin_prototypes.0.namedItem.source",
+    "category": "Methods",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright methods.plugin_prototypes.0.namedItem.source with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 65,
+    "path": "methods.plugin_prototypes.0.namedItem.typeof",
+    "category": "Methods",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright methods.plugin_prototypes.0.namedItem.typeof with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 66,
+    "path": "methods.plugin_prototypes.1.constructor.available",
+    "category": "Methods",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright methods.plugin_prototypes.1.constructor.available with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 67,
+    "path": "methods.plugin_prototypes.1.constructor.descriptor.configurable",
+    "category": "Methods",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright methods.plugin_prototypes.1.constructor.descriptor.configurable with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 68,
+    "path": "methods.plugin_prototypes.1.constructor.descriptor.enumerable",
+    "category": "Methods",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright methods.plugin_prototypes.1.constructor.descriptor.enumerable with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 69,
+    "path": "methods.plugin_prototypes.1.constructor.descriptor.getterSource",
+    "category": "Methods",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright methods.plugin_prototypes.1.constructor.descriptor.getterSource with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 70,
+    "path": "methods.plugin_prototypes.1.constructor.descriptor.hasGetter",
+    "category": "Methods",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright methods.plugin_prototypes.1.constructor.descriptor.hasGetter with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 71,
+    "path": "methods.plugin_prototypes.1.constructor.descriptor.hasSetter",
+    "category": "Methods",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright methods.plugin_prototypes.1.constructor.descriptor.hasSetter with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 72,
+    "path": "methods.plugin_prototypes.1.constructor.descriptor.setterSource",
+    "category": "Methods",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright methods.plugin_prototypes.1.constructor.descriptor.setterSource with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 73,
+    "path": "methods.plugin_prototypes.1.constructor.descriptor.valueSource",
+    "category": "Methods",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright methods.plugin_prototypes.1.constructor.descriptor.valueSource with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 74,
+    "path": "methods.plugin_prototypes.1.constructor.descriptor.valueType",
+    "category": "Methods",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright methods.plugin_prototypes.1.constructor.descriptor.valueType with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 75,
+    "path": "methods.plugin_prototypes.1.constructor.descriptor.writable",
+    "category": "Methods",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright methods.plugin_prototypes.1.constructor.descriptor.writable with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 76,
+    "path": "methods.plugin_prototypes.1.constructor.nativeSource",
+    "category": "Methods",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright methods.plugin_prototypes.1.constructor.nativeSource with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 77,
+    "path": "methods.plugin_prototypes.1.constructor.source",
+    "category": "Methods",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright methods.plugin_prototypes.1.constructor.source with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 78,
+    "path": "methods.plugin_prototypes.1.constructor.typeof",
+    "category": "Methods",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright methods.plugin_prototypes.1.constructor.typeof with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 79,
+    "path": "methods.plugin_prototypes.1.item.available",
+    "category": "Methods",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright methods.plugin_prototypes.1.item.available with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 80,
+    "path": "methods.plugin_prototypes.1.item.descriptor.configurable",
+    "category": "Methods",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright methods.plugin_prototypes.1.item.descriptor.configurable with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 81,
+    "path": "methods.plugin_prototypes.1.item.descriptor.enumerable",
+    "category": "Methods",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright methods.plugin_prototypes.1.item.descriptor.enumerable with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 82,
+    "path": "methods.plugin_prototypes.1.item.descriptor.getterSource",
+    "category": "Methods",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright methods.plugin_prototypes.1.item.descriptor.getterSource with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 83,
+    "path": "methods.plugin_prototypes.1.item.descriptor.hasGetter",
+    "category": "Methods",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright methods.plugin_prototypes.1.item.descriptor.hasGetter with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 84,
+    "path": "methods.plugin_prototypes.1.item.descriptor.hasSetter",
+    "category": "Methods",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright methods.plugin_prototypes.1.item.descriptor.hasSetter with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 85,
+    "path": "methods.plugin_prototypes.1.item.descriptor.setterSource",
+    "category": "Methods",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright methods.plugin_prototypes.1.item.descriptor.setterSource with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 86,
+    "path": "methods.plugin_prototypes.1.item.descriptor.valueSource",
+    "category": "Methods",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright methods.plugin_prototypes.1.item.descriptor.valueSource with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 87,
+    "path": "methods.plugin_prototypes.1.item.descriptor.valueType",
+    "category": "Methods",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright methods.plugin_prototypes.1.item.descriptor.valueType with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 88,
+    "path": "methods.plugin_prototypes.1.item.descriptor.writable",
+    "category": "Methods",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright methods.plugin_prototypes.1.item.descriptor.writable with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 89,
+    "path": "methods.plugin_prototypes.1.item.nativeSource",
+    "category": "Methods",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright methods.plugin_prototypes.1.item.nativeSource with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 90,
+    "path": "methods.plugin_prototypes.1.item.source",
+    "category": "Methods",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright methods.plugin_prototypes.1.item.source with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 91,
+    "path": "methods.plugin_prototypes.1.item.typeof",
+    "category": "Methods",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright methods.plugin_prototypes.1.item.typeof with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 92,
+    "path": "methods.plugin_prototypes.1.namedItem.available",
+    "category": "Methods",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright methods.plugin_prototypes.1.namedItem.available with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 93,
+    "path": "methods.plugin_prototypes.1.namedItem.descriptor.configurable",
+    "category": "Methods",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright methods.plugin_prototypes.1.namedItem.descriptor.configurable with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 94,
+    "path": "methods.plugin_prototypes.1.namedItem.descriptor.enumerable",
+    "category": "Methods",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright methods.plugin_prototypes.1.namedItem.descriptor.enumerable with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 95,
+    "path": "methods.plugin_prototypes.1.namedItem.descriptor.getterSource",
+    "category": "Methods",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright methods.plugin_prototypes.1.namedItem.descriptor.getterSource with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 96,
+    "path": "methods.plugin_prototypes.1.namedItem.descriptor.hasGetter",
+    "category": "Methods",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright methods.plugin_prototypes.1.namedItem.descriptor.hasGetter with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 97,
+    "path": "methods.plugin_prototypes.1.namedItem.descriptor.hasSetter",
+    "category": "Methods",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright methods.plugin_prototypes.1.namedItem.descriptor.hasSetter with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 98,
+    "path": "methods.plugin_prototypes.1.namedItem.descriptor.setterSource",
+    "category": "Methods",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright methods.plugin_prototypes.1.namedItem.descriptor.setterSource with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 99,
+    "path": "methods.plugin_prototypes.1.namedItem.descriptor.valueSource",
+    "category": "Methods",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright methods.plugin_prototypes.1.namedItem.descriptor.valueSource with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 100,
+    "path": "methods.plugin_prototypes.1.namedItem.descriptor.valueType",
+    "category": "Methods",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright methods.plugin_prototypes.1.namedItem.descriptor.valueType with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 101,
+    "path": "methods.plugin_prototypes.1.namedItem.descriptor.writable",
+    "category": "Methods",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright methods.plugin_prototypes.1.namedItem.descriptor.writable with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 102,
+    "path": "methods.plugin_prototypes.1.namedItem.nativeSource",
+    "category": "Methods",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright methods.plugin_prototypes.1.namedItem.nativeSource with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 103,
+    "path": "methods.plugin_prototypes.1.namedItem.source",
+    "category": "Methods",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright methods.plugin_prototypes.1.namedItem.source with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 104,
+    "path": "methods.plugin_prototypes.1.namedItem.typeof",
+    "category": "Methods",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright methods.plugin_prototypes.1.namedItem.typeof with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 105,
+    "path": "methods.plugin_prototypes.2.constructor.available",
+    "category": "Methods",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright methods.plugin_prototypes.2.constructor.available with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 106,
+    "path": "methods.plugin_prototypes.2.constructor.descriptor.configurable",
+    "category": "Methods",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright methods.plugin_prototypes.2.constructor.descriptor.configurable with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 107,
+    "path": "methods.plugin_prototypes.2.constructor.descriptor.enumerable",
+    "category": "Methods",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright methods.plugin_prototypes.2.constructor.descriptor.enumerable with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 108,
+    "path": "methods.plugin_prototypes.2.constructor.descriptor.getterSource",
+    "category": "Methods",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright methods.plugin_prototypes.2.constructor.descriptor.getterSource with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 109,
+    "path": "methods.plugin_prototypes.2.constructor.descriptor.hasGetter",
+    "category": "Methods",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright methods.plugin_prototypes.2.constructor.descriptor.hasGetter with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 110,
+    "path": "methods.plugin_prototypes.2.constructor.descriptor.hasSetter",
+    "category": "Methods",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright methods.plugin_prototypes.2.constructor.descriptor.hasSetter with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 111,
+    "path": "methods.plugin_prototypes.2.constructor.descriptor.setterSource",
+    "category": "Methods",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright methods.plugin_prototypes.2.constructor.descriptor.setterSource with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 112,
+    "path": "methods.plugin_prototypes.2.constructor.descriptor.valueSource",
+    "category": "Methods",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright methods.plugin_prototypes.2.constructor.descriptor.valueSource with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 113,
+    "path": "methods.plugin_prototypes.2.constructor.descriptor.valueType",
+    "category": "Methods",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright methods.plugin_prototypes.2.constructor.descriptor.valueType with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 114,
+    "path": "methods.plugin_prototypes.2.constructor.descriptor.writable",
+    "category": "Methods",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright methods.plugin_prototypes.2.constructor.descriptor.writable with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 115,
+    "path": "methods.plugin_prototypes.2.constructor.nativeSource",
+    "category": "Methods",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright methods.plugin_prototypes.2.constructor.nativeSource with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 116,
+    "path": "methods.plugin_prototypes.2.constructor.source",
+    "category": "Methods",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright methods.plugin_prototypes.2.constructor.source with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 117,
+    "path": "methods.plugin_prototypes.2.constructor.typeof",
+    "category": "Methods",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright methods.plugin_prototypes.2.constructor.typeof with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 118,
+    "path": "methods.plugin_prototypes.2.item.available",
+    "category": "Methods",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright methods.plugin_prototypes.2.item.available with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 119,
+    "path": "methods.plugin_prototypes.2.item.descriptor.configurable",
+    "category": "Methods",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright methods.plugin_prototypes.2.item.descriptor.configurable with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 120,
+    "path": "methods.plugin_prototypes.2.item.descriptor.enumerable",
+    "category": "Methods",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright methods.plugin_prototypes.2.item.descriptor.enumerable with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 121,
+    "path": "methods.plugin_prototypes.2.item.descriptor.getterSource",
+    "category": "Methods",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright methods.plugin_prototypes.2.item.descriptor.getterSource with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 122,
+    "path": "methods.plugin_prototypes.2.item.descriptor.hasGetter",
+    "category": "Methods",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright methods.plugin_prototypes.2.item.descriptor.hasGetter with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 123,
+    "path": "methods.plugin_prototypes.2.item.descriptor.hasSetter",
+    "category": "Methods",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright methods.plugin_prototypes.2.item.descriptor.hasSetter with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 124,
+    "path": "methods.plugin_prototypes.2.item.descriptor.setterSource",
+    "category": "Methods",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright methods.plugin_prototypes.2.item.descriptor.setterSource with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 125,
+    "path": "methods.plugin_prototypes.2.item.descriptor.valueSource",
+    "category": "Methods",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright methods.plugin_prototypes.2.item.descriptor.valueSource with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 126,
+    "path": "methods.plugin_prototypes.2.item.descriptor.valueType",
+    "category": "Methods",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright methods.plugin_prototypes.2.item.descriptor.valueType with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 127,
+    "path": "methods.plugin_prototypes.2.item.descriptor.writable",
+    "category": "Methods",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright methods.plugin_prototypes.2.item.descriptor.writable with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 128,
+    "path": "methods.plugin_prototypes.2.item.nativeSource",
+    "category": "Methods",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright methods.plugin_prototypes.2.item.nativeSource with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 129,
+    "path": "methods.plugin_prototypes.2.item.source",
+    "category": "Methods",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright methods.plugin_prototypes.2.item.source with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 130,
+    "path": "methods.plugin_prototypes.2.item.typeof",
+    "category": "Methods",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright methods.plugin_prototypes.2.item.typeof with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 131,
+    "path": "methods.plugin_prototypes.2.namedItem.available",
+    "category": "Methods",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright methods.plugin_prototypes.2.namedItem.available with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 132,
+    "path": "methods.plugin_prototypes.2.namedItem.descriptor.configurable",
+    "category": "Methods",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright methods.plugin_prototypes.2.namedItem.descriptor.configurable with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 133,
+    "path": "methods.plugin_prototypes.2.namedItem.descriptor.enumerable",
+    "category": "Methods",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright methods.plugin_prototypes.2.namedItem.descriptor.enumerable with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 134,
+    "path": "methods.plugin_prototypes.2.namedItem.descriptor.getterSource",
+    "category": "Methods",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright methods.plugin_prototypes.2.namedItem.descriptor.getterSource with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 135,
+    "path": "methods.plugin_prototypes.2.namedItem.descriptor.hasGetter",
+    "category": "Methods",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright methods.plugin_prototypes.2.namedItem.descriptor.hasGetter with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 136,
+    "path": "methods.plugin_prototypes.2.namedItem.descriptor.hasSetter",
+    "category": "Methods",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright methods.plugin_prototypes.2.namedItem.descriptor.hasSetter with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 137,
+    "path": "methods.plugin_prototypes.2.namedItem.descriptor.setterSource",
+    "category": "Methods",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright methods.plugin_prototypes.2.namedItem.descriptor.setterSource with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 138,
+    "path": "methods.plugin_prototypes.2.namedItem.descriptor.valueSource",
+    "category": "Methods",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright methods.plugin_prototypes.2.namedItem.descriptor.valueSource with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 139,
+    "path": "methods.plugin_prototypes.2.namedItem.descriptor.valueType",
+    "category": "Methods",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright methods.plugin_prototypes.2.namedItem.descriptor.valueType with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 140,
+    "path": "methods.plugin_prototypes.2.namedItem.descriptor.writable",
+    "category": "Methods",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright methods.plugin_prototypes.2.namedItem.descriptor.writable with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 141,
+    "path": "methods.plugin_prototypes.2.namedItem.nativeSource",
+    "category": "Methods",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright methods.plugin_prototypes.2.namedItem.nativeSource with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 142,
+    "path": "methods.plugin_prototypes.2.namedItem.source",
+    "category": "Methods",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright methods.plugin_prototypes.2.namedItem.source with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 143,
+    "path": "methods.plugin_prototypes.2.namedItem.typeof",
+    "category": "Methods",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright methods.plugin_prototypes.2.namedItem.typeof with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 144,
+    "path": "methods.plugin_prototypes.3.constructor.available",
+    "category": "Methods",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright methods.plugin_prototypes.3.constructor.available with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 145,
+    "path": "methods.plugin_prototypes.3.constructor.descriptor.configurable",
+    "category": "Methods",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright methods.plugin_prototypes.3.constructor.descriptor.configurable with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 146,
+    "path": "methods.plugin_prototypes.3.constructor.descriptor.enumerable",
+    "category": "Methods",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright methods.plugin_prototypes.3.constructor.descriptor.enumerable with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 147,
+    "path": "methods.plugin_prototypes.3.constructor.descriptor.getterSource",
+    "category": "Methods",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright methods.plugin_prototypes.3.constructor.descriptor.getterSource with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 148,
+    "path": "methods.plugin_prototypes.3.constructor.descriptor.hasGetter",
+    "category": "Methods",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright methods.plugin_prototypes.3.constructor.descriptor.hasGetter with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 149,
+    "path": "methods.plugin_prototypes.3.constructor.descriptor.hasSetter",
+    "category": "Methods",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright methods.plugin_prototypes.3.constructor.descriptor.hasSetter with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 150,
+    "path": "methods.plugin_prototypes.3.constructor.descriptor.setterSource",
+    "category": "Methods",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright methods.plugin_prototypes.3.constructor.descriptor.setterSource with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 151,
+    "path": "methods.plugin_prototypes.3.constructor.descriptor.valueSource",
+    "category": "Methods",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright methods.plugin_prototypes.3.constructor.descriptor.valueSource with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 152,
+    "path": "methods.plugin_prototypes.3.constructor.descriptor.valueType",
+    "category": "Methods",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright methods.plugin_prototypes.3.constructor.descriptor.valueType with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 153,
+    "path": "methods.plugin_prototypes.3.constructor.descriptor.writable",
+    "category": "Methods",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright methods.plugin_prototypes.3.constructor.descriptor.writable with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 154,
+    "path": "methods.plugin_prototypes.3.constructor.nativeSource",
+    "category": "Methods",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright methods.plugin_prototypes.3.constructor.nativeSource with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 155,
+    "path": "methods.plugin_prototypes.3.constructor.source",
+    "category": "Methods",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright methods.plugin_prototypes.3.constructor.source with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 156,
+    "path": "methods.plugin_prototypes.3.constructor.typeof",
+    "category": "Methods",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright methods.plugin_prototypes.3.constructor.typeof with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 157,
+    "path": "methods.plugin_prototypes.3.item.available",
+    "category": "Methods",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright methods.plugin_prototypes.3.item.available with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 158,
+    "path": "methods.plugin_prototypes.3.item.descriptor.configurable",
+    "category": "Methods",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright methods.plugin_prototypes.3.item.descriptor.configurable with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 159,
+    "path": "methods.plugin_prototypes.3.item.descriptor.enumerable",
+    "category": "Methods",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright methods.plugin_prototypes.3.item.descriptor.enumerable with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 160,
+    "path": "methods.plugin_prototypes.3.item.descriptor.getterSource",
+    "category": "Methods",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright methods.plugin_prototypes.3.item.descriptor.getterSource with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 161,
+    "path": "methods.plugin_prototypes.3.item.descriptor.hasGetter",
+    "category": "Methods",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright methods.plugin_prototypes.3.item.descriptor.hasGetter with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 162,
+    "path": "methods.plugin_prototypes.3.item.descriptor.hasSetter",
+    "category": "Methods",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright methods.plugin_prototypes.3.item.descriptor.hasSetter with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 163,
+    "path": "methods.plugin_prototypes.3.item.descriptor.setterSource",
+    "category": "Methods",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright methods.plugin_prototypes.3.item.descriptor.setterSource with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 164,
+    "path": "methods.plugin_prototypes.3.item.descriptor.valueSource",
+    "category": "Methods",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright methods.plugin_prototypes.3.item.descriptor.valueSource with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 165,
+    "path": "methods.plugin_prototypes.3.item.descriptor.valueType",
+    "category": "Methods",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright methods.plugin_prototypes.3.item.descriptor.valueType with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 166,
+    "path": "methods.plugin_prototypes.3.item.descriptor.writable",
+    "category": "Methods",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright methods.plugin_prototypes.3.item.descriptor.writable with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 167,
+    "path": "methods.plugin_prototypes.3.item.nativeSource",
+    "category": "Methods",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright methods.plugin_prototypes.3.item.nativeSource with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 168,
+    "path": "methods.plugin_prototypes.3.item.source",
+    "category": "Methods",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright methods.plugin_prototypes.3.item.source with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 169,
+    "path": "methods.plugin_prototypes.3.item.typeof",
+    "category": "Methods",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright methods.plugin_prototypes.3.item.typeof with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 170,
+    "path": "methods.plugin_prototypes.3.namedItem.available",
+    "category": "Methods",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright methods.plugin_prototypes.3.namedItem.available with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 171,
+    "path": "methods.plugin_prototypes.3.namedItem.descriptor.configurable",
+    "category": "Methods",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright methods.plugin_prototypes.3.namedItem.descriptor.configurable with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 172,
+    "path": "methods.plugin_prototypes.3.namedItem.descriptor.enumerable",
+    "category": "Methods",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright methods.plugin_prototypes.3.namedItem.descriptor.enumerable with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 173,
+    "path": "methods.plugin_prototypes.3.namedItem.descriptor.getterSource",
+    "category": "Methods",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright methods.plugin_prototypes.3.namedItem.descriptor.getterSource with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 174,
+    "path": "methods.plugin_prototypes.3.namedItem.descriptor.hasGetter",
+    "category": "Methods",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright methods.plugin_prototypes.3.namedItem.descriptor.hasGetter with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 175,
+    "path": "methods.plugin_prototypes.3.namedItem.descriptor.hasSetter",
+    "category": "Methods",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright methods.plugin_prototypes.3.namedItem.descriptor.hasSetter with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 176,
+    "path": "methods.plugin_prototypes.3.namedItem.descriptor.setterSource",
+    "category": "Methods",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright methods.plugin_prototypes.3.namedItem.descriptor.setterSource with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 177,
+    "path": "methods.plugin_prototypes.3.namedItem.descriptor.valueSource",
+    "category": "Methods",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright methods.plugin_prototypes.3.namedItem.descriptor.valueSource with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 178,
+    "path": "methods.plugin_prototypes.3.namedItem.descriptor.valueType",
+    "category": "Methods",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright methods.plugin_prototypes.3.namedItem.descriptor.valueType with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 179,
+    "path": "methods.plugin_prototypes.3.namedItem.descriptor.writable",
+    "category": "Methods",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright methods.plugin_prototypes.3.namedItem.descriptor.writable with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 180,
+    "path": "methods.plugin_prototypes.3.namedItem.nativeSource",
+    "category": "Methods",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright methods.plugin_prototypes.3.namedItem.nativeSource with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 181,
+    "path": "methods.plugin_prototypes.3.namedItem.source",
+    "category": "Methods",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright methods.plugin_prototypes.3.namedItem.source with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 182,
+    "path": "methods.plugin_prototypes.3.namedItem.typeof",
+    "category": "Methods",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright methods.plugin_prototypes.3.namedItem.typeof with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 183,
+    "path": "methods.plugin_prototypes.4.constructor.available",
+    "category": "Methods",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright methods.plugin_prototypes.4.constructor.available with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 184,
+    "path": "methods.plugin_prototypes.4.constructor.descriptor.configurable",
+    "category": "Methods",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright methods.plugin_prototypes.4.constructor.descriptor.configurable with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 185,
+    "path": "methods.plugin_prototypes.4.constructor.descriptor.enumerable",
+    "category": "Methods",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright methods.plugin_prototypes.4.constructor.descriptor.enumerable with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 186,
+    "path": "methods.plugin_prototypes.4.constructor.descriptor.getterSource",
+    "category": "Methods",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright methods.plugin_prototypes.4.constructor.descriptor.getterSource with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 187,
+    "path": "methods.plugin_prototypes.4.constructor.descriptor.hasGetter",
+    "category": "Methods",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright methods.plugin_prototypes.4.constructor.descriptor.hasGetter with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 188,
+    "path": "methods.plugin_prototypes.4.constructor.descriptor.hasSetter",
+    "category": "Methods",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright methods.plugin_prototypes.4.constructor.descriptor.hasSetter with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 189,
+    "path": "methods.plugin_prototypes.4.constructor.descriptor.setterSource",
+    "category": "Methods",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright methods.plugin_prototypes.4.constructor.descriptor.setterSource with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 190,
+    "path": "methods.plugin_prototypes.4.constructor.descriptor.valueSource",
+    "category": "Methods",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright methods.plugin_prototypes.4.constructor.descriptor.valueSource with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 191,
+    "path": "methods.plugin_prototypes.4.constructor.descriptor.valueType",
+    "category": "Methods",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright methods.plugin_prototypes.4.constructor.descriptor.valueType with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 192,
+    "path": "methods.plugin_prototypes.4.constructor.descriptor.writable",
+    "category": "Methods",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright methods.plugin_prototypes.4.constructor.descriptor.writable with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 193,
+    "path": "methods.plugin_prototypes.4.constructor.nativeSource",
+    "category": "Methods",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright methods.plugin_prototypes.4.constructor.nativeSource with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 194,
+    "path": "methods.plugin_prototypes.4.constructor.source",
+    "category": "Methods",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright methods.plugin_prototypes.4.constructor.source with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 195,
+    "path": "methods.plugin_prototypes.4.constructor.typeof",
+    "category": "Methods",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright methods.plugin_prototypes.4.constructor.typeof with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 196,
+    "path": "methods.plugin_prototypes.4.item.available",
+    "category": "Methods",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright methods.plugin_prototypes.4.item.available with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 197,
+    "path": "methods.plugin_prototypes.4.item.descriptor.configurable",
+    "category": "Methods",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright methods.plugin_prototypes.4.item.descriptor.configurable with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 198,
+    "path": "methods.plugin_prototypes.4.item.descriptor.enumerable",
+    "category": "Methods",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright methods.plugin_prototypes.4.item.descriptor.enumerable with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 199,
+    "path": "methods.plugin_prototypes.4.item.descriptor.getterSource",
+    "category": "Methods",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright methods.plugin_prototypes.4.item.descriptor.getterSource with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 200,
+    "path": "methods.plugin_prototypes.4.item.descriptor.hasGetter",
+    "category": "Methods",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright methods.plugin_prototypes.4.item.descriptor.hasGetter with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 201,
+    "path": "methods.plugin_prototypes.4.item.descriptor.hasSetter",
+    "category": "Methods",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright methods.plugin_prototypes.4.item.descriptor.hasSetter with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 202,
+    "path": "methods.plugin_prototypes.4.item.descriptor.setterSource",
+    "category": "Methods",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright methods.plugin_prototypes.4.item.descriptor.setterSource with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 203,
+    "path": "methods.plugin_prototypes.4.item.descriptor.valueSource",
+    "category": "Methods",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright methods.plugin_prototypes.4.item.descriptor.valueSource with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 204,
+    "path": "methods.plugin_prototypes.4.item.descriptor.valueType",
+    "category": "Methods",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright methods.plugin_prototypes.4.item.descriptor.valueType with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 205,
+    "path": "methods.plugin_prototypes.4.item.descriptor.writable",
+    "category": "Methods",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright methods.plugin_prototypes.4.item.descriptor.writable with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 206,
+    "path": "methods.plugin_prototypes.4.item.nativeSource",
+    "category": "Methods",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright methods.plugin_prototypes.4.item.nativeSource with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 207,
+    "path": "methods.plugin_prototypes.4.item.source",
+    "category": "Methods",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright methods.plugin_prototypes.4.item.source with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 208,
+    "path": "methods.plugin_prototypes.4.item.typeof",
+    "category": "Methods",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright methods.plugin_prototypes.4.item.typeof with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 209,
+    "path": "methods.plugin_prototypes.4.namedItem.available",
+    "category": "Methods",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright methods.plugin_prototypes.4.namedItem.available with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 210,
+    "path": "methods.plugin_prototypes.4.namedItem.descriptor.configurable",
+    "category": "Methods",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright methods.plugin_prototypes.4.namedItem.descriptor.configurable with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 211,
+    "path": "methods.plugin_prototypes.4.namedItem.descriptor.enumerable",
+    "category": "Methods",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright methods.plugin_prototypes.4.namedItem.descriptor.enumerable with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 212,
+    "path": "methods.plugin_prototypes.4.namedItem.descriptor.getterSource",
+    "category": "Methods",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright methods.plugin_prototypes.4.namedItem.descriptor.getterSource with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 213,
+    "path": "methods.plugin_prototypes.4.namedItem.descriptor.hasGetter",
+    "category": "Methods",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright methods.plugin_prototypes.4.namedItem.descriptor.hasGetter with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 214,
+    "path": "methods.plugin_prototypes.4.namedItem.descriptor.hasSetter",
+    "category": "Methods",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright methods.plugin_prototypes.4.namedItem.descriptor.hasSetter with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 215,
+    "path": "methods.plugin_prototypes.4.namedItem.descriptor.setterSource",
+    "category": "Methods",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright methods.plugin_prototypes.4.namedItem.descriptor.setterSource with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 216,
+    "path": "methods.plugin_prototypes.4.namedItem.descriptor.valueSource",
+    "category": "Methods",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright methods.plugin_prototypes.4.namedItem.descriptor.valueSource with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 217,
+    "path": "methods.plugin_prototypes.4.namedItem.descriptor.valueType",
+    "category": "Methods",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright methods.plugin_prototypes.4.namedItem.descriptor.valueType with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 218,
+    "path": "methods.plugin_prototypes.4.namedItem.descriptor.writable",
+    "category": "Methods",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright methods.plugin_prototypes.4.namedItem.descriptor.writable with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 219,
+    "path": "methods.plugin_prototypes.4.namedItem.nativeSource",
+    "category": "Methods",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright methods.plugin_prototypes.4.namedItem.nativeSource with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 220,
+    "path": "methods.plugin_prototypes.4.namedItem.source",
+    "category": "Methods",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright methods.plugin_prototypes.4.namedItem.source with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 221,
+    "path": "methods.plugin_prototypes.4.namedItem.typeof",
+    "category": "Methods",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright methods.plugin_prototypes.4.namedItem.typeof with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 222,
+    "path": "prototype.mimeTypeArray.ownProperties",
+    "category": "Prototype",
+    "severity": "CRITICAL",
+    "status": "ADDED",
+    "recommendation": "Investigate and align Playwright prototype.mimeTypeArray.ownProperties with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 223,
+    "path": "prototype.mimeTypeArray.ownProperties[0]",
+    "category": "Prototype",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright prototype.mimeTypeArray.ownProperties[0] with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 224,
+    "path": "prototype.mimeTypeArray.ownProperties[1]",
+    "category": "Prototype",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright prototype.mimeTypeArray.ownProperties[1] with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 225,
+    "path": "prototype.mimeTypeArray.ownProperties[2]",
+    "category": "Prototype",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright prototype.mimeTypeArray.ownProperties[2] with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 226,
+    "path": "prototype.mimeTypeArray.ownProperties[3]",
+    "category": "Prototype",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright prototype.mimeTypeArray.ownProperties[3] with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 227,
+    "path": "prototype.pluginArray.ownProperties",
+    "category": "Prototype",
+    "severity": "CRITICAL",
+    "status": "ADDED",
+    "recommendation": "Investigate and align Playwright prototype.pluginArray.ownProperties with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 228,
+    "path": "prototype.pluginArray.ownProperties[0]",
+    "category": "Prototype",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright prototype.pluginArray.ownProperties[0] with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 229,
+    "path": "prototype.pluginArray.ownProperties[1]",
+    "category": "Prototype",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright prototype.pluginArray.ownProperties[1] with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 230,
+    "path": "prototype.pluginArray.ownProperties[2]",
+    "category": "Prototype",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright prototype.pluginArray.ownProperties[2] with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 231,
+    "path": "prototype.pluginArray.ownProperties[3]",
+    "category": "Prototype",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright prototype.pluginArray.ownProperties[3] with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 232,
+    "path": "prototype.pluginArray.ownProperties[4]",
+    "category": "Prototype",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright prototype.pluginArray.ownProperties[4] with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 233,
+    "path": "prototype.pluginArray.ownProperties[5]",
+    "category": "Prototype",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright prototype.pluginArray.ownProperties[5] with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 234,
+    "path": "prototype.pluginArray.ownProperties[6]",
+    "category": "Prototype",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright prototype.pluginArray.ownProperties[6] with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 235,
+    "path": "prototype.pluginArray.ownProperties[7]",
+    "category": "Prototype",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright prototype.pluginArray.ownProperties[7] with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 236,
+    "path": "prototype.pluginArray.ownProperties[8]",
+    "category": "Prototype",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright prototype.pluginArray.ownProperties[8] with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 237,
+    "path": "prototype.pluginArray.ownProperties[9]",
+    "category": "Prototype",
+    "severity": "CRITICAL",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright prototype.pluginArray.ownProperties[9] with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.5,
+    "confidence": "High"
+  },
+  {
+    "priority": 238,
+    "path": "cross_reference.mimeEnabledPlugins.application/pdf",
+    "category": "Cross References",
+    "severity": "HIGH",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright cross_reference.mimeEnabledPlugins.application/pdf with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.37,
+    "confidence": "High"
+  },
+  {
+    "priority": 239,
+    "path": "cross_reference.mimeEnabledPlugins.text/pdf",
+    "category": "Cross References",
+    "severity": "HIGH",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright cross_reference.mimeEnabledPlugins.text/pdf with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.37,
+    "confidence": "High"
+  },
+  {
+    "priority": 240,
+    "path": "cross_reference.pluginMimeTypes.0[0]",
+    "category": "Cross References",
+    "severity": "HIGH",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright cross_reference.pluginMimeTypes.0[0] with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.37,
+    "confidence": "High"
+  },
+  {
+    "priority": 241,
+    "path": "cross_reference.pluginMimeTypes.0[1]",
+    "category": "Cross References",
+    "severity": "HIGH",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright cross_reference.pluginMimeTypes.0[1] with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.37,
+    "confidence": "High"
+  },
+  {
+    "priority": 242,
+    "path": "cross_reference.pluginMimeTypes.1[0]",
+    "category": "Cross References",
+    "severity": "HIGH",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright cross_reference.pluginMimeTypes.1[0] with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.37,
+    "confidence": "High"
+  },
+  {
+    "priority": 243,
+    "path": "cross_reference.pluginMimeTypes.1[1]",
+    "category": "Cross References",
+    "severity": "HIGH",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright cross_reference.pluginMimeTypes.1[1] with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.37,
+    "confidence": "High"
+  },
+  {
+    "priority": 244,
+    "path": "cross_reference.pluginMimeTypes.2[0]",
+    "category": "Cross References",
+    "severity": "HIGH",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright cross_reference.pluginMimeTypes.2[0] with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.37,
+    "confidence": "High"
+  },
+  {
+    "priority": 245,
+    "path": "cross_reference.pluginMimeTypes.2[1]",
+    "category": "Cross References",
+    "severity": "HIGH",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright cross_reference.pluginMimeTypes.2[1] with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.37,
+    "confidence": "High"
+  },
+  {
+    "priority": 246,
+    "path": "cross_reference.pluginMimeTypes.3[0]",
+    "category": "Cross References",
+    "severity": "HIGH",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright cross_reference.pluginMimeTypes.3[0] with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.37,
+    "confidence": "High"
+  },
+  {
+    "priority": 247,
+    "path": "cross_reference.pluginMimeTypes.3[1]",
+    "category": "Cross References",
+    "severity": "HIGH",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright cross_reference.pluginMimeTypes.3[1] with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.37,
+    "confidence": "High"
+  },
+  {
+    "priority": 248,
+    "path": "cross_reference.pluginMimeTypes.4[0]",
+    "category": "Cross References",
+    "severity": "HIGH",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright cross_reference.pluginMimeTypes.4[0] with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.37,
+    "confidence": "High"
+  },
+  {
+    "priority": 249,
+    "path": "cross_reference.pluginMimeTypes.4[1]",
+    "category": "Cross References",
+    "severity": "HIGH",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright cross_reference.pluginMimeTypes.4[1] with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.37,
+    "confidence": "High"
+  },
+  {
+    "priority": 250,
+    "path": "fingerprint.sha256",
+    "category": "Fingerprint",
+    "severity": "HIGH",
+    "status": "CHANGED",
+    "recommendation": "Investigate and align Playwright fingerprint.sha256 with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.37,
+    "confidence": "High"
+  },
+  {
+    "priority": 251,
+    "path": "mime_types.items.application/pdf",
+    "category": "MimeTypeArray",
+    "severity": "MEDIUM",
+    "status": "REMOVED",
+    "recommendation": "Investigate and align Playwright mime_types.items.application/pdf with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.25,
+    "confidence": "Medium"
+  },
+  {
+    "priority": 252,
+    "path": "mime_types.items.text/pdf",
+    "category": "MimeTypeArray",
+    "severity": "MEDIUM",
+    "status": "REMOVED",
+    "recommendation": "Investigate and align Playwright mime_types.items.text/pdf with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.25,
+    "confidence": "Medium"
+  },
+  {
+    "priority": 253,
+    "path": "mime_types.length",
+    "category": "MimeTypeArray",
+    "severity": "MEDIUM",
+    "status": "CHANGED",
+    "recommendation": "Investigate and align Playwright mime_types.length with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.25,
+    "confidence": "Medium"
+  },
+  {
+    "priority": 254,
+    "path": "mime_types.ownProperties",
+    "category": "MimeTypeArray",
+    "severity": "MEDIUM",
+    "status": "ADDED",
+    "recommendation": "Investigate and align Playwright mime_types.ownProperties with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.25,
+    "confidence": "Medium"
+  },
+  {
+    "priority": 255,
+    "path": "mime_types.ownProperties[0]",
+    "category": "MimeTypeArray",
+    "severity": "MEDIUM",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright mime_types.ownProperties[0] with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.25,
+    "confidence": "Medium"
+  },
+  {
+    "priority": 256,
+    "path": "mime_types.ownProperties[1]",
+    "category": "MimeTypeArray",
+    "severity": "MEDIUM",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright mime_types.ownProperties[1] with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.25,
+    "confidence": "Medium"
+  },
+  {
+    "priority": 257,
+    "path": "mime_types.ownProperties[2]",
+    "category": "MimeTypeArray",
+    "severity": "MEDIUM",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright mime_types.ownProperties[2] with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.25,
+    "confidence": "Medium"
+  },
+  {
+    "priority": 258,
+    "path": "mime_types.ownProperties[3]",
+    "category": "MimeTypeArray",
+    "severity": "MEDIUM",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright mime_types.ownProperties[3] with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.25,
+    "confidence": "Medium"
+  },
+  {
+    "priority": 259,
+    "path": "plugins.items.Chrome PDF Viewer",
+    "category": "PluginArray",
+    "severity": "MEDIUM",
+    "status": "REMOVED",
+    "recommendation": "Investigate and align Playwright plugins.items.Chrome PDF Viewer with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.25,
+    "confidence": "Medium"
+  },
+  {
+    "priority": 260,
+    "path": "plugins.items.Chromium PDF Viewer",
+    "category": "PluginArray",
+    "severity": "MEDIUM",
+    "status": "REMOVED",
+    "recommendation": "Investigate and align Playwright plugins.items.Chromium PDF Viewer with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.25,
+    "confidence": "Medium"
+  },
+  {
+    "priority": 261,
+    "path": "plugins.items.Microsoft Edge PDF Viewer",
+    "category": "PluginArray",
+    "severity": "MEDIUM",
+    "status": "REMOVED",
+    "recommendation": "Investigate and align Playwright plugins.items.Microsoft Edge PDF Viewer with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.25,
+    "confidence": "Medium"
+  },
+  {
+    "priority": 262,
+    "path": "plugins.items.PDF Viewer",
+    "category": "PluginArray",
+    "severity": "MEDIUM",
+    "status": "REMOVED",
+    "recommendation": "Investigate and align Playwright plugins.items.PDF Viewer with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.25,
+    "confidence": "Medium"
+  },
+  {
+    "priority": 263,
+    "path": "plugins.items.WebKit built-in PDF",
+    "category": "PluginArray",
+    "severity": "MEDIUM",
+    "status": "REMOVED",
+    "recommendation": "Investigate and align Playwright plugins.items.WebKit built-in PDF with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.25,
+    "confidence": "Medium"
+  },
+  {
+    "priority": 264,
+    "path": "plugins.length",
+    "category": "PluginArray",
+    "severity": "MEDIUM",
+    "status": "CHANGED",
+    "recommendation": "Investigate and align Playwright plugins.length with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.25,
+    "confidence": "Medium"
+  },
+  {
+    "priority": 265,
+    "path": "plugins.ownProperties",
+    "category": "PluginArray",
+    "severity": "MEDIUM",
+    "status": "ADDED",
+    "recommendation": "Investigate and align Playwright plugins.ownProperties with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.25,
+    "confidence": "Medium"
+  },
+  {
+    "priority": 266,
+    "path": "plugins.ownProperties[0]",
+    "category": "PluginArray",
+    "severity": "MEDIUM",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright plugins.ownProperties[0] with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.25,
+    "confidence": "Medium"
+  },
+  {
+    "priority": 267,
+    "path": "plugins.ownProperties[1]",
+    "category": "PluginArray",
+    "severity": "MEDIUM",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright plugins.ownProperties[1] with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.25,
+    "confidence": "Medium"
+  },
+  {
+    "priority": 268,
+    "path": "plugins.ownProperties[2]",
+    "category": "PluginArray",
+    "severity": "MEDIUM",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright plugins.ownProperties[2] with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.25,
+    "confidence": "Medium"
+  },
+  {
+    "priority": 269,
+    "path": "plugins.ownProperties[3]",
+    "category": "PluginArray",
+    "severity": "MEDIUM",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright plugins.ownProperties[3] with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.25,
+    "confidence": "Medium"
+  },
+  {
+    "priority": 270,
+    "path": "plugins.ownProperties[4]",
+    "category": "PluginArray",
+    "severity": "MEDIUM",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright plugins.ownProperties[4] with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.25,
+    "confidence": "Medium"
+  },
+  {
+    "priority": 271,
+    "path": "plugins.ownProperties[5]",
+    "category": "PluginArray",
+    "severity": "MEDIUM",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright plugins.ownProperties[5] with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.25,
+    "confidence": "Medium"
+  },
+  {
+    "priority": 272,
+    "path": "plugins.ownProperties[6]",
+    "category": "PluginArray",
+    "severity": "MEDIUM",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright plugins.ownProperties[6] with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.25,
+    "confidence": "Medium"
+  },
+  {
+    "priority": 273,
+    "path": "plugins.ownProperties[7]",
+    "category": "PluginArray",
+    "severity": "MEDIUM",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright plugins.ownProperties[7] with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.25,
+    "confidence": "Medium"
+  },
+  {
+    "priority": 274,
+    "path": "plugins.ownProperties[8]",
+    "category": "PluginArray",
+    "severity": "MEDIUM",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright plugins.ownProperties[8] with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.25,
+    "confidence": "Medium"
+  },
+  {
+    "priority": 275,
+    "path": "plugins.ownProperties[9]",
+    "category": "PluginArray",
+    "severity": "MEDIUM",
+    "status": "MISSING",
+    "recommendation": "Investigate and align Playwright plugins.ownProperties[9] with the Real Browser baseline without replacing native constructors.",
+    "expected_similarity_gain": 0.25,
+    "confidence": "Medium"
+  }
+]

@@ -1,0 +1,2701 @@
+{
+  "RTCDataChannel": {
+    "exists": true,
+    "name": "RTCDataChannel",
+    "chain": [
+      "RTCDataChannel",
+      "EventTarget",
+      "Object"
+    ],
+    "ownProperties": [
+      "Symbol(Symbol.toStringTag)",
+      "binaryType",
+      "bufferedAmount",
+      "bufferedAmountLowThreshold",
+      "close",
+      "constructor",
+      "id",
+      "label",
+      "maxPacketLifeTime",
+      "maxRetransmits",
+      "negotiated",
+      "onbufferedamountlow",
+      "onclose",
+      "onclosing",
+      "onerror",
+      "onmessage",
+      "onopen",
+      "ordered",
+      "protocol",
+      "readyState",
+      "reliable",
+      "send"
+    ],
+    "symbolToStringTag": {
+      "configurable": true,
+      "enumerable": false,
+      "writable": false,
+      "hasGetter": false,
+      "hasSetter": false,
+      "valueType": "string",
+      "getterSource": null,
+      "setterSource": null,
+      "valueSource": null
+    },
+    "instanceofObject": true,
+    "constructorIdentity": true,
+    "instanceof": {
+      "prototypeInstanceofConstructor": false,
+      "objectPrototypeIsPrototypeOf": true
+    },
+    "descriptors": {
+      "binaryType": {
+        "configurable": true,
+        "enumerable": true,
+        "writable": null,
+        "hasGetter": true,
+        "hasSetter": true,
+        "valueType": null,
+        "getterSource": "function get binaryType() { [native code] }",
+        "setterSource": "function set binaryType() { [native code] }",
+        "valueSource": null
+      },
+      "bufferedAmount": {
+        "configurable": true,
+        "enumerable": true,
+        "writable": null,
+        "hasGetter": true,
+        "hasSetter": false,
+        "valueType": null,
+        "getterSource": "function get bufferedAmount() { [native code] }",
+        "setterSource": null,
+        "valueSource": null
+      },
+      "bufferedAmountLowThreshold": {
+        "configurable": true,
+        "enumerable": true,
+        "writable": null,
+        "hasGetter": true,
+        "hasSetter": true,
+        "valueType": null,
+        "getterSource": "function get bufferedAmountLowThreshold() { [native code] }",
+        "setterSource": "function set bufferedAmountLowThreshold() { [native code] }",
+        "valueSource": null
+      },
+      "close": {
+        "configurable": true,
+        "enumerable": true,
+        "writable": true,
+        "hasGetter": false,
+        "hasSetter": false,
+        "valueType": "function",
+        "getterSource": null,
+        "setterSource": null,
+        "valueSource": "function close() { [native code] }"
+      },
+      "constructor": {
+        "configurable": true,
+        "enumerable": false,
+        "writable": true,
+        "hasGetter": false,
+        "hasSetter": false,
+        "valueType": "function",
+        "getterSource": null,
+        "setterSource": null,
+        "valueSource": "function RTCDataChannel() { [native code] }"
+      },
+      "id": {
+        "configurable": true,
+        "enumerable": true,
+        "writable": null,
+        "hasGetter": true,
+        "hasSetter": false,
+        "valueType": null,
+        "getterSource": "function get id() { [native code] }",
+        "setterSource": null,
+        "valueSource": null
+      },
+      "label": {
+        "configurable": true,
+        "enumerable": true,
+        "writable": null,
+        "hasGetter": true,
+        "hasSetter": false,
+        "valueType": null,
+        "getterSource": "function get label() { [native code] }",
+        "setterSource": null,
+        "valueSource": null
+      },
+      "maxPacketLifeTime": {
+        "configurable": true,
+        "enumerable": true,
+        "writable": null,
+        "hasGetter": true,
+        "hasSetter": false,
+        "valueType": null,
+        "getterSource": "function get maxPacketLifeTime() { [native code] }",
+        "setterSource": null,
+        "valueSource": null
+      },
+      "maxRetransmits": {
+        "configurable": true,
+        "enumerable": true,
+        "writable": null,
+        "hasGetter": true,
+        "hasSetter": false,
+        "valueType": null,
+        "getterSource": "function get maxRetransmits() { [native code] }",
+        "setterSource": null,
+        "valueSource": null
+      },
+      "negotiated": {
+        "configurable": true,
+        "enumerable": true,
+        "writable": null,
+        "hasGetter": true,
+        "hasSetter": false,
+        "valueType": null,
+        "getterSource": "function get negotiated() { [native code] }",
+        "setterSource": null,
+        "valueSource": null
+      },
+      "onbufferedamountlow": {
+        "configurable": true,
+        "enumerable": true,
+        "writable": null,
+        "hasGetter": true,
+        "hasSetter": true,
+        "valueType": null,
+        "getterSource": "function get onbufferedamountlow() { [native code] }",
+        "setterSource": "function set onbufferedamountlow() { [native code] }",
+        "valueSource": null
+      },
+      "onclose": {
+        "configurable": true,
+        "enumerable": true,
+        "writable": null,
+        "hasGetter": true,
+        "hasSetter": true,
+        "valueType": null,
+        "getterSource": "function get onclose() { [native code] }",
+        "setterSource": "function set onclose() { [native code] }",
+        "valueSource": null
+      },
+      "onclosing": {
+        "configurable": true,
+        "enumerable": true,
+        "writable": null,
+        "hasGetter": true,
+        "hasSetter": true,
+        "valueType": null,
+        "getterSource": "function get onclosing() { [native code] }",
+        "setterSource": "function set onclosing() { [native code] }",
+        "valueSource": null
+      },
+      "onerror": {
+        "configurable": true,
+        "enumerable": true,
+        "writable": null,
+        "hasGetter": true,
+        "hasSetter": true,
+        "valueType": null,
+        "getterSource": "function get onerror() { [native code] }",
+        "setterSource": "function set onerror() { [native code] }",
+        "valueSource": null
+      },
+      "onmessage": {
+        "configurable": true,
+        "enumerable": true,
+        "writable": null,
+        "hasGetter": true,
+        "hasSetter": true,
+        "valueType": null,
+        "getterSource": "function get onmessage() { [native code] }",
+        "setterSource": "function set onmessage() { [native code] }",
+        "valueSource": null
+      },
+      "onopen": {
+        "configurable": true,
+        "enumerable": true,
+        "writable": null,
+        "hasGetter": true,
+        "hasSetter": true,
+        "valueType": null,
+        "getterSource": "function get onopen() { [native code] }",
+        "setterSource": "function set onopen() { [native code] }",
+        "valueSource": null
+      },
+      "ordered": {
+        "configurable": true,
+        "enumerable": true,
+        "writable": null,
+        "hasGetter": true,
+        "hasSetter": false,
+        "valueType": null,
+        "getterSource": "function get ordered() { [native code] }",
+        "setterSource": null,
+        "valueSource": null
+      },
+      "protocol": {
+        "configurable": true,
+        "enumerable": true,
+        "writable": null,
+        "hasGetter": true,
+        "hasSetter": false,
+        "valueType": null,
+        "getterSource": "function get protocol() { [native code] }",
+        "setterSource": null,
+        "valueSource": null
+      },
+      "readyState": {
+        "configurable": true,
+        "enumerable": true,
+        "writable": null,
+        "hasGetter": true,
+        "hasSetter": false,
+        "valueType": null,
+        "getterSource": "function get readyState() { [native code] }",
+        "setterSource": null,
+        "valueSource": null
+      },
+      "reliable": {
+        "configurable": true,
+        "enumerable": true,
+        "writable": null,
+        "hasGetter": true,
+        "hasSetter": false,
+        "valueType": null,
+        "getterSource": "function get reliable() { [native code] }",
+        "setterSource": null,
+        "valueSource": null
+      },
+      "send": {
+        "configurable": true,
+        "enumerable": true,
+        "writable": true,
+        "hasGetter": false,
+        "hasSetter": false,
+        "valueType": "function",
+        "getterSource": null,
+        "setterSource": null,
+        "valueSource": "function send() { [native code] }"
+      },
+      "Symbol(Symbol.toStringTag)": {
+        "configurable": true,
+        "enumerable": false,
+        "writable": false,
+        "hasGetter": false,
+        "hasSetter": false,
+        "valueType": "string",
+        "getterSource": null,
+        "setterSource": null,
+        "valueSource": null
+      }
+    },
+    "methods": {
+      "close": {
+        "available": true,
+        "typeof": "function",
+        "source": "function close() { [native code] }",
+        "nativeSource": true,
+        "descriptor": {
+          "configurable": true,
+          "enumerable": true,
+          "writable": true,
+          "hasGetter": false,
+          "hasSetter": false,
+          "valueType": "function",
+          "getterSource": null,
+          "setterSource": null,
+          "valueSource": "function close() { [native code] }"
+        }
+      },
+      "constructor": {
+        "available": true,
+        "typeof": "function",
+        "source": "function RTCDataChannel() { [native code] }",
+        "nativeSource": true,
+        "descriptor": {
+          "configurable": true,
+          "enumerable": false,
+          "writable": true,
+          "hasGetter": false,
+          "hasSetter": false,
+          "valueType": "function",
+          "getterSource": null,
+          "setterSource": null,
+          "valueSource": "function RTCDataChannel() { [native code] }"
+        }
+      },
+      "send": {
+        "available": true,
+        "typeof": "function",
+        "source": "function send() { [native code] }",
+        "nativeSource": true,
+        "descriptor": {
+          "configurable": true,
+          "enumerable": true,
+          "writable": true,
+          "hasGetter": false,
+          "hasSetter": false,
+          "valueType": "function",
+          "getterSource": null,
+          "setterSource": null,
+          "valueSource": "function send() { [native code] }"
+        }
+      }
+    },
+    "illegalInvocation": {
+      "close": true,
+      "constructor": true,
+      "send": true
+    }
+  },
+  "RTCIceCandidate": {
+    "exists": true,
+    "name": "RTCIceCandidate",
+    "chain": [
+      "RTCIceCandidate",
+      "Object"
+    ],
+    "ownProperties": [
+      "Symbol(Symbol.toStringTag)",
+      "address",
+      "candidate",
+      "component",
+      "constructor",
+      "foundation",
+      "port",
+      "priority",
+      "protocol",
+      "relatedAddress",
+      "relatedPort",
+      "relayProtocol",
+      "sdpMLineIndex",
+      "sdpMid",
+      "tcpType",
+      "toJSON",
+      "type",
+      "url",
+      "usernameFragment"
+    ],
+    "symbolToStringTag": {
+      "configurable": true,
+      "enumerable": false,
+      "writable": false,
+      "hasGetter": false,
+      "hasSetter": false,
+      "valueType": "string",
+      "getterSource": null,
+      "setterSource": null,
+      "valueSource": null
+    },
+    "instanceofObject": true,
+    "constructorIdentity": true,
+    "instanceof": {
+      "prototypeInstanceofConstructor": false,
+      "objectPrototypeIsPrototypeOf": true
+    },
+    "descriptors": {
+      "address": {
+        "configurable": true,
+        "enumerable": true,
+        "writable": null,
+        "hasGetter": true,
+        "hasSetter": false,
+        "valueType": null,
+        "getterSource": "function get address() { [native code] }",
+        "setterSource": null,
+        "valueSource": null
+      },
+      "candidate": {
+        "configurable": true,
+        "enumerable": true,
+        "writable": null,
+        "hasGetter": true,
+        "hasSetter": false,
+        "valueType": null,
+        "getterSource": "function get candidate() { [native code] }",
+        "setterSource": null,
+        "valueSource": null
+      },
+      "component": {
+        "configurable": true,
+        "enumerable": true,
+        "writable": null,
+        "hasGetter": true,
+        "hasSetter": false,
+        "valueType": null,
+        "getterSource": "function get component() { [native code] }",
+        "setterSource": null,
+        "valueSource": null
+      },
+      "constructor": {
+        "configurable": true,
+        "enumerable": false,
+        "writable": true,
+        "hasGetter": false,
+        "hasSetter": false,
+        "valueType": "function",
+        "getterSource": null,
+        "setterSource": null,
+        "valueSource": "function RTCIceCandidate() { [native code] }"
+      },
+      "foundation": {
+        "configurable": true,
+        "enumerable": true,
+        "writable": null,
+        "hasGetter": true,
+        "hasSetter": false,
+        "valueType": null,
+        "getterSource": "function get foundation() { [native code] }",
+        "setterSource": null,
+        "valueSource": null
+      },
+      "port": {
+        "configurable": true,
+        "enumerable": true,
+        "writable": null,
+        "hasGetter": true,
+        "hasSetter": false,
+        "valueType": null,
+        "getterSource": "function get port() { [native code] }",
+        "setterSource": null,
+        "valueSource": null
+      },
+      "priority": {
+        "configurable": true,
+        "enumerable": true,
+        "writable": null,
+        "hasGetter": true,
+        "hasSetter": false,
+        "valueType": null,
+        "getterSource": "function get priority() { [native code] }",
+        "setterSource": null,
+        "valueSource": null
+      },
+      "protocol": {
+        "configurable": true,
+        "enumerable": true,
+        "writable": null,
+        "hasGetter": true,
+        "hasSetter": false,
+        "valueType": null,
+        "getterSource": "function get protocol() { [native code] }",
+        "setterSource": null,
+        "valueSource": null
+      },
+      "relatedAddress": {
+        "configurable": true,
+        "enumerable": true,
+        "writable": null,
+        "hasGetter": true,
+        "hasSetter": false,
+        "valueType": null,
+        "getterSource": "function get relatedAddress() { [native code] }",
+        "setterSource": null,
+        "valueSource": null
+      },
+      "relatedPort": {
+        "configurable": true,
+        "enumerable": true,
+        "writable": null,
+        "hasGetter": true,
+        "hasSetter": false,
+        "valueType": null,
+        "getterSource": "function get relatedPort() { [native code] }",
+        "setterSource": null,
+        "valueSource": null
+      },
+      "relayProtocol": {
+        "configurable": true,
+        "enumerable": true,
+        "writable": null,
+        "hasGetter": true,
+        "hasSetter": false,
+        "valueType": null,
+        "getterSource": "function get relayProtocol() { [native code] }",
+        "setterSource": null,
+        "valueSource": null
+      },
+      "sdpMid": {
+        "configurable": true,
+        "enumerable": true,
+        "writable": null,
+        "hasGetter": true,
+        "hasSetter": false,
+        "valueType": null,
+        "getterSource": "function get sdpMid() { [native code] }",
+        "setterSource": null,
+        "valueSource": null
+      },
+      "sdpMLineIndex": {
+        "configurable": true,
+        "enumerable": true,
+        "writable": null,
+        "hasGetter": true,
+        "hasSetter": false,
+        "valueType": null,
+        "getterSource": "function get sdpMLineIndex() { [native code] }",
+        "setterSource": null,
+        "valueSource": null
+      },
+      "Symbol(Symbol.toStringTag)": {
+        "configurable": true,
+        "enumerable": false,
+        "writable": false,
+        "hasGetter": false,
+        "hasSetter": false,
+        "valueType": "string",
+        "getterSource": null,
+        "setterSource": null,
+        "valueSource": null
+      },
+      "tcpType": {
+        "configurable": true,
+        "enumerable": true,
+        "writable": null,
+        "hasGetter": true,
+        "hasSetter": false,
+        "valueType": null,
+        "getterSource": "function get tcpType() { [native code] }",
+        "setterSource": null,
+        "valueSource": null
+      },
+      "toJSON": {
+        "configurable": true,
+        "enumerable": true,
+        "writable": true,
+        "hasGetter": false,
+        "hasSetter": false,
+        "valueType": "function",
+        "getterSource": null,
+        "setterSource": null,
+        "valueSource": "function toJSON() { [native code] }"
+      },
+      "type": {
+        "configurable": true,
+        "enumerable": true,
+        "writable": null,
+        "hasGetter": true,
+        "hasSetter": false,
+        "valueType": null,
+        "getterSource": "function get type() { [native code] }",
+        "setterSource": null,
+        "valueSource": null
+      },
+      "url": {
+        "configurable": true,
+        "enumerable": true,
+        "writable": null,
+        "hasGetter": true,
+        "hasSetter": false,
+        "valueType": null,
+        "getterSource": "function get url() { [native code] }",
+        "setterSource": null,
+        "valueSource": null
+      },
+      "usernameFragment": {
+        "configurable": true,
+        "enumerable": true,
+        "writable": null,
+        "hasGetter": true,
+        "hasSetter": false,
+        "valueType": null,
+        "getterSource": "function get usernameFragment() { [native code] }",
+        "setterSource": null,
+        "valueSource": null
+      }
+    },
+    "methods": {
+      "constructor": {
+        "available": true,
+        "typeof": "function",
+        "source": "function RTCIceCandidate() { [native code] }",
+        "nativeSource": true,
+        "descriptor": {
+          "configurable": true,
+          "enumerable": false,
+          "writable": true,
+          "hasGetter": false,
+          "hasSetter": false,
+          "valueType": "function",
+          "getterSource": null,
+          "setterSource": null,
+          "valueSource": "function RTCIceCandidate() { [native code] }"
+        }
+      },
+      "toJSON": {
+        "available": true,
+        "typeof": "function",
+        "source": "function toJSON() { [native code] }",
+        "nativeSource": true,
+        "descriptor": {
+          "configurable": true,
+          "enumerable": true,
+          "writable": true,
+          "hasGetter": false,
+          "hasSetter": false,
+          "valueType": "function",
+          "getterSource": null,
+          "setterSource": null,
+          "valueSource": "function toJSON() { [native code] }"
+        }
+      }
+    },
+    "illegalInvocation": {
+      "constructor": true,
+      "toJSON": true
+    }
+  },
+  "RTCPeerConnection": {
+    "exists": true,
+    "name": "RTCPeerConnection",
+    "chain": [
+      "RTCPeerConnection",
+      "EventTarget",
+      "Object"
+    ],
+    "ownProperties": [
+      "Symbol(Symbol.toStringTag)",
+      "addIceCandidate",
+      "addStream",
+      "addTrack",
+      "addTransceiver",
+      "canTrickleIceCandidates",
+      "close",
+      "connectionState",
+      "constructor",
+      "createAnswer",
+      "createDTMFSender",
+      "createDataChannel",
+      "createOffer",
+      "currentLocalDescription",
+      "currentRemoteDescription",
+      "getConfiguration",
+      "getLocalStreams",
+      "getReceivers",
+      "getRemoteStreams",
+      "getSenders",
+      "getStats",
+      "getTransceivers",
+      "iceConnectionState",
+      "iceGatheringState",
+      "localDescription",
+      "onaddstream",
+      "onconnectionstatechange",
+      "ondatachannel",
+      "onicecandidate",
+      "onicecandidateerror",
+      "oniceconnectionstatechange",
+      "onicegatheringstatechange",
+      "onnegotiationneeded",
+      "onremovestream",
+      "onsignalingstatechange",
+      "ontrack",
+      "pendingLocalDescription",
+      "pendingRemoteDescription",
+      "remoteDescription",
+      "removeStream",
+      "removeTrack",
+      "restartIce",
+      "sctp",
+      "setConfiguration",
+      "setLocalDescription",
+      "setRemoteDescription",
+      "signalingState"
+    ],
+    "symbolToStringTag": {
+      "configurable": true,
+      "enumerable": false,
+      "writable": false,
+      "hasGetter": false,
+      "hasSetter": false,
+      "valueType": "string",
+      "getterSource": null,
+      "setterSource": null,
+      "valueSource": null
+    },
+    "instanceofObject": true,
+    "constructorIdentity": true,
+    "instanceof": {
+      "prototypeInstanceofConstructor": false,
+      "objectPrototypeIsPrototypeOf": true
+    },
+    "descriptors": {
+      "addIceCandidate": {
+        "configurable": true,
+        "enumerable": true,
+        "writable": true,
+        "hasGetter": false,
+        "hasSetter": false,
+        "valueType": "function",
+        "getterSource": null,
+        "setterSource": null,
+        "valueSource": "function addIceCandidate() { [native code] }"
+      },
+      "addStream": {
+        "configurable": true,
+        "enumerable": true,
+        "writable": true,
+        "hasGetter": false,
+        "hasSetter": false,
+        "valueType": "function",
+        "getterSource": null,
+        "setterSource": null,
+        "valueSource": "function addStream() { [native code] }"
+      },
+      "addTrack": {
+        "configurable": true,
+        "enumerable": true,
+        "writable": true,
+        "hasGetter": false,
+        "hasSetter": false,
+        "valueType": "function",
+        "getterSource": null,
+        "setterSource": null,
+        "valueSource": "function addTrack() { [native code] }"
+      },
+      "addTransceiver": {
+        "configurable": true,
+        "enumerable": true,
+        "writable": true,
+        "hasGetter": false,
+        "hasSetter": false,
+        "valueType": "function",
+        "getterSource": null,
+        "setterSource": null,
+        "valueSource": "function addTransceiver() { [native code] }"
+      },
+      "canTrickleIceCandidates": {
+        "configurable": true,
+        "enumerable": true,
+        "writable": null,
+        "hasGetter": true,
+        "hasSetter": false,
+        "valueType": null,
+        "getterSource": "function get canTrickleIceCandidates() { [native code] }",
+        "setterSource": null,
+        "valueSource": null
+      },
+      "close": {
+        "configurable": true,
+        "enumerable": true,
+        "writable": true,
+        "hasGetter": false,
+        "hasSetter": false,
+        "valueType": "function",
+        "getterSource": null,
+        "setterSource": null,
+        "valueSource": "function close() { [native code] }"
+      },
+      "connectionState": {
+        "configurable": true,
+        "enumerable": true,
+        "writable": null,
+        "hasGetter": true,
+        "hasSetter": false,
+        "valueType": null,
+        "getterSource": "function get connectionState() { [native code] }",
+        "setterSource": null,
+        "valueSource": null
+      },
+      "constructor": {
+        "configurable": true,
+        "enumerable": false,
+        "writable": true,
+        "hasGetter": false,
+        "hasSetter": false,
+        "valueType": "function",
+        "getterSource": null,
+        "setterSource": null,
+        "valueSource": "function RTCPeerConnection() { [native code] }"
+      },
+      "createAnswer": {
+        "configurable": true,
+        "enumerable": true,
+        "writable": true,
+        "hasGetter": false,
+        "hasSetter": false,
+        "valueType": "function",
+        "getterSource": null,
+        "setterSource": null,
+        "valueSource": "function createAnswer() { [native code] }"
+      },
+      "createDataChannel": {
+        "configurable": true,
+        "enumerable": true,
+        "writable": true,
+        "hasGetter": false,
+        "hasSetter": false,
+        "valueType": "function",
+        "getterSource": null,
+        "setterSource": null,
+        "valueSource": "function createDataChannel() { [native code] }"
+      },
+      "createDTMFSender": {
+        "configurable": true,
+        "enumerable": true,
+        "writable": true,
+        "hasGetter": false,
+        "hasSetter": false,
+        "valueType": "function",
+        "getterSource": null,
+        "setterSource": null,
+        "valueSource": "function createDTMFSender() { [native code] }"
+      },
+      "createOffer": {
+        "configurable": true,
+        "enumerable": true,
+        "writable": true,
+        "hasGetter": false,
+        "hasSetter": false,
+        "valueType": "function",
+        "getterSource": null,
+        "setterSource": null,
+        "valueSource": "function createOffer() { [native code] }"
+      },
+      "currentLocalDescription": {
+        "configurable": true,
+        "enumerable": true,
+        "writable": null,
+        "hasGetter": true,
+        "hasSetter": false,
+        "valueType": null,
+        "getterSource": "function get currentLocalDescription() { [native code] }",
+        "setterSource": null,
+        "valueSource": null
+      },
+      "currentRemoteDescription": {
+        "configurable": true,
+        "enumerable": true,
+        "writable": null,
+        "hasGetter": true,
+        "hasSetter": false,
+        "valueType": null,
+        "getterSource": "function get currentRemoteDescription() { [native code] }",
+        "setterSource": null,
+        "valueSource": null
+      },
+      "getConfiguration": {
+        "configurable": true,
+        "enumerable": true,
+        "writable": true,
+        "hasGetter": false,
+        "hasSetter": false,
+        "valueType": "function",
+        "getterSource": null,
+        "setterSource": null,
+        "valueSource": "function getConfiguration() { [native code] }"
+      },
+      "getLocalStreams": {
+        "configurable": true,
+        "enumerable": true,
+        "writable": true,
+        "hasGetter": false,
+        "hasSetter": false,
+        "valueType": "function",
+        "getterSource": null,
+        "setterSource": null,
+        "valueSource": "function getLocalStreams() { [native code] }"
+      },
+      "getReceivers": {
+        "configurable": true,
+        "enumerable": true,
+        "writable": true,
+        "hasGetter": false,
+        "hasSetter": false,
+        "valueType": "function",
+        "getterSource": null,
+        "setterSource": null,
+        "valueSource": "function getReceivers() { [native code] }"
+      },
+      "getRemoteStreams": {
+        "configurable": true,
+        "enumerable": true,
+        "writable": true,
+        "hasGetter": false,
+        "hasSetter": false,
+        "valueType": "function",
+        "getterSource": null,
+        "setterSource": null,
+        "valueSource": "function getRemoteStreams() { [native code] }"
+      },
+      "getSenders": {
+        "configurable": true,
+        "enumerable": true,
+        "writable": true,
+        "hasGetter": false,
+        "hasSetter": false,
+        "valueType": "function",
+        "getterSource": null,
+        "setterSource": null,
+        "valueSource": "function getSenders() { [native code] }"
+      },
+      "getStats": {
+        "configurable": true,
+        "enumerable": true,
+        "writable": true,
+        "hasGetter": false,
+        "hasSetter": false,
+        "valueType": "function",
+        "getterSource": null,
+        "setterSource": null,
+        "valueSource": "function getStats() { [native code] }"
+      },
+      "getTransceivers": {
+        "configurable": true,
+        "enumerable": true,
+        "writable": true,
+        "hasGetter": false,
+        "hasSetter": false,
+        "valueType": "function",
+        "getterSource": null,
+        "setterSource": null,
+        "valueSource": "function getTransceivers() { [native code] }"
+      },
+      "iceConnectionState": {
+        "configurable": true,
+        "enumerable": true,
+        "writable": null,
+        "hasGetter": true,
+        "hasSetter": false,
+        "valueType": null,
+        "getterSource": "function get iceConnectionState() { [native code] }",
+        "setterSource": null,
+        "valueSource": null
+      },
+      "iceGatheringState": {
+        "configurable": true,
+        "enumerable": true,
+        "writable": null,
+        "hasGetter": true,
+        "hasSetter": false,
+        "valueType": null,
+        "getterSource": "function get iceGatheringState() { [native code] }",
+        "setterSource": null,
+        "valueSource": null
+      },
+      "localDescription": {
+        "configurable": true,
+        "enumerable": true,
+        "writable": null,
+        "hasGetter": true,
+        "hasSetter": false,
+        "valueType": null,
+        "getterSource": "function get localDescription() { [native code] }",
+        "setterSource": null,
+        "valueSource": null
+      },
+      "onaddstream": {
+        "configurable": true,
+        "enumerable": true,
+        "writable": null,
+        "hasGetter": true,
+        "hasSetter": true,
+        "valueType": null,
+        "getterSource": "function get onaddstream() { [native code] }",
+        "setterSource": "function set onaddstream() { [native code] }",
+        "valueSource": null
+      },
+      "onconnectionstatechange": {
+        "configurable": true,
+        "enumerable": true,
+        "writable": null,
+        "hasGetter": true,
+        "hasSetter": true,
+        "valueType": null,
+        "getterSource": "function get onconnectionstatechange() { [native code] }",
+        "setterSource": "function set onconnectionstatechange() { [native code] }",
+        "valueSource": null
+      },
+      "ondatachannel": {
+        "configurable": true,
+        "enumerable": true,
+        "writable": null,
+        "hasGetter": true,
+        "hasSetter": true,
+        "valueType": null,
+        "getterSource": "function get ondatachannel() { [native code] }",
+        "setterSource": "function set ondatachannel() { [native code] }",
+        "valueSource": null
+      },
+      "onicecandidate": {
+        "configurable": true,
+        "enumerable": true,
+        "writable": null,
+        "hasGetter": true,
+        "hasSetter": true,
+        "valueType": null,
+        "getterSource": "function get onicecandidate() { [native code] }",
+        "setterSource": "function set onicecandidate() { [native code] }",
+        "valueSource": null
+      },
+      "onicecandidateerror": {
+        "configurable": true,
+        "enumerable": true,
+        "writable": null,
+        "hasGetter": true,
+        "hasSetter": true,
+        "valueType": null,
+        "getterSource": "function get onicecandidateerror() { [native code] }",
+        "setterSource": "function set onicecandidateerror() { [native code] }",
+        "valueSource": null
+      },
+      "oniceconnectionstatechange": {
+        "configurable": true,
+        "enumerable": true,
+        "writable": null,
+        "hasGetter": true,
+        "hasSetter": true,
+        "valueType": null,
+        "getterSource": "function get oniceconnectionstatechange() { [native code] }",
+        "setterSource": "function set oniceconnectionstatechange() { [native code] }",
+        "valueSource": null
+      },
+      "onicegatheringstatechange": {
+        "configurable": true,
+        "enumerable": true,
+        "writable": null,
+        "hasGetter": true,
+        "hasSetter": true,
+        "valueType": null,
+        "getterSource": "function get onicegatheringstatechange() { [native code] }",
+        "setterSource": "function set onicegatheringstatechange() { [native code] }",
+        "valueSource": null
+      },
+      "onnegotiationneeded": {
+        "configurable": true,
+        "enumerable": true,
+        "writable": null,
+        "hasGetter": true,
+        "hasSetter": true,
+        "valueType": null,
+        "getterSource": "function get onnegotiationneeded() { [native code] }",
+        "setterSource": "function set onnegotiationneeded() { [native code] }",
+        "valueSource": null
+      },
+      "onremovestream": {
+        "configurable": true,
+        "enumerable": true,
+        "writable": null,
+        "hasGetter": true,
+        "hasSetter": true,
+        "valueType": null,
+        "getterSource": "function get onremovestream() { [native code] }",
+        "setterSource": "function set onremovestream() { [native code] }",
+        "valueSource": null
+      },
+      "onsignalingstatechange": {
+        "configurable": true,
+        "enumerable": true,
+        "writable": null,
+        "hasGetter": true,
+        "hasSetter": true,
+        "valueType": null,
+        "getterSource": "function get onsignalingstatechange() { [native code] }",
+        "setterSource": "function set onsignalingstatechange() { [native code] }",
+        "valueSource": null
+      },
+      "ontrack": {
+        "configurable": true,
+        "enumerable": true,
+        "writable": null,
+        "hasGetter": true,
+        "hasSetter": true,
+        "valueType": null,
+        "getterSource": "function get ontrack() { [native code] }",
+        "setterSource": "function set ontrack() { [native code] }",
+        "valueSource": null
+      },
+      "pendingLocalDescription": {
+        "configurable": true,
+        "enumerable": true,
+        "writable": null,
+        "hasGetter": true,
+        "hasSetter": false,
+        "valueType": null,
+        "getterSource": "function get pendingLocalDescription() { [native code] }",
+        "setterSource": null,
+        "valueSource": null
+      },
+      "pendingRemoteDescription": {
+        "configurable": true,
+        "enumerable": true,
+        "writable": null,
+        "hasGetter": true,
+        "hasSetter": false,
+        "valueType": null,
+        "getterSource": "function get pendingRemoteDescription() { [native code] }",
+        "setterSource": null,
+        "valueSource": null
+      },
+      "remoteDescription": {
+        "configurable": true,
+        "enumerable": true,
+        "writable": null,
+        "hasGetter": true,
+        "hasSetter": false,
+        "valueType": null,
+        "getterSource": "function get remoteDescription() { [native code] }",
+        "setterSource": null,
+        "valueSource": null
+      },
+      "removeStream": {
+        "configurable": true,
+        "enumerable": true,
+        "writable": true,
+        "hasGetter": false,
+        "hasSetter": false,
+        "valueType": "function",
+        "getterSource": null,
+        "setterSource": null,
+        "valueSource": "function removeStream() { [native code] }"
+      },
+      "removeTrack": {
+        "configurable": true,
+        "enumerable": true,
+        "writable": true,
+        "hasGetter": false,
+        "hasSetter": false,
+        "valueType": "function",
+        "getterSource": null,
+        "setterSource": null,
+        "valueSource": "function removeTrack() { [native code] }"
+      },
+      "restartIce": {
+        "configurable": true,
+        "enumerable": true,
+        "writable": true,
+        "hasGetter": false,
+        "hasSetter": false,
+        "valueType": "function",
+        "getterSource": null,
+        "setterSource": null,
+        "valueSource": "function restartIce() { [native code] }"
+      },
+      "sctp": {
+        "configurable": true,
+        "enumerable": true,
+        "writable": null,
+        "hasGetter": true,
+        "hasSetter": false,
+        "valueType": null,
+        "getterSource": "function get sctp() { [native code] }",
+        "setterSource": null,
+        "valueSource": null
+      },
+      "setConfiguration": {
+        "configurable": true,
+        "enumerable": true,
+        "writable": true,
+        "hasGetter": false,
+        "hasSetter": false,
+        "valueType": "function",
+        "getterSource": null,
+        "setterSource": null,
+        "valueSource": "function setConfiguration() { [native code] }"
+      },
+      "setLocalDescription": {
+        "configurable": true,
+        "enumerable": true,
+        "writable": true,
+        "hasGetter": false,
+        "hasSetter": false,
+        "valueType": "function",
+        "getterSource": null,
+        "setterSource": null,
+        "valueSource": "function setLocalDescription() { [native code] }"
+      },
+      "setRemoteDescription": {
+        "configurable": true,
+        "enumerable": true,
+        "writable": true,
+        "hasGetter": false,
+        "hasSetter": false,
+        "valueType": "function",
+        "getterSource": null,
+        "setterSource": null,
+        "valueSource": "function setRemoteDescription() { [native code] }"
+      },
+      "signalingState": {
+        "configurable": true,
+        "enumerable": true,
+        "writable": null,
+        "hasGetter": true,
+        "hasSetter": false,
+        "valueType": null,
+        "getterSource": "function get signalingState() { [native code] }",
+        "setterSource": null,
+        "valueSource": null
+      },
+      "Symbol(Symbol.toStringTag)": {
+        "configurable": true,
+        "enumerable": false,
+        "writable": false,
+        "hasGetter": false,
+        "hasSetter": false,
+        "valueType": "string",
+        "getterSource": null,
+        "setterSource": null,
+        "valueSource": null
+      }
+    },
+    "methods": {
+      "addIceCandidate": {
+        "available": true,
+        "typeof": "function",
+        "source": "function addIceCandidate() { [native code] }",
+        "nativeSource": true,
+        "descriptor": {
+          "configurable": true,
+          "enumerable": true,
+          "writable": true,
+          "hasGetter": false,
+          "hasSetter": false,
+          "valueType": "function",
+          "getterSource": null,
+          "setterSource": null,
+          "valueSource": "function addIceCandidate() { [native code] }"
+        }
+      },
+      "addStream": {
+        "available": true,
+        "typeof": "function",
+        "source": "function addStream() { [native code] }",
+        "nativeSource": true,
+        "descriptor": {
+          "configurable": true,
+          "enumerable": true,
+          "writable": true,
+          "hasGetter": false,
+          "hasSetter": false,
+          "valueType": "function",
+          "getterSource": null,
+          "setterSource": null,
+          "valueSource": "function addStream() { [native code] }"
+        }
+      },
+      "addTrack": {
+        "available": true,
+        "typeof": "function",
+        "source": "function addTrack() { [native code] }",
+        "nativeSource": true,
+        "descriptor": {
+          "configurable": true,
+          "enumerable": true,
+          "writable": true,
+          "hasGetter": false,
+          "hasSetter": false,
+          "valueType": "function",
+          "getterSource": null,
+          "setterSource": null,
+          "valueSource": "function addTrack() { [native code] }"
+        }
+      },
+      "addTransceiver": {
+        "available": true,
+        "typeof": "function",
+        "source": "function addTransceiver() { [native code] }",
+        "nativeSource": true,
+        "descriptor": {
+          "configurable": true,
+          "enumerable": true,
+          "writable": true,
+          "hasGetter": false,
+          "hasSetter": false,
+          "valueType": "function",
+          "getterSource": null,
+          "setterSource": null,
+          "valueSource": "function addTransceiver() { [native code] }"
+        }
+      },
+      "close": {
+        "available": true,
+        "typeof": "function",
+        "source": "function close() { [native code] }",
+        "nativeSource": true,
+        "descriptor": {
+          "configurable": true,
+          "enumerable": true,
+          "writable": true,
+          "hasGetter": false,
+          "hasSetter": false,
+          "valueType": "function",
+          "getterSource": null,
+          "setterSource": null,
+          "valueSource": "function close() { [native code] }"
+        }
+      },
+      "constructor": {
+        "available": true,
+        "typeof": "function",
+        "source": "function RTCPeerConnection() { [native code] }",
+        "nativeSource": true,
+        "descriptor": {
+          "configurable": true,
+          "enumerable": false,
+          "writable": true,
+          "hasGetter": false,
+          "hasSetter": false,
+          "valueType": "function",
+          "getterSource": null,
+          "setterSource": null,
+          "valueSource": "function RTCPeerConnection() { [native code] }"
+        }
+      },
+      "createAnswer": {
+        "available": true,
+        "typeof": "function",
+        "source": "function createAnswer() { [native code] }",
+        "nativeSource": true,
+        "descriptor": {
+          "configurable": true,
+          "enumerable": true,
+          "writable": true,
+          "hasGetter": false,
+          "hasSetter": false,
+          "valueType": "function",
+          "getterSource": null,
+          "setterSource": null,
+          "valueSource": "function createAnswer() { [native code] }"
+        }
+      },
+      "createDataChannel": {
+        "available": true,
+        "typeof": "function",
+        "source": "function createDataChannel() { [native code] }",
+        "nativeSource": true,
+        "descriptor": {
+          "configurable": true,
+          "enumerable": true,
+          "writable": true,
+          "hasGetter": false,
+          "hasSetter": false,
+          "valueType": "function",
+          "getterSource": null,
+          "setterSource": null,
+          "valueSource": "function createDataChannel() { [native code] }"
+        }
+      },
+      "createDTMFSender": {
+        "available": true,
+        "typeof": "function",
+        "source": "function createDTMFSender() { [native code] }",
+        "nativeSource": true,
+        "descriptor": {
+          "configurable": true,
+          "enumerable": true,
+          "writable": true,
+          "hasGetter": false,
+          "hasSetter": false,
+          "valueType": "function",
+          "getterSource": null,
+          "setterSource": null,
+          "valueSource": "function createDTMFSender() { [native code] }"
+        }
+      },
+      "createOffer": {
+        "available": true,
+        "typeof": "function",
+        "source": "function createOffer() { [native code] }",
+        "nativeSource": true,
+        "descriptor": {
+          "configurable": true,
+          "enumerable": true,
+          "writable": true,
+          "hasGetter": false,
+          "hasSetter": false,
+          "valueType": "function",
+          "getterSource": null,
+          "setterSource": null,
+          "valueSource": "function createOffer() { [native code] }"
+        }
+      },
+      "getConfiguration": {
+        "available": true,
+        "typeof": "function",
+        "source": "function getConfiguration() { [native code] }",
+        "nativeSource": true,
+        "descriptor": {
+          "configurable": true,
+          "enumerable": true,
+          "writable": true,
+          "hasGetter": false,
+          "hasSetter": false,
+          "valueType": "function",
+          "getterSource": null,
+          "setterSource": null,
+          "valueSource": "function getConfiguration() { [native code] }"
+        }
+      },
+      "getLocalStreams": {
+        "available": true,
+        "typeof": "function",
+        "source": "function getLocalStreams() { [native code] }",
+        "nativeSource": true,
+        "descriptor": {
+          "configurable": true,
+          "enumerable": true,
+          "writable": true,
+          "hasGetter": false,
+          "hasSetter": false,
+          "valueType": "function",
+          "getterSource": null,
+          "setterSource": null,
+          "valueSource": "function getLocalStreams() { [native code] }"
+        }
+      },
+      "getReceivers": {
+        "available": true,
+        "typeof": "function",
+        "source": "function getReceivers() { [native code] }",
+        "nativeSource": true,
+        "descriptor": {
+          "configurable": true,
+          "enumerable": true,
+          "writable": true,
+          "hasGetter": false,
+          "hasSetter": false,
+          "valueType": "function",
+          "getterSource": null,
+          "setterSource": null,
+          "valueSource": "function getReceivers() { [native code] }"
+        }
+      },
+      "getRemoteStreams": {
+        "available": true,
+        "typeof": "function",
+        "source": "function getRemoteStreams() { [native code] }",
+        "nativeSource": true,
+        "descriptor": {
+          "configurable": true,
+          "enumerable": true,
+          "writable": true,
+          "hasGetter": false,
+          "hasSetter": false,
+          "valueType": "function",
+          "getterSource": null,
+          "setterSource": null,
+          "valueSource": "function getRemoteStreams() { [native code] }"
+        }
+      },
+      "getSenders": {
+        "available": true,
+        "typeof": "function",
+        "source": "function getSenders() { [native code] }",
+        "nativeSource": true,
+        "descriptor": {
+          "configurable": true,
+          "enumerable": true,
+          "writable": true,
+          "hasGetter": false,
+          "hasSetter": false,
+          "valueType": "function",
+          "getterSource": null,
+          "setterSource": null,
+          "valueSource": "function getSenders() { [native code] }"
+        }
+      },
+      "getStats": {
+        "available": true,
+        "typeof": "function",
+        "source": "function getStats() { [native code] }",
+        "nativeSource": true,
+        "descriptor": {
+          "configurable": true,
+          "enumerable": true,
+          "writable": true,
+          "hasGetter": false,
+          "hasSetter": false,
+          "valueType": "function",
+          "getterSource": null,
+          "setterSource": null,
+          "valueSource": "function getStats() { [native code] }"
+        }
+      },
+      "getTransceivers": {
+        "available": true,
+        "typeof": "function",
+        "source": "function getTransceivers() { [native code] }",
+        "nativeSource": true,
+        "descriptor": {
+          "configurable": true,
+          "enumerable": true,
+          "writable": true,
+          "hasGetter": false,
+          "hasSetter": false,
+          "valueType": "function",
+          "getterSource": null,
+          "setterSource": null,
+          "valueSource": "function getTransceivers() { [native code] }"
+        }
+      },
+      "removeStream": {
+        "available": true,
+        "typeof": "function",
+        "source": "function removeStream() { [native code] }",
+        "nativeSource": true,
+        "descriptor": {
+          "configurable": true,
+          "enumerable": true,
+          "writable": true,
+          "hasGetter": false,
+          "hasSetter": false,
+          "valueType": "function",
+          "getterSource": null,
+          "setterSource": null,
+          "valueSource": "function removeStream() { [native code] }"
+        }
+      },
+      "removeTrack": {
+        "available": true,
+        "typeof": "function",
+        "source": "function removeTrack() { [native code] }",
+        "nativeSource": true,
+        "descriptor": {
+          "configurable": true,
+          "enumerable": true,
+          "writable": true,
+          "hasGetter": false,
+          "hasSetter": false,
+          "valueType": "function",
+          "getterSource": null,
+          "setterSource": null,
+          "valueSource": "function removeTrack() { [native code] }"
+        }
+      },
+      "restartIce": {
+        "available": true,
+        "typeof": "function",
+        "source": "function restartIce() { [native code] }",
+        "nativeSource": true,
+        "descriptor": {
+          "configurable": true,
+          "enumerable": true,
+          "writable": true,
+          "hasGetter": false,
+          "hasSetter": false,
+          "valueType": "function",
+          "getterSource": null,
+          "setterSource": null,
+          "valueSource": "function restartIce() { [native code] }"
+        }
+      },
+      "setConfiguration": {
+        "available": true,
+        "typeof": "function",
+        "source": "function setConfiguration() { [native code] }",
+        "nativeSource": true,
+        "descriptor": {
+          "configurable": true,
+          "enumerable": true,
+          "writable": true,
+          "hasGetter": false,
+          "hasSetter": false,
+          "valueType": "function",
+          "getterSource": null,
+          "setterSource": null,
+          "valueSource": "function setConfiguration() { [native code] }"
+        }
+      },
+      "setLocalDescription": {
+        "available": true,
+        "typeof": "function",
+        "source": "function setLocalDescription() { [native code] }",
+        "nativeSource": true,
+        "descriptor": {
+          "configurable": true,
+          "enumerable": true,
+          "writable": true,
+          "hasGetter": false,
+          "hasSetter": false,
+          "valueType": "function",
+          "getterSource": null,
+          "setterSource": null,
+          "valueSource": "function setLocalDescription() { [native code] }"
+        }
+      },
+      "setRemoteDescription": {
+        "available": true,
+        "typeof": "function",
+        "source": "function setRemoteDescription() { [native code] }",
+        "nativeSource": true,
+        "descriptor": {
+          "configurable": true,
+          "enumerable": true,
+          "writable": true,
+          "hasGetter": false,
+          "hasSetter": false,
+          "valueType": "function",
+          "getterSource": null,
+          "setterSource": null,
+          "valueSource": "function setRemoteDescription() { [native code] }"
+        }
+      }
+    },
+    "illegalInvocation": {
+      "addIceCandidate": false,
+      "addStream": true,
+      "addTrack": true,
+      "addTransceiver": true,
+      "close": true,
+      "constructor": true,
+      "createAnswer": false,
+      "createDataChannel": true,
+      "createDTMFSender": true,
+      "createOffer": false,
+      "getConfiguration": true,
+      "getLocalStreams": true,
+      "getReceivers": true,
+      "getRemoteStreams": true,
+      "getSenders": true,
+      "getStats": false,
+      "getTransceivers": true,
+      "removeStream": true,
+      "removeTrack": true,
+      "restartIce": true,
+      "setConfiguration": true,
+      "setLocalDescription": false,
+      "setRemoteDescription": false
+    }
+  },
+  "RTCRtpReceiver": {
+    "exists": true,
+    "name": "RTCRtpReceiver",
+    "chain": [
+      "RTCRtpReceiver",
+      "Object"
+    ],
+    "ownProperties": [
+      "Symbol(Symbol.toStringTag)",
+      "constructor",
+      "createEncodedStreams",
+      "getContributingSources",
+      "getParameters",
+      "getStats",
+      "getSynchronizationSources",
+      "jitterBufferTarget",
+      "playoutDelayHint",
+      "rtcpTransport",
+      "track",
+      "transform",
+      "transport"
+    ],
+    "symbolToStringTag": {
+      "configurable": true,
+      "enumerable": false,
+      "writable": false,
+      "hasGetter": false,
+      "hasSetter": false,
+      "valueType": "string",
+      "getterSource": null,
+      "setterSource": null,
+      "valueSource": null
+    },
+    "instanceofObject": true,
+    "constructorIdentity": true,
+    "instanceof": {
+      "prototypeInstanceofConstructor": false,
+      "objectPrototypeIsPrototypeOf": true
+    },
+    "descriptors": {
+      "constructor": {
+        "configurable": true,
+        "enumerable": false,
+        "writable": true,
+        "hasGetter": false,
+        "hasSetter": false,
+        "valueType": "function",
+        "getterSource": null,
+        "setterSource": null,
+        "valueSource": "function RTCRtpReceiver() { [native code] }"
+      },
+      "createEncodedStreams": {
+        "configurable": true,
+        "enumerable": true,
+        "writable": true,
+        "hasGetter": false,
+        "hasSetter": false,
+        "valueType": "function",
+        "getterSource": null,
+        "setterSource": null,
+        "valueSource": "function createEncodedStreams() { [native code] }"
+      },
+      "getContributingSources": {
+        "configurable": true,
+        "enumerable": true,
+        "writable": true,
+        "hasGetter": false,
+        "hasSetter": false,
+        "valueType": "function",
+        "getterSource": null,
+        "setterSource": null,
+        "valueSource": "function getContributingSources() { [native code] }"
+      },
+      "getParameters": {
+        "configurable": true,
+        "enumerable": true,
+        "writable": true,
+        "hasGetter": false,
+        "hasSetter": false,
+        "valueType": "function",
+        "getterSource": null,
+        "setterSource": null,
+        "valueSource": "function getParameters() { [native code] }"
+      },
+      "getStats": {
+        "configurable": true,
+        "enumerable": true,
+        "writable": true,
+        "hasGetter": false,
+        "hasSetter": false,
+        "valueType": "function",
+        "getterSource": null,
+        "setterSource": null,
+        "valueSource": "function getStats() { [native code] }"
+      },
+      "getSynchronizationSources": {
+        "configurable": true,
+        "enumerable": true,
+        "writable": true,
+        "hasGetter": false,
+        "hasSetter": false,
+        "valueType": "function",
+        "getterSource": null,
+        "setterSource": null,
+        "valueSource": "function getSynchronizationSources() { [native code] }"
+      },
+      "jitterBufferTarget": {
+        "configurable": true,
+        "enumerable": true,
+        "writable": null,
+        "hasGetter": true,
+        "hasSetter": true,
+        "valueType": null,
+        "getterSource": "function get jitterBufferTarget() { [native code] }",
+        "setterSource": "function set jitterBufferTarget() { [native code] }",
+        "valueSource": null
+      },
+      "playoutDelayHint": {
+        "configurable": true,
+        "enumerable": true,
+        "writable": null,
+        "hasGetter": true,
+        "hasSetter": true,
+        "valueType": null,
+        "getterSource": "function get playoutDelayHint() { [native code] }",
+        "setterSource": "function set playoutDelayHint() { [native code] }",
+        "valueSource": null
+      },
+      "rtcpTransport": {
+        "configurable": true,
+        "enumerable": true,
+        "writable": null,
+        "hasGetter": true,
+        "hasSetter": false,
+        "valueType": null,
+        "getterSource": "function get rtcpTransport() { [native code] }",
+        "setterSource": null,
+        "valueSource": null
+      },
+      "Symbol(Symbol.toStringTag)": {
+        "configurable": true,
+        "enumerable": false,
+        "writable": false,
+        "hasGetter": false,
+        "hasSetter": false,
+        "valueType": "string",
+        "getterSource": null,
+        "setterSource": null,
+        "valueSource": null
+      },
+      "track": {
+        "configurable": true,
+        "enumerable": true,
+        "writable": null,
+        "hasGetter": true,
+        "hasSetter": false,
+        "valueType": null,
+        "getterSource": "function get track() { [native code] }",
+        "setterSource": null,
+        "valueSource": null
+      },
+      "transform": {
+        "configurable": true,
+        "enumerable": true,
+        "writable": null,
+        "hasGetter": true,
+        "hasSetter": true,
+        "valueType": null,
+        "getterSource": "function get transform() { [native code] }",
+        "setterSource": "function set transform() { [native code] }",
+        "valueSource": null
+      },
+      "transport": {
+        "configurable": true,
+        "enumerable": true,
+        "writable": null,
+        "hasGetter": true,
+        "hasSetter": false,
+        "valueType": null,
+        "getterSource": "function get transport() { [native code] }",
+        "setterSource": null,
+        "valueSource": null
+      }
+    },
+    "methods": {
+      "constructor": {
+        "available": true,
+        "typeof": "function",
+        "source": "function RTCRtpReceiver() { [native code] }",
+        "nativeSource": true,
+        "descriptor": {
+          "configurable": true,
+          "enumerable": false,
+          "writable": true,
+          "hasGetter": false,
+          "hasSetter": false,
+          "valueType": "function",
+          "getterSource": null,
+          "setterSource": null,
+          "valueSource": "function RTCRtpReceiver() { [native code] }"
+        }
+      },
+      "createEncodedStreams": {
+        "available": true,
+        "typeof": "function",
+        "source": "function createEncodedStreams() { [native code] }",
+        "nativeSource": true,
+        "descriptor": {
+          "configurable": true,
+          "enumerable": true,
+          "writable": true,
+          "hasGetter": false,
+          "hasSetter": false,
+          "valueType": "function",
+          "getterSource": null,
+          "setterSource": null,
+          "valueSource": "function createEncodedStreams() { [native code] }"
+        }
+      },
+      "getContributingSources": {
+        "available": true,
+        "typeof": "function",
+        "source": "function getContributingSources() { [native code] }",
+        "nativeSource": true,
+        "descriptor": {
+          "configurable": true,
+          "enumerable": true,
+          "writable": true,
+          "hasGetter": false,
+          "hasSetter": false,
+          "valueType": "function",
+          "getterSource": null,
+          "setterSource": null,
+          "valueSource": "function getContributingSources() { [native code] }"
+        }
+      },
+      "getParameters": {
+        "available": true,
+        "typeof": "function",
+        "source": "function getParameters() { [native code] }",
+        "nativeSource": true,
+        "descriptor": {
+          "configurable": true,
+          "enumerable": true,
+          "writable": true,
+          "hasGetter": false,
+          "hasSetter": false,
+          "valueType": "function",
+          "getterSource": null,
+          "setterSource": null,
+          "valueSource": "function getParameters() { [native code] }"
+        }
+      },
+      "getStats": {
+        "available": true,
+        "typeof": "function",
+        "source": "function getStats() { [native code] }",
+        "nativeSource": true,
+        "descriptor": {
+          "configurable": true,
+          "enumerable": true,
+          "writable": true,
+          "hasGetter": false,
+          "hasSetter": false,
+          "valueType": "function",
+          "getterSource": null,
+          "setterSource": null,
+          "valueSource": "function getStats() { [native code] }"
+        }
+      },
+      "getSynchronizationSources": {
+        "available": true,
+        "typeof": "function",
+        "source": "function getSynchronizationSources() { [native code] }",
+        "nativeSource": true,
+        "descriptor": {
+          "configurable": true,
+          "enumerable": true,
+          "writable": true,
+          "hasGetter": false,
+          "hasSetter": false,
+          "valueType": "function",
+          "getterSource": null,
+          "setterSource": null,
+          "valueSource": "function getSynchronizationSources() { [native code] }"
+        }
+      }
+    },
+    "illegalInvocation": {
+      "constructor": true,
+      "createEncodedStreams": true,
+      "getContributingSources": true,
+      "getParameters": true,
+      "getStats": false,
+      "getSynchronizationSources": true
+    }
+  },
+  "RTCRtpSender": {
+    "exists": true,
+    "name": "RTCRtpSender",
+    "chain": [
+      "RTCRtpSender",
+      "Object"
+    ],
+    "ownProperties": [
+      "Symbol(Symbol.toStringTag)",
+      "constructor",
+      "createEncodedStreams",
+      "dtmf",
+      "getParameters",
+      "getStats",
+      "replaceTrack",
+      "rtcpTransport",
+      "setParameters",
+      "setStreams",
+      "track",
+      "transform",
+      "transport"
+    ],
+    "symbolToStringTag": {
+      "configurable": true,
+      "enumerable": false,
+      "writable": false,
+      "hasGetter": false,
+      "hasSetter": false,
+      "valueType": "string",
+      "getterSource": null,
+      "setterSource": null,
+      "valueSource": null
+    },
+    "instanceofObject": true,
+    "constructorIdentity": true,
+    "instanceof": {
+      "prototypeInstanceofConstructor": false,
+      "objectPrototypeIsPrototypeOf": true
+    },
+    "descriptors": {
+      "constructor": {
+        "configurable": true,
+        "enumerable": false,
+        "writable": true,
+        "hasGetter": false,
+        "hasSetter": false,
+        "valueType": "function",
+        "getterSource": null,
+        "setterSource": null,
+        "valueSource": "function RTCRtpSender() { [native code] }"
+      },
+      "createEncodedStreams": {
+        "configurable": true,
+        "enumerable": true,
+        "writable": true,
+        "hasGetter": false,
+        "hasSetter": false,
+        "valueType": "function",
+        "getterSource": null,
+        "setterSource": null,
+        "valueSource": "function createEncodedStreams() { [native code] }"
+      },
+      "dtmf": {
+        "configurable": true,
+        "enumerable": true,
+        "writable": null,
+        "hasGetter": true,
+        "hasSetter": false,
+        "valueType": null,
+        "getterSource": "function get dtmf() { [native code] }",
+        "setterSource": null,
+        "valueSource": null
+      },
+      "getParameters": {
+        "configurable": true,
+        "enumerable": true,
+        "writable": true,
+        "hasGetter": false,
+        "hasSetter": false,
+        "valueType": "function",
+        "getterSource": null,
+        "setterSource": null,
+        "valueSource": "function getParameters() { [native code] }"
+      },
+      "getStats": {
+        "configurable": true,
+        "enumerable": true,
+        "writable": true,
+        "hasGetter": false,
+        "hasSetter": false,
+        "valueType": "function",
+        "getterSource": null,
+        "setterSource": null,
+        "valueSource": "function getStats() { [native code] }"
+      },
+      "replaceTrack": {
+        "configurable": true,
+        "enumerable": true,
+        "writable": true,
+        "hasGetter": false,
+        "hasSetter": false,
+        "valueType": "function",
+        "getterSource": null,
+        "setterSource": null,
+        "valueSource": "function replaceTrack() { [native code] }"
+      },
+      "rtcpTransport": {
+        "configurable": true,
+        "enumerable": true,
+        "writable": null,
+        "hasGetter": true,
+        "hasSetter": false,
+        "valueType": null,
+        "getterSource": "function get rtcpTransport() { [native code] }",
+        "setterSource": null,
+        "valueSource": null
+      },
+      "setParameters": {
+        "configurable": true,
+        "enumerable": true,
+        "writable": true,
+        "hasGetter": false,
+        "hasSetter": false,
+        "valueType": "function",
+        "getterSource": null,
+        "setterSource": null,
+        "valueSource": "function setParameters() { [native code] }"
+      },
+      "setStreams": {
+        "configurable": true,
+        "enumerable": true,
+        "writable": true,
+        "hasGetter": false,
+        "hasSetter": false,
+        "valueType": "function",
+        "getterSource": null,
+        "setterSource": null,
+        "valueSource": "function setStreams() { [native code] }"
+      },
+      "Symbol(Symbol.toStringTag)": {
+        "configurable": true,
+        "enumerable": false,
+        "writable": false,
+        "hasGetter": false,
+        "hasSetter": false,
+        "valueType": "string",
+        "getterSource": null,
+        "setterSource": null,
+        "valueSource": null
+      },
+      "track": {
+        "configurable": true,
+        "enumerable": true,
+        "writable": null,
+        "hasGetter": true,
+        "hasSetter": false,
+        "valueType": null,
+        "getterSource": "function get track() { [native code] }",
+        "setterSource": null,
+        "valueSource": null
+      },
+      "transform": {
+        "configurable": true,
+        "enumerable": true,
+        "writable": null,
+        "hasGetter": true,
+        "hasSetter": true,
+        "valueType": null,
+        "getterSource": "function get transform() { [native code] }",
+        "setterSource": "function set transform() { [native code] }",
+        "valueSource": null
+      },
+      "transport": {
+        "configurable": true,
+        "enumerable": true,
+        "writable": null,
+        "hasGetter": true,
+        "hasSetter": false,
+        "valueType": null,
+        "getterSource": "function get transport() { [native code] }",
+        "setterSource": null,
+        "valueSource": null
+      }
+    },
+    "methods": {
+      "constructor": {
+        "available": true,
+        "typeof": "function",
+        "source": "function RTCRtpSender() { [native code] }",
+        "nativeSource": true,
+        "descriptor": {
+          "configurable": true,
+          "enumerable": false,
+          "writable": true,
+          "hasGetter": false,
+          "hasSetter": false,
+          "valueType": "function",
+          "getterSource": null,
+          "setterSource": null,
+          "valueSource": "function RTCRtpSender() { [native code] }"
+        }
+      },
+      "createEncodedStreams": {
+        "available": true,
+        "typeof": "function",
+        "source": "function createEncodedStreams() { [native code] }",
+        "nativeSource": true,
+        "descriptor": {
+          "configurable": true,
+          "enumerable": true,
+          "writable": true,
+          "hasGetter": false,
+          "hasSetter": false,
+          "valueType": "function",
+          "getterSource": null,
+          "setterSource": null,
+          "valueSource": "function createEncodedStreams() { [native code] }"
+        }
+      },
+      "getParameters": {
+        "available": true,
+        "typeof": "function",
+        "source": "function getParameters() { [native code] }",
+        "nativeSource": true,
+        "descriptor": {
+          "configurable": true,
+          "enumerable": true,
+          "writable": true,
+          "hasGetter": false,
+          "hasSetter": false,
+          "valueType": "function",
+          "getterSource": null,
+          "setterSource": null,
+          "valueSource": "function getParameters() { [native code] }"
+        }
+      },
+      "getStats": {
+        "available": true,
+        "typeof": "function",
+        "source": "function getStats() { [native code] }",
+        "nativeSource": true,
+        "descriptor": {
+          "configurable": true,
+          "enumerable": true,
+          "writable": true,
+          "hasGetter": false,
+          "hasSetter": false,
+          "valueType": "function",
+          "getterSource": null,
+          "setterSource": null,
+          "valueSource": "function getStats() { [native code] }"
+        }
+      },
+      "replaceTrack": {
+        "available": true,
+        "typeof": "function",
+        "source": "function replaceTrack() { [native code] }",
+        "nativeSource": true,
+        "descriptor": {
+          "configurable": true,
+          "enumerable": true,
+          "writable": true,
+          "hasGetter": false,
+          "hasSetter": false,
+          "valueType": "function",
+          "getterSource": null,
+          "setterSource": null,
+          "valueSource": "function replaceTrack() { [native code] }"
+        }
+      },
+      "setParameters": {
+        "available": true,
+        "typeof": "function",
+        "source": "function setParameters() { [native code] }",
+        "nativeSource": true,
+        "descriptor": {
+          "configurable": true,
+          "enumerable": true,
+          "writable": true,
+          "hasGetter": false,
+          "hasSetter": false,
+          "valueType": "function",
+          "getterSource": null,
+          "setterSource": null,
+          "valueSource": "function setParameters() { [native code] }"
+        }
+      },
+      "setStreams": {
+        "available": true,
+        "typeof": "function",
+        "source": "function setStreams() { [native code] }",
+        "nativeSource": true,
+        "descriptor": {
+          "configurable": true,
+          "enumerable": true,
+          "writable": true,
+          "hasGetter": false,
+          "hasSetter": false,
+          "valueType": "function",
+          "getterSource": null,
+          "setterSource": null,
+          "valueSource": "function setStreams() { [native code] }"
+        }
+      }
+    },
+    "illegalInvocation": {
+      "constructor": true,
+      "createEncodedStreams": true,
+      "getParameters": true,
+      "getStats": false,
+      "replaceTrack": false,
+      "setParameters": false,
+      "setStreams": true
+    }
+  },
+  "RTCRtpTransceiver": {
+    "exists": true,
+    "name": "RTCRtpTransceiver",
+    "chain": [
+      "RTCRtpTransceiver",
+      "Object"
+    ],
+    "ownProperties": [
+      "Symbol(Symbol.toStringTag)",
+      "constructor",
+      "currentDirection",
+      "direction",
+      "getHeaderExtensionsToNegotiate",
+      "getNegotiatedHeaderExtensions",
+      "mid",
+      "receiver",
+      "sender",
+      "setCodecPreferences",
+      "setHeaderExtensionsToNegotiate",
+      "stop",
+      "stopped"
+    ],
+    "symbolToStringTag": {
+      "configurable": true,
+      "enumerable": false,
+      "writable": false,
+      "hasGetter": false,
+      "hasSetter": false,
+      "valueType": "string",
+      "getterSource": null,
+      "setterSource": null,
+      "valueSource": null
+    },
+    "instanceofObject": true,
+    "constructorIdentity": true,
+    "instanceof": {
+      "prototypeInstanceofConstructor": false,
+      "objectPrototypeIsPrototypeOf": true
+    },
+    "descriptors": {
+      "constructor": {
+        "configurable": true,
+        "enumerable": false,
+        "writable": true,
+        "hasGetter": false,
+        "hasSetter": false,
+        "valueType": "function",
+        "getterSource": null,
+        "setterSource": null,
+        "valueSource": "function RTCRtpTransceiver() { [native code] }"
+      },
+      "currentDirection": {
+        "configurable": true,
+        "enumerable": true,
+        "writable": null,
+        "hasGetter": true,
+        "hasSetter": false,
+        "valueType": null,
+        "getterSource": "function get currentDirection() { [native code] }",
+        "setterSource": null,
+        "valueSource": null
+      },
+      "direction": {
+        "configurable": true,
+        "enumerable": true,
+        "writable": null,
+        "hasGetter": true,
+        "hasSetter": true,
+        "valueType": null,
+        "getterSource": "function get direction() { [native code] }",
+        "setterSource": "function set direction() { [native code] }",
+        "valueSource": null
+      },
+      "getHeaderExtensionsToNegotiate": {
+        "configurable": true,
+        "enumerable": true,
+        "writable": true,
+        "hasGetter": false,
+        "hasSetter": false,
+        "valueType": "function",
+        "getterSource": null,
+        "setterSource": null,
+        "valueSource": "function getHeaderExtensionsToNegotiate() { [native code] }"
+      },
+      "getNegotiatedHeaderExtensions": {
+        "configurable": true,
+        "enumerable": true,
+        "writable": true,
+        "hasGetter": false,
+        "hasSetter": false,
+        "valueType": "function",
+        "getterSource": null,
+        "setterSource": null,
+        "valueSource": "function getNegotiatedHeaderExtensions() { [native code] }"
+      },
+      "mid": {
+        "configurable": true,
+        "enumerable": true,
+        "writable": null,
+        "hasGetter": true,
+        "hasSetter": false,
+        "valueType": null,
+        "getterSource": "function get mid() { [native code] }",
+        "setterSource": null,
+        "valueSource": null
+      },
+      "receiver": {
+        "configurable": true,
+        "enumerable": true,
+        "writable": null,
+        "hasGetter": true,
+        "hasSetter": false,
+        "valueType": null,
+        "getterSource": "function get receiver() { [native code] }",
+        "setterSource": null,
+        "valueSource": null
+      },
+      "sender": {
+        "configurable": true,
+        "enumerable": true,
+        "writable": null,
+        "hasGetter": true,
+        "hasSetter": false,
+        "valueType": null,
+        "getterSource": "function get sender() { [native code] }",
+        "setterSource": null,
+        "valueSource": null
+      },
+      "setCodecPreferences": {
+        "configurable": true,
+        "enumerable": true,
+        "writable": true,
+        "hasGetter": false,
+        "hasSetter": false,
+        "valueType": "function",
+        "getterSource": null,
+        "setterSource": null,
+        "valueSource": "function setCodecPreferences() { [native code] }"
+      },
+      "setHeaderExtensionsToNegotiate": {
+        "configurable": true,
+        "enumerable": true,
+        "writable": true,
+        "hasGetter": false,
+        "hasSetter": false,
+        "valueType": "function",
+        "getterSource": null,
+        "setterSource": null,
+        "valueSource": "function setHeaderExtensionsToNegotiate() { [native code] }"
+      },
+      "stop": {
+        "configurable": true,
+        "enumerable": true,
+        "writable": true,
+        "hasGetter": false,
+        "hasSetter": false,
+        "valueType": "function",
+        "getterSource": null,
+        "setterSource": null,
+        "valueSource": "function stop() { [native code] }"
+      },
+      "stopped": {
+        "configurable": true,
+        "enumerable": true,
+        "writable": null,
+        "hasGetter": true,
+        "hasSetter": false,
+        "valueType": null,
+        "getterSource": "function get stopped() { [native code] }",
+        "setterSource": null,
+        "valueSource": null
+      },
+      "Symbol(Symbol.toStringTag)": {
+        "configurable": true,
+        "enumerable": false,
+        "writable": false,
+        "hasGetter": false,
+        "hasSetter": false,
+        "valueType": "string",
+        "getterSource": null,
+        "setterSource": null,
+        "valueSource": null
+      }
+    },
+    "methods": {
+      "constructor": {
+        "available": true,
+        "typeof": "function",
+        "source": "function RTCRtpTransceiver() { [native code] }",
+        "nativeSource": true,
+        "descriptor": {
+          "configurable": true,
+          "enumerable": false,
+          "writable": true,
+          "hasGetter": false,
+          "hasSetter": false,
+          "valueType": "function",
+          "getterSource": null,
+          "setterSource": null,
+          "valueSource": "function RTCRtpTransceiver() { [native code] }"
+        }
+      },
+      "getHeaderExtensionsToNegotiate": {
+        "available": true,
+        "typeof": "function",
+        "source": "function getHeaderExtensionsToNegotiate() { [native code] }",
+        "nativeSource": true,
+        "descriptor": {
+          "configurable": true,
+          "enumerable": true,
+          "writable": true,
+          "hasGetter": false,
+          "hasSetter": false,
+          "valueType": "function",
+          "getterSource": null,
+          "setterSource": null,
+          "valueSource": "function getHeaderExtensionsToNegotiate() { [native code] }"
+        }
+      },
+      "getNegotiatedHeaderExtensions": {
+        "available": true,
+        "typeof": "function",
+        "source": "function getNegotiatedHeaderExtensions() { [native code] }",
+        "nativeSource": true,
+        "descriptor": {
+          "configurable": true,
+          "enumerable": true,
+          "writable": true,
+          "hasGetter": false,
+          "hasSetter": false,
+          "valueType": "function",
+          "getterSource": null,
+          "setterSource": null,
+          "valueSource": "function getNegotiatedHeaderExtensions() { [native code] }"
+        }
+      },
+      "setCodecPreferences": {
+        "available": true,
+        "typeof": "function",
+        "source": "function setCodecPreferences() { [native code] }",
+        "nativeSource": true,
+        "descriptor": {
+          "configurable": true,
+          "enumerable": true,
+          "writable": true,
+          "hasGetter": false,
+          "hasSetter": false,
+          "valueType": "function",
+          "getterSource": null,
+          "setterSource": null,
+          "valueSource": "function setCodecPreferences() { [native code] }"
+        }
+      },
+      "setHeaderExtensionsToNegotiate": {
+        "available": true,
+        "typeof": "function",
+        "source": "function setHeaderExtensionsToNegotiate() { [native code] }",
+        "nativeSource": true,
+        "descriptor": {
+          "configurable": true,
+          "enumerable": true,
+          "writable": true,
+          "hasGetter": false,
+          "hasSetter": false,
+          "valueType": "function",
+          "getterSource": null,
+          "setterSource": null,
+          "valueSource": "function setHeaderExtensionsToNegotiate() { [native code] }"
+        }
+      },
+      "stop": {
+        "available": true,
+        "typeof": "function",
+        "source": "function stop() { [native code] }",
+        "nativeSource": true,
+        "descriptor": {
+          "configurable": true,
+          "enumerable": true,
+          "writable": true,
+          "hasGetter": false,
+          "hasSetter": false,
+          "valueType": "function",
+          "getterSource": null,
+          "setterSource": null,
+          "valueSource": "function stop() { [native code] }"
+        }
+      }
+    },
+    "illegalInvocation": {
+      "constructor": true,
+      "getHeaderExtensionsToNegotiate": true,
+      "getNegotiatedHeaderExtensions": true,
+      "setCodecPreferences": true,
+      "setHeaderExtensionsToNegotiate": true,
+      "stop": true
+    }
+  },
+  "RTCSessionDescription": {
+    "exists": true,
+    "name": "RTCSessionDescription",
+    "chain": [
+      "RTCSessionDescription",
+      "Object"
+    ],
+    "ownProperties": [
+      "Symbol(Symbol.toStringTag)",
+      "constructor",
+      "sdp",
+      "toJSON",
+      "type"
+    ],
+    "symbolToStringTag": {
+      "configurable": true,
+      "enumerable": false,
+      "writable": false,
+      "hasGetter": false,
+      "hasSetter": false,
+      "valueType": "string",
+      "getterSource": null,
+      "setterSource": null,
+      "valueSource": null
+    },
+    "instanceofObject": true,
+    "constructorIdentity": true,
+    "instanceof": {
+      "prototypeInstanceofConstructor": false,
+      "objectPrototypeIsPrototypeOf": true
+    },
+    "descriptors": {
+      "constructor": {
+        "configurable": true,
+        "enumerable": false,
+        "writable": true,
+        "hasGetter": false,
+        "hasSetter": false,
+        "valueType": "function",
+        "getterSource": null,
+        "setterSource": null,
+        "valueSource": "function RTCSessionDescription() { [native code] }"
+      },
+      "sdp": {
+        "configurable": true,
+        "enumerable": true,
+        "writable": null,
+        "hasGetter": true,
+        "hasSetter": true,
+        "valueType": null,
+        "getterSource": "function get sdp() { [native code] }",
+        "setterSource": "function set sdp() { [native code] }",
+        "valueSource": null
+      },
+      "Symbol(Symbol.toStringTag)": {
+        "configurable": true,
+        "enumerable": false,
+        "writable": false,
+        "hasGetter": false,
+        "hasSetter": false,
+        "valueType": "string",
+        "getterSource": null,
+        "setterSource": null,
+        "valueSource": null
+      },
+      "toJSON": {
+        "configurable": true,
+        "enumerable": true,
+        "writable": true,
+        "hasGetter": false,
+        "hasSetter": false,
+        "valueType": "function",
+        "getterSource": null,
+        "setterSource": null,
+        "valueSource": "function toJSON() { [native code] }"
+      },
+      "type": {
+        "configurable": true,
+        "enumerable": true,
+        "writable": null,
+        "hasGetter": true,
+        "hasSetter": true,
+        "valueType": null,
+        "getterSource": "function get type() { [native code] }",
+        "setterSource": "function set type() { [native code] }",
+        "valueSource": null
+      }
+    },
+    "methods": {
+      "constructor": {
+        "available": true,
+        "typeof": "function",
+        "source": "function RTCSessionDescription() { [native code] }",
+        "nativeSource": true,
+        "descriptor": {
+          "configurable": true,
+          "enumerable": false,
+          "writable": true,
+          "hasGetter": false,
+          "hasSetter": false,
+          "valueType": "function",
+          "getterSource": null,
+          "setterSource": null,
+          "valueSource": "function RTCSessionDescription() { [native code] }"
+        }
+      },
+      "toJSON": {
+        "available": true,
+        "typeof": "function",
+        "source": "function toJSON() { [native code] }",
+        "nativeSource": true,
+        "descriptor": {
+          "configurable": true,
+          "enumerable": true,
+          "writable": true,
+          "hasGetter": false,
+          "hasSetter": false,
+          "valueType": "function",
+          "getterSource": null,
+          "setterSource": null,
+          "valueSource": "function toJSON() { [native code] }"
+        }
+      }
+    },
+    "illegalInvocation": {
+      "constructor": true,
+      "toJSON": true
+    }
+  }
+}

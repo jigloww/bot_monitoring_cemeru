@@ -1,0 +1,17 @@
+{
+  "experiment": "Experiment 049 - Real Navigator Collector",
+  "experiment_id": "exp_197",
+  "created_at": "2026-08-03T21:15:15.623060+07:00",
+  "result": "SUCCESS",
+  "browser": "chrome",
+  "headless": true,
+  "browser_platform": "BrowserSessionManager -> launch_browser",
+  "primitive_value_count": 21,
+  "subapi_count": 19,
+  "available_subapi_count": 3,
+  "fingerprint_sha256": "f0f86803de2d0a223b4607031feebdd9445f8df3d831b736caad99bdba98d619",
+  "browser_launches": 1,
+  "network_requests": 0,
+  "historical_artifacts_modified": false,
+  "validation_valid": true
+}

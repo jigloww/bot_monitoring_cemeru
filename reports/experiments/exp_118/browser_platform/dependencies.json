@@ -1,0 +1,89 @@
+{
+  "modules": [
+    "__init__",
+    "config",
+    "context",
+    "event_bus",
+    "health",
+    "health_service",
+    "launcher",
+    "manager",
+    "metrics",
+    "pool",
+    "profile",
+    "session"
+  ],
+  "module_dependencies": {
+    "__init__": [
+      "config",
+      "context",
+      "event_bus",
+      "health",
+      "health_service",
+      "launcher",
+      "manager",
+      "metrics",
+      "pool",
+      "profile",
+      "session"
+    ],
+    "config": [],
+    "context": [
+      "config",
+      "profile"
+    ],
+    "event_bus": [],
+    "health": [],
+    "health_service": [],
+    "launcher": [
+      "config",
+      "context",
+      "profile"
+    ],
+    "manager": [
+      "config",
+      "health",
+      "launcher",
+      "session"
+    ],
+    "metrics": [
+      "event_bus"
+    ],
+    "pool": [
+      "config",
+      "manager"
+    ],
+    "profile": [],
+    "session": [
+      "launcher"
+    ]
+  },
+  "cycles": [],
+  "dangling_references": [],
+  "invalid_imports": [],
+  "duplicate_exports": false,
+  "ownership": {
+    "browser_process": "BrowserSessionManager",
+    "browser_context": "BrowserSessionManager",
+    "pages": "BrowserSessionManager",
+    "pool_members": "BrowserPool",
+    "health_observation": "BrowserHealthService",
+    "telemetry": "BrowserMetricsService"
+  },
+  "duplicate_ownership": [],
+  "imported_modules": [
+    "__init__",
+    "config",
+    "context",
+    "event_bus",
+    "health",
+    "health_service",
+    "launcher",
+    "manager",
+    "metrics",
+    "pool",
+    "profile",
+    "session"
+  ],
+  "import_errors": []
+}

@@ -1,0 +1,130 @@
+{
+  "simulations": [
+    {
+      "simulation_id": "sim_aggregate_fingerprint_mismatch",
+      "root_cause_id": "aggregate_fingerprint_mismatch",
+      "scenario": "If aggregate_fingerprint_mismatch is fixed",
+      "estimated_differences_removed": 1,
+      "expected_similarity_improvement": 0.0571,
+      "predicted_overall_after_fix": 74.2371,
+      "best_case_similarity_improvement": 0.0714,
+      "worst_case_similarity_improvement": 0.0285,
+      "estimated_cloudflare_impact": 15.0,
+      "complexity": "Very Hard",
+      "roi": 0.0114,
+      "prediction_confidence": "High",
+      "evidence": [
+        "risk_artifact"
+      ],
+      "assumption": "Uses only per-property estimates from exp_149/plugins_risk; no new similarity calculation is performed."
+    },
+    {
+      "simulation_id": "sim_cross_reference_inconsistency",
+      "root_cause_id": "cross_reference_inconsistency",
+      "scenario": "If cross_reference_inconsistency is fixed",
+      "estimated_differences_removed": 8,
+      "expected_similarity_improvement": 0.016,
+      "predicted_overall_after_fix": 74.196,
+      "best_case_similarity_improvement": 0.0182,
+      "worst_case_similarity_improvement": 0.0044,
+      "estimated_cloudflare_impact": 62.0,
+      "complexity": "Hard",
+      "roi": 0.0046,
+      "prediction_confidence": "Low",
+      "evidence": [
+        "evaluation_artifact"
+      ],
+      "assumption": "Uses only per-property estimates from exp_149/plugins_risk; no new similarity calculation is performed."
+    },
+    {
+      "simulation_id": "sim_module_added_nonbaseline_surface",
+      "root_cause_id": "module_added_nonbaseline_surface",
+      "scenario": "If module_added_nonbaseline_surface is fixed",
+      "estimated_differences_removed": 333,
+      "expected_similarity_improvement": 0.666,
+      "predicted_overall_after_fix": 74.846,
+      "best_case_similarity_improvement": 0.7576,
+      "worst_case_similarity_improvement": 0.1832,
+      "estimated_cloudflare_impact": 66.92,
+      "complexity": "Medium",
+      "roi": 0.333,
+      "prediction_confidence": "Low",
+      "evidence": [
+        "evaluation_artifact"
+      ],
+      "assumption": "Uses only per-property estimates from exp_149/plugins_risk; no new similarity calculation is performed."
+    },
+    {
+      "simulation_id": "sim_module_missing_baseline_surface",
+      "root_cause_id": "module_missing_baseline_surface",
+      "scenario": "If module_missing_baseline_surface is fixed",
+      "estimated_differences_removed": 125,
+      "expected_similarity_improvement": 0.25,
+      "predicted_overall_after_fix": 74.43,
+      "best_case_similarity_improvement": 0.2844,
+      "worst_case_similarity_improvement": 0.0688,
+      "estimated_cloudflare_impact": 62.0,
+      "complexity": "Medium",
+      "roi": 0.125,
+      "prediction_confidence": "Low",
+      "evidence": [
+        "evaluation_artifact"
+      ],
+      "assumption": "Uses only per-property estimates from exp_149/plugins_risk; no new similarity calculation is performed."
+    },
+    {
+      "simulation_id": "sim_wrong_descriptor",
+      "root_cause_id": "wrong_descriptor",
+      "scenario": "If wrong_descriptor is fixed",
+      "estimated_differences_removed": 98,
+      "expected_similarity_improvement": 0.196,
+      "predicted_overall_after_fix": 74.376,
+      "best_case_similarity_improvement": 0.223,
+      "worst_case_similarity_improvement": 0.0539,
+      "estimated_cloudflare_impact": 62.0,
+      "complexity": "Hard",
+      "roi": 0.056,
+      "prediction_confidence": "Low",
+      "evidence": [
+        "evaluation_artifact"
+      ],
+      "assumption": "Uses only per-property estimates from exp_149/plugins_risk; no new similarity calculation is performed."
+    },
+    {
+      "simulation_id": "sim_wrong_native_function_surface",
+      "root_cause_id": "wrong_native_function_surface",
+      "scenario": "If wrong_native_function_surface is fixed",
+      "estimated_differences_removed": 14,
+      "expected_similarity_improvement": 2.0328,
+      "predicted_overall_after_fix": 76.2128,
+      "best_case_similarity_improvement": 2.541,
+      "worst_case_similarity_improvement": 1.0164,
+      "estimated_cloudflare_impact": 82.0,
+      "complexity": "Hard",
+      "roi": 0.5808,
+      "prediction_confidence": "High",
+      "evidence": [
+        "risk_artifact"
+      ],
+      "assumption": "Uses only per-property estimates from exp_149/plugins_risk; no new similarity calculation is performed."
+    },
+    {
+      "simulation_id": "sim_wrong_prototype_chain",
+      "root_cause_id": "wrong_prototype_chain",
+      "scenario": "If wrong_prototype_chain is fixed",
+      "estimated_differences_removed": 60,
+      "expected_similarity_improvement": 0.12,
+      "predicted_overall_after_fix": 74.3,
+      "best_case_similarity_improvement": 0.1365,
+      "worst_case_similarity_improvement": 0.033,
+      "estimated_cloudflare_impact": 62.0,
+      "complexity": "Hard",
+      "roi": 0.0343,
+      "prediction_confidence": "Low",
+      "evidence": [
+        "evaluation_artifact"
+      ],
+      "assumption": "Uses only per-property estimates from exp_149/plugins_risk; no new similarity calculation is performed."
+    }
+  ]
+}

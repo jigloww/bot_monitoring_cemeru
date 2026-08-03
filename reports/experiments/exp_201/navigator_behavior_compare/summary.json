@@ -1,0 +1,22 @@
+{
+  "experiment": "Experiment 052 - Navigator Behavior Comparator",
+  "experiment_id": "exp_201",
+  "created_at": "2026-08-03T21:29:22.241268+07:00",
+  "result": "NEEDS_REVIEW",
+  "navigator_status": "NEEDS_REVIEW",
+  "patch_required": true,
+  "certified": false,
+  "frozen": false,
+  "baseline_input": "D:\\bot_monitoring_cemeru\\reports\\experiments\\exp_200\\navigator_behavior",
+  "candidate_source": "BrowserSessionManager -> launch_browser",
+  "overall_runtime_similarity": 100.0,
+  "behavior_fingerprint_similarity": 0.0,
+  "remaining_differences": 1,
+  "critical_differences": 1,
+  "baseline_fingerprint": "252a24b92a80f69764edd0c76eafbbfc858923155259b10da2e9e4325e32a746",
+  "candidate_fingerprint": "2275b56603004b8c04cb63cb920c577270cade3461e47ed30bf8dd0341b2168d",
+  "historical_artifacts_modified": false,
+  "browser_launches": 1,
+  "network_requests": 0,
+  "validation_valid": true
+}

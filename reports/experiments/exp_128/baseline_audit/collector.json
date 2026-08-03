@@ -1,0 +1,24 @@
+{
+  "collector_source": {
+    "path": "D:\\bot_monitoring_cemeru\\experiments\\media_devices_collector.py",
+    "relative_path": "experiments\\media_devices_collector.py",
+    "sha256": "8d3e3982ec5a1814efa111ebc0dcda0640968980646fbdce109774ef8d3952d9",
+    "version": "8d3e3982ec5a",
+    "size_bytes": 20930,
+    "modified_timestamp": 1785756850.4552362
+  },
+  "comparator_source": {
+    "path": "D:\\bot_monitoring_cemeru\\experiments\\media_devices_comparator.py",
+    "relative_path": "experiments\\media_devices_comparator.py",
+    "sha256": "eda0d118aa6c0137b47a258a114e9c1d0b349b0f37b7f0985c47e1bc278b2ab1",
+    "version": "eda0d118aa6c",
+    "size_bytes": 18710,
+    "modified_timestamp": 1785757278.1597197
+  },
+  "collector_version": "8d3e3982ec5a",
+  "comparator_version": "eda0d118aa6c",
+  "fresh_capture": true,
+  "previous_output_reused": false,
+  "stealth_injection": false,
+  "permission_requests": false
+}

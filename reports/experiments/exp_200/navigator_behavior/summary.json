@@ -1,0 +1,17 @@
+{
+  "experiment": "Experiment 051 - Navigator Behavior Collector",
+  "experiment_id": "exp_200",
+  "created_at": "2026-08-03T21:24:46.968233+07:00",
+  "result": "SUCCESS",
+  "browser": "chrome",
+  "headless": true,
+  "browser_platform": "BrowserSessionManager -> launch_browser",
+  "runtime_value_count": 12,
+  "getter_count": 31,
+  "subapi_count": 4,
+  "fingerprint_sha256": "252a24b92a80f69764edd0c76eafbbfc858923155259b10da2e9e4325e32a746",
+  "browser_launches": 1,
+  "network_requests": 0,
+  "historical_artifacts_modified": false,
+  "validation_valid": true
+}

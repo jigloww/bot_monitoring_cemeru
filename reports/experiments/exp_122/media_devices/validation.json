@@ -1,0 +1,12 @@
+{
+  "python_compile": true,
+  "json_validation": true,
+  "artifact_completeness": true,
+  "deterministic_ordering": true,
+  "serialization": true,
+  "read_only_verification": true,
+  "no_stealth_injection": true,
+  "browser_platform_entrypoint": true,
+  "permission_request_absent": true,
+  "valid": true
+}

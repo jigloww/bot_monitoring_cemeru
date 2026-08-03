@@ -1,0 +1,24 @@
+{
+  "plain": {
+    "overall": 61.59,
+    "plugin": 89.38,
+    "mime_type": 93.7
+  },
+  "plugins": {
+    "overall": 74.18,
+    "plugin": 72.74,
+    "mime_type": 49.25
+  },
+  "delta": {
+    "overall": 12.59,
+    "Cross References": 85.71,
+    "Descriptors": 0.0,
+    "Fingerprint": 0.0,
+    "Methods": 36.08,
+    "MimeTypeArray": -44.45,
+    "Navigator": 0.0,
+    "PluginArray": -16.64,
+    "Prototype": 40.0
+  },
+  "regression_count": 0
+}

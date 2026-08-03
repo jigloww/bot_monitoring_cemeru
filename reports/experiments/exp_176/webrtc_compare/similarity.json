@@ -1,0 +1,55 @@
+{
+  "overall": 100.0,
+  "constructor": 100.0,
+  "prototype": 100.0,
+  "descriptor": 100.0,
+  "method": 100.0,
+  "fingerprint": 100.0,
+  "domains": {
+    "Constructors": {
+      "total": 175,
+      "equal": 175,
+      "remaining": 0,
+      "changed": 0,
+      "missing": 0,
+      "added": 0,
+      "similarity": 100.0
+    },
+    "Descriptors": {
+      "total": 1278,
+      "equal": 1278,
+      "remaining": 0,
+      "changed": 0,
+      "missing": 0,
+      "added": 0,
+      "similarity": 100.0
+    },
+    "Fingerprint": {
+      "total": 1,
+      "equal": 1,
+      "remaining": 0,
+      "changed": 0,
+      "missing": 0,
+      "added": 0,
+      "similarity": 100.0
+    },
+    "Methods": {
+      "total": 802,
+      "equal": 802,
+      "remaining": 0,
+      "changed": 0,
+      "missing": 0,
+      "added": 0,
+      "similarity": 100.0
+    },
+    "Prototype": {
+      "total": 2127,
+      "equal": 2127,
+      "remaining": 0,
+      "changed": 0,
+      "missing": 0,
+      "added": 0,
+      "similarity": 100.0
+    }
+  }
+}

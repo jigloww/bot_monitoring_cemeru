@@ -1,0 +1,133 @@
+{
+  "plugins": {
+    "entries": {
+      "available": false,
+      "typeof": "undefined",
+      "source": null,
+      "nativeSource": false,
+      "descriptor": null
+    },
+    "item": {
+      "available": true,
+      "typeof": "function",
+      "source": "function item() { [native code] }",
+      "nativeSource": true,
+      "descriptor": {
+        "configurable": true,
+        "enumerable": true,
+        "writable": true,
+        "hasGetter": false,
+        "hasSetter": false,
+        "valueType": "function",
+        "getterSource": null,
+        "setterSource": null,
+        "valueSource": "function item() { [native code] }"
+      }
+    },
+    "keys": {
+      "available": false,
+      "typeof": "undefined",
+      "source": null,
+      "nativeSource": false,
+      "descriptor": null
+    },
+    "namedItem": {
+      "available": true,
+      "typeof": "function",
+      "source": "function namedItem() { [native code] }",
+      "nativeSource": true,
+      "descriptor": {
+        "configurable": true,
+        "enumerable": true,
+        "writable": true,
+        "hasGetter": false,
+        "hasSetter": false,
+        "valueType": "function",
+        "getterSource": null,
+        "setterSource": null,
+        "valueSource": "function namedItem() { [native code] }"
+      }
+    },
+    "refresh": {
+      "available": true,
+      "typeof": "function",
+      "source": "function refresh() { [native code] }",
+      "nativeSource": true,
+      "descriptor": {
+        "configurable": true,
+        "enumerable": true,
+        "writable": true,
+        "hasGetter": false,
+        "hasSetter": false,
+        "valueType": "function",
+        "getterSource": null,
+        "setterSource": null,
+        "valueSource": "function refresh() { [native code] }"
+      }
+    },
+    "values": {
+      "available": false,
+      "typeof": "undefined",
+      "source": null,
+      "nativeSource": false,
+      "descriptor": null
+    }
+  },
+  "mimeTypes": {
+    "entries": {
+      "available": false,
+      "typeof": "undefined",
+      "source": null,
+      "nativeSource": false,
+      "descriptor": null
+    },
+    "item": {
+      "available": true,
+      "typeof": "function",
+      "source": "function item() { [native code] }",
+      "nativeSource": true,
+      "descriptor": {
+        "configurable": true,
+        "enumerable": true,
+        "writable": true,
+        "hasGetter": false,
+        "hasSetter": false,
+        "valueType": "function",
+        "getterSource": null,
+        "setterSource": null,
+        "valueSource": "function item() { [native code] }"
+      }
+    },
+    "keys": {
+      "available": false,
+      "typeof": "undefined",
+      "source": null,
+      "nativeSource": false,
+      "descriptor": null
+    },
+    "namedItem": {
+      "available": true,
+      "typeof": "function",
+      "source": "function namedItem() { [native code] }",
+      "nativeSource": true,
+      "descriptor": {
+        "configurable": true,
+        "enumerable": true,
+        "writable": true,
+        "hasGetter": false,
+        "hasSetter": false,
+        "valueType": "function",
+        "getterSource": null,
+        "setterSource": null,
+        "valueSource": "function namedItem() { [native code] }"
+      }
+    },
+    "values": {
+      "available": false,
+      "typeof": "undefined",
+      "source": null,
+      "nativeSource": false,
+      "descriptor": null
+    }
+  }
+}

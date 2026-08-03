@@ -1,0 +1,23 @@
+{
+  "experiment": "Experiment 042 - Plugins Stealth Evaluation",
+  "experiment_id": "exp_152",
+  "created_at": "2026-08-03T19:55:56.537695+07:00",
+  "result": "SUCCESS",
+  "real_baseline": "D:\\bot_monitoring_cemeru\\reports\\experiments\\exp_142\\plugins",
+  "profile_source": "D:\\bot_monitoring_cemeru\\reports\\experiments\\exp_142\\plugins",
+  "plain_status": "SUCCESS",
+  "plugins_status": "SUCCESS",
+  "overall_plain": 61.59,
+  "overall_plugins": 74.18,
+  "overall_delta": 12.59,
+  "resolved_differences": 981,
+  "regression_count": 0,
+  "critical_differences_remaining": 638,
+  "conclusion": "Plugins module improved similarity without stable regression.",
+  "fingerprints": {
+    "real": "5f4ca489bc043291b820688bbee69dd425fbf002d97c3d026b4c82e84bdea9e9",
+    "plain": "4706e174613632ff4bddea1734faa2fb6bd18724cf1b608f099c2f572627b6b9",
+    "plugins": "644c0b45d81f018003d23c7a7040abaffbe10a78ddd34df6abd6e6feede2badb"
+  },
+  "historical_artifacts_modified": false
+}

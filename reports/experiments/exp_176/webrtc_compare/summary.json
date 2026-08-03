@@ -1,0 +1,21 @@
+{
+  "experiment": "Experiment 046 - WebRTC Comparator",
+  "experiment_id": "exp_176",
+  "created_at": "2026-08-03T20:46:37.068131+07:00",
+  "result": "SUCCESS",
+  "baseline_input": "D:\\bot_monitoring_cemeru\\reports\\experiments\\exp_174\\webrtc",
+  "playwright_source": "live BrowserSessionManager capture",
+  "overall_similarity": 100.0,
+  "constructor_similarity": 100.0,
+  "prototype_similarity": 100.0,
+  "descriptor_similarity": 100.0,
+  "method_similarity": 100.0,
+  "critical_differences": 0,
+  "remaining_differences": 0,
+  "baseline_fingerprint": "31b13feafe648f6b7ad5919b590023db273da27a7736f9a1490dbee4e9802419",
+  "playwright_fingerprint": "31b13feafe648f6b7ad5919b590023db273da27a7736f9a1490dbee4e9802419",
+  "historical_artifacts_modified": false,
+  "browser_launches": 1,
+  "network_requests": 0,
+  "validation_valid": true
+}

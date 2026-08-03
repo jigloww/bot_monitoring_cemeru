@@ -1,0 +1,173 @@
+{
+  "exists": true,
+  "typeof": "object",
+  "constructor": "MimeTypeArray",
+  "toString": "[object MimeTypeArray]",
+  "ownProperties": [
+    "0",
+    "1",
+    "application/pdf",
+    "text/pdf"
+  ],
+  "prototypeChain": [
+    "MimeTypeArray",
+    "MimeTypeArray",
+    "Object"
+  ],
+  "length": 2,
+  "prototype": "MimeTypeArray",
+  "inheritedProperties": [
+    "Symbol(Symbol.iterator)",
+    "Symbol(Symbol.toStringTag)",
+    "constructor",
+    "item",
+    "length",
+    "namedItem"
+  ],
+  "descriptors": {
+    "constructor": {
+      "configurable": true,
+      "enumerable": false,
+      "writable": true,
+      "hasGetter": false,
+      "hasSetter": false,
+      "valueType": "function",
+      "getterSource": null,
+      "setterSource": null,
+      "valueSource": "function MimeTypeArray() { [native code] }"
+    },
+    "item": {
+      "configurable": true,
+      "enumerable": true,
+      "writable": true,
+      "hasGetter": false,
+      "hasSetter": false,
+      "valueType": "function",
+      "getterSource": null,
+      "setterSource": null,
+      "valueSource": "function item() { [native code] }"
+    },
+    "length": {
+      "configurable": true,
+      "enumerable": true,
+      "writable": null,
+      "hasGetter": true,
+      "hasSetter": false,
+      "valueType": null,
+      "getterSource": "function get length() { [native code] }",
+      "setterSource": null,
+      "valueSource": null
+    },
+    "namedItem": {
+      "configurable": true,
+      "enumerable": true,
+      "writable": true,
+      "hasGetter": false,
+      "hasSetter": false,
+      "valueType": "function",
+      "getterSource": null,
+      "setterSource": null,
+      "valueSource": "function namedItem() { [native code] }"
+    }
+  },
+  "methods": {
+    "entries": {
+      "available": false,
+      "typeof": "undefined",
+      "source": null,
+      "nativeSource": false,
+      "descriptor": null
+    },
+    "item": {
+      "available": true,
+      "typeof": "function",
+      "source": "function item() { [native code] }",
+      "nativeSource": true,
+      "descriptor": {
+        "configurable": true,
+        "enumerable": true,
+        "writable": true,
+        "hasGetter": false,
+        "hasSetter": false,
+        "valueType": "function",
+        "getterSource": null,
+        "setterSource": null,
+        "valueSource": "function item() { [native code] }"
+      }
+    },
+    "keys": {
+      "available": false,
+      "typeof": "undefined",
+      "source": null,
+      "nativeSource": false,
+      "descriptor": null
+    },
+    "namedItem": {
+      "available": true,
+      "typeof": "function",
+      "source": "function namedItem() { [native code] }",
+      "nativeSource": true,
+      "descriptor": {
+        "configurable": true,
+        "enumerable": true,
+        "writable": true,
+        "hasGetter": false,
+        "hasSetter": false,
+        "valueType": "function",
+        "getterSource": null,
+        "setterSource": null,
+        "valueSource": "function namedItem() { [native code] }"
+      }
+    },
+    "values": {
+      "available": false,
+      "typeof": "undefined",
+      "source": null,
+      "nativeSource": false,
+      "descriptor": null
+    }
+  },
+  "illegalInvocation": {
+    "entries": null,
+    "item": true,
+    "keys": null,
+    "namedItem": true,
+    "values": null
+  },
+  "instanceof": true,
+  "symbolToStringTag": {
+    "configurable": true,
+    "enumerable": false,
+    "writable": false,
+    "hasGetter": false,
+    "hasSetter": false,
+    "valueType": "string",
+    "getterSource": null,
+    "setterSource": null,
+    "valueSource": null
+  },
+  "items": [
+    {
+      "index": 0,
+      "type": "application/pdf",
+      "suffixes": "pdf",
+      "description": "Portable Document Format",
+      "enabledPluginIndex": 0,
+      "enabledPluginName": "PDF Viewer",
+      "ownProperties": [],
+      "prototype": "MimeTypeArray",
+      "descriptors": {}
+    },
+    {
+      "index": 1,
+      "type": "text/pdf",
+      "suffixes": "pdf",
+      "description": "Portable Document Format",
+      "enabledPluginIndex": 0,
+      "enabledPluginName": "PDF Viewer",
+      "ownProperties": [],
+      "prototype": "MimeTypeArray",
+      "descriptors": {}
+    }
+  ]
+}

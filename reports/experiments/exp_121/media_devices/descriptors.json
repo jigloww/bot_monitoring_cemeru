@@ -1,0 +1,127 @@
+{
+  "navigatorPrototype": {
+    "configurable": true,
+    "enumerable": true,
+    "writable": null,
+    "hasGetter": true,
+    "hasSetter": false,
+    "valueType": null,
+    "getterSource": "function get mediaDevices() { [native code] }",
+    "setterSource": null,
+    "valueSource": null
+  },
+  "mediaDevicesPrototype": {
+    "constructor": {
+      "configurable": true,
+      "enumerable": false,
+      "writable": true,
+      "hasGetter": false,
+      "hasSetter": false,
+      "valueType": "function",
+      "getterSource": null,
+      "setterSource": null,
+      "valueSource": "function MediaDevices() { [native code] }"
+    },
+    "enumerateDevices": {
+      "configurable": true,
+      "enumerable": true,
+      "writable": true,
+      "hasGetter": false,
+      "hasSetter": false,
+      "valueType": "function",
+      "getterSource": null,
+      "setterSource": null,
+      "valueSource": "function enumerateDevices() { [native code] }"
+    },
+    "getDisplayMedia": {
+      "configurable": true,
+      "enumerable": true,
+      "writable": true,
+      "hasGetter": false,
+      "hasSetter": false,
+      "valueType": "function",
+      "getterSource": null,
+      "setterSource": null,
+      "valueSource": "function getDisplayMedia() { [native code] }"
+    },
+    "getSupportedConstraints": {
+      "configurable": true,
+      "enumerable": true,
+      "writable": true,
+      "hasGetter": false,
+      "hasSetter": false,
+      "valueType": "function",
+      "getterSource": null,
+      "setterSource": null,
+      "valueSource": "function getSupportedConstraints() { [native code] }"
+    },
+    "getUserMedia": {
+      "configurable": true,
+      "enumerable": true,
+      "writable": true,
+      "hasGetter": false,
+      "hasSetter": false,
+      "valueType": "function",
+      "getterSource": null,
+      "setterSource": null,
+      "valueSource": "function getUserMedia() { [native code] }"
+    },
+    "ondevicechange": {
+      "configurable": true,
+      "enumerable": true,
+      "writable": null,
+      "hasGetter": true,
+      "hasSetter": true,
+      "valueType": null,
+      "getterSource": "function get ondevicechange() { [native code] }",
+      "setterSource": "function set ondevicechange() { [native code] }",
+      "valueSource": null
+    },
+    "setCaptureHandleConfig": {
+      "configurable": true,
+      "enumerable": true,
+      "writable": true,
+      "hasGetter": false,
+      "hasSetter": false,
+      "valueType": "function",
+      "getterSource": null,
+      "setterSource": null,
+      "valueSource": "function setCaptureHandleConfig() { [native code] }"
+    }
+  },
+  "methods": {
+    "enumerateDevices": {
+      "configurable": true,
+      "enumerable": true,
+      "writable": true,
+      "hasGetter": false,
+      "hasSetter": false,
+      "valueType": "function",
+      "getterSource": null,
+      "setterSource": null,
+      "valueSource": "function enumerateDevices() { [native code] }"
+    },
+    "getDisplayMedia": {
+      "configurable": true,
+      "enumerable": true,
+      "writable": true,
+      "hasGetter": false,
+      "hasSetter": false,
+      "valueType": "function",
+      "getterSource": null,
+      "setterSource": null,
+      "valueSource": "function getDisplayMedia() { [native code] }"
+    },
+    "getUserMedia": {
+      "configurable": true,
+      "enumerable": true,
+      "writable": true,
+      "hasGetter": false,
+      "hasSetter": false,
+      "valueType": "function",
+      "getterSource": null,
+      "setterSource": null,
+      "valueSource": "function getUserMedia() { [native code] }"
+    }
+  }
+}

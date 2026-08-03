@@ -1,0 +1,71 @@
+{
+  "pluginMimeTypes": {
+    "0": [
+      "application/pdf",
+      "text/pdf"
+    ],
+    "1": [
+      "application/pdf",
+      "text/pdf"
+    ],
+    "2": [
+      "application/pdf",
+      "text/pdf"
+    ],
+    "3": [
+      "application/pdf",
+      "text/pdf"
+    ],
+    "4": [
+      "application/pdf",
+      "text/pdf"
+    ]
+  },
+  "mimeEnabledPlugins": {
+    "application/pdf": 0,
+    "text/pdf": 0
+  },
+  "mismatches": [
+    {
+      "plugin": "Chrome PDF Viewer",
+      "type": "application/pdf",
+      "reason": "plugin_missing_mime_reverse_reference"
+    },
+    {
+      "plugin": "Chrome PDF Viewer",
+      "type": "text/pdf",
+      "reason": "plugin_missing_mime_reverse_reference"
+    },
+    {
+      "plugin": "Chromium PDF Viewer",
+      "type": "application/pdf",
+      "reason": "plugin_missing_mime_reverse_reference"
+    },
+    {
+      "plugin": "Chromium PDF Viewer",
+      "type": "text/pdf",
+      "reason": "plugin_missing_mime_reverse_reference"
+    },
+    {
+      "plugin": "Microsoft Edge PDF Viewer",
+      "type": "application/pdf",
+      "reason": "plugin_missing_mime_reverse_reference"
+    },
+    {
+      "plugin": "Microsoft Edge PDF Viewer",
+      "type": "text/pdf",
+      "reason": "plugin_missing_mime_reverse_reference"
+    },
+    {
+      "plugin": "WebKit built-in PDF",
+      "type": "application/pdf",
+      "reason": "plugin_missing_mime_reverse_reference"
+    },
+    {
+      "plugin": "WebKit built-in PDF",
+      "type": "text/pdf",
+      "reason": "plugin_missing_mime_reverse_reference"
+    }
+  ],
+  "bidirectionalValid": false
+}

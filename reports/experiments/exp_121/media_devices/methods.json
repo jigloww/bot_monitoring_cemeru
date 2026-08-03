@@ -1,0 +1,60 @@
+{
+  "enumerateDevices": {
+    "available": true,
+    "typeof": "function",
+    "source": "function enumerateDevices() { [native code] }",
+    "nativeSource": true,
+    "descriptor": {
+      "configurable": true,
+      "enumerable": true,
+      "writable": true,
+      "hasGetter": false,
+      "hasSetter": false,
+      "valueType": "function",
+      "getterSource": null,
+      "setterSource": null,
+      "valueSource": "function enumerateDevices() { [native code] }"
+    }
+  },
+  "getUserMedia": {
+    "available": true,
+    "typeof": "function",
+    "source": "function getUserMedia() { [native code] }",
+    "nativeSource": true,
+    "descriptor": {
+      "configurable": true,
+      "enumerable": true,
+      "writable": true,
+      "hasGetter": false,
+      "hasSetter": false,
+      "valueType": "function",
+      "getterSource": null,
+      "setterSource": null,
+      "valueSource": "function getUserMedia() { [native code] }"
+    }
+  },
+  "getDisplayMedia": {
+    "available": true,
+    "typeof": "function",
+    "source": "function getDisplayMedia() { [native code] }",
+    "nativeSource": true,
+    "descriptor": {
+      "configurable": true,
+      "enumerable": true,
+      "writable": true,
+      "hasGetter": false,
+      "hasSetter": false,
+      "valueType": "function",
+      "getterSource": null,
+      "setterSource": null,
+      "valueSource": "function getDisplayMedia() { [native code] }"
+    }
+  },
+  "selectAudioOutput": {
+    "available": false,
+    "typeof": "undefined",
+    "source": null,
+    "nativeSource": false,
+    "descriptor": null
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "experiment": "Experiment 050 - Navigator Comparator",
+  "experiment_id": "exp_199",
+  "created_at": "2026-08-03T21:20:15.749472+07:00",
+  "result": "SUCCESS",
+  "baseline_input": "D:\\bot_monitoring_cemeru\\reports\\experiments\\exp_197\\navigator",
+  "candidate_source": "BrowserSessionManager -> launch_browser",
+  "overall_similarity": 100.0,
+  "primitive_similarity": 100.0,
+  "prototype_similarity": 100.0,
+  "descriptor_similarity": 100.0,
+  "getter_similarity": 100.0,
+  "method_similarity": 100.0,
+  "native_source_similarity": 100.0,
+  "subapi_similarity": 100.0,
+  "fingerprint_similarity": 100.0,
+  "remaining_differences": 0,
+  "critical_differences": 0,
+  "historical_artifacts_modified": false,
+  "browser_launches": 1,
+  "network_requests": 0,
+  "validation_valid": true
+}

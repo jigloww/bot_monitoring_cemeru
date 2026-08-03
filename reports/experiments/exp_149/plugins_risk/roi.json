@@ -1,0 +1,2754 @@
+{
+  "ranking": [
+    {
+      "rank": 1,
+      "task_id": "task_plugins_length_808c0b6a",
+      "path": "plugins.length",
+      "roi": 11.52,
+      "estimated_similarity_gain": 0.1152,
+      "estimated_cf_gain": 0.0783,
+      "complexity": "Easy",
+      "action": "Patch Now"
+    },
+    {
+      "rank": 2,
+      "task_id": "task_mime_types_items_application_pdf_23e4b398",
+      "path": "mime_types.items.application/pdf",
+      "roi": 6.49,
+      "estimated_similarity_gain": 0.1297,
+      "estimated_cf_gain": 0.0882,
+      "complexity": "Medium",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 3,
+      "task_id": "task_mime_types_items_text_pdf_8bf9a5b5",
+      "path": "mime_types.items.text/pdf",
+      "roi": 6.49,
+      "estimated_similarity_gain": 0.1297,
+      "estimated_cf_gain": 0.0882,
+      "complexity": "Medium",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 4,
+      "task_id": "task_mime_types_ownproperties_0_bd27e8bb",
+      "path": "mime_types.ownProperties[0]",
+      "roi": 6.24,
+      "estimated_similarity_gain": 0.1247,
+      "estimated_cf_gain": 0.0848,
+      "complexity": "Medium",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 5,
+      "task_id": "task_mime_types_ownproperties_1_75277276",
+      "path": "mime_types.ownProperties[1]",
+      "roi": 6.24,
+      "estimated_similarity_gain": 0.1247,
+      "estimated_cf_gain": 0.0848,
+      "complexity": "Medium",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 6,
+      "task_id": "task_mime_types_ownproperties_2_e12ab666",
+      "path": "mime_types.ownProperties[2]",
+      "roi": 6.24,
+      "estimated_similarity_gain": 0.1247,
+      "estimated_cf_gain": 0.0848,
+      "complexity": "Medium",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 7,
+      "task_id": "task_mime_types_ownproperties_3_86de773a",
+      "path": "mime_types.ownProperties[3]",
+      "roi": 6.24,
+      "estimated_similarity_gain": 0.1247,
+      "estimated_cf_gain": 0.0848,
+      "complexity": "Medium",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 8,
+      "task_id": "task_mime_types_length_6db12221",
+      "path": "mime_types.length",
+      "roi": 6.16,
+      "estimated_similarity_gain": 0.1231,
+      "estimated_cf_gain": 0.0837,
+      "complexity": "Medium",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 9,
+      "task_id": "task_mime_types_ownproperties_78ff2748",
+      "path": "mime_types.ownProperties",
+      "roi": 6.0,
+      "estimated_similarity_gain": 0.1199,
+      "estimated_cf_gain": 0.0815,
+      "complexity": "Medium",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 10,
+      "task_id": "task_plugins_items_chrome_pdf_viewer_25adf551",
+      "path": "plugins.items.Chrome PDF Viewer",
+      "roi": 5.87,
+      "estimated_similarity_gain": 0.1173,
+      "estimated_cf_gain": 0.068,
+      "complexity": "Medium",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 11,
+      "task_id": "task_plugins_items_chromium_pdf_viewer_4f221489",
+      "path": "plugins.items.Chromium PDF Viewer",
+      "roi": 5.87,
+      "estimated_similarity_gain": 0.1173,
+      "estimated_cf_gain": 0.068,
+      "complexity": "Medium",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 12,
+      "task_id": "task_plugins_items_microsoft_edge_pdf_viewer_97326a88",
+      "path": "plugins.items.Microsoft Edge PDF Viewer",
+      "roi": 5.87,
+      "estimated_similarity_gain": 0.1173,
+      "estimated_cf_gain": 0.068,
+      "complexity": "Medium",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 13,
+      "task_id": "task_plugins_items_pdf_viewer_5faef191",
+      "path": "plugins.items.PDF Viewer",
+      "roi": 5.87,
+      "estimated_similarity_gain": 0.1173,
+      "estimated_cf_gain": 0.068,
+      "complexity": "Medium",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 14,
+      "task_id": "task_plugins_items_webkit_built_in_pdf_ce44e4dc",
+      "path": "plugins.items.WebKit built-in PDF",
+      "roi": 5.87,
+      "estimated_similarity_gain": 0.1173,
+      "estimated_cf_gain": 0.068,
+      "complexity": "Medium",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 15,
+      "task_id": "task_plugins_ownproperties_0_2c94618e",
+      "path": "plugins.ownProperties[0]",
+      "roi": 5.46,
+      "estimated_similarity_gain": 0.1091,
+      "estimated_cf_gain": 0.0633,
+      "complexity": "Medium",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 16,
+      "task_id": "task_plugins_ownproperties_1_abf41ac9",
+      "path": "plugins.ownProperties[1]",
+      "roi": 5.46,
+      "estimated_similarity_gain": 0.1091,
+      "estimated_cf_gain": 0.0633,
+      "complexity": "Medium",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 17,
+      "task_id": "task_plugins_ownproperties_2_8cf04eb2",
+      "path": "plugins.ownProperties[2]",
+      "roi": 5.46,
+      "estimated_similarity_gain": 0.1091,
+      "estimated_cf_gain": 0.0633,
+      "complexity": "Medium",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 18,
+      "task_id": "task_plugins_ownproperties_3_ed13e6fa",
+      "path": "plugins.ownProperties[3]",
+      "roi": 5.46,
+      "estimated_similarity_gain": 0.1091,
+      "estimated_cf_gain": 0.0633,
+      "complexity": "Medium",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 19,
+      "task_id": "task_plugins_ownproperties_4_dad0bb57",
+      "path": "plugins.ownProperties[4]",
+      "roi": 5.46,
+      "estimated_similarity_gain": 0.1091,
+      "estimated_cf_gain": 0.0633,
+      "complexity": "Medium",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 20,
+      "task_id": "task_plugins_ownproperties_5_09a32378",
+      "path": "plugins.ownProperties[5]",
+      "roi": 5.46,
+      "estimated_similarity_gain": 0.1091,
+      "estimated_cf_gain": 0.0633,
+      "complexity": "Medium",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 21,
+      "task_id": "task_plugins_ownproperties_6_674c5c93",
+      "path": "plugins.ownProperties[6]",
+      "roi": 5.46,
+      "estimated_similarity_gain": 0.1091,
+      "estimated_cf_gain": 0.0633,
+      "complexity": "Medium",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 22,
+      "task_id": "task_plugins_ownproperties_7_9b86b11f",
+      "path": "plugins.ownProperties[7]",
+      "roi": 5.46,
+      "estimated_similarity_gain": 0.1091,
+      "estimated_cf_gain": 0.0633,
+      "complexity": "Medium",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 23,
+      "task_id": "task_plugins_ownproperties_8_84383410",
+      "path": "plugins.ownProperties[8]",
+      "roi": 5.46,
+      "estimated_similarity_gain": 0.1091,
+      "estimated_cf_gain": 0.0633,
+      "complexity": "Medium",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 24,
+      "task_id": "task_plugins_ownproperties_9_b4529e5d",
+      "path": "plugins.ownProperties[9]",
+      "roi": 5.46,
+      "estimated_similarity_gain": 0.1091,
+      "estimated_cf_gain": 0.0633,
+      "complexity": "Medium",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 25,
+      "task_id": "task_methods_mime_prototypes_0_constructor_available_e72032d8",
+      "path": "methods.mime_prototypes.0.constructor.available",
+      "roi": 4.15,
+      "estimated_similarity_gain": 0.1452,
+      "estimated_cf_gain": 0.1191,
+      "complexity": "Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 26,
+      "task_id": "task_methods_mime_prototypes_0_constructor_descriptor_1e61cf3c",
+      "path": "methods.mime_prototypes.0.constructor.descriptor.configurable",
+      "roi": 4.15,
+      "estimated_similarity_gain": 0.1452,
+      "estimated_cf_gain": 0.1191,
+      "complexity": "Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 27,
+      "task_id": "task_methods_mime_prototypes_0_constructor_descriptor_203932ac",
+      "path": "methods.mime_prototypes.0.constructor.descriptor.enumerable",
+      "roi": 4.15,
+      "estimated_similarity_gain": 0.1452,
+      "estimated_cf_gain": 0.1191,
+      "complexity": "Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 28,
+      "task_id": "task_methods_mime_prototypes_0_constructor_descriptor_8419182f",
+      "path": "methods.mime_prototypes.0.constructor.descriptor.getterSource",
+      "roi": 4.15,
+      "estimated_similarity_gain": 0.1452,
+      "estimated_cf_gain": 0.1191,
+      "complexity": "Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 29,
+      "task_id": "task_methods_mime_prototypes_0_constructor_descriptor_31ae903c",
+      "path": "methods.mime_prototypes.0.constructor.descriptor.hasGetter",
+      "roi": 4.15,
+      "estimated_similarity_gain": 0.1452,
+      "estimated_cf_gain": 0.1191,
+      "complexity": "Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 30,
+      "task_id": "task_methods_mime_prototypes_0_constructor_descriptor_c4586c8e",
+      "path": "methods.mime_prototypes.0.constructor.descriptor.hasSetter",
+      "roi": 4.15,
+      "estimated_similarity_gain": 0.1452,
+      "estimated_cf_gain": 0.1191,
+      "complexity": "Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 31,
+      "task_id": "task_methods_mime_prototypes_0_constructor_descriptor_48ea219d",
+      "path": "methods.mime_prototypes.0.constructor.descriptor.setterSource",
+      "roi": 4.15,
+      "estimated_similarity_gain": 0.1452,
+      "estimated_cf_gain": 0.1191,
+      "complexity": "Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 32,
+      "task_id": "task_methods_mime_prototypes_0_constructor_descriptor_e00bfe45",
+      "path": "methods.mime_prototypes.0.constructor.descriptor.valueSource",
+      "roi": 4.15,
+      "estimated_similarity_gain": 0.1452,
+      "estimated_cf_gain": 0.1191,
+      "complexity": "Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 33,
+      "task_id": "task_methods_mime_prototypes_0_constructor_descriptor_9455d4f8",
+      "path": "methods.mime_prototypes.0.constructor.descriptor.valueType",
+      "roi": 4.15,
+      "estimated_similarity_gain": 0.1452,
+      "estimated_cf_gain": 0.1191,
+      "complexity": "Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 34,
+      "task_id": "task_methods_mime_prototypes_0_constructor_descriptor_f25064c8",
+      "path": "methods.mime_prototypes.0.constructor.descriptor.writable",
+      "roi": 4.15,
+      "estimated_similarity_gain": 0.1452,
+      "estimated_cf_gain": 0.1191,
+      "complexity": "Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 35,
+      "task_id": "task_methods_mime_prototypes_0_constructor_nativesour_a88aeecf",
+      "path": "methods.mime_prototypes.0.constructor.nativeSource",
+      "roi": 4.15,
+      "estimated_similarity_gain": 0.1452,
+      "estimated_cf_gain": 0.1191,
+      "complexity": "Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 36,
+      "task_id": "task_methods_mime_prototypes_0_constructor_source_4222081e",
+      "path": "methods.mime_prototypes.0.constructor.source",
+      "roi": 4.15,
+      "estimated_similarity_gain": 0.1452,
+      "estimated_cf_gain": 0.1191,
+      "complexity": "Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 37,
+      "task_id": "task_methods_mime_prototypes_0_constructor_typeof_d6b55e9a",
+      "path": "methods.mime_prototypes.0.constructor.typeof",
+      "roi": 4.15,
+      "estimated_similarity_gain": 0.1452,
+      "estimated_cf_gain": 0.1191,
+      "complexity": "Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 38,
+      "task_id": "task_methods_mime_prototypes_1_constructor_available_e944f05e",
+      "path": "methods.mime_prototypes.1.constructor.available",
+      "roi": 4.15,
+      "estimated_similarity_gain": 0.1452,
+      "estimated_cf_gain": 0.1191,
+      "complexity": "Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 39,
+      "task_id": "task_methods_mime_prototypes_1_constructor_descriptor_8eca29dc",
+      "path": "methods.mime_prototypes.1.constructor.descriptor.configurable",
+      "roi": 4.15,
+      "estimated_similarity_gain": 0.1452,
+      "estimated_cf_gain": 0.1191,
+      "complexity": "Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 40,
+      "task_id": "task_methods_mime_prototypes_1_constructor_descriptor_ea7e61bb",
+      "path": "methods.mime_prototypes.1.constructor.descriptor.enumerable",
+      "roi": 4.15,
+      "estimated_similarity_gain": 0.1452,
+      "estimated_cf_gain": 0.1191,
+      "complexity": "Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 41,
+      "task_id": "task_methods_mime_prototypes_1_constructor_descriptor_dcd8c736",
+      "path": "methods.mime_prototypes.1.constructor.descriptor.getterSource",
+      "roi": 4.15,
+      "estimated_similarity_gain": 0.1452,
+      "estimated_cf_gain": 0.1191,
+      "complexity": "Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 42,
+      "task_id": "task_methods_mime_prototypes_1_constructor_descriptor_4ba07c6f",
+      "path": "methods.mime_prototypes.1.constructor.descriptor.hasGetter",
+      "roi": 4.15,
+      "estimated_similarity_gain": 0.1452,
+      "estimated_cf_gain": 0.1191,
+      "complexity": "Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 43,
+      "task_id": "task_methods_mime_prototypes_1_constructor_descriptor_2538ebb3",
+      "path": "methods.mime_prototypes.1.constructor.descriptor.hasSetter",
+      "roi": 4.15,
+      "estimated_similarity_gain": 0.1452,
+      "estimated_cf_gain": 0.1191,
+      "complexity": "Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 44,
+      "task_id": "task_methods_mime_prototypes_1_constructor_descriptor_9e2e906b",
+      "path": "methods.mime_prototypes.1.constructor.descriptor.setterSource",
+      "roi": 4.15,
+      "estimated_similarity_gain": 0.1452,
+      "estimated_cf_gain": 0.1191,
+      "complexity": "Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 45,
+      "task_id": "task_methods_mime_prototypes_1_constructor_descriptor_9d342a6a",
+      "path": "methods.mime_prototypes.1.constructor.descriptor.valueSource",
+      "roi": 4.15,
+      "estimated_similarity_gain": 0.1452,
+      "estimated_cf_gain": 0.1191,
+      "complexity": "Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 46,
+      "task_id": "task_methods_mime_prototypes_1_constructor_descriptor_6edcb1a4",
+      "path": "methods.mime_prototypes.1.constructor.descriptor.valueType",
+      "roi": 4.15,
+      "estimated_similarity_gain": 0.1452,
+      "estimated_cf_gain": 0.1191,
+      "complexity": "Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 47,
+      "task_id": "task_methods_mime_prototypes_1_constructor_descriptor_f79e9dd5",
+      "path": "methods.mime_prototypes.1.constructor.descriptor.writable",
+      "roi": 4.15,
+      "estimated_similarity_gain": 0.1452,
+      "estimated_cf_gain": 0.1191,
+      "complexity": "Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 48,
+      "task_id": "task_methods_mime_prototypes_1_constructor_nativesour_3b814ccd",
+      "path": "methods.mime_prototypes.1.constructor.nativeSource",
+      "roi": 4.15,
+      "estimated_similarity_gain": 0.1452,
+      "estimated_cf_gain": 0.1191,
+      "complexity": "Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 49,
+      "task_id": "task_methods_mime_prototypes_1_constructor_source_7df84dca",
+      "path": "methods.mime_prototypes.1.constructor.source",
+      "roi": 4.15,
+      "estimated_similarity_gain": 0.1452,
+      "estimated_cf_gain": 0.1191,
+      "complexity": "Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 50,
+      "task_id": "task_methods_mime_prototypes_1_constructor_typeof_b438c57e",
+      "path": "methods.mime_prototypes.1.constructor.typeof",
+      "roi": 4.15,
+      "estimated_similarity_gain": 0.1452,
+      "estimated_cf_gain": 0.1191,
+      "complexity": "Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 51,
+      "task_id": "task_methods_plugin_prototypes_0_constructor_availabl_28cba5ee",
+      "path": "methods.plugin_prototypes.0.constructor.available",
+      "roi": 4.15,
+      "estimated_similarity_gain": 0.1452,
+      "estimated_cf_gain": 0.1191,
+      "complexity": "Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 52,
+      "task_id": "task_methods_plugin_prototypes_0_constructor_descript_0f4a9686",
+      "path": "methods.plugin_prototypes.0.constructor.descriptor.configurable",
+      "roi": 4.15,
+      "estimated_similarity_gain": 0.1452,
+      "estimated_cf_gain": 0.1191,
+      "complexity": "Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 53,
+      "task_id": "task_methods_plugin_prototypes_0_constructor_descript_9fb8ff47",
+      "path": "methods.plugin_prototypes.0.constructor.descriptor.enumerable",
+      "roi": 4.15,
+      "estimated_similarity_gain": 0.1452,
+      "estimated_cf_gain": 0.1191,
+      "complexity": "Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 54,
+      "task_id": "task_methods_plugin_prototypes_0_constructor_descript_027ad8b9",
+      "path": "methods.plugin_prototypes.0.constructor.descriptor.getterSource",
+      "roi": 4.15,
+      "estimated_similarity_gain": 0.1452,
+      "estimated_cf_gain": 0.1191,
+      "complexity": "Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 55,
+      "task_id": "task_methods_plugin_prototypes_0_constructor_descript_6edaee5d",
+      "path": "methods.plugin_prototypes.0.constructor.descriptor.hasGetter",
+      "roi": 4.15,
+      "estimated_similarity_gain": 0.1452,
+      "estimated_cf_gain": 0.1191,
+      "complexity": "Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 56,
+      "task_id": "task_methods_plugin_prototypes_0_constructor_descript_fa58f290",
+      "path": "methods.plugin_prototypes.0.constructor.descriptor.hasSetter",
+      "roi": 4.15,
+      "estimated_similarity_gain": 0.1452,
+      "estimated_cf_gain": 0.1191,
+      "complexity": "Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 57,
+      "task_id": "task_methods_plugin_prototypes_0_constructor_descript_b7e2ca59",
+      "path": "methods.plugin_prototypes.0.constructor.descriptor.setterSource",
+      "roi": 4.15,
+      "estimated_similarity_gain": 0.1452,
+      "estimated_cf_gain": 0.1191,
+      "complexity": "Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 58,
+      "task_id": "task_methods_plugin_prototypes_0_constructor_descript_50db0f9d",
+      "path": "methods.plugin_prototypes.0.constructor.descriptor.valueSource",
+      "roi": 4.15,
+      "estimated_similarity_gain": 0.1452,
+      "estimated_cf_gain": 0.1191,
+      "complexity": "Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 59,
+      "task_id": "task_methods_plugin_prototypes_0_constructor_descript_447db8de",
+      "path": "methods.plugin_prototypes.0.constructor.descriptor.valueType",
+      "roi": 4.15,
+      "estimated_similarity_gain": 0.1452,
+      "estimated_cf_gain": 0.1191,
+      "complexity": "Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 60,
+      "task_id": "task_methods_plugin_prototypes_0_constructor_descript_056faa50",
+      "path": "methods.plugin_prototypes.0.constructor.descriptor.writable",
+      "roi": 4.15,
+      "estimated_similarity_gain": 0.1452,
+      "estimated_cf_gain": 0.1191,
+      "complexity": "Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 61,
+      "task_id": "task_methods_plugin_prototypes_0_constructor_nativeso_2c8936c0",
+      "path": "methods.plugin_prototypes.0.constructor.nativeSource",
+      "roi": 4.15,
+      "estimated_similarity_gain": 0.1452,
+      "estimated_cf_gain": 0.1191,
+      "complexity": "Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 62,
+      "task_id": "task_methods_plugin_prototypes_0_constructor_source_84790a07",
+      "path": "methods.plugin_prototypes.0.constructor.source",
+      "roi": 4.15,
+      "estimated_similarity_gain": 0.1452,
+      "estimated_cf_gain": 0.1191,
+      "complexity": "Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 63,
+      "task_id": "task_methods_plugin_prototypes_0_constructor_typeof_070af1c4",
+      "path": "methods.plugin_prototypes.0.constructor.typeof",
+      "roi": 4.15,
+      "estimated_similarity_gain": 0.1452,
+      "estimated_cf_gain": 0.1191,
+      "complexity": "Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 64,
+      "task_id": "task_methods_plugin_prototypes_1_constructor_availabl_e002deb7",
+      "path": "methods.plugin_prototypes.1.constructor.available",
+      "roi": 4.15,
+      "estimated_similarity_gain": 0.1452,
+      "estimated_cf_gain": 0.1191,
+      "complexity": "Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 65,
+      "task_id": "task_methods_plugin_prototypes_1_constructor_descript_b5e18891",
+      "path": "methods.plugin_prototypes.1.constructor.descriptor.configurable",
+      "roi": 4.15,
+      "estimated_similarity_gain": 0.1452,
+      "estimated_cf_gain": 0.1191,
+      "complexity": "Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 66,
+      "task_id": "task_methods_plugin_prototypes_1_constructor_descript_9c52e4b8",
+      "path": "methods.plugin_prototypes.1.constructor.descriptor.enumerable",
+      "roi": 4.15,
+      "estimated_similarity_gain": 0.1452,
+      "estimated_cf_gain": 0.1191,
+      "complexity": "Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 67,
+      "task_id": "task_methods_plugin_prototypes_1_constructor_descript_ab8e776f",
+      "path": "methods.plugin_prototypes.1.constructor.descriptor.getterSource",
+      "roi": 4.15,
+      "estimated_similarity_gain": 0.1452,
+      "estimated_cf_gain": 0.1191,
+      "complexity": "Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 68,
+      "task_id": "task_methods_plugin_prototypes_1_constructor_descript_60ecb347",
+      "path": "methods.plugin_prototypes.1.constructor.descriptor.hasGetter",
+      "roi": 4.15,
+      "estimated_similarity_gain": 0.1452,
+      "estimated_cf_gain": 0.1191,
+      "complexity": "Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 69,
+      "task_id": "task_methods_plugin_prototypes_1_constructor_descript_f3c48e38",
+      "path": "methods.plugin_prototypes.1.constructor.descriptor.hasSetter",
+      "roi": 4.15,
+      "estimated_similarity_gain": 0.1452,
+      "estimated_cf_gain": 0.1191,
+      "complexity": "Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 70,
+      "task_id": "task_methods_plugin_prototypes_1_constructor_descript_19469e5b",
+      "path": "methods.plugin_prototypes.1.constructor.descriptor.setterSource",
+      "roi": 4.15,
+      "estimated_similarity_gain": 0.1452,
+      "estimated_cf_gain": 0.1191,
+      "complexity": "Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 71,
+      "task_id": "task_methods_plugin_prototypes_1_constructor_descript_5f5fdb61",
+      "path": "methods.plugin_prototypes.1.constructor.descriptor.valueSource",
+      "roi": 4.15,
+      "estimated_similarity_gain": 0.1452,
+      "estimated_cf_gain": 0.1191,
+      "complexity": "Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 72,
+      "task_id": "task_methods_plugin_prototypes_1_constructor_descript_b1743a9b",
+      "path": "methods.plugin_prototypes.1.constructor.descriptor.valueType",
+      "roi": 4.15,
+      "estimated_similarity_gain": 0.1452,
+      "estimated_cf_gain": 0.1191,
+      "complexity": "Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 73,
+      "task_id": "task_methods_plugin_prototypes_1_constructor_descript_89ae92a1",
+      "path": "methods.plugin_prototypes.1.constructor.descriptor.writable",
+      "roi": 4.15,
+      "estimated_similarity_gain": 0.1452,
+      "estimated_cf_gain": 0.1191,
+      "complexity": "Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 74,
+      "task_id": "task_methods_plugin_prototypes_1_constructor_nativeso_96a21bfd",
+      "path": "methods.plugin_prototypes.1.constructor.nativeSource",
+      "roi": 4.15,
+      "estimated_similarity_gain": 0.1452,
+      "estimated_cf_gain": 0.1191,
+      "complexity": "Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 75,
+      "task_id": "task_methods_plugin_prototypes_1_constructor_source_93a6be81",
+      "path": "methods.plugin_prototypes.1.constructor.source",
+      "roi": 4.15,
+      "estimated_similarity_gain": 0.1452,
+      "estimated_cf_gain": 0.1191,
+      "complexity": "Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 76,
+      "task_id": "task_methods_plugin_prototypes_1_constructor_typeof_2653213f",
+      "path": "methods.plugin_prototypes.1.constructor.typeof",
+      "roi": 4.15,
+      "estimated_similarity_gain": 0.1452,
+      "estimated_cf_gain": 0.1191,
+      "complexity": "Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 77,
+      "task_id": "task_methods_plugin_prototypes_2_constructor_availabl_378e679b",
+      "path": "methods.plugin_prototypes.2.constructor.available",
+      "roi": 4.15,
+      "estimated_similarity_gain": 0.1452,
+      "estimated_cf_gain": 0.1191,
+      "complexity": "Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 78,
+      "task_id": "task_methods_plugin_prototypes_2_constructor_descript_3c2f9887",
+      "path": "methods.plugin_prototypes.2.constructor.descriptor.configurable",
+      "roi": 4.15,
+      "estimated_similarity_gain": 0.1452,
+      "estimated_cf_gain": 0.1191,
+      "complexity": "Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 79,
+      "task_id": "task_methods_plugin_prototypes_2_constructor_descript_c39a4559",
+      "path": "methods.plugin_prototypes.2.constructor.descriptor.enumerable",
+      "roi": 4.15,
+      "estimated_similarity_gain": 0.1452,
+      "estimated_cf_gain": 0.1191,
+      "complexity": "Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 80,
+      "task_id": "task_methods_plugin_prototypes_2_constructor_descript_8ada7202",
+      "path": "methods.plugin_prototypes.2.constructor.descriptor.getterSource",
+      "roi": 4.15,
+      "estimated_similarity_gain": 0.1452,
+      "estimated_cf_gain": 0.1191,
+      "complexity": "Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 81,
+      "task_id": "task_methods_plugin_prototypes_2_constructor_descript_ddc002a6",
+      "path": "methods.plugin_prototypes.2.constructor.descriptor.hasGetter",
+      "roi": 4.15,
+      "estimated_similarity_gain": 0.1452,
+      "estimated_cf_gain": 0.1191,
+      "complexity": "Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 82,
+      "task_id": "task_methods_plugin_prototypes_2_constructor_descript_dec5c8a4",
+      "path": "methods.plugin_prototypes.2.constructor.descriptor.hasSetter",
+      "roi": 4.15,
+      "estimated_similarity_gain": 0.1452,
+      "estimated_cf_gain": 0.1191,
+      "complexity": "Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 83,
+      "task_id": "task_methods_plugin_prototypes_2_constructor_descript_20fe30bd",
+      "path": "methods.plugin_prototypes.2.constructor.descriptor.setterSource",
+      "roi": 4.15,
+      "estimated_similarity_gain": 0.1452,
+      "estimated_cf_gain": 0.1191,
+      "complexity": "Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 84,
+      "task_id": "task_methods_plugin_prototypes_2_constructor_descript_15e1e992",
+      "path": "methods.plugin_prototypes.2.constructor.descriptor.valueSource",
+      "roi": 4.15,
+      "estimated_similarity_gain": 0.1452,
+      "estimated_cf_gain": 0.1191,
+      "complexity": "Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 85,
+      "task_id": "task_methods_plugin_prototypes_2_constructor_descript_4ef5acf7",
+      "path": "methods.plugin_prototypes.2.constructor.descriptor.valueType",
+      "roi": 4.15,
+      "estimated_similarity_gain": 0.1452,
+      "estimated_cf_gain": 0.1191,
+      "complexity": "Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 86,
+      "task_id": "task_methods_plugin_prototypes_2_constructor_descript_3bd4fa4b",
+      "path": "methods.plugin_prototypes.2.constructor.descriptor.writable",
+      "roi": 4.15,
+      "estimated_similarity_gain": 0.1452,
+      "estimated_cf_gain": 0.1191,
+      "complexity": "Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 87,
+      "task_id": "task_methods_plugin_prototypes_2_constructor_nativeso_10e3fad1",
+      "path": "methods.plugin_prototypes.2.constructor.nativeSource",
+      "roi": 4.15,
+      "estimated_similarity_gain": 0.1452,
+      "estimated_cf_gain": 0.1191,
+      "complexity": "Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 88,
+      "task_id": "task_methods_plugin_prototypes_2_constructor_source_5066f8b8",
+      "path": "methods.plugin_prototypes.2.constructor.source",
+      "roi": 4.15,
+      "estimated_similarity_gain": 0.1452,
+      "estimated_cf_gain": 0.1191,
+      "complexity": "Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 89,
+      "task_id": "task_methods_plugin_prototypes_2_constructor_typeof_4708fce0",
+      "path": "methods.plugin_prototypes.2.constructor.typeof",
+      "roi": 4.15,
+      "estimated_similarity_gain": 0.1452,
+      "estimated_cf_gain": 0.1191,
+      "complexity": "Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 90,
+      "task_id": "task_methods_plugin_prototypes_3_constructor_availabl_e5493f16",
+      "path": "methods.plugin_prototypes.3.constructor.available",
+      "roi": 4.15,
+      "estimated_similarity_gain": 0.1452,
+      "estimated_cf_gain": 0.1191,
+      "complexity": "Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 91,
+      "task_id": "task_methods_plugin_prototypes_3_constructor_descript_a53f3574",
+      "path": "methods.plugin_prototypes.3.constructor.descriptor.configurable",
+      "roi": 4.15,
+      "estimated_similarity_gain": 0.1452,
+      "estimated_cf_gain": 0.1191,
+      "complexity": "Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 92,
+      "task_id": "task_methods_plugin_prototypes_3_constructor_descript_ce46dbb5",
+      "path": "methods.plugin_prototypes.3.constructor.descriptor.enumerable",
+      "roi": 4.15,
+      "estimated_similarity_gain": 0.1452,
+      "estimated_cf_gain": 0.1191,
+      "complexity": "Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 93,
+      "task_id": "task_methods_plugin_prototypes_3_constructor_descript_c16d597c",
+      "path": "methods.plugin_prototypes.3.constructor.descriptor.getterSource",
+      "roi": 4.15,
+      "estimated_similarity_gain": 0.1452,
+      "estimated_cf_gain": 0.1191,
+      "complexity": "Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 94,
+      "task_id": "task_methods_plugin_prototypes_3_constructor_descript_71f92f8f",
+      "path": "methods.plugin_prototypes.3.constructor.descriptor.hasGetter",
+      "roi": 4.15,
+      "estimated_similarity_gain": 0.1452,
+      "estimated_cf_gain": 0.1191,
+      "complexity": "Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 95,
+      "task_id": "task_methods_plugin_prototypes_3_constructor_descript_891c3c1d",
+      "path": "methods.plugin_prototypes.3.constructor.descriptor.hasSetter",
+      "roi": 4.15,
+      "estimated_similarity_gain": 0.1452,
+      "estimated_cf_gain": 0.1191,
+      "complexity": "Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 96,
+      "task_id": "task_methods_plugin_prototypes_3_constructor_descript_02f55741",
+      "path": "methods.plugin_prototypes.3.constructor.descriptor.setterSource",
+      "roi": 4.15,
+      "estimated_similarity_gain": 0.1452,
+      "estimated_cf_gain": 0.1191,
+      "complexity": "Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 97,
+      "task_id": "task_methods_plugin_prototypes_3_constructor_descript_bc4b4508",
+      "path": "methods.plugin_prototypes.3.constructor.descriptor.valueSource",
+      "roi": 4.15,
+      "estimated_similarity_gain": 0.1452,
+      "estimated_cf_gain": 0.1191,
+      "complexity": "Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 98,
+      "task_id": "task_methods_plugin_prototypes_3_constructor_descript_22db0d71",
+      "path": "methods.plugin_prototypes.3.constructor.descriptor.valueType",
+      "roi": 4.15,
+      "estimated_similarity_gain": 0.1452,
+      "estimated_cf_gain": 0.1191,
+      "complexity": "Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 99,
+      "task_id": "task_methods_plugin_prototypes_3_constructor_descript_439a3560",
+      "path": "methods.plugin_prototypes.3.constructor.descriptor.writable",
+      "roi": 4.15,
+      "estimated_similarity_gain": 0.1452,
+      "estimated_cf_gain": 0.1191,
+      "complexity": "Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 100,
+      "task_id": "task_methods_plugin_prototypes_3_constructor_nativeso_4f7f7abd",
+      "path": "methods.plugin_prototypes.3.constructor.nativeSource",
+      "roi": 4.15,
+      "estimated_similarity_gain": 0.1452,
+      "estimated_cf_gain": 0.1191,
+      "complexity": "Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 101,
+      "task_id": "task_methods_plugin_prototypes_3_constructor_source_2d9aea34",
+      "path": "methods.plugin_prototypes.3.constructor.source",
+      "roi": 4.15,
+      "estimated_similarity_gain": 0.1452,
+      "estimated_cf_gain": 0.1191,
+      "complexity": "Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 102,
+      "task_id": "task_methods_plugin_prototypes_3_constructor_typeof_c9041be2",
+      "path": "methods.plugin_prototypes.3.constructor.typeof",
+      "roi": 4.15,
+      "estimated_similarity_gain": 0.1452,
+      "estimated_cf_gain": 0.1191,
+      "complexity": "Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 103,
+      "task_id": "task_methods_plugin_prototypes_4_constructor_availabl_cca754f8",
+      "path": "methods.plugin_prototypes.4.constructor.available",
+      "roi": 4.15,
+      "estimated_similarity_gain": 0.1452,
+      "estimated_cf_gain": 0.1191,
+      "complexity": "Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 104,
+      "task_id": "task_methods_plugin_prototypes_4_constructor_descript_8eddce1d",
+      "path": "methods.plugin_prototypes.4.constructor.descriptor.configurable",
+      "roi": 4.15,
+      "estimated_similarity_gain": 0.1452,
+      "estimated_cf_gain": 0.1191,
+      "complexity": "Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 105,
+      "task_id": "task_methods_plugin_prototypes_4_constructor_descript_810f71c9",
+      "path": "methods.plugin_prototypes.4.constructor.descriptor.enumerable",
+      "roi": 4.15,
+      "estimated_similarity_gain": 0.1452,
+      "estimated_cf_gain": 0.1191,
+      "complexity": "Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 106,
+      "task_id": "task_methods_plugin_prototypes_4_constructor_descript_4d95e244",
+      "path": "methods.plugin_prototypes.4.constructor.descriptor.getterSource",
+      "roi": 4.15,
+      "estimated_similarity_gain": 0.1452,
+      "estimated_cf_gain": 0.1191,
+      "complexity": "Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 107,
+      "task_id": "task_methods_plugin_prototypes_4_constructor_descript_8ec80a2b",
+      "path": "methods.plugin_prototypes.4.constructor.descriptor.hasGetter",
+      "roi": 4.15,
+      "estimated_similarity_gain": 0.1452,
+      "estimated_cf_gain": 0.1191,
+      "complexity": "Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 108,
+      "task_id": "task_methods_plugin_prototypes_4_constructor_descript_7b2e776f",
+      "path": "methods.plugin_prototypes.4.constructor.descriptor.hasSetter",
+      "roi": 4.15,
+      "estimated_similarity_gain": 0.1452,
+      "estimated_cf_gain": 0.1191,
+      "complexity": "Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 109,
+      "task_id": "task_methods_plugin_prototypes_4_constructor_descript_daefa86f",
+      "path": "methods.plugin_prototypes.4.constructor.descriptor.setterSource",
+      "roi": 4.15,
+      "estimated_similarity_gain": 0.1452,
+      "estimated_cf_gain": 0.1191,
+      "complexity": "Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 110,
+      "task_id": "task_methods_plugin_prototypes_4_constructor_descript_1aeb1b2f",
+      "path": "methods.plugin_prototypes.4.constructor.descriptor.valueSource",
+      "roi": 4.15,
+      "estimated_similarity_gain": 0.1452,
+      "estimated_cf_gain": 0.1191,
+      "complexity": "Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 111,
+      "task_id": "task_methods_plugin_prototypes_4_constructor_descript_4b747e87",
+      "path": "methods.plugin_prototypes.4.constructor.descriptor.valueType",
+      "roi": 4.15,
+      "estimated_similarity_gain": 0.1452,
+      "estimated_cf_gain": 0.1191,
+      "complexity": "Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 112,
+      "task_id": "task_methods_plugin_prototypes_4_constructor_descript_aca8ccf6",
+      "path": "methods.plugin_prototypes.4.constructor.descriptor.writable",
+      "roi": 4.15,
+      "estimated_similarity_gain": 0.1452,
+      "estimated_cf_gain": 0.1191,
+      "complexity": "Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 113,
+      "task_id": "task_methods_plugin_prototypes_4_constructor_nativeso_1171ffa6",
+      "path": "methods.plugin_prototypes.4.constructor.nativeSource",
+      "roi": 4.15,
+      "estimated_similarity_gain": 0.1452,
+      "estimated_cf_gain": 0.1191,
+      "complexity": "Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 114,
+      "task_id": "task_methods_plugin_prototypes_4_constructor_source_dda4dbe0",
+      "path": "methods.plugin_prototypes.4.constructor.source",
+      "roi": 4.15,
+      "estimated_similarity_gain": 0.1452,
+      "estimated_cf_gain": 0.1191,
+      "complexity": "Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 115,
+      "task_id": "task_methods_plugin_prototypes_4_constructor_typeof_94452c6a",
+      "path": "methods.plugin_prototypes.4.constructor.typeof",
+      "roi": 4.15,
+      "estimated_similarity_gain": 0.1452,
+      "estimated_cf_gain": 0.1191,
+      "complexity": "Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 116,
+      "task_id": "task_methods_plugin_prototypes_0_item_available_e56caa2c",
+      "path": "methods.plugin_prototypes.0.item.available",
+      "roi": 4.02,
+      "estimated_similarity_gain": 0.1408,
+      "estimated_cf_gain": 0.1155,
+      "complexity": "Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 117,
+      "task_id": "task_methods_plugin_prototypes_0_item_descriptor_conf_f01ca2fc",
+      "path": "methods.plugin_prototypes.0.item.descriptor.configurable",
+      "roi": 4.02,
+      "estimated_similarity_gain": 0.1408,
+      "estimated_cf_gain": 0.1155,
+      "complexity": "Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 118,
+      "task_id": "task_methods_plugin_prototypes_0_item_descriptor_enum_86ced1a2",
+      "path": "methods.plugin_prototypes.0.item.descriptor.enumerable",
+      "roi": 4.02,
+      "estimated_similarity_gain": 0.1408,
+      "estimated_cf_gain": 0.1155,
+      "complexity": "Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 119,
+      "task_id": "task_methods_plugin_prototypes_0_item_descriptor_gett_5939681f",
+      "path": "methods.plugin_prototypes.0.item.descriptor.getterSource",
+      "roi": 4.02,
+      "estimated_similarity_gain": 0.1408,
+      "estimated_cf_gain": 0.1155,
+      "complexity": "Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 120,
+      "task_id": "task_methods_plugin_prototypes_0_item_descriptor_hasg_cef3bc73",
+      "path": "methods.plugin_prototypes.0.item.descriptor.hasGetter",
+      "roi": 4.02,
+      "estimated_similarity_gain": 0.1408,
+      "estimated_cf_gain": 0.1155,
+      "complexity": "Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 121,
+      "task_id": "task_methods_plugin_prototypes_0_item_descriptor_hass_09e386fa",
+      "path": "methods.plugin_prototypes.0.item.descriptor.hasSetter",
+      "roi": 4.02,
+      "estimated_similarity_gain": 0.1408,
+      "estimated_cf_gain": 0.1155,
+      "complexity": "Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 122,
+      "task_id": "task_methods_plugin_prototypes_0_item_descriptor_sett_bb13b78b",
+      "path": "methods.plugin_prototypes.0.item.descriptor.setterSource",
+      "roi": 4.02,
+      "estimated_similarity_gain": 0.1408,
+      "estimated_cf_gain": 0.1155,
+      "complexity": "Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 123,
+      "task_id": "task_methods_plugin_prototypes_0_item_descriptor_valu_fd84f244",
+      "path": "methods.plugin_prototypes.0.item.descriptor.valueSource",
+      "roi": 4.02,
+      "estimated_similarity_gain": 0.1408,
+      "estimated_cf_gain": 0.1155,
+      "complexity": "Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 124,
+      "task_id": "task_methods_plugin_prototypes_0_item_descriptor_valu_010a5ac9",
+      "path": "methods.plugin_prototypes.0.item.descriptor.valueType",
+      "roi": 4.02,
+      "estimated_similarity_gain": 0.1408,
+      "estimated_cf_gain": 0.1155,
+      "complexity": "Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 125,
+      "task_id": "task_methods_plugin_prototypes_0_item_descriptor_writ_5caa4692",
+      "path": "methods.plugin_prototypes.0.item.descriptor.writable",
+      "roi": 4.02,
+      "estimated_similarity_gain": 0.1408,
+      "estimated_cf_gain": 0.1155,
+      "complexity": "Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 126,
+      "task_id": "task_methods_plugin_prototypes_0_item_nativesource_2918b940",
+      "path": "methods.plugin_prototypes.0.item.nativeSource",
+      "roi": 4.02,
+      "estimated_similarity_gain": 0.1408,
+      "estimated_cf_gain": 0.1155,
+      "complexity": "Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 127,
+      "task_id": "task_methods_plugin_prototypes_0_item_source_10c13dee",
+      "path": "methods.plugin_prototypes.0.item.source",
+      "roi": 4.02,
+      "estimated_similarity_gain": 0.1408,
+      "estimated_cf_gain": 0.1155,
+      "complexity": "Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 128,
+      "task_id": "task_methods_plugin_prototypes_0_item_typeof_150b5a6c",
+      "path": "methods.plugin_prototypes.0.item.typeof",
+      "roi": 4.02,
+      "estimated_similarity_gain": 0.1408,
+      "estimated_cf_gain": 0.1155,
+      "complexity": "Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 129,
+      "task_id": "task_methods_plugin_prototypes_0_nameditem_available_471999df",
+      "path": "methods.plugin_prototypes.0.namedItem.available",
+      "roi": 4.02,
+      "estimated_similarity_gain": 0.1408,
+      "estimated_cf_gain": 0.1155,
+      "complexity": "Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 130,
+      "task_id": "task_methods_plugin_prototypes_0_nameditem_descriptor_0cf2dc2a",
+      "path": "methods.plugin_prototypes.0.namedItem.descriptor.configurable",
+      "roi": 4.02,
+      "estimated_similarity_gain": 0.1408,
+      "estimated_cf_gain": 0.1155,
+      "complexity": "Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 131,
+      "task_id": "task_methods_plugin_prototypes_0_nameditem_descriptor_61ea990c",
+      "path": "methods.plugin_prototypes.0.namedItem.descriptor.enumerable",
+      "roi": 4.02,
+      "estimated_similarity_gain": 0.1408,
+      "estimated_cf_gain": 0.1155,
+      "complexity": "Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 132,
+      "task_id": "task_methods_plugin_prototypes_0_nameditem_descriptor_41a4cbfb",
+      "path": "methods.plugin_prototypes.0.namedItem.descriptor.getterSource",
+      "roi": 4.02,
+      "estimated_similarity_gain": 0.1408,
+      "estimated_cf_gain": 0.1155,
+      "complexity": "Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 133,
+      "task_id": "task_methods_plugin_prototypes_0_nameditem_descriptor_08405204",
+      "path": "methods.plugin_prototypes.0.namedItem.descriptor.hasGetter",
+      "roi": 4.02,
+      "estimated_similarity_gain": 0.1408,
+      "estimated_cf_gain": 0.1155,
+      "complexity": "Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 134,
+      "task_id": "task_methods_plugin_prototypes_0_nameditem_descriptor_c1df3c4f",
+      "path": "methods.plugin_prototypes.0.namedItem.descriptor.hasSetter",
+      "roi": 4.02,
+      "estimated_similarity_gain": 0.1408,
+      "estimated_cf_gain": 0.1155,
+      "complexity": "Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 135,
+      "task_id": "task_methods_plugin_prototypes_0_nameditem_descriptor_675d0245",
+      "path": "methods.plugin_prototypes.0.namedItem.descriptor.setterSource",
+      "roi": 4.02,
+      "estimated_similarity_gain": 0.1408,
+      "estimated_cf_gain": 0.1155,
+      "complexity": "Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 136,
+      "task_id": "task_methods_plugin_prototypes_0_nameditem_descriptor_16e0b12e",
+      "path": "methods.plugin_prototypes.0.namedItem.descriptor.valueSource",
+      "roi": 4.02,
+      "estimated_similarity_gain": 0.1408,
+      "estimated_cf_gain": 0.1155,
+      "complexity": "Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 137,
+      "task_id": "task_methods_plugin_prototypes_0_nameditem_descriptor_dc76a672",
+      "path": "methods.plugin_prototypes.0.namedItem.descriptor.valueType",
+      "roi": 4.02,
+      "estimated_similarity_gain": 0.1408,
+      "estimated_cf_gain": 0.1155,
+      "complexity": "Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 138,
+      "task_id": "task_methods_plugin_prototypes_0_nameditem_descriptor_4c79c596",
+      "path": "methods.plugin_prototypes.0.namedItem.descriptor.writable",
+      "roi": 4.02,
+      "estimated_similarity_gain": 0.1408,
+      "estimated_cf_gain": 0.1155,
+      "complexity": "Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 139,
+      "task_id": "task_methods_plugin_prototypes_0_nameditem_nativesour_03a1830f",
+      "path": "methods.plugin_prototypes.0.namedItem.nativeSource",
+      "roi": 4.02,
+      "estimated_similarity_gain": 0.1408,
+      "estimated_cf_gain": 0.1155,
+      "complexity": "Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 140,
+      "task_id": "task_methods_plugin_prototypes_0_nameditem_source_d56b2a17",
+      "path": "methods.plugin_prototypes.0.namedItem.source",
+      "roi": 4.02,
+      "estimated_similarity_gain": 0.1408,
+      "estimated_cf_gain": 0.1155,
+      "complexity": "Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 141,
+      "task_id": "task_methods_plugin_prototypes_0_nameditem_typeof_4bdff8af",
+      "path": "methods.plugin_prototypes.0.namedItem.typeof",
+      "roi": 4.02,
+      "estimated_similarity_gain": 0.1408,
+      "estimated_cf_gain": 0.1155,
+      "complexity": "Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 142,
+      "task_id": "task_methods_plugin_prototypes_1_item_available_99c84802",
+      "path": "methods.plugin_prototypes.1.item.available",
+      "roi": 4.02,
+      "estimated_similarity_gain": 0.1408,
+      "estimated_cf_gain": 0.1155,
+      "complexity": "Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 143,
+      "task_id": "task_methods_plugin_prototypes_1_item_descriptor_conf_e0e0184e",
+      "path": "methods.plugin_prototypes.1.item.descriptor.configurable",
+      "roi": 4.02,
+      "estimated_similarity_gain": 0.1408,
+      "estimated_cf_gain": 0.1155,
+      "complexity": "Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 144,
+      "task_id": "task_methods_plugin_prototypes_1_item_descriptor_enum_7d9748f1",
+      "path": "methods.plugin_prototypes.1.item.descriptor.enumerable",
+      "roi": 4.02,
+      "estimated_similarity_gain": 0.1408,
+      "estimated_cf_gain": 0.1155,
+      "complexity": "Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 145,
+      "task_id": "task_methods_plugin_prototypes_1_item_descriptor_gett_460fb6f2",
+      "path": "methods.plugin_prototypes.1.item.descriptor.getterSource",
+      "roi": 4.02,
+      "estimated_similarity_gain": 0.1408,
+      "estimated_cf_gain": 0.1155,
+      "complexity": "Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 146,
+      "task_id": "task_methods_plugin_prototypes_1_item_descriptor_hasg_fac10ebf",
+      "path": "methods.plugin_prototypes.1.item.descriptor.hasGetter",
+      "roi": 4.02,
+      "estimated_similarity_gain": 0.1408,
+      "estimated_cf_gain": 0.1155,
+      "complexity": "Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 147,
+      "task_id": "task_methods_plugin_prototypes_1_item_descriptor_hass_71847d51",
+      "path": "methods.plugin_prototypes.1.item.descriptor.hasSetter",
+      "roi": 4.02,
+      "estimated_similarity_gain": 0.1408,
+      "estimated_cf_gain": 0.1155,
+      "complexity": "Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 148,
+      "task_id": "task_methods_plugin_prototypes_1_item_descriptor_sett_0b36b43d",
+      "path": "methods.plugin_prototypes.1.item.descriptor.setterSource",
+      "roi": 4.02,
+      "estimated_similarity_gain": 0.1408,
+      "estimated_cf_gain": 0.1155,
+      "complexity": "Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 149,
+      "task_id": "task_methods_plugin_prototypes_1_item_descriptor_valu_6b51bf5d",
+      "path": "methods.plugin_prototypes.1.item.descriptor.valueSource",
+      "roi": 4.02,
+      "estimated_similarity_gain": 0.1408,
+      "estimated_cf_gain": 0.1155,
+      "complexity": "Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 150,
+      "task_id": "task_methods_plugin_prototypes_1_item_descriptor_valu_6401e4ed",
+      "path": "methods.plugin_prototypes.1.item.descriptor.valueType",
+      "roi": 4.02,
+      "estimated_similarity_gain": 0.1408,
+      "estimated_cf_gain": 0.1155,
+      "complexity": "Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 151,
+      "task_id": "task_methods_plugin_prototypes_1_item_descriptor_writ_de93521d",
+      "path": "methods.plugin_prototypes.1.item.descriptor.writable",
+      "roi": 4.02,
+      "estimated_similarity_gain": 0.1408,
+      "estimated_cf_gain": 0.1155,
+      "complexity": "Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 152,
+      "task_id": "task_methods_plugin_prototypes_1_item_nativesource_f03047ed",
+      "path": "methods.plugin_prototypes.1.item.nativeSource",
+      "roi": 4.02,
+      "estimated_similarity_gain": 0.1408,
+      "estimated_cf_gain": 0.1155,
+      "complexity": "Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 153,
+      "task_id": "task_methods_plugin_prototypes_1_item_source_81314399",
+      "path": "methods.plugin_prototypes.1.item.source",
+      "roi": 4.02,
+      "estimated_similarity_gain": 0.1408,
+      "estimated_cf_gain": 0.1155,
+      "complexity": "Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 154,
+      "task_id": "task_methods_plugin_prototypes_1_item_typeof_9f958e4c",
+      "path": "methods.plugin_prototypes.1.item.typeof",
+      "roi": 4.02,
+      "estimated_similarity_gain": 0.1408,
+      "estimated_cf_gain": 0.1155,
+      "complexity": "Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 155,
+      "task_id": "task_methods_plugin_prototypes_1_nameditem_available_2bcc5166",
+      "path": "methods.plugin_prototypes.1.namedItem.available",
+      "roi": 4.02,
+      "estimated_similarity_gain": 0.1408,
+      "estimated_cf_gain": 0.1155,
+      "complexity": "Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 156,
+      "task_id": "task_methods_plugin_prototypes_1_nameditem_descriptor_4089ed19",
+      "path": "methods.plugin_prototypes.1.namedItem.descriptor.configurable",
+      "roi": 4.02,
+      "estimated_similarity_gain": 0.1408,
+      "estimated_cf_gain": 0.1155,
+      "complexity": "Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 157,
+      "task_id": "task_methods_plugin_prototypes_1_nameditem_descriptor_95c4e524",
+      "path": "methods.plugin_prototypes.1.namedItem.descriptor.enumerable",
+      "roi": 4.02,
+      "estimated_similarity_gain": 0.1408,
+      "estimated_cf_gain": 0.1155,
+      "complexity": "Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 158,
+      "task_id": "task_methods_plugin_prototypes_1_nameditem_descriptor_d3da8bd8",
+      "path": "methods.plugin_prototypes.1.namedItem.descriptor.getterSource",
+      "roi": 4.02,
+      "estimated_similarity_gain": 0.1408,
+      "estimated_cf_gain": 0.1155,
+      "complexity": "Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 159,
+      "task_id": "task_methods_plugin_prototypes_1_nameditem_descriptor_da44f0a1",
+      "path": "methods.plugin_prototypes.1.namedItem.descriptor.hasGetter",
+      "roi": 4.02,
+      "estimated_similarity_gain": 0.1408,
+      "estimated_cf_gain": 0.1155,
+      "complexity": "Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 160,
+      "task_id": "task_methods_plugin_prototypes_1_nameditem_descriptor_6b1ae17b",
+      "path": "methods.plugin_prototypes.1.namedItem.descriptor.hasSetter",
+      "roi": 4.02,
+      "estimated_similarity_gain": 0.1408,
+      "estimated_cf_gain": 0.1155,
+      "complexity": "Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 161,
+      "task_id": "task_methods_plugin_prototypes_1_nameditem_descriptor_b7160541",
+      "path": "methods.plugin_prototypes.1.namedItem.descriptor.setterSource",
+      "roi": 4.02,
+      "estimated_similarity_gain": 0.1408,
+      "estimated_cf_gain": 0.1155,
+      "complexity": "Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 162,
+      "task_id": "task_methods_plugin_prototypes_1_nameditem_descriptor_9e9dc289",
+      "path": "methods.plugin_prototypes.1.namedItem.descriptor.valueSource",
+      "roi": 4.02,
+      "estimated_similarity_gain": 0.1408,
+      "estimated_cf_gain": 0.1155,
+      "complexity": "Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 163,
+      "task_id": "task_methods_plugin_prototypes_1_nameditem_descriptor_fca39950",
+      "path": "methods.plugin_prototypes.1.namedItem.descriptor.valueType",
+      "roi": 4.02,
+      "estimated_similarity_gain": 0.1408,
+      "estimated_cf_gain": 0.1155,
+      "complexity": "Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 164,
+      "task_id": "task_methods_plugin_prototypes_1_nameditem_descriptor_8d365af5",
+      "path": "methods.plugin_prototypes.1.namedItem.descriptor.writable",
+      "roi": 4.02,
+      "estimated_similarity_gain": 0.1408,
+      "estimated_cf_gain": 0.1155,
+      "complexity": "Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 165,
+      "task_id": "task_methods_plugin_prototypes_1_nameditem_nativesour_1c74ea68",
+      "path": "methods.plugin_prototypes.1.namedItem.nativeSource",
+      "roi": 4.02,
+      "estimated_similarity_gain": 0.1408,
+      "estimated_cf_gain": 0.1155,
+      "complexity": "Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 166,
+      "task_id": "task_methods_plugin_prototypes_1_nameditem_source_12ca540d",
+      "path": "methods.plugin_prototypes.1.namedItem.source",
+      "roi": 4.02,
+      "estimated_similarity_gain": 0.1408,
+      "estimated_cf_gain": 0.1155,
+      "complexity": "Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 167,
+      "task_id": "task_methods_plugin_prototypes_1_nameditem_typeof_a19cba6e",
+      "path": "methods.plugin_prototypes.1.namedItem.typeof",
+      "roi": 4.02,
+      "estimated_similarity_gain": 0.1408,
+      "estimated_cf_gain": 0.1155,
+      "complexity": "Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 168,
+      "task_id": "task_methods_plugin_prototypes_2_item_available_7ec58acd",
+      "path": "methods.plugin_prototypes.2.item.available",
+      "roi": 4.02,
+      "estimated_similarity_gain": 0.1408,
+      "estimated_cf_gain": 0.1155,
+      "complexity": "Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 169,
+      "task_id": "task_methods_plugin_prototypes_2_item_descriptor_conf_c58053fc",
+      "path": "methods.plugin_prototypes.2.item.descriptor.configurable",
+      "roi": 4.02,
+      "estimated_similarity_gain": 0.1408,
+      "estimated_cf_gain": 0.1155,
+      "complexity": "Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 170,
+      "task_id": "task_methods_plugin_prototypes_2_item_descriptor_enum_4ab256b9",
+      "path": "methods.plugin_prototypes.2.item.descriptor.enumerable",
+      "roi": 4.02,
+      "estimated_similarity_gain": 0.1408,
+      "estimated_cf_gain": 0.1155,
+      "complexity": "Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 171,
+      "task_id": "task_methods_plugin_prototypes_2_item_descriptor_gett_1d74ea49",
+      "path": "methods.plugin_prototypes.2.item.descriptor.getterSource",
+      "roi": 4.02,
+      "estimated_similarity_gain": 0.1408,
+      "estimated_cf_gain": 0.1155,
+      "complexity": "Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 172,
+      "task_id": "task_methods_plugin_prototypes_2_item_descriptor_hasg_c758bd51",
+      "path": "methods.plugin_prototypes.2.item.descriptor.hasGetter",
+      "roi": 4.02,
+      "estimated_similarity_gain": 0.1408,
+      "estimated_cf_gain": 0.1155,
+      "complexity": "Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 173,
+      "task_id": "task_methods_plugin_prototypes_2_item_descriptor_hass_580a2e67",
+      "path": "methods.plugin_prototypes.2.item.descriptor.hasSetter",
+      "roi": 4.02,
+      "estimated_similarity_gain": 0.1408,
+      "estimated_cf_gain": 0.1155,
+      "complexity": "Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 174,
+      "task_id": "task_methods_plugin_prototypes_2_item_descriptor_sett_b453027e",
+      "path": "methods.plugin_prototypes.2.item.descriptor.setterSource",
+      "roi": 4.02,
+      "estimated_similarity_gain": 0.1408,
+      "estimated_cf_gain": 0.1155,
+      "complexity": "Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 175,
+      "task_id": "task_methods_plugin_prototypes_2_item_descriptor_valu_6fcb9cc4",
+      "path": "methods.plugin_prototypes.2.item.descriptor.valueSource",
+      "roi": 4.02,
+      "estimated_similarity_gain": 0.1408,
+      "estimated_cf_gain": 0.1155,
+      "complexity": "Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 176,
+      "task_id": "task_methods_plugin_prototypes_2_item_descriptor_valu_3a2d35f6",
+      "path": "methods.plugin_prototypes.2.item.descriptor.valueType",
+      "roi": 4.02,
+      "estimated_similarity_gain": 0.1408,
+      "estimated_cf_gain": 0.1155,
+      "complexity": "Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 177,
+      "task_id": "task_methods_plugin_prototypes_2_item_descriptor_writ_00e8d25c",
+      "path": "methods.plugin_prototypes.2.item.descriptor.writable",
+      "roi": 4.02,
+      "estimated_similarity_gain": 0.1408,
+      "estimated_cf_gain": 0.1155,
+      "complexity": "Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 178,
+      "task_id": "task_methods_plugin_prototypes_2_item_nativesource_70b3731d",
+      "path": "methods.plugin_prototypes.2.item.nativeSource",
+      "roi": 4.02,
+      "estimated_similarity_gain": 0.1408,
+      "estimated_cf_gain": 0.1155,
+      "complexity": "Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 179,
+      "task_id": "task_methods_plugin_prototypes_2_item_source_5a6ba294",
+      "path": "methods.plugin_prototypes.2.item.source",
+      "roi": 4.02,
+      "estimated_similarity_gain": 0.1408,
+      "estimated_cf_gain": 0.1155,
+      "complexity": "Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 180,
+      "task_id": "task_methods_plugin_prototypes_2_item_typeof_752b418f",
+      "path": "methods.plugin_prototypes.2.item.typeof",
+      "roi": 4.02,
+      "estimated_similarity_gain": 0.1408,
+      "estimated_cf_gain": 0.1155,
+      "complexity": "Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 181,
+      "task_id": "task_methods_plugin_prototypes_2_nameditem_available_25de07fe",
+      "path": "methods.plugin_prototypes.2.namedItem.available",
+      "roi": 4.02,
+      "estimated_similarity_gain": 0.1408,
+      "estimated_cf_gain": 0.1155,
+      "complexity": "Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 182,
+      "task_id": "task_methods_plugin_prototypes_2_nameditem_descriptor_f6178568",
+      "path": "methods.plugin_prototypes.2.namedItem.descriptor.configurable",
+      "roi": 4.02,
+      "estimated_similarity_gain": 0.1408,
+      "estimated_cf_gain": 0.1155,
+      "complexity": "Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 183,
+      "task_id": "task_methods_plugin_prototypes_2_nameditem_descriptor_aef4f028",
+      "path": "methods.plugin_prototypes.2.namedItem.descriptor.enumerable",
+      "roi": 4.02,
+      "estimated_similarity_gain": 0.1408,
+      "estimated_cf_gain": 0.1155,
+      "complexity": "Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 184,
+      "task_id": "task_methods_plugin_prototypes_2_nameditem_descriptor_f6ee8054",
+      "path": "methods.plugin_prototypes.2.namedItem.descriptor.getterSource",
+      "roi": 4.02,
+      "estimated_similarity_gain": 0.1408,
+      "estimated_cf_gain": 0.1155,
+      "complexity": "Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 185,
+      "task_id": "task_methods_plugin_prototypes_2_nameditem_descriptor_5c08a28c",
+      "path": "methods.plugin_prototypes.2.namedItem.descriptor.hasGetter",
+      "roi": 4.02,
+      "estimated_similarity_gain": 0.1408,
+      "estimated_cf_gain": 0.1155,
+      "complexity": "Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 186,
+      "task_id": "task_methods_plugin_prototypes_2_nameditem_descriptor_393a27fe",
+      "path": "methods.plugin_prototypes.2.namedItem.descriptor.hasSetter",
+      "roi": 4.02,
+      "estimated_similarity_gain": 0.1408,
+      "estimated_cf_gain": 0.1155,
+      "complexity": "Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 187,
+      "task_id": "task_methods_plugin_prototypes_2_nameditem_descriptor_1e8abf36",
+      "path": "methods.plugin_prototypes.2.namedItem.descriptor.setterSource",
+      "roi": 4.02,
+      "estimated_similarity_gain": 0.1408,
+      "estimated_cf_gain": 0.1155,
+      "complexity": "Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 188,
+      "task_id": "task_methods_plugin_prototypes_2_nameditem_descriptor_5f501d71",
+      "path": "methods.plugin_prototypes.2.namedItem.descriptor.valueSource",
+      "roi": 4.02,
+      "estimated_similarity_gain": 0.1408,
+      "estimated_cf_gain": 0.1155,
+      "complexity": "Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 189,
+      "task_id": "task_methods_plugin_prototypes_2_nameditem_descriptor_cd7e829c",
+      "path": "methods.plugin_prototypes.2.namedItem.descriptor.valueType",
+      "roi": 4.02,
+      "estimated_similarity_gain": 0.1408,
+      "estimated_cf_gain": 0.1155,
+      "complexity": "Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 190,
+      "task_id": "task_methods_plugin_prototypes_2_nameditem_descriptor_76bdfdb4",
+      "path": "methods.plugin_prototypes.2.namedItem.descriptor.writable",
+      "roi": 4.02,
+      "estimated_similarity_gain": 0.1408,
+      "estimated_cf_gain": 0.1155,
+      "complexity": "Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 191,
+      "task_id": "task_methods_plugin_prototypes_2_nameditem_nativesour_fff7b9be",
+      "path": "methods.plugin_prototypes.2.namedItem.nativeSource",
+      "roi": 4.02,
+      "estimated_similarity_gain": 0.1408,
+      "estimated_cf_gain": 0.1155,
+      "complexity": "Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 192,
+      "task_id": "task_methods_plugin_prototypes_2_nameditem_source_74540fce",
+      "path": "methods.plugin_prototypes.2.namedItem.source",
+      "roi": 4.02,
+      "estimated_similarity_gain": 0.1408,
+      "estimated_cf_gain": 0.1155,
+      "complexity": "Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 193,
+      "task_id": "task_methods_plugin_prototypes_2_nameditem_typeof_a397b8e9",
+      "path": "methods.plugin_prototypes.2.namedItem.typeof",
+      "roi": 4.02,
+      "estimated_similarity_gain": 0.1408,
+      "estimated_cf_gain": 0.1155,
+      "complexity": "Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 194,
+      "task_id": "task_methods_plugin_prototypes_3_item_available_2a95730e",
+      "path": "methods.plugin_prototypes.3.item.available",
+      "roi": 4.02,
+      "estimated_similarity_gain": 0.1408,
+      "estimated_cf_gain": 0.1155,
+      "complexity": "Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 195,
+      "task_id": "task_methods_plugin_prototypes_3_item_descriptor_conf_d4714910",
+      "path": "methods.plugin_prototypes.3.item.descriptor.configurable",
+      "roi": 4.02,
+      "estimated_similarity_gain": 0.1408,
+      "estimated_cf_gain": 0.1155,
+      "complexity": "Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 196,
+      "task_id": "task_methods_plugin_prototypes_3_item_descriptor_enum_0108d4d6",
+      "path": "methods.plugin_prototypes.3.item.descriptor.enumerable",
+      "roi": 4.02,
+      "estimated_similarity_gain": 0.1408,
+      "estimated_cf_gain": 0.1155,
+      "complexity": "Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 197,
+      "task_id": "task_methods_plugin_prototypes_3_item_descriptor_gett_8820fcda",
+      "path": "methods.plugin_prototypes.3.item.descriptor.getterSource",
+      "roi": 4.02,
+      "estimated_similarity_gain": 0.1408,
+      "estimated_cf_gain": 0.1155,
+      "complexity": "Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 198,
+      "task_id": "task_methods_plugin_prototypes_3_item_descriptor_hasg_477237f2",
+      "path": "methods.plugin_prototypes.3.item.descriptor.hasGetter",
+      "roi": 4.02,
+      "estimated_similarity_gain": 0.1408,
+      "estimated_cf_gain": 0.1155,
+      "complexity": "Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 199,
+      "task_id": "task_methods_plugin_prototypes_3_item_descriptor_hass_bb769a42",
+      "path": "methods.plugin_prototypes.3.item.descriptor.hasSetter",
+      "roi": 4.02,
+      "estimated_similarity_gain": 0.1408,
+      "estimated_cf_gain": 0.1155,
+      "complexity": "Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 200,
+      "task_id": "task_methods_plugin_prototypes_3_item_descriptor_sett_26c920c8",
+      "path": "methods.plugin_prototypes.3.item.descriptor.setterSource",
+      "roi": 4.02,
+      "estimated_similarity_gain": 0.1408,
+      "estimated_cf_gain": 0.1155,
+      "complexity": "Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 201,
+      "task_id": "task_methods_plugin_prototypes_3_item_descriptor_valu_1fc7ee48",
+      "path": "methods.plugin_prototypes.3.item.descriptor.valueSource",
+      "roi": 4.02,
+      "estimated_similarity_gain": 0.1408,
+      "estimated_cf_gain": 0.1155,
+      "complexity": "Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 202,
+      "task_id": "task_methods_plugin_prototypes_3_item_descriptor_valu_2a85586b",
+      "path": "methods.plugin_prototypes.3.item.descriptor.valueType",
+      "roi": 4.02,
+      "estimated_similarity_gain": 0.1408,
+      "estimated_cf_gain": 0.1155,
+      "complexity": "Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 203,
+      "task_id": "task_methods_plugin_prototypes_3_item_descriptor_writ_ed7c7401",
+      "path": "methods.plugin_prototypes.3.item.descriptor.writable",
+      "roi": 4.02,
+      "estimated_similarity_gain": 0.1408,
+      "estimated_cf_gain": 0.1155,
+      "complexity": "Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 204,
+      "task_id": "task_methods_plugin_prototypes_3_item_nativesource_9f827024",
+      "path": "methods.plugin_prototypes.3.item.nativeSource",
+      "roi": 4.02,
+      "estimated_similarity_gain": 0.1408,
+      "estimated_cf_gain": 0.1155,
+      "complexity": "Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 205,
+      "task_id": "task_methods_plugin_prototypes_3_item_source_4b8b9277",
+      "path": "methods.plugin_prototypes.3.item.source",
+      "roi": 4.02,
+      "estimated_similarity_gain": 0.1408,
+      "estimated_cf_gain": 0.1155,
+      "complexity": "Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 206,
+      "task_id": "task_methods_plugin_prototypes_3_item_typeof_7e0f337d",
+      "path": "methods.plugin_prototypes.3.item.typeof",
+      "roi": 4.02,
+      "estimated_similarity_gain": 0.1408,
+      "estimated_cf_gain": 0.1155,
+      "complexity": "Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 207,
+      "task_id": "task_methods_plugin_prototypes_3_nameditem_available_d34ae616",
+      "path": "methods.plugin_prototypes.3.namedItem.available",
+      "roi": 4.02,
+      "estimated_similarity_gain": 0.1408,
+      "estimated_cf_gain": 0.1155,
+      "complexity": "Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 208,
+      "task_id": "task_methods_plugin_prototypes_3_nameditem_descriptor_9aa01d0d",
+      "path": "methods.plugin_prototypes.3.namedItem.descriptor.configurable",
+      "roi": 4.02,
+      "estimated_similarity_gain": 0.1408,
+      "estimated_cf_gain": 0.1155,
+      "complexity": "Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 209,
+      "task_id": "task_methods_plugin_prototypes_3_nameditem_descriptor_6f21f352",
+      "path": "methods.plugin_prototypes.3.namedItem.descriptor.enumerable",
+      "roi": 4.02,
+      "estimated_similarity_gain": 0.1408,
+      "estimated_cf_gain": 0.1155,
+      "complexity": "Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 210,
+      "task_id": "task_methods_plugin_prototypes_3_nameditem_descriptor_e2602752",
+      "path": "methods.plugin_prototypes.3.namedItem.descriptor.getterSource",
+      "roi": 4.02,
+      "estimated_similarity_gain": 0.1408,
+      "estimated_cf_gain": 0.1155,
+      "complexity": "Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 211,
+      "task_id": "task_methods_plugin_prototypes_3_nameditem_descriptor_0d2bc4b1",
+      "path": "methods.plugin_prototypes.3.namedItem.descriptor.hasGetter",
+      "roi": 4.02,
+      "estimated_similarity_gain": 0.1408,
+      "estimated_cf_gain": 0.1155,
+      "complexity": "Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 212,
+      "task_id": "task_methods_plugin_prototypes_3_nameditem_descriptor_6c613807",
+      "path": "methods.plugin_prototypes.3.namedItem.descriptor.hasSetter",
+      "roi": 4.02,
+      "estimated_similarity_gain": 0.1408,
+      "estimated_cf_gain": 0.1155,
+      "complexity": "Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 213,
+      "task_id": "task_methods_plugin_prototypes_3_nameditem_descriptor_a50bd114",
+      "path": "methods.plugin_prototypes.3.namedItem.descriptor.setterSource",
+      "roi": 4.02,
+      "estimated_similarity_gain": 0.1408,
+      "estimated_cf_gain": 0.1155,
+      "complexity": "Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 214,
+      "task_id": "task_methods_plugin_prototypes_3_nameditem_descriptor_6c590f48",
+      "path": "methods.plugin_prototypes.3.namedItem.descriptor.valueSource",
+      "roi": 4.02,
+      "estimated_similarity_gain": 0.1408,
+      "estimated_cf_gain": 0.1155,
+      "complexity": "Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 215,
+      "task_id": "task_methods_plugin_prototypes_3_nameditem_descriptor_9efa75c6",
+      "path": "methods.plugin_prototypes.3.namedItem.descriptor.valueType",
+      "roi": 4.02,
+      "estimated_similarity_gain": 0.1408,
+      "estimated_cf_gain": 0.1155,
+      "complexity": "Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 216,
+      "task_id": "task_methods_plugin_prototypes_3_nameditem_descriptor_e2490770",
+      "path": "methods.plugin_prototypes.3.namedItem.descriptor.writable",
+      "roi": 4.02,
+      "estimated_similarity_gain": 0.1408,
+      "estimated_cf_gain": 0.1155,
+      "complexity": "Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 217,
+      "task_id": "task_methods_plugin_prototypes_3_nameditem_nativesour_a7399c70",
+      "path": "methods.plugin_prototypes.3.namedItem.nativeSource",
+      "roi": 4.02,
+      "estimated_similarity_gain": 0.1408,
+      "estimated_cf_gain": 0.1155,
+      "complexity": "Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 218,
+      "task_id": "task_methods_plugin_prototypes_3_nameditem_source_f8979d3f",
+      "path": "methods.plugin_prototypes.3.namedItem.source",
+      "roi": 4.02,
+      "estimated_similarity_gain": 0.1408,
+      "estimated_cf_gain": 0.1155,
+      "complexity": "Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 219,
+      "task_id": "task_methods_plugin_prototypes_3_nameditem_typeof_1035199f",
+      "path": "methods.plugin_prototypes.3.namedItem.typeof",
+      "roi": 4.02,
+      "estimated_similarity_gain": 0.1408,
+      "estimated_cf_gain": 0.1155,
+      "complexity": "Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 220,
+      "task_id": "task_methods_plugin_prototypes_4_item_available_86e1772d",
+      "path": "methods.plugin_prototypes.4.item.available",
+      "roi": 4.02,
+      "estimated_similarity_gain": 0.1408,
+      "estimated_cf_gain": 0.1155,
+      "complexity": "Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 221,
+      "task_id": "task_methods_plugin_prototypes_4_item_descriptor_conf_8ae01ed8",
+      "path": "methods.plugin_prototypes.4.item.descriptor.configurable",
+      "roi": 4.02,
+      "estimated_similarity_gain": 0.1408,
+      "estimated_cf_gain": 0.1155,
+      "complexity": "Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 222,
+      "task_id": "task_methods_plugin_prototypes_4_item_descriptor_enum_70bc63fd",
+      "path": "methods.plugin_prototypes.4.item.descriptor.enumerable",
+      "roi": 4.02,
+      "estimated_similarity_gain": 0.1408,
+      "estimated_cf_gain": 0.1155,
+      "complexity": "Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 223,
+      "task_id": "task_methods_plugin_prototypes_4_item_descriptor_gett_56c571ca",
+      "path": "methods.plugin_prototypes.4.item.descriptor.getterSource",
+      "roi": 4.02,
+      "estimated_similarity_gain": 0.1408,
+      "estimated_cf_gain": 0.1155,
+      "complexity": "Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 224,
+      "task_id": "task_methods_plugin_prototypes_4_item_descriptor_hasg_00520d13",
+      "path": "methods.plugin_prototypes.4.item.descriptor.hasGetter",
+      "roi": 4.02,
+      "estimated_similarity_gain": 0.1408,
+      "estimated_cf_gain": 0.1155,
+      "complexity": "Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 225,
+      "task_id": "task_methods_plugin_prototypes_4_item_descriptor_hass_393eb408",
+      "path": "methods.plugin_prototypes.4.item.descriptor.hasSetter",
+      "roi": 4.02,
+      "estimated_similarity_gain": 0.1408,
+      "estimated_cf_gain": 0.1155,
+      "complexity": "Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 226,
+      "task_id": "task_methods_plugin_prototypes_4_item_descriptor_sett_09376417",
+      "path": "methods.plugin_prototypes.4.item.descriptor.setterSource",
+      "roi": 4.02,
+      "estimated_similarity_gain": 0.1408,
+      "estimated_cf_gain": 0.1155,
+      "complexity": "Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 227,
+      "task_id": "task_methods_plugin_prototypes_4_item_descriptor_valu_f08f20ed",
+      "path": "methods.plugin_prototypes.4.item.descriptor.valueSource",
+      "roi": 4.02,
+      "estimated_similarity_gain": 0.1408,
+      "estimated_cf_gain": 0.1155,
+      "complexity": "Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 228,
+      "task_id": "task_methods_plugin_prototypes_4_item_descriptor_valu_6089eca2",
+      "path": "methods.plugin_prototypes.4.item.descriptor.valueType",
+      "roi": 4.02,
+      "estimated_similarity_gain": 0.1408,
+      "estimated_cf_gain": 0.1155,
+      "complexity": "Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 229,
+      "task_id": "task_methods_plugin_prototypes_4_item_descriptor_writ_e059def5",
+      "path": "methods.plugin_prototypes.4.item.descriptor.writable",
+      "roi": 4.02,
+      "estimated_similarity_gain": 0.1408,
+      "estimated_cf_gain": 0.1155,
+      "complexity": "Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 230,
+      "task_id": "task_methods_plugin_prototypes_4_item_nativesource_749ce85e",
+      "path": "methods.plugin_prototypes.4.item.nativeSource",
+      "roi": 4.02,
+      "estimated_similarity_gain": 0.1408,
+      "estimated_cf_gain": 0.1155,
+      "complexity": "Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 231,
+      "task_id": "task_methods_plugin_prototypes_4_item_source_f767f005",
+      "path": "methods.plugin_prototypes.4.item.source",
+      "roi": 4.02,
+      "estimated_similarity_gain": 0.1408,
+      "estimated_cf_gain": 0.1155,
+      "complexity": "Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 232,
+      "task_id": "task_methods_plugin_prototypes_4_item_typeof_48e3f838",
+      "path": "methods.plugin_prototypes.4.item.typeof",
+      "roi": 4.02,
+      "estimated_similarity_gain": 0.1408,
+      "estimated_cf_gain": 0.1155,
+      "complexity": "Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 233,
+      "task_id": "task_methods_plugin_prototypes_4_nameditem_available_89de4033",
+      "path": "methods.plugin_prototypes.4.namedItem.available",
+      "roi": 4.02,
+      "estimated_similarity_gain": 0.1408,
+      "estimated_cf_gain": 0.1155,
+      "complexity": "Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 234,
+      "task_id": "task_methods_plugin_prototypes_4_nameditem_descriptor_e8ce9445",
+      "path": "methods.plugin_prototypes.4.namedItem.descriptor.configurable",
+      "roi": 4.02,
+      "estimated_similarity_gain": 0.1408,
+      "estimated_cf_gain": 0.1155,
+      "complexity": "Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 235,
+      "task_id": "task_methods_plugin_prototypes_4_nameditem_descriptor_d89f9d9b",
+      "path": "methods.plugin_prototypes.4.namedItem.descriptor.enumerable",
+      "roi": 4.02,
+      "estimated_similarity_gain": 0.1408,
+      "estimated_cf_gain": 0.1155,
+      "complexity": "Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 236,
+      "task_id": "task_methods_plugin_prototypes_4_nameditem_descriptor_e3c5f8db",
+      "path": "methods.plugin_prototypes.4.namedItem.descriptor.getterSource",
+      "roi": 4.02,
+      "estimated_similarity_gain": 0.1408,
+      "estimated_cf_gain": 0.1155,
+      "complexity": "Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 237,
+      "task_id": "task_methods_plugin_prototypes_4_nameditem_descriptor_3a56db82",
+      "path": "methods.plugin_prototypes.4.namedItem.descriptor.hasGetter",
+      "roi": 4.02,
+      "estimated_similarity_gain": 0.1408,
+      "estimated_cf_gain": 0.1155,
+      "complexity": "Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 238,
+      "task_id": "task_methods_plugin_prototypes_4_nameditem_descriptor_25cd3825",
+      "path": "methods.plugin_prototypes.4.namedItem.descriptor.hasSetter",
+      "roi": 4.02,
+      "estimated_similarity_gain": 0.1408,
+      "estimated_cf_gain": 0.1155,
+      "complexity": "Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 239,
+      "task_id": "task_methods_plugin_prototypes_4_nameditem_descriptor_2f2c0a4c",
+      "path": "methods.plugin_prototypes.4.namedItem.descriptor.setterSource",
+      "roi": 4.02,
+      "estimated_similarity_gain": 0.1408,
+      "estimated_cf_gain": 0.1155,
+      "complexity": "Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 240,
+      "task_id": "task_methods_plugin_prototypes_4_nameditem_descriptor_b54ea037",
+      "path": "methods.plugin_prototypes.4.namedItem.descriptor.valueSource",
+      "roi": 4.02,
+      "estimated_similarity_gain": 0.1408,
+      "estimated_cf_gain": 0.1155,
+      "complexity": "Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 241,
+      "task_id": "task_methods_plugin_prototypes_4_nameditem_descriptor_5fe730dd",
+      "path": "methods.plugin_prototypes.4.namedItem.descriptor.valueType",
+      "roi": 4.02,
+      "estimated_similarity_gain": 0.1408,
+      "estimated_cf_gain": 0.1155,
+      "complexity": "Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 242,
+      "task_id": "task_methods_plugin_prototypes_4_nameditem_descriptor_084dcf26",
+      "path": "methods.plugin_prototypes.4.namedItem.descriptor.writable",
+      "roi": 4.02,
+      "estimated_similarity_gain": 0.1408,
+      "estimated_cf_gain": 0.1155,
+      "complexity": "Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 243,
+      "task_id": "task_methods_plugin_prototypes_4_nameditem_nativesour_696b0882",
+      "path": "methods.plugin_prototypes.4.namedItem.nativeSource",
+      "roi": 4.02,
+      "estimated_similarity_gain": 0.1408,
+      "estimated_cf_gain": 0.1155,
+      "complexity": "Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 244,
+      "task_id": "task_methods_plugin_prototypes_4_nameditem_source_a00fb8d6",
+      "path": "methods.plugin_prototypes.4.namedItem.source",
+      "roi": 4.02,
+      "estimated_similarity_gain": 0.1408,
+      "estimated_cf_gain": 0.1155,
+      "complexity": "Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 245,
+      "task_id": "task_methods_plugin_prototypes_4_nameditem_typeof_40c2c643",
+      "path": "methods.plugin_prototypes.4.namedItem.typeof",
+      "roi": 4.02,
+      "estimated_similarity_gain": 0.1408,
+      "estimated_cf_gain": 0.1155,
+      "complexity": "Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 246,
+      "task_id": "task_plugins_ownproperties_67ce1df9",
+      "path": "plugins.ownProperties",
+      "roi": 3.07,
+      "estimated_similarity_gain": 0.1075,
+      "estimated_cf_gain": 0.0624,
+      "complexity": "Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 247,
+      "task_id": "task_prototype_mimetypearray_ownproperties_0_58d926fb",
+      "path": "prototype.mimeTypeArray.ownProperties[0]",
+      "roi": 2.93,
+      "estimated_similarity_gain": 0.1463,
+      "estimated_cf_gain": 0.12,
+      "complexity": "Very Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 248,
+      "task_id": "task_prototype_mimetypearray_ownproperties_1_6a2c926e",
+      "path": "prototype.mimeTypeArray.ownProperties[1]",
+      "roi": 2.93,
+      "estimated_similarity_gain": 0.1463,
+      "estimated_cf_gain": 0.12,
+      "complexity": "Very Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 249,
+      "task_id": "task_prototype_mimetypearray_ownproperties_2_c74565ff",
+      "path": "prototype.mimeTypeArray.ownProperties[2]",
+      "roi": 2.93,
+      "estimated_similarity_gain": 0.1463,
+      "estimated_cf_gain": 0.12,
+      "complexity": "Very Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 250,
+      "task_id": "task_prototype_mimetypearray_ownproperties_3_15902cd3",
+      "path": "prototype.mimeTypeArray.ownProperties[3]",
+      "roi": 2.93,
+      "estimated_similarity_gain": 0.1463,
+      "estimated_cf_gain": 0.12,
+      "complexity": "Very Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 251,
+      "task_id": "task_prototype_pluginarray_ownproperties_0_2c36c000",
+      "path": "prototype.pluginArray.ownProperties[0]",
+      "roi": 2.93,
+      "estimated_similarity_gain": 0.1463,
+      "estimated_cf_gain": 0.12,
+      "complexity": "Very Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 252,
+      "task_id": "task_prototype_pluginarray_ownproperties_1_e38be7c5",
+      "path": "prototype.pluginArray.ownProperties[1]",
+      "roi": 2.93,
+      "estimated_similarity_gain": 0.1463,
+      "estimated_cf_gain": 0.12,
+      "complexity": "Very Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 253,
+      "task_id": "task_prototype_pluginarray_ownproperties_2_a7dfade1",
+      "path": "prototype.pluginArray.ownProperties[2]",
+      "roi": 2.93,
+      "estimated_similarity_gain": 0.1463,
+      "estimated_cf_gain": 0.12,
+      "complexity": "Very Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 254,
+      "task_id": "task_prototype_pluginarray_ownproperties_3_be11ea2a",
+      "path": "prototype.pluginArray.ownProperties[3]",
+      "roi": 2.93,
+      "estimated_similarity_gain": 0.1463,
+      "estimated_cf_gain": 0.12,
+      "complexity": "Very Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 255,
+      "task_id": "task_prototype_pluginarray_ownproperties_4_a12d52eb",
+      "path": "prototype.pluginArray.ownProperties[4]",
+      "roi": 2.93,
+      "estimated_similarity_gain": 0.1463,
+      "estimated_cf_gain": 0.12,
+      "complexity": "Very Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 256,
+      "task_id": "task_prototype_pluginarray_ownproperties_5_cd393265",
+      "path": "prototype.pluginArray.ownProperties[5]",
+      "roi": 2.93,
+      "estimated_similarity_gain": 0.1463,
+      "estimated_cf_gain": 0.12,
+      "complexity": "Very Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 257,
+      "task_id": "task_prototype_pluginarray_ownproperties_6_892c4840",
+      "path": "prototype.pluginArray.ownProperties[6]",
+      "roi": 2.93,
+      "estimated_similarity_gain": 0.1463,
+      "estimated_cf_gain": 0.12,
+      "complexity": "Very Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 258,
+      "task_id": "task_prototype_pluginarray_ownproperties_7_4d6372bd",
+      "path": "prototype.pluginArray.ownProperties[7]",
+      "roi": 2.93,
+      "estimated_similarity_gain": 0.1463,
+      "estimated_cf_gain": 0.12,
+      "complexity": "Very Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 259,
+      "task_id": "task_prototype_pluginarray_ownproperties_8_94c125fc",
+      "path": "prototype.pluginArray.ownProperties[8]",
+      "roi": 2.93,
+      "estimated_similarity_gain": 0.1463,
+      "estimated_cf_gain": 0.12,
+      "complexity": "Very Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 260,
+      "task_id": "task_prototype_pluginarray_ownproperties_9_dcc22864",
+      "path": "prototype.pluginArray.ownProperties[9]",
+      "roi": 2.93,
+      "estimated_similarity_gain": 0.1463,
+      "estimated_cf_gain": 0.12,
+      "complexity": "Very Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 261,
+      "task_id": "task_prototype_mimetypearray_ownproperties_6fefaa1a",
+      "path": "prototype.mimeTypeArray.ownProperties",
+      "roi": 2.83,
+      "estimated_similarity_gain": 0.1415,
+      "estimated_cf_gain": 0.116,
+      "complexity": "Very Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 262,
+      "task_id": "task_prototype_pluginarray_ownproperties_01011304",
+      "path": "prototype.pluginArray.ownProperties",
+      "roi": 2.83,
+      "estimated_similarity_gain": 0.1415,
+      "estimated_cf_gain": 0.116,
+      "complexity": "Very Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 263,
+      "task_id": "task_cross_reference_pluginmimetypes_0_0_1b591d3c",
+      "path": "cross_reference.pluginMimeTypes.0[0]",
+      "roi": 2.71,
+      "estimated_similarity_gain": 0.1357,
+      "estimated_cf_gain": 0.1113,
+      "complexity": "Very Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 264,
+      "task_id": "task_cross_reference_pluginmimetypes_0_1_09e9bff1",
+      "path": "cross_reference.pluginMimeTypes.0[1]",
+      "roi": 2.71,
+      "estimated_similarity_gain": 0.1357,
+      "estimated_cf_gain": 0.1113,
+      "complexity": "Very Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 265,
+      "task_id": "task_cross_reference_pluginmimetypes_1_0_77860392",
+      "path": "cross_reference.pluginMimeTypes.1[0]",
+      "roi": 2.71,
+      "estimated_similarity_gain": 0.1357,
+      "estimated_cf_gain": 0.1113,
+      "complexity": "Very Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 266,
+      "task_id": "task_cross_reference_pluginmimetypes_1_1_795362fb",
+      "path": "cross_reference.pluginMimeTypes.1[1]",
+      "roi": 2.71,
+      "estimated_similarity_gain": 0.1357,
+      "estimated_cf_gain": 0.1113,
+      "complexity": "Very Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 267,
+      "task_id": "task_cross_reference_pluginmimetypes_2_0_4f709e4b",
+      "path": "cross_reference.pluginMimeTypes.2[0]",
+      "roi": 2.71,
+      "estimated_similarity_gain": 0.1357,
+      "estimated_cf_gain": 0.1113,
+      "complexity": "Very Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 268,
+      "task_id": "task_cross_reference_pluginmimetypes_2_1_1d8b5729",
+      "path": "cross_reference.pluginMimeTypes.2[1]",
+      "roi": 2.71,
+      "estimated_similarity_gain": 0.1357,
+      "estimated_cf_gain": 0.1113,
+      "complexity": "Very Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 269,
+      "task_id": "task_cross_reference_pluginmimetypes_3_0_815bf8a3",
+      "path": "cross_reference.pluginMimeTypes.3[0]",
+      "roi": 2.71,
+      "estimated_similarity_gain": 0.1357,
+      "estimated_cf_gain": 0.1113,
+      "complexity": "Very Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 270,
+      "task_id": "task_cross_reference_pluginmimetypes_3_1_29dbee98",
+      "path": "cross_reference.pluginMimeTypes.3[1]",
+      "roi": 2.71,
+      "estimated_similarity_gain": 0.1357,
+      "estimated_cf_gain": 0.1113,
+      "complexity": "Very Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 271,
+      "task_id": "task_cross_reference_pluginmimetypes_4_0_87c89731",
+      "path": "cross_reference.pluginMimeTypes.4[0]",
+      "roi": 2.71,
+      "estimated_similarity_gain": 0.1357,
+      "estimated_cf_gain": 0.1113,
+      "complexity": "Very Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 272,
+      "task_id": "task_cross_reference_pluginmimetypes_4_1_1d1e01ab",
+      "path": "cross_reference.pluginMimeTypes.4[1]",
+      "roi": 2.71,
+      "estimated_similarity_gain": 0.1357,
+      "estimated_cf_gain": 0.1113,
+      "complexity": "Very Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 273,
+      "task_id": "task_cross_reference_mimeenabledplugins_application_p_77ce6683",
+      "path": "cross_reference.mimeEnabledPlugins.application/pdf",
+      "roi": 2.56,
+      "estimated_similarity_gain": 0.1278,
+      "estimated_cf_gain": 0.1048,
+      "complexity": "Very Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 274,
+      "task_id": "task_cross_reference_mimeenabledplugins_text_pdf_92779b17",
+      "path": "cross_reference.mimeEnabledPlugins.text/pdf",
+      "roi": 2.56,
+      "estimated_similarity_gain": 0.1278,
+      "estimated_cf_gain": 0.1048,
+      "complexity": "Very Hard",
+      "action": "Patch Later"
+    },
+    {
+      "rank": 275,
+      "task_id": "task_fingerprint_sha256_491d5cc8",
+      "path": "fingerprint.sha256",
+      "roi": 1.14,
+      "estimated_similarity_gain": 0.0571,
+      "estimated_cf_gain": 0.0086,
+      "complexity": "Very Hard",
+      "action": "Never Patch"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "modes": {
+    "Plain": {
+      "overall": 61.59,
+      "plugins": 89.38,
+      "mime_types": 93.7,
+      "prototype": 60.0,
+      "descriptors": 100.0,
+      "methods": 35.38,
+      "cross_reference": 14.29,
+      "total_diff": 275,
+      "resolved": 0,
+      "regressions": 0
+    },
+    "Plugins": {
+      "overall": 74.18,
+      "plugins": 72.74,
+      "mime_types": 49.25,
+      "prototype": 100.0,
+      "descriptors": 100.0,
+      "methods": 71.46,
+      "cross_reference": 100.0,
+      "total_diff": 639,
+      "resolved": 981,
+      "regressions": 0
+    }
+  },
+  "delta": {
+    "overall": 12.59,
+    "Cross References": 85.71,
+    "Descriptors": 0.0,
+    "Fingerprint": 0.0,
+    "Methods": 36.08,
+    "MimeTypeArray": -44.45,
+    "Navigator": 0.0,
+    "PluginArray": -16.64,
+    "Prototype": 40.0
+  },
+  "domains": {
+    "Cross References": {
+      "plain": 14.29,
+      "plugins": 100.0,
+      "delta": 85.71
+    },
+    "Descriptors": {
+      "plain": 100.0,
+      "plugins": 100.0,
+      "delta": 0.0
+    },
+    "Fingerprint": {
+      "plain": 0.0,
+      "plugins": 0.0,
+      "delta": 0.0
+    },
+    "Methods": {
+      "plain": 35.38,
+      "plugins": 71.46,
+      "delta": 36.08
+    },
+    "MimeTypeArray": {
+      "plain": 93.7,
+      "plugins": 49.25,
+      "delta": -44.45
+    },
+    "Navigator": {
+      "plain": 100.0,
+      "plugins": 100.0,
+      "delta": 0.0
+    },
+    "PluginArray": {
+      "plain": 89.38,
+      "plugins": 72.74,
+      "delta": -16.64
+    },
+    "Prototype": {
+      "plain": 60.0,
+      "plugins": 100.0,
+      "delta": 40.0
+    }
+  }
+}
