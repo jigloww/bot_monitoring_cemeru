@@ -1,0 +1,1742 @@
+{
+  "algorithm": "SHA-256",
+  "sha256": "3e0ff0d3b5415773aab8789435a17101074812360417a9f91e423517ab8ba779",
+  "data": {
+    "screen": {
+      "access": {
+        "availHeight": {
+          "descriptor": {
+            "configurable": true,
+            "enumerable": true,
+            "getterSource": "function get availHeight() { [native code] }",
+            "hasGetter": true,
+            "hasSetter": false,
+            "setterSource": null,
+            "valueSource": null,
+            "valueType": null,
+            "writable": null
+          },
+          "first": 720,
+          "referenceStable": null,
+          "second": 720,
+          "stable": true,
+          "type": "number"
+        },
+        "availLeft": {
+          "descriptor": {
+            "configurable": true,
+            "enumerable": true,
+            "getterSource": "function get availLeft() { [native code] }",
+            "hasGetter": true,
+            "hasSetter": false,
+            "setterSource": null,
+            "valueSource": null,
+            "valueType": null,
+            "writable": null
+          },
+          "first": 0,
+          "referenceStable": null,
+          "second": 0,
+          "stable": true,
+          "type": "number"
+        },
+        "availTop": {
+          "descriptor": {
+            "configurable": true,
+            "enumerable": true,
+            "getterSource": "function get availTop() { [native code] }",
+            "hasGetter": true,
+            "hasSetter": false,
+            "setterSource": null,
+            "valueSource": null,
+            "valueType": null,
+            "writable": null
+          },
+          "first": 0,
+          "referenceStable": null,
+          "second": 0,
+          "stable": true,
+          "type": "number"
+        },
+        "availWidth": {
+          "descriptor": {
+            "configurable": true,
+            "enumerable": true,
+            "getterSource": "function get availWidth() { [native code] }",
+            "hasGetter": true,
+            "hasSetter": false,
+            "setterSource": null,
+            "valueSource": null,
+            "valueType": null,
+            "writable": null
+          },
+          "first": 1280,
+          "referenceStable": null,
+          "second": 1280,
+          "stable": true,
+          "type": "number"
+        },
+        "colorDepth": {
+          "descriptor": {
+            "configurable": true,
+            "enumerable": true,
+            "getterSource": "function get colorDepth() { [native code] }",
+            "hasGetter": true,
+            "hasSetter": false,
+            "setterSource": null,
+            "valueSource": null,
+            "valueType": null,
+            "writable": null
+          },
+          "first": 24,
+          "referenceStable": null,
+          "second": 24,
+          "stable": true,
+          "type": "number"
+        },
+        "height": {
+          "descriptor": {
+            "configurable": true,
+            "enumerable": true,
+            "getterSource": "function get height() { [native code] }",
+            "hasGetter": true,
+            "hasSetter": false,
+            "setterSource": null,
+            "valueSource": null,
+            "valueType": null,
+            "writable": null
+          },
+          "first": 720,
+          "referenceStable": null,
+          "second": 720,
+          "stable": true,
+          "type": "number"
+        },
+        "isExtended": {
+          "descriptor": null,
+          "first": null,
+          "referenceStable": null,
+          "second": null,
+          "stable": true,
+          "type": "undefined"
+        },
+        "orientation": {
+          "descriptor": {
+            "configurable": true,
+            "enumerable": true,
+            "getterSource": "function get orientation() { [native code] }",
+            "hasGetter": true,
+            "hasSetter": false,
+            "setterSource": null,
+            "valueSource": null,
+            "valueType": null,
+            "writable": null
+          },
+          "first": {
+            "constructor": "ScreenOrientation",
+            "objectToString": "[object ScreenOrientation]",
+            "ownProperties": [],
+            "type": "object"
+          },
+          "referenceStable": true,
+          "second": {
+            "constructor": "ScreenOrientation",
+            "objectToString": "[object ScreenOrientation]",
+            "ownProperties": [],
+            "type": "object"
+          },
+          "stable": true,
+          "type": "object"
+        },
+        "pixelDepth": {
+          "descriptor": {
+            "configurable": true,
+            "enumerable": true,
+            "getterSource": "function get pixelDepth() { [native code] }",
+            "hasGetter": true,
+            "hasSetter": false,
+            "setterSource": null,
+            "valueSource": null,
+            "valueType": null,
+            "writable": null
+          },
+          "first": 24,
+          "referenceStable": null,
+          "second": 24,
+          "stable": true,
+          "type": "number"
+        },
+        "width": {
+          "descriptor": {
+            "configurable": true,
+            "enumerable": true,
+            "getterSource": "function get width() { [native code] }",
+            "hasGetter": true,
+            "hasSetter": false,
+            "setterSource": null,
+            "valueSource": null,
+            "valueType": null,
+            "writable": null
+          },
+          "first": 1280,
+          "referenceStable": null,
+          "second": 1280,
+          "stable": true,
+          "type": "number"
+        }
+      },
+      "available": true,
+      "constructor": "Screen",
+      "constructorEquality": true,
+      "constructorSource": "function Screen() { [native code] }",
+      "inheritedProperties": [
+        "Symbol(Symbol.toStringTag)",
+        "availHeight",
+        "availLeft",
+        "availTop",
+        "availWidth",
+        "colorDepth",
+        "constructor",
+        "height",
+        "orientation",
+        "pixelDepth",
+        "width"
+      ],
+      "instanceofScreen": true,
+      "objectToString": {
+        "constructor": "Screen",
+        "objectToString": "[object Screen]",
+        "ownProperties": [],
+        "type": "object"
+      },
+      "ownProperties": [],
+      "prototypeChain": [
+        "Screen",
+        "Screen",
+        "EventTarget",
+        "Object"
+      ],
+      "prototypeEquality": true,
+      "referenceStable": true,
+      "symbolToStringTag": {
+        "configurable": true,
+        "enumerable": false,
+        "getterSource": null,
+        "hasGetter": false,
+        "hasSetter": false,
+        "setterSource": null,
+        "valueSource": null,
+        "valueType": "string",
+        "writable": false
+      },
+      "typeof": "object",
+      "values": {
+        "availHeight": 720,
+        "availLeft": 0,
+        "availTop": 0,
+        "availWidth": 1280,
+        "colorDepth": 24,
+        "height": 720,
+        "isExtended": null,
+        "orientation": {
+          "constructor": "ScreenOrientation",
+          "objectToString": "[object ScreenOrientation]",
+          "ownProperties": [],
+          "type": "object"
+        },
+        "pixelDepth": 24,
+        "width": 1280
+      }
+    },
+    "prototype": {
+      "available": true,
+      "chain": [
+        "Screen",
+        "EventTarget",
+        "Object"
+      ],
+      "constructor": {
+        "descriptor": {
+          "configurable": true,
+          "enumerable": false,
+          "getterSource": null,
+          "hasGetter": false,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": "function Screen() { [native code] }",
+          "valueType": "function",
+          "writable": true
+        },
+        "length": 0,
+        "name": "Screen",
+        "nativeSource": true,
+        "source": "function Screen() { [native code] }"
+      },
+      "descriptors": {
+        "Symbol(Symbol.toStringTag)": null,
+        "availHeight": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": "function get availHeight() { [native code] }",
+          "hasGetter": true,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": null,
+          "valueType": null,
+          "writable": null
+        },
+        "availLeft": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": "function get availLeft() { [native code] }",
+          "hasGetter": true,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": null,
+          "valueType": null,
+          "writable": null
+        },
+        "availTop": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": "function get availTop() { [native code] }",
+          "hasGetter": true,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": null,
+          "valueType": null,
+          "writable": null
+        },
+        "availWidth": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": "function get availWidth() { [native code] }",
+          "hasGetter": true,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": null,
+          "valueType": null,
+          "writable": null
+        },
+        "colorDepth": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": "function get colorDepth() { [native code] }",
+          "hasGetter": true,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": null,
+          "valueType": null,
+          "writable": null
+        },
+        "constructor": {
+          "configurable": true,
+          "enumerable": false,
+          "getterSource": null,
+          "hasGetter": false,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": "function Screen() { [native code] }",
+          "valueType": "function",
+          "writable": true
+        },
+        "height": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": "function get height() { [native code] }",
+          "hasGetter": true,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": null,
+          "valueType": null,
+          "writable": null
+        },
+        "orientation": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": "function get orientation() { [native code] }",
+          "hasGetter": true,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": null,
+          "valueType": null,
+          "writable": null
+        },
+        "pixelDepth": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": "function get pixelDepth() { [native code] }",
+          "hasGetter": true,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": null,
+          "valueType": null,
+          "writable": null
+        },
+        "width": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": "function get width() { [native code] }",
+          "hasGetter": true,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": null,
+          "valueType": null,
+          "writable": null
+        }
+      },
+      "instanceofObject": true,
+      "objectPrototype": "EventTarget",
+      "ownProperties": [
+        "Symbol(Symbol.toStringTag)",
+        "availHeight",
+        "availLeft",
+        "availTop",
+        "availWidth",
+        "colorDepth",
+        "constructor",
+        "height",
+        "orientation",
+        "pixelDepth",
+        "width"
+      ],
+      "toStringTag": {
+        "configurable": true,
+        "enumerable": false,
+        "getterSource": null,
+        "hasGetter": false,
+        "hasSetter": false,
+        "setterSource": null,
+        "valueSource": null,
+        "valueType": "string",
+        "writable": false
+      }
+    },
+    "descriptors": {
+      "navigatorScreen": null,
+      "orientationPrototype": {
+        "Symbol(Symbol.toStringTag)": null,
+        "angle": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": "function get angle() { [native code] }",
+          "hasGetter": true,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": null,
+          "valueType": null,
+          "writable": null
+        },
+        "constructor": {
+          "configurable": true,
+          "enumerable": false,
+          "getterSource": null,
+          "hasGetter": false,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": "function ScreenOrientation() { [native code] }",
+          "valueType": "function",
+          "writable": true
+        },
+        "lock": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": null,
+          "hasGetter": false,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": "function lock() { [native code] }",
+          "valueType": "function",
+          "writable": true
+        },
+        "onchange": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": "function get onchange() { [native code] }",
+          "hasGetter": true,
+          "hasSetter": true,
+          "setterSource": "function set onchange() { [native code] }",
+          "valueSource": null,
+          "valueType": null,
+          "writable": null
+        },
+        "type": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": "function get type() { [native code] }",
+          "hasGetter": true,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": null,
+          "valueType": null,
+          "writable": null
+        },
+        "unlock": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": null,
+          "hasGetter": false,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": "function unlock() { [native code] }",
+          "valueType": "function",
+          "writable": true
+        }
+      },
+      "screenPrototype": {
+        "Symbol(Symbol.toStringTag)": null,
+        "availHeight": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": "function get availHeight() { [native code] }",
+          "hasGetter": true,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": null,
+          "valueType": null,
+          "writable": null
+        },
+        "availLeft": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": "function get availLeft() { [native code] }",
+          "hasGetter": true,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": null,
+          "valueType": null,
+          "writable": null
+        },
+        "availTop": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": "function get availTop() { [native code] }",
+          "hasGetter": true,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": null,
+          "valueType": null,
+          "writable": null
+        },
+        "availWidth": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": "function get availWidth() { [native code] }",
+          "hasGetter": true,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": null,
+          "valueType": null,
+          "writable": null
+        },
+        "colorDepth": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": "function get colorDepth() { [native code] }",
+          "hasGetter": true,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": null,
+          "valueType": null,
+          "writable": null
+        },
+        "constructor": {
+          "configurable": true,
+          "enumerable": false,
+          "getterSource": null,
+          "hasGetter": false,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": "function Screen() { [native code] }",
+          "valueType": "function",
+          "writable": true
+        },
+        "height": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": "function get height() { [native code] }",
+          "hasGetter": true,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": null,
+          "valueType": null,
+          "writable": null
+        },
+        "orientation": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": "function get orientation() { [native code] }",
+          "hasGetter": true,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": null,
+          "valueType": null,
+          "writable": null
+        },
+        "pixelDepth": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": "function get pixelDepth() { [native code] }",
+          "hasGetter": true,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": null,
+          "valueType": null,
+          "writable": null
+        },
+        "width": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": "function get width() { [native code] }",
+          "hasGetter": true,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": null,
+          "valueType": null,
+          "writable": null
+        }
+      }
+    },
+    "getters": {
+      "availHeight": {
+        "available": true,
+        "descriptor": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": "function get availHeight() { [native code] }",
+          "hasGetter": true,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": null,
+          "valueType": null,
+          "writable": null
+        },
+        "detached": {
+          "detached": {
+            "error": {
+              "constructor": "TypeError",
+              "isDOMException": false,
+              "isError": true,
+              "isTypeError": true,
+              "message": "Illegal invocation",
+              "name": "TypeError"
+            },
+            "throws": true
+          },
+          "invalidReceiver": {
+            "error": {
+              "constructor": "TypeError",
+              "isDOMException": false,
+              "isError": true,
+              "isTypeError": true,
+              "message": "Illegal invocation",
+              "name": "TypeError"
+            },
+            "throws": true
+          },
+          "prototypeReceiver": {
+            "error": {
+              "constructor": "TypeError",
+              "isDOMException": false,
+              "isError": true,
+              "isTypeError": true,
+              "message": "Illegal invocation",
+              "name": "TypeError"
+            },
+            "throws": true
+          }
+        },
+        "first": 720,
+        "length": 0,
+        "name": "get availHeight",
+        "nativeSource": true,
+        "referenceStable": null,
+        "second": 720,
+        "source": "function get availHeight() { [native code] }",
+        "stable": true
+      },
+      "availLeft": {
+        "available": true,
+        "descriptor": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": "function get availLeft() { [native code] }",
+          "hasGetter": true,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": null,
+          "valueType": null,
+          "writable": null
+        },
+        "detached": {
+          "detached": {
+            "error": {
+              "constructor": "TypeError",
+              "isDOMException": false,
+              "isError": true,
+              "isTypeError": true,
+              "message": "Illegal invocation",
+              "name": "TypeError"
+            },
+            "throws": true
+          },
+          "invalidReceiver": {
+            "error": {
+              "constructor": "TypeError",
+              "isDOMException": false,
+              "isError": true,
+              "isTypeError": true,
+              "message": "Illegal invocation",
+              "name": "TypeError"
+            },
+            "throws": true
+          },
+          "prototypeReceiver": {
+            "error": {
+              "constructor": "TypeError",
+              "isDOMException": false,
+              "isError": true,
+              "isTypeError": true,
+              "message": "Illegal invocation",
+              "name": "TypeError"
+            },
+            "throws": true
+          }
+        },
+        "first": 0,
+        "length": 0,
+        "name": "get availLeft",
+        "nativeSource": true,
+        "referenceStable": null,
+        "second": 0,
+        "source": "function get availLeft() { [native code] }",
+        "stable": true
+      },
+      "availTop": {
+        "available": true,
+        "descriptor": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": "function get availTop() { [native code] }",
+          "hasGetter": true,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": null,
+          "valueType": null,
+          "writable": null
+        },
+        "detached": {
+          "detached": {
+            "error": {
+              "constructor": "TypeError",
+              "isDOMException": false,
+              "isError": true,
+              "isTypeError": true,
+              "message": "Illegal invocation",
+              "name": "TypeError"
+            },
+            "throws": true
+          },
+          "invalidReceiver": {
+            "error": {
+              "constructor": "TypeError",
+              "isDOMException": false,
+              "isError": true,
+              "isTypeError": true,
+              "message": "Illegal invocation",
+              "name": "TypeError"
+            },
+            "throws": true
+          },
+          "prototypeReceiver": {
+            "error": {
+              "constructor": "TypeError",
+              "isDOMException": false,
+              "isError": true,
+              "isTypeError": true,
+              "message": "Illegal invocation",
+              "name": "TypeError"
+            },
+            "throws": true
+          }
+        },
+        "first": 0,
+        "length": 0,
+        "name": "get availTop",
+        "nativeSource": true,
+        "referenceStable": null,
+        "second": 0,
+        "source": "function get availTop() { [native code] }",
+        "stable": true
+      },
+      "availWidth": {
+        "available": true,
+        "descriptor": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": "function get availWidth() { [native code] }",
+          "hasGetter": true,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": null,
+          "valueType": null,
+          "writable": null
+        },
+        "detached": {
+          "detached": {
+            "error": {
+              "constructor": "TypeError",
+              "isDOMException": false,
+              "isError": true,
+              "isTypeError": true,
+              "message": "Illegal invocation",
+              "name": "TypeError"
+            },
+            "throws": true
+          },
+          "invalidReceiver": {
+            "error": {
+              "constructor": "TypeError",
+              "isDOMException": false,
+              "isError": true,
+              "isTypeError": true,
+              "message": "Illegal invocation",
+              "name": "TypeError"
+            },
+            "throws": true
+          },
+          "prototypeReceiver": {
+            "error": {
+              "constructor": "TypeError",
+              "isDOMException": false,
+              "isError": true,
+              "isTypeError": true,
+              "message": "Illegal invocation",
+              "name": "TypeError"
+            },
+            "throws": true
+          }
+        },
+        "first": 1280,
+        "length": 0,
+        "name": "get availWidth",
+        "nativeSource": true,
+        "referenceStable": null,
+        "second": 1280,
+        "source": "function get availWidth() { [native code] }",
+        "stable": true
+      },
+      "colorDepth": {
+        "available": true,
+        "descriptor": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": "function get colorDepth() { [native code] }",
+          "hasGetter": true,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": null,
+          "valueType": null,
+          "writable": null
+        },
+        "detached": {
+          "detached": {
+            "error": {
+              "constructor": "TypeError",
+              "isDOMException": false,
+              "isError": true,
+              "isTypeError": true,
+              "message": "Illegal invocation",
+              "name": "TypeError"
+            },
+            "throws": true
+          },
+          "invalidReceiver": {
+            "error": {
+              "constructor": "TypeError",
+              "isDOMException": false,
+              "isError": true,
+              "isTypeError": true,
+              "message": "Illegal invocation",
+              "name": "TypeError"
+            },
+            "throws": true
+          },
+          "prototypeReceiver": {
+            "error": {
+              "constructor": "TypeError",
+              "isDOMException": false,
+              "isError": true,
+              "isTypeError": true,
+              "message": "Illegal invocation",
+              "name": "TypeError"
+            },
+            "throws": true
+          }
+        },
+        "first": 24,
+        "length": 0,
+        "name": "get colorDepth",
+        "nativeSource": true,
+        "referenceStable": null,
+        "second": 24,
+        "source": "function get colorDepth() { [native code] }",
+        "stable": true
+      },
+      "height": {
+        "available": true,
+        "descriptor": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": "function get height() { [native code] }",
+          "hasGetter": true,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": null,
+          "valueType": null,
+          "writable": null
+        },
+        "detached": {
+          "detached": {
+            "error": {
+              "constructor": "TypeError",
+              "isDOMException": false,
+              "isError": true,
+              "isTypeError": true,
+              "message": "Illegal invocation",
+              "name": "TypeError"
+            },
+            "throws": true
+          },
+          "invalidReceiver": {
+            "error": {
+              "constructor": "TypeError",
+              "isDOMException": false,
+              "isError": true,
+              "isTypeError": true,
+              "message": "Illegal invocation",
+              "name": "TypeError"
+            },
+            "throws": true
+          },
+          "prototypeReceiver": {
+            "error": {
+              "constructor": "TypeError",
+              "isDOMException": false,
+              "isError": true,
+              "isTypeError": true,
+              "message": "Illegal invocation",
+              "name": "TypeError"
+            },
+            "throws": true
+          }
+        },
+        "first": 720,
+        "length": 0,
+        "name": "get height",
+        "nativeSource": true,
+        "referenceStable": null,
+        "second": 720,
+        "source": "function get height() { [native code] }",
+        "stable": true
+      },
+      "orientation": {
+        "available": true,
+        "descriptor": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": "function get orientation() { [native code] }",
+          "hasGetter": true,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": null,
+          "valueType": null,
+          "writable": null
+        },
+        "detached": {
+          "detached": {
+            "error": {
+              "constructor": "TypeError",
+              "isDOMException": false,
+              "isError": true,
+              "isTypeError": true,
+              "message": "Illegal invocation",
+              "name": "TypeError"
+            },
+            "throws": true
+          },
+          "invalidReceiver": {
+            "error": {
+              "constructor": "TypeError",
+              "isDOMException": false,
+              "isError": true,
+              "isTypeError": true,
+              "message": "Illegal invocation",
+              "name": "TypeError"
+            },
+            "throws": true
+          },
+          "prototypeReceiver": {
+            "error": {
+              "constructor": "TypeError",
+              "isDOMException": false,
+              "isError": true,
+              "isTypeError": true,
+              "message": "Illegal invocation",
+              "name": "TypeError"
+            },
+            "throws": true
+          }
+        },
+        "first": {
+          "constructor": "ScreenOrientation",
+          "objectToString": "[object ScreenOrientation]",
+          "ownProperties": [],
+          "type": "object"
+        },
+        "length": 0,
+        "name": "get orientation",
+        "nativeSource": true,
+        "referenceStable": true,
+        "second": {
+          "constructor": "ScreenOrientation",
+          "objectToString": "[object ScreenOrientation]",
+          "ownProperties": [],
+          "type": "object"
+        },
+        "source": "function get orientation() { [native code] }",
+        "stable": true
+      },
+      "pixelDepth": {
+        "available": true,
+        "descriptor": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": "function get pixelDepth() { [native code] }",
+          "hasGetter": true,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": null,
+          "valueType": null,
+          "writable": null
+        },
+        "detached": {
+          "detached": {
+            "error": {
+              "constructor": "TypeError",
+              "isDOMException": false,
+              "isError": true,
+              "isTypeError": true,
+              "message": "Illegal invocation",
+              "name": "TypeError"
+            },
+            "throws": true
+          },
+          "invalidReceiver": {
+            "error": {
+              "constructor": "TypeError",
+              "isDOMException": false,
+              "isError": true,
+              "isTypeError": true,
+              "message": "Illegal invocation",
+              "name": "TypeError"
+            },
+            "throws": true
+          },
+          "prototypeReceiver": {
+            "error": {
+              "constructor": "TypeError",
+              "isDOMException": false,
+              "isError": true,
+              "isTypeError": true,
+              "message": "Illegal invocation",
+              "name": "TypeError"
+            },
+            "throws": true
+          }
+        },
+        "first": 24,
+        "length": 0,
+        "name": "get pixelDepth",
+        "nativeSource": true,
+        "referenceStable": null,
+        "second": 24,
+        "source": "function get pixelDepth() { [native code] }",
+        "stable": true
+      },
+      "width": {
+        "available": true,
+        "descriptor": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": "function get width() { [native code] }",
+          "hasGetter": true,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": null,
+          "valueType": null,
+          "writable": null
+        },
+        "detached": {
+          "detached": {
+            "error": {
+              "constructor": "TypeError",
+              "isDOMException": false,
+              "isError": true,
+              "isTypeError": true,
+              "message": "Illegal invocation",
+              "name": "TypeError"
+            },
+            "throws": true
+          },
+          "invalidReceiver": {
+            "error": {
+              "constructor": "TypeError",
+              "isDOMException": false,
+              "isError": true,
+              "isTypeError": true,
+              "message": "Illegal invocation",
+              "name": "TypeError"
+            },
+            "throws": true
+          },
+          "prototypeReceiver": {
+            "error": {
+              "constructor": "TypeError",
+              "isDOMException": false,
+              "isError": true,
+              "isTypeError": true,
+              "message": "Illegal invocation",
+              "name": "TypeError"
+            },
+            "throws": true
+          }
+        },
+        "first": 1280,
+        "length": 0,
+        "name": "get width",
+        "nativeSource": true,
+        "referenceStable": null,
+        "second": 1280,
+        "source": "function get width() { [native code] }",
+        "stable": true
+      }
+    },
+    "window": {
+      "devicePixelRatio": 1,
+      "innerHeight": 720,
+      "innerWidth": 1280,
+      "outerHeight": 720,
+      "outerWidth": 1280,
+      "visualViewport": {
+        "available": true,
+        "constructor": "VisualViewport",
+        "constructorEquality": true,
+        "constructorSource": "function VisualViewport() { [native code] }",
+        "instanceof": true,
+        "objectToString": "[object VisualViewport]",
+        "ownProperties": [],
+        "prototype": "VisualViewport",
+        "prototypeChain": [
+          "VisualViewport",
+          "VisualViewport",
+          "EventTarget",
+          "Object"
+        ],
+        "prototypeEquality": true,
+        "prototypeProperties": [
+          "Symbol(Symbol.toStringTag)",
+          "constructor",
+          "height",
+          "offsetLeft",
+          "offsetTop",
+          "onresize",
+          "onscroll",
+          "onscrollend",
+          "pageLeft",
+          "pageTop",
+          "scale",
+          "width"
+        ],
+        "referenceStable": true,
+        "symbolToStringTag": {
+          "configurable": true,
+          "enumerable": false,
+          "getterSource": null,
+          "hasGetter": false,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": null,
+          "valueType": "string",
+          "writable": false
+        },
+        "typeof": "object"
+      },
+      "visualViewportValues": {
+        "height": 720,
+        "offsetLeft": 0,
+        "offsetTop": 0,
+        "pageLeft": 0,
+        "pageTop": 0,
+        "scale": 1,
+        "width": 1280
+      }
+    },
+    "viewport": {
+      "devicePixelRatio": 1,
+      "documentClientHeight": 720,
+      "documentClientWidth": 1280,
+      "innerHeight": 720,
+      "innerWidth": 1280,
+      "matchMedia": {
+        "(min-height: 720px)": {
+          "available": true,
+          "constructor": "MediaQueryList",
+          "descriptor": {
+            "configurable": true,
+            "enumerable": true,
+            "getterSource": "function get matches() { [native code] }",
+            "hasGetter": true,
+            "hasSetter": false,
+            "setterSource": null,
+            "valueSource": null,
+            "valueType": null,
+            "writable": null
+          },
+          "matches": true,
+          "media": "(min-height: 720px)",
+          "objectToString": {
+            "constructor": "MediaQueryList",
+            "objectToString": "[object MediaQueryList]",
+            "ownProperties": [],
+            "type": "object"
+          },
+          "onchangeType": "object",
+          "prototype": "MediaQueryList"
+        },
+        "(min-width: 1280px)": {
+          "available": true,
+          "constructor": "MediaQueryList",
+          "descriptor": {
+            "configurable": true,
+            "enumerable": true,
+            "getterSource": "function get matches() { [native code] }",
+            "hasGetter": true,
+            "hasSetter": false,
+            "setterSource": null,
+            "valueSource": null,
+            "valueType": null,
+            "writable": null
+          },
+          "matches": true,
+          "media": "(min-width: 1280px)",
+          "objectToString": {
+            "constructor": "MediaQueryList",
+            "objectToString": "[object MediaQueryList]",
+            "ownProperties": [],
+            "type": "object"
+          },
+          "onchangeType": "object",
+          "prototype": "MediaQueryList"
+        },
+        "(orientation: landscape)": {
+          "available": true,
+          "constructor": "MediaQueryList",
+          "descriptor": {
+            "configurable": true,
+            "enumerable": true,
+            "getterSource": "function get matches() { [native code] }",
+            "hasGetter": true,
+            "hasSetter": false,
+            "setterSource": null,
+            "valueSource": null,
+            "valueType": null,
+            "writable": null
+          },
+          "matches": true,
+          "media": "(orientation: landscape)",
+          "objectToString": {
+            "constructor": "MediaQueryList",
+            "objectToString": "[object MediaQueryList]",
+            "ownProperties": [],
+            "type": "object"
+          },
+          "onchangeType": "object",
+          "prototype": "MediaQueryList"
+        },
+        "(orientation: portrait)": {
+          "available": true,
+          "constructor": "MediaQueryList",
+          "descriptor": {
+            "configurable": true,
+            "enumerable": true,
+            "getterSource": "function get matches() { [native code] }",
+            "hasGetter": true,
+            "hasSetter": false,
+            "setterSource": null,
+            "valueSource": null,
+            "valueType": null,
+            "writable": null
+          },
+          "matches": false,
+          "media": "(orientation: portrait)",
+          "objectToString": {
+            "constructor": "MediaQueryList",
+            "objectToString": "[object MediaQueryList]",
+            "ownProperties": [],
+            "type": "object"
+          },
+          "onchangeType": "object",
+          "prototype": "MediaQueryList"
+        }
+      },
+      "outerHeight": 720,
+      "outerWidth": 1280,
+      "visualViewport": {
+        "height": 720,
+        "offsetLeft": 0,
+        "offsetTop": 0,
+        "pageLeft": 0,
+        "pageTop": 0,
+        "scale": 1,
+        "width": 1280
+      }
+    },
+    "orientation": {
+      "available": true,
+      "constructor": "ScreenOrientation",
+      "constructorEquality": true,
+      "constructorName": "ScreenOrientation",
+      "constructorSource": "function ScreenOrientation() { [native code] }",
+      "instanceof": true,
+      "objectToString": "[object ScreenOrientation]",
+      "ownProperties": [],
+      "prototype": "ScreenOrientation",
+      "prototypeChain": [
+        "ScreenOrientation",
+        "ScreenOrientation",
+        "EventTarget",
+        "Object"
+      ],
+      "prototypeDescriptors": {
+        "Symbol(Symbol.toStringTag)": null,
+        "angle": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": "function get angle() { [native code] }",
+          "hasGetter": true,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": null,
+          "valueType": null,
+          "writable": null
+        },
+        "constructor": {
+          "configurable": true,
+          "enumerable": false,
+          "getterSource": null,
+          "hasGetter": false,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": "function ScreenOrientation() { [native code] }",
+          "valueType": "function",
+          "writable": true
+        },
+        "lock": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": null,
+          "hasGetter": false,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": "function lock() { [native code] }",
+          "valueType": "function",
+          "writable": true
+        },
+        "onchange": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": "function get onchange() { [native code] }",
+          "hasGetter": true,
+          "hasSetter": true,
+          "setterSource": "function set onchange() { [native code] }",
+          "valueSource": null,
+          "valueType": null,
+          "writable": null
+        },
+        "type": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": "function get type() { [native code] }",
+          "hasGetter": true,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": null,
+          "valueType": null,
+          "writable": null
+        },
+        "unlock": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": null,
+          "hasGetter": false,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": "function unlock() { [native code] }",
+          "valueType": "function",
+          "writable": true
+        }
+      },
+      "prototypeEquality": true,
+      "prototypeProperties": [
+        "Symbol(Symbol.toStringTag)",
+        "angle",
+        "constructor",
+        "lock",
+        "onchange",
+        "type",
+        "unlock"
+      ],
+      "referenceStable": true,
+      "repeatedAngle": 0,
+      "repeatedType": "landscape-primary",
+      "symbolToStringTag": {
+        "configurable": true,
+        "enumerable": false,
+        "getterSource": null,
+        "hasGetter": false,
+        "hasSetter": false,
+        "setterSource": null,
+        "valueSource": null,
+        "valueType": "string",
+        "writable": false
+      },
+      "typeof": "object",
+      "values": {
+        "angle": 0,
+        "type": "landscape-primary"
+      }
+    },
+    "exceptions": {
+      "constructorCall": null,
+      "constructorReflect": null,
+      "getters": {
+        "availHeight": {
+          "detached": {
+            "error": {
+              "constructor": "TypeError",
+              "isDOMException": false,
+              "isError": true,
+              "isTypeError": true,
+              "message": "Illegal invocation",
+              "name": "TypeError"
+            },
+            "throws": true
+          },
+          "invalidReceiver": {
+            "error": {
+              "constructor": "TypeError",
+              "isDOMException": false,
+              "isError": true,
+              "isTypeError": true,
+              "message": "Illegal invocation",
+              "name": "TypeError"
+            },
+            "throws": true
+          },
+          "prototypeReceiver": {
+            "error": {
+              "constructor": "TypeError",
+              "isDOMException": false,
+              "isError": true,
+              "isTypeError": true,
+              "message": "Illegal invocation",
+              "name": "TypeError"
+            },
+            "throws": true
+          }
+        },
+        "availLeft": {
+          "detached": {
+            "error": {
+              "constructor": "TypeError",
+              "isDOMException": false,
+              "isError": true,
+              "isTypeError": true,
+              "message": "Illegal invocation",
+              "name": "TypeError"
+            },
+            "throws": true
+          },
+          "invalidReceiver": {
+            "error": {
+              "constructor": "TypeError",
+              "isDOMException": false,
+              "isError": true,
+              "isTypeError": true,
+              "message": "Illegal invocation",
+              "name": "TypeError"
+            },
+            "throws": true
+          },
+          "prototypeReceiver": {
+            "error": {
+              "constructor": "TypeError",
+              "isDOMException": false,
+              "isError": true,
+              "isTypeError": true,
+              "message": "Illegal invocation",
+              "name": "TypeError"
+            },
+            "throws": true
+          }
+        },
+        "availTop": {
+          "detached": {
+            "error": {
+              "constructor": "TypeError",
+              "isDOMException": false,
+              "isError": true,
+              "isTypeError": true,
+              "message": "Illegal invocation",
+              "name": "TypeError"
+            },
+            "throws": true
+          },
+          "invalidReceiver": {
+            "error": {
+              "constructor": "TypeError",
+              "isDOMException": false,
+              "isError": true,
+              "isTypeError": true,
+              "message": "Illegal invocation",
+              "name": "TypeError"
+            },
+            "throws": true
+          },
+          "prototypeReceiver": {
+            "error": {
+              "constructor": "TypeError",
+              "isDOMException": false,
+              "isError": true,
+              "isTypeError": true,
+              "message": "Illegal invocation",
+              "name": "TypeError"
+            },
+            "throws": true
+          }
+        },
+        "availWidth": {
+          "detached": {
+            "error": {
+              "constructor": "TypeError",
+              "isDOMException": false,
+              "isError": true,
+              "isTypeError": true,
+              "message": "Illegal invocation",
+              "name": "TypeError"
+            },
+            "throws": true
+          },
+          "invalidReceiver": {
+            "error": {
+              "constructor": "TypeError",
+              "isDOMException": false,
+              "isError": true,
+              "isTypeError": true,
+              "message": "Illegal invocation",
+              "name": "TypeError"
+            },
+            "throws": true
+          },
+          "prototypeReceiver": {
+            "error": {
+              "constructor": "TypeError",
+              "isDOMException": false,
+              "isError": true,
+              "isTypeError": true,
+              "message": "Illegal invocation",
+              "name": "TypeError"
+            },
+            "throws": true
+          }
+        },
+        "colorDepth": {
+          "detached": {
+            "error": {
+              "constructor": "TypeError",
+              "isDOMException": false,
+              "isError": true,
+              "isTypeError": true,
+              "message": "Illegal invocation",
+              "name": "TypeError"
+            },
+            "throws": true
+          },
+          "invalidReceiver": {
+            "error": {
+              "constructor": "TypeError",
+              "isDOMException": false,
+              "isError": true,
+              "isTypeError": true,
+              "message": "Illegal invocation",
+              "name": "TypeError"
+            },
+            "throws": true
+          },
+          "prototypeReceiver": {
+            "error": {
+              "constructor": "TypeError",
+              "isDOMException": false,
+              "isError": true,
+              "isTypeError": true,
+              "message": "Illegal invocation",
+              "name": "TypeError"
+            },
+            "throws": true
+          }
+        },
+        "height": {
+          "detached": {
+            "error": {
+              "constructor": "TypeError",
+              "isDOMException": false,
+              "isError": true,
+              "isTypeError": true,
+              "message": "Illegal invocation",
+              "name": "TypeError"
+            },
+            "throws": true
+          },
+          "invalidReceiver": {
+            "error": {
+              "constructor": "TypeError",
+              "isDOMException": false,
+              "isError": true,
+              "isTypeError": true,
+              "message": "Illegal invocation",
+              "name": "TypeError"
+            },
+            "throws": true
+          },
+          "prototypeReceiver": {
+            "error": {
+              "constructor": "TypeError",
+              "isDOMException": false,
+              "isError": true,
+              "isTypeError": true,
+              "message": "Illegal invocation",
+              "name": "TypeError"
+            },
+            "throws": true
+          }
+        },
+        "orientation": {
+          "detached": {
+            "error": {
+              "constructor": "TypeError",
+              "isDOMException": false,
+              "isError": true,
+              "isTypeError": true,
+              "message": "Illegal invocation",
+              "name": "TypeError"
+            },
+            "throws": true
+          },
+          "invalidReceiver": {
+            "error": {
+              "constructor": "TypeError",
+              "isDOMException": false,
+              "isError": true,
+              "isTypeError": true,
+              "message": "Illegal invocation",
+              "name": "TypeError"
+            },
+            "throws": true
+          },
+          "prototypeReceiver": {
+            "error": {
+              "constructor": "TypeError",
+              "isDOMException": false,
+              "isError": true,
+              "isTypeError": true,
+              "message": "Illegal invocation",
+              "name": "TypeError"
+            },
+            "throws": true
+          }
+        },
+        "pixelDepth": {
+          "detached": {
+            "error": {
+              "constructor": "TypeError",
+              "isDOMException": false,
+              "isError": true,
+              "isTypeError": true,
+              "message": "Illegal invocation",
+              "name": "TypeError"
+            },
+            "throws": true
+          },
+          "invalidReceiver": {
+            "error": {
+              "constructor": "TypeError",
+              "isDOMException": false,
+              "isError": true,
+              "isTypeError": true,
+              "message": "Illegal invocation",
+              "name": "TypeError"
+            },
+            "throws": true
+          },
+          "prototypeReceiver": {
+            "error": {
+              "constructor": "TypeError",
+              "isDOMException": false,
+              "isError": true,
+              "isTypeError": true,
+              "message": "Illegal invocation",
+              "name": "TypeError"
+            },
+            "throws": true
+          }
+        },
+        "width": {
+          "detached": {
+            "error": {
+              "constructor": "TypeError",
+              "isDOMException": false,
+              "isError": true,
+              "isTypeError": true,
+              "message": "Illegal invocation",
+              "name": "TypeError"
+            },
+            "throws": true
+          },
+          "invalidReceiver": {
+            "error": {
+              "constructor": "TypeError",
+              "isDOMException": false,
+              "isError": true,
+              "isTypeError": true,
+              "message": "Illegal invocation",
+              "name": "TypeError"
+            },
+            "throws": true
+          },
+          "prototypeReceiver": {
+            "error": {
+              "constructor": "TypeError",
+              "isDOMException": false,
+              "isError": true,
+              "isTypeError": true,
+              "message": "Illegal invocation",
+              "name": "TypeError"
+            },
+            "throws": true
+          }
+        }
+      }
+    }
+  }
+}

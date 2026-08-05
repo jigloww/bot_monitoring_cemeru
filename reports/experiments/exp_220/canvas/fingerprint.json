@@ -1,0 +1,22 @@
+{
+  "algorithm": "SHA-256",
+  "sha256": "5508d863fd9f2203ce36ef3b63f65184343a9e54d78799812bf0c84e3c72f69c",
+  "data": {
+    "browser": {
+      "browser": "chrome",
+      "engine": "chromium",
+      "headless": true,
+      "version": null
+    },
+    "canvas": {},
+    "capabilities": {},
+    "constructors": {},
+    "descriptors": {},
+    "errors": [],
+    "fingerprintObservations": {},
+    "methods": {},
+    "offscreen": {},
+    "prototype": {},
+    "state": {}
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "checks": [
+    {
+      "confidence": "High",
+      "modules": [
+        "navigator",
+        "browser"
+      ],
+      "reason": "Navigator platform was compared with the single verification capture.",
+      "rule": "navigator_platform_matches_verification",
+      "severity": "INFO",
+      "status": "PASS"
+    },
+    {
+      "confidence": "High",
+      "modules": [
+        "screen",
+        "browser"
+      ],
+      "reason": "Screen dimensions were checked against the verification viewport.",
+      "rule": "screen_matches_viewport",
+      "severity": "INFO",
+      "status": "PASS"
+    },
+    {
+      "confidence": "High",
+      "modules": [
+        "screen"
+      ],
+      "reason": "Screen dimensions must be greater than or equal to available dimensions.",
+      "rule": "screen_avail_dimensions",
+      "severity": "INFO",
+      "status": "PASS"
+    },
+    {
+      "confidence": "Medium",
+      "modules": [
+        "navigator",
+        "client_hints"
+      ],
+      "reason": "Client Hints baseline is available; semantic platform fields require schema-specific comparison.",
+      "rule": "navigator_matches_client_hints",
+      "severity": "MEDIUM",
+      "status": "WARNING"
+    },
+    {
+      "confidence": "Medium",
+      "modules": [
+        "fonts",
+        "canvas"
+      ],
+      "reason": "Font and canvas baselines are present; exact rendering correlation requires matching probe metadata.",
+      "rule": "fonts_match_canvas_metrics",
+      "severity": "MEDIUM",
+      "status": "WARNING"
+    },
+    {
+      "confidence": "High",
+      "modules": [
+        "plugins",
+        "navigator"
+      ],
+      "reason": "Plugin baseline and Navigator baseline are both available.",
+      "rule": "plugins_mimetypes_match_navigator",
+      "severity": "INFO",
+      "status": "PASS"
+    },
+    {
+      "confidence": "High",
+      "modules": [
+        "webrtc",
+        "permissions"
+      ],
+      "reason": "WebRTC and Permissions baselines are both available for downstream behavioral comparison.",
+      "rule": "webrtc_matches_permissions",
+      "severity": "INFO",
+      "status": "PASS"
+    },
+    {
+      "confidence": "High",
+      "modules": [
+        "canvas",
+        "audio",
+        "client_hints",
+        "plugins",
+        "webrtc",
+        "navigator",
+        "permissions",
+        "screen",
+        "fonts"
+      ],
+      "reason": "No duplicate module fingerprint hashes were detected among available baselines.",
+      "rule": "module_fingerprint_uniqueness",
+      "severity": "MEDIUM",
+      "status": "PASS"
+    }
+  ],
+  "pass": 6,
+  "warning": 2,
+  "fail": 0,
+  "unknown": 0
+}

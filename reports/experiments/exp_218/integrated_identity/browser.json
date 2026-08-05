@@ -1,0 +1,35 @@
+{
+  "verification": {
+    "architecture": "AMD64",
+    "browser": "chrome",
+    "browserOnline": true,
+    "browserVersion": "151.0.7922.72",
+    "colorDepth": 24,
+    "devicePixelRatio": 1,
+    "engine": "chromium",
+    "headless": true,
+    "language": "en-US",
+    "languages": [
+      "en-US",
+      "en"
+    ],
+    "locale": "en-US",
+    "os": "Windows",
+    "persistentProfile": false,
+    "platform": "Win32",
+    "screenHeight": 720,
+    "screenWidth": 1280,
+    "timezone": "Asia/Jakarta",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.0.0 Safari/537.36",
+    "viewport": {
+      "innerHeight": 720,
+      "innerWidth": 1280,
+      "outerHeight": 720,
+      "outerWidth": 1280
+    },
+    "webdriver": true
+  },
+  "status": "SUCCESS",
+  "error": null,
+  "browser_platform": "BrowserSessionManager -> launch_browser"
+}

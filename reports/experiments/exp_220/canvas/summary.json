@@ -1,0 +1,13 @@
+{
+  "browser_launches": 0,
+  "collection_duration_ms": 0.67,
+  "created_at": "2026-08-05T09:58:49.508785+07:00",
+  "experiment": "Experiment 060B - Canvas Baseline Rebuild",
+  "experiment_id": "exp_220",
+  "fingerprint_sha256": "5508d863fd9f2203ce36ef3b63f65184343a9e54d78799812bf0c84e3c72f69c",
+  "historical_artifacts_modified": false,
+  "network_requests": 0,
+  "playwright_status": "UNKNOWN",
+  "result": "UNKNOWN",
+  "validation_valid": false
+}

@@ -1,0 +1,22 @@
+{
+  "python_compile": true,
+  "json_validation": true,
+  "artifact_completeness": true,
+  "deterministic_ordering": true,
+  "prototype_validation": false,
+  "descriptor_validation": true,
+  "behavior_validation": true,
+  "fontface_validation": false,
+  "metrics_validation": true,
+  "fingerprint_validation": true,
+  "browser_platform_verification": true,
+  "read_only_verification": true,
+  "no_browser_modification": true,
+  "no_font_installation": true,
+  "no_canvas_spoofing": true,
+  "no_network_requests": true,
+  "historical_artifacts_immutable": true,
+  "browser_launches": 1,
+  "network_requests": 0,
+  "valid": false
+}

@@ -1,0 +1,22 @@
+{
+  "module_count": 9,
+  "available_modules": 6,
+  "missing_modules": 3,
+  "missing_module_names": [
+    "canvas",
+    "audio",
+    "client_hints"
+  ],
+  "consistency_checks": 8,
+  "consistency_pass": 6,
+  "consistency_warning": 0,
+  "consistency_fail": 0,
+  "consistency_unknown": 2,
+  "fingerprint_count": 6,
+  "duplicate_identities": 0,
+  "conflicting_fingerprints": 0,
+  "browser_launches": 1,
+  "network_requests": 0,
+  "capture_status": "SUCCESS",
+  "capture_error": null
+}

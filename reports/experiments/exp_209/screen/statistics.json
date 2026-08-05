@@ -1,0 +1,30 @@
+{
+  "screen_property_count": 10,
+  "getter_count": 9,
+  "getter_stable_count": 9,
+  "prototype_property_count": 11,
+  "descriptor_count": 10,
+  "window_cross_check_count": 7,
+  "viewport_field_count": 9,
+  "match_media_count": 4,
+  "orientation_type": "landscape-primary",
+  "orientation_angle": 0.0,
+  "consistency_checks": {
+    "screen_width_ge_avail_width": true,
+    "screen_height_ge_avail_height": true,
+    "color_depth_equals_pixel_depth": true,
+    "outer_width_ge_inner_width": true,
+    "outer_height_ge_inner_height": true,
+    "dpr_positive": true,
+    "visual_viewport_width_consistent": true,
+    "visual_viewport_height_consistent": true,
+    "visual_viewport_scale_consistent": true,
+    "orientation_type_valid": true,
+    "orientation_angle_valid": true
+  },
+  "browser_launches": 1,
+  "network_requests": 0,
+  "capture_status": "SUCCESS",
+  "capture_error": null,
+  "fingerprint_sha256": "3e0ff0d3b5415773aab8789435a17101074812360417a9f91e423517ab8ba779"
+}

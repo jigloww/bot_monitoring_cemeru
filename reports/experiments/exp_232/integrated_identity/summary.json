@@ -1,0 +1,16 @@
+{
+  "experiment": "Experiment 060 - Integrated Fingerprint Collector",
+  "experiment_id": "exp_232",
+  "created_at": "2026-08-05T10:21:43.623295+07:00",
+  "result": "SUCCESS",
+  "identity_uuid": "da9bb9e7-c0b7-585f-a8f2-8d3dde55fd15",
+  "combined_fingerprint": "2891a6a4d84c20674ecde8a9340e49da5c63329bb1e99c276aa912f8a44648c3",
+  "module_count": 9,
+  "available_modules": 9,
+  "missing_modules": [],
+  "browser_verification": "SUCCESS",
+  "browser_launches": 1,
+  "network_requests": 0,
+  "historical_artifacts_modified": false,
+  "validation_valid": true
+}

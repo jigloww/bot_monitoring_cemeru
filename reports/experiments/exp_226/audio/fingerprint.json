@@ -1,0 +1,5824 @@
+{
+  "algorithm": "SHA-256",
+  "sha256": "4675a22c78ee294745a819f53393a6f287cd98091ff7e5b686854828aa7edc53",
+  "data": {
+    "audio": {
+      "baseLatency": null,
+      "constructor": "OfflineAudioContext",
+      "contextType": "[object OfflineAudioContext]",
+      "currentTime": 0,
+      "destination": {
+        "channelCount": 1,
+        "channelCountMode": "explicit",
+        "channelInterpretation": "speakers",
+        "constructor": "AudioDestinationNode",
+        "maxChannelCount": 1,
+        "objectToString": "[object AudioDestinationNode]",
+        "prototypeChain": [
+          "AudioDestinationNode",
+          "AudioNode",
+          "EventTarget",
+          "Object"
+        ]
+      },
+      "graph": {
+        "analyser": true,
+        "buffer": true,
+        "bufferSource": true,
+        "compressor": true,
+        "connectedOffline": true,
+        "constantSource": true,
+        "delay": true,
+        "filter": true,
+        "gain": true,
+        "merger": true,
+        "oscillator": true,
+        "panner": true,
+        "splitter": true,
+        "stereoPanner": true,
+        "waveShaper": true
+      },
+      "instanceofOfflineAudioContext": true,
+      "listener": {
+        "constructor": "AudioListener",
+        "objectToString": "[object AudioListener]"
+      },
+      "outputLatency": null,
+      "prototypeChain": [
+        "OfflineAudioContext",
+        "BaseAudioContext",
+        "EventTarget",
+        "Object"
+      ],
+      "sampleRate": 44100,
+      "state": "suspended"
+    },
+    "browser": {
+      "browser": "chrome",
+      "engine": "chromium",
+      "headless": true,
+      "version": "151.0.7922.72"
+    },
+    "capabilities": {
+      "audioContext": true,
+      "audioWorklet": false,
+      "audioWorkletConstructor": true,
+      "baseAudioContext": true,
+      "destinationMaxChannelCount": 1,
+      "offlineAudioContext": true,
+      "sampleRate": 44100
+    },
+    "constructors": {
+      "AnalyserNode": {
+        "available": true,
+        "descriptor": {
+          "configurable": true,
+          "enumerable": false,
+          "getterSource": null,
+          "hasGetter": false,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": "function AnalyserNode() { [native code] }",
+          "valueType": "function",
+          "writable": true
+        },
+        "length": 1,
+        "misuse": {
+          "error": {
+            "constructor": "TypeError",
+            "message": "Failed to construct 'AnalyserNode': Please use the 'new' operator, this DOM object constructor cannot be called as a function.",
+            "name": "TypeError"
+          },
+          "tested": true,
+          "throws": true
+        },
+        "name": "AnalyserNode",
+        "nativeSource": true,
+        "prototype": {
+          "constructorName": "AnalyserNode",
+          "exists": true,
+          "instanceofObject": true,
+          "objectPrototype": "AudioNode",
+          "ownProperties": [
+            "Symbol(Symbol.toStringTag)",
+            "constructor",
+            "fftSize",
+            "frequencyBinCount",
+            "getByteFrequencyData",
+            "getByteTimeDomainData",
+            "getFloatFrequencyData",
+            "getFloatTimeDomainData",
+            "maxDecibels",
+            "minDecibels",
+            "smoothingTimeConstant"
+          ],
+          "prototypeChain": [
+            "AnalyserNode",
+            "AudioNode",
+            "EventTarget",
+            "Object"
+          ],
+          "toStringTag": {
+            "configurable": true,
+            "enumerable": false,
+            "getterSource": null,
+            "hasGetter": false,
+            "hasSetter": false,
+            "setterSource": null,
+            "valueSource": null,
+            "valueType": "string",
+            "writable": false
+          }
+        },
+        "source": "function AnalyserNode() { [native code] }"
+      },
+      "AudioBuffer": {
+        "available": true,
+        "descriptor": {
+          "configurable": true,
+          "enumerable": false,
+          "getterSource": null,
+          "hasGetter": false,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": "function AudioBuffer() { [native code] }",
+          "valueType": "function",
+          "writable": true
+        },
+        "length": 1,
+        "misuse": {
+          "error": {
+            "constructor": "TypeError",
+            "message": "Failed to construct 'AudioBuffer': Please use the 'new' operator, this DOM object constructor cannot be called as a function.",
+            "name": "TypeError"
+          },
+          "tested": true,
+          "throws": true
+        },
+        "name": "AudioBuffer",
+        "nativeSource": true,
+        "prototype": {
+          "constructorName": "AudioBuffer",
+          "exists": true,
+          "instanceofObject": true,
+          "objectPrototype": "Object",
+          "ownProperties": [
+            "Symbol(Symbol.toStringTag)",
+            "constructor",
+            "copyFromChannel",
+            "copyToChannel",
+            "duration",
+            "getChannelData",
+            "length",
+            "numberOfChannels",
+            "sampleRate"
+          ],
+          "prototypeChain": [
+            "AudioBuffer",
+            "Object"
+          ],
+          "toStringTag": {
+            "configurable": true,
+            "enumerable": false,
+            "getterSource": null,
+            "hasGetter": false,
+            "hasSetter": false,
+            "setterSource": null,
+            "valueSource": null,
+            "valueType": "string",
+            "writable": false
+          }
+        },
+        "source": "function AudioBuffer() { [native code] }"
+      },
+      "AudioBufferSourceNode": {
+        "available": true,
+        "descriptor": {
+          "configurable": true,
+          "enumerable": false,
+          "getterSource": null,
+          "hasGetter": false,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": "function AudioBufferSourceNode() { [native code] }",
+          "valueType": "function",
+          "writable": true
+        },
+        "length": 1,
+        "misuse": {
+          "error": {
+            "constructor": "TypeError",
+            "message": "Failed to construct 'AudioBufferSourceNode': Please use the 'new' operator, this DOM object constructor cannot be called as a function.",
+            "name": "TypeError"
+          },
+          "tested": true,
+          "throws": true
+        },
+        "name": "AudioBufferSourceNode",
+        "nativeSource": true,
+        "prototype": {
+          "constructorName": "AudioBufferSourceNode",
+          "exists": true,
+          "instanceofObject": true,
+          "objectPrototype": "AudioScheduledSourceNode",
+          "ownProperties": [
+            "Symbol(Symbol.toStringTag)",
+            "buffer",
+            "constructor",
+            "detune",
+            "loop",
+            "loopEnd",
+            "loopStart",
+            "playbackRate",
+            "start"
+          ],
+          "prototypeChain": [
+            "AudioBufferSourceNode",
+            "AudioScheduledSourceNode",
+            "AudioNode",
+            "EventTarget",
+            "Object"
+          ],
+          "toStringTag": {
+            "configurable": true,
+            "enumerable": false,
+            "getterSource": null,
+            "hasGetter": false,
+            "hasSetter": false,
+            "setterSource": null,
+            "valueSource": null,
+            "valueType": "string",
+            "writable": false
+          }
+        },
+        "source": "function AudioBufferSourceNode() { [native code] }"
+      },
+      "AudioContext": {
+        "available": true,
+        "descriptor": {
+          "configurable": true,
+          "enumerable": false,
+          "getterSource": null,
+          "hasGetter": false,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": "function AudioContext() { [native code] }",
+          "valueType": "function",
+          "writable": true
+        },
+        "length": 0,
+        "misuse": {
+          "error": {
+            "constructor": "TypeError",
+            "message": "Failed to construct 'AudioContext': Please use the 'new' operator, this DOM object constructor cannot be called as a function.",
+            "name": "TypeError"
+          },
+          "tested": true,
+          "throws": true
+        },
+        "name": "AudioContext",
+        "nativeSource": true,
+        "prototype": {
+          "constructorName": "AudioContext",
+          "exists": true,
+          "instanceofObject": true,
+          "objectPrototype": "BaseAudioContext",
+          "ownProperties": [
+            "Symbol(Symbol.toStringTag)",
+            "baseLatency",
+            "close",
+            "constructor",
+            "createMediaElementSource",
+            "createMediaStreamDestination",
+            "createMediaStreamSource",
+            "getOutputTimestamp",
+            "onerror",
+            "outputLatency",
+            "playbackStats",
+            "resume",
+            "suspend"
+          ],
+          "prototypeChain": [
+            "AudioContext",
+            "BaseAudioContext",
+            "EventTarget",
+            "Object"
+          ],
+          "toStringTag": {
+            "configurable": true,
+            "enumerable": false,
+            "getterSource": null,
+            "hasGetter": false,
+            "hasSetter": false,
+            "setterSource": null,
+            "valueSource": null,
+            "valueType": "string",
+            "writable": false
+          }
+        },
+        "source": "function AudioContext() { [native code] }"
+      },
+      "AudioDestinationNode": {
+        "available": true,
+        "descriptor": {
+          "configurable": true,
+          "enumerable": false,
+          "getterSource": null,
+          "hasGetter": false,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": "function AudioDestinationNode() { [native code] }",
+          "valueType": "function",
+          "writable": true
+        },
+        "length": 0,
+        "misuse": {
+          "error": {
+            "constructor": "TypeError",
+            "message": "Illegal constructor",
+            "name": "TypeError"
+          },
+          "tested": true,
+          "throws": true
+        },
+        "name": "AudioDestinationNode",
+        "nativeSource": true,
+        "prototype": {
+          "constructorName": "AudioDestinationNode",
+          "exists": true,
+          "instanceofObject": true,
+          "objectPrototype": "AudioNode",
+          "ownProperties": [
+            "Symbol(Symbol.toStringTag)",
+            "constructor",
+            "maxChannelCount"
+          ],
+          "prototypeChain": [
+            "AudioDestinationNode",
+            "AudioNode",
+            "EventTarget",
+            "Object"
+          ],
+          "toStringTag": {
+            "configurable": true,
+            "enumerable": false,
+            "getterSource": null,
+            "hasGetter": false,
+            "hasSetter": false,
+            "setterSource": null,
+            "valueSource": null,
+            "valueType": "string",
+            "writable": false
+          }
+        },
+        "source": "function AudioDestinationNode() { [native code] }"
+      },
+      "AudioListener": {
+        "available": true,
+        "descriptor": {
+          "configurable": true,
+          "enumerable": false,
+          "getterSource": null,
+          "hasGetter": false,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": "function AudioListener() { [native code] }",
+          "valueType": "function",
+          "writable": true
+        },
+        "length": 0,
+        "misuse": {
+          "error": {
+            "constructor": "TypeError",
+            "message": "Illegal constructor",
+            "name": "TypeError"
+          },
+          "tested": true,
+          "throws": true
+        },
+        "name": "AudioListener",
+        "nativeSource": true,
+        "prototype": {
+          "constructorName": "AudioListener",
+          "exists": true,
+          "instanceofObject": true,
+          "objectPrototype": "Object",
+          "ownProperties": [
+            "Symbol(Symbol.toStringTag)",
+            "constructor",
+            "forwardX",
+            "forwardY",
+            "forwardZ",
+            "positionX",
+            "positionY",
+            "positionZ",
+            "setOrientation",
+            "setPosition",
+            "upX",
+            "upY",
+            "upZ"
+          ],
+          "prototypeChain": [
+            "AudioListener",
+            "Object"
+          ],
+          "toStringTag": {
+            "configurable": true,
+            "enumerable": false,
+            "getterSource": null,
+            "hasGetter": false,
+            "hasSetter": false,
+            "setterSource": null,
+            "valueSource": null,
+            "valueType": "string",
+            "writable": false
+          }
+        },
+        "source": "function AudioListener() { [native code] }"
+      },
+      "AudioNode": {
+        "available": true,
+        "descriptor": {
+          "configurable": true,
+          "enumerable": false,
+          "getterSource": null,
+          "hasGetter": false,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": "function AudioNode() { [native code] }",
+          "valueType": "function",
+          "writable": true
+        },
+        "length": 0,
+        "misuse": {
+          "error": {
+            "constructor": "TypeError",
+            "message": "Illegal constructor",
+            "name": "TypeError"
+          },
+          "tested": true,
+          "throws": true
+        },
+        "name": "AudioNode",
+        "nativeSource": true,
+        "prototype": {
+          "constructorName": "AudioNode",
+          "exists": true,
+          "instanceofObject": true,
+          "objectPrototype": "EventTarget",
+          "ownProperties": [
+            "Symbol(Symbol.toStringTag)",
+            "channelCount",
+            "channelCountMode",
+            "channelInterpretation",
+            "connect",
+            "constructor",
+            "context",
+            "disconnect",
+            "numberOfInputs",
+            "numberOfOutputs"
+          ],
+          "prototypeChain": [
+            "AudioNode",
+            "EventTarget",
+            "Object"
+          ],
+          "toStringTag": {
+            "configurable": true,
+            "enumerable": false,
+            "getterSource": null,
+            "hasGetter": false,
+            "hasSetter": false,
+            "setterSource": null,
+            "valueSource": null,
+            "valueType": "string",
+            "writable": false
+          }
+        },
+        "source": "function AudioNode() { [native code] }"
+      },
+      "AudioParam": {
+        "available": true,
+        "descriptor": {
+          "configurable": true,
+          "enumerable": false,
+          "getterSource": null,
+          "hasGetter": false,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": "function AudioParam() { [native code] }",
+          "valueType": "function",
+          "writable": true
+        },
+        "length": 0,
+        "misuse": {
+          "error": {
+            "constructor": "TypeError",
+            "message": "Illegal constructor",
+            "name": "TypeError"
+          },
+          "tested": true,
+          "throws": true
+        },
+        "name": "AudioParam",
+        "nativeSource": true,
+        "prototype": {
+          "constructorName": "AudioParam",
+          "exists": true,
+          "instanceofObject": true,
+          "objectPrototype": "Object",
+          "ownProperties": [
+            "Symbol(Symbol.toStringTag)",
+            "automationRate",
+            "cancelAndHoldAtTime",
+            "cancelScheduledValues",
+            "constructor",
+            "defaultValue",
+            "exponentialRampToValueAtTime",
+            "linearRampToValueAtTime",
+            "maxValue",
+            "minValue",
+            "setTargetAtTime",
+            "setValueAtTime",
+            "setValueCurveAtTime",
+            "value"
+          ],
+          "prototypeChain": [
+            "AudioParam",
+            "Object"
+          ],
+          "toStringTag": {
+            "configurable": true,
+            "enumerable": false,
+            "getterSource": null,
+            "hasGetter": false,
+            "hasSetter": false,
+            "setterSource": null,
+            "valueSource": null,
+            "valueType": "string",
+            "writable": false
+          }
+        },
+        "source": "function AudioParam() { [native code] }"
+      },
+      "AudioScheduledSourceNode": {
+        "available": true,
+        "descriptor": {
+          "configurable": true,
+          "enumerable": false,
+          "getterSource": null,
+          "hasGetter": false,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": "function AudioScheduledSourceNode() { [native code] }",
+          "valueType": "function",
+          "writable": true
+        },
+        "length": 0,
+        "misuse": {
+          "error": {
+            "constructor": "TypeError",
+            "message": "Illegal constructor",
+            "name": "TypeError"
+          },
+          "tested": true,
+          "throws": true
+        },
+        "name": "AudioScheduledSourceNode",
+        "nativeSource": true,
+        "prototype": {
+          "constructorName": "AudioScheduledSourceNode",
+          "exists": true,
+          "instanceofObject": true,
+          "objectPrototype": "AudioNode",
+          "ownProperties": [
+            "Symbol(Symbol.toStringTag)",
+            "constructor",
+            "onended",
+            "start",
+            "stop"
+          ],
+          "prototypeChain": [
+            "AudioScheduledSourceNode",
+            "AudioNode",
+            "EventTarget",
+            "Object"
+          ],
+          "toStringTag": {
+            "configurable": true,
+            "enumerable": false,
+            "getterSource": null,
+            "hasGetter": false,
+            "hasSetter": false,
+            "setterSource": null,
+            "valueSource": null,
+            "valueType": "string",
+            "writable": false
+          }
+        },
+        "source": "function AudioScheduledSourceNode() { [native code] }"
+      },
+      "AudioWorkletNode": {
+        "available": true,
+        "descriptor": {
+          "configurable": true,
+          "enumerable": false,
+          "getterSource": null,
+          "hasGetter": false,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": "function AudioWorkletNode() { [native code] }",
+          "valueType": "function",
+          "writable": true
+        },
+        "length": 2,
+        "misuse": {
+          "error": {
+            "constructor": "TypeError",
+            "message": "Failed to construct 'AudioWorkletNode': Please use the 'new' operator, this DOM object constructor cannot be called as a function.",
+            "name": "TypeError"
+          },
+          "tested": true,
+          "throws": true
+        },
+        "name": "AudioWorkletNode",
+        "nativeSource": true,
+        "prototype": {
+          "constructorName": "AudioWorkletNode",
+          "exists": true,
+          "instanceofObject": true,
+          "objectPrototype": "AudioNode",
+          "ownProperties": [
+            "Symbol(Symbol.toStringTag)",
+            "constructor",
+            "onprocessorerror",
+            "parameters",
+            "port"
+          ],
+          "prototypeChain": [
+            "AudioWorkletNode",
+            "AudioNode",
+            "EventTarget",
+            "Object"
+          ],
+          "toStringTag": {
+            "configurable": true,
+            "enumerable": false,
+            "getterSource": null,
+            "hasGetter": false,
+            "hasSetter": false,
+            "setterSource": null,
+            "valueSource": null,
+            "valueType": "string",
+            "writable": false
+          }
+        },
+        "source": "function AudioWorkletNode() { [native code] }"
+      },
+      "BaseAudioContext": {
+        "available": true,
+        "descriptor": {
+          "configurable": true,
+          "enumerable": false,
+          "getterSource": null,
+          "hasGetter": false,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": "function BaseAudioContext() { [native code] }",
+          "valueType": "function",
+          "writable": true
+        },
+        "length": 0,
+        "misuse": {
+          "error": {
+            "constructor": "TypeError",
+            "message": "Illegal constructor",
+            "name": "TypeError"
+          },
+          "tested": true,
+          "throws": true
+        },
+        "name": "BaseAudioContext",
+        "nativeSource": true,
+        "prototype": {
+          "constructorName": "BaseAudioContext",
+          "exists": true,
+          "instanceofObject": true,
+          "objectPrototype": "EventTarget",
+          "ownProperties": [
+            "Symbol(Symbol.toStringTag)",
+            "constructor",
+            "createAnalyser",
+            "createBiquadFilter",
+            "createBuffer",
+            "createBufferSource",
+            "createChannelMerger",
+            "createChannelSplitter",
+            "createConstantSource",
+            "createConvolver",
+            "createDelay",
+            "createDynamicsCompressor",
+            "createGain",
+            "createIIRFilter",
+            "createOscillator",
+            "createPanner",
+            "createPeriodicWave",
+            "createScriptProcessor",
+            "createStereoPanner",
+            "createWaveShaper",
+            "currentTime",
+            "decodeAudioData",
+            "destination",
+            "listener",
+            "onstatechange",
+            "sampleRate",
+            "state"
+          ],
+          "prototypeChain": [
+            "BaseAudioContext",
+            "EventTarget",
+            "Object"
+          ],
+          "toStringTag": {
+            "configurable": true,
+            "enumerable": false,
+            "getterSource": null,
+            "hasGetter": false,
+            "hasSetter": false,
+            "setterSource": null,
+            "valueSource": null,
+            "valueType": "string",
+            "writable": false
+          }
+        },
+        "source": "function BaseAudioContext() { [native code] }"
+      },
+      "BiquadFilterNode": {
+        "available": true,
+        "descriptor": {
+          "configurable": true,
+          "enumerable": false,
+          "getterSource": null,
+          "hasGetter": false,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": "function BiquadFilterNode() { [native code] }",
+          "valueType": "function",
+          "writable": true
+        },
+        "length": 1,
+        "misuse": {
+          "error": {
+            "constructor": "TypeError",
+            "message": "Failed to construct 'BiquadFilterNode': Please use the 'new' operator, this DOM object constructor cannot be called as a function.",
+            "name": "TypeError"
+          },
+          "tested": true,
+          "throws": true
+        },
+        "name": "BiquadFilterNode",
+        "nativeSource": true,
+        "prototype": {
+          "constructorName": "BiquadFilterNode",
+          "exists": true,
+          "instanceofObject": true,
+          "objectPrototype": "AudioNode",
+          "ownProperties": [
+            "Q",
+            "Symbol(Symbol.toStringTag)",
+            "constructor",
+            "detune",
+            "frequency",
+            "gain",
+            "getFrequencyResponse",
+            "type"
+          ],
+          "prototypeChain": [
+            "BiquadFilterNode",
+            "AudioNode",
+            "EventTarget",
+            "Object"
+          ],
+          "toStringTag": {
+            "configurable": true,
+            "enumerable": false,
+            "getterSource": null,
+            "hasGetter": false,
+            "hasSetter": false,
+            "setterSource": null,
+            "valueSource": null,
+            "valueType": "string",
+            "writable": false
+          }
+        },
+        "source": "function BiquadFilterNode() { [native code] }"
+      },
+      "ChannelMergerNode": {
+        "available": true,
+        "descriptor": {
+          "configurable": true,
+          "enumerable": false,
+          "getterSource": null,
+          "hasGetter": false,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": "function ChannelMergerNode() { [native code] }",
+          "valueType": "function",
+          "writable": true
+        },
+        "length": 1,
+        "misuse": {
+          "error": {
+            "constructor": "TypeError",
+            "message": "Failed to construct 'ChannelMergerNode': Please use the 'new' operator, this DOM object constructor cannot be called as a function.",
+            "name": "TypeError"
+          },
+          "tested": true,
+          "throws": true
+        },
+        "name": "ChannelMergerNode",
+        "nativeSource": true,
+        "prototype": {
+          "constructorName": "ChannelMergerNode",
+          "exists": true,
+          "instanceofObject": true,
+          "objectPrototype": "AudioNode",
+          "ownProperties": [
+            "Symbol(Symbol.toStringTag)",
+            "constructor"
+          ],
+          "prototypeChain": [
+            "ChannelMergerNode",
+            "AudioNode",
+            "EventTarget",
+            "Object"
+          ],
+          "toStringTag": {
+            "configurable": true,
+            "enumerable": false,
+            "getterSource": null,
+            "hasGetter": false,
+            "hasSetter": false,
+            "setterSource": null,
+            "valueSource": null,
+            "valueType": "string",
+            "writable": false
+          }
+        },
+        "source": "function ChannelMergerNode() { [native code] }"
+      },
+      "ChannelSplitterNode": {
+        "available": true,
+        "descriptor": {
+          "configurable": true,
+          "enumerable": false,
+          "getterSource": null,
+          "hasGetter": false,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": "function ChannelSplitterNode() { [native code] }",
+          "valueType": "function",
+          "writable": true
+        },
+        "length": 1,
+        "misuse": {
+          "error": {
+            "constructor": "TypeError",
+            "message": "Failed to construct 'ChannelSplitterNode': Please use the 'new' operator, this DOM object constructor cannot be called as a function.",
+            "name": "TypeError"
+          },
+          "tested": true,
+          "throws": true
+        },
+        "name": "ChannelSplitterNode",
+        "nativeSource": true,
+        "prototype": {
+          "constructorName": "ChannelSplitterNode",
+          "exists": true,
+          "instanceofObject": true,
+          "objectPrototype": "AudioNode",
+          "ownProperties": [
+            "Symbol(Symbol.toStringTag)",
+            "constructor"
+          ],
+          "prototypeChain": [
+            "ChannelSplitterNode",
+            "AudioNode",
+            "EventTarget",
+            "Object"
+          ],
+          "toStringTag": {
+            "configurable": true,
+            "enumerable": false,
+            "getterSource": null,
+            "hasGetter": false,
+            "hasSetter": false,
+            "setterSource": null,
+            "valueSource": null,
+            "valueType": "string",
+            "writable": false
+          }
+        },
+        "source": "function ChannelSplitterNode() { [native code] }"
+      },
+      "ConstantSourceNode": {
+        "available": true,
+        "descriptor": {
+          "configurable": true,
+          "enumerable": false,
+          "getterSource": null,
+          "hasGetter": false,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": "function ConstantSourceNode() { [native code] }",
+          "valueType": "function",
+          "writable": true
+        },
+        "length": 1,
+        "misuse": {
+          "error": {
+            "constructor": "TypeError",
+            "message": "Failed to construct 'ConstantSourceNode': Please use the 'new' operator, this DOM object constructor cannot be called as a function.",
+            "name": "TypeError"
+          },
+          "tested": true,
+          "throws": true
+        },
+        "name": "ConstantSourceNode",
+        "nativeSource": true,
+        "prototype": {
+          "constructorName": "ConstantSourceNode",
+          "exists": true,
+          "instanceofObject": true,
+          "objectPrototype": "AudioScheduledSourceNode",
+          "ownProperties": [
+            "Symbol(Symbol.toStringTag)",
+            "constructor",
+            "offset"
+          ],
+          "prototypeChain": [
+            "ConstantSourceNode",
+            "AudioScheduledSourceNode",
+            "AudioNode",
+            "EventTarget",
+            "Object"
+          ],
+          "toStringTag": {
+            "configurable": true,
+            "enumerable": false,
+            "getterSource": null,
+            "hasGetter": false,
+            "hasSetter": false,
+            "setterSource": null,
+            "valueSource": null,
+            "valueType": "string",
+            "writable": false
+          }
+        },
+        "source": "function ConstantSourceNode() { [native code] }"
+      },
+      "DelayNode": {
+        "available": true,
+        "descriptor": {
+          "configurable": true,
+          "enumerable": false,
+          "getterSource": null,
+          "hasGetter": false,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": "function DelayNode() { [native code] }",
+          "valueType": "function",
+          "writable": true
+        },
+        "length": 1,
+        "misuse": {
+          "error": {
+            "constructor": "TypeError",
+            "message": "Failed to construct 'DelayNode': Please use the 'new' operator, this DOM object constructor cannot be called as a function.",
+            "name": "TypeError"
+          },
+          "tested": true,
+          "throws": true
+        },
+        "name": "DelayNode",
+        "nativeSource": true,
+        "prototype": {
+          "constructorName": "DelayNode",
+          "exists": true,
+          "instanceofObject": true,
+          "objectPrototype": "AudioNode",
+          "ownProperties": [
+            "Symbol(Symbol.toStringTag)",
+            "constructor",
+            "delayTime"
+          ],
+          "prototypeChain": [
+            "DelayNode",
+            "AudioNode",
+            "EventTarget",
+            "Object"
+          ],
+          "toStringTag": {
+            "configurable": true,
+            "enumerable": false,
+            "getterSource": null,
+            "hasGetter": false,
+            "hasSetter": false,
+            "setterSource": null,
+            "valueSource": null,
+            "valueType": "string",
+            "writable": false
+          }
+        },
+        "source": "function DelayNode() { [native code] }"
+      },
+      "DynamicsCompressorNode": {
+        "available": true,
+        "descriptor": {
+          "configurable": true,
+          "enumerable": false,
+          "getterSource": null,
+          "hasGetter": false,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": "function DynamicsCompressorNode() { [native code] }",
+          "valueType": "function",
+          "writable": true
+        },
+        "length": 1,
+        "misuse": {
+          "error": {
+            "constructor": "TypeError",
+            "message": "Failed to construct 'DynamicsCompressorNode': Please use the 'new' operator, this DOM object constructor cannot be called as a function.",
+            "name": "TypeError"
+          },
+          "tested": true,
+          "throws": true
+        },
+        "name": "DynamicsCompressorNode",
+        "nativeSource": true,
+        "prototype": {
+          "constructorName": "DynamicsCompressorNode",
+          "exists": true,
+          "instanceofObject": true,
+          "objectPrototype": "AudioNode",
+          "ownProperties": [
+            "Symbol(Symbol.toStringTag)",
+            "attack",
+            "constructor",
+            "knee",
+            "ratio",
+            "reduction",
+            "release",
+            "threshold"
+          ],
+          "prototypeChain": [
+            "DynamicsCompressorNode",
+            "AudioNode",
+            "EventTarget",
+            "Object"
+          ],
+          "toStringTag": {
+            "configurable": true,
+            "enumerable": false,
+            "getterSource": null,
+            "hasGetter": false,
+            "hasSetter": false,
+            "setterSource": null,
+            "valueSource": null,
+            "valueType": "string",
+            "writable": false
+          }
+        },
+        "source": "function DynamicsCompressorNode() { [native code] }"
+      },
+      "GainNode": {
+        "available": true,
+        "descriptor": {
+          "configurable": true,
+          "enumerable": false,
+          "getterSource": null,
+          "hasGetter": false,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": "function GainNode() { [native code] }",
+          "valueType": "function",
+          "writable": true
+        },
+        "length": 1,
+        "misuse": {
+          "error": {
+            "constructor": "TypeError",
+            "message": "Failed to construct 'GainNode': Please use the 'new' operator, this DOM object constructor cannot be called as a function.",
+            "name": "TypeError"
+          },
+          "tested": true,
+          "throws": true
+        },
+        "name": "GainNode",
+        "nativeSource": true,
+        "prototype": {
+          "constructorName": "GainNode",
+          "exists": true,
+          "instanceofObject": true,
+          "objectPrototype": "AudioNode",
+          "ownProperties": [
+            "Symbol(Symbol.toStringTag)",
+            "constructor",
+            "gain"
+          ],
+          "prototypeChain": [
+            "GainNode",
+            "AudioNode",
+            "EventTarget",
+            "Object"
+          ],
+          "toStringTag": {
+            "configurable": true,
+            "enumerable": false,
+            "getterSource": null,
+            "hasGetter": false,
+            "hasSetter": false,
+            "setterSource": null,
+            "valueSource": null,
+            "valueType": "string",
+            "writable": false
+          }
+        },
+        "source": "function GainNode() { [native code] }"
+      },
+      "OfflineAudioContext": {
+        "available": true,
+        "descriptor": {
+          "configurable": true,
+          "enumerable": false,
+          "getterSource": null,
+          "hasGetter": false,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": "function OfflineAudioContext() { [native code] }",
+          "valueType": "function",
+          "writable": true
+        },
+        "length": 1,
+        "misuse": {
+          "error": {
+            "constructor": "TypeError",
+            "message": "Failed to construct 'OfflineAudioContext': Please use the 'new' operator, this DOM object constructor cannot be called as a function.",
+            "name": "TypeError"
+          },
+          "tested": true,
+          "throws": true
+        },
+        "name": "OfflineAudioContext",
+        "nativeSource": true,
+        "prototype": {
+          "constructorName": "OfflineAudioContext",
+          "exists": true,
+          "instanceofObject": true,
+          "objectPrototype": "BaseAudioContext",
+          "ownProperties": [
+            "Symbol(Symbol.toStringTag)",
+            "constructor",
+            "length",
+            "oncomplete",
+            "resume",
+            "startRendering",
+            "suspend"
+          ],
+          "prototypeChain": [
+            "OfflineAudioContext",
+            "BaseAudioContext",
+            "EventTarget",
+            "Object"
+          ],
+          "toStringTag": {
+            "configurable": true,
+            "enumerable": false,
+            "getterSource": null,
+            "hasGetter": false,
+            "hasSetter": false,
+            "setterSource": null,
+            "valueSource": null,
+            "valueType": "string",
+            "writable": false
+          }
+        },
+        "source": "function OfflineAudioContext() { [native code] }"
+      },
+      "OscillatorNode": {
+        "available": true,
+        "descriptor": {
+          "configurable": true,
+          "enumerable": false,
+          "getterSource": null,
+          "hasGetter": false,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": "function OscillatorNode() { [native code] }",
+          "valueType": "function",
+          "writable": true
+        },
+        "length": 1,
+        "misuse": {
+          "error": {
+            "constructor": "TypeError",
+            "message": "Failed to construct 'OscillatorNode': Please use the 'new' operator, this DOM object constructor cannot be called as a function.",
+            "name": "TypeError"
+          },
+          "tested": true,
+          "throws": true
+        },
+        "name": "OscillatorNode",
+        "nativeSource": true,
+        "prototype": {
+          "constructorName": "OscillatorNode",
+          "exists": true,
+          "instanceofObject": true,
+          "objectPrototype": "AudioScheduledSourceNode",
+          "ownProperties": [
+            "Symbol(Symbol.toStringTag)",
+            "constructor",
+            "detune",
+            "frequency",
+            "setPeriodicWave",
+            "type"
+          ],
+          "prototypeChain": [
+            "OscillatorNode",
+            "AudioScheduledSourceNode",
+            "AudioNode",
+            "EventTarget",
+            "Object"
+          ],
+          "toStringTag": {
+            "configurable": true,
+            "enumerable": false,
+            "getterSource": null,
+            "hasGetter": false,
+            "hasSetter": false,
+            "setterSource": null,
+            "valueSource": null,
+            "valueType": "string",
+            "writable": false
+          }
+        },
+        "source": "function OscillatorNode() { [native code] }"
+      },
+      "PannerNode": {
+        "available": true,
+        "descriptor": {
+          "configurable": true,
+          "enumerable": false,
+          "getterSource": null,
+          "hasGetter": false,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": "function PannerNode() { [native code] }",
+          "valueType": "function",
+          "writable": true
+        },
+        "length": 1,
+        "misuse": {
+          "error": {
+            "constructor": "TypeError",
+            "message": "Failed to construct 'PannerNode': Please use the 'new' operator, this DOM object constructor cannot be called as a function.",
+            "name": "TypeError"
+          },
+          "tested": true,
+          "throws": true
+        },
+        "name": "PannerNode",
+        "nativeSource": true,
+        "prototype": {
+          "constructorName": "PannerNode",
+          "exists": true,
+          "instanceofObject": true,
+          "objectPrototype": "AudioNode",
+          "ownProperties": [
+            "Symbol(Symbol.toStringTag)",
+            "coneInnerAngle",
+            "coneOuterAngle",
+            "coneOuterGain",
+            "constructor",
+            "distanceModel",
+            "maxDistance",
+            "orientationX",
+            "orientationY",
+            "orientationZ",
+            "panningModel",
+            "positionX",
+            "positionY",
+            "positionZ",
+            "refDistance",
+            "rolloffFactor",
+            "setOrientation",
+            "setPosition"
+          ],
+          "prototypeChain": [
+            "PannerNode",
+            "AudioNode",
+            "EventTarget",
+            "Object"
+          ],
+          "toStringTag": {
+            "configurable": true,
+            "enumerable": false,
+            "getterSource": null,
+            "hasGetter": false,
+            "hasSetter": false,
+            "setterSource": null,
+            "valueSource": null,
+            "valueType": "string",
+            "writable": false
+          }
+        },
+        "source": "function PannerNode() { [native code] }"
+      },
+      "PeriodicWave": {
+        "available": true,
+        "descriptor": {
+          "configurable": true,
+          "enumerable": false,
+          "getterSource": null,
+          "hasGetter": false,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": "function PeriodicWave() { [native code] }",
+          "valueType": "function",
+          "writable": true
+        },
+        "length": 1,
+        "misuse": {
+          "error": {
+            "constructor": "TypeError",
+            "message": "Failed to construct 'PeriodicWave': Please use the 'new' operator, this DOM object constructor cannot be called as a function.",
+            "name": "TypeError"
+          },
+          "tested": true,
+          "throws": true
+        },
+        "name": "PeriodicWave",
+        "nativeSource": true,
+        "prototype": {
+          "constructorName": "PeriodicWave",
+          "exists": true,
+          "instanceofObject": true,
+          "objectPrototype": "Object",
+          "ownProperties": [
+            "Symbol(Symbol.toStringTag)",
+            "constructor"
+          ],
+          "prototypeChain": [
+            "PeriodicWave",
+            "Object"
+          ],
+          "toStringTag": {
+            "configurable": true,
+            "enumerable": false,
+            "getterSource": null,
+            "hasGetter": false,
+            "hasSetter": false,
+            "setterSource": null,
+            "valueSource": null,
+            "valueType": "string",
+            "writable": false
+          }
+        },
+        "source": "function PeriodicWave() { [native code] }"
+      },
+      "StereoPannerNode": {
+        "available": true,
+        "descriptor": {
+          "configurable": true,
+          "enumerable": false,
+          "getterSource": null,
+          "hasGetter": false,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": "function StereoPannerNode() { [native code] }",
+          "valueType": "function",
+          "writable": true
+        },
+        "length": 1,
+        "misuse": {
+          "error": {
+            "constructor": "TypeError",
+            "message": "Failed to construct 'StereoPannerNode': Please use the 'new' operator, this DOM object constructor cannot be called as a function.",
+            "name": "TypeError"
+          },
+          "tested": true,
+          "throws": true
+        },
+        "name": "StereoPannerNode",
+        "nativeSource": true,
+        "prototype": {
+          "constructorName": "StereoPannerNode",
+          "exists": true,
+          "instanceofObject": true,
+          "objectPrototype": "AudioNode",
+          "ownProperties": [
+            "Symbol(Symbol.toStringTag)",
+            "constructor",
+            "pan"
+          ],
+          "prototypeChain": [
+            "StereoPannerNode",
+            "AudioNode",
+            "EventTarget",
+            "Object"
+          ],
+          "toStringTag": {
+            "configurable": true,
+            "enumerable": false,
+            "getterSource": null,
+            "hasGetter": false,
+            "hasSetter": false,
+            "setterSource": null,
+            "valueSource": null,
+            "valueType": "string",
+            "writable": false
+          }
+        },
+        "source": "function StereoPannerNode() { [native code] }"
+      },
+      "WaveShaperNode": {
+        "available": true,
+        "descriptor": {
+          "configurable": true,
+          "enumerable": false,
+          "getterSource": null,
+          "hasGetter": false,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": "function WaveShaperNode() { [native code] }",
+          "valueType": "function",
+          "writable": true
+        },
+        "length": 1,
+        "misuse": {
+          "error": {
+            "constructor": "TypeError",
+            "message": "Failed to construct 'WaveShaperNode': Please use the 'new' operator, this DOM object constructor cannot be called as a function.",
+            "name": "TypeError"
+          },
+          "tested": true,
+          "throws": true
+        },
+        "name": "WaveShaperNode",
+        "nativeSource": true,
+        "prototype": {
+          "constructorName": "WaveShaperNode",
+          "exists": true,
+          "instanceofObject": true,
+          "objectPrototype": "AudioNode",
+          "ownProperties": [
+            "Symbol(Symbol.toStringTag)",
+            "constructor",
+            "curve",
+            "oversample"
+          ],
+          "prototypeChain": [
+            "WaveShaperNode",
+            "AudioNode",
+            "EventTarget",
+            "Object"
+          ],
+          "toStringTag": {
+            "configurable": true,
+            "enumerable": false,
+            "getterSource": null,
+            "hasGetter": false,
+            "hasSetter": false,
+            "setterSource": null,
+            "valueSource": null,
+            "valueType": "string",
+            "writable": false
+          }
+        },
+        "source": "function WaveShaperNode() { [native code] }"
+      }
+    },
+    "descriptors": {
+      "AnalyserNode": {
+        "Symbol(Symbol.toStringTag)": null,
+        "constructor": {
+          "configurable": true,
+          "enumerable": false,
+          "getterSource": null,
+          "hasGetter": false,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": "function AnalyserNode() { [native code] }",
+          "valueType": "function",
+          "writable": true
+        },
+        "fftSize": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": "function get fftSize() { [native code] }",
+          "hasGetter": true,
+          "hasSetter": true,
+          "setterSource": "function set fftSize() { [native code] }",
+          "valueSource": null,
+          "valueType": null,
+          "writable": null
+        },
+        "frequencyBinCount": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": "function get frequencyBinCount() { [native code] }",
+          "hasGetter": true,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": null,
+          "valueType": null,
+          "writable": null
+        },
+        "getByteFrequencyData": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": null,
+          "hasGetter": false,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": "function getByteFrequencyData() { [native code] }",
+          "valueType": "function",
+          "writable": true
+        },
+        "getByteTimeDomainData": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": null,
+          "hasGetter": false,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": "function getByteTimeDomainData() { [native code] }",
+          "valueType": "function",
+          "writable": true
+        },
+        "getFloatFrequencyData": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": null,
+          "hasGetter": false,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": "function getFloatFrequencyData() { [native code] }",
+          "valueType": "function",
+          "writable": true
+        },
+        "getFloatTimeDomainData": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": null,
+          "hasGetter": false,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": "function getFloatTimeDomainData() { [native code] }",
+          "valueType": "function",
+          "writable": true
+        },
+        "maxDecibels": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": "function get maxDecibels() { [native code] }",
+          "hasGetter": true,
+          "hasSetter": true,
+          "setterSource": "function set maxDecibels() { [native code] }",
+          "valueSource": null,
+          "valueType": null,
+          "writable": null
+        },
+        "minDecibels": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": "function get minDecibels() { [native code] }",
+          "hasGetter": true,
+          "hasSetter": true,
+          "setterSource": "function set minDecibels() { [native code] }",
+          "valueSource": null,
+          "valueType": null,
+          "writable": null
+        },
+        "smoothingTimeConstant": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": "function get smoothingTimeConstant() { [native code] }",
+          "hasGetter": true,
+          "hasSetter": true,
+          "setterSource": "function set smoothingTimeConstant() { [native code] }",
+          "valueSource": null,
+          "valueType": null,
+          "writable": null
+        }
+      },
+      "AudioBuffer": {
+        "Symbol(Symbol.toStringTag)": null,
+        "constructor": {
+          "configurable": true,
+          "enumerable": false,
+          "getterSource": null,
+          "hasGetter": false,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": "function AudioBuffer() { [native code] }",
+          "valueType": "function",
+          "writable": true
+        },
+        "copyFromChannel": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": null,
+          "hasGetter": false,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": "function copyFromChannel() { [native code] }",
+          "valueType": "function",
+          "writable": true
+        },
+        "copyToChannel": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": null,
+          "hasGetter": false,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": "function copyToChannel() { [native code] }",
+          "valueType": "function",
+          "writable": true
+        },
+        "duration": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": "function get duration() { [native code] }",
+          "hasGetter": true,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": null,
+          "valueType": null,
+          "writable": null
+        },
+        "getChannelData": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": null,
+          "hasGetter": false,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": "function getChannelData() { [native code] }",
+          "valueType": "function",
+          "writable": true
+        },
+        "length": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": "function get length() { [native code] }",
+          "hasGetter": true,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": null,
+          "valueType": null,
+          "writable": null
+        },
+        "numberOfChannels": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": "function get numberOfChannels() { [native code] }",
+          "hasGetter": true,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": null,
+          "valueType": null,
+          "writable": null
+        },
+        "sampleRate": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": "function get sampleRate() { [native code] }",
+          "hasGetter": true,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": null,
+          "valueType": null,
+          "writable": null
+        }
+      },
+      "AudioBufferSourceNode": {
+        "Symbol(Symbol.toStringTag)": null,
+        "buffer": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": "function get buffer() { [native code] }",
+          "hasGetter": true,
+          "hasSetter": true,
+          "setterSource": "function set buffer() { [native code] }",
+          "valueSource": null,
+          "valueType": null,
+          "writable": null
+        },
+        "constructor": {
+          "configurable": true,
+          "enumerable": false,
+          "getterSource": null,
+          "hasGetter": false,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": "function AudioBufferSourceNode() { [native code] }",
+          "valueType": "function",
+          "writable": true
+        },
+        "detune": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": "function get detune() { [native code] }",
+          "hasGetter": true,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": null,
+          "valueType": null,
+          "writable": null
+        },
+        "loop": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": "function get loop() { [native code] }",
+          "hasGetter": true,
+          "hasSetter": true,
+          "setterSource": "function set loop() { [native code] }",
+          "valueSource": null,
+          "valueType": null,
+          "writable": null
+        },
+        "loopEnd": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": "function get loopEnd() { [native code] }",
+          "hasGetter": true,
+          "hasSetter": true,
+          "setterSource": "function set loopEnd() { [native code] }",
+          "valueSource": null,
+          "valueType": null,
+          "writable": null
+        },
+        "loopStart": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": "function get loopStart() { [native code] }",
+          "hasGetter": true,
+          "hasSetter": true,
+          "setterSource": "function set loopStart() { [native code] }",
+          "valueSource": null,
+          "valueType": null,
+          "writable": null
+        },
+        "playbackRate": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": "function get playbackRate() { [native code] }",
+          "hasGetter": true,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": null,
+          "valueType": null,
+          "writable": null
+        },
+        "start": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": null,
+          "hasGetter": false,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": "function start() { [native code] }",
+          "valueType": "function",
+          "writable": true
+        }
+      },
+      "AudioContext": {
+        "Symbol(Symbol.toStringTag)": null,
+        "baseLatency": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": "function get baseLatency() { [native code] }",
+          "hasGetter": true,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": null,
+          "valueType": null,
+          "writable": null
+        },
+        "close": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": null,
+          "hasGetter": false,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": "function close() { [native code] }",
+          "valueType": "function",
+          "writable": true
+        },
+        "constructor": {
+          "configurable": true,
+          "enumerable": false,
+          "getterSource": null,
+          "hasGetter": false,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": "function AudioContext() { [native code] }",
+          "valueType": "function",
+          "writable": true
+        },
+        "createMediaElementSource": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": null,
+          "hasGetter": false,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": "function createMediaElementSource() { [native code] }",
+          "valueType": "function",
+          "writable": true
+        },
+        "createMediaStreamDestination": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": null,
+          "hasGetter": false,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": "function createMediaStreamDestination() { [native code] }",
+          "valueType": "function",
+          "writable": true
+        },
+        "createMediaStreamSource": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": null,
+          "hasGetter": false,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": "function createMediaStreamSource() { [native code] }",
+          "valueType": "function",
+          "writable": true
+        },
+        "getOutputTimestamp": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": null,
+          "hasGetter": false,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": "function getOutputTimestamp() { [native code] }",
+          "valueType": "function",
+          "writable": true
+        },
+        "onerror": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": "function get onerror() { [native code] }",
+          "hasGetter": true,
+          "hasSetter": true,
+          "setterSource": "function set onerror() { [native code] }",
+          "valueSource": null,
+          "valueType": null,
+          "writable": null
+        },
+        "outputLatency": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": "function get outputLatency() { [native code] }",
+          "hasGetter": true,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": null,
+          "valueType": null,
+          "writable": null
+        },
+        "playbackStats": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": "function get playbackStats() { [native code] }",
+          "hasGetter": true,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": null,
+          "valueType": null,
+          "writable": null
+        },
+        "resume": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": null,
+          "hasGetter": false,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": "function resume() { [native code] }",
+          "valueType": "function",
+          "writable": true
+        },
+        "suspend": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": null,
+          "hasGetter": false,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": "function suspend() { [native code] }",
+          "valueType": "function",
+          "writable": true
+        }
+      },
+      "AudioDestinationNode": {
+        "Symbol(Symbol.toStringTag)": null,
+        "constructor": {
+          "configurable": true,
+          "enumerable": false,
+          "getterSource": null,
+          "hasGetter": false,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": "function AudioDestinationNode() { [native code] }",
+          "valueType": "function",
+          "writable": true
+        },
+        "maxChannelCount": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": "function get maxChannelCount() { [native code] }",
+          "hasGetter": true,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": null,
+          "valueType": null,
+          "writable": null
+        }
+      },
+      "AudioListener": {
+        "Symbol(Symbol.toStringTag)": null,
+        "constructor": {
+          "configurable": true,
+          "enumerable": false,
+          "getterSource": null,
+          "hasGetter": false,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": "function AudioListener() { [native code] }",
+          "valueType": "function",
+          "writable": true
+        },
+        "forwardX": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": "function get forwardX() { [native code] }",
+          "hasGetter": true,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": null,
+          "valueType": null,
+          "writable": null
+        },
+        "forwardY": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": "function get forwardY() { [native code] }",
+          "hasGetter": true,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": null,
+          "valueType": null,
+          "writable": null
+        },
+        "forwardZ": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": "function get forwardZ() { [native code] }",
+          "hasGetter": true,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": null,
+          "valueType": null,
+          "writable": null
+        },
+        "positionX": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": "function get positionX() { [native code] }",
+          "hasGetter": true,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": null,
+          "valueType": null,
+          "writable": null
+        },
+        "positionY": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": "function get positionY() { [native code] }",
+          "hasGetter": true,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": null,
+          "valueType": null,
+          "writable": null
+        },
+        "positionZ": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": "function get positionZ() { [native code] }",
+          "hasGetter": true,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": null,
+          "valueType": null,
+          "writable": null
+        },
+        "setOrientation": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": null,
+          "hasGetter": false,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": "function setOrientation() { [native code] }",
+          "valueType": "function",
+          "writable": true
+        },
+        "setPosition": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": null,
+          "hasGetter": false,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": "function setPosition() { [native code] }",
+          "valueType": "function",
+          "writable": true
+        },
+        "upX": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": "function get upX() { [native code] }",
+          "hasGetter": true,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": null,
+          "valueType": null,
+          "writable": null
+        },
+        "upY": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": "function get upY() { [native code] }",
+          "hasGetter": true,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": null,
+          "valueType": null,
+          "writable": null
+        },
+        "upZ": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": "function get upZ() { [native code] }",
+          "hasGetter": true,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": null,
+          "valueType": null,
+          "writable": null
+        }
+      },
+      "AudioNode": {
+        "Symbol(Symbol.toStringTag)": null,
+        "channelCount": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": "function get channelCount() { [native code] }",
+          "hasGetter": true,
+          "hasSetter": true,
+          "setterSource": "function set channelCount() { [native code] }",
+          "valueSource": null,
+          "valueType": null,
+          "writable": null
+        },
+        "channelCountMode": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": "function get channelCountMode() { [native code] }",
+          "hasGetter": true,
+          "hasSetter": true,
+          "setterSource": "function set channelCountMode() { [native code] }",
+          "valueSource": null,
+          "valueType": null,
+          "writable": null
+        },
+        "channelInterpretation": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": "function get channelInterpretation() { [native code] }",
+          "hasGetter": true,
+          "hasSetter": true,
+          "setterSource": "function set channelInterpretation() { [native code] }",
+          "valueSource": null,
+          "valueType": null,
+          "writable": null
+        },
+        "connect": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": null,
+          "hasGetter": false,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": "function connect() { [native code] }",
+          "valueType": "function",
+          "writable": true
+        },
+        "constructor": {
+          "configurable": true,
+          "enumerable": false,
+          "getterSource": null,
+          "hasGetter": false,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": "function AudioNode() { [native code] }",
+          "valueType": "function",
+          "writable": true
+        },
+        "context": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": "function get context() { [native code] }",
+          "hasGetter": true,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": null,
+          "valueType": null,
+          "writable": null
+        },
+        "disconnect": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": null,
+          "hasGetter": false,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": "function disconnect() { [native code] }",
+          "valueType": "function",
+          "writable": true
+        },
+        "numberOfInputs": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": "function get numberOfInputs() { [native code] }",
+          "hasGetter": true,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": null,
+          "valueType": null,
+          "writable": null
+        },
+        "numberOfOutputs": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": "function get numberOfOutputs() { [native code] }",
+          "hasGetter": true,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": null,
+          "valueType": null,
+          "writable": null
+        }
+      },
+      "AudioParam": {
+        "Symbol(Symbol.toStringTag)": null,
+        "automationRate": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": "function get automationRate() { [native code] }",
+          "hasGetter": true,
+          "hasSetter": true,
+          "setterSource": "function set automationRate() { [native code] }",
+          "valueSource": null,
+          "valueType": null,
+          "writable": null
+        },
+        "cancelAndHoldAtTime": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": null,
+          "hasGetter": false,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": "function cancelAndHoldAtTime() { [native code] }",
+          "valueType": "function",
+          "writable": true
+        },
+        "cancelScheduledValues": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": null,
+          "hasGetter": false,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": "function cancelScheduledValues() { [native code] }",
+          "valueType": "function",
+          "writable": true
+        },
+        "constructor": {
+          "configurable": true,
+          "enumerable": false,
+          "getterSource": null,
+          "hasGetter": false,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": "function AudioParam() { [native code] }",
+          "valueType": "function",
+          "writable": true
+        },
+        "defaultValue": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": "function get defaultValue() { [native code] }",
+          "hasGetter": true,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": null,
+          "valueType": null,
+          "writable": null
+        },
+        "exponentialRampToValueAtTime": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": null,
+          "hasGetter": false,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": "function exponentialRampToValueAtTime() { [native code] }",
+          "valueType": "function",
+          "writable": true
+        },
+        "linearRampToValueAtTime": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": null,
+          "hasGetter": false,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": "function linearRampToValueAtTime() { [native code] }",
+          "valueType": "function",
+          "writable": true
+        },
+        "maxValue": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": "function get maxValue() { [native code] }",
+          "hasGetter": true,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": null,
+          "valueType": null,
+          "writable": null
+        },
+        "minValue": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": "function get minValue() { [native code] }",
+          "hasGetter": true,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": null,
+          "valueType": null,
+          "writable": null
+        },
+        "setTargetAtTime": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": null,
+          "hasGetter": false,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": "function setTargetAtTime() { [native code] }",
+          "valueType": "function",
+          "writable": true
+        },
+        "setValueAtTime": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": null,
+          "hasGetter": false,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": "function setValueAtTime() { [native code] }",
+          "valueType": "function",
+          "writable": true
+        },
+        "setValueCurveAtTime": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": null,
+          "hasGetter": false,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": "function setValueCurveAtTime() { [native code] }",
+          "valueType": "function",
+          "writable": true
+        },
+        "value": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": "function get value() { [native code] }",
+          "hasGetter": true,
+          "hasSetter": true,
+          "setterSource": "function set value() { [native code] }",
+          "valueSource": null,
+          "valueType": null,
+          "writable": null
+        }
+      },
+      "AudioScheduledSourceNode": {
+        "Symbol(Symbol.toStringTag)": null,
+        "constructor": {
+          "configurable": true,
+          "enumerable": false,
+          "getterSource": null,
+          "hasGetter": false,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": "function AudioScheduledSourceNode() { [native code] }",
+          "valueType": "function",
+          "writable": true
+        },
+        "onended": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": "function get onended() { [native code] }",
+          "hasGetter": true,
+          "hasSetter": true,
+          "setterSource": "function set onended() { [native code] }",
+          "valueSource": null,
+          "valueType": null,
+          "writable": null
+        },
+        "start": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": null,
+          "hasGetter": false,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": "function start() { [native code] }",
+          "valueType": "function",
+          "writable": true
+        },
+        "stop": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": null,
+          "hasGetter": false,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": "function stop() { [native code] }",
+          "valueType": "function",
+          "writable": true
+        }
+      },
+      "AudioWorkletNode": {
+        "Symbol(Symbol.toStringTag)": null,
+        "constructor": {
+          "configurable": true,
+          "enumerable": false,
+          "getterSource": null,
+          "hasGetter": false,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": "function AudioWorkletNode() { [native code] }",
+          "valueType": "function",
+          "writable": true
+        },
+        "onprocessorerror": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": "function get onprocessorerror() { [native code] }",
+          "hasGetter": true,
+          "hasSetter": true,
+          "setterSource": "function set onprocessorerror() { [native code] }",
+          "valueSource": null,
+          "valueType": null,
+          "writable": null
+        },
+        "parameters": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": "function get parameters() { [native code] }",
+          "hasGetter": true,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": null,
+          "valueType": null,
+          "writable": null
+        },
+        "port": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": "function get port() { [native code] }",
+          "hasGetter": true,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": null,
+          "valueType": null,
+          "writable": null
+        }
+      },
+      "BaseAudioContext": {
+        "Symbol(Symbol.toStringTag)": null,
+        "constructor": {
+          "configurable": true,
+          "enumerable": false,
+          "getterSource": null,
+          "hasGetter": false,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": "function BaseAudioContext() { [native code] }",
+          "valueType": "function",
+          "writable": true
+        },
+        "createAnalyser": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": null,
+          "hasGetter": false,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": "function createAnalyser() { [native code] }",
+          "valueType": "function",
+          "writable": true
+        },
+        "createBiquadFilter": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": null,
+          "hasGetter": false,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": "function createBiquadFilter() { [native code] }",
+          "valueType": "function",
+          "writable": true
+        },
+        "createBuffer": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": null,
+          "hasGetter": false,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": "function createBuffer() { [native code] }",
+          "valueType": "function",
+          "writable": true
+        },
+        "createBufferSource": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": null,
+          "hasGetter": false,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": "function createBufferSource() { [native code] }",
+          "valueType": "function",
+          "writable": true
+        },
+        "createChannelMerger": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": null,
+          "hasGetter": false,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": "function createChannelMerger() { [native code] }",
+          "valueType": "function",
+          "writable": true
+        },
+        "createChannelSplitter": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": null,
+          "hasGetter": false,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": "function createChannelSplitter() { [native code] }",
+          "valueType": "function",
+          "writable": true
+        },
+        "createConstantSource": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": null,
+          "hasGetter": false,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": "function createConstantSource() { [native code] }",
+          "valueType": "function",
+          "writable": true
+        },
+        "createConvolver": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": null,
+          "hasGetter": false,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": "function createConvolver() { [native code] }",
+          "valueType": "function",
+          "writable": true
+        },
+        "createDelay": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": null,
+          "hasGetter": false,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": "function createDelay() { [native code] }",
+          "valueType": "function",
+          "writable": true
+        },
+        "createDynamicsCompressor": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": null,
+          "hasGetter": false,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": "function createDynamicsCompressor() { [native code] }",
+          "valueType": "function",
+          "writable": true
+        },
+        "createGain": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": null,
+          "hasGetter": false,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": "function createGain() { [native code] }",
+          "valueType": "function",
+          "writable": true
+        },
+        "createIIRFilter": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": null,
+          "hasGetter": false,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": "function createIIRFilter() { [native code] }",
+          "valueType": "function",
+          "writable": true
+        },
+        "createOscillator": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": null,
+          "hasGetter": false,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": "function createOscillator() { [native code] }",
+          "valueType": "function",
+          "writable": true
+        },
+        "createPanner": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": null,
+          "hasGetter": false,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": "function createPanner() { [native code] }",
+          "valueType": "function",
+          "writable": true
+        },
+        "createPeriodicWave": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": null,
+          "hasGetter": false,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": "function createPeriodicWave() { [native code] }",
+          "valueType": "function",
+          "writable": true
+        },
+        "createScriptProcessor": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": null,
+          "hasGetter": false,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": "function createScriptProcessor() { [native code] }",
+          "valueType": "function",
+          "writable": true
+        },
+        "createStereoPanner": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": null,
+          "hasGetter": false,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": "function createStereoPanner() { [native code] }",
+          "valueType": "function",
+          "writable": true
+        },
+        "createWaveShaper": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": null,
+          "hasGetter": false,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": "function createWaveShaper() { [native code] }",
+          "valueType": "function",
+          "writable": true
+        },
+        "currentTime": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": "function get currentTime() { [native code] }",
+          "hasGetter": true,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": null,
+          "valueType": null,
+          "writable": null
+        },
+        "decodeAudioData": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": null,
+          "hasGetter": false,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": "function decodeAudioData() { [native code] }",
+          "valueType": "function",
+          "writable": true
+        },
+        "destination": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": "function get destination() { [native code] }",
+          "hasGetter": true,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": null,
+          "valueType": null,
+          "writable": null
+        },
+        "listener": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": "function get listener() { [native code] }",
+          "hasGetter": true,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": null,
+          "valueType": null,
+          "writable": null
+        },
+        "onstatechange": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": "function get onstatechange() { [native code] }",
+          "hasGetter": true,
+          "hasSetter": true,
+          "setterSource": "function set onstatechange() { [native code] }",
+          "valueSource": null,
+          "valueType": null,
+          "writable": null
+        },
+        "sampleRate": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": "function get sampleRate() { [native code] }",
+          "hasGetter": true,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": null,
+          "valueType": null,
+          "writable": null
+        },
+        "state": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": "function get state() { [native code] }",
+          "hasGetter": true,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": null,
+          "valueType": null,
+          "writable": null
+        }
+      },
+      "BiquadFilterNode": {
+        "Q": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": "function get Q() { [native code] }",
+          "hasGetter": true,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": null,
+          "valueType": null,
+          "writable": null
+        },
+        "Symbol(Symbol.toStringTag)": null,
+        "constructor": {
+          "configurable": true,
+          "enumerable": false,
+          "getterSource": null,
+          "hasGetter": false,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": "function BiquadFilterNode() { [native code] }",
+          "valueType": "function",
+          "writable": true
+        },
+        "detune": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": "function get detune() { [native code] }",
+          "hasGetter": true,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": null,
+          "valueType": null,
+          "writable": null
+        },
+        "frequency": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": "function get frequency() { [native code] }",
+          "hasGetter": true,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": null,
+          "valueType": null,
+          "writable": null
+        },
+        "gain": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": "function get gain() { [native code] }",
+          "hasGetter": true,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": null,
+          "valueType": null,
+          "writable": null
+        },
+        "getFrequencyResponse": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": null,
+          "hasGetter": false,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": "function getFrequencyResponse() { [native code] }",
+          "valueType": "function",
+          "writable": true
+        },
+        "type": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": "function get type() { [native code] }",
+          "hasGetter": true,
+          "hasSetter": true,
+          "setterSource": "function set type() { [native code] }",
+          "valueSource": null,
+          "valueType": null,
+          "writable": null
+        }
+      },
+      "ChannelMergerNode": {
+        "Symbol(Symbol.toStringTag)": null,
+        "constructor": {
+          "configurable": true,
+          "enumerable": false,
+          "getterSource": null,
+          "hasGetter": false,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": "function ChannelMergerNode() { [native code] }",
+          "valueType": "function",
+          "writable": true
+        }
+      },
+      "ChannelSplitterNode": {
+        "Symbol(Symbol.toStringTag)": null,
+        "constructor": {
+          "configurable": true,
+          "enumerable": false,
+          "getterSource": null,
+          "hasGetter": false,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": "function ChannelSplitterNode() { [native code] }",
+          "valueType": "function",
+          "writable": true
+        }
+      },
+      "ConstantSourceNode": {
+        "Symbol(Symbol.toStringTag)": null,
+        "constructor": {
+          "configurable": true,
+          "enumerable": false,
+          "getterSource": null,
+          "hasGetter": false,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": "function ConstantSourceNode() { [native code] }",
+          "valueType": "function",
+          "writable": true
+        },
+        "offset": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": "function get offset() { [native code] }",
+          "hasGetter": true,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": null,
+          "valueType": null,
+          "writable": null
+        }
+      },
+      "DelayNode": {
+        "Symbol(Symbol.toStringTag)": null,
+        "constructor": {
+          "configurable": true,
+          "enumerable": false,
+          "getterSource": null,
+          "hasGetter": false,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": "function DelayNode() { [native code] }",
+          "valueType": "function",
+          "writable": true
+        },
+        "delayTime": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": "function get delayTime() { [native code] }",
+          "hasGetter": true,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": null,
+          "valueType": null,
+          "writable": null
+        }
+      },
+      "DynamicsCompressorNode": {
+        "Symbol(Symbol.toStringTag)": null,
+        "attack": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": "function get attack() { [native code] }",
+          "hasGetter": true,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": null,
+          "valueType": null,
+          "writable": null
+        },
+        "constructor": {
+          "configurable": true,
+          "enumerable": false,
+          "getterSource": null,
+          "hasGetter": false,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": "function DynamicsCompressorNode() { [native code] }",
+          "valueType": "function",
+          "writable": true
+        },
+        "knee": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": "function get knee() { [native code] }",
+          "hasGetter": true,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": null,
+          "valueType": null,
+          "writable": null
+        },
+        "ratio": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": "function get ratio() { [native code] }",
+          "hasGetter": true,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": null,
+          "valueType": null,
+          "writable": null
+        },
+        "reduction": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": "function get reduction() { [native code] }",
+          "hasGetter": true,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": null,
+          "valueType": null,
+          "writable": null
+        },
+        "release": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": "function get release() { [native code] }",
+          "hasGetter": true,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": null,
+          "valueType": null,
+          "writable": null
+        },
+        "threshold": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": "function get threshold() { [native code] }",
+          "hasGetter": true,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": null,
+          "valueType": null,
+          "writable": null
+        }
+      },
+      "GainNode": {
+        "Symbol(Symbol.toStringTag)": null,
+        "constructor": {
+          "configurable": true,
+          "enumerable": false,
+          "getterSource": null,
+          "hasGetter": false,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": "function GainNode() { [native code] }",
+          "valueType": "function",
+          "writable": true
+        },
+        "gain": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": "function get gain() { [native code] }",
+          "hasGetter": true,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": null,
+          "valueType": null,
+          "writable": null
+        }
+      },
+      "OfflineAudioContext": {
+        "Symbol(Symbol.toStringTag)": null,
+        "constructor": {
+          "configurable": true,
+          "enumerable": false,
+          "getterSource": null,
+          "hasGetter": false,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": "function OfflineAudioContext() { [native code] }",
+          "valueType": "function",
+          "writable": true
+        },
+        "length": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": "function get length() { [native code] }",
+          "hasGetter": true,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": null,
+          "valueType": null,
+          "writable": null
+        },
+        "oncomplete": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": "function get oncomplete() { [native code] }",
+          "hasGetter": true,
+          "hasSetter": true,
+          "setterSource": "function set oncomplete() { [native code] }",
+          "valueSource": null,
+          "valueType": null,
+          "writable": null
+        },
+        "resume": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": null,
+          "hasGetter": false,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": "function resume() { [native code] }",
+          "valueType": "function",
+          "writable": true
+        },
+        "startRendering": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": null,
+          "hasGetter": false,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": "function startRendering() { [native code] }",
+          "valueType": "function",
+          "writable": true
+        },
+        "suspend": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": null,
+          "hasGetter": false,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": "function suspend() { [native code] }",
+          "valueType": "function",
+          "writable": true
+        }
+      },
+      "OscillatorNode": {
+        "Symbol(Symbol.toStringTag)": null,
+        "constructor": {
+          "configurable": true,
+          "enumerable": false,
+          "getterSource": null,
+          "hasGetter": false,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": "function OscillatorNode() { [native code] }",
+          "valueType": "function",
+          "writable": true
+        },
+        "detune": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": "function get detune() { [native code] }",
+          "hasGetter": true,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": null,
+          "valueType": null,
+          "writable": null
+        },
+        "frequency": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": "function get frequency() { [native code] }",
+          "hasGetter": true,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": null,
+          "valueType": null,
+          "writable": null
+        },
+        "setPeriodicWave": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": null,
+          "hasGetter": false,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": "function setPeriodicWave() { [native code] }",
+          "valueType": "function",
+          "writable": true
+        },
+        "type": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": "function get type() { [native code] }",
+          "hasGetter": true,
+          "hasSetter": true,
+          "setterSource": "function set type() { [native code] }",
+          "valueSource": null,
+          "valueType": null,
+          "writable": null
+        }
+      },
+      "PannerNode": {
+        "Symbol(Symbol.toStringTag)": null,
+        "coneInnerAngle": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": "function get coneInnerAngle() { [native code] }",
+          "hasGetter": true,
+          "hasSetter": true,
+          "setterSource": "function set coneInnerAngle() { [native code] }",
+          "valueSource": null,
+          "valueType": null,
+          "writable": null
+        },
+        "coneOuterAngle": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": "function get coneOuterAngle() { [native code] }",
+          "hasGetter": true,
+          "hasSetter": true,
+          "setterSource": "function set coneOuterAngle() { [native code] }",
+          "valueSource": null,
+          "valueType": null,
+          "writable": null
+        },
+        "coneOuterGain": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": "function get coneOuterGain() { [native code] }",
+          "hasGetter": true,
+          "hasSetter": true,
+          "setterSource": "function set coneOuterGain() { [native code] }",
+          "valueSource": null,
+          "valueType": null,
+          "writable": null
+        },
+        "constructor": {
+          "configurable": true,
+          "enumerable": false,
+          "getterSource": null,
+          "hasGetter": false,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": "function PannerNode() { [native code] }",
+          "valueType": "function",
+          "writable": true
+        },
+        "distanceModel": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": "function get distanceModel() { [native code] }",
+          "hasGetter": true,
+          "hasSetter": true,
+          "setterSource": "function set distanceModel() { [native code] }",
+          "valueSource": null,
+          "valueType": null,
+          "writable": null
+        },
+        "maxDistance": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": "function get maxDistance() { [native code] }",
+          "hasGetter": true,
+          "hasSetter": true,
+          "setterSource": "function set maxDistance() { [native code] }",
+          "valueSource": null,
+          "valueType": null,
+          "writable": null
+        },
+        "orientationX": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": "function get orientationX() { [native code] }",
+          "hasGetter": true,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": null,
+          "valueType": null,
+          "writable": null
+        },
+        "orientationY": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": "function get orientationY() { [native code] }",
+          "hasGetter": true,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": null,
+          "valueType": null,
+          "writable": null
+        },
+        "orientationZ": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": "function get orientationZ() { [native code] }",
+          "hasGetter": true,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": null,
+          "valueType": null,
+          "writable": null
+        },
+        "panningModel": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": "function get panningModel() { [native code] }",
+          "hasGetter": true,
+          "hasSetter": true,
+          "setterSource": "function set panningModel() { [native code] }",
+          "valueSource": null,
+          "valueType": null,
+          "writable": null
+        },
+        "positionX": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": "function get positionX() { [native code] }",
+          "hasGetter": true,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": null,
+          "valueType": null,
+          "writable": null
+        },
+        "positionY": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": "function get positionY() { [native code] }",
+          "hasGetter": true,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": null,
+          "valueType": null,
+          "writable": null
+        },
+        "positionZ": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": "function get positionZ() { [native code] }",
+          "hasGetter": true,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": null,
+          "valueType": null,
+          "writable": null
+        },
+        "refDistance": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": "function get refDistance() { [native code] }",
+          "hasGetter": true,
+          "hasSetter": true,
+          "setterSource": "function set refDistance() { [native code] }",
+          "valueSource": null,
+          "valueType": null,
+          "writable": null
+        },
+        "rolloffFactor": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": "function get rolloffFactor() { [native code] }",
+          "hasGetter": true,
+          "hasSetter": true,
+          "setterSource": "function set rolloffFactor() { [native code] }",
+          "valueSource": null,
+          "valueType": null,
+          "writable": null
+        },
+        "setOrientation": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": null,
+          "hasGetter": false,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": "function setOrientation() { [native code] }",
+          "valueType": "function",
+          "writable": true
+        },
+        "setPosition": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": null,
+          "hasGetter": false,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": "function setPosition() { [native code] }",
+          "valueType": "function",
+          "writable": true
+        }
+      },
+      "PeriodicWave": {
+        "Symbol(Symbol.toStringTag)": null,
+        "constructor": {
+          "configurable": true,
+          "enumerable": false,
+          "getterSource": null,
+          "hasGetter": false,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": "function PeriodicWave() { [native code] }",
+          "valueType": "function",
+          "writable": true
+        }
+      },
+      "StereoPannerNode": {
+        "Symbol(Symbol.toStringTag)": null,
+        "constructor": {
+          "configurable": true,
+          "enumerable": false,
+          "getterSource": null,
+          "hasGetter": false,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": "function StereoPannerNode() { [native code] }",
+          "valueType": "function",
+          "writable": true
+        },
+        "pan": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": "function get pan() { [native code] }",
+          "hasGetter": true,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": null,
+          "valueType": null,
+          "writable": null
+        }
+      },
+      "WaveShaperNode": {
+        "Symbol(Symbol.toStringTag)": null,
+        "constructor": {
+          "configurable": true,
+          "enumerable": false,
+          "getterSource": null,
+          "hasGetter": false,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": "function WaveShaperNode() { [native code] }",
+          "valueType": "function",
+          "writable": true
+        },
+        "curve": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": "function get curve() { [native code] }",
+          "hasGetter": true,
+          "hasSetter": true,
+          "setterSource": "function set curve() { [native code] }",
+          "valueSource": null,
+          "valueType": null,
+          "writable": null
+        },
+        "oversample": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": "function get oversample() { [native code] }",
+          "hasGetter": true,
+          "hasSetter": true,
+          "setterSource": "function set oversample() { [native code] }",
+          "valueSource": null,
+          "valueType": null,
+          "writable": null
+        }
+      },
+      "special": {
+        "AnalyserNode_getFloatFrequencyData": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": null,
+          "hasGetter": false,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": "function getFloatFrequencyData() { [native code] }",
+          "valueType": "function",
+          "writable": true
+        },
+        "AudioBuffer_getChannelData": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": null,
+          "hasGetter": false,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": "function getChannelData() { [native code] }",
+          "valueType": "function",
+          "writable": true
+        },
+        "BaseAudioContext_createAnalyser": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": null,
+          "hasGetter": false,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": "function createAnalyser() { [native code] }",
+          "valueType": "function",
+          "writable": true
+        },
+        "OfflineAudioContext_startRendering": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": null,
+          "hasGetter": false,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": "function startRendering() { [native code] }",
+          "valueType": "function",
+          "writable": true
+        }
+      }
+    },
+    "errors": [],
+    "fingerprintObservations": {
+      "audioParams": {
+        "compressorThreshold": -24,
+        "filterFrequency": 1200,
+        "filterType": "lowpass",
+        "gain": 0.07999999821186066,
+        "oscillatorFrequency": 440
+      },
+      "fft": {
+        "byteFrequencyLength": 32,
+        "byteFrequencySha256": null,
+        "byteTimeLength": 64,
+        "byteTimeSha256": null,
+        "fftSize": 64,
+        "floatFrequencyLength": 32,
+        "floatFrequencySha256": null,
+        "floatTimeLength": 64,
+        "floatTimeSha256": null,
+        "frequencyBinCount": 32
+      },
+      "graphIntegrity": true,
+      "integrity": true,
+      "rendered": {
+        "dataLength": 512,
+        "firstSamples": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "length": 512,
+        "numberOfChannels": 1,
+        "sampleRate": 44100,
+        "sha256": null
+      }
+    },
+    "methods": {
+      "AnalyserNode": {
+        "getByteFrequencyData": {
+          "available": true,
+          "descriptor": {
+            "configurable": true,
+            "enumerable": true,
+            "getterSource": null,
+            "hasGetter": false,
+            "hasSetter": false,
+            "setterSource": null,
+            "valueSource": "function getByteFrequencyData() { [native code] }",
+            "valueType": "function",
+            "writable": true
+          },
+          "illegalInvocation": {
+            "error": {
+              "constructor": "TypeError",
+              "message": "Illegal invocation",
+              "name": "TypeError"
+            },
+            "tested": true,
+            "throws": true
+          },
+          "length": 1,
+          "name": "getByteFrequencyData",
+          "nativeSource": true,
+          "source": "function getByteFrequencyData() { [native code] }"
+        },
+        "getByteTimeDomainData": {
+          "available": true,
+          "descriptor": {
+            "configurable": true,
+            "enumerable": true,
+            "getterSource": null,
+            "hasGetter": false,
+            "hasSetter": false,
+            "setterSource": null,
+            "valueSource": "function getByteTimeDomainData() { [native code] }",
+            "valueType": "function",
+            "writable": true
+          },
+          "illegalInvocation": {
+            "error": {
+              "constructor": "TypeError",
+              "message": "Illegal invocation",
+              "name": "TypeError"
+            },
+            "tested": true,
+            "throws": true
+          },
+          "length": 1,
+          "name": "getByteTimeDomainData",
+          "nativeSource": true,
+          "source": "function getByteTimeDomainData() { [native code] }"
+        },
+        "getFloatFrequencyData": {
+          "available": true,
+          "descriptor": {
+            "configurable": true,
+            "enumerable": true,
+            "getterSource": null,
+            "hasGetter": false,
+            "hasSetter": false,
+            "setterSource": null,
+            "valueSource": "function getFloatFrequencyData() { [native code] }",
+            "valueType": "function",
+            "writable": true
+          },
+          "illegalInvocation": {
+            "error": {
+              "constructor": "TypeError",
+              "message": "Illegal invocation",
+              "name": "TypeError"
+            },
+            "tested": true,
+            "throws": true
+          },
+          "length": 1,
+          "name": "getFloatFrequencyData",
+          "nativeSource": true,
+          "source": "function getFloatFrequencyData() { [native code] }"
+        },
+        "getFloatTimeDomainData": {
+          "available": true,
+          "descriptor": {
+            "configurable": true,
+            "enumerable": true,
+            "getterSource": null,
+            "hasGetter": false,
+            "hasSetter": false,
+            "setterSource": null,
+            "valueSource": "function getFloatTimeDomainData() { [native code] }",
+            "valueType": "function",
+            "writable": true
+          },
+          "illegalInvocation": {
+            "error": {
+              "constructor": "TypeError",
+              "message": "Illegal invocation",
+              "name": "TypeError"
+            },
+            "tested": true,
+            "throws": true
+          },
+          "length": 1,
+          "name": "getFloatTimeDomainData",
+          "nativeSource": true,
+          "source": "function getFloatTimeDomainData() { [native code] }"
+        }
+      },
+      "AudioBuffer": {
+        "copyFromChannel": {
+          "available": true,
+          "descriptor": {
+            "configurable": true,
+            "enumerable": true,
+            "getterSource": null,
+            "hasGetter": false,
+            "hasSetter": false,
+            "setterSource": null,
+            "valueSource": "function copyFromChannel() { [native code] }",
+            "valueType": "function",
+            "writable": true
+          },
+          "illegalInvocation": {
+            "error": {
+              "constructor": "TypeError",
+              "message": "Illegal invocation",
+              "name": "TypeError"
+            },
+            "tested": true,
+            "throws": true
+          },
+          "length": 2,
+          "name": "copyFromChannel",
+          "nativeSource": true,
+          "source": "function copyFromChannel() { [native code] }"
+        },
+        "copyToChannel": {
+          "available": true,
+          "descriptor": {
+            "configurable": true,
+            "enumerable": true,
+            "getterSource": null,
+            "hasGetter": false,
+            "hasSetter": false,
+            "setterSource": null,
+            "valueSource": "function copyToChannel() { [native code] }",
+            "valueType": "function",
+            "writable": true
+          },
+          "illegalInvocation": {
+            "error": {
+              "constructor": "TypeError",
+              "message": "Illegal invocation",
+              "name": "TypeError"
+            },
+            "tested": true,
+            "throws": true
+          },
+          "length": 2,
+          "name": "copyToChannel",
+          "nativeSource": true,
+          "source": "function copyToChannel() { [native code] }"
+        },
+        "getChannelData": {
+          "available": true,
+          "descriptor": {
+            "configurable": true,
+            "enumerable": true,
+            "getterSource": null,
+            "hasGetter": false,
+            "hasSetter": false,
+            "setterSource": null,
+            "valueSource": "function getChannelData() { [native code] }",
+            "valueType": "function",
+            "writable": true
+          },
+          "illegalInvocation": {
+            "error": {
+              "constructor": "TypeError",
+              "message": "Illegal invocation",
+              "name": "TypeError"
+            },
+            "tested": true,
+            "throws": true
+          },
+          "length": 1,
+          "name": "getChannelData",
+          "nativeSource": true,
+          "source": "function getChannelData() { [native code] }"
+        }
+      },
+      "AudioBufferSourceNode": {
+        "start": {
+          "available": true,
+          "descriptor": {
+            "configurable": true,
+            "enumerable": true,
+            "getterSource": null,
+            "hasGetter": false,
+            "hasSetter": false,
+            "setterSource": null,
+            "valueSource": "function start() { [native code] }",
+            "valueType": "function",
+            "writable": true
+          },
+          "illegalInvocation": {
+            "error": {
+              "constructor": "TypeError",
+              "message": "Illegal invocation",
+              "name": "TypeError"
+            },
+            "tested": true,
+            "throws": true
+          },
+          "length": 0,
+          "name": "start",
+          "nativeSource": true,
+          "source": "function start() { [native code] }"
+        }
+      },
+      "AudioContext": {
+        "close": {
+          "available": true,
+          "descriptor": {
+            "configurable": true,
+            "enumerable": true,
+            "getterSource": null,
+            "hasGetter": false,
+            "hasSetter": false,
+            "setterSource": null,
+            "valueSource": "function close() { [native code] }",
+            "valueType": "function",
+            "writable": true
+          },
+          "illegalInvocation": {
+            "error": null,
+            "tested": true,
+            "throws": false
+          },
+          "length": 0,
+          "name": "close",
+          "nativeSource": true,
+          "source": "function close() { [native code] }"
+        },
+        "createMediaElementSource": {
+          "available": true,
+          "descriptor": {
+            "configurable": true,
+            "enumerable": true,
+            "getterSource": null,
+            "hasGetter": false,
+            "hasSetter": false,
+            "setterSource": null,
+            "valueSource": "function createMediaElementSource() { [native code] }",
+            "valueType": "function",
+            "writable": true
+          },
+          "illegalInvocation": {
+            "error": {
+              "constructor": "TypeError",
+              "message": "Illegal invocation",
+              "name": "TypeError"
+            },
+            "tested": true,
+            "throws": true
+          },
+          "length": 1,
+          "name": "createMediaElementSource",
+          "nativeSource": true,
+          "source": "function createMediaElementSource() { [native code] }"
+        },
+        "createMediaStreamDestination": {
+          "available": true,
+          "descriptor": {
+            "configurable": true,
+            "enumerable": true,
+            "getterSource": null,
+            "hasGetter": false,
+            "hasSetter": false,
+            "setterSource": null,
+            "valueSource": "function createMediaStreamDestination() { [native code] }",
+            "valueType": "function",
+            "writable": true
+          },
+          "illegalInvocation": {
+            "error": {
+              "constructor": "TypeError",
+              "message": "Illegal invocation",
+              "name": "TypeError"
+            },
+            "tested": true,
+            "throws": true
+          },
+          "length": 0,
+          "name": "createMediaStreamDestination",
+          "nativeSource": true,
+          "source": "function createMediaStreamDestination() { [native code] }"
+        },
+        "createMediaStreamSource": {
+          "available": true,
+          "descriptor": {
+            "configurable": true,
+            "enumerable": true,
+            "getterSource": null,
+            "hasGetter": false,
+            "hasSetter": false,
+            "setterSource": null,
+            "valueSource": "function createMediaStreamSource() { [native code] }",
+            "valueType": "function",
+            "writable": true
+          },
+          "illegalInvocation": {
+            "error": {
+              "constructor": "TypeError",
+              "message": "Illegal invocation",
+              "name": "TypeError"
+            },
+            "tested": true,
+            "throws": true
+          },
+          "length": 1,
+          "name": "createMediaStreamSource",
+          "nativeSource": true,
+          "source": "function createMediaStreamSource() { [native code] }"
+        },
+        "getOutputTimestamp": {
+          "available": true,
+          "descriptor": {
+            "configurable": true,
+            "enumerable": true,
+            "getterSource": null,
+            "hasGetter": false,
+            "hasSetter": false,
+            "setterSource": null,
+            "valueSource": "function getOutputTimestamp() { [native code] }",
+            "valueType": "function",
+            "writable": true
+          },
+          "illegalInvocation": {
+            "error": {
+              "constructor": "TypeError",
+              "message": "Illegal invocation",
+              "name": "TypeError"
+            },
+            "tested": true,
+            "throws": true
+          },
+          "length": 0,
+          "name": "getOutputTimestamp",
+          "nativeSource": true,
+          "source": "function getOutputTimestamp() { [native code] }"
+        },
+        "resume": {
+          "available": true,
+          "descriptor": {
+            "configurable": true,
+            "enumerable": true,
+            "getterSource": null,
+            "hasGetter": false,
+            "hasSetter": false,
+            "setterSource": null,
+            "valueSource": "function resume() { [native code] }",
+            "valueType": "function",
+            "writable": true
+          },
+          "illegalInvocation": {
+            "error": null,
+            "tested": true,
+            "throws": false
+          },
+          "length": 0,
+          "name": "resume",
+          "nativeSource": true,
+          "source": "function resume() { [native code] }"
+        },
+        "suspend": {
+          "available": true,
+          "descriptor": {
+            "configurable": true,
+            "enumerable": true,
+            "getterSource": null,
+            "hasGetter": false,
+            "hasSetter": false,
+            "setterSource": null,
+            "valueSource": "function suspend() { [native code] }",
+            "valueType": "function",
+            "writable": true
+          },
+          "illegalInvocation": {
+            "error": null,
+            "tested": true,
+            "throws": false
+          },
+          "length": 0,
+          "name": "suspend",
+          "nativeSource": true,
+          "source": "function suspend() { [native code] }"
+        }
+      },
+      "AudioDestinationNode": {},
+      "AudioListener": {
+        "setOrientation": {
+          "available": true,
+          "descriptor": {
+            "configurable": true,
+            "enumerable": true,
+            "getterSource": null,
+            "hasGetter": false,
+            "hasSetter": false,
+            "setterSource": null,
+            "valueSource": "function setOrientation() { [native code] }",
+            "valueType": "function",
+            "writable": true
+          },
+          "illegalInvocation": {
+            "error": {
+              "constructor": "TypeError",
+              "message": "Illegal invocation",
+              "name": "TypeError"
+            },
+            "tested": true,
+            "throws": true
+          },
+          "length": 6,
+          "name": "setOrientation",
+          "nativeSource": true,
+          "source": "function setOrientation() { [native code] }"
+        },
+        "setPosition": {
+          "available": true,
+          "descriptor": {
+            "configurable": true,
+            "enumerable": true,
+            "getterSource": null,
+            "hasGetter": false,
+            "hasSetter": false,
+            "setterSource": null,
+            "valueSource": "function setPosition() { [native code] }",
+            "valueType": "function",
+            "writable": true
+          },
+          "illegalInvocation": {
+            "error": {
+              "constructor": "TypeError",
+              "message": "Illegal invocation",
+              "name": "TypeError"
+            },
+            "tested": true,
+            "throws": true
+          },
+          "length": 3,
+          "name": "setPosition",
+          "nativeSource": true,
+          "source": "function setPosition() { [native code] }"
+        }
+      },
+      "AudioNode": {
+        "connect": {
+          "available": true,
+          "descriptor": {
+            "configurable": true,
+            "enumerable": true,
+            "getterSource": null,
+            "hasGetter": false,
+            "hasSetter": false,
+            "setterSource": null,
+            "valueSource": "function connect() { [native code] }",
+            "valueType": "function",
+            "writable": true
+          },
+          "illegalInvocation": {
+            "error": {
+              "constructor": "TypeError",
+              "message": "Illegal invocation",
+              "name": "TypeError"
+            },
+            "tested": true,
+            "throws": true
+          },
+          "length": 1,
+          "name": "connect",
+          "nativeSource": true,
+          "source": "function connect() { [native code] }"
+        },
+        "disconnect": {
+          "available": true,
+          "descriptor": {
+            "configurable": true,
+            "enumerable": true,
+            "getterSource": null,
+            "hasGetter": false,
+            "hasSetter": false,
+            "setterSource": null,
+            "valueSource": "function disconnect() { [native code] }",
+            "valueType": "function",
+            "writable": true
+          },
+          "illegalInvocation": {
+            "error": {
+              "constructor": "TypeError",
+              "message": "Illegal invocation",
+              "name": "TypeError"
+            },
+            "tested": true,
+            "throws": true
+          },
+          "length": 0,
+          "name": "disconnect",
+          "nativeSource": true,
+          "source": "function disconnect() { [native code] }"
+        }
+      },
+      "AudioParam": {
+        "cancelAndHoldAtTime": {
+          "available": true,
+          "descriptor": {
+            "configurable": true,
+            "enumerable": true,
+            "getterSource": null,
+            "hasGetter": false,
+            "hasSetter": false,
+            "setterSource": null,
+            "valueSource": "function cancelAndHoldAtTime() { [native code] }",
+            "valueType": "function",
+            "writable": true
+          },
+          "illegalInvocation": {
+            "error": {
+              "constructor": "TypeError",
+              "message": "Illegal invocation",
+              "name": "TypeError"
+            },
+            "tested": true,
+            "throws": true
+          },
+          "length": 1,
+          "name": "cancelAndHoldAtTime",
+          "nativeSource": true,
+          "source": "function cancelAndHoldAtTime() { [native code] }"
+        },
+        "cancelScheduledValues": {
+          "available": true,
+          "descriptor": {
+            "configurable": true,
+            "enumerable": true,
+            "getterSource": null,
+            "hasGetter": false,
+            "hasSetter": false,
+            "setterSource": null,
+            "valueSource": "function cancelScheduledValues() { [native code] }",
+            "valueType": "function",
+            "writable": true
+          },
+          "illegalInvocation": {
+            "error": {
+              "constructor": "TypeError",
+              "message": "Illegal invocation",
+              "name": "TypeError"
+            },
+            "tested": true,
+            "throws": true
+          },
+          "length": 1,
+          "name": "cancelScheduledValues",
+          "nativeSource": true,
+          "source": "function cancelScheduledValues() { [native code] }"
+        },
+        "exponentialRampToValueAtTime": {
+          "available": true,
+          "descriptor": {
+            "configurable": true,
+            "enumerable": true,
+            "getterSource": null,
+            "hasGetter": false,
+            "hasSetter": false,
+            "setterSource": null,
+            "valueSource": "function exponentialRampToValueAtTime() { [native code] }",
+            "valueType": "function",
+            "writable": true
+          },
+          "illegalInvocation": {
+            "error": {
+              "constructor": "TypeError",
+              "message": "Illegal invocation",
+              "name": "TypeError"
+            },
+            "tested": true,
+            "throws": true
+          },
+          "length": 2,
+          "name": "exponentialRampToValueAtTime",
+          "nativeSource": true,
+          "source": "function exponentialRampToValueAtTime() { [native code] }"
+        },
+        "linearRampToValueAtTime": {
+          "available": true,
+          "descriptor": {
+            "configurable": true,
+            "enumerable": true,
+            "getterSource": null,
+            "hasGetter": false,
+            "hasSetter": false,
+            "setterSource": null,
+            "valueSource": "function linearRampToValueAtTime() { [native code] }",
+            "valueType": "function",
+            "writable": true
+          },
+          "illegalInvocation": {
+            "error": {
+              "constructor": "TypeError",
+              "message": "Illegal invocation",
+              "name": "TypeError"
+            },
+            "tested": true,
+            "throws": true
+          },
+          "length": 2,
+          "name": "linearRampToValueAtTime",
+          "nativeSource": true,
+          "source": "function linearRampToValueAtTime() { [native code] }"
+        },
+        "setTargetAtTime": {
+          "available": true,
+          "descriptor": {
+            "configurable": true,
+            "enumerable": true,
+            "getterSource": null,
+            "hasGetter": false,
+            "hasSetter": false,
+            "setterSource": null,
+            "valueSource": "function setTargetAtTime() { [native code] }",
+            "valueType": "function",
+            "writable": true
+          },
+          "illegalInvocation": {
+            "error": {
+              "constructor": "TypeError",
+              "message": "Illegal invocation",
+              "name": "TypeError"
+            },
+            "tested": true,
+            "throws": true
+          },
+          "length": 3,
+          "name": "setTargetAtTime",
+          "nativeSource": true,
+          "source": "function setTargetAtTime() { [native code] }"
+        },
+        "setValueAtTime": {
+          "available": true,
+          "descriptor": {
+            "configurable": true,
+            "enumerable": true,
+            "getterSource": null,
+            "hasGetter": false,
+            "hasSetter": false,
+            "setterSource": null,
+            "valueSource": "function setValueAtTime() { [native code] }",
+            "valueType": "function",
+            "writable": true
+          },
+          "illegalInvocation": {
+            "error": {
+              "constructor": "TypeError",
+              "message": "Illegal invocation",
+              "name": "TypeError"
+            },
+            "tested": true,
+            "throws": true
+          },
+          "length": 2,
+          "name": "setValueAtTime",
+          "nativeSource": true,
+          "source": "function setValueAtTime() { [native code] }"
+        },
+        "setValueCurveAtTime": {
+          "available": true,
+          "descriptor": {
+            "configurable": true,
+            "enumerable": true,
+            "getterSource": null,
+            "hasGetter": false,
+            "hasSetter": false,
+            "setterSource": null,
+            "valueSource": "function setValueCurveAtTime() { [native code] }",
+            "valueType": "function",
+            "writable": true
+          },
+          "illegalInvocation": {
+            "error": {
+              "constructor": "TypeError",
+              "message": "Illegal invocation",
+              "name": "TypeError"
+            },
+            "tested": true,
+            "throws": true
+          },
+          "length": 3,
+          "name": "setValueCurveAtTime",
+          "nativeSource": true,
+          "source": "function setValueCurveAtTime() { [native code] }"
+        }
+      },
+      "AudioScheduledSourceNode": {
+        "start": {
+          "available": true,
+          "descriptor": {
+            "configurable": true,
+            "enumerable": true,
+            "getterSource": null,
+            "hasGetter": false,
+            "hasSetter": false,
+            "setterSource": null,
+            "valueSource": "function start() { [native code] }",
+            "valueType": "function",
+            "writable": true
+          },
+          "illegalInvocation": {
+            "error": {
+              "constructor": "TypeError",
+              "message": "Illegal invocation",
+              "name": "TypeError"
+            },
+            "tested": true,
+            "throws": true
+          },
+          "length": 0,
+          "name": "start",
+          "nativeSource": true,
+          "source": "function start() { [native code] }"
+        },
+        "stop": {
+          "available": true,
+          "descriptor": {
+            "configurable": true,
+            "enumerable": true,
+            "getterSource": null,
+            "hasGetter": false,
+            "hasSetter": false,
+            "setterSource": null,
+            "valueSource": "function stop() { [native code] }",
+            "valueType": "function",
+            "writable": true
+          },
+          "illegalInvocation": {
+            "error": {
+              "constructor": "TypeError",
+              "message": "Illegal invocation",
+              "name": "TypeError"
+            },
+            "tested": true,
+            "throws": true
+          },
+          "length": 0,
+          "name": "stop",
+          "nativeSource": true,
+          "source": "function stop() { [native code] }"
+        }
+      },
+      "AudioWorkletNode": {},
+      "BaseAudioContext": {
+        "createAnalyser": {
+          "available": true,
+          "descriptor": {
+            "configurable": true,
+            "enumerable": true,
+            "getterSource": null,
+            "hasGetter": false,
+            "hasSetter": false,
+            "setterSource": null,
+            "valueSource": "function createAnalyser() { [native code] }",
+            "valueType": "function",
+            "writable": true
+          },
+          "illegalInvocation": {
+            "error": {
+              "constructor": "TypeError",
+              "message": "Illegal invocation",
+              "name": "TypeError"
+            },
+            "tested": true,
+            "throws": true
+          },
+          "length": 0,
+          "name": "createAnalyser",
+          "nativeSource": true,
+          "source": "function createAnalyser() { [native code] }"
+        },
+        "createBiquadFilter": {
+          "available": true,
+          "descriptor": {
+            "configurable": true,
+            "enumerable": true,
+            "getterSource": null,
+            "hasGetter": false,
+            "hasSetter": false,
+            "setterSource": null,
+            "valueSource": "function createBiquadFilter() { [native code] }",
+            "valueType": "function",
+            "writable": true
+          },
+          "illegalInvocation": {
+            "error": {
+              "constructor": "TypeError",
+              "message": "Illegal invocation",
+              "name": "TypeError"
+            },
+            "tested": true,
+            "throws": true
+          },
+          "length": 0,
+          "name": "createBiquadFilter",
+          "nativeSource": true,
+          "source": "function createBiquadFilter() { [native code] }"
+        },
+        "createBuffer": {
+          "available": true,
+          "descriptor": {
+            "configurable": true,
+            "enumerable": true,
+            "getterSource": null,
+            "hasGetter": false,
+            "hasSetter": false,
+            "setterSource": null,
+            "valueSource": "function createBuffer() { [native code] }",
+            "valueType": "function",
+            "writable": true
+          },
+          "illegalInvocation": {
+            "error": {
+              "constructor": "TypeError",
+              "message": "Illegal invocation",
+              "name": "TypeError"
+            },
+            "tested": true,
+            "throws": true
+          },
+          "length": 3,
+          "name": "createBuffer",
+          "nativeSource": true,
+          "source": "function createBuffer() { [native code] }"
+        },
+        "createBufferSource": {
+          "available": true,
+          "descriptor": {
+            "configurable": true,
+            "enumerable": true,
+            "getterSource": null,
+            "hasGetter": false,
+            "hasSetter": false,
+            "setterSource": null,
+            "valueSource": "function createBufferSource() { [native code] }",
+            "valueType": "function",
+            "writable": true
+          },
+          "illegalInvocation": {
+            "error": {
+              "constructor": "TypeError",
+              "message": "Illegal invocation",
+              "name": "TypeError"
+            },
+            "tested": true,
+            "throws": true
+          },
+          "length": 0,
+          "name": "createBufferSource",
+          "nativeSource": true,
+          "source": "function createBufferSource() { [native code] }"
+        },
+        "createChannelMerger": {
+          "available": true,
+          "descriptor": {
+            "configurable": true,
+            "enumerable": true,
+            "getterSource": null,
+            "hasGetter": false,
+            "hasSetter": false,
+            "setterSource": null,
+            "valueSource": "function createChannelMerger() { [native code] }",
+            "valueType": "function",
+            "writable": true
+          },
+          "illegalInvocation": {
+            "error": {
+              "constructor": "TypeError",
+              "message": "Illegal invocation",
+              "name": "TypeError"
+            },
+            "tested": true,
+            "throws": true
+          },
+          "length": 0,
+          "name": "createChannelMerger",
+          "nativeSource": true,
+          "source": "function createChannelMerger() { [native code] }"
+        },
+        "createChannelSplitter": {
+          "available": true,
+          "descriptor": {
+            "configurable": true,
+            "enumerable": true,
+            "getterSource": null,
+            "hasGetter": false,
+            "hasSetter": false,
+            "setterSource": null,
+            "valueSource": "function createChannelSplitter() { [native code] }",
+            "valueType": "function",
+            "writable": true
+          },
+          "illegalInvocation": {
+            "error": {
+              "constructor": "TypeError",
+              "message": "Illegal invocation",
+              "name": "TypeError"
+            },
+            "tested": true,
+            "throws": true
+          },
+          "length": 0,
+          "name": "createChannelSplitter",
+          "nativeSource": true,
+          "source": "function createChannelSplitter() { [native code] }"
+        },
+        "createConstantSource": {
+          "available": true,
+          "descriptor": {
+            "configurable": true,
+            "enumerable": true,
+            "getterSource": null,
+            "hasGetter": false,
+            "hasSetter": false,
+            "setterSource": null,
+            "valueSource": "function createConstantSource() { [native code] }",
+            "valueType": "function",
+            "writable": true
+          },
+          "illegalInvocation": {
+            "error": {
+              "constructor": "TypeError",
+              "message": "Illegal invocation",
+              "name": "TypeError"
+            },
+            "tested": true,
+            "throws": true
+          },
+          "length": 0,
+          "name": "createConstantSource",
+          "nativeSource": true,
+          "source": "function createConstantSource() { [native code] }"
+        },
+        "createConvolver": {
+          "available": true,
+          "descriptor": {
+            "configurable": true,
+            "enumerable": true,
+            "getterSource": null,
+            "hasGetter": false,
+            "hasSetter": false,
+            "setterSource": null,
+            "valueSource": "function createConvolver() { [native code] }",
+            "valueType": "function",
+            "writable": true
+          },
+          "illegalInvocation": {
+            "error": {
+              "constructor": "TypeError",
+              "message": "Illegal invocation",
+              "name": "TypeError"
+            },
+            "tested": true,
+            "throws": true
+          },
+          "length": 0,
+          "name": "createConvolver",
+          "nativeSource": true,
+          "source": "function createConvolver() { [native code] }"
+        },
+        "createDelay": {
+          "available": true,
+          "descriptor": {
+            "configurable": true,
+            "enumerable": true,
+            "getterSource": null,
+            "hasGetter": false,
+            "hasSetter": false,
+            "setterSource": null,
+            "valueSource": "function createDelay() { [native code] }",
+            "valueType": "function",
+            "writable": true
+          },
+          "illegalInvocation": {
+            "error": {
+              "constructor": "TypeError",
+              "message": "Illegal invocation",
+              "name": "TypeError"
+            },
+            "tested": true,
+            "throws": true
+          },
+          "length": 0,
+          "name": "createDelay",
+          "nativeSource": true,
+          "source": "function createDelay() { [native code] }"
+        },
+        "createDynamicsCompressor": {
+          "available": true,
+          "descriptor": {
+            "configurable": true,
+            "enumerable": true,
+            "getterSource": null,
+            "hasGetter": false,
+            "hasSetter": false,
+            "setterSource": null,
+            "valueSource": "function createDynamicsCompressor() { [native code] }",
+            "valueType": "function",
+            "writable": true
+          },
+          "illegalInvocation": {
+            "error": {
+              "constructor": "TypeError",
+              "message": "Illegal invocation",
+              "name": "TypeError"
+            },
+            "tested": true,
+            "throws": true
+          },
+          "length": 0,
+          "name": "createDynamicsCompressor",
+          "nativeSource": true,
+          "source": "function createDynamicsCompressor() { [native code] }"
+        },
+        "createGain": {
+          "available": true,
+          "descriptor": {
+            "configurable": true,
+            "enumerable": true,
+            "getterSource": null,
+            "hasGetter": false,
+            "hasSetter": false,
+            "setterSource": null,
+            "valueSource": "function createGain() { [native code] }",
+            "valueType": "function",
+            "writable": true
+          },
+          "illegalInvocation": {
+            "error": {
+              "constructor": "TypeError",
+              "message": "Illegal invocation",
+              "name": "TypeError"
+            },
+            "tested": true,
+            "throws": true
+          },
+          "length": 0,
+          "name": "createGain",
+          "nativeSource": true,
+          "source": "function createGain() { [native code] }"
+        },
+        "createIIRFilter": {
+          "available": true,
+          "descriptor": {
+            "configurable": true,
+            "enumerable": true,
+            "getterSource": null,
+            "hasGetter": false,
+            "hasSetter": false,
+            "setterSource": null,
+            "valueSource": "function createIIRFilter() { [native code] }",
+            "valueType": "function",
+            "writable": true
+          },
+          "illegalInvocation": {
+            "error": {
+              "constructor": "TypeError",
+              "message": "Illegal invocation",
+              "name": "TypeError"
+            },
+            "tested": true,
+            "throws": true
+          },
+          "length": 2,
+          "name": "createIIRFilter",
+          "nativeSource": true,
+          "source": "function createIIRFilter() { [native code] }"
+        },
+        "createOscillator": {
+          "available": true,
+          "descriptor": {
+            "configurable": true,
+            "enumerable": true,
+            "getterSource": null,
+            "hasGetter": false,
+            "hasSetter": false,
+            "setterSource": null,
+            "valueSource": "function createOscillator() { [native code] }",
+            "valueType": "function",
+            "writable": true
+          },
+          "illegalInvocation": {
+            "error": {
+              "constructor": "TypeError",
+              "message": "Illegal invocation",
+              "name": "TypeError"
+            },
+            "tested": true,
+            "throws": true
+          },
+          "length": 0,
+          "name": "createOscillator",
+          "nativeSource": true,
+          "source": "function createOscillator() { [native code] }"
+        },
+        "createPanner": {
+          "available": true,
+          "descriptor": {
+            "configurable": true,
+            "enumerable": true,
+            "getterSource": null,
+            "hasGetter": false,
+            "hasSetter": false,
+            "setterSource": null,
+            "valueSource": "function createPanner() { [native code] }",
+            "valueType": "function",
+            "writable": true
+          },
+          "illegalInvocation": {
+            "error": {
+              "constructor": "TypeError",
+              "message": "Illegal invocation",
+              "name": "TypeError"
+            },
+            "tested": true,
+            "throws": true
+          },
+          "length": 0,
+          "name": "createPanner",
+          "nativeSource": true,
+          "source": "function createPanner() { [native code] }"
+        },
+        "createPeriodicWave": {
+          "available": true,
+          "descriptor": {
+            "configurable": true,
+            "enumerable": true,
+            "getterSource": null,
+            "hasGetter": false,
+            "hasSetter": false,
+            "setterSource": null,
+            "valueSource": "function createPeriodicWave() { [native code] }",
+            "valueType": "function",
+            "writable": true
+          },
+          "illegalInvocation": {
+            "error": {
+              "constructor": "TypeError",
+              "message": "Illegal invocation",
+              "name": "TypeError"
+            },
+            "tested": true,
+            "throws": true
+          },
+          "length": 2,
+          "name": "createPeriodicWave",
+          "nativeSource": true,
+          "source": "function createPeriodicWave() { [native code] }"
+        },
+        "createScriptProcessor": {
+          "available": true,
+          "descriptor": {
+            "configurable": true,
+            "enumerable": true,
+            "getterSource": null,
+            "hasGetter": false,
+            "hasSetter": false,
+            "setterSource": null,
+            "valueSource": "function createScriptProcessor() { [native code] }",
+            "valueType": "function",
+            "writable": true
+          },
+          "illegalInvocation": {
+            "error": {
+              "constructor": "TypeError",
+              "message": "Illegal invocation",
+              "name": "TypeError"
+            },
+            "tested": true,
+            "throws": true
+          },
+          "length": 0,
+          "name": "createScriptProcessor",
+          "nativeSource": true,
+          "source": "function createScriptProcessor() { [native code] }"
+        },
+        "createStereoPanner": {
+          "available": true,
+          "descriptor": {
+            "configurable": true,
+            "enumerable": true,
+            "getterSource": null,
+            "hasGetter": false,
+            "hasSetter": false,
+            "setterSource": null,
+            "valueSource": "function createStereoPanner() { [native code] }",
+            "valueType": "function",
+            "writable": true
+          },
+          "illegalInvocation": {
+            "error": {
+              "constructor": "TypeError",
+              "message": "Illegal invocation",
+              "name": "TypeError"
+            },
+            "tested": true,
+            "throws": true
+          },
+          "length": 0,
+          "name": "createStereoPanner",
+          "nativeSource": true,
+          "source": "function createStereoPanner() { [native code] }"
+        },
+        "createWaveShaper": {
+          "available": true,
+          "descriptor": {
+            "configurable": true,
+            "enumerable": true,
+            "getterSource": null,
+            "hasGetter": false,
+            "hasSetter": false,
+            "setterSource": null,
+            "valueSource": "function createWaveShaper() { [native code] }",
+            "valueType": "function",
+            "writable": true
+          },
+          "illegalInvocation": {
+            "error": {
+              "constructor": "TypeError",
+              "message": "Illegal invocation",
+              "name": "TypeError"
+            },
+            "tested": true,
+            "throws": true
+          },
+          "length": 0,
+          "name": "createWaveShaper",
+          "nativeSource": true,
+          "source": "function createWaveShaper() { [native code] }"
+        },
+        "decodeAudioData": {
+          "available": true,
+          "descriptor": {
+            "configurable": true,
+            "enumerable": true,
+            "getterSource": null,
+            "hasGetter": false,
+            "hasSetter": false,
+            "setterSource": null,
+            "valueSource": "function decodeAudioData() { [native code] }",
+            "valueType": "function",
+            "writable": true
+          },
+          "illegalInvocation": {
+            "error": null,
+            "tested": true,
+            "throws": false
+          },
+          "length": 1,
+          "name": "decodeAudioData",
+          "nativeSource": true,
+          "source": "function decodeAudioData() { [native code] }"
+        }
+      },
+      "BiquadFilterNode": {
+        "getFrequencyResponse": {
+          "available": true,
+          "descriptor": {
+            "configurable": true,
+            "enumerable": true,
+            "getterSource": null,
+            "hasGetter": false,
+            "hasSetter": false,
+            "setterSource": null,
+            "valueSource": "function getFrequencyResponse() { [native code] }",
+            "valueType": "function",
+            "writable": true
+          },
+          "illegalInvocation": {
+            "error": {
+              "constructor": "TypeError",
+              "message": "Illegal invocation",
+              "name": "TypeError"
+            },
+            "tested": true,
+            "throws": true
+          },
+          "length": 3,
+          "name": "getFrequencyResponse",
+          "nativeSource": true,
+          "source": "function getFrequencyResponse() { [native code] }"
+        }
+      },
+      "ChannelMergerNode": {},
+      "ChannelSplitterNode": {},
+      "ConstantSourceNode": {},
+      "DelayNode": {},
+      "DynamicsCompressorNode": {},
+      "GainNode": {},
+      "OfflineAudioContext": {
+        "resume": {
+          "available": true,
+          "descriptor": {
+            "configurable": true,
+            "enumerable": true,
+            "getterSource": null,
+            "hasGetter": false,
+            "hasSetter": false,
+            "setterSource": null,
+            "valueSource": "function resume() { [native code] }",
+            "valueType": "function",
+            "writable": true
+          },
+          "illegalInvocation": {
+            "error": null,
+            "tested": true,
+            "throws": false
+          },
+          "length": 0,
+          "name": "resume",
+          "nativeSource": true,
+          "source": "function resume() { [native code] }"
+        },
+        "startRendering": {
+          "available": true,
+          "descriptor": {
+            "configurable": true,
+            "enumerable": true,
+            "getterSource": null,
+            "hasGetter": false,
+            "hasSetter": false,
+            "setterSource": null,
+            "valueSource": "function startRendering() { [native code] }",
+            "valueType": "function",
+            "writable": true
+          },
+          "illegalInvocation": {
+            "error": null,
+            "tested": true,
+            "throws": false
+          },
+          "length": 0,
+          "name": "startRendering",
+          "nativeSource": true,
+          "source": "function startRendering() { [native code] }"
+        },
+        "suspend": {
+          "available": true,
+          "descriptor": {
+            "configurable": true,
+            "enumerable": true,
+            "getterSource": null,
+            "hasGetter": false,
+            "hasSetter": false,
+            "setterSource": null,
+            "valueSource": "function suspend() { [native code] }",
+            "valueType": "function",
+            "writable": true
+          },
+          "illegalInvocation": {
+            "error": null,
+            "tested": true,
+            "throws": false
+          },
+          "length": 1,
+          "name": "suspend",
+          "nativeSource": true,
+          "source": "function suspend() { [native code] }"
+        }
+      },
+      "OscillatorNode": {
+        "setPeriodicWave": {
+          "available": true,
+          "descriptor": {
+            "configurable": true,
+            "enumerable": true,
+            "getterSource": null,
+            "hasGetter": false,
+            "hasSetter": false,
+            "setterSource": null,
+            "valueSource": "function setPeriodicWave() { [native code] }",
+            "valueType": "function",
+            "writable": true
+          },
+          "illegalInvocation": {
+            "error": {
+              "constructor": "TypeError",
+              "message": "Illegal invocation",
+              "name": "TypeError"
+            },
+            "tested": true,
+            "throws": true
+          },
+          "length": 1,
+          "name": "setPeriodicWave",
+          "nativeSource": true,
+          "source": "function setPeriodicWave() { [native code] }"
+        }
+      },
+      "PannerNode": {
+        "setOrientation": {
+          "available": true,
+          "descriptor": {
+            "configurable": true,
+            "enumerable": true,
+            "getterSource": null,
+            "hasGetter": false,
+            "hasSetter": false,
+            "setterSource": null,
+            "valueSource": "function setOrientation() { [native code] }",
+            "valueType": "function",
+            "writable": true
+          },
+          "illegalInvocation": {
+            "error": {
+              "constructor": "TypeError",
+              "message": "Illegal invocation",
+              "name": "TypeError"
+            },
+            "tested": true,
+            "throws": true
+          },
+          "length": 3,
+          "name": "setOrientation",
+          "nativeSource": true,
+          "source": "function setOrientation() { [native code] }"
+        },
+        "setPosition": {
+          "available": true,
+          "descriptor": {
+            "configurable": true,
+            "enumerable": true,
+            "getterSource": null,
+            "hasGetter": false,
+            "hasSetter": false,
+            "setterSource": null,
+            "valueSource": "function setPosition() { [native code] }",
+            "valueType": "function",
+            "writable": true
+          },
+          "illegalInvocation": {
+            "error": {
+              "constructor": "TypeError",
+              "message": "Illegal invocation",
+              "name": "TypeError"
+            },
+            "tested": true,
+            "throws": true
+          },
+          "length": 3,
+          "name": "setPosition",
+          "nativeSource": true,
+          "source": "function setPosition() { [native code] }"
+        }
+      },
+      "PeriodicWave": {},
+      "StereoPannerNode": {},
+      "WaveShaperNode": {},
+      "special": {
+        "AnalyserNode_getFloatFrequencyData": {
+          "available": true,
+          "descriptor": {
+            "configurable": true,
+            "enumerable": true,
+            "getterSource": null,
+            "hasGetter": false,
+            "hasSetter": false,
+            "setterSource": null,
+            "valueSource": "function getFloatFrequencyData() { [native code] }",
+            "valueType": "function",
+            "writable": true
+          },
+          "illegalInvocation": {
+            "error": {
+              "constructor": "TypeError",
+              "message": "Illegal invocation",
+              "name": "TypeError"
+            },
+            "tested": true,
+            "throws": true
+          },
+          "length": 1,
+          "name": "getFloatFrequencyData",
+          "nativeSource": true,
+          "source": "function getFloatFrequencyData() { [native code] }"
+        },
+        "AudioBuffer_getChannelData": {
+          "available": true,
+          "descriptor": {
+            "configurable": true,
+            "enumerable": true,
+            "getterSource": null,
+            "hasGetter": false,
+            "hasSetter": false,
+            "setterSource": null,
+            "valueSource": "function getChannelData() { [native code] }",
+            "valueType": "function",
+            "writable": true
+          },
+          "illegalInvocation": {
+            "error": {
+              "constructor": "TypeError",
+              "message": "Illegal invocation",
+              "name": "TypeError"
+            },
+            "tested": true,
+            "throws": true
+          },
+          "length": 1,
+          "name": "getChannelData",
+          "nativeSource": true,
+          "source": "function getChannelData() { [native code] }"
+        },
+        "BaseAudioContext_createAnalyser": {
+          "available": true,
+          "descriptor": {
+            "configurable": true,
+            "enumerable": true,
+            "getterSource": null,
+            "hasGetter": false,
+            "hasSetter": false,
+            "setterSource": null,
+            "valueSource": "function createAnalyser() { [native code] }",
+            "valueType": "function",
+            "writable": true
+          },
+          "illegalInvocation": {
+            "error": {
+              "constructor": "TypeError",
+              "message": "Illegal invocation",
+              "name": "TypeError"
+            },
+            "tested": true,
+            "throws": true
+          },
+          "length": 0,
+          "name": "createAnalyser",
+          "nativeSource": true,
+          "source": "function createAnalyser() { [native code] }"
+        },
+        "OfflineAudioContext_startRendering": {
+          "available": true,
+          "descriptor": {
+            "configurable": true,
+            "enumerable": true,
+            "getterSource": null,
+            "hasGetter": false,
+            "hasSetter": false,
+            "setterSource": null,
+            "valueSource": "function startRendering() { [native code] }",
+            "valueType": "function",
+            "writable": true
+          },
+          "illegalInvocation": {
+            "error": null,
+            "tested": true,
+            "throws": false
+          },
+          "length": 0,
+          "name": "startRendering",
+          "nativeSource": true,
+          "source": "function startRendering() { [native code] }"
+        }
+      }
+    },
+    "offline": {
+      "constructor": "AudioBuffer",
+      "dataLength": 512,
+      "instanceofAudioBuffer": true,
+      "length": 512,
+      "numberOfChannels": 1,
+      "objectToString": "[object AudioBuffer]",
+      "prototypeChain": [
+        "AudioBuffer",
+        "Object"
+      ],
+      "prototypeEquality": true,
+      "sampleRate": 44100
+    },
+    "prototype": {
+      "AnalyserNode": {
+        "constructor": "AnalyserNode",
+        "constructorEquality": true,
+        "instanceofObject": true,
+        "ownProperties": [
+          "Symbol(Symbol.toStringTag)",
+          "constructor",
+          "fftSize",
+          "frequencyBinCount",
+          "getByteFrequencyData",
+          "getByteTimeDomainData",
+          "getFloatFrequencyData",
+          "getFloatTimeDomainData",
+          "maxDecibels",
+          "minDecibels",
+          "smoothingTimeConstant"
+        ],
+        "prototypeChain": [
+          "AnalyserNode",
+          "AudioNode",
+          "EventTarget",
+          "Object"
+        ],
+        "toStringTag": {
+          "configurable": true,
+          "enumerable": false,
+          "getterSource": null,
+          "hasGetter": false,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": null,
+          "valueType": "string",
+          "writable": false
+        }
+      },
+      "AudioBuffer": {
+        "constructor": "AudioBuffer",
+        "constructorEquality": true,
+        "instanceofObject": true,
+        "ownProperties": [
+          "Symbol(Symbol.toStringTag)",
+          "constructor",
+          "copyFromChannel",
+          "copyToChannel",
+          "duration",
+          "getChannelData",
+          "length",
+          "numberOfChannels",
+          "sampleRate"
+        ],
+        "prototypeChain": [
+          "AudioBuffer",
+          "Object"
+        ],
+        "toStringTag": {
+          "configurable": true,
+          "enumerable": false,
+          "getterSource": null,
+          "hasGetter": false,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": null,
+          "valueType": "string",
+          "writable": false
+        }
+      },
+      "AudioBufferSourceNode": {
+        "constructor": "AudioBufferSourceNode",
+        "constructorEquality": true,
+        "instanceofObject": true,
+        "ownProperties": [
+          "Symbol(Symbol.toStringTag)",
+          "buffer",
+          "constructor",
+          "detune",
+          "loop",
+          "loopEnd",
+          "loopStart",
+          "playbackRate",
+          "start"
+        ],
+        "prototypeChain": [
+          "AudioBufferSourceNode",
+          "AudioScheduledSourceNode",
+          "AudioNode",
+          "EventTarget",
+          "Object"
+        ],
+        "toStringTag": {
+          "configurable": true,
+          "enumerable": false,
+          "getterSource": null,
+          "hasGetter": false,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": null,
+          "valueType": "string",
+          "writable": false
+        }
+      },
+      "AudioContext": {
+        "constructor": "AudioContext",
+        "constructorEquality": true,
+        "instanceofObject": true,
+        "ownProperties": [
+          "Symbol(Symbol.toStringTag)",
+          "baseLatency",
+          "close",
+          "constructor",
+          "createMediaElementSource",
+          "createMediaStreamDestination",
+          "createMediaStreamSource",
+          "getOutputTimestamp",
+          "onerror",
+          "outputLatency",
+          "playbackStats",
+          "resume",
+          "suspend"
+        ],
+        "prototypeChain": [
+          "AudioContext",
+          "BaseAudioContext",
+          "EventTarget",
+          "Object"
+        ],
+        "toStringTag": {
+          "configurable": true,
+          "enumerable": false,
+          "getterSource": null,
+          "hasGetter": false,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": null,
+          "valueType": "string",
+          "writable": false
+        }
+      },
+      "AudioDestinationNode": {
+        "constructor": "AudioDestinationNode",
+        "constructorEquality": true,
+        "instanceofObject": true,
+        "ownProperties": [
+          "Symbol(Symbol.toStringTag)",
+          "constructor",
+          "maxChannelCount"
+        ],
+        "prototypeChain": [
+          "AudioDestinationNode",
+          "AudioNode",
+          "EventTarget",
+          "Object"
+        ],
+        "toStringTag": {
+          "configurable": true,
+          "enumerable": false,
+          "getterSource": null,
+          "hasGetter": false,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": null,
+          "valueType": "string",
+          "writable": false
+        }
+      },
+      "AudioListener": {
+        "constructor": "AudioListener",
+        "constructorEquality": true,
+        "instanceofObject": true,
+        "ownProperties": [
+          "Symbol(Symbol.toStringTag)",
+          "constructor",
+          "forwardX",
+          "forwardY",
+          "forwardZ",
+          "positionX",
+          "positionY",
+          "positionZ",
+          "setOrientation",
+          "setPosition",
+          "upX",
+          "upY",
+          "upZ"
+        ],
+        "prototypeChain": [
+          "AudioListener",
+          "Object"
+        ],
+        "toStringTag": {
+          "configurable": true,
+          "enumerable": false,
+          "getterSource": null,
+          "hasGetter": false,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": null,
+          "valueType": "string",
+          "writable": false
+        }
+      },
+      "AudioNode": {
+        "constructor": "AudioNode",
+        "constructorEquality": true,
+        "instanceofObject": true,
+        "ownProperties": [
+          "Symbol(Symbol.toStringTag)",
+          "channelCount",
+          "channelCountMode",
+          "channelInterpretation",
+          "connect",
+          "constructor",
+          "context",
+          "disconnect",
+          "numberOfInputs",
+          "numberOfOutputs"
+        ],
+        "prototypeChain": [
+          "AudioNode",
+          "EventTarget",
+          "Object"
+        ],
+        "toStringTag": {
+          "configurable": true,
+          "enumerable": false,
+          "getterSource": null,
+          "hasGetter": false,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": null,
+          "valueType": "string",
+          "writable": false
+        }
+      },
+      "AudioParam": {
+        "constructor": "AudioParam",
+        "constructorEquality": true,
+        "instanceofObject": true,
+        "ownProperties": [
+          "Symbol(Symbol.toStringTag)",
+          "automationRate",
+          "cancelAndHoldAtTime",
+          "cancelScheduledValues",
+          "constructor",
+          "defaultValue",
+          "exponentialRampToValueAtTime",
+          "linearRampToValueAtTime",
+          "maxValue",
+          "minValue",
+          "setTargetAtTime",
+          "setValueAtTime",
+          "setValueCurveAtTime",
+          "value"
+        ],
+        "prototypeChain": [
+          "AudioParam",
+          "Object"
+        ],
+        "toStringTag": {
+          "configurable": true,
+          "enumerable": false,
+          "getterSource": null,
+          "hasGetter": false,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": null,
+          "valueType": "string",
+          "writable": false
+        }
+      },
+      "AudioScheduledSourceNode": {
+        "constructor": "AudioScheduledSourceNode",
+        "constructorEquality": true,
+        "instanceofObject": true,
+        "ownProperties": [
+          "Symbol(Symbol.toStringTag)",
+          "constructor",
+          "onended",
+          "start",
+          "stop"
+        ],
+        "prototypeChain": [
+          "AudioScheduledSourceNode",
+          "AudioNode",
+          "EventTarget",
+          "Object"
+        ],
+        "toStringTag": {
+          "configurable": true,
+          "enumerable": false,
+          "getterSource": null,
+          "hasGetter": false,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": null,
+          "valueType": "string",
+          "writable": false
+        }
+      },
+      "AudioWorkletNode": {
+        "constructor": "AudioWorkletNode",
+        "constructorEquality": true,
+        "instanceofObject": true,
+        "ownProperties": [
+          "Symbol(Symbol.toStringTag)",
+          "constructor",
+          "onprocessorerror",
+          "parameters",
+          "port"
+        ],
+        "prototypeChain": [
+          "AudioWorkletNode",
+          "AudioNode",
+          "EventTarget",
+          "Object"
+        ],
+        "toStringTag": {
+          "configurable": true,
+          "enumerable": false,
+          "getterSource": null,
+          "hasGetter": false,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": null,
+          "valueType": "string",
+          "writable": false
+        }
+      },
+      "BaseAudioContext": {
+        "constructor": "BaseAudioContext",
+        "constructorEquality": true,
+        "instanceofObject": true,
+        "ownProperties": [
+          "Symbol(Symbol.toStringTag)",
+          "constructor",
+          "createAnalyser",
+          "createBiquadFilter",
+          "createBuffer",
+          "createBufferSource",
+          "createChannelMerger",
+          "createChannelSplitter",
+          "createConstantSource",
+          "createConvolver",
+          "createDelay",
+          "createDynamicsCompressor",
+          "createGain",
+          "createIIRFilter",
+          "createOscillator",
+          "createPanner",
+          "createPeriodicWave",
+          "createScriptProcessor",
+          "createStereoPanner",
+          "createWaveShaper",
+          "currentTime",
+          "decodeAudioData",
+          "destination",
+          "listener",
+          "onstatechange",
+          "sampleRate",
+          "state"
+        ],
+        "prototypeChain": [
+          "BaseAudioContext",
+          "EventTarget",
+          "Object"
+        ],
+        "toStringTag": {
+          "configurable": true,
+          "enumerable": false,
+          "getterSource": null,
+          "hasGetter": false,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": null,
+          "valueType": "string",
+          "writable": false
+        }
+      },
+      "BiquadFilterNode": {
+        "constructor": "BiquadFilterNode",
+        "constructorEquality": true,
+        "instanceofObject": true,
+        "ownProperties": [
+          "Q",
+          "Symbol(Symbol.toStringTag)",
+          "constructor",
+          "detune",
+          "frequency",
+          "gain",
+          "getFrequencyResponse",
+          "type"
+        ],
+        "prototypeChain": [
+          "BiquadFilterNode",
+          "AudioNode",
+          "EventTarget",
+          "Object"
+        ],
+        "toStringTag": {
+          "configurable": true,
+          "enumerable": false,
+          "getterSource": null,
+          "hasGetter": false,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": null,
+          "valueType": "string",
+          "writable": false
+        }
+      },
+      "ChannelMergerNode": {
+        "constructor": "ChannelMergerNode",
+        "constructorEquality": true,
+        "instanceofObject": true,
+        "ownProperties": [
+          "Symbol(Symbol.toStringTag)",
+          "constructor"
+        ],
+        "prototypeChain": [
+          "ChannelMergerNode",
+          "AudioNode",
+          "EventTarget",
+          "Object"
+        ],
+        "toStringTag": {
+          "configurable": true,
+          "enumerable": false,
+          "getterSource": null,
+          "hasGetter": false,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": null,
+          "valueType": "string",
+          "writable": false
+        }
+      },
+      "ChannelSplitterNode": {
+        "constructor": "ChannelSplitterNode",
+        "constructorEquality": true,
+        "instanceofObject": true,
+        "ownProperties": [
+          "Symbol(Symbol.toStringTag)",
+          "constructor"
+        ],
+        "prototypeChain": [
+          "ChannelSplitterNode",
+          "AudioNode",
+          "EventTarget",
+          "Object"
+        ],
+        "toStringTag": {
+          "configurable": true,
+          "enumerable": false,
+          "getterSource": null,
+          "hasGetter": false,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": null,
+          "valueType": "string",
+          "writable": false
+        }
+      },
+      "ConstantSourceNode": {
+        "constructor": "ConstantSourceNode",
+        "constructorEquality": true,
+        "instanceofObject": true,
+        "ownProperties": [
+          "Symbol(Symbol.toStringTag)",
+          "constructor",
+          "offset"
+        ],
+        "prototypeChain": [
+          "ConstantSourceNode",
+          "AudioScheduledSourceNode",
+          "AudioNode",
+          "EventTarget",
+          "Object"
+        ],
+        "toStringTag": {
+          "configurable": true,
+          "enumerable": false,
+          "getterSource": null,
+          "hasGetter": false,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": null,
+          "valueType": "string",
+          "writable": false
+        }
+      },
+      "DelayNode": {
+        "constructor": "DelayNode",
+        "constructorEquality": true,
+        "instanceofObject": true,
+        "ownProperties": [
+          "Symbol(Symbol.toStringTag)",
+          "constructor",
+          "delayTime"
+        ],
+        "prototypeChain": [
+          "DelayNode",
+          "AudioNode",
+          "EventTarget",
+          "Object"
+        ],
+        "toStringTag": {
+          "configurable": true,
+          "enumerable": false,
+          "getterSource": null,
+          "hasGetter": false,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": null,
+          "valueType": "string",
+          "writable": false
+        }
+      },
+      "DynamicsCompressorNode": {
+        "constructor": "DynamicsCompressorNode",
+        "constructorEquality": true,
+        "instanceofObject": true,
+        "ownProperties": [
+          "Symbol(Symbol.toStringTag)",
+          "attack",
+          "constructor",
+          "knee",
+          "ratio",
+          "reduction",
+          "release",
+          "threshold"
+        ],
+        "prototypeChain": [
+          "DynamicsCompressorNode",
+          "AudioNode",
+          "EventTarget",
+          "Object"
+        ],
+        "toStringTag": {
+          "configurable": true,
+          "enumerable": false,
+          "getterSource": null,
+          "hasGetter": false,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": null,
+          "valueType": "string",
+          "writable": false
+        }
+      },
+      "GainNode": {
+        "constructor": "GainNode",
+        "constructorEquality": true,
+        "instanceofObject": true,
+        "ownProperties": [
+          "Symbol(Symbol.toStringTag)",
+          "constructor",
+          "gain"
+        ],
+        "prototypeChain": [
+          "GainNode",
+          "AudioNode",
+          "EventTarget",
+          "Object"
+        ],
+        "toStringTag": {
+          "configurable": true,
+          "enumerable": false,
+          "getterSource": null,
+          "hasGetter": false,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": null,
+          "valueType": "string",
+          "writable": false
+        }
+      },
+      "OfflineAudioContext": {
+        "constructor": "OfflineAudioContext",
+        "constructorEquality": true,
+        "instanceofObject": true,
+        "ownProperties": [
+          "Symbol(Symbol.toStringTag)",
+          "constructor",
+          "length",
+          "oncomplete",
+          "resume",
+          "startRendering",
+          "suspend"
+        ],
+        "prototypeChain": [
+          "OfflineAudioContext",
+          "BaseAudioContext",
+          "EventTarget",
+          "Object"
+        ],
+        "toStringTag": {
+          "configurable": true,
+          "enumerable": false,
+          "getterSource": null,
+          "hasGetter": false,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": null,
+          "valueType": "string",
+          "writable": false
+        }
+      },
+      "OscillatorNode": {
+        "constructor": "OscillatorNode",
+        "constructorEquality": true,
+        "instanceofObject": true,
+        "ownProperties": [
+          "Symbol(Symbol.toStringTag)",
+          "constructor",
+          "detune",
+          "frequency",
+          "setPeriodicWave",
+          "type"
+        ],
+        "prototypeChain": [
+          "OscillatorNode",
+          "AudioScheduledSourceNode",
+          "AudioNode",
+          "EventTarget",
+          "Object"
+        ],
+        "toStringTag": {
+          "configurable": true,
+          "enumerable": false,
+          "getterSource": null,
+          "hasGetter": false,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": null,
+          "valueType": "string",
+          "writable": false
+        }
+      },
+      "PannerNode": {
+        "constructor": "PannerNode",
+        "constructorEquality": true,
+        "instanceofObject": true,
+        "ownProperties": [
+          "Symbol(Symbol.toStringTag)",
+          "coneInnerAngle",
+          "coneOuterAngle",
+          "coneOuterGain",
+          "constructor",
+          "distanceModel",
+          "maxDistance",
+          "orientationX",
+          "orientationY",
+          "orientationZ",
+          "panningModel",
+          "positionX",
+          "positionY",
+          "positionZ",
+          "refDistance",
+          "rolloffFactor",
+          "setOrientation",
+          "setPosition"
+        ],
+        "prototypeChain": [
+          "PannerNode",
+          "AudioNode",
+          "EventTarget",
+          "Object"
+        ],
+        "toStringTag": {
+          "configurable": true,
+          "enumerable": false,
+          "getterSource": null,
+          "hasGetter": false,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": null,
+          "valueType": "string",
+          "writable": false
+        }
+      },
+      "PeriodicWave": {
+        "constructor": "PeriodicWave",
+        "constructorEquality": true,
+        "instanceofObject": true,
+        "ownProperties": [
+          "Symbol(Symbol.toStringTag)",
+          "constructor"
+        ],
+        "prototypeChain": [
+          "PeriodicWave",
+          "Object"
+        ],
+        "toStringTag": {
+          "configurable": true,
+          "enumerable": false,
+          "getterSource": null,
+          "hasGetter": false,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": null,
+          "valueType": "string",
+          "writable": false
+        }
+      },
+      "StereoPannerNode": {
+        "constructor": "StereoPannerNode",
+        "constructorEquality": true,
+        "instanceofObject": true,
+        "ownProperties": [
+          "Symbol(Symbol.toStringTag)",
+          "constructor",
+          "pan"
+        ],
+        "prototypeChain": [
+          "StereoPannerNode",
+          "AudioNode",
+          "EventTarget",
+          "Object"
+        ],
+        "toStringTag": {
+          "configurable": true,
+          "enumerable": false,
+          "getterSource": null,
+          "hasGetter": false,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": null,
+          "valueType": "string",
+          "writable": false
+        }
+      },
+      "WaveShaperNode": {
+        "constructor": "WaveShaperNode",
+        "constructorEquality": true,
+        "instanceofObject": true,
+        "ownProperties": [
+          "Symbol(Symbol.toStringTag)",
+          "constructor",
+          "curve",
+          "oversample"
+        ],
+        "prototypeChain": [
+          "WaveShaperNode",
+          "AudioNode",
+          "EventTarget",
+          "Object"
+        ],
+        "toStringTag": {
+          "configurable": true,
+          "enumerable": false,
+          "getterSource": null,
+          "hasGetter": false,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": null,
+          "valueType": "string",
+          "writable": false
+        }
+      }
+    }
+  }
+}

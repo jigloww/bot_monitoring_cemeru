@@ -1,0 +1,81 @@
+{
+  "all_modules_compatible": false,
+  "per_module_compatibility": {
+    "audio": false,
+    "canvas": false,
+    "client_hints": false
+  },
+  "required_artifacts": [
+    "fingerprint.json"
+  ],
+  "required_fields": [
+    "sha256",
+    "data"
+  ],
+  "source": {
+    "discovery_contract": {
+      "required_artifacts": [
+        "fingerprint.json"
+      ],
+      "selection_order": "successful, then complete, then any candidate; highest experiment number",
+      "successful_summary_result": "SUCCESS",
+      "successful_validation_valid": true,
+      "unverified_gate": "fingerprint.json top-level sha256 must be a non-empty string"
+    },
+    "expected_modules": [
+      "canvas",
+      "audio",
+      "client_hints"
+    ],
+    "load_contract": {
+      "data_type": "object",
+      "fingerprint_top_level_type": "object",
+      "required_fingerprint_fields": [
+        "sha256",
+        "data"
+      ],
+      "sha256_format": "64 hexadecimal characters",
+      "sha256_type": "string"
+    },
+    "module_artifacts": {
+      "audio": [
+        "fingerprint.json"
+      ],
+      "canvas": [
+        "fingerprint.json"
+      ],
+      "client_hints": [
+        "fingerprint.json"
+      ],
+      "fonts": [
+        "fingerprint.json"
+      ],
+      "navigator": [
+        "fingerprint.json"
+      ],
+      "permissions": [
+        "fingerprint.json"
+      ],
+      "plugins": [
+        "fingerprint.json"
+      ],
+      "screen": [
+        "fingerprint.json"
+      ],
+      "webrtc": [
+        "fingerprint.json"
+      ]
+    },
+    "parse_error": null,
+    "parseable": true,
+    "source_contract_evidence": {
+      "reads_fingerprint_data": "fingerprint.get(\"data\")",
+      "reads_fingerprint_sha256": "fingerprint.get(\"sha256\")",
+      "requires_summary_success": "summary.get(\"result\") == \"SUCCESS\"",
+      "requires_validation_valid": "validation.get(\"valid\") is True"
+    },
+    "source_exists": true,
+    "source_path": "D:\\bot_monitoring_cemeru\\experiments\\integrated_identity.py",
+    "source_sha256": "f0048713f2c2e7fa2689bd84462a83631c3e99999a4585dd74d462eb9010b077"
+  }
+}

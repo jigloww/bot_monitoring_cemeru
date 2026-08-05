@@ -1,0 +1,22 @@
+{
+  "fontfaceset_available": true,
+  "fontface_available": true,
+  "fontface_count": 0,
+  "fontfaceset_property_count": 0,
+  "fontface_property_count": 0,
+  "prototype_property_count": 37,
+  "descriptor_count": 4,
+  "method_count": 8,
+  "native_method_count": 8,
+  "generic_family_count": 7,
+  "textmetrics_available": true,
+  "textmetrics_property_count": 12,
+  "check_count": 7,
+  "check_stable_count": 7,
+  "iterator_count": 5,
+  "browser_launches": 1,
+  "network_requests": 0,
+  "capture_status": "SUCCESS",
+  "capture_error": null,
+  "fingerprint_sha256": "2d6b72ff67b41ba1ed217217b39fe0b784b3d38e23ef2f93f7e16dd643afa150"
+}

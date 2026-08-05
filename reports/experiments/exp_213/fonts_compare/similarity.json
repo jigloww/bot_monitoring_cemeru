@@ -1,0 +1,85 @@
+{
+  "overall": 100.0,
+  "prototype": 100.0,
+  "descriptor": 100.0,
+  "fontface": 100.0,
+  "fontfaceset": 100.0,
+  "canvas": 100.0,
+  "textmetrics": 100.0,
+  "behavior": 100.0,
+  "fingerprint": 100.0,
+  "domains": {
+    "behavior": {
+      "total": 345,
+      "equal": 345,
+      "remaining": 0,
+      "changed": 0,
+      "missing": 0,
+      "added": 0,
+      "similarity": 100.0
+    },
+    "canvas": {
+      "total": 20,
+      "equal": 20,
+      "remaining": 0,
+      "changed": 0,
+      "missing": 0,
+      "added": 0,
+      "similarity": 100.0
+    },
+    "descriptors": {
+      "total": 410,
+      "equal": 410,
+      "remaining": 0,
+      "changed": 0,
+      "missing": 0,
+      "added": 0,
+      "similarity": 100.0
+    },
+    "fingerprint": {
+      "total": 1,
+      "equal": 1,
+      "remaining": 0,
+      "changed": 0,
+      "missing": 0,
+      "added": 0,
+      "similarity": 100.0
+    },
+    "fontface": {
+      "total": 222,
+      "equal": 222,
+      "remaining": 0,
+      "changed": 0,
+      "missing": 0,
+      "added": 0,
+      "similarity": 100.0
+    },
+    "fontfaceset": {
+      "total": 213,
+      "equal": 213,
+      "remaining": 0,
+      "changed": 0,
+      "missing": 0,
+      "added": 0,
+      "similarity": 100.0
+    },
+    "prototype": {
+      "total": 74,
+      "equal": 74,
+      "remaining": 0,
+      "changed": 0,
+      "missing": 0,
+      "added": 0,
+      "similarity": 100.0
+    },
+    "textmetrics": {
+      "total": 113,
+      "equal": 113,
+      "remaining": 0,
+      "changed": 0,
+      "missing": 0,
+      "added": 0,
+      "similarity": 100.0
+    }
+  }
+}

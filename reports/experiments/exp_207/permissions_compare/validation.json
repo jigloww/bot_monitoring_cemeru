@@ -1,0 +1,19 @@
+{
+  "python_compile": true,
+  "json_validation": true,
+  "artifact_completeness": true,
+  "deterministic_ordering": true,
+  "prototype_validation": true,
+  "descriptor_validation": true,
+  "method_validation": true,
+  "behavior_validation": true,
+  "fingerprint_validation": true,
+  "browser_platform_verification": true,
+  "read_only_verification": true,
+  "no_permission_prompts": true,
+  "no_network_requests": true,
+  "historical_artifacts_immutable": true,
+  "browser_launches": 1,
+  "network_requests": 0,
+  "valid": true
+}

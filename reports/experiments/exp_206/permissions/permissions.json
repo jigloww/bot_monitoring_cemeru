@@ -1,0 +1,44 @@
+{
+  "available": true,
+  "constructor": "Permissions",
+  "constructorEquality": true,
+  "constructorSource": "function Permissions() { [native code] }",
+  "instanceofPermissions": true,
+  "navigatorDescriptor": {
+    "configurable": true,
+    "enumerable": true,
+    "getterSource": "function get permissions() { [native code] }",
+    "hasGetter": true,
+    "hasSetter": false,
+    "setterSource": null,
+    "valueSource": null,
+    "valueType": null,
+    "writable": null
+  },
+  "objectToString": "[object Permissions]",
+  "ownProperties": [],
+  "prototypeChain": [
+    "Permissions",
+    "Permissions",
+    "Object"
+  ],
+  "prototypeEquality": true,
+  "prototypeProperties": [
+    "Symbol(Symbol.toStringTag)",
+    "constructor",
+    "query"
+  ],
+  "referenceStable": true,
+  "symbolToStringTag": {
+    "configurable": true,
+    "enumerable": false,
+    "getterSource": null,
+    "hasGetter": false,
+    "hasSetter": false,
+    "setterSource": null,
+    "valueSource": null,
+    "valueType": "string",
+    "writable": false
+  },
+  "typeof": "object"
+}

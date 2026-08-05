@@ -1,0 +1,246 @@
+{
+  "access": {
+    "availHeight": {
+      "descriptor": {
+        "configurable": true,
+        "enumerable": true,
+        "getterSource": "function get availHeight() { [native code] }",
+        "hasGetter": true,
+        "hasSetter": false,
+        "setterSource": null,
+        "valueSource": null,
+        "valueType": null,
+        "writable": null
+      },
+      "first": 720,
+      "referenceStable": null,
+      "second": 720,
+      "stable": true,
+      "type": "number"
+    },
+    "availLeft": {
+      "descriptor": {
+        "configurable": true,
+        "enumerable": true,
+        "getterSource": "function get availLeft() { [native code] }",
+        "hasGetter": true,
+        "hasSetter": false,
+        "setterSource": null,
+        "valueSource": null,
+        "valueType": null,
+        "writable": null
+      },
+      "first": 0,
+      "referenceStable": null,
+      "second": 0,
+      "stable": true,
+      "type": "number"
+    },
+    "availTop": {
+      "descriptor": {
+        "configurable": true,
+        "enumerable": true,
+        "getterSource": "function get availTop() { [native code] }",
+        "hasGetter": true,
+        "hasSetter": false,
+        "setterSource": null,
+        "valueSource": null,
+        "valueType": null,
+        "writable": null
+      },
+      "first": 0,
+      "referenceStable": null,
+      "second": 0,
+      "stable": true,
+      "type": "number"
+    },
+    "availWidth": {
+      "descriptor": {
+        "configurable": true,
+        "enumerable": true,
+        "getterSource": "function get availWidth() { [native code] }",
+        "hasGetter": true,
+        "hasSetter": false,
+        "setterSource": null,
+        "valueSource": null,
+        "valueType": null,
+        "writable": null
+      },
+      "first": 1280,
+      "referenceStable": null,
+      "second": 1280,
+      "stable": true,
+      "type": "number"
+    },
+    "colorDepth": {
+      "descriptor": {
+        "configurable": true,
+        "enumerable": true,
+        "getterSource": "function get colorDepth() { [native code] }",
+        "hasGetter": true,
+        "hasSetter": false,
+        "setterSource": null,
+        "valueSource": null,
+        "valueType": null,
+        "writable": null
+      },
+      "first": 24,
+      "referenceStable": null,
+      "second": 24,
+      "stable": true,
+      "type": "number"
+    },
+    "height": {
+      "descriptor": {
+        "configurable": true,
+        "enumerable": true,
+        "getterSource": "function get height() { [native code] }",
+        "hasGetter": true,
+        "hasSetter": false,
+        "setterSource": null,
+        "valueSource": null,
+        "valueType": null,
+        "writable": null
+      },
+      "first": 720,
+      "referenceStable": null,
+      "second": 720,
+      "stable": true,
+      "type": "number"
+    },
+    "isExtended": {
+      "descriptor": null,
+      "first": null,
+      "referenceStable": null,
+      "second": null,
+      "stable": true,
+      "type": "undefined"
+    },
+    "orientation": {
+      "descriptor": {
+        "configurable": true,
+        "enumerable": true,
+        "getterSource": "function get orientation() { [native code] }",
+        "hasGetter": true,
+        "hasSetter": false,
+        "setterSource": null,
+        "valueSource": null,
+        "valueType": null,
+        "writable": null
+      },
+      "first": {
+        "constructor": "ScreenOrientation",
+        "objectToString": "[object ScreenOrientation]",
+        "ownProperties": [],
+        "type": "object"
+      },
+      "referenceStable": true,
+      "second": {
+        "constructor": "ScreenOrientation",
+        "objectToString": "[object ScreenOrientation]",
+        "ownProperties": [],
+        "type": "object"
+      },
+      "stable": true,
+      "type": "object"
+    },
+    "pixelDepth": {
+      "descriptor": {
+        "configurable": true,
+        "enumerable": true,
+        "getterSource": "function get pixelDepth() { [native code] }",
+        "hasGetter": true,
+        "hasSetter": false,
+        "setterSource": null,
+        "valueSource": null,
+        "valueType": null,
+        "writable": null
+      },
+      "first": 24,
+      "referenceStable": null,
+      "second": 24,
+      "stable": true,
+      "type": "number"
+    },
+    "width": {
+      "descriptor": {
+        "configurable": true,
+        "enumerable": true,
+        "getterSource": "function get width() { [native code] }",
+        "hasGetter": true,
+        "hasSetter": false,
+        "setterSource": null,
+        "valueSource": null,
+        "valueType": null,
+        "writable": null
+      },
+      "first": 1280,
+      "referenceStable": null,
+      "second": 1280,
+      "stable": true,
+      "type": "number"
+    }
+  },
+  "available": true,
+  "constructor": "Screen",
+  "constructorEquality": true,
+  "constructorSource": "function Screen() { [native code] }",
+  "inheritedProperties": [
+    "Symbol(Symbol.toStringTag)",
+    "availHeight",
+    "availLeft",
+    "availTop",
+    "availWidth",
+    "colorDepth",
+    "constructor",
+    "height",
+    "orientation",
+    "pixelDepth",
+    "width"
+  ],
+  "instanceofScreen": true,
+  "objectToString": {
+    "constructor": "Screen",
+    "objectToString": "[object Screen]",
+    "ownProperties": [],
+    "type": "object"
+  },
+  "ownProperties": [],
+  "prototypeChain": [
+    "Screen",
+    "Screen",
+    "EventTarget",
+    "Object"
+  ],
+  "prototypeEquality": true,
+  "referenceStable": true,
+  "symbolToStringTag": {
+    "configurable": true,
+    "enumerable": false,
+    "getterSource": null,
+    "hasGetter": false,
+    "hasSetter": false,
+    "setterSource": null,
+    "valueSource": null,
+    "valueType": "string",
+    "writable": false
+  },
+  "typeof": "object",
+  "values": {
+    "availHeight": 720,
+    "availLeft": 0,
+    "availTop": 0,
+    "availWidth": 1280,
+    "colorDepth": 24,
+    "height": 720,
+    "isExtended": null,
+    "orientation": {
+      "constructor": "ScreenOrientation",
+      "objectToString": "[object ScreenOrientation]",
+      "ownProperties": [],
+      "type": "object"
+    },
+    "pixelDepth": 24,
+    "width": 1280
+  }
+}

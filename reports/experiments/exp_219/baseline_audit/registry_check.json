@@ -1,0 +1,43 @@
+{
+  "all_entries_present": true,
+  "all_selections_match": true,
+  "entries": {
+    "audio": {
+      "audit_sha256": null,
+      "audited_directory": "D:\\bot_monitoring_cemeru\\reports\\experiments\\exp_080\\audio",
+      "registry_available": false,
+      "registry_directory": "D:\\bot_monitoring_cemeru\\reports\\experiments\\exp_080\\audio",
+      "registry_entry_present": true,
+      "registry_experiment_id": "exp_080",
+      "registry_sha256": null,
+      "registry_status": "UNVERIFIED",
+      "selection_matches_registry": true
+    },
+    "canvas": {
+      "audit_sha256": null,
+      "audited_directory": "D:\\bot_monitoring_cemeru\\reports\\experiments\\exp_079\\canvas",
+      "registry_available": false,
+      "registry_directory": "D:\\bot_monitoring_cemeru\\reports\\experiments\\exp_079\\canvas",
+      "registry_entry_present": true,
+      "registry_experiment_id": "exp_079",
+      "registry_sha256": null,
+      "registry_status": "UNVERIFIED",
+      "selection_matches_registry": true
+    },
+    "client_hints": {
+      "audit_sha256": null,
+      "audited_directory": "D:\\bot_monitoring_cemeru\\reports\\experiments\\exp_081\\client_hints",
+      "registry_available": false,
+      "registry_directory": "D:\\bot_monitoring_cemeru\\reports\\experiments\\exp_081\\client_hints",
+      "registry_entry_present": true,
+      "registry_experiment_id": "exp_081",
+      "registry_sha256": null,
+      "registry_status": "UNVERIFIED",
+      "selection_matches_registry": true
+    }
+  },
+  "integrated_identity_directory": "D:\\bot_monitoring_cemeru\\reports\\experiments\\exp_218\\integrated_identity",
+  "integrated_identity_experiment": "exp_218",
+  "registry_json_valid": true,
+  "summary_json_valid": true
+}

@@ -1,0 +1,13 @@
+{
+  "browser_launches": 1,
+  "collection_duration_ms": 3055.605,
+  "created_at": "2026-08-05T10:17:57.683656+07:00",
+  "experiment": "Experiment 060D - Client Hints Baseline Rebuild",
+  "experiment_id": "exp_229",
+  "fingerprint_sha256": "5856fe98aa5fcfd9275f3e2f99fb4f657484586145bfd1429793b4d4143d202d",
+  "historical_artifacts_modified": false,
+  "network_requests": 0,
+  "playwright_status": "AVAILABLE",
+  "result": "SUCCESS",
+  "validation_valid": true
+}

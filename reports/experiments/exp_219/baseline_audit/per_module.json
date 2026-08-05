@@ -1,0 +1,873 @@
+{
+  "audio": {
+    "artifact_directory": "D:\\bot_monitoring_cemeru\\reports\\experiments\\exp_080\\audio",
+    "candidate_count": 1,
+    "candidate_experiments": [
+      {
+        "artifact_directory": "D:\\bot_monitoring_cemeru\\reports\\experiments\\exp_080\\audio",
+        "artifact_hashes": {
+          "audio_report.md": "363437f96a4a396d70bacaab8dd9dad30596d636d02e1e3dc1b2af648496fb95",
+          "compare.json": "210ea8629686513ecac4af727f5ce12f35a7070316a6b3413c730df8f755a011",
+          "fingerprint.json": "fc9bd24a7a4277cfebad16fa199ebfe3988caa66da931dd514a30d0d55875d38",
+          "score.json": "3fe17704fdda55d84b02e0644adf99e691747c18d2519b8d8d15ee3a5241c723",
+          "summary.json": "81765aa41969bd50bdcbef2e1a71c78bfa57ed9f9a56184f09e0f7cdc0e8661d",
+          "validation.json": "a21c70c274e906e45dcabac684e409147f733edcb0a222c86933cd130aaacdb1"
+        },
+        "experiment_id": "exp_080",
+        "experiment_number": 80,
+        "files": {
+          "fingerprint.json": true,
+          "statistics.json": false,
+          "summary.json": true,
+          "validation.json": true
+        },
+        "fingerprint": {
+          "compatible_with_integrated_identity": false,
+          "data_object": false,
+          "data_present": false,
+          "data_type": null,
+          "error": null,
+          "json_valid": true,
+          "mode_count": 2,
+          "modes_present": true,
+          "sha256_format_valid": false,
+          "sha256_non_empty": false,
+          "sha256_present": false,
+          "sha256_preview": null,
+          "sha256_type": null,
+          "top_level_keys": [
+            "experiment",
+            "experiment_id",
+            "modes"
+          ],
+          "top_level_type": "object"
+        },
+        "required_artifacts": {
+          "fingerprint.json": true
+        },
+        "required_complete": true,
+        "statistics": {
+          "error": "missing_file",
+          "exists": false,
+          "json_valid": false,
+          "top_level_keys": []
+        },
+        "successful_candidate": false,
+        "summary": {
+          "error": null,
+          "exists": true,
+          "json_valid": true,
+          "result": null,
+          "top_level_keys": [
+            "conclusion",
+            "created_at",
+            "experiment",
+            "experiment_id",
+            "inputs",
+            "modes"
+          ]
+        },
+        "validation": {
+          "error": null,
+          "exists": true,
+          "json_valid": true,
+          "playwright_status": "UNKNOWN",
+          "top_level_keys": [
+            "artifact_completeness",
+            "descriptor_tests",
+            "fft_validation",
+            "graph_integrity",
+            "hash_validation",
+            "idempotence_validation",
+            "illegal_invocation",
+            "instanceof_tests",
+            "native_source",
+            "node_syntax",
+            "offline_integrity",
+            "playwright_smoke",
+            "playwright_status",
+            "prototype_tests",
+            "python_compile",
+            "stable_regressions",
+            "valid"
+          ],
+          "valid": true
+        }
+      }
+    ],
+    "discovered_by_integrated_identity": true,
+    "discovery_status": "DISCOVERED_UNVERIFIED",
+    "experiment_exists": true,
+    "experiment_numbers": [
+      80
+    ],
+    "explanation": "Verified baseline is selectable only when fingerprint.json supplies a non-empty top-level sha256 and data object; successful selection additionally requires summary.result=SUCCESS and validation.valid=true.",
+    "fingerprint_exists": true,
+    "integrated_identity_expected_artifacts": [
+      "fingerprint.json"
+    ],
+    "module": "audio",
+    "reason_codes": [
+      "collector validation reports Playwright status UNKNOWN",
+      "fingerprint.json has no top-level data object",
+      "fingerprint.json has no top-level sha256",
+      "statistics.json is absent (not an integrated identity discovery gate)",
+      "summary.json does not contain result=\"SUCCESS\""
+    ],
+    "schema_compatible": false,
+    "selected_experiment": {
+      "artifact_directory": "D:\\bot_monitoring_cemeru\\reports\\experiments\\exp_080\\audio",
+      "artifact_hashes": {
+        "audio_report.md": "363437f96a4a396d70bacaab8dd9dad30596d636d02e1e3dc1b2af648496fb95",
+        "compare.json": "210ea8629686513ecac4af727f5ce12f35a7070316a6b3413c730df8f755a011",
+        "fingerprint.json": "fc9bd24a7a4277cfebad16fa199ebfe3988caa66da931dd514a30d0d55875d38",
+        "score.json": "3fe17704fdda55d84b02e0644adf99e691747c18d2519b8d8d15ee3a5241c723",
+        "summary.json": "81765aa41969bd50bdcbef2e1a71c78bfa57ed9f9a56184f09e0f7cdc0e8661d",
+        "validation.json": "a21c70c274e906e45dcabac684e409147f733edcb0a222c86933cd130aaacdb1"
+      },
+      "experiment_id": "exp_080",
+      "experiment_number": 80,
+      "files": {
+        "fingerprint.json": true,
+        "statistics.json": false,
+        "summary.json": true,
+        "validation.json": true
+      },
+      "fingerprint": {
+        "compatible_with_integrated_identity": false,
+        "data_object": false,
+        "data_present": false,
+        "data_type": null,
+        "error": null,
+        "json_valid": true,
+        "mode_count": 2,
+        "modes_present": true,
+        "sha256_format_valid": false,
+        "sha256_non_empty": false,
+        "sha256_present": false,
+        "sha256_preview": null,
+        "sha256_type": null,
+        "top_level_keys": [
+          "experiment",
+          "experiment_id",
+          "modes"
+        ],
+        "top_level_type": "object"
+      },
+      "required_artifacts": {
+        "fingerprint.json": true
+      },
+      "required_complete": true,
+      "statistics": {
+        "error": "missing_file",
+        "exists": false,
+        "json_valid": false,
+        "top_level_keys": []
+      },
+      "successful_candidate": false,
+      "summary": {
+        "error": null,
+        "exists": true,
+        "json_valid": true,
+        "result": null,
+        "top_level_keys": [
+          "conclusion",
+          "created_at",
+          "experiment",
+          "experiment_id",
+          "inputs",
+          "modes"
+        ]
+      },
+      "validation": {
+        "error": null,
+        "exists": true,
+        "json_valid": true,
+        "playwright_status": "UNKNOWN",
+        "top_level_keys": [
+          "artifact_completeness",
+          "descriptor_tests",
+          "fft_validation",
+          "graph_integrity",
+          "hash_validation",
+          "idempotence_validation",
+          "illegal_invocation",
+          "instanceof_tests",
+          "native_source",
+          "node_syntax",
+          "offline_integrity",
+          "playwright_smoke",
+          "playwright_status",
+          "prototype_tests",
+          "python_compile",
+          "stable_regressions",
+          "valid"
+        ],
+        "valid": true
+      }
+    },
+    "sha256_available": false,
+    "statistics_available": false,
+    "summary_exists": true,
+    "validation_exists": true
+  },
+  "canvas": {
+    "artifact_directory": "D:\\bot_monitoring_cemeru\\reports\\experiments\\exp_079\\canvas",
+    "candidate_count": 4,
+    "candidate_experiments": [
+      {
+        "artifact_directory": "D:\\bot_monitoring_cemeru\\reports\\experiments\\exp_076\\canvas",
+        "artifact_hashes": {
+          "canvas_report.md": "11cff87184936cd67c59eb3546fb2702fa6c2dbd9954be704f699f8c04f7dd1f",
+          "compare.json": "0ccc9d1aada2e58b0b30a68d46c68c01f52a7f77ebd3d97c59387ab5917ea50a",
+          "fingerprint.json": "2a67872c740c440866d0d80d54016f19652be7da0d54211ac3c59e82af9742b0",
+          "score.json": "3174f964be4d029b23c2b7fdbac134fe94bd9a0337692ca5dd244b9197bc3381",
+          "summary.json": "ca4724f7a8fd382b57b7675eba889c2614bf7ab60e7b6d08c582542690d262a5",
+          "validation.json": "c38cd95803cd02ec185844899b68fc3b5a1cae7e3393581707075427f3ff0d77"
+        },
+        "experiment_id": "exp_076",
+        "experiment_number": 76,
+        "files": {
+          "fingerprint.json": true,
+          "statistics.json": false,
+          "summary.json": true,
+          "validation.json": true
+        },
+        "fingerprint": {
+          "compatible_with_integrated_identity": false,
+          "data_object": false,
+          "data_present": false,
+          "data_type": null,
+          "error": null,
+          "json_valid": true,
+          "mode_count": 6,
+          "modes_present": true,
+          "sha256_format_valid": false,
+          "sha256_non_empty": false,
+          "sha256_present": false,
+          "sha256_preview": null,
+          "sha256_type": null,
+          "top_level_keys": [
+            "experiment",
+            "experiment_id",
+            "modes"
+          ],
+          "top_level_type": "object"
+        },
+        "required_artifacts": {
+          "fingerprint.json": true
+        },
+        "required_complete": true,
+        "statistics": {
+          "error": "missing_file",
+          "exists": false,
+          "json_valid": false,
+          "top_level_keys": []
+        },
+        "successful_candidate": false,
+        "summary": {
+          "error": null,
+          "exists": true,
+          "json_valid": true,
+          "result": null,
+          "top_level_keys": [
+            "conclusion",
+            "created_at",
+            "experiment",
+            "experiment_id",
+            "inputs",
+            "modes"
+          ]
+        },
+        "validation": {
+          "error": null,
+          "exists": true,
+          "json_valid": true,
+          "playwright_status": null,
+          "top_level_keys": [
+            "artifact_completeness",
+            "canvas_hash_validation",
+            "descriptor_tests",
+            "idempotence_validation",
+            "illegal_invocation",
+            "image_data_validation",
+            "instanceof_tests",
+            "native_source",
+            "node_syntax",
+            "offscreen_validation",
+            "playwright_smoke",
+            "prototype_tests",
+            "python_compile",
+            "rendering_integrity",
+            "stable_regressions",
+            "valid"
+          ],
+          "valid": false
+        }
+      },
+      {
+        "artifact_directory": "D:\\bot_monitoring_cemeru\\reports\\experiments\\exp_077\\canvas",
+        "artifact_hashes": {},
+        "experiment_id": "exp_077",
+        "experiment_number": 77,
+        "files": {
+          "fingerprint.json": false,
+          "statistics.json": false,
+          "summary.json": false,
+          "validation.json": false
+        },
+        "fingerprint": {
+          "compatible_with_integrated_identity": false,
+          "data_object": false,
+          "data_present": false,
+          "data_type": null,
+          "error": "missing_file",
+          "json_valid": false,
+          "mode_count": 0,
+          "modes_present": false,
+          "sha256_format_valid": false,
+          "sha256_non_empty": false,
+          "sha256_present": false,
+          "sha256_preview": null,
+          "sha256_type": null,
+          "top_level_keys": [],
+          "top_level_type": null
+        },
+        "required_artifacts": {
+          "fingerprint.json": false
+        },
+        "required_complete": false,
+        "statistics": {
+          "error": "missing_file",
+          "exists": false,
+          "json_valid": false,
+          "top_level_keys": []
+        },
+        "successful_candidate": false,
+        "summary": {
+          "error": "missing_file",
+          "exists": false,
+          "json_valid": false,
+          "result": null,
+          "top_level_keys": []
+        },
+        "validation": {
+          "error": "missing_file",
+          "exists": false,
+          "json_valid": false,
+          "playwright_status": null,
+          "top_level_keys": [],
+          "valid": null
+        }
+      },
+      {
+        "artifact_directory": "D:\\bot_monitoring_cemeru\\reports\\experiments\\exp_078\\canvas",
+        "artifact_hashes": {
+          "canvas_report.md": "a9a8c9bbbac1157aafa0624bcd785a2cb45cd982a7888f0a0dfcb9fcbb0cb6f6",
+          "compare.json": "8bdce30f3bc87b0c0741e19200a9080a9aa84c232a74c1fe592932910546a0b4",
+          "fingerprint.json": "48f34f369ce237f24f9021d4a2b2f8def80f877ffc089a2ced2a3134a60d58ac",
+          "score.json": "bcaab51d45bf2e869ab74cdc0522e8ab022963b6f789045e6e5a0b224363a8d1",
+          "summary.json": "6c314b5c2784ecbf02708828f16959994203560decdc9208aadcd8983312e015",
+          "validation.json": "dbec240d3176888b77ab222faf4b86aba9488c10080f3622a087108d4d895031"
+        },
+        "experiment_id": "exp_078",
+        "experiment_number": 78,
+        "files": {
+          "fingerprint.json": true,
+          "statistics.json": false,
+          "summary.json": true,
+          "validation.json": true
+        },
+        "fingerprint": {
+          "compatible_with_integrated_identity": false,
+          "data_object": false,
+          "data_present": false,
+          "data_type": null,
+          "error": null,
+          "json_valid": true,
+          "mode_count": 6,
+          "modes_present": true,
+          "sha256_format_valid": false,
+          "sha256_non_empty": false,
+          "sha256_present": false,
+          "sha256_preview": null,
+          "sha256_type": null,
+          "top_level_keys": [
+            "experiment",
+            "experiment_id",
+            "modes"
+          ],
+          "top_level_type": "object"
+        },
+        "required_artifacts": {
+          "fingerprint.json": true
+        },
+        "required_complete": true,
+        "statistics": {
+          "error": "missing_file",
+          "exists": false,
+          "json_valid": false,
+          "top_level_keys": []
+        },
+        "successful_candidate": false,
+        "summary": {
+          "error": null,
+          "exists": true,
+          "json_valid": true,
+          "result": null,
+          "top_level_keys": [
+            "conclusion",
+            "created_at",
+            "experiment",
+            "experiment_id",
+            "inputs",
+            "modes"
+          ]
+        },
+        "validation": {
+          "error": null,
+          "exists": true,
+          "json_valid": true,
+          "playwright_status": "UNKNOWN",
+          "top_level_keys": [
+            "artifact_completeness",
+            "canvas_hash_validation",
+            "descriptor_tests",
+            "idempotence_validation",
+            "illegal_invocation",
+            "image_data_validation",
+            "instanceof_tests",
+            "native_source",
+            "node_syntax",
+            "offscreen_validation",
+            "playwright_smoke",
+            "playwright_status",
+            "prototype_tests",
+            "python_compile",
+            "rendering_integrity",
+            "stable_regressions",
+            "valid"
+          ],
+          "valid": true
+        }
+      },
+      {
+        "artifact_directory": "D:\\bot_monitoring_cemeru\\reports\\experiments\\exp_079\\canvas",
+        "artifact_hashes": {
+          "canvas_report.md": "6d38106a2465c5b4c5cdaa3ff203b0955a14741f059284afda7dabe85660aad8",
+          "compare.json": "41fe978796f6d07c76af5e96f2b4d09132c536303792ee4940251de7041030fe",
+          "fingerprint.json": "f2209c04d2ff54bde65956493ab11f257bc206d9fb6f1b4ea34c0bb569fd38f2",
+          "score.json": "2e3fb2633a767e2a0c254312e46b779cd5ff4a32b88a68b07d38628cad30b065",
+          "summary.json": "0eb5b8a7d0d330504fc02eb89ab284525aed135282773f7be6d2979da55d10a4",
+          "validation.json": "dbec240d3176888b77ab222faf4b86aba9488c10080f3622a087108d4d895031"
+        },
+        "experiment_id": "exp_079",
+        "experiment_number": 79,
+        "files": {
+          "fingerprint.json": true,
+          "statistics.json": false,
+          "summary.json": true,
+          "validation.json": true
+        },
+        "fingerprint": {
+          "compatible_with_integrated_identity": false,
+          "data_object": false,
+          "data_present": false,
+          "data_type": null,
+          "error": null,
+          "json_valid": true,
+          "mode_count": 6,
+          "modes_present": true,
+          "sha256_format_valid": false,
+          "sha256_non_empty": false,
+          "sha256_present": false,
+          "sha256_preview": null,
+          "sha256_type": null,
+          "top_level_keys": [
+            "experiment",
+            "experiment_id",
+            "modes"
+          ],
+          "top_level_type": "object"
+        },
+        "required_artifacts": {
+          "fingerprint.json": true
+        },
+        "required_complete": true,
+        "statistics": {
+          "error": "missing_file",
+          "exists": false,
+          "json_valid": false,
+          "top_level_keys": []
+        },
+        "successful_candidate": false,
+        "summary": {
+          "error": null,
+          "exists": true,
+          "json_valid": true,
+          "result": null,
+          "top_level_keys": [
+            "conclusion",
+            "created_at",
+            "experiment",
+            "experiment_id",
+            "inputs",
+            "modes"
+          ]
+        },
+        "validation": {
+          "error": null,
+          "exists": true,
+          "json_valid": true,
+          "playwright_status": "UNKNOWN",
+          "top_level_keys": [
+            "artifact_completeness",
+            "canvas_hash_validation",
+            "descriptor_tests",
+            "idempotence_validation",
+            "illegal_invocation",
+            "image_data_validation",
+            "instanceof_tests",
+            "native_source",
+            "node_syntax",
+            "offscreen_validation",
+            "playwright_smoke",
+            "playwright_status",
+            "prototype_tests",
+            "python_compile",
+            "rendering_integrity",
+            "stable_regressions",
+            "valid"
+          ],
+          "valid": true
+        }
+      }
+    ],
+    "discovered_by_integrated_identity": true,
+    "discovery_status": "DISCOVERED_UNVERIFIED",
+    "experiment_exists": true,
+    "experiment_numbers": [
+      76,
+      77,
+      78,
+      79
+    ],
+    "explanation": "Verified baseline is selectable only when fingerprint.json supplies a non-empty top-level sha256 and data object; successful selection additionally requires summary.result=SUCCESS and validation.valid=true.",
+    "fingerprint_exists": true,
+    "integrated_identity_expected_artifacts": [
+      "fingerprint.json"
+    ],
+    "module": "canvas",
+    "reason_codes": [
+      "collector validation reports Playwright status UNKNOWN",
+      "fingerprint.json has no top-level data object",
+      "fingerprint.json has no top-level sha256",
+      "statistics.json is absent (not an integrated identity discovery gate)",
+      "summary.json does not contain result=\"SUCCESS\""
+    ],
+    "schema_compatible": false,
+    "selected_experiment": {
+      "artifact_directory": "D:\\bot_monitoring_cemeru\\reports\\experiments\\exp_079\\canvas",
+      "artifact_hashes": {
+        "canvas_report.md": "6d38106a2465c5b4c5cdaa3ff203b0955a14741f059284afda7dabe85660aad8",
+        "compare.json": "41fe978796f6d07c76af5e96f2b4d09132c536303792ee4940251de7041030fe",
+        "fingerprint.json": "f2209c04d2ff54bde65956493ab11f257bc206d9fb6f1b4ea34c0bb569fd38f2",
+        "score.json": "2e3fb2633a767e2a0c254312e46b779cd5ff4a32b88a68b07d38628cad30b065",
+        "summary.json": "0eb5b8a7d0d330504fc02eb89ab284525aed135282773f7be6d2979da55d10a4",
+        "validation.json": "dbec240d3176888b77ab222faf4b86aba9488c10080f3622a087108d4d895031"
+      },
+      "experiment_id": "exp_079",
+      "experiment_number": 79,
+      "files": {
+        "fingerprint.json": true,
+        "statistics.json": false,
+        "summary.json": true,
+        "validation.json": true
+      },
+      "fingerprint": {
+        "compatible_with_integrated_identity": false,
+        "data_object": false,
+        "data_present": false,
+        "data_type": null,
+        "error": null,
+        "json_valid": true,
+        "mode_count": 6,
+        "modes_present": true,
+        "sha256_format_valid": false,
+        "sha256_non_empty": false,
+        "sha256_present": false,
+        "sha256_preview": null,
+        "sha256_type": null,
+        "top_level_keys": [
+          "experiment",
+          "experiment_id",
+          "modes"
+        ],
+        "top_level_type": "object"
+      },
+      "required_artifacts": {
+        "fingerprint.json": true
+      },
+      "required_complete": true,
+      "statistics": {
+        "error": "missing_file",
+        "exists": false,
+        "json_valid": false,
+        "top_level_keys": []
+      },
+      "successful_candidate": false,
+      "summary": {
+        "error": null,
+        "exists": true,
+        "json_valid": true,
+        "result": null,
+        "top_level_keys": [
+          "conclusion",
+          "created_at",
+          "experiment",
+          "experiment_id",
+          "inputs",
+          "modes"
+        ]
+      },
+      "validation": {
+        "error": null,
+        "exists": true,
+        "json_valid": true,
+        "playwright_status": "UNKNOWN",
+        "top_level_keys": [
+          "artifact_completeness",
+          "canvas_hash_validation",
+          "descriptor_tests",
+          "idempotence_validation",
+          "illegal_invocation",
+          "image_data_validation",
+          "instanceof_tests",
+          "native_source",
+          "node_syntax",
+          "offscreen_validation",
+          "playwright_smoke",
+          "playwright_status",
+          "prototype_tests",
+          "python_compile",
+          "rendering_integrity",
+          "stable_regressions",
+          "valid"
+        ],
+        "valid": true
+      }
+    },
+    "sha256_available": false,
+    "statistics_available": false,
+    "summary_exists": true,
+    "validation_exists": true
+  },
+  "client_hints": {
+    "artifact_directory": "D:\\bot_monitoring_cemeru\\reports\\experiments\\exp_081\\client_hints",
+    "candidate_count": 1,
+    "candidate_experiments": [
+      {
+        "artifact_directory": "D:\\bot_monitoring_cemeru\\reports\\experiments\\exp_081\\client_hints",
+        "artifact_hashes": {
+          "client_hints_report.md": "1101e51a7d9989cc3e389b9799202d64fbd46bb2a1df59d4945381e5ac09f1b3",
+          "compare.json": "4e827a265d954e5475df64c4569c8afa5b405cd337c896fdc65f7978d7738a20",
+          "fingerprint.json": "c3f60aa2a48367dc25d101214b9964c5492d59baa6f71a25895872144345b6f0",
+          "score.json": "e6ee22a5b3d8e62774c66a7c3e1fea4cedca9d4efa3c2739da9b20795aaffdf3",
+          "summary.json": "d0291c08bfd0f09a977a7ad639c2c525783b5fd949aa99f76404588c6cae317d",
+          "validation.json": "3db15e0308f81737c58478f92b7d0f9030aa3a71d8f8a11fda16342a7cbe0628"
+        },
+        "experiment_id": "exp_081",
+        "experiment_number": 81,
+        "files": {
+          "fingerprint.json": true,
+          "statistics.json": false,
+          "summary.json": true,
+          "validation.json": true
+        },
+        "fingerprint": {
+          "compatible_with_integrated_identity": false,
+          "data_object": false,
+          "data_present": false,
+          "data_type": null,
+          "error": null,
+          "json_valid": true,
+          "mode_count": 2,
+          "modes_present": true,
+          "sha256_format_valid": false,
+          "sha256_non_empty": false,
+          "sha256_present": false,
+          "sha256_preview": null,
+          "sha256_type": null,
+          "top_level_keys": [
+            "experiment",
+            "experiment_id",
+            "modes"
+          ],
+          "top_level_type": "object"
+        },
+        "required_artifacts": {
+          "fingerprint.json": true
+        },
+        "required_complete": true,
+        "statistics": {
+          "error": "missing_file",
+          "exists": false,
+          "json_valid": false,
+          "top_level_keys": []
+        },
+        "successful_candidate": false,
+        "summary": {
+          "error": null,
+          "exists": true,
+          "json_valid": true,
+          "result": null,
+          "top_level_keys": [
+            "conclusion",
+            "created_at",
+            "experiment",
+            "experiment_id",
+            "inputs",
+            "modes"
+          ]
+        },
+        "validation": {
+          "error": null,
+          "exists": true,
+          "json_valid": true,
+          "playwright_status": "UNKNOWN",
+          "top_level_keys": [
+            "artifact_completeness",
+            "descriptor_tests",
+            "idempotence_validation",
+            "illegal_invocation",
+            "instanceof_tests",
+            "native_source",
+            "node_syntax",
+            "playwright_smoke",
+            "playwright_status",
+            "promise_behavior",
+            "prototype_tests",
+            "python_compile",
+            "stable_regressions",
+            "user_agent_unchanged",
+            "valid"
+          ],
+          "valid": true
+        }
+      }
+    ],
+    "discovered_by_integrated_identity": true,
+    "discovery_status": "DISCOVERED_UNVERIFIED",
+    "experiment_exists": true,
+    "experiment_numbers": [
+      81
+    ],
+    "explanation": "Verified baseline is selectable only when fingerprint.json supplies a non-empty top-level sha256 and data object; successful selection additionally requires summary.result=SUCCESS and validation.valid=true.",
+    "fingerprint_exists": true,
+    "integrated_identity_expected_artifacts": [
+      "fingerprint.json"
+    ],
+    "module": "client_hints",
+    "reason_codes": [
+      "collector validation reports Playwright status UNKNOWN",
+      "fingerprint.json has no top-level data object",
+      "fingerprint.json has no top-level sha256",
+      "statistics.json is absent (not an integrated identity discovery gate)",
+      "summary.json does not contain result=\"SUCCESS\""
+    ],
+    "schema_compatible": false,
+    "selected_experiment": {
+      "artifact_directory": "D:\\bot_monitoring_cemeru\\reports\\experiments\\exp_081\\client_hints",
+      "artifact_hashes": {
+        "client_hints_report.md": "1101e51a7d9989cc3e389b9799202d64fbd46bb2a1df59d4945381e5ac09f1b3",
+        "compare.json": "4e827a265d954e5475df64c4569c8afa5b405cd337c896fdc65f7978d7738a20",
+        "fingerprint.json": "c3f60aa2a48367dc25d101214b9964c5492d59baa6f71a25895872144345b6f0",
+        "score.json": "e6ee22a5b3d8e62774c66a7c3e1fea4cedca9d4efa3c2739da9b20795aaffdf3",
+        "summary.json": "d0291c08bfd0f09a977a7ad639c2c525783b5fd949aa99f76404588c6cae317d",
+        "validation.json": "3db15e0308f81737c58478f92b7d0f9030aa3a71d8f8a11fda16342a7cbe0628"
+      },
+      "experiment_id": "exp_081",
+      "experiment_number": 81,
+      "files": {
+        "fingerprint.json": true,
+        "statistics.json": false,
+        "summary.json": true,
+        "validation.json": true
+      },
+      "fingerprint": {
+        "compatible_with_integrated_identity": false,
+        "data_object": false,
+        "data_present": false,
+        "data_type": null,
+        "error": null,
+        "json_valid": true,
+        "mode_count": 2,
+        "modes_present": true,
+        "sha256_format_valid": false,
+        "sha256_non_empty": false,
+        "sha256_present": false,
+        "sha256_preview": null,
+        "sha256_type": null,
+        "top_level_keys": [
+          "experiment",
+          "experiment_id",
+          "modes"
+        ],
+        "top_level_type": "object"
+      },
+      "required_artifacts": {
+        "fingerprint.json": true
+      },
+      "required_complete": true,
+      "statistics": {
+        "error": "missing_file",
+        "exists": false,
+        "json_valid": false,
+        "top_level_keys": []
+      },
+      "successful_candidate": false,
+      "summary": {
+        "error": null,
+        "exists": true,
+        "json_valid": true,
+        "result": null,
+        "top_level_keys": [
+          "conclusion",
+          "created_at",
+          "experiment",
+          "experiment_id",
+          "inputs",
+          "modes"
+        ]
+      },
+      "validation": {
+        "error": null,
+        "exists": true,
+        "json_valid": true,
+        "playwright_status": "UNKNOWN",
+        "top_level_keys": [
+          "artifact_completeness",
+          "descriptor_tests",
+          "idempotence_validation",
+          "illegal_invocation",
+          "instanceof_tests",
+          "native_source",
+          "node_syntax",
+          "playwright_smoke",
+          "playwright_status",
+          "promise_behavior",
+          "prototype_tests",
+          "python_compile",
+          "stable_regressions",
+          "user_agent_unchanged",
+          "valid"
+        ],
+        "valid": true
+      }
+    },
+    "sha256_available": false,
+    "statistics_available": false,
+    "summary_exists": true,
+    "validation_exists": true
+  }
+}

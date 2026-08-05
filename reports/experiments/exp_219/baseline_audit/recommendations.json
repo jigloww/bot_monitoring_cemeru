@@ -1,0 +1,85 @@
+[
+  {
+    "action": "Capture an independent real-browser baseline using the integrated identity schema.",
+    "does_not_modify": [
+      "stealth modules",
+      "integrated registry",
+      "historical artifacts"
+    ],
+    "id": "audio.baseline_capture",
+    "module": "audio",
+    "priority": "HIGH",
+    "reason": "collector validation reports Playwright status UNKNOWN; fingerprint.json has no top-level data object; fingerprint.json has no top-level sha256; statistics.json is absent (not an integrated identity discovery gate); summary.json does not contain result=\"SUCCESS\"",
+    "required_output": [
+      "fingerprint.json.sha256",
+      "fingerprint.json.data",
+      "summary.json.result=SUCCESS",
+      "validation.json.valid=true"
+    ]
+  },
+  {
+    "action": "Capture an independent real-browser baseline using the integrated identity schema.",
+    "does_not_modify": [
+      "stealth modules",
+      "integrated registry",
+      "historical artifacts"
+    ],
+    "id": "canvas.baseline_capture",
+    "module": "canvas",
+    "priority": "HIGH",
+    "reason": "collector validation reports Playwright status UNKNOWN; fingerprint.json has no top-level data object; fingerprint.json has no top-level sha256; statistics.json is absent (not an integrated identity discovery gate); summary.json does not contain result=\"SUCCESS\"",
+    "required_output": [
+      "fingerprint.json.sha256",
+      "fingerprint.json.data",
+      "summary.json.result=SUCCESS",
+      "validation.json.valid=true"
+    ]
+  },
+  {
+    "action": "Capture an independent real-browser baseline using the integrated identity schema.",
+    "does_not_modify": [
+      "stealth modules",
+      "integrated registry",
+      "historical artifacts"
+    ],
+    "id": "client_hints.baseline_capture",
+    "module": "client_hints",
+    "priority": "HIGH",
+    "reason": "collector validation reports Playwright status UNKNOWN; fingerprint.json has no top-level data object; fingerprint.json has no top-level sha256; statistics.json is absent (not an integrated identity discovery gate); summary.json does not contain result=\"SUCCESS\"",
+    "required_output": [
+      "fingerprint.json.sha256",
+      "fingerprint.json.data",
+      "summary.json.result=SUCCESS",
+      "validation.json.valid=true"
+    ]
+  },
+  {
+    "action": "Add statistics.json to future baseline captures for audit completeness.",
+    "id": "audio.statistics_optional",
+    "module": "audio",
+    "priority": "LOW",
+    "reason": "Statistics are not a discovery gate but are requested by the audit."
+  },
+  {
+    "action": "Add statistics.json to future baseline captures for audit completeness.",
+    "id": "canvas.statistics_optional",
+    "module": "canvas",
+    "priority": "LOW",
+    "reason": "Statistics are not a discovery gate but are requested by the audit."
+  },
+  {
+    "action": "Add statistics.json to future baseline captures for audit completeness.",
+    "id": "client_hints.statistics_optional",
+    "module": "client_hints",
+    "priority": "LOW",
+    "reason": "Statistics are not a discovery gate but are requested by the audit."
+  },
+  {
+    "action": "Rerun Experiment 060 only after all three schemas satisfy the source contract.",
+    "id": "integrated_identity.rerun",
+    "module": "integrated",
+    "priority": "MEDIUM",
+    "reason": "The current PARTIAL result is data-quality driven, not a browser consistency failure.",
+    "schema_source": "D:\\bot_monitoring_cemeru\\experiments\\integrated_identity.py"
+  }
+]

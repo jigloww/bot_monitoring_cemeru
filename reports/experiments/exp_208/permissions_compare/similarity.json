@@ -1,0 +1,74 @@
+{
+  "overall": 100.0,
+  "prototype": 100.0,
+  "descriptor": 100.0,
+  "method": 100.0,
+  "behavior": 100.0,
+  "permission_status": 100.0,
+  "fingerprint": 100.0,
+  "domains": {
+    "behavior": {
+      "total": 500,
+      "equal": 500,
+      "remaining": 0,
+      "changed": 0,
+      "missing": 0,
+      "added": 0,
+      "similarity": 100.0
+    },
+    "descriptors": {
+      "total": 250,
+      "equal": 250,
+      "remaining": 0,
+      "changed": 0,
+      "missing": 0,
+      "added": 0,
+      "similarity": 100.0
+    },
+    "fingerprint": {
+      "total": 1,
+      "equal": 1,
+      "remaining": 0,
+      "changed": 0,
+      "missing": 0,
+      "added": 0,
+      "similarity": 100.0
+    },
+    "methods": {
+      "total": 28,
+      "equal": 28,
+      "remaining": 0,
+      "changed": 0,
+      "missing": 0,
+      "added": 0,
+      "similarity": 100.0
+    },
+    "permission_status": {
+      "total": 396,
+      "equal": 396,
+      "remaining": 0,
+      "changed": 0,
+      "missing": 0,
+      "added": 0,
+      "similarity": 100.0
+    },
+    "permissions": {
+      "total": 34,
+      "equal": 34,
+      "remaining": 0,
+      "changed": 0,
+      "missing": 0,
+      "added": 0,
+      "similarity": 100.0
+    },
+    "prototype": {
+      "total": 49,
+      "equal": 49,
+      "remaining": 0,
+      "changed": 0,
+      "missing": 0,
+      "added": 0,
+      "similarity": 100.0
+    }
+  }
+}

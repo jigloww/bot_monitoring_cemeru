@@ -1,0 +1,115 @@
+{
+  "available": true,
+  "constructor": "ScreenOrientation",
+  "constructorEquality": true,
+  "constructorName": "ScreenOrientation",
+  "constructorSource": "function ScreenOrientation() { [native code] }",
+  "instanceof": true,
+  "objectToString": "[object ScreenOrientation]",
+  "ownProperties": [],
+  "prototype": "ScreenOrientation",
+  "prototypeChain": [
+    "ScreenOrientation",
+    "ScreenOrientation",
+    "EventTarget",
+    "Object"
+  ],
+  "prototypeDescriptors": {
+    "Symbol(Symbol.toStringTag)": null,
+    "angle": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": "function get angle() { [native code] }",
+      "hasGetter": true,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": null,
+      "valueType": null,
+      "writable": null
+    },
+    "constructor": {
+      "configurable": true,
+      "enumerable": false,
+      "getterSource": null,
+      "hasGetter": false,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": "function ScreenOrientation() { [native code] }",
+      "valueType": "function",
+      "writable": true
+    },
+    "lock": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": null,
+      "hasGetter": false,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": "function lock() { [native code] }",
+      "valueType": "function",
+      "writable": true
+    },
+    "onchange": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": "function get onchange() { [native code] }",
+      "hasGetter": true,
+      "hasSetter": true,
+      "setterSource": "function set onchange() { [native code] }",
+      "valueSource": null,
+      "valueType": null,
+      "writable": null
+    },
+    "type": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": "function get type() { [native code] }",
+      "hasGetter": true,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": null,
+      "valueType": null,
+      "writable": null
+    },
+    "unlock": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": null,
+      "hasGetter": false,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": "function unlock() { [native code] }",
+      "valueType": "function",
+      "writable": true
+    }
+  },
+  "prototypeEquality": true,
+  "prototypeProperties": [
+    "Symbol(Symbol.toStringTag)",
+    "angle",
+    "constructor",
+    "lock",
+    "onchange",
+    "type",
+    "unlock"
+  ],
+  "referenceStable": true,
+  "repeatedAngle": 0,
+  "repeatedType": "landscape-primary",
+  "symbolToStringTag": {
+    "configurable": true,
+    "enumerable": false,
+    "getterSource": null,
+    "hasGetter": false,
+    "hasSetter": false,
+    "setterSource": null,
+    "valueSource": null,
+    "valueType": "string",
+    "writable": false
+  },
+  "typeof": "object",
+  "values": {
+    "angle": 0,
+    "type": "landscape-primary"
+  }
+}

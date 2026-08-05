@@ -1,0 +1,38 @@
+{
+  "query": {
+    "available": true,
+    "descriptor": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": null,
+      "hasGetter": false,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": "function query() { [native code] }",
+      "valueType": "function",
+      "writable": true
+    },
+    "length": 1,
+    "name": "query",
+    "nativeSource": true,
+    "source": "function query() { [native code] }"
+  },
+  "queryPrototype": {
+    "available": true,
+    "descriptor": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": null,
+      "hasGetter": false,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": "function query() { [native code] }",
+      "valueType": "function",
+      "writable": true
+    },
+    "length": 1,
+    "name": "query",
+    "nativeSource": true,
+    "source": "function query() { [native code] }"
+  }
+}

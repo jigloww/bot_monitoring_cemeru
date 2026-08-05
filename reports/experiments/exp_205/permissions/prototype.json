@@ -1,0 +1,67 @@
+{
+  "available": true,
+  "chain": [
+    "Permissions",
+    "Object"
+  ],
+  "constructor": {
+    "descriptor": {
+      "configurable": true,
+      "enumerable": false,
+      "getterSource": null,
+      "hasGetter": false,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": "function Permissions() { [native code] }",
+      "valueType": "function",
+      "writable": true
+    },
+    "length": 0,
+    "name": "Permissions",
+    "nativeSource": true,
+    "source": "function Permissions() { [native code] }"
+  },
+  "descriptors": {
+    "Symbol(Symbol.toStringTag)": null,
+    "constructor": {
+      "configurable": true,
+      "enumerable": false,
+      "getterSource": null,
+      "hasGetter": false,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": "function Permissions() { [native code] }",
+      "valueType": "function",
+      "writable": true
+    },
+    "query": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": null,
+      "hasGetter": false,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": "function query() { [native code] }",
+      "valueType": "function",
+      "writable": true
+    }
+  },
+  "instanceofObject": true,
+  "objectPrototype": "Object",
+  "ownProperties": [
+    "Symbol(Symbol.toStringTag)",
+    "constructor",
+    "query"
+  ],
+  "toStringTag": {
+    "configurable": true,
+    "enumerable": false,
+    "getterSource": null,
+    "hasGetter": false,
+    "hasSetter": false,
+    "setterSource": null,
+    "valueSource": null,
+    "valueType": "string",
+    "writable": false
+  }
+}

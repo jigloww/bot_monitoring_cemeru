@@ -1,0 +1,10 @@
+{
+  "browser_launches": 1,
+  "network_requests": 0,
+  "collection_duration_ms": 7199.137,
+  "collected_properties": 7,
+  "collected_descriptors": 16,
+  "collected_methods": 9,
+  "fingerprint_generation": true,
+  "browser_version": "151.0.7922.72"
+}

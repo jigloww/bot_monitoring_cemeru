@@ -1,0 +1,24 @@
+{
+  "available": true,
+  "canvasConstructor": "HTMLCanvasElement",
+  "contextConstructor": "CanvasRenderingContext2D",
+  "contextPrototype": "CanvasRenderingContext2D",
+  "descriptor": {
+    "configurable": true,
+    "enumerable": true,
+    "getterSource": "function get font() { [native code] }",
+    "hasGetter": true,
+    "hasSetter": true,
+    "setterSource": "function set font() { [native code] }",
+    "valueSource": null,
+    "valueType": null,
+    "writable": null
+  },
+  "font": "10px sans-serif",
+  "getterSource": "function get font() { [native code] }",
+  "nativeSource": true,
+  "noDrawingPerformed": true,
+  "repeatedFont": "10px sans-serif",
+  "setterSource": "function set font() { [native code] }",
+  "stable": true
+}

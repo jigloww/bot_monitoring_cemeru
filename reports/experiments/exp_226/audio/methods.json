@@ -1,0 +1,1575 @@
+{
+  "AnalyserNode": {
+    "getByteFrequencyData": {
+      "available": true,
+      "descriptor": {
+        "configurable": true,
+        "enumerable": true,
+        "getterSource": null,
+        "hasGetter": false,
+        "hasSetter": false,
+        "setterSource": null,
+        "valueSource": "function getByteFrequencyData() { [native code] }",
+        "valueType": "function",
+        "writable": true
+      },
+      "illegalInvocation": {
+        "error": {
+          "constructor": "TypeError",
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "tested": true,
+        "throws": true
+      },
+      "length": 1,
+      "name": "getByteFrequencyData",
+      "nativeSource": true,
+      "source": "function getByteFrequencyData() { [native code] }"
+    },
+    "getByteTimeDomainData": {
+      "available": true,
+      "descriptor": {
+        "configurable": true,
+        "enumerable": true,
+        "getterSource": null,
+        "hasGetter": false,
+        "hasSetter": false,
+        "setterSource": null,
+        "valueSource": "function getByteTimeDomainData() { [native code] }",
+        "valueType": "function",
+        "writable": true
+      },
+      "illegalInvocation": {
+        "error": {
+          "constructor": "TypeError",
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "tested": true,
+        "throws": true
+      },
+      "length": 1,
+      "name": "getByteTimeDomainData",
+      "nativeSource": true,
+      "source": "function getByteTimeDomainData() { [native code] }"
+    },
+    "getFloatFrequencyData": {
+      "available": true,
+      "descriptor": {
+        "configurable": true,
+        "enumerable": true,
+        "getterSource": null,
+        "hasGetter": false,
+        "hasSetter": false,
+        "setterSource": null,
+        "valueSource": "function getFloatFrequencyData() { [native code] }",
+        "valueType": "function",
+        "writable": true
+      },
+      "illegalInvocation": {
+        "error": {
+          "constructor": "TypeError",
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "tested": true,
+        "throws": true
+      },
+      "length": 1,
+      "name": "getFloatFrequencyData",
+      "nativeSource": true,
+      "source": "function getFloatFrequencyData() { [native code] }"
+    },
+    "getFloatTimeDomainData": {
+      "available": true,
+      "descriptor": {
+        "configurable": true,
+        "enumerable": true,
+        "getterSource": null,
+        "hasGetter": false,
+        "hasSetter": false,
+        "setterSource": null,
+        "valueSource": "function getFloatTimeDomainData() { [native code] }",
+        "valueType": "function",
+        "writable": true
+      },
+      "illegalInvocation": {
+        "error": {
+          "constructor": "TypeError",
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "tested": true,
+        "throws": true
+      },
+      "length": 1,
+      "name": "getFloatTimeDomainData",
+      "nativeSource": true,
+      "source": "function getFloatTimeDomainData() { [native code] }"
+    }
+  },
+  "AudioBuffer": {
+    "copyFromChannel": {
+      "available": true,
+      "descriptor": {
+        "configurable": true,
+        "enumerable": true,
+        "getterSource": null,
+        "hasGetter": false,
+        "hasSetter": false,
+        "setterSource": null,
+        "valueSource": "function copyFromChannel() { [native code] }",
+        "valueType": "function",
+        "writable": true
+      },
+      "illegalInvocation": {
+        "error": {
+          "constructor": "TypeError",
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "tested": true,
+        "throws": true
+      },
+      "length": 2,
+      "name": "copyFromChannel",
+      "nativeSource": true,
+      "source": "function copyFromChannel() { [native code] }"
+    },
+    "copyToChannel": {
+      "available": true,
+      "descriptor": {
+        "configurable": true,
+        "enumerable": true,
+        "getterSource": null,
+        "hasGetter": false,
+        "hasSetter": false,
+        "setterSource": null,
+        "valueSource": "function copyToChannel() { [native code] }",
+        "valueType": "function",
+        "writable": true
+      },
+      "illegalInvocation": {
+        "error": {
+          "constructor": "TypeError",
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "tested": true,
+        "throws": true
+      },
+      "length": 2,
+      "name": "copyToChannel",
+      "nativeSource": true,
+      "source": "function copyToChannel() { [native code] }"
+    },
+    "getChannelData": {
+      "available": true,
+      "descriptor": {
+        "configurable": true,
+        "enumerable": true,
+        "getterSource": null,
+        "hasGetter": false,
+        "hasSetter": false,
+        "setterSource": null,
+        "valueSource": "function getChannelData() { [native code] }",
+        "valueType": "function",
+        "writable": true
+      },
+      "illegalInvocation": {
+        "error": {
+          "constructor": "TypeError",
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "tested": true,
+        "throws": true
+      },
+      "length": 1,
+      "name": "getChannelData",
+      "nativeSource": true,
+      "source": "function getChannelData() { [native code] }"
+    }
+  },
+  "AudioBufferSourceNode": {
+    "start": {
+      "available": true,
+      "descriptor": {
+        "configurable": true,
+        "enumerable": true,
+        "getterSource": null,
+        "hasGetter": false,
+        "hasSetter": false,
+        "setterSource": null,
+        "valueSource": "function start() { [native code] }",
+        "valueType": "function",
+        "writable": true
+      },
+      "illegalInvocation": {
+        "error": {
+          "constructor": "TypeError",
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "tested": true,
+        "throws": true
+      },
+      "length": 0,
+      "name": "start",
+      "nativeSource": true,
+      "source": "function start() { [native code] }"
+    }
+  },
+  "AudioContext": {
+    "close": {
+      "available": true,
+      "descriptor": {
+        "configurable": true,
+        "enumerable": true,
+        "getterSource": null,
+        "hasGetter": false,
+        "hasSetter": false,
+        "setterSource": null,
+        "valueSource": "function close() { [native code] }",
+        "valueType": "function",
+        "writable": true
+      },
+      "illegalInvocation": {
+        "error": null,
+        "tested": true,
+        "throws": false
+      },
+      "length": 0,
+      "name": "close",
+      "nativeSource": true,
+      "source": "function close() { [native code] }"
+    },
+    "createMediaElementSource": {
+      "available": true,
+      "descriptor": {
+        "configurable": true,
+        "enumerable": true,
+        "getterSource": null,
+        "hasGetter": false,
+        "hasSetter": false,
+        "setterSource": null,
+        "valueSource": "function createMediaElementSource() { [native code] }",
+        "valueType": "function",
+        "writable": true
+      },
+      "illegalInvocation": {
+        "error": {
+          "constructor": "TypeError",
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "tested": true,
+        "throws": true
+      },
+      "length": 1,
+      "name": "createMediaElementSource",
+      "nativeSource": true,
+      "source": "function createMediaElementSource() { [native code] }"
+    },
+    "createMediaStreamDestination": {
+      "available": true,
+      "descriptor": {
+        "configurable": true,
+        "enumerable": true,
+        "getterSource": null,
+        "hasGetter": false,
+        "hasSetter": false,
+        "setterSource": null,
+        "valueSource": "function createMediaStreamDestination() { [native code] }",
+        "valueType": "function",
+        "writable": true
+      },
+      "illegalInvocation": {
+        "error": {
+          "constructor": "TypeError",
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "tested": true,
+        "throws": true
+      },
+      "length": 0,
+      "name": "createMediaStreamDestination",
+      "nativeSource": true,
+      "source": "function createMediaStreamDestination() { [native code] }"
+    },
+    "createMediaStreamSource": {
+      "available": true,
+      "descriptor": {
+        "configurable": true,
+        "enumerable": true,
+        "getterSource": null,
+        "hasGetter": false,
+        "hasSetter": false,
+        "setterSource": null,
+        "valueSource": "function createMediaStreamSource() { [native code] }",
+        "valueType": "function",
+        "writable": true
+      },
+      "illegalInvocation": {
+        "error": {
+          "constructor": "TypeError",
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "tested": true,
+        "throws": true
+      },
+      "length": 1,
+      "name": "createMediaStreamSource",
+      "nativeSource": true,
+      "source": "function createMediaStreamSource() { [native code] }"
+    },
+    "getOutputTimestamp": {
+      "available": true,
+      "descriptor": {
+        "configurable": true,
+        "enumerable": true,
+        "getterSource": null,
+        "hasGetter": false,
+        "hasSetter": false,
+        "setterSource": null,
+        "valueSource": "function getOutputTimestamp() { [native code] }",
+        "valueType": "function",
+        "writable": true
+      },
+      "illegalInvocation": {
+        "error": {
+          "constructor": "TypeError",
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "tested": true,
+        "throws": true
+      },
+      "length": 0,
+      "name": "getOutputTimestamp",
+      "nativeSource": true,
+      "source": "function getOutputTimestamp() { [native code] }"
+    },
+    "resume": {
+      "available": true,
+      "descriptor": {
+        "configurable": true,
+        "enumerable": true,
+        "getterSource": null,
+        "hasGetter": false,
+        "hasSetter": false,
+        "setterSource": null,
+        "valueSource": "function resume() { [native code] }",
+        "valueType": "function",
+        "writable": true
+      },
+      "illegalInvocation": {
+        "error": null,
+        "tested": true,
+        "throws": false
+      },
+      "length": 0,
+      "name": "resume",
+      "nativeSource": true,
+      "source": "function resume() { [native code] }"
+    },
+    "suspend": {
+      "available": true,
+      "descriptor": {
+        "configurable": true,
+        "enumerable": true,
+        "getterSource": null,
+        "hasGetter": false,
+        "hasSetter": false,
+        "setterSource": null,
+        "valueSource": "function suspend() { [native code] }",
+        "valueType": "function",
+        "writable": true
+      },
+      "illegalInvocation": {
+        "error": null,
+        "tested": true,
+        "throws": false
+      },
+      "length": 0,
+      "name": "suspend",
+      "nativeSource": true,
+      "source": "function suspend() { [native code] }"
+    }
+  },
+  "AudioDestinationNode": {},
+  "AudioListener": {
+    "setOrientation": {
+      "available": true,
+      "descriptor": {
+        "configurable": true,
+        "enumerable": true,
+        "getterSource": null,
+        "hasGetter": false,
+        "hasSetter": false,
+        "setterSource": null,
+        "valueSource": "function setOrientation() { [native code] }",
+        "valueType": "function",
+        "writable": true
+      },
+      "illegalInvocation": {
+        "error": {
+          "constructor": "TypeError",
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "tested": true,
+        "throws": true
+      },
+      "length": 6,
+      "name": "setOrientation",
+      "nativeSource": true,
+      "source": "function setOrientation() { [native code] }"
+    },
+    "setPosition": {
+      "available": true,
+      "descriptor": {
+        "configurable": true,
+        "enumerable": true,
+        "getterSource": null,
+        "hasGetter": false,
+        "hasSetter": false,
+        "setterSource": null,
+        "valueSource": "function setPosition() { [native code] }",
+        "valueType": "function",
+        "writable": true
+      },
+      "illegalInvocation": {
+        "error": {
+          "constructor": "TypeError",
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "tested": true,
+        "throws": true
+      },
+      "length": 3,
+      "name": "setPosition",
+      "nativeSource": true,
+      "source": "function setPosition() { [native code] }"
+    }
+  },
+  "AudioNode": {
+    "connect": {
+      "available": true,
+      "descriptor": {
+        "configurable": true,
+        "enumerable": true,
+        "getterSource": null,
+        "hasGetter": false,
+        "hasSetter": false,
+        "setterSource": null,
+        "valueSource": "function connect() { [native code] }",
+        "valueType": "function",
+        "writable": true
+      },
+      "illegalInvocation": {
+        "error": {
+          "constructor": "TypeError",
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "tested": true,
+        "throws": true
+      },
+      "length": 1,
+      "name": "connect",
+      "nativeSource": true,
+      "source": "function connect() { [native code] }"
+    },
+    "disconnect": {
+      "available": true,
+      "descriptor": {
+        "configurable": true,
+        "enumerable": true,
+        "getterSource": null,
+        "hasGetter": false,
+        "hasSetter": false,
+        "setterSource": null,
+        "valueSource": "function disconnect() { [native code] }",
+        "valueType": "function",
+        "writable": true
+      },
+      "illegalInvocation": {
+        "error": {
+          "constructor": "TypeError",
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "tested": true,
+        "throws": true
+      },
+      "length": 0,
+      "name": "disconnect",
+      "nativeSource": true,
+      "source": "function disconnect() { [native code] }"
+    }
+  },
+  "AudioParam": {
+    "cancelAndHoldAtTime": {
+      "available": true,
+      "descriptor": {
+        "configurable": true,
+        "enumerable": true,
+        "getterSource": null,
+        "hasGetter": false,
+        "hasSetter": false,
+        "setterSource": null,
+        "valueSource": "function cancelAndHoldAtTime() { [native code] }",
+        "valueType": "function",
+        "writable": true
+      },
+      "illegalInvocation": {
+        "error": {
+          "constructor": "TypeError",
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "tested": true,
+        "throws": true
+      },
+      "length": 1,
+      "name": "cancelAndHoldAtTime",
+      "nativeSource": true,
+      "source": "function cancelAndHoldAtTime() { [native code] }"
+    },
+    "cancelScheduledValues": {
+      "available": true,
+      "descriptor": {
+        "configurable": true,
+        "enumerable": true,
+        "getterSource": null,
+        "hasGetter": false,
+        "hasSetter": false,
+        "setterSource": null,
+        "valueSource": "function cancelScheduledValues() { [native code] }",
+        "valueType": "function",
+        "writable": true
+      },
+      "illegalInvocation": {
+        "error": {
+          "constructor": "TypeError",
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "tested": true,
+        "throws": true
+      },
+      "length": 1,
+      "name": "cancelScheduledValues",
+      "nativeSource": true,
+      "source": "function cancelScheduledValues() { [native code] }"
+    },
+    "exponentialRampToValueAtTime": {
+      "available": true,
+      "descriptor": {
+        "configurable": true,
+        "enumerable": true,
+        "getterSource": null,
+        "hasGetter": false,
+        "hasSetter": false,
+        "setterSource": null,
+        "valueSource": "function exponentialRampToValueAtTime() { [native code] }",
+        "valueType": "function",
+        "writable": true
+      },
+      "illegalInvocation": {
+        "error": {
+          "constructor": "TypeError",
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "tested": true,
+        "throws": true
+      },
+      "length": 2,
+      "name": "exponentialRampToValueAtTime",
+      "nativeSource": true,
+      "source": "function exponentialRampToValueAtTime() { [native code] }"
+    },
+    "linearRampToValueAtTime": {
+      "available": true,
+      "descriptor": {
+        "configurable": true,
+        "enumerable": true,
+        "getterSource": null,
+        "hasGetter": false,
+        "hasSetter": false,
+        "setterSource": null,
+        "valueSource": "function linearRampToValueAtTime() { [native code] }",
+        "valueType": "function",
+        "writable": true
+      },
+      "illegalInvocation": {
+        "error": {
+          "constructor": "TypeError",
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "tested": true,
+        "throws": true
+      },
+      "length": 2,
+      "name": "linearRampToValueAtTime",
+      "nativeSource": true,
+      "source": "function linearRampToValueAtTime() { [native code] }"
+    },
+    "setTargetAtTime": {
+      "available": true,
+      "descriptor": {
+        "configurable": true,
+        "enumerable": true,
+        "getterSource": null,
+        "hasGetter": false,
+        "hasSetter": false,
+        "setterSource": null,
+        "valueSource": "function setTargetAtTime() { [native code] }",
+        "valueType": "function",
+        "writable": true
+      },
+      "illegalInvocation": {
+        "error": {
+          "constructor": "TypeError",
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "tested": true,
+        "throws": true
+      },
+      "length": 3,
+      "name": "setTargetAtTime",
+      "nativeSource": true,
+      "source": "function setTargetAtTime() { [native code] }"
+    },
+    "setValueAtTime": {
+      "available": true,
+      "descriptor": {
+        "configurable": true,
+        "enumerable": true,
+        "getterSource": null,
+        "hasGetter": false,
+        "hasSetter": false,
+        "setterSource": null,
+        "valueSource": "function setValueAtTime() { [native code] }",
+        "valueType": "function",
+        "writable": true
+      },
+      "illegalInvocation": {
+        "error": {
+          "constructor": "TypeError",
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "tested": true,
+        "throws": true
+      },
+      "length": 2,
+      "name": "setValueAtTime",
+      "nativeSource": true,
+      "source": "function setValueAtTime() { [native code] }"
+    },
+    "setValueCurveAtTime": {
+      "available": true,
+      "descriptor": {
+        "configurable": true,
+        "enumerable": true,
+        "getterSource": null,
+        "hasGetter": false,
+        "hasSetter": false,
+        "setterSource": null,
+        "valueSource": "function setValueCurveAtTime() { [native code] }",
+        "valueType": "function",
+        "writable": true
+      },
+      "illegalInvocation": {
+        "error": {
+          "constructor": "TypeError",
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "tested": true,
+        "throws": true
+      },
+      "length": 3,
+      "name": "setValueCurveAtTime",
+      "nativeSource": true,
+      "source": "function setValueCurveAtTime() { [native code] }"
+    }
+  },
+  "AudioScheduledSourceNode": {
+    "start": {
+      "available": true,
+      "descriptor": {
+        "configurable": true,
+        "enumerable": true,
+        "getterSource": null,
+        "hasGetter": false,
+        "hasSetter": false,
+        "setterSource": null,
+        "valueSource": "function start() { [native code] }",
+        "valueType": "function",
+        "writable": true
+      },
+      "illegalInvocation": {
+        "error": {
+          "constructor": "TypeError",
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "tested": true,
+        "throws": true
+      },
+      "length": 0,
+      "name": "start",
+      "nativeSource": true,
+      "source": "function start() { [native code] }"
+    },
+    "stop": {
+      "available": true,
+      "descriptor": {
+        "configurable": true,
+        "enumerable": true,
+        "getterSource": null,
+        "hasGetter": false,
+        "hasSetter": false,
+        "setterSource": null,
+        "valueSource": "function stop() { [native code] }",
+        "valueType": "function",
+        "writable": true
+      },
+      "illegalInvocation": {
+        "error": {
+          "constructor": "TypeError",
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "tested": true,
+        "throws": true
+      },
+      "length": 0,
+      "name": "stop",
+      "nativeSource": true,
+      "source": "function stop() { [native code] }"
+    }
+  },
+  "AudioWorkletNode": {},
+  "BaseAudioContext": {
+    "createAnalyser": {
+      "available": true,
+      "descriptor": {
+        "configurable": true,
+        "enumerable": true,
+        "getterSource": null,
+        "hasGetter": false,
+        "hasSetter": false,
+        "setterSource": null,
+        "valueSource": "function createAnalyser() { [native code] }",
+        "valueType": "function",
+        "writable": true
+      },
+      "illegalInvocation": {
+        "error": {
+          "constructor": "TypeError",
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "tested": true,
+        "throws": true
+      },
+      "length": 0,
+      "name": "createAnalyser",
+      "nativeSource": true,
+      "source": "function createAnalyser() { [native code] }"
+    },
+    "createBiquadFilter": {
+      "available": true,
+      "descriptor": {
+        "configurable": true,
+        "enumerable": true,
+        "getterSource": null,
+        "hasGetter": false,
+        "hasSetter": false,
+        "setterSource": null,
+        "valueSource": "function createBiquadFilter() { [native code] }",
+        "valueType": "function",
+        "writable": true
+      },
+      "illegalInvocation": {
+        "error": {
+          "constructor": "TypeError",
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "tested": true,
+        "throws": true
+      },
+      "length": 0,
+      "name": "createBiquadFilter",
+      "nativeSource": true,
+      "source": "function createBiquadFilter() { [native code] }"
+    },
+    "createBuffer": {
+      "available": true,
+      "descriptor": {
+        "configurable": true,
+        "enumerable": true,
+        "getterSource": null,
+        "hasGetter": false,
+        "hasSetter": false,
+        "setterSource": null,
+        "valueSource": "function createBuffer() { [native code] }",
+        "valueType": "function",
+        "writable": true
+      },
+      "illegalInvocation": {
+        "error": {
+          "constructor": "TypeError",
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "tested": true,
+        "throws": true
+      },
+      "length": 3,
+      "name": "createBuffer",
+      "nativeSource": true,
+      "source": "function createBuffer() { [native code] }"
+    },
+    "createBufferSource": {
+      "available": true,
+      "descriptor": {
+        "configurable": true,
+        "enumerable": true,
+        "getterSource": null,
+        "hasGetter": false,
+        "hasSetter": false,
+        "setterSource": null,
+        "valueSource": "function createBufferSource() { [native code] }",
+        "valueType": "function",
+        "writable": true
+      },
+      "illegalInvocation": {
+        "error": {
+          "constructor": "TypeError",
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "tested": true,
+        "throws": true
+      },
+      "length": 0,
+      "name": "createBufferSource",
+      "nativeSource": true,
+      "source": "function createBufferSource() { [native code] }"
+    },
+    "createChannelMerger": {
+      "available": true,
+      "descriptor": {
+        "configurable": true,
+        "enumerable": true,
+        "getterSource": null,
+        "hasGetter": false,
+        "hasSetter": false,
+        "setterSource": null,
+        "valueSource": "function createChannelMerger() { [native code] }",
+        "valueType": "function",
+        "writable": true
+      },
+      "illegalInvocation": {
+        "error": {
+          "constructor": "TypeError",
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "tested": true,
+        "throws": true
+      },
+      "length": 0,
+      "name": "createChannelMerger",
+      "nativeSource": true,
+      "source": "function createChannelMerger() { [native code] }"
+    },
+    "createChannelSplitter": {
+      "available": true,
+      "descriptor": {
+        "configurable": true,
+        "enumerable": true,
+        "getterSource": null,
+        "hasGetter": false,
+        "hasSetter": false,
+        "setterSource": null,
+        "valueSource": "function createChannelSplitter() { [native code] }",
+        "valueType": "function",
+        "writable": true
+      },
+      "illegalInvocation": {
+        "error": {
+          "constructor": "TypeError",
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "tested": true,
+        "throws": true
+      },
+      "length": 0,
+      "name": "createChannelSplitter",
+      "nativeSource": true,
+      "source": "function createChannelSplitter() { [native code] }"
+    },
+    "createConstantSource": {
+      "available": true,
+      "descriptor": {
+        "configurable": true,
+        "enumerable": true,
+        "getterSource": null,
+        "hasGetter": false,
+        "hasSetter": false,
+        "setterSource": null,
+        "valueSource": "function createConstantSource() { [native code] }",
+        "valueType": "function",
+        "writable": true
+      },
+      "illegalInvocation": {
+        "error": {
+          "constructor": "TypeError",
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "tested": true,
+        "throws": true
+      },
+      "length": 0,
+      "name": "createConstantSource",
+      "nativeSource": true,
+      "source": "function createConstantSource() { [native code] }"
+    },
+    "createConvolver": {
+      "available": true,
+      "descriptor": {
+        "configurable": true,
+        "enumerable": true,
+        "getterSource": null,
+        "hasGetter": false,
+        "hasSetter": false,
+        "setterSource": null,
+        "valueSource": "function createConvolver() { [native code] }",
+        "valueType": "function",
+        "writable": true
+      },
+      "illegalInvocation": {
+        "error": {
+          "constructor": "TypeError",
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "tested": true,
+        "throws": true
+      },
+      "length": 0,
+      "name": "createConvolver",
+      "nativeSource": true,
+      "source": "function createConvolver() { [native code] }"
+    },
+    "createDelay": {
+      "available": true,
+      "descriptor": {
+        "configurable": true,
+        "enumerable": true,
+        "getterSource": null,
+        "hasGetter": false,
+        "hasSetter": false,
+        "setterSource": null,
+        "valueSource": "function createDelay() { [native code] }",
+        "valueType": "function",
+        "writable": true
+      },
+      "illegalInvocation": {
+        "error": {
+          "constructor": "TypeError",
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "tested": true,
+        "throws": true
+      },
+      "length": 0,
+      "name": "createDelay",
+      "nativeSource": true,
+      "source": "function createDelay() { [native code] }"
+    },
+    "createDynamicsCompressor": {
+      "available": true,
+      "descriptor": {
+        "configurable": true,
+        "enumerable": true,
+        "getterSource": null,
+        "hasGetter": false,
+        "hasSetter": false,
+        "setterSource": null,
+        "valueSource": "function createDynamicsCompressor() { [native code] }",
+        "valueType": "function",
+        "writable": true
+      },
+      "illegalInvocation": {
+        "error": {
+          "constructor": "TypeError",
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "tested": true,
+        "throws": true
+      },
+      "length": 0,
+      "name": "createDynamicsCompressor",
+      "nativeSource": true,
+      "source": "function createDynamicsCompressor() { [native code] }"
+    },
+    "createGain": {
+      "available": true,
+      "descriptor": {
+        "configurable": true,
+        "enumerable": true,
+        "getterSource": null,
+        "hasGetter": false,
+        "hasSetter": false,
+        "setterSource": null,
+        "valueSource": "function createGain() { [native code] }",
+        "valueType": "function",
+        "writable": true
+      },
+      "illegalInvocation": {
+        "error": {
+          "constructor": "TypeError",
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "tested": true,
+        "throws": true
+      },
+      "length": 0,
+      "name": "createGain",
+      "nativeSource": true,
+      "source": "function createGain() { [native code] }"
+    },
+    "createIIRFilter": {
+      "available": true,
+      "descriptor": {
+        "configurable": true,
+        "enumerable": true,
+        "getterSource": null,
+        "hasGetter": false,
+        "hasSetter": false,
+        "setterSource": null,
+        "valueSource": "function createIIRFilter() { [native code] }",
+        "valueType": "function",
+        "writable": true
+      },
+      "illegalInvocation": {
+        "error": {
+          "constructor": "TypeError",
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "tested": true,
+        "throws": true
+      },
+      "length": 2,
+      "name": "createIIRFilter",
+      "nativeSource": true,
+      "source": "function createIIRFilter() { [native code] }"
+    },
+    "createOscillator": {
+      "available": true,
+      "descriptor": {
+        "configurable": true,
+        "enumerable": true,
+        "getterSource": null,
+        "hasGetter": false,
+        "hasSetter": false,
+        "setterSource": null,
+        "valueSource": "function createOscillator() { [native code] }",
+        "valueType": "function",
+        "writable": true
+      },
+      "illegalInvocation": {
+        "error": {
+          "constructor": "TypeError",
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "tested": true,
+        "throws": true
+      },
+      "length": 0,
+      "name": "createOscillator",
+      "nativeSource": true,
+      "source": "function createOscillator() { [native code] }"
+    },
+    "createPanner": {
+      "available": true,
+      "descriptor": {
+        "configurable": true,
+        "enumerable": true,
+        "getterSource": null,
+        "hasGetter": false,
+        "hasSetter": false,
+        "setterSource": null,
+        "valueSource": "function createPanner() { [native code] }",
+        "valueType": "function",
+        "writable": true
+      },
+      "illegalInvocation": {
+        "error": {
+          "constructor": "TypeError",
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "tested": true,
+        "throws": true
+      },
+      "length": 0,
+      "name": "createPanner",
+      "nativeSource": true,
+      "source": "function createPanner() { [native code] }"
+    },
+    "createPeriodicWave": {
+      "available": true,
+      "descriptor": {
+        "configurable": true,
+        "enumerable": true,
+        "getterSource": null,
+        "hasGetter": false,
+        "hasSetter": false,
+        "setterSource": null,
+        "valueSource": "function createPeriodicWave() { [native code] }",
+        "valueType": "function",
+        "writable": true
+      },
+      "illegalInvocation": {
+        "error": {
+          "constructor": "TypeError",
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "tested": true,
+        "throws": true
+      },
+      "length": 2,
+      "name": "createPeriodicWave",
+      "nativeSource": true,
+      "source": "function createPeriodicWave() { [native code] }"
+    },
+    "createScriptProcessor": {
+      "available": true,
+      "descriptor": {
+        "configurable": true,
+        "enumerable": true,
+        "getterSource": null,
+        "hasGetter": false,
+        "hasSetter": false,
+        "setterSource": null,
+        "valueSource": "function createScriptProcessor() { [native code] }",
+        "valueType": "function",
+        "writable": true
+      },
+      "illegalInvocation": {
+        "error": {
+          "constructor": "TypeError",
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "tested": true,
+        "throws": true
+      },
+      "length": 0,
+      "name": "createScriptProcessor",
+      "nativeSource": true,
+      "source": "function createScriptProcessor() { [native code] }"
+    },
+    "createStereoPanner": {
+      "available": true,
+      "descriptor": {
+        "configurable": true,
+        "enumerable": true,
+        "getterSource": null,
+        "hasGetter": false,
+        "hasSetter": false,
+        "setterSource": null,
+        "valueSource": "function createStereoPanner() { [native code] }",
+        "valueType": "function",
+        "writable": true
+      },
+      "illegalInvocation": {
+        "error": {
+          "constructor": "TypeError",
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "tested": true,
+        "throws": true
+      },
+      "length": 0,
+      "name": "createStereoPanner",
+      "nativeSource": true,
+      "source": "function createStereoPanner() { [native code] }"
+    },
+    "createWaveShaper": {
+      "available": true,
+      "descriptor": {
+        "configurable": true,
+        "enumerable": true,
+        "getterSource": null,
+        "hasGetter": false,
+        "hasSetter": false,
+        "setterSource": null,
+        "valueSource": "function createWaveShaper() { [native code] }",
+        "valueType": "function",
+        "writable": true
+      },
+      "illegalInvocation": {
+        "error": {
+          "constructor": "TypeError",
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "tested": true,
+        "throws": true
+      },
+      "length": 0,
+      "name": "createWaveShaper",
+      "nativeSource": true,
+      "source": "function createWaveShaper() { [native code] }"
+    },
+    "decodeAudioData": {
+      "available": true,
+      "descriptor": {
+        "configurable": true,
+        "enumerable": true,
+        "getterSource": null,
+        "hasGetter": false,
+        "hasSetter": false,
+        "setterSource": null,
+        "valueSource": "function decodeAudioData() { [native code] }",
+        "valueType": "function",
+        "writable": true
+      },
+      "illegalInvocation": {
+        "error": null,
+        "tested": true,
+        "throws": false
+      },
+      "length": 1,
+      "name": "decodeAudioData",
+      "nativeSource": true,
+      "source": "function decodeAudioData() { [native code] }"
+    }
+  },
+  "BiquadFilterNode": {
+    "getFrequencyResponse": {
+      "available": true,
+      "descriptor": {
+        "configurable": true,
+        "enumerable": true,
+        "getterSource": null,
+        "hasGetter": false,
+        "hasSetter": false,
+        "setterSource": null,
+        "valueSource": "function getFrequencyResponse() { [native code] }",
+        "valueType": "function",
+        "writable": true
+      },
+      "illegalInvocation": {
+        "error": {
+          "constructor": "TypeError",
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "tested": true,
+        "throws": true
+      },
+      "length": 3,
+      "name": "getFrequencyResponse",
+      "nativeSource": true,
+      "source": "function getFrequencyResponse() { [native code] }"
+    }
+  },
+  "ChannelMergerNode": {},
+  "ChannelSplitterNode": {},
+  "ConstantSourceNode": {},
+  "DelayNode": {},
+  "DynamicsCompressorNode": {},
+  "GainNode": {},
+  "OfflineAudioContext": {
+    "resume": {
+      "available": true,
+      "descriptor": {
+        "configurable": true,
+        "enumerable": true,
+        "getterSource": null,
+        "hasGetter": false,
+        "hasSetter": false,
+        "setterSource": null,
+        "valueSource": "function resume() { [native code] }",
+        "valueType": "function",
+        "writable": true
+      },
+      "illegalInvocation": {
+        "error": null,
+        "tested": true,
+        "throws": false
+      },
+      "length": 0,
+      "name": "resume",
+      "nativeSource": true,
+      "source": "function resume() { [native code] }"
+    },
+    "startRendering": {
+      "available": true,
+      "descriptor": {
+        "configurable": true,
+        "enumerable": true,
+        "getterSource": null,
+        "hasGetter": false,
+        "hasSetter": false,
+        "setterSource": null,
+        "valueSource": "function startRendering() { [native code] }",
+        "valueType": "function",
+        "writable": true
+      },
+      "illegalInvocation": {
+        "error": null,
+        "tested": true,
+        "throws": false
+      },
+      "length": 0,
+      "name": "startRendering",
+      "nativeSource": true,
+      "source": "function startRendering() { [native code] }"
+    },
+    "suspend": {
+      "available": true,
+      "descriptor": {
+        "configurable": true,
+        "enumerable": true,
+        "getterSource": null,
+        "hasGetter": false,
+        "hasSetter": false,
+        "setterSource": null,
+        "valueSource": "function suspend() { [native code] }",
+        "valueType": "function",
+        "writable": true
+      },
+      "illegalInvocation": {
+        "error": null,
+        "tested": true,
+        "throws": false
+      },
+      "length": 1,
+      "name": "suspend",
+      "nativeSource": true,
+      "source": "function suspend() { [native code] }"
+    }
+  },
+  "OscillatorNode": {
+    "setPeriodicWave": {
+      "available": true,
+      "descriptor": {
+        "configurable": true,
+        "enumerable": true,
+        "getterSource": null,
+        "hasGetter": false,
+        "hasSetter": false,
+        "setterSource": null,
+        "valueSource": "function setPeriodicWave() { [native code] }",
+        "valueType": "function",
+        "writable": true
+      },
+      "illegalInvocation": {
+        "error": {
+          "constructor": "TypeError",
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "tested": true,
+        "throws": true
+      },
+      "length": 1,
+      "name": "setPeriodicWave",
+      "nativeSource": true,
+      "source": "function setPeriodicWave() { [native code] }"
+    }
+  },
+  "PannerNode": {
+    "setOrientation": {
+      "available": true,
+      "descriptor": {
+        "configurable": true,
+        "enumerable": true,
+        "getterSource": null,
+        "hasGetter": false,
+        "hasSetter": false,
+        "setterSource": null,
+        "valueSource": "function setOrientation() { [native code] }",
+        "valueType": "function",
+        "writable": true
+      },
+      "illegalInvocation": {
+        "error": {
+          "constructor": "TypeError",
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "tested": true,
+        "throws": true
+      },
+      "length": 3,
+      "name": "setOrientation",
+      "nativeSource": true,
+      "source": "function setOrientation() { [native code] }"
+    },
+    "setPosition": {
+      "available": true,
+      "descriptor": {
+        "configurable": true,
+        "enumerable": true,
+        "getterSource": null,
+        "hasGetter": false,
+        "hasSetter": false,
+        "setterSource": null,
+        "valueSource": "function setPosition() { [native code] }",
+        "valueType": "function",
+        "writable": true
+      },
+      "illegalInvocation": {
+        "error": {
+          "constructor": "TypeError",
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "tested": true,
+        "throws": true
+      },
+      "length": 3,
+      "name": "setPosition",
+      "nativeSource": true,
+      "source": "function setPosition() { [native code] }"
+    }
+  },
+  "PeriodicWave": {},
+  "StereoPannerNode": {},
+  "WaveShaperNode": {},
+  "special": {
+    "AnalyserNode_getFloatFrequencyData": {
+      "available": true,
+      "descriptor": {
+        "configurable": true,
+        "enumerable": true,
+        "getterSource": null,
+        "hasGetter": false,
+        "hasSetter": false,
+        "setterSource": null,
+        "valueSource": "function getFloatFrequencyData() { [native code] }",
+        "valueType": "function",
+        "writable": true
+      },
+      "illegalInvocation": {
+        "error": {
+          "constructor": "TypeError",
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "tested": true,
+        "throws": true
+      },
+      "length": 1,
+      "name": "getFloatFrequencyData",
+      "nativeSource": true,
+      "source": "function getFloatFrequencyData() { [native code] }"
+    },
+    "AudioBuffer_getChannelData": {
+      "available": true,
+      "descriptor": {
+        "configurable": true,
+        "enumerable": true,
+        "getterSource": null,
+        "hasGetter": false,
+        "hasSetter": false,
+        "setterSource": null,
+        "valueSource": "function getChannelData() { [native code] }",
+        "valueType": "function",
+        "writable": true
+      },
+      "illegalInvocation": {
+        "error": {
+          "constructor": "TypeError",
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "tested": true,
+        "throws": true
+      },
+      "length": 1,
+      "name": "getChannelData",
+      "nativeSource": true,
+      "source": "function getChannelData() { [native code] }"
+    },
+    "BaseAudioContext_createAnalyser": {
+      "available": true,
+      "descriptor": {
+        "configurable": true,
+        "enumerable": true,
+        "getterSource": null,
+        "hasGetter": false,
+        "hasSetter": false,
+        "setterSource": null,
+        "valueSource": "function createAnalyser() { [native code] }",
+        "valueType": "function",
+        "writable": true
+      },
+      "illegalInvocation": {
+        "error": {
+          "constructor": "TypeError",
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "tested": true,
+        "throws": true
+      },
+      "length": 0,
+      "name": "createAnalyser",
+      "nativeSource": true,
+      "source": "function createAnalyser() { [native code] }"
+    },
+    "OfflineAudioContext_startRendering": {
+      "available": true,
+      "descriptor": {
+        "configurable": true,
+        "enumerable": true,
+        "getterSource": null,
+        "hasGetter": false,
+        "hasSetter": false,
+        "setterSource": null,
+        "valueSource": "function startRendering() { [native code] }",
+        "valueType": "function",
+        "writable": true
+      },
+      "illegalInvocation": {
+        "error": null,
+        "tested": true,
+        "throws": false
+      },
+      "length": 0,
+      "name": "startRendering",
+      "nativeSource": true,
+      "source": "function startRendering() { [native code] }"
+    }
+  }
+}

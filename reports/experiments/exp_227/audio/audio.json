@@ -1,0 +1,75 @@
+{
+  "baseLatency": null,
+  "constructor": "OfflineAudioContext",
+  "contextType": "[object OfflineAudioContext]",
+  "currentTime": 0,
+  "destination": {
+    "channelCount": 1,
+    "channelCountMode": "explicit",
+    "channelInterpretation": "speakers",
+    "constructor": "AudioDestinationNode",
+    "maxChannelCount": 1,
+    "objectToString": "[object AudioDestinationNode]",
+    "prototypeChain": [
+      "AudioDestinationNode",
+      "AudioNode",
+      "EventTarget",
+      "Object"
+    ]
+  },
+  "graph": {
+    "analyser": true,
+    "buffer": true,
+    "bufferSource": true,
+    "compressor": true,
+    "connectedOffline": true,
+    "constantSource": true,
+    "delay": true,
+    "filter": true,
+    "gain": true,
+    "merger": true,
+    "oscillator": true,
+    "panner": true,
+    "splitter": true,
+    "stereoPanner": true,
+    "waveShaper": true
+  },
+  "instanceofOfflineAudioContext": true,
+  "listener": {
+    "constructor": "AudioListener",
+    "objectToString": "[object AudioListener]"
+  },
+  "live": {
+    "available": true,
+    "baseLatency": 0.01,
+    "closed": true,
+    "constructor": "AudioContext",
+    "currentTime": 0,
+    "destination": {
+      "channelCount": 2,
+      "channelCountMode": "explicit",
+      "channelInterpretation": "speakers",
+      "constructor": "AudioDestinationNode",
+      "maxChannelCount": 2,
+      "objectToString": "[object AudioDestinationNode]"
+    },
+    "outputLatency": 0,
+    "prototypeChain": [
+      "AudioContext",
+      "BaseAudioContext",
+      "EventTarget",
+      "Object"
+    ],
+    "sampleRate": 48000,
+    "state": "running"
+  },
+  "outputLatency": null,
+  "prototypeChain": [
+    "OfflineAudioContext",
+    "BaseAudioContext",
+    "EventTarget",
+    "Object"
+  ],
+  "sampleRate": 44100,
+  "state": "suspended"
+}

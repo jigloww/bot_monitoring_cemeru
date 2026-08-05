@@ -1,0 +1,116 @@
+{
+  "nodes": [
+    {
+      "id": "browser_identity",
+      "module": "integrated",
+      "name": "Integrated Browser Identity",
+      "status": "VERIFIED",
+      "type": "BrowserIdentity"
+    },
+    {
+      "id": "canvas",
+      "module": "canvas",
+      "name": "Canvas",
+      "status": "AVAILABLE",
+      "type": "FingerprintModule"
+    },
+    {
+      "id": "audio",
+      "module": "audio",
+      "name": "Audio",
+      "status": "AVAILABLE",
+      "type": "FingerprintModule"
+    },
+    {
+      "id": "client_hints",
+      "module": "client_hints",
+      "name": "Client Hints",
+      "status": "AVAILABLE",
+      "type": "FingerprintModule"
+    },
+    {
+      "id": "plugins",
+      "module": "plugins",
+      "name": "Plugins",
+      "status": "READY",
+      "type": "FingerprintModule"
+    },
+    {
+      "id": "webrtc",
+      "module": "webrtc",
+      "name": "Webrtc",
+      "status": "READY",
+      "type": "FingerprintModule"
+    },
+    {
+      "id": "navigator",
+      "module": "navigator",
+      "name": "Navigator",
+      "status": "READY",
+      "type": "FingerprintModule"
+    },
+    {
+      "id": "permissions",
+      "module": "permissions",
+      "name": "Permissions",
+      "status": "READY",
+      "type": "FingerprintModule"
+    },
+    {
+      "id": "screen",
+      "module": "screen",
+      "name": "Screen",
+      "status": "READY",
+      "type": "FingerprintModule"
+    },
+    {
+      "id": "fonts",
+      "module": "fonts",
+      "name": "Fonts",
+      "status": "READY",
+      "type": "FingerprintModule"
+    }
+  ],
+  "edges": [
+    {
+      "relationship": "correlates_with",
+      "source": "navigator",
+      "target": "client_hints"
+    },
+    {
+      "relationship": "correlates_with",
+      "source": "navigator",
+      "target": "screen"
+    },
+    {
+      "relationship": "validates_viewport",
+      "source": "screen",
+      "target": "navigator"
+    },
+    {
+      "relationship": "correlates_with",
+      "source": "fonts",
+      "target": "canvas"
+    },
+    {
+      "relationship": "exposed_by",
+      "source": "plugins",
+      "target": "navigator"
+    },
+    {
+      "relationship": "correlates_with",
+      "source": "webrtc",
+      "target": "permissions"
+    },
+    {
+      "relationship": "verifies",
+      "source": "browser_identity",
+      "target": "navigator"
+    },
+    {
+      "relationship": "verifies",
+      "source": "browser_identity",
+      "target": "screen"
+    }
+  ]
+}

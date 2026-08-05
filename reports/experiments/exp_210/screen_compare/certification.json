@@ -1,0 +1,11 @@
+{
+  "module": "Screen",
+  "status": "PRODUCTION_READY",
+  "patch_required": false,
+  "static_similarity": 100.0,
+  "behavior_similarity": 100.0,
+  "remaining_differences": 0,
+  "critical_differences": 0,
+  "certified": true,
+  "frozen": true
+}

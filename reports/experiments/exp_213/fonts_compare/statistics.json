@@ -1,0 +1,91 @@
+{
+  "total_compared_fields": 1398,
+  "equal_fields": 1398,
+  "remaining_differences": 0,
+  "critical_differences": 0,
+  "status_distribution": {
+    "EQUAL": 1398
+  },
+  "severity_distribution": {},
+  "domain_distribution": {
+    "behavior": {
+      "total": 345,
+      "equal": 345,
+      "remaining": 0,
+      "changed": 0,
+      "missing": 0,
+      "added": 0,
+      "similarity": 100.0
+    },
+    "canvas": {
+      "total": 20,
+      "equal": 20,
+      "remaining": 0,
+      "changed": 0,
+      "missing": 0,
+      "added": 0,
+      "similarity": 100.0
+    },
+    "descriptors": {
+      "total": 410,
+      "equal": 410,
+      "remaining": 0,
+      "changed": 0,
+      "missing": 0,
+      "added": 0,
+      "similarity": 100.0
+    },
+    "fingerprint": {
+      "total": 1,
+      "equal": 1,
+      "remaining": 0,
+      "changed": 0,
+      "missing": 0,
+      "added": 0,
+      "similarity": 100.0
+    },
+    "fontface": {
+      "total": 222,
+      "equal": 222,
+      "remaining": 0,
+      "changed": 0,
+      "missing": 0,
+      "added": 0,
+      "similarity": 100.0
+    },
+    "fontfaceset": {
+      "total": 213,
+      "equal": 213,
+      "remaining": 0,
+      "changed": 0,
+      "missing": 0,
+      "added": 0,
+      "similarity": 100.0
+    },
+    "prototype": {
+      "total": 74,
+      "equal": 74,
+      "remaining": 0,
+      "changed": 0,
+      "missing": 0,
+      "added": 0,
+      "similarity": 100.0
+    },
+    "textmetrics": {
+      "total": 113,
+      "equal": 113,
+      "remaining": 0,
+      "changed": 0,
+      "missing": 0,
+      "added": 0,
+      "similarity": 100.0
+    }
+  },
+  "baseline_directory": "D:\\bot_monitoring_cemeru\\reports\\experiments\\exp_212\\fonts",
+  "baseline_fingerprint": "28eb83b77505a0bece1f2a6286d0fc35da47ef8f225005048599b0ff8ceb3718",
+  "candidate_fingerprint": "28eb83b77505a0bece1f2a6286d0fc35da47ef8f225005048599b0ff8ceb3718",
+  "capture_status": "SUCCESS",
+  "capture_error": null,
+  "browser_launches": 1,
+  "network_requests": 0
+}

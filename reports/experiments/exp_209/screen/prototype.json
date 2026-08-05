@@ -1,0 +1,164 @@
+{
+  "available": true,
+  "chain": [
+    "Screen",
+    "EventTarget",
+    "Object"
+  ],
+  "constructor": {
+    "descriptor": {
+      "configurable": true,
+      "enumerable": false,
+      "getterSource": null,
+      "hasGetter": false,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": "function Screen() { [native code] }",
+      "valueType": "function",
+      "writable": true
+    },
+    "length": 0,
+    "name": "Screen",
+    "nativeSource": true,
+    "source": "function Screen() { [native code] }"
+  },
+  "descriptors": {
+    "Symbol(Symbol.toStringTag)": null,
+    "availHeight": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": "function get availHeight() { [native code] }",
+      "hasGetter": true,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": null,
+      "valueType": null,
+      "writable": null
+    },
+    "availLeft": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": "function get availLeft() { [native code] }",
+      "hasGetter": true,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": null,
+      "valueType": null,
+      "writable": null
+    },
+    "availTop": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": "function get availTop() { [native code] }",
+      "hasGetter": true,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": null,
+      "valueType": null,
+      "writable": null
+    },
+    "availWidth": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": "function get availWidth() { [native code] }",
+      "hasGetter": true,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": null,
+      "valueType": null,
+      "writable": null
+    },
+    "colorDepth": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": "function get colorDepth() { [native code] }",
+      "hasGetter": true,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": null,
+      "valueType": null,
+      "writable": null
+    },
+    "constructor": {
+      "configurable": true,
+      "enumerable": false,
+      "getterSource": null,
+      "hasGetter": false,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": "function Screen() { [native code] }",
+      "valueType": "function",
+      "writable": true
+    },
+    "height": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": "function get height() { [native code] }",
+      "hasGetter": true,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": null,
+      "valueType": null,
+      "writable": null
+    },
+    "orientation": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": "function get orientation() { [native code] }",
+      "hasGetter": true,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": null,
+      "valueType": null,
+      "writable": null
+    },
+    "pixelDepth": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": "function get pixelDepth() { [native code] }",
+      "hasGetter": true,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": null,
+      "valueType": null,
+      "writable": null
+    },
+    "width": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": "function get width() { [native code] }",
+      "hasGetter": true,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": null,
+      "valueType": null,
+      "writable": null
+    }
+  },
+  "instanceofObject": true,
+  "objectPrototype": "EventTarget",
+  "ownProperties": [
+    "Symbol(Symbol.toStringTag)",
+    "availHeight",
+    "availLeft",
+    "availTop",
+    "availWidth",
+    "colorDepth",
+    "constructor",
+    "height",
+    "orientation",
+    "pixelDepth",
+    "width"
+  ],
+  "toStringTag": {
+    "configurable": true,
+    "enumerable": false,
+    "getterSource": null,
+    "hasGetter": false,
+    "hasSetter": false,
+    "setterSource": null,
+    "valueSource": null,
+    "valueType": "string",
+    "writable": false
+  }
+}

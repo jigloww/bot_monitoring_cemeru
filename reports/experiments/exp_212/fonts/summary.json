@@ -1,0 +1,17 @@
+{
+  "experiment": "Experiment 058 - Fonts Collector",
+  "experiment_id": "exp_212",
+  "created_at": "2026-08-05T09:26:22.809741+07:00",
+  "result": "SUCCESS",
+  "available": true,
+  "browser": "chrome",
+  "headless": true,
+  "browser_platform": "BrowserSessionManager -> launch_browser",
+  "fontface_count": 0,
+  "textmetrics_available": true,
+  "fingerprint_sha256": "28eb83b77505a0bece1f2a6286d0fc35da47ef8f225005048599b0ff8ceb3718",
+  "browser_launches": 1,
+  "network_requests": 0,
+  "historical_artifacts_modified": false,
+  "validation_valid": true
+}

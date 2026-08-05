@@ -1,0 +1,141 @@
+{
+  "available": true,
+  "constructor": "TextMetrics",
+  "descriptors": {
+    "actualBoundingBoxAscent": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": "function get actualBoundingBoxAscent() { [native code] }",
+      "hasGetter": true,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": null,
+      "valueType": null,
+      "writable": null
+    },
+    "actualBoundingBoxDescent": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": "function get actualBoundingBoxDescent() { [native code] }",
+      "hasGetter": true,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": null,
+      "valueType": null,
+      "writable": null
+    },
+    "actualBoundingBoxLeft": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": "function get actualBoundingBoxLeft() { [native code] }",
+      "hasGetter": true,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": null,
+      "valueType": null,
+      "writable": null
+    },
+    "actualBoundingBoxRight": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": "function get actualBoundingBoxRight() { [native code] }",
+      "hasGetter": true,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": null,
+      "valueType": null,
+      "writable": null
+    },
+    "alphabeticBaseline": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": "function get alphabeticBaseline() { [native code] }",
+      "hasGetter": true,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": null,
+      "valueType": null,
+      "writable": null
+    },
+    "emHeightAscent": null,
+    "emHeightDescent": null,
+    "fontBoundingBoxAscent": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": "function get fontBoundingBoxAscent() { [native code] }",
+      "hasGetter": true,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": null,
+      "valueType": null,
+      "writable": null
+    },
+    "fontBoundingBoxDescent": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": "function get fontBoundingBoxDescent() { [native code] }",
+      "hasGetter": true,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": null,
+      "valueType": null,
+      "writable": null
+    },
+    "hangingBaseline": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": "function get hangingBaseline() { [native code] }",
+      "hasGetter": true,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": null,
+      "valueType": null,
+      "writable": null
+    },
+    "ideographicBaseline": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": "function get ideographicBaseline() { [native code] }",
+      "hasGetter": true,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": null,
+      "valueType": null,
+      "writable": null
+    },
+    "width": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": "function get width() { [native code] }",
+      "hasGetter": true,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": null,
+      "valueType": null,
+      "writable": null
+    }
+  },
+  "objectToString": {
+    "constructor": "TextMetrics",
+    "objectToString": "[object TextMetrics]",
+    "ownProperties": [],
+    "type": "object"
+  },
+  "prototype": "TextMetrics",
+  "repeatedWidth": 75.5908203125,
+  "values": {
+    "actualBoundingBoxAscent": 7,
+    "actualBoundingBoxDescent": 2,
+    "actualBoundingBoxLeft": 0,
+    "actualBoundingBoxRight": 76.5908203125,
+    "alphabeticBaseline": -0.0,
+    "emHeightAscent": null,
+    "emHeightDescent": null,
+    "fontBoundingBoxAscent": 9,
+    "fontBoundingBoxDescent": 2,
+    "hangingBaseline": 7.199999809265137,
+    "ideographicBaseline": -2,
+    "width": 75.5908203125
+  },
+  "widthStable": true
+}

@@ -1,0 +1,1924 @@
+{
+  "AnalyserNode": {
+    "Symbol(Symbol.toStringTag)": null,
+    "constructor": {
+      "configurable": true,
+      "enumerable": false,
+      "getterSource": null,
+      "hasGetter": false,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": "function AnalyserNode() { [native code] }",
+      "valueType": "function",
+      "writable": true
+    },
+    "fftSize": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": "function get fftSize() { [native code] }",
+      "hasGetter": true,
+      "hasSetter": true,
+      "setterSource": "function set fftSize() { [native code] }",
+      "valueSource": null,
+      "valueType": null,
+      "writable": null
+    },
+    "frequencyBinCount": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": "function get frequencyBinCount() { [native code] }",
+      "hasGetter": true,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": null,
+      "valueType": null,
+      "writable": null
+    },
+    "getByteFrequencyData": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": null,
+      "hasGetter": false,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": "function getByteFrequencyData() { [native code] }",
+      "valueType": "function",
+      "writable": true
+    },
+    "getByteTimeDomainData": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": null,
+      "hasGetter": false,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": "function getByteTimeDomainData() { [native code] }",
+      "valueType": "function",
+      "writable": true
+    },
+    "getFloatFrequencyData": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": null,
+      "hasGetter": false,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": "function getFloatFrequencyData() { [native code] }",
+      "valueType": "function",
+      "writable": true
+    },
+    "getFloatTimeDomainData": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": null,
+      "hasGetter": false,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": "function getFloatTimeDomainData() { [native code] }",
+      "valueType": "function",
+      "writable": true
+    },
+    "maxDecibels": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": "function get maxDecibels() { [native code] }",
+      "hasGetter": true,
+      "hasSetter": true,
+      "setterSource": "function set maxDecibels() { [native code] }",
+      "valueSource": null,
+      "valueType": null,
+      "writable": null
+    },
+    "minDecibels": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": "function get minDecibels() { [native code] }",
+      "hasGetter": true,
+      "hasSetter": true,
+      "setterSource": "function set minDecibels() { [native code] }",
+      "valueSource": null,
+      "valueType": null,
+      "writable": null
+    },
+    "smoothingTimeConstant": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": "function get smoothingTimeConstant() { [native code] }",
+      "hasGetter": true,
+      "hasSetter": true,
+      "setterSource": "function set smoothingTimeConstant() { [native code] }",
+      "valueSource": null,
+      "valueType": null,
+      "writable": null
+    }
+  },
+  "AudioBuffer": {
+    "Symbol(Symbol.toStringTag)": null,
+    "constructor": {
+      "configurable": true,
+      "enumerable": false,
+      "getterSource": null,
+      "hasGetter": false,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": "function AudioBuffer() { [native code] }",
+      "valueType": "function",
+      "writable": true
+    },
+    "copyFromChannel": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": null,
+      "hasGetter": false,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": "function copyFromChannel() { [native code] }",
+      "valueType": "function",
+      "writable": true
+    },
+    "copyToChannel": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": null,
+      "hasGetter": false,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": "function copyToChannel() { [native code] }",
+      "valueType": "function",
+      "writable": true
+    },
+    "duration": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": "function get duration() { [native code] }",
+      "hasGetter": true,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": null,
+      "valueType": null,
+      "writable": null
+    },
+    "getChannelData": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": null,
+      "hasGetter": false,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": "function getChannelData() { [native code] }",
+      "valueType": "function",
+      "writable": true
+    },
+    "length": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": "function get length() { [native code] }",
+      "hasGetter": true,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": null,
+      "valueType": null,
+      "writable": null
+    },
+    "numberOfChannels": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": "function get numberOfChannels() { [native code] }",
+      "hasGetter": true,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": null,
+      "valueType": null,
+      "writable": null
+    },
+    "sampleRate": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": "function get sampleRate() { [native code] }",
+      "hasGetter": true,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": null,
+      "valueType": null,
+      "writable": null
+    }
+  },
+  "AudioBufferSourceNode": {
+    "Symbol(Symbol.toStringTag)": null,
+    "buffer": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": "function get buffer() { [native code] }",
+      "hasGetter": true,
+      "hasSetter": true,
+      "setterSource": "function set buffer() { [native code] }",
+      "valueSource": null,
+      "valueType": null,
+      "writable": null
+    },
+    "constructor": {
+      "configurable": true,
+      "enumerable": false,
+      "getterSource": null,
+      "hasGetter": false,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": "function AudioBufferSourceNode() { [native code] }",
+      "valueType": "function",
+      "writable": true
+    },
+    "detune": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": "function get detune() { [native code] }",
+      "hasGetter": true,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": null,
+      "valueType": null,
+      "writable": null
+    },
+    "loop": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": "function get loop() { [native code] }",
+      "hasGetter": true,
+      "hasSetter": true,
+      "setterSource": "function set loop() { [native code] }",
+      "valueSource": null,
+      "valueType": null,
+      "writable": null
+    },
+    "loopEnd": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": "function get loopEnd() { [native code] }",
+      "hasGetter": true,
+      "hasSetter": true,
+      "setterSource": "function set loopEnd() { [native code] }",
+      "valueSource": null,
+      "valueType": null,
+      "writable": null
+    },
+    "loopStart": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": "function get loopStart() { [native code] }",
+      "hasGetter": true,
+      "hasSetter": true,
+      "setterSource": "function set loopStart() { [native code] }",
+      "valueSource": null,
+      "valueType": null,
+      "writable": null
+    },
+    "playbackRate": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": "function get playbackRate() { [native code] }",
+      "hasGetter": true,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": null,
+      "valueType": null,
+      "writable": null
+    },
+    "start": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": null,
+      "hasGetter": false,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": "function start() { [native code] }",
+      "valueType": "function",
+      "writable": true
+    }
+  },
+  "AudioContext": {
+    "Symbol(Symbol.toStringTag)": null,
+    "baseLatency": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": "function get baseLatency() { [native code] }",
+      "hasGetter": true,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": null,
+      "valueType": null,
+      "writable": null
+    },
+    "close": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": null,
+      "hasGetter": false,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": "function close() { [native code] }",
+      "valueType": "function",
+      "writable": true
+    },
+    "constructor": {
+      "configurable": true,
+      "enumerable": false,
+      "getterSource": null,
+      "hasGetter": false,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": "function AudioContext() { [native code] }",
+      "valueType": "function",
+      "writable": true
+    },
+    "createMediaElementSource": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": null,
+      "hasGetter": false,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": "function createMediaElementSource() { [native code] }",
+      "valueType": "function",
+      "writable": true
+    },
+    "createMediaStreamDestination": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": null,
+      "hasGetter": false,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": "function createMediaStreamDestination() { [native code] }",
+      "valueType": "function",
+      "writable": true
+    },
+    "createMediaStreamSource": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": null,
+      "hasGetter": false,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": "function createMediaStreamSource() { [native code] }",
+      "valueType": "function",
+      "writable": true
+    },
+    "getOutputTimestamp": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": null,
+      "hasGetter": false,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": "function getOutputTimestamp() { [native code] }",
+      "valueType": "function",
+      "writable": true
+    },
+    "onerror": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": "function get onerror() { [native code] }",
+      "hasGetter": true,
+      "hasSetter": true,
+      "setterSource": "function set onerror() { [native code] }",
+      "valueSource": null,
+      "valueType": null,
+      "writable": null
+    },
+    "outputLatency": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": "function get outputLatency() { [native code] }",
+      "hasGetter": true,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": null,
+      "valueType": null,
+      "writable": null
+    },
+    "playbackStats": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": "function get playbackStats() { [native code] }",
+      "hasGetter": true,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": null,
+      "valueType": null,
+      "writable": null
+    },
+    "resume": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": null,
+      "hasGetter": false,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": "function resume() { [native code] }",
+      "valueType": "function",
+      "writable": true
+    },
+    "suspend": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": null,
+      "hasGetter": false,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": "function suspend() { [native code] }",
+      "valueType": "function",
+      "writable": true
+    }
+  },
+  "AudioDestinationNode": {
+    "Symbol(Symbol.toStringTag)": null,
+    "constructor": {
+      "configurable": true,
+      "enumerable": false,
+      "getterSource": null,
+      "hasGetter": false,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": "function AudioDestinationNode() { [native code] }",
+      "valueType": "function",
+      "writable": true
+    },
+    "maxChannelCount": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": "function get maxChannelCount() { [native code] }",
+      "hasGetter": true,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": null,
+      "valueType": null,
+      "writable": null
+    }
+  },
+  "AudioListener": {
+    "Symbol(Symbol.toStringTag)": null,
+    "constructor": {
+      "configurable": true,
+      "enumerable": false,
+      "getterSource": null,
+      "hasGetter": false,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": "function AudioListener() { [native code] }",
+      "valueType": "function",
+      "writable": true
+    },
+    "forwardX": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": "function get forwardX() { [native code] }",
+      "hasGetter": true,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": null,
+      "valueType": null,
+      "writable": null
+    },
+    "forwardY": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": "function get forwardY() { [native code] }",
+      "hasGetter": true,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": null,
+      "valueType": null,
+      "writable": null
+    },
+    "forwardZ": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": "function get forwardZ() { [native code] }",
+      "hasGetter": true,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": null,
+      "valueType": null,
+      "writable": null
+    },
+    "positionX": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": "function get positionX() { [native code] }",
+      "hasGetter": true,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": null,
+      "valueType": null,
+      "writable": null
+    },
+    "positionY": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": "function get positionY() { [native code] }",
+      "hasGetter": true,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": null,
+      "valueType": null,
+      "writable": null
+    },
+    "positionZ": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": "function get positionZ() { [native code] }",
+      "hasGetter": true,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": null,
+      "valueType": null,
+      "writable": null
+    },
+    "setOrientation": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": null,
+      "hasGetter": false,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": "function setOrientation() { [native code] }",
+      "valueType": "function",
+      "writable": true
+    },
+    "setPosition": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": null,
+      "hasGetter": false,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": "function setPosition() { [native code] }",
+      "valueType": "function",
+      "writable": true
+    },
+    "upX": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": "function get upX() { [native code] }",
+      "hasGetter": true,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": null,
+      "valueType": null,
+      "writable": null
+    },
+    "upY": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": "function get upY() { [native code] }",
+      "hasGetter": true,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": null,
+      "valueType": null,
+      "writable": null
+    },
+    "upZ": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": "function get upZ() { [native code] }",
+      "hasGetter": true,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": null,
+      "valueType": null,
+      "writable": null
+    }
+  },
+  "AudioNode": {
+    "Symbol(Symbol.toStringTag)": null,
+    "channelCount": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": "function get channelCount() { [native code] }",
+      "hasGetter": true,
+      "hasSetter": true,
+      "setterSource": "function set channelCount() { [native code] }",
+      "valueSource": null,
+      "valueType": null,
+      "writable": null
+    },
+    "channelCountMode": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": "function get channelCountMode() { [native code] }",
+      "hasGetter": true,
+      "hasSetter": true,
+      "setterSource": "function set channelCountMode() { [native code] }",
+      "valueSource": null,
+      "valueType": null,
+      "writable": null
+    },
+    "channelInterpretation": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": "function get channelInterpretation() { [native code] }",
+      "hasGetter": true,
+      "hasSetter": true,
+      "setterSource": "function set channelInterpretation() { [native code] }",
+      "valueSource": null,
+      "valueType": null,
+      "writable": null
+    },
+    "connect": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": null,
+      "hasGetter": false,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": "function connect() { [native code] }",
+      "valueType": "function",
+      "writable": true
+    },
+    "constructor": {
+      "configurable": true,
+      "enumerable": false,
+      "getterSource": null,
+      "hasGetter": false,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": "function AudioNode() { [native code] }",
+      "valueType": "function",
+      "writable": true
+    },
+    "context": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": "function get context() { [native code] }",
+      "hasGetter": true,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": null,
+      "valueType": null,
+      "writable": null
+    },
+    "disconnect": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": null,
+      "hasGetter": false,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": "function disconnect() { [native code] }",
+      "valueType": "function",
+      "writable": true
+    },
+    "numberOfInputs": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": "function get numberOfInputs() { [native code] }",
+      "hasGetter": true,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": null,
+      "valueType": null,
+      "writable": null
+    },
+    "numberOfOutputs": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": "function get numberOfOutputs() { [native code] }",
+      "hasGetter": true,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": null,
+      "valueType": null,
+      "writable": null
+    }
+  },
+  "AudioParam": {
+    "Symbol(Symbol.toStringTag)": null,
+    "automationRate": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": "function get automationRate() { [native code] }",
+      "hasGetter": true,
+      "hasSetter": true,
+      "setterSource": "function set automationRate() { [native code] }",
+      "valueSource": null,
+      "valueType": null,
+      "writable": null
+    },
+    "cancelAndHoldAtTime": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": null,
+      "hasGetter": false,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": "function cancelAndHoldAtTime() { [native code] }",
+      "valueType": "function",
+      "writable": true
+    },
+    "cancelScheduledValues": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": null,
+      "hasGetter": false,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": "function cancelScheduledValues() { [native code] }",
+      "valueType": "function",
+      "writable": true
+    },
+    "constructor": {
+      "configurable": true,
+      "enumerable": false,
+      "getterSource": null,
+      "hasGetter": false,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": "function AudioParam() { [native code] }",
+      "valueType": "function",
+      "writable": true
+    },
+    "defaultValue": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": "function get defaultValue() { [native code] }",
+      "hasGetter": true,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": null,
+      "valueType": null,
+      "writable": null
+    },
+    "exponentialRampToValueAtTime": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": null,
+      "hasGetter": false,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": "function exponentialRampToValueAtTime() { [native code] }",
+      "valueType": "function",
+      "writable": true
+    },
+    "linearRampToValueAtTime": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": null,
+      "hasGetter": false,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": "function linearRampToValueAtTime() { [native code] }",
+      "valueType": "function",
+      "writable": true
+    },
+    "maxValue": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": "function get maxValue() { [native code] }",
+      "hasGetter": true,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": null,
+      "valueType": null,
+      "writable": null
+    },
+    "minValue": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": "function get minValue() { [native code] }",
+      "hasGetter": true,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": null,
+      "valueType": null,
+      "writable": null
+    },
+    "setTargetAtTime": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": null,
+      "hasGetter": false,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": "function setTargetAtTime() { [native code] }",
+      "valueType": "function",
+      "writable": true
+    },
+    "setValueAtTime": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": null,
+      "hasGetter": false,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": "function setValueAtTime() { [native code] }",
+      "valueType": "function",
+      "writable": true
+    },
+    "setValueCurveAtTime": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": null,
+      "hasGetter": false,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": "function setValueCurveAtTime() { [native code] }",
+      "valueType": "function",
+      "writable": true
+    },
+    "value": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": "function get value() { [native code] }",
+      "hasGetter": true,
+      "hasSetter": true,
+      "setterSource": "function set value() { [native code] }",
+      "valueSource": null,
+      "valueType": null,
+      "writable": null
+    }
+  },
+  "AudioScheduledSourceNode": {
+    "Symbol(Symbol.toStringTag)": null,
+    "constructor": {
+      "configurable": true,
+      "enumerable": false,
+      "getterSource": null,
+      "hasGetter": false,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": "function AudioScheduledSourceNode() { [native code] }",
+      "valueType": "function",
+      "writable": true
+    },
+    "onended": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": "function get onended() { [native code] }",
+      "hasGetter": true,
+      "hasSetter": true,
+      "setterSource": "function set onended() { [native code] }",
+      "valueSource": null,
+      "valueType": null,
+      "writable": null
+    },
+    "start": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": null,
+      "hasGetter": false,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": "function start() { [native code] }",
+      "valueType": "function",
+      "writable": true
+    },
+    "stop": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": null,
+      "hasGetter": false,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": "function stop() { [native code] }",
+      "valueType": "function",
+      "writable": true
+    }
+  },
+  "AudioWorkletNode": {
+    "Symbol(Symbol.toStringTag)": null,
+    "constructor": {
+      "configurable": true,
+      "enumerable": false,
+      "getterSource": null,
+      "hasGetter": false,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": "function AudioWorkletNode() { [native code] }",
+      "valueType": "function",
+      "writable": true
+    },
+    "onprocessorerror": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": "function get onprocessorerror() { [native code] }",
+      "hasGetter": true,
+      "hasSetter": true,
+      "setterSource": "function set onprocessorerror() { [native code] }",
+      "valueSource": null,
+      "valueType": null,
+      "writable": null
+    },
+    "parameters": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": "function get parameters() { [native code] }",
+      "hasGetter": true,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": null,
+      "valueType": null,
+      "writable": null
+    },
+    "port": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": "function get port() { [native code] }",
+      "hasGetter": true,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": null,
+      "valueType": null,
+      "writable": null
+    }
+  },
+  "BaseAudioContext": {
+    "Symbol(Symbol.toStringTag)": null,
+    "constructor": {
+      "configurable": true,
+      "enumerable": false,
+      "getterSource": null,
+      "hasGetter": false,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": "function BaseAudioContext() { [native code] }",
+      "valueType": "function",
+      "writable": true
+    },
+    "createAnalyser": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": null,
+      "hasGetter": false,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": "function createAnalyser() { [native code] }",
+      "valueType": "function",
+      "writable": true
+    },
+    "createBiquadFilter": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": null,
+      "hasGetter": false,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": "function createBiquadFilter() { [native code] }",
+      "valueType": "function",
+      "writable": true
+    },
+    "createBuffer": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": null,
+      "hasGetter": false,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": "function createBuffer() { [native code] }",
+      "valueType": "function",
+      "writable": true
+    },
+    "createBufferSource": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": null,
+      "hasGetter": false,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": "function createBufferSource() { [native code] }",
+      "valueType": "function",
+      "writable": true
+    },
+    "createChannelMerger": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": null,
+      "hasGetter": false,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": "function createChannelMerger() { [native code] }",
+      "valueType": "function",
+      "writable": true
+    },
+    "createChannelSplitter": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": null,
+      "hasGetter": false,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": "function createChannelSplitter() { [native code] }",
+      "valueType": "function",
+      "writable": true
+    },
+    "createConstantSource": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": null,
+      "hasGetter": false,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": "function createConstantSource() { [native code] }",
+      "valueType": "function",
+      "writable": true
+    },
+    "createConvolver": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": null,
+      "hasGetter": false,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": "function createConvolver() { [native code] }",
+      "valueType": "function",
+      "writable": true
+    },
+    "createDelay": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": null,
+      "hasGetter": false,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": "function createDelay() { [native code] }",
+      "valueType": "function",
+      "writable": true
+    },
+    "createDynamicsCompressor": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": null,
+      "hasGetter": false,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": "function createDynamicsCompressor() { [native code] }",
+      "valueType": "function",
+      "writable": true
+    },
+    "createGain": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": null,
+      "hasGetter": false,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": "function createGain() { [native code] }",
+      "valueType": "function",
+      "writable": true
+    },
+    "createIIRFilter": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": null,
+      "hasGetter": false,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": "function createIIRFilter() { [native code] }",
+      "valueType": "function",
+      "writable": true
+    },
+    "createOscillator": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": null,
+      "hasGetter": false,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": "function createOscillator() { [native code] }",
+      "valueType": "function",
+      "writable": true
+    },
+    "createPanner": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": null,
+      "hasGetter": false,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": "function createPanner() { [native code] }",
+      "valueType": "function",
+      "writable": true
+    },
+    "createPeriodicWave": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": null,
+      "hasGetter": false,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": "function createPeriodicWave() { [native code] }",
+      "valueType": "function",
+      "writable": true
+    },
+    "createScriptProcessor": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": null,
+      "hasGetter": false,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": "function createScriptProcessor() { [native code] }",
+      "valueType": "function",
+      "writable": true
+    },
+    "createStereoPanner": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": null,
+      "hasGetter": false,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": "function createStereoPanner() { [native code] }",
+      "valueType": "function",
+      "writable": true
+    },
+    "createWaveShaper": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": null,
+      "hasGetter": false,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": "function createWaveShaper() { [native code] }",
+      "valueType": "function",
+      "writable": true
+    },
+    "currentTime": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": "function get currentTime() { [native code] }",
+      "hasGetter": true,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": null,
+      "valueType": null,
+      "writable": null
+    },
+    "decodeAudioData": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": null,
+      "hasGetter": false,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": "function decodeAudioData() { [native code] }",
+      "valueType": "function",
+      "writable": true
+    },
+    "destination": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": "function get destination() { [native code] }",
+      "hasGetter": true,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": null,
+      "valueType": null,
+      "writable": null
+    },
+    "listener": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": "function get listener() { [native code] }",
+      "hasGetter": true,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": null,
+      "valueType": null,
+      "writable": null
+    },
+    "onstatechange": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": "function get onstatechange() { [native code] }",
+      "hasGetter": true,
+      "hasSetter": true,
+      "setterSource": "function set onstatechange() { [native code] }",
+      "valueSource": null,
+      "valueType": null,
+      "writable": null
+    },
+    "sampleRate": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": "function get sampleRate() { [native code] }",
+      "hasGetter": true,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": null,
+      "valueType": null,
+      "writable": null
+    },
+    "state": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": "function get state() { [native code] }",
+      "hasGetter": true,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": null,
+      "valueType": null,
+      "writable": null
+    }
+  },
+  "BiquadFilterNode": {
+    "Q": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": "function get Q() { [native code] }",
+      "hasGetter": true,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": null,
+      "valueType": null,
+      "writable": null
+    },
+    "Symbol(Symbol.toStringTag)": null,
+    "constructor": {
+      "configurable": true,
+      "enumerable": false,
+      "getterSource": null,
+      "hasGetter": false,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": "function BiquadFilterNode() { [native code] }",
+      "valueType": "function",
+      "writable": true
+    },
+    "detune": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": "function get detune() { [native code] }",
+      "hasGetter": true,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": null,
+      "valueType": null,
+      "writable": null
+    },
+    "frequency": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": "function get frequency() { [native code] }",
+      "hasGetter": true,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": null,
+      "valueType": null,
+      "writable": null
+    },
+    "gain": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": "function get gain() { [native code] }",
+      "hasGetter": true,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": null,
+      "valueType": null,
+      "writable": null
+    },
+    "getFrequencyResponse": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": null,
+      "hasGetter": false,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": "function getFrequencyResponse() { [native code] }",
+      "valueType": "function",
+      "writable": true
+    },
+    "type": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": "function get type() { [native code] }",
+      "hasGetter": true,
+      "hasSetter": true,
+      "setterSource": "function set type() { [native code] }",
+      "valueSource": null,
+      "valueType": null,
+      "writable": null
+    }
+  },
+  "ChannelMergerNode": {
+    "Symbol(Symbol.toStringTag)": null,
+    "constructor": {
+      "configurable": true,
+      "enumerable": false,
+      "getterSource": null,
+      "hasGetter": false,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": "function ChannelMergerNode() { [native code] }",
+      "valueType": "function",
+      "writable": true
+    }
+  },
+  "ChannelSplitterNode": {
+    "Symbol(Symbol.toStringTag)": null,
+    "constructor": {
+      "configurable": true,
+      "enumerable": false,
+      "getterSource": null,
+      "hasGetter": false,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": "function ChannelSplitterNode() { [native code] }",
+      "valueType": "function",
+      "writable": true
+    }
+  },
+  "ConstantSourceNode": {
+    "Symbol(Symbol.toStringTag)": null,
+    "constructor": {
+      "configurable": true,
+      "enumerable": false,
+      "getterSource": null,
+      "hasGetter": false,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": "function ConstantSourceNode() { [native code] }",
+      "valueType": "function",
+      "writable": true
+    },
+    "offset": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": "function get offset() { [native code] }",
+      "hasGetter": true,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": null,
+      "valueType": null,
+      "writable": null
+    }
+  },
+  "DelayNode": {
+    "Symbol(Symbol.toStringTag)": null,
+    "constructor": {
+      "configurable": true,
+      "enumerable": false,
+      "getterSource": null,
+      "hasGetter": false,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": "function DelayNode() { [native code] }",
+      "valueType": "function",
+      "writable": true
+    },
+    "delayTime": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": "function get delayTime() { [native code] }",
+      "hasGetter": true,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": null,
+      "valueType": null,
+      "writable": null
+    }
+  },
+  "DynamicsCompressorNode": {
+    "Symbol(Symbol.toStringTag)": null,
+    "attack": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": "function get attack() { [native code] }",
+      "hasGetter": true,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": null,
+      "valueType": null,
+      "writable": null
+    },
+    "constructor": {
+      "configurable": true,
+      "enumerable": false,
+      "getterSource": null,
+      "hasGetter": false,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": "function DynamicsCompressorNode() { [native code] }",
+      "valueType": "function",
+      "writable": true
+    },
+    "knee": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": "function get knee() { [native code] }",
+      "hasGetter": true,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": null,
+      "valueType": null,
+      "writable": null
+    },
+    "ratio": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": "function get ratio() { [native code] }",
+      "hasGetter": true,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": null,
+      "valueType": null,
+      "writable": null
+    },
+    "reduction": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": "function get reduction() { [native code] }",
+      "hasGetter": true,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": null,
+      "valueType": null,
+      "writable": null
+    },
+    "release": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": "function get release() { [native code] }",
+      "hasGetter": true,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": null,
+      "valueType": null,
+      "writable": null
+    },
+    "threshold": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": "function get threshold() { [native code] }",
+      "hasGetter": true,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": null,
+      "valueType": null,
+      "writable": null
+    }
+  },
+  "GainNode": {
+    "Symbol(Symbol.toStringTag)": null,
+    "constructor": {
+      "configurable": true,
+      "enumerable": false,
+      "getterSource": null,
+      "hasGetter": false,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": "function GainNode() { [native code] }",
+      "valueType": "function",
+      "writable": true
+    },
+    "gain": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": "function get gain() { [native code] }",
+      "hasGetter": true,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": null,
+      "valueType": null,
+      "writable": null
+    }
+  },
+  "OfflineAudioContext": {
+    "Symbol(Symbol.toStringTag)": null,
+    "constructor": {
+      "configurable": true,
+      "enumerable": false,
+      "getterSource": null,
+      "hasGetter": false,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": "function OfflineAudioContext() { [native code] }",
+      "valueType": "function",
+      "writable": true
+    },
+    "length": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": "function get length() { [native code] }",
+      "hasGetter": true,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": null,
+      "valueType": null,
+      "writable": null
+    },
+    "oncomplete": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": "function get oncomplete() { [native code] }",
+      "hasGetter": true,
+      "hasSetter": true,
+      "setterSource": "function set oncomplete() { [native code] }",
+      "valueSource": null,
+      "valueType": null,
+      "writable": null
+    },
+    "resume": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": null,
+      "hasGetter": false,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": "function resume() { [native code] }",
+      "valueType": "function",
+      "writable": true
+    },
+    "startRendering": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": null,
+      "hasGetter": false,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": "function startRendering() { [native code] }",
+      "valueType": "function",
+      "writable": true
+    },
+    "suspend": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": null,
+      "hasGetter": false,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": "function suspend() { [native code] }",
+      "valueType": "function",
+      "writable": true
+    }
+  },
+  "OscillatorNode": {
+    "Symbol(Symbol.toStringTag)": null,
+    "constructor": {
+      "configurable": true,
+      "enumerable": false,
+      "getterSource": null,
+      "hasGetter": false,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": "function OscillatorNode() { [native code] }",
+      "valueType": "function",
+      "writable": true
+    },
+    "detune": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": "function get detune() { [native code] }",
+      "hasGetter": true,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": null,
+      "valueType": null,
+      "writable": null
+    },
+    "frequency": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": "function get frequency() { [native code] }",
+      "hasGetter": true,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": null,
+      "valueType": null,
+      "writable": null
+    },
+    "setPeriodicWave": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": null,
+      "hasGetter": false,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": "function setPeriodicWave() { [native code] }",
+      "valueType": "function",
+      "writable": true
+    },
+    "type": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": "function get type() { [native code] }",
+      "hasGetter": true,
+      "hasSetter": true,
+      "setterSource": "function set type() { [native code] }",
+      "valueSource": null,
+      "valueType": null,
+      "writable": null
+    }
+  },
+  "PannerNode": {
+    "Symbol(Symbol.toStringTag)": null,
+    "coneInnerAngle": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": "function get coneInnerAngle() { [native code] }",
+      "hasGetter": true,
+      "hasSetter": true,
+      "setterSource": "function set coneInnerAngle() { [native code] }",
+      "valueSource": null,
+      "valueType": null,
+      "writable": null
+    },
+    "coneOuterAngle": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": "function get coneOuterAngle() { [native code] }",
+      "hasGetter": true,
+      "hasSetter": true,
+      "setterSource": "function set coneOuterAngle() { [native code] }",
+      "valueSource": null,
+      "valueType": null,
+      "writable": null
+    },
+    "coneOuterGain": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": "function get coneOuterGain() { [native code] }",
+      "hasGetter": true,
+      "hasSetter": true,
+      "setterSource": "function set coneOuterGain() { [native code] }",
+      "valueSource": null,
+      "valueType": null,
+      "writable": null
+    },
+    "constructor": {
+      "configurable": true,
+      "enumerable": false,
+      "getterSource": null,
+      "hasGetter": false,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": "function PannerNode() { [native code] }",
+      "valueType": "function",
+      "writable": true
+    },
+    "distanceModel": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": "function get distanceModel() { [native code] }",
+      "hasGetter": true,
+      "hasSetter": true,
+      "setterSource": "function set distanceModel() { [native code] }",
+      "valueSource": null,
+      "valueType": null,
+      "writable": null
+    },
+    "maxDistance": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": "function get maxDistance() { [native code] }",
+      "hasGetter": true,
+      "hasSetter": true,
+      "setterSource": "function set maxDistance() { [native code] }",
+      "valueSource": null,
+      "valueType": null,
+      "writable": null
+    },
+    "orientationX": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": "function get orientationX() { [native code] }",
+      "hasGetter": true,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": null,
+      "valueType": null,
+      "writable": null
+    },
+    "orientationY": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": "function get orientationY() { [native code] }",
+      "hasGetter": true,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": null,
+      "valueType": null,
+      "writable": null
+    },
+    "orientationZ": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": "function get orientationZ() { [native code] }",
+      "hasGetter": true,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": null,
+      "valueType": null,
+      "writable": null
+    },
+    "panningModel": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": "function get panningModel() { [native code] }",
+      "hasGetter": true,
+      "hasSetter": true,
+      "setterSource": "function set panningModel() { [native code] }",
+      "valueSource": null,
+      "valueType": null,
+      "writable": null
+    },
+    "positionX": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": "function get positionX() { [native code] }",
+      "hasGetter": true,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": null,
+      "valueType": null,
+      "writable": null
+    },
+    "positionY": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": "function get positionY() { [native code] }",
+      "hasGetter": true,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": null,
+      "valueType": null,
+      "writable": null
+    },
+    "positionZ": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": "function get positionZ() { [native code] }",
+      "hasGetter": true,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": null,
+      "valueType": null,
+      "writable": null
+    },
+    "refDistance": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": "function get refDistance() { [native code] }",
+      "hasGetter": true,
+      "hasSetter": true,
+      "setterSource": "function set refDistance() { [native code] }",
+      "valueSource": null,
+      "valueType": null,
+      "writable": null
+    },
+    "rolloffFactor": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": "function get rolloffFactor() { [native code] }",
+      "hasGetter": true,
+      "hasSetter": true,
+      "setterSource": "function set rolloffFactor() { [native code] }",
+      "valueSource": null,
+      "valueType": null,
+      "writable": null
+    },
+    "setOrientation": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": null,
+      "hasGetter": false,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": "function setOrientation() { [native code] }",
+      "valueType": "function",
+      "writable": true
+    },
+    "setPosition": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": null,
+      "hasGetter": false,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": "function setPosition() { [native code] }",
+      "valueType": "function",
+      "writable": true
+    }
+  },
+  "PeriodicWave": {
+    "Symbol(Symbol.toStringTag)": null,
+    "constructor": {
+      "configurable": true,
+      "enumerable": false,
+      "getterSource": null,
+      "hasGetter": false,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": "function PeriodicWave() { [native code] }",
+      "valueType": "function",
+      "writable": true
+    }
+  },
+  "StereoPannerNode": {
+    "Symbol(Symbol.toStringTag)": null,
+    "constructor": {
+      "configurable": true,
+      "enumerable": false,
+      "getterSource": null,
+      "hasGetter": false,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": "function StereoPannerNode() { [native code] }",
+      "valueType": "function",
+      "writable": true
+    },
+    "pan": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": "function get pan() { [native code] }",
+      "hasGetter": true,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": null,
+      "valueType": null,
+      "writable": null
+    }
+  },
+  "WaveShaperNode": {
+    "Symbol(Symbol.toStringTag)": null,
+    "constructor": {
+      "configurable": true,
+      "enumerable": false,
+      "getterSource": null,
+      "hasGetter": false,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": "function WaveShaperNode() { [native code] }",
+      "valueType": "function",
+      "writable": true
+    },
+    "curve": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": "function get curve() { [native code] }",
+      "hasGetter": true,
+      "hasSetter": true,
+      "setterSource": "function set curve() { [native code] }",
+      "valueSource": null,
+      "valueType": null,
+      "writable": null
+    },
+    "oversample": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": "function get oversample() { [native code] }",
+      "hasGetter": true,
+      "hasSetter": true,
+      "setterSource": "function set oversample() { [native code] }",
+      "valueSource": null,
+      "valueType": null,
+      "writable": null
+    }
+  },
+  "special": {
+    "AnalyserNode_getFloatFrequencyData": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": null,
+      "hasGetter": false,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": "function getFloatFrequencyData() { [native code] }",
+      "valueType": "function",
+      "writable": true
+    },
+    "AudioBuffer_getChannelData": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": null,
+      "hasGetter": false,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": "function getChannelData() { [native code] }",
+      "valueType": "function",
+      "writable": true
+    },
+    "BaseAudioContext_createAnalyser": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": null,
+      "hasGetter": false,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": "function createAnalyser() { [native code] }",
+      "valueType": "function",
+      "writable": true
+    },
+    "OfflineAudioContext_startRendering": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": null,
+      "hasGetter": false,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": "function startRendering() { [native code] }",
+      "valueType": "function",
+      "writable": true
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "modules": {
+    "audio": "ea3f7220ff7a69c03e6a9abdf41da9d073649d29dd050113d546a9ab5cb1dcfe",
+    "canvas": "efe7866b40f92edecf52029cbf01c58c6c9be3f0b310fb248d39c16fd12c964e",
+    "client_hints": "27bb275e5ba78cbf76f0db9648bb09ad9cb12044573b3ed5e59169b733a98e4f",
+    "fonts": "28eb83b77505a0bece1f2a6286d0fc35da47ef8f225005048599b0ff8ceb3718",
+    "navigator": "f0f86803de2d0a223b4607031feebdd9445f8df3d831b736caad99bdba98d619",
+    "permissions": "e9487413999f6ffb21bb5de85af23d04c9df554018fa46482a0c57f039bf03e4",
+    "plugins": "5f4ca489bc043291b820688bbee69dd425fbf002d97c3d026b4c82e84bdea9e9",
+    "screen": "3e0ff0d3b5415773aab8789435a17101074812360417a9f91e423517ab8ba779",
+    "webrtc": "31b13feafe648f6b7ad5919b590023db273da27a7736f9a1490dbee4e9802419"
+  },
+  "combined": "2891a6a4d84c20674ecde8a9340e49da5c63329bb1e99c276aa912f8a44648c3",
+  "identity_uuid": "da9bb9e7-c0b7-585f-a8f2-8d3dde55fd15",
+  "algorithm": "SHA-256"
+}

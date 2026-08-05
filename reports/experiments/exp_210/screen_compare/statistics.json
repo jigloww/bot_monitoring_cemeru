@@ -1,0 +1,82 @@
+{
+  "total_compared_fields": 1381,
+  "equal_fields": 1381,
+  "remaining_differences": 0,
+  "critical_differences": 0,
+  "status_distribution": {
+    "EQUAL": 1381
+  },
+  "severity_distribution": {},
+  "domain_distribution": {
+    "descriptors": {
+      "total": 147,
+      "equal": 147,
+      "remaining": 0,
+      "changed": 0,
+      "missing": 0,
+      "added": 0,
+      "similarity": 100.0
+    },
+    "fingerprint": {
+      "total": 1,
+      "equal": 1,
+      "remaining": 0,
+      "changed": 0,
+      "missing": 0,
+      "added": 0,
+      "similarity": 100.0
+    },
+    "orientation": {
+      "total": 91,
+      "equal": 91,
+      "remaining": 0,
+      "changed": 0,
+      "missing": 0,
+      "added": 0,
+      "similarity": 100.0
+    },
+    "prototype": {
+      "total": 130,
+      "equal": 130,
+      "remaining": 0,
+      "changed": 0,
+      "missing": 0,
+      "added": 0,
+      "similarity": 100.0
+    },
+    "runtime": {
+      "total": 686,
+      "equal": 686,
+      "remaining": 0,
+      "changed": 0,
+      "missing": 0,
+      "added": 0,
+      "similarity": 100.0
+    },
+    "screen": {
+      "total": 188,
+      "equal": 188,
+      "remaining": 0,
+      "changed": 0,
+      "missing": 0,
+      "added": 0,
+      "similarity": 100.0
+    },
+    "viewport": {
+      "total": 138,
+      "equal": 138,
+      "remaining": 0,
+      "changed": 0,
+      "missing": 0,
+      "added": 0,
+      "similarity": 100.0
+    }
+  },
+  "baseline_directory": "D:\\bot_monitoring_cemeru\\reports\\experiments\\exp_209\\screen",
+  "baseline_fingerprint": "3e0ff0d3b5415773aab8789435a17101074812360417a9f91e423517ab8ba779",
+  "candidate_fingerprint": "3e0ff0d3b5415773aab8789435a17101074812360417a9f91e423517ab8ba779",
+  "capture_status": "SUCCESS",
+  "capture_error": null,
+  "browser_launches": 1,
+  "network_requests": 0
+}

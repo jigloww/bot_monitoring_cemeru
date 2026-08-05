@@ -1,0 +1,22 @@
+{
+  "experiment": "Experiment 057 - Screen Comparator",
+  "experiment_id": "exp_210",
+  "created_at": "2026-08-05T09:19:49.879549+07:00",
+  "result": "PRODUCTION_READY",
+  "status": "PRODUCTION_READY",
+  "patch_required": false,
+  "certified": true,
+  "frozen": true,
+  "baseline_input": "D:\\bot_monitoring_cemeru\\reports\\experiments\\exp_209\\screen",
+  "candidate_source": "BrowserSessionManager -> launch_browser",
+  "overall_similarity": 100.0,
+  "fingerprint_similarity": 100.0,
+  "remaining_differences": 0,
+  "critical_differences": 0,
+  "baseline_fingerprint": "3e0ff0d3b5415773aab8789435a17101074812360417a9f91e423517ab8ba779",
+  "candidate_fingerprint": "3e0ff0d3b5415773aab8789435a17101074812360417a9f91e423517ab8ba779",
+  "historical_artifacts_modified": false,
+  "browser_launches": 1,
+  "network_requests": 0,
+  "validation_valid": true
+}

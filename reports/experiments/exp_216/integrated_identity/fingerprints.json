@@ -1,0 +1,16 @@
+{
+  "modules": {
+    "audio": null,
+    "canvas": null,
+    "client_hints": null,
+    "fonts": "28eb83b77505a0bece1f2a6286d0fc35da47ef8f225005048599b0ff8ceb3718",
+    "navigator": "f0f86803de2d0a223b4607031feebdd9445f8df3d831b736caad99bdba98d619",
+    "permissions": "e9487413999f6ffb21bb5de85af23d04c9df554018fa46482a0c57f039bf03e4",
+    "plugins": "5f4ca489bc043291b820688bbee69dd425fbf002d97c3d026b4c82e84bdea9e9",
+    "screen": "3e0ff0d3b5415773aab8789435a17101074812360417a9f91e423517ab8ba779",
+    "webrtc": "31b13feafe648f6b7ad5919b590023db273da27a7736f9a1490dbee4e9802419"
+  },
+  "combined": "faf9c4bb340322918475141224217699434ec1d9c44d3216604bef2540049ce0",
+  "identity_uuid": "8921a956-c739-5d80-bb09-6393551b883b",
+  "algorithm": "SHA-256"
+}

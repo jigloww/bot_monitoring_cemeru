@@ -1,0 +1,110 @@
+{
+  "fontFace": {
+    "available": true,
+    "constructor": "FontFace",
+    "constructorEquality": false,
+    "constructorSource": "function FontFace() { [native code] }",
+    "instanceof": false,
+    "objectToString": "[object FontFace]",
+    "ownProperties": [
+      "Symbol(Symbol.toStringTag)",
+      "ascentOverride",
+      "constructor",
+      "descentOverride",
+      "display",
+      "family",
+      "featureSettings",
+      "lineGapOverride",
+      "load",
+      "loaded",
+      "sizeAdjust",
+      "status",
+      "stretch",
+      "style",
+      "unicodeRange",
+      "variant",
+      "variationSettings",
+      "weight"
+    ],
+    "prototype": "Object",
+    "prototypeChain": [
+      "FontFace",
+      "Object"
+    ],
+    "prototypeEquality": false,
+    "prototypeProperties": [
+      "__defineGetter__",
+      "__defineSetter__",
+      "__lookupGetter__",
+      "__lookupSetter__",
+      "__proto__",
+      "constructor",
+      "hasOwnProperty",
+      "isPrototypeOf",
+      "propertyIsEnumerable",
+      "toLocaleString",
+      "toString",
+      "valueOf"
+    ],
+    "referenceStable": true,
+    "symbolToStringTag": null,
+    "typeof": "object"
+  },
+  "fontFaceSet": {
+    "available": true,
+    "constructor": "FontFaceSet",
+    "constructorEquality": false,
+    "constructorSource": "function FontFaceSet() { [native code] }",
+    "instanceof": false,
+    "objectToString": "[object FontFaceSet]",
+    "ownProperties": [
+      "Symbol(Symbol.iterator)",
+      "Symbol(Symbol.toStringTag)",
+      "add",
+      "check",
+      "clear",
+      "constructor",
+      "delete",
+      "entries",
+      "forEach",
+      "has",
+      "keys",
+      "load",
+      "onloading",
+      "onloadingdone",
+      "onloadingerror",
+      "ready",
+      "size",
+      "status",
+      "values"
+    ],
+    "prototype": "EventTarget",
+    "prototypeChain": [
+      "FontFaceSet",
+      "EventTarget",
+      "Object"
+    ],
+    "prototypeEquality": false,
+    "prototypeProperties": [
+      "Symbol(Symbol.toStringTag)",
+      "addEventListener",
+      "constructor",
+      "dispatchEvent",
+      "removeEventListener",
+      "when"
+    ],
+    "referenceStable": true,
+    "symbolToStringTag": {
+      "configurable": true,
+      "enumerable": false,
+      "getterSource": null,
+      "hasGetter": false,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": null,
+      "valueType": "string",
+      "writable": false
+    },
+    "typeof": "object"
+  }
+}

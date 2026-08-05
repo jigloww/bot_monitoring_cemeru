@@ -1,0 +1,28 @@
+{
+  "algorithm": "SHA-256",
+  "sha256": "5856fe98aa5fcfd9275f3e2f99fb4f657484586145bfd1429793b4d4143d202d",
+  "data": {
+    "availability": {
+      "constructor": null,
+      "navigatorUserAgentData": false,
+      "typeof": "undefined"
+    },
+    "browser": {
+      "browser": "chrome",
+      "engine": "chromium",
+      "headless": true,
+      "version": "151.0.7922.72"
+    },
+    "constructor": {},
+    "descriptors": {},
+    "errors": [],
+    "highEntropy": {},
+    "identity": {},
+    "immutable": {},
+    "methods": {},
+    "promise": {},
+    "prototype": {},
+    "userAgentData": {},
+    "values": {}
+  }
+}

@@ -1,0 +1,310 @@
+{
+  "navigatorPermissions": {
+    "configurable": true,
+    "enumerable": true,
+    "getterSource": "function get permissions() { [native code] }",
+    "hasGetter": true,
+    "hasSetter": false,
+    "setterSource": null,
+    "valueSource": null,
+    "valueType": null,
+    "writable": null
+  },
+  "permissionStatusPrototype": {
+    "camera.Symbol(Symbol.toStringTag)": null,
+    "camera.constructor": {
+      "configurable": true,
+      "enumerable": false,
+      "getterSource": null,
+      "hasGetter": false,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": "function PermissionStatus() { [native code] }",
+      "valueType": "function",
+      "writable": true
+    },
+    "camera.name": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": "function get name() { [native code] }",
+      "hasGetter": true,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": null,
+      "valueType": null,
+      "writable": null
+    },
+    "camera.onchange": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": "function get onchange() { [native code] }",
+      "hasGetter": true,
+      "hasSetter": true,
+      "setterSource": "function set onchange() { [native code] }",
+      "valueSource": null,
+      "valueType": null,
+      "writable": null
+    },
+    "camera.state": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": "function get state() { [native code] }",
+      "hasGetter": true,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": null,
+      "valueType": null,
+      "writable": null
+    },
+    "clipboard-read.Symbol(Symbol.toStringTag)": null,
+    "clipboard-read.constructor": {
+      "configurable": true,
+      "enumerable": false,
+      "getterSource": null,
+      "hasGetter": false,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": "function PermissionStatus() { [native code] }",
+      "valueType": "function",
+      "writable": true
+    },
+    "clipboard-read.name": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": "function get name() { [native code] }",
+      "hasGetter": true,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": null,
+      "valueType": null,
+      "writable": null
+    },
+    "clipboard-read.onchange": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": "function get onchange() { [native code] }",
+      "hasGetter": true,
+      "hasSetter": true,
+      "setterSource": "function set onchange() { [native code] }",
+      "valueSource": null,
+      "valueType": null,
+      "writable": null
+    },
+    "clipboard-read.state": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": "function get state() { [native code] }",
+      "hasGetter": true,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": null,
+      "valueType": null,
+      "writable": null
+    },
+    "clipboard-write.Symbol(Symbol.toStringTag)": null,
+    "clipboard-write.constructor": {
+      "configurable": true,
+      "enumerable": false,
+      "getterSource": null,
+      "hasGetter": false,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": "function PermissionStatus() { [native code] }",
+      "valueType": "function",
+      "writable": true
+    },
+    "clipboard-write.name": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": "function get name() { [native code] }",
+      "hasGetter": true,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": null,
+      "valueType": null,
+      "writable": null
+    },
+    "clipboard-write.onchange": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": "function get onchange() { [native code] }",
+      "hasGetter": true,
+      "hasSetter": true,
+      "setterSource": "function set onchange() { [native code] }",
+      "valueSource": null,
+      "valueType": null,
+      "writable": null
+    },
+    "clipboard-write.state": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": "function get state() { [native code] }",
+      "hasGetter": true,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": null,
+      "valueType": null,
+      "writable": null
+    },
+    "geolocation.Symbol(Symbol.toStringTag)": null,
+    "geolocation.constructor": {
+      "configurable": true,
+      "enumerable": false,
+      "getterSource": null,
+      "hasGetter": false,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": "function PermissionStatus() { [native code] }",
+      "valueType": "function",
+      "writable": true
+    },
+    "geolocation.name": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": "function get name() { [native code] }",
+      "hasGetter": true,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": null,
+      "valueType": null,
+      "writable": null
+    },
+    "geolocation.onchange": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": "function get onchange() { [native code] }",
+      "hasGetter": true,
+      "hasSetter": true,
+      "setterSource": "function set onchange() { [native code] }",
+      "valueSource": null,
+      "valueType": null,
+      "writable": null
+    },
+    "geolocation.state": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": "function get state() { [native code] }",
+      "hasGetter": true,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": null,
+      "valueType": null,
+      "writable": null
+    },
+    "microphone.Symbol(Symbol.toStringTag)": null,
+    "microphone.constructor": {
+      "configurable": true,
+      "enumerable": false,
+      "getterSource": null,
+      "hasGetter": false,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": "function PermissionStatus() { [native code] }",
+      "valueType": "function",
+      "writable": true
+    },
+    "microphone.name": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": "function get name() { [native code] }",
+      "hasGetter": true,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": null,
+      "valueType": null,
+      "writable": null
+    },
+    "microphone.onchange": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": "function get onchange() { [native code] }",
+      "hasGetter": true,
+      "hasSetter": true,
+      "setterSource": "function set onchange() { [native code] }",
+      "valueSource": null,
+      "valueType": null,
+      "writable": null
+    },
+    "microphone.state": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": "function get state() { [native code] }",
+      "hasGetter": true,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": null,
+      "valueType": null,
+      "writable": null
+    },
+    "notifications.Symbol(Symbol.toStringTag)": null,
+    "notifications.constructor": {
+      "configurable": true,
+      "enumerable": false,
+      "getterSource": null,
+      "hasGetter": false,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": "function PermissionStatus() { [native code] }",
+      "valueType": "function",
+      "writable": true
+    },
+    "notifications.name": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": "function get name() { [native code] }",
+      "hasGetter": true,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": null,
+      "valueType": null,
+      "writable": null
+    },
+    "notifications.onchange": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": "function get onchange() { [native code] }",
+      "hasGetter": true,
+      "hasSetter": true,
+      "setterSource": "function set onchange() { [native code] }",
+      "valueSource": null,
+      "valueType": null,
+      "writable": null
+    },
+    "notifications.state": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": "function get state() { [native code] }",
+      "hasGetter": true,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": null,
+      "valueType": null,
+      "writable": null
+    }
+  },
+  "permissionsPrototype": {
+    "Symbol(Symbol.toStringTag)": null,
+    "constructor": {
+      "configurable": true,
+      "enumerable": false,
+      "getterSource": null,
+      "hasGetter": false,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": "function Permissions() { [native code] }",
+      "valueType": "function",
+      "writable": true
+    },
+    "query": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": null,
+      "hasGetter": false,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": "function query() { [native code] }",
+      "valueType": "function",
+      "writable": true
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "browser_launches": 0,
+  "created_at": "2026-08-05T09:51:45.966903+07:00",
+  "experiment": "Experiment 060A - Browser Identity Baseline Audit",
+  "experiment_id": "exp_219",
+  "historical_artifacts_modified": false,
+  "integrated_identity_experiment": "exp_218",
+  "missing_module_names": [],
+  "missing_modules": 0,
+  "modules_audited": 3,
+  "network_requests": 0,
+  "result": "PARTIAL",
+  "unverified_module_names": [
+    "canvas",
+    "audio",
+    "client_hints"
+  ],
+  "unverified_modules": 3,
+  "verified_modules": 0,
+  "validation_valid": true
+}

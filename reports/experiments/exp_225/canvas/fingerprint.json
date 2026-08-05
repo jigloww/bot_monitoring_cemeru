@@ -1,0 +1,875 @@
+{
+  "algorithm": "SHA-256",
+  "sha256": "efe7866b40f92edecf52029cbf01c58c6c9be3f0b310fb248d39c16fd12c964e",
+  "data": {
+    "browser": {
+      "browser": "chrome",
+      "engine": "chromium",
+      "headless": true,
+      "version": "151.0.7922.72"
+    },
+    "canvas": {
+      "constructor": "HTMLCanvasElement",
+      "height": 80,
+      "instanceofHTMLCanvasElement": true,
+      "objectToString": "[object HTMLCanvasElement]",
+      "ownProperties": [],
+      "prototypeChain": [
+        "HTMLCanvasElement",
+        "HTMLCanvasElement",
+        "HTMLElement",
+        "Element",
+        "Node",
+        "EventTarget",
+        "Object"
+      ],
+      "prototypeEquality": true,
+      "supported": true,
+      "toStringTag": {
+        "configurable": true,
+        "enumerable": false,
+        "getterSource": null,
+        "hasGetter": false,
+        "hasSetter": false,
+        "setterSource": null,
+        "valueSource": null,
+        "valueType": "string",
+        "writable": false
+      },
+      "typeof": "object",
+      "width": 240
+    },
+    "capabilities": {
+      "context2d": true,
+      "supportedFormats": [
+        {
+          "mime": "image/png",
+          "supported": true
+        },
+        {
+          "mime": "image/jpeg",
+          "supported": true
+        },
+        {
+          "mime": "image/webp",
+          "supported": true
+        }
+      ],
+      "toBlob": true,
+      "toDataURL": true,
+      "webgl": true,
+      "webgl2": true
+    },
+    "constructors": {
+      "CanvasRenderingContext2D": {
+        "available": true,
+        "descriptor": {
+          "configurable": true,
+          "enumerable": false,
+          "getterSource": null,
+          "hasGetter": false,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": "function CanvasRenderingContext2D() { [native code] }",
+          "valueType": "function",
+          "writable": true
+        },
+        "length": 0,
+        "misuse": {
+          "error": {
+            "constructor": "TypeError",
+            "message": "Illegal constructor",
+            "name": "TypeError"
+          },
+          "tested": true,
+          "throws": true
+        },
+        "name": "CanvasRenderingContext2D",
+        "nativeSource": true,
+        "prototype": {
+          "constructorName": "CanvasRenderingContext2D",
+          "exists": true,
+          "instanceofObject": true,
+          "objectPrototype": "Object",
+          "ownProperties": [
+            "Symbol(Symbol.toStringTag)",
+            "arc",
+            "arcTo",
+            "beginPath",
+            "bezierCurveTo",
+            "canvas",
+            "clearRect",
+            "clip",
+            "closePath",
+            "constructor",
+            "createConicGradient",
+            "createImageData",
+            "createLinearGradient",
+            "createPattern",
+            "createRadialGradient",
+            "direction",
+            "drawFocusIfNeeded",
+            "drawImage",
+            "ellipse",
+            "fill",
+            "fillRect",
+            "fillStyle",
+            "fillText",
+            "filter",
+            "font",
+            "fontKerning",
+            "fontStretch",
+            "fontVariantCaps",
+            "getContextAttributes",
+            "getImageData",
+            "getLineDash",
+            "getTransform",
+            "globalAlpha",
+            "globalCompositeOperation",
+            "imageSmoothingEnabled",
+            "imageSmoothingQuality",
+            "isContextLost",
+            "isPointInPath",
+            "isPointInStroke",
+            "lang",
+            "letterSpacing",
+            "lineCap",
+            "lineDashOffset",
+            "lineJoin",
+            "lineTo",
+            "lineWidth",
+            "measureText",
+            "miterLimit",
+            "moveTo",
+            "putImageData",
+            "quadraticCurveTo",
+            "rect",
+            "reset",
+            "resetTransform",
+            "restore",
+            "rotate",
+            "roundRect",
+            "save",
+            "scale",
+            "setLineDash",
+            "setTransform",
+            "shadowBlur",
+            "shadowColor",
+            "shadowOffsetX",
+            "shadowOffsetY",
+            "stroke",
+            "strokeRect",
+            "strokeStyle",
+            "strokeText",
+            "textAlign",
+            "textBaseline",
+            "textRendering",
+            "transform",
+            "translate",
+            "wordSpacing"
+          ],
+          "prototypeChain": [
+            "CanvasRenderingContext2D",
+            "Object"
+          ],
+          "toStringTag": {
+            "configurable": true,
+            "enumerable": false,
+            "getterSource": null,
+            "hasGetter": false,
+            "hasSetter": false,
+            "setterSource": null,
+            "valueSource": null,
+            "valueType": "string",
+            "writable": false
+          }
+        },
+        "source": "function CanvasRenderingContext2D() { [native code] }"
+      },
+      "HTMLCanvasElement": {
+        "available": true,
+        "descriptor": {
+          "configurable": true,
+          "enumerable": false,
+          "getterSource": null,
+          "hasGetter": false,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": "function HTMLCanvasElement() { [native code] }",
+          "valueType": "function",
+          "writable": true
+        },
+        "length": 0,
+        "misuse": {
+          "error": {
+            "constructor": "TypeError",
+            "message": "Failed to construct 'HTMLCanvasElement': Please use the 'new' operator, this DOM object constructor cannot be called as a function.",
+            "name": "TypeError"
+          },
+          "tested": true,
+          "throws": true
+        },
+        "name": "HTMLCanvasElement",
+        "nativeSource": true,
+        "prototype": {
+          "constructorName": "HTMLCanvasElement",
+          "exists": true,
+          "instanceofObject": true,
+          "objectPrototype": "HTMLElement",
+          "ownProperties": [
+            "Symbol(Symbol.toStringTag)",
+            "captureStream",
+            "constructor",
+            "getContext",
+            "height",
+            "toBlob",
+            "toDataURL",
+            "transferControlToOffscreen",
+            "width"
+          ],
+          "prototypeChain": [
+            "HTMLCanvasElement",
+            "HTMLElement",
+            "Element",
+            "Node",
+            "EventTarget",
+            "Object"
+          ],
+          "toStringTag": {
+            "configurable": true,
+            "enumerable": false,
+            "getterSource": null,
+            "hasGetter": false,
+            "hasSetter": false,
+            "setterSource": null,
+            "valueSource": null,
+            "valueType": "string",
+            "writable": false
+          }
+        },
+        "source": "function HTMLCanvasElement() { [native code] }"
+      },
+      "OffscreenCanvas": {
+        "available": true,
+        "descriptor": {
+          "configurable": true,
+          "enumerable": false,
+          "getterSource": null,
+          "hasGetter": false,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": "function OffscreenCanvas() { [native code] }",
+          "valueType": "function",
+          "writable": true
+        },
+        "length": 2,
+        "misuse": {
+          "error": {
+            "constructor": "TypeError",
+            "message": "Failed to construct 'OffscreenCanvas': Please use the 'new' operator, this DOM object constructor cannot be called as a function.",
+            "name": "TypeError"
+          },
+          "tested": true,
+          "throws": true
+        },
+        "name": "OffscreenCanvas",
+        "nativeSource": true,
+        "prototype": {
+          "constructorName": "OffscreenCanvas",
+          "exists": true,
+          "instanceofObject": true,
+          "objectPrototype": "EventTarget",
+          "ownProperties": [
+            "Symbol(Symbol.toStringTag)",
+            "constructor",
+            "convertToBlob",
+            "getContext",
+            "height",
+            "oncontextlost",
+            "oncontextrestored",
+            "transferToImageBitmap",
+            "width"
+          ],
+          "prototypeChain": [
+            "OffscreenCanvas",
+            "EventTarget",
+            "Object"
+          ],
+          "toStringTag": {
+            "configurable": true,
+            "enumerable": false,
+            "getterSource": null,
+            "hasGetter": false,
+            "hasSetter": false,
+            "setterSource": null,
+            "valueSource": null,
+            "valueType": "string",
+            "writable": false
+          }
+        },
+        "source": "function OffscreenCanvas() { [native code] }"
+      }
+    },
+    "descriptors": {
+      "canvas": {
+        "height": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": "function get height() { [native code] }",
+          "hasGetter": true,
+          "hasSetter": true,
+          "setterSource": "function set height() { [native code] }",
+          "valueSource": null,
+          "valueType": null,
+          "writable": null
+        },
+        "toBlob": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": null,
+          "hasGetter": false,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": "function toBlob() { [native code] }",
+          "valueType": "function",
+          "writable": true
+        },
+        "toDataURL": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": null,
+          "hasGetter": false,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": "function toDataURL() { [native code] }",
+          "valueType": "function",
+          "writable": true
+        },
+        "width": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": "function get width() { [native code] }",
+          "hasGetter": true,
+          "hasSetter": true,
+          "setterSource": "function set width() { [native code] }",
+          "valueSource": null,
+          "valueType": null,
+          "writable": null
+        }
+      },
+      "context": {
+        "canvas": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": "function get canvas() { [native code] }",
+          "hasGetter": true,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": null,
+          "valueType": null,
+          "writable": null
+        },
+        "fillStyle": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": "function get fillStyle() { [native code] }",
+          "hasGetter": true,
+          "hasSetter": true,
+          "setterSource": "function set fillStyle() { [native code] }",
+          "valueSource": null,
+          "valueType": null,
+          "writable": null
+        },
+        "font": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": "function get font() { [native code] }",
+          "hasGetter": true,
+          "hasSetter": true,
+          "setterSource": "function set font() { [native code] }",
+          "valueSource": null,
+          "valueType": null,
+          "writable": null
+        },
+        "getImageData": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": null,
+          "hasGetter": false,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": "function getImageData() { [native code] }",
+          "valueType": "function",
+          "writable": true
+        },
+        "globalAlpha": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": "function get globalAlpha() { [native code] }",
+          "hasGetter": true,
+          "hasSetter": true,
+          "setterSource": "function set globalAlpha() { [native code] }",
+          "valueSource": null,
+          "valueType": null,
+          "writable": null
+        },
+        "isPointInPath": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": null,
+          "hasGetter": false,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": "function isPointInPath() { [native code] }",
+          "valueType": "function",
+          "writable": true
+        },
+        "isPointInStroke": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": null,
+          "hasGetter": false,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": "function isPointInStroke() { [native code] }",
+          "valueType": "function",
+          "writable": true
+        },
+        "lineWidth": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": "function get lineWidth() { [native code] }",
+          "hasGetter": true,
+          "hasSetter": true,
+          "setterSource": "function set lineWidth() { [native code] }",
+          "valueSource": null,
+          "valueType": null,
+          "writable": null
+        },
+        "measureText": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": null,
+          "hasGetter": false,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": "function measureText() { [native code] }",
+          "valueType": "function",
+          "writable": true
+        },
+        "strokeStyle": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": "function get strokeStyle() { [native code] }",
+          "hasGetter": true,
+          "hasSetter": true,
+          "setterSource": "function set strokeStyle() { [native code] }",
+          "valueSource": null,
+          "valueType": null,
+          "writable": null
+        },
+        "textAlign": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": "function get textAlign() { [native code] }",
+          "hasGetter": true,
+          "hasSetter": true,
+          "setterSource": "function set textAlign() { [native code] }",
+          "valueSource": null,
+          "valueType": null,
+          "writable": null
+        },
+        "textBaseline": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": "function get textBaseline() { [native code] }",
+          "hasGetter": true,
+          "hasSetter": true,
+          "setterSource": "function set textBaseline() { [native code] }",
+          "valueSource": null,
+          "valueType": null,
+          "writable": null
+        }
+      }
+    },
+    "errors": [],
+    "fingerprintObservations": {
+      "blob": {
+        "size": 5240,
+        "type": "image/png"
+      },
+      "dataUrls": {
+        "image/jpeg": {
+          "length": 4963,
+          "prefix": "data:image/jpeg;base64,/9j/4AAQSkZJRgABA",
+          "sha256": null
+        },
+        "image/png": {
+          "length": 7010,
+          "prefix": "data:image/png;base64,iVBORw0KGgoAAAANSU",
+          "sha256": null
+        },
+        "image/webp": {
+          "length": 4847,
+          "prefix": "data:image/webp;base64,UklGRhgOAABXRUJQV",
+          "sha256": null
+        }
+      },
+      "imageData": {
+        "colorSpace": "srgb",
+        "dataLength": 76800,
+        "height": 80,
+        "sha256": null,
+        "width": 240
+      },
+      "isPointInPath": true,
+      "isPointInStroke": true,
+      "renderingIntegrity": true,
+      "textMetrics": {
+        "actualBoundingBoxAscent": 12,
+        "actualBoundingBoxDescent": 3,
+        "actualBoundingBoxLeft": 0,
+        "actualBoundingBoxRight": 160.6328125,
+        "alphabeticBaseline": -0.0,
+        "fontBoundingBoxAscent": 14,
+        "fontBoundingBoxDescent": 3,
+        "width": 160.078125
+      }
+    },
+    "methods": {
+      "canvas": {
+        "toBlob": {
+          "available": true,
+          "descriptor": {
+            "configurable": true,
+            "enumerable": true,
+            "getterSource": null,
+            "hasGetter": false,
+            "hasSetter": false,
+            "setterSource": null,
+            "valueSource": "function toBlob() { [native code] }",
+            "valueType": "function",
+            "writable": true
+          },
+          "illegalInvocation": {
+            "error": {
+              "constructor": "TypeError",
+              "message": "Illegal invocation",
+              "name": "TypeError"
+            },
+            "tested": true,
+            "throws": true
+          },
+          "length": 1,
+          "name": "toBlob",
+          "nativeSource": true,
+          "source": "function toBlob() { [native code] }"
+        },
+        "toDataURL": {
+          "available": true,
+          "descriptor": {
+            "configurable": true,
+            "enumerable": true,
+            "getterSource": null,
+            "hasGetter": false,
+            "hasSetter": false,
+            "setterSource": null,
+            "valueSource": "function toDataURL() { [native code] }",
+            "valueType": "function",
+            "writable": true
+          },
+          "illegalInvocation": {
+            "error": {
+              "constructor": "TypeError",
+              "message": "Illegal invocation",
+              "name": "TypeError"
+            },
+            "tested": true,
+            "throws": true
+          },
+          "length": 0,
+          "name": "toDataURL",
+          "nativeSource": true,
+          "source": "function toDataURL() { [native code] }"
+        }
+      },
+      "constructor": {
+        "CanvasRenderingContext2D": {
+          "available": true,
+          "length": 0,
+          "name": "CanvasRenderingContext2D",
+          "nativeSource": true,
+          "source": "function CanvasRenderingContext2D() { [native code] }"
+        },
+        "HTMLCanvasElement": {
+          "available": true,
+          "length": 0,
+          "name": "HTMLCanvasElement",
+          "nativeSource": true,
+          "source": "function HTMLCanvasElement() { [native code] }"
+        },
+        "OffscreenCanvas": {
+          "available": true,
+          "length": 2,
+          "name": "OffscreenCanvas",
+          "nativeSource": true,
+          "source": "function OffscreenCanvas() { [native code] }"
+        }
+      },
+      "context": {
+        "getImageData": {
+          "available": true,
+          "descriptor": {
+            "configurable": true,
+            "enumerable": true,
+            "getterSource": null,
+            "hasGetter": false,
+            "hasSetter": false,
+            "setterSource": null,
+            "valueSource": "function getImageData() { [native code] }",
+            "valueType": "function",
+            "writable": true
+          },
+          "illegalInvocation": {
+            "error": {
+              "constructor": "TypeError",
+              "message": "Illegal invocation",
+              "name": "TypeError"
+            },
+            "tested": true,
+            "throws": true
+          },
+          "length": 4,
+          "name": "getImageData",
+          "nativeSource": true,
+          "source": "function getImageData() { [native code] }"
+        },
+        "isPointInPath": {
+          "available": true,
+          "descriptor": {
+            "configurable": true,
+            "enumerable": true,
+            "getterSource": null,
+            "hasGetter": false,
+            "hasSetter": false,
+            "setterSource": null,
+            "valueSource": "function isPointInPath() { [native code] }",
+            "valueType": "function",
+            "writable": true
+          },
+          "illegalInvocation": {
+            "error": {
+              "constructor": "TypeError",
+              "message": "Illegal invocation",
+              "name": "TypeError"
+            },
+            "tested": true,
+            "throws": true
+          },
+          "length": 2,
+          "name": "isPointInPath",
+          "nativeSource": true,
+          "source": "function isPointInPath() { [native code] }"
+        },
+        "isPointInStroke": {
+          "available": true,
+          "descriptor": {
+            "configurable": true,
+            "enumerable": true,
+            "getterSource": null,
+            "hasGetter": false,
+            "hasSetter": false,
+            "setterSource": null,
+            "valueSource": "function isPointInStroke() { [native code] }",
+            "valueType": "function",
+            "writable": true
+          },
+          "illegalInvocation": {
+            "error": {
+              "constructor": "TypeError",
+              "message": "Illegal invocation",
+              "name": "TypeError"
+            },
+            "tested": true,
+            "throws": true
+          },
+          "length": 2,
+          "name": "isPointInStroke",
+          "nativeSource": true,
+          "source": "function isPointInStroke() { [native code] }"
+        },
+        "measureText": {
+          "available": true,
+          "descriptor": {
+            "configurable": true,
+            "enumerable": true,
+            "getterSource": null,
+            "hasGetter": false,
+            "hasSetter": false,
+            "setterSource": null,
+            "valueSource": "function measureText() { [native code] }",
+            "valueType": "function",
+            "writable": true
+          },
+          "illegalInvocation": {
+            "error": {
+              "constructor": "TypeError",
+              "message": "Illegal invocation",
+              "name": "TypeError"
+            },
+            "tested": true,
+            "throws": true
+          },
+          "length": 1,
+          "name": "measureText",
+          "nativeSource": true,
+          "source": "function measureText() { [native code] }"
+        }
+      }
+    },
+    "offscreen": {
+      "constructor": "OffscreenCanvas",
+      "contextAvailable": true,
+      "convertToBlob": {
+        "available": true,
+        "size": 119,
+        "type": "image/png"
+      },
+      "height": 16,
+      "instanceof": true,
+      "prototypeChain": [
+        "OffscreenCanvas",
+        "EventTarget",
+        "Object"
+      ],
+      "prototypeEquality": true,
+      "supported": true,
+      "width": 32
+    },
+    "prototype": {
+      "canvas": {
+        "chain": [
+          "HTMLCanvasElement",
+          "HTMLElement",
+          "Element",
+          "Node",
+          "EventTarget",
+          "Object"
+        ],
+        "constructor": "HTMLCanvasElement",
+        "equality": true,
+        "ownProperties": [
+          "Symbol(Symbol.toStringTag)",
+          "captureStream",
+          "constructor",
+          "getContext",
+          "height",
+          "toBlob",
+          "toDataURL",
+          "transferControlToOffscreen",
+          "width"
+        ]
+      },
+      "context": {
+        "chain": [
+          "CanvasRenderingContext2D",
+          "Object"
+        ],
+        "constructor": "CanvasRenderingContext2D",
+        "equality": true,
+        "instanceof": true,
+        "ownProperties": [
+          "Symbol(Symbol.toStringTag)",
+          "arc",
+          "arcTo",
+          "beginPath",
+          "bezierCurveTo",
+          "canvas",
+          "clearRect",
+          "clip",
+          "closePath",
+          "constructor",
+          "createConicGradient",
+          "createImageData",
+          "createLinearGradient",
+          "createPattern",
+          "createRadialGradient",
+          "direction",
+          "drawFocusIfNeeded",
+          "drawImage",
+          "ellipse",
+          "fill",
+          "fillRect",
+          "fillStyle",
+          "fillText",
+          "filter",
+          "font",
+          "fontKerning",
+          "fontStretch",
+          "fontVariantCaps",
+          "getContextAttributes",
+          "getImageData",
+          "getLineDash",
+          "getTransform",
+          "globalAlpha",
+          "globalCompositeOperation",
+          "imageSmoothingEnabled",
+          "imageSmoothingQuality",
+          "isContextLost",
+          "isPointInPath",
+          "isPointInStroke",
+          "lang",
+          "letterSpacing",
+          "lineCap",
+          "lineDashOffset",
+          "lineJoin",
+          "lineTo",
+          "lineWidth",
+          "measureText",
+          "miterLimit",
+          "moveTo",
+          "putImageData",
+          "quadraticCurveTo",
+          "rect",
+          "reset",
+          "resetTransform",
+          "restore",
+          "rotate",
+          "roundRect",
+          "save",
+          "scale",
+          "setLineDash",
+          "setTransform",
+          "shadowBlur",
+          "shadowColor",
+          "shadowOffsetX",
+          "shadowOffsetY",
+          "stroke",
+          "strokeRect",
+          "strokeStyle",
+          "strokeText",
+          "textAlign",
+          "textBaseline",
+          "textRendering",
+          "transform",
+          "translate",
+          "wordSpacing"
+        ]
+      }
+    },
+    "state": {
+      "defaults": {
+        "direction": "ltr",
+        "fillStyle": "#000000",
+        "font": "10px sans-serif",
+        "globalAlpha": 1,
+        "globalCompositeOperation": "source-over",
+        "imageSmoothingEnabled": true,
+        "lineWidth": 1,
+        "strokeStyle": "#000000",
+        "textAlign": "start",
+        "textBaseline": "alphabetic"
+      }
+    }
+  }
+}

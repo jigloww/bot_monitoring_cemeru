@@ -1,0 +1,2040 @@
+{
+  "experiment": "Experiment 059 - Fonts Comparator",
+  "experiment_id": "exp_213",
+  "baseline": {
+    "directory": "D:\\bot_monitoring_cemeru\\reports\\experiments\\exp_212\\fonts",
+    "hashes": {
+      "fonts.json": "b9e2423337a4e8c30f64d9dfe10217065466f96ad0da4357c02b1d8f3b65fa9a",
+      "fontfaceset.json": "7b0dc59e2562cc883f6cf7b746c3b5d8ce26e84c8d0b849ef3695a580535ef7d",
+      "fontface.json": "6c34e3648311e6f9cdd99ad6d804073483128e2a6bea77373c32e3ce3521ee66",
+      "canvas.json": "cc178699b3afc2c09bd3d3032d50efaeb23e138590cab9b92580d1bbb393f093",
+      "css.json": "a06504408d7cf9712730a6bc60fbc25cfe9f6a993d8aef2db32a8d63d3749c60",
+      "metrics.json": "f89ed0106fe8d50f9f769efb34f8996516a8ea7042071241d224e822c50e63d5",
+      "prototype.json": "a2a9cfb05250f0290b2273373539652657f758ae8fa34b85d9fb5c0595f8b69e",
+      "fingerprint.json": "b069ccb972d608d6454697dbc521c5015ab2f06ce85df980eaf15f3b76694cf1",
+      "statistics.json": "1673d9e4d2ccdaa1708f8ee3e29c076b5ed8f703cca14b659bca75e7d02e5a76",
+      "summary.json": "bd703da8875817675fd887b50cce7a0a2c8fae6c5b39cf7431432093cda4f658",
+      "validation.json": "3b7ada3822d76b4752f1b9a41ce50a5605b72b97edb90717e58de818f8d94552"
+    }
+  },
+  "candidate": {
+    "available": true,
+    "behavior": {
+      "check": {
+        "emoji": {
+          "expression": "16px emoji",
+          "first": true,
+          "second": true,
+          "stable": true,
+          "type": "boolean"
+        },
+        "fangsong": {
+          "expression": "16px fangsong",
+          "first": true,
+          "second": true,
+          "stable": true,
+          "type": "boolean"
+        },
+        "math": {
+          "expression": "16px math",
+          "first": true,
+          "second": true,
+          "stable": true,
+          "type": "boolean"
+        },
+        "monospace": {
+          "expression": "16px monospace",
+          "first": true,
+          "second": true,
+          "stable": true,
+          "type": "boolean"
+        },
+        "sans-serif": {
+          "expression": "16px sans-serif",
+          "first": true,
+          "second": true,
+          "stable": true,
+          "type": "boolean"
+        },
+        "serif": {
+          "expression": "16px serif",
+          "first": true,
+          "second": true,
+          "stable": true,
+          "type": "boolean"
+        },
+        "system-ui": {
+          "expression": "16px system-ui",
+          "first": true,
+          "second": true,
+          "stable": true,
+          "type": "boolean"
+        }
+      },
+      "iterators": {
+        "entries": {
+          "available": true,
+          "count": 0
+        },
+        "forEach": {
+          "available": true,
+          "count": 0
+        },
+        "keys": {
+          "available": true,
+          "count": 0
+        },
+        "symbolIterator": {
+          "available": true,
+          "count": 0
+        },
+        "values": {
+          "available": true,
+          "count": 0
+        }
+      },
+      "ready": {
+        "constructor": "FontFaceSet",
+        "outcome": "resolved",
+        "promise": true,
+        "size": 0,
+        "status": "loaded"
+      }
+    },
+    "canvas": {
+      "available": true,
+      "canvasConstructor": "HTMLCanvasElement",
+      "contextConstructor": "CanvasRenderingContext2D",
+      "contextPrototype": "CanvasRenderingContext2D",
+      "descriptor": {
+        "configurable": true,
+        "enumerable": true,
+        "getterSource": "function get font() { [native code] }",
+        "hasGetter": true,
+        "hasSetter": true,
+        "setterSource": "function set font() { [native code] }",
+        "valueSource": null,
+        "valueType": null,
+        "writable": null
+      },
+      "font": "10px sans-serif",
+      "getterSource": "function get font() { [native code] }",
+      "nativeSource": true,
+      "noDrawingPerformed": true,
+      "repeatedFont": "10px sans-serif",
+      "setterSource": "function set font() { [native code] }",
+      "stable": true
+    },
+    "css": {
+      "cssAvailable": true,
+      "documentFontFamily": "\"Times New Roman\"",
+      "genericFamilies": {
+        "emoji": {
+          "fontCheck": true,
+          "fontFamily": true,
+          "fontShorthand": true
+        },
+        "fangsong": {
+          "fontCheck": true,
+          "fontFamily": true,
+          "fontShorthand": true
+        },
+        "math": {
+          "fontCheck": true,
+          "fontFamily": true,
+          "fontShorthand": true
+        },
+        "monospace": {
+          "fontCheck": true,
+          "fontFamily": true,
+          "fontShorthand": true
+        },
+        "sans-serif": {
+          "fontCheck": true,
+          "fontFamily": true,
+          "fontShorthand": true
+        },
+        "serif": {
+          "fontCheck": true,
+          "fontFamily": true,
+          "fontShorthand": true
+        },
+        "system-ui": {
+          "fontCheck": true,
+          "fontFamily": true,
+          "fontShorthand": true
+        }
+      },
+      "supportsDescriptors": {
+        "configurable": true,
+        "enumerable": false,
+        "getterSource": null,
+        "hasGetter": false,
+        "hasSetter": false,
+        "setterSource": null,
+        "valueSource": null,
+        "valueType": "object",
+        "writable": true
+      }
+    },
+    "descriptors": {
+      "canvasFont": {
+        "configurable": true,
+        "enumerable": true,
+        "getterSource": "function get font() { [native code] }",
+        "hasGetter": true,
+        "hasSetter": true,
+        "setterSource": "function set font() { [native code] }",
+        "valueSource": null,
+        "valueType": null,
+        "writable": null
+      },
+      "fontFace": {
+        "Symbol(Symbol.toStringTag)": null,
+        "ascentOverride": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": "function get ascentOverride() { [native code] }",
+          "hasGetter": true,
+          "hasSetter": true,
+          "setterSource": "function set ascentOverride() { [native code] }",
+          "valueSource": null,
+          "valueType": null,
+          "writable": null
+        },
+        "constructor": {
+          "configurable": true,
+          "enumerable": false,
+          "getterSource": null,
+          "hasGetter": false,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": "function FontFace() { [native code] }",
+          "valueType": "function",
+          "writable": true
+        },
+        "descentOverride": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": "function get descentOverride() { [native code] }",
+          "hasGetter": true,
+          "hasSetter": true,
+          "setterSource": "function set descentOverride() { [native code] }",
+          "valueSource": null,
+          "valueType": null,
+          "writable": null
+        },
+        "display": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": "function get display() { [native code] }",
+          "hasGetter": true,
+          "hasSetter": true,
+          "setterSource": "function set display() { [native code] }",
+          "valueSource": null,
+          "valueType": null,
+          "writable": null
+        },
+        "family": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": "function get family() { [native code] }",
+          "hasGetter": true,
+          "hasSetter": true,
+          "setterSource": "function set family() { [native code] }",
+          "valueSource": null,
+          "valueType": null,
+          "writable": null
+        },
+        "featureSettings": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": "function get featureSettings() { [native code] }",
+          "hasGetter": true,
+          "hasSetter": true,
+          "setterSource": "function set featureSettings() { [native code] }",
+          "valueSource": null,
+          "valueType": null,
+          "writable": null
+        },
+        "lineGapOverride": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": "function get lineGapOverride() { [native code] }",
+          "hasGetter": true,
+          "hasSetter": true,
+          "setterSource": "function set lineGapOverride() { [native code] }",
+          "valueSource": null,
+          "valueType": null,
+          "writable": null
+        },
+        "load": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": null,
+          "hasGetter": false,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": "function load() { [native code] }",
+          "valueType": "function",
+          "writable": true
+        },
+        "loaded": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": "function get loaded() { [native code] }",
+          "hasGetter": true,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": null,
+          "valueType": null,
+          "writable": null
+        },
+        "sizeAdjust": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": "function get sizeAdjust() { [native code] }",
+          "hasGetter": true,
+          "hasSetter": true,
+          "setterSource": "function set sizeAdjust() { [native code] }",
+          "valueSource": null,
+          "valueType": null,
+          "writable": null
+        },
+        "status": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": "function get status() { [native code] }",
+          "hasGetter": true,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": null,
+          "valueType": null,
+          "writable": null
+        },
+        "stretch": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": "function get stretch() { [native code] }",
+          "hasGetter": true,
+          "hasSetter": true,
+          "setterSource": "function set stretch() { [native code] }",
+          "valueSource": null,
+          "valueType": null,
+          "writable": null
+        },
+        "style": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": "function get style() { [native code] }",
+          "hasGetter": true,
+          "hasSetter": true,
+          "setterSource": "function set style() { [native code] }",
+          "valueSource": null,
+          "valueType": null,
+          "writable": null
+        },
+        "unicodeRange": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": "function get unicodeRange() { [native code] }",
+          "hasGetter": true,
+          "hasSetter": true,
+          "setterSource": "function set unicodeRange() { [native code] }",
+          "valueSource": null,
+          "valueType": null,
+          "writable": null
+        },
+        "variant": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": "function get variant() { [native code] }",
+          "hasGetter": true,
+          "hasSetter": true,
+          "setterSource": "function set variant() { [native code] }",
+          "valueSource": null,
+          "valueType": null,
+          "writable": null
+        },
+        "variationSettings": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": "function get variationSettings() { [native code] }",
+          "hasGetter": true,
+          "hasSetter": true,
+          "setterSource": "function set variationSettings() { [native code] }",
+          "valueSource": null,
+          "valueType": null,
+          "writable": null
+        },
+        "weight": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": "function get weight() { [native code] }",
+          "hasGetter": true,
+          "hasSetter": true,
+          "setterSource": "function set weight() { [native code] }",
+          "valueSource": null,
+          "valueType": null,
+          "writable": null
+        }
+      },
+      "fontFaceSet": {
+        "Symbol(Symbol.iterator)": null,
+        "Symbol(Symbol.toStringTag)": null,
+        "add": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": null,
+          "hasGetter": false,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": "function add() { [native code] }",
+          "valueType": "function",
+          "writable": true
+        },
+        "check": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": null,
+          "hasGetter": false,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": "function check() { [native code] }",
+          "valueType": "function",
+          "writable": true
+        },
+        "clear": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": null,
+          "hasGetter": false,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": "function clear() { [native code] }",
+          "valueType": "function",
+          "writable": true
+        },
+        "constructor": {
+          "configurable": true,
+          "enumerable": false,
+          "getterSource": null,
+          "hasGetter": false,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": "function FontFaceSet() { [native code] }",
+          "valueType": "function",
+          "writable": true
+        },
+        "delete": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": null,
+          "hasGetter": false,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": "function delete() { [native code] }",
+          "valueType": "function",
+          "writable": true
+        },
+        "entries": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": null,
+          "hasGetter": false,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": "function entries() { [native code] }",
+          "valueType": "function",
+          "writable": true
+        },
+        "forEach": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": null,
+          "hasGetter": false,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": "function forEach() { [native code] }",
+          "valueType": "function",
+          "writable": true
+        },
+        "has": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": null,
+          "hasGetter": false,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": "function has() { [native code] }",
+          "valueType": "function",
+          "writable": true
+        },
+        "keys": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": null,
+          "hasGetter": false,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": "function keys() { [native code] }",
+          "valueType": "function",
+          "writable": true
+        },
+        "load": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": null,
+          "hasGetter": false,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": "function load() { [native code] }",
+          "valueType": "function",
+          "writable": true
+        },
+        "onloading": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": "function get onloading() { [native code] }",
+          "hasGetter": true,
+          "hasSetter": true,
+          "setterSource": "function set onloading() { [native code] }",
+          "valueSource": null,
+          "valueType": null,
+          "writable": null
+        },
+        "onloadingdone": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": "function get onloadingdone() { [native code] }",
+          "hasGetter": true,
+          "hasSetter": true,
+          "setterSource": "function set onloadingdone() { [native code] }",
+          "valueSource": null,
+          "valueType": null,
+          "writable": null
+        },
+        "onloadingerror": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": "function get onloadingerror() { [native code] }",
+          "hasGetter": true,
+          "hasSetter": true,
+          "setterSource": "function set onloadingerror() { [native code] }",
+          "valueSource": null,
+          "valueType": null,
+          "writable": null
+        },
+        "ready": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": "function get ready() { [native code] }",
+          "hasGetter": true,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": null,
+          "valueType": null,
+          "writable": null
+        },
+        "size": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": "function get size() { [native code] }",
+          "hasGetter": true,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": null,
+          "valueType": null,
+          "writable": null
+        },
+        "status": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": "function get status() { [native code] }",
+          "hasGetter": true,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": null,
+          "valueType": null,
+          "writable": null
+        },
+        "values": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": null,
+          "hasGetter": false,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": "function values() { [native code] }",
+          "valueType": "function",
+          "writable": true
+        }
+      },
+      "metrics": {
+        "actualBoundingBoxAscent": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": "function get actualBoundingBoxAscent() { [native code] }",
+          "hasGetter": true,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": null,
+          "valueType": null,
+          "writable": null
+        },
+        "actualBoundingBoxDescent": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": "function get actualBoundingBoxDescent() { [native code] }",
+          "hasGetter": true,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": null,
+          "valueType": null,
+          "writable": null
+        },
+        "actualBoundingBoxLeft": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": "function get actualBoundingBoxLeft() { [native code] }",
+          "hasGetter": true,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": null,
+          "valueType": null,
+          "writable": null
+        },
+        "actualBoundingBoxRight": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": "function get actualBoundingBoxRight() { [native code] }",
+          "hasGetter": true,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": null,
+          "valueType": null,
+          "writable": null
+        },
+        "alphabeticBaseline": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": "function get alphabeticBaseline() { [native code] }",
+          "hasGetter": true,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": null,
+          "valueType": null,
+          "writable": null
+        },
+        "emHeightAscent": null,
+        "emHeightDescent": null,
+        "fontBoundingBoxAscent": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": "function get fontBoundingBoxAscent() { [native code] }",
+          "hasGetter": true,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": null,
+          "valueType": null,
+          "writable": null
+        },
+        "fontBoundingBoxDescent": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": "function get fontBoundingBoxDescent() { [native code] }",
+          "hasGetter": true,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": null,
+          "valueType": null,
+          "writable": null
+        },
+        "hangingBaseline": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": "function get hangingBaseline() { [native code] }",
+          "hasGetter": true,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": null,
+          "valueType": null,
+          "writable": null
+        },
+        "ideographicBaseline": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": "function get ideographicBaseline() { [native code] }",
+          "hasGetter": true,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": null,
+          "valueType": null,
+          "writable": null
+        },
+        "width": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": "function get width() { [native code] }",
+          "hasGetter": true,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": null,
+          "valueType": null,
+          "writable": null
+        }
+      }
+    },
+    "exceptions": {
+      "checkDetached": {
+        "error": {
+          "constructor": "TypeError",
+          "isDOMException": false,
+          "isError": true,
+          "isTypeError": true,
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "throws": true
+      },
+      "entriesDetached": {
+        "error": {
+          "constructor": "TypeError",
+          "isDOMException": false,
+          "isError": true,
+          "isTypeError": true,
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "throws": true
+      },
+      "fontFaceConstructor": {
+        "error": {
+          "constructor": "TypeError",
+          "isDOMException": false,
+          "isError": true,
+          "isTypeError": true,
+          "message": "Failed to construct 'FontFace': Please use the 'new' operator, this DOM object constructor cannot be called as a function.",
+          "name": "TypeError"
+        },
+        "throws": true
+      },
+      "forEachDetached": {
+        "error": {
+          "constructor": "TypeError",
+          "isDOMException": false,
+          "isError": true,
+          "isTypeError": true,
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "throws": true
+      }
+    },
+    "fontface": {
+      "available": true,
+      "constructor": {
+        "descriptor": {
+          "configurable": true,
+          "enumerable": false,
+          "getterSource": null,
+          "hasGetter": false,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": "function FontFace() { [native code] }",
+          "valueType": "function",
+          "writable": true
+        },
+        "length": 2,
+        "name": "FontFace",
+        "nativeSource": true,
+        "source": "function FontFace() { [native code] }"
+      },
+      "methods": {
+        "load": {
+          "available": true,
+          "descriptor": {
+            "configurable": true,
+            "enumerable": true,
+            "getterSource": null,
+            "hasGetter": false,
+            "hasSetter": false,
+            "setterSource": null,
+            "valueSource": "function load() { [native code] }",
+            "valueType": "function",
+            "writable": true
+          },
+          "illegalInvocation": {
+            "tested": true,
+            "throws": false
+          },
+          "length": 0,
+          "name": "load",
+          "nativeSource": true,
+          "source": "function load() { [native code] }"
+        }
+      },
+      "prototype": {
+        "available": true,
+        "constructor": "FontFace",
+        "constructorEquality": true,
+        "constructorSource": "function FontFace() { [native code] }",
+        "instanceofObject": true,
+        "objectPrototype": "Object",
+        "ownProperties": [
+          "Symbol(Symbol.toStringTag)",
+          "ascentOverride",
+          "constructor",
+          "descentOverride",
+          "display",
+          "family",
+          "featureSettings",
+          "lineGapOverride",
+          "load",
+          "loaded",
+          "sizeAdjust",
+          "status",
+          "stretch",
+          "style",
+          "unicodeRange",
+          "variant",
+          "variationSettings",
+          "weight"
+        ],
+        "prototypeChain": [
+          "FontFace",
+          "Object"
+        ],
+        "prototypeEquality": true,
+        "symbolToStringTag": {
+          "configurable": true,
+          "enumerable": false,
+          "getterSource": null,
+          "hasGetter": false,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": null,
+          "valueType": "string",
+          "writable": false
+        }
+      },
+      "prototypeChain": [
+        "FontFace",
+        "Object"
+      ],
+      "prototypeDescriptors": {
+        "Symbol(Symbol.toStringTag)": null,
+        "ascentOverride": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": "function get ascentOverride() { [native code] }",
+          "hasGetter": true,
+          "hasSetter": true,
+          "setterSource": "function set ascentOverride() { [native code] }",
+          "valueSource": null,
+          "valueType": null,
+          "writable": null
+        },
+        "constructor": {
+          "configurable": true,
+          "enumerable": false,
+          "getterSource": null,
+          "hasGetter": false,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": "function FontFace() { [native code] }",
+          "valueType": "function",
+          "writable": true
+        },
+        "descentOverride": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": "function get descentOverride() { [native code] }",
+          "hasGetter": true,
+          "hasSetter": true,
+          "setterSource": "function set descentOverride() { [native code] }",
+          "valueSource": null,
+          "valueType": null,
+          "writable": null
+        },
+        "display": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": "function get display() { [native code] }",
+          "hasGetter": true,
+          "hasSetter": true,
+          "setterSource": "function set display() { [native code] }",
+          "valueSource": null,
+          "valueType": null,
+          "writable": null
+        },
+        "family": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": "function get family() { [native code] }",
+          "hasGetter": true,
+          "hasSetter": true,
+          "setterSource": "function set family() { [native code] }",
+          "valueSource": null,
+          "valueType": null,
+          "writable": null
+        },
+        "featureSettings": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": "function get featureSettings() { [native code] }",
+          "hasGetter": true,
+          "hasSetter": true,
+          "setterSource": "function set featureSettings() { [native code] }",
+          "valueSource": null,
+          "valueType": null,
+          "writable": null
+        },
+        "lineGapOverride": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": "function get lineGapOverride() { [native code] }",
+          "hasGetter": true,
+          "hasSetter": true,
+          "setterSource": "function set lineGapOverride() { [native code] }",
+          "valueSource": null,
+          "valueType": null,
+          "writable": null
+        },
+        "load": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": null,
+          "hasGetter": false,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": "function load() { [native code] }",
+          "valueType": "function",
+          "writable": true
+        },
+        "loaded": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": "function get loaded() { [native code] }",
+          "hasGetter": true,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": null,
+          "valueType": null,
+          "writable": null
+        },
+        "sizeAdjust": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": "function get sizeAdjust() { [native code] }",
+          "hasGetter": true,
+          "hasSetter": true,
+          "setterSource": "function set sizeAdjust() { [native code] }",
+          "valueSource": null,
+          "valueType": null,
+          "writable": null
+        },
+        "status": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": "function get status() { [native code] }",
+          "hasGetter": true,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": null,
+          "valueType": null,
+          "writable": null
+        },
+        "stretch": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": "function get stretch() { [native code] }",
+          "hasGetter": true,
+          "hasSetter": true,
+          "setterSource": "function set stretch() { [native code] }",
+          "valueSource": null,
+          "valueType": null,
+          "writable": null
+        },
+        "style": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": "function get style() { [native code] }",
+          "hasGetter": true,
+          "hasSetter": true,
+          "setterSource": "function set style() { [native code] }",
+          "valueSource": null,
+          "valueType": null,
+          "writable": null
+        },
+        "unicodeRange": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": "function get unicodeRange() { [native code] }",
+          "hasGetter": true,
+          "hasSetter": true,
+          "setterSource": "function set unicodeRange() { [native code] }",
+          "valueSource": null,
+          "valueType": null,
+          "writable": null
+        },
+        "variant": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": "function get variant() { [native code] }",
+          "hasGetter": true,
+          "hasSetter": true,
+          "setterSource": "function set variant() { [native code] }",
+          "valueSource": null,
+          "valueType": null,
+          "writable": null
+        },
+        "variationSettings": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": "function get variationSettings() { [native code] }",
+          "hasGetter": true,
+          "hasSetter": true,
+          "setterSource": "function set variationSettings() { [native code] }",
+          "valueSource": null,
+          "valueType": null,
+          "writable": null
+        },
+        "weight": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": "function get weight() { [native code] }",
+          "hasGetter": true,
+          "hasSetter": true,
+          "setterSource": "function set weight() { [native code] }",
+          "valueSource": null,
+          "valueType": null,
+          "writable": null
+        }
+      }
+    },
+    "fontfaceset": {
+      "available": true,
+      "constructor": "FontFaceSet",
+      "constructorEquality": true,
+      "constructorSource": "function FontFaceSet() { [native code] }",
+      "instanceof": true,
+      "navigatorDocumentDescriptor": {
+        "configurable": true,
+        "enumerable": true,
+        "getterSource": "function get fonts() { [native code] }",
+        "hasGetter": true,
+        "hasSetter": false,
+        "setterSource": null,
+        "valueSource": null,
+        "valueType": null,
+        "writable": null
+      },
+      "objectToString": "[object FontFaceSet]",
+      "ownProperties": [],
+      "prototype": "FontFaceSet",
+      "prototypeChain": [
+        "FontFaceSet",
+        "FontFaceSet",
+        "EventTarget",
+        "Object"
+      ],
+      "prototypeDescriptors": {
+        "Symbol(Symbol.iterator)": null,
+        "Symbol(Symbol.toStringTag)": null,
+        "add": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": null,
+          "hasGetter": false,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": "function add() { [native code] }",
+          "valueType": "function",
+          "writable": true
+        },
+        "check": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": null,
+          "hasGetter": false,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": "function check() { [native code] }",
+          "valueType": "function",
+          "writable": true
+        },
+        "clear": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": null,
+          "hasGetter": false,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": "function clear() { [native code] }",
+          "valueType": "function",
+          "writable": true
+        },
+        "constructor": {
+          "configurable": true,
+          "enumerable": false,
+          "getterSource": null,
+          "hasGetter": false,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": "function FontFaceSet() { [native code] }",
+          "valueType": "function",
+          "writable": true
+        },
+        "delete": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": null,
+          "hasGetter": false,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": "function delete() { [native code] }",
+          "valueType": "function",
+          "writable": true
+        },
+        "entries": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": null,
+          "hasGetter": false,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": "function entries() { [native code] }",
+          "valueType": "function",
+          "writable": true
+        },
+        "forEach": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": null,
+          "hasGetter": false,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": "function forEach() { [native code] }",
+          "valueType": "function",
+          "writable": true
+        },
+        "has": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": null,
+          "hasGetter": false,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": "function has() { [native code] }",
+          "valueType": "function",
+          "writable": true
+        },
+        "keys": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": null,
+          "hasGetter": false,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": "function keys() { [native code] }",
+          "valueType": "function",
+          "writable": true
+        },
+        "load": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": null,
+          "hasGetter": false,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": "function load() { [native code] }",
+          "valueType": "function",
+          "writable": true
+        },
+        "onloading": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": "function get onloading() { [native code] }",
+          "hasGetter": true,
+          "hasSetter": true,
+          "setterSource": "function set onloading() { [native code] }",
+          "valueSource": null,
+          "valueType": null,
+          "writable": null
+        },
+        "onloadingdone": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": "function get onloadingdone() { [native code] }",
+          "hasGetter": true,
+          "hasSetter": true,
+          "setterSource": "function set onloadingdone() { [native code] }",
+          "valueSource": null,
+          "valueType": null,
+          "writable": null
+        },
+        "onloadingerror": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": "function get onloadingerror() { [native code] }",
+          "hasGetter": true,
+          "hasSetter": true,
+          "setterSource": "function set onloadingerror() { [native code] }",
+          "valueSource": null,
+          "valueType": null,
+          "writable": null
+        },
+        "ready": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": "function get ready() { [native code] }",
+          "hasGetter": true,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": null,
+          "valueType": null,
+          "writable": null
+        },
+        "size": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": "function get size() { [native code] }",
+          "hasGetter": true,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": null,
+          "valueType": null,
+          "writable": null
+        },
+        "status": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": "function get status() { [native code] }",
+          "hasGetter": true,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": null,
+          "valueType": null,
+          "writable": null
+        },
+        "values": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": null,
+          "hasGetter": false,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": "function values() { [native code] }",
+          "valueType": "function",
+          "writable": true
+        }
+      },
+      "prototypeEquality": true,
+      "prototypeProperties": [
+        "Symbol(Symbol.iterator)",
+        "Symbol(Symbol.toStringTag)",
+        "add",
+        "check",
+        "clear",
+        "constructor",
+        "delete",
+        "entries",
+        "forEach",
+        "has",
+        "keys",
+        "load",
+        "onloading",
+        "onloadingdone",
+        "onloadingerror",
+        "ready",
+        "size",
+        "status",
+        "values"
+      ],
+      "referenceStable": true,
+      "repeatedSize": 0,
+      "repeatedStatus": "loaded",
+      "size": 0,
+      "sizeStable": true,
+      "status": "loaded",
+      "statusStable": true,
+      "symbolToStringTag": {
+        "configurable": true,
+        "enumerable": false,
+        "getterSource": null,
+        "hasGetter": false,
+        "hasSetter": false,
+        "setterSource": null,
+        "valueSource": null,
+        "valueType": "string",
+        "writable": false
+      },
+      "typeof": "object"
+    },
+    "fonts": {
+      "defaultFontFamily": "\"Times New Roman\"",
+      "documentFonts": {
+        "available": true,
+        "constructor": "FontFaceSet",
+        "constructorEquality": true,
+        "constructorSource": "function FontFaceSet() { [native code] }",
+        "instanceof": true,
+        "navigatorDocumentDescriptor": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": "function get fonts() { [native code] }",
+          "hasGetter": true,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": null,
+          "valueType": null,
+          "writable": null
+        },
+        "objectToString": "[object FontFaceSet]",
+        "ownProperties": [],
+        "prototype": "FontFaceSet",
+        "prototypeChain": [
+          "FontFaceSet",
+          "FontFaceSet",
+          "EventTarget",
+          "Object"
+        ],
+        "prototypeDescriptors": {
+          "Symbol(Symbol.iterator)": null,
+          "Symbol(Symbol.toStringTag)": null,
+          "add": {
+            "configurable": true,
+            "enumerable": true,
+            "getterSource": null,
+            "hasGetter": false,
+            "hasSetter": false,
+            "setterSource": null,
+            "valueSource": "function add() { [native code] }",
+            "valueType": "function",
+            "writable": true
+          },
+          "check": {
+            "configurable": true,
+            "enumerable": true,
+            "getterSource": null,
+            "hasGetter": false,
+            "hasSetter": false,
+            "setterSource": null,
+            "valueSource": "function check() { [native code] }",
+            "valueType": "function",
+            "writable": true
+          },
+          "clear": {
+            "configurable": true,
+            "enumerable": true,
+            "getterSource": null,
+            "hasGetter": false,
+            "hasSetter": false,
+            "setterSource": null,
+            "valueSource": "function clear() { [native code] }",
+            "valueType": "function",
+            "writable": true
+          },
+          "constructor": {
+            "configurable": true,
+            "enumerable": false,
+            "getterSource": null,
+            "hasGetter": false,
+            "hasSetter": false,
+            "setterSource": null,
+            "valueSource": "function FontFaceSet() { [native code] }",
+            "valueType": "function",
+            "writable": true
+          },
+          "delete": {
+            "configurable": true,
+            "enumerable": true,
+            "getterSource": null,
+            "hasGetter": false,
+            "hasSetter": false,
+            "setterSource": null,
+            "valueSource": "function delete() { [native code] }",
+            "valueType": "function",
+            "writable": true
+          },
+          "entries": {
+            "configurable": true,
+            "enumerable": true,
+            "getterSource": null,
+            "hasGetter": false,
+            "hasSetter": false,
+            "setterSource": null,
+            "valueSource": "function entries() { [native code] }",
+            "valueType": "function",
+            "writable": true
+          },
+          "forEach": {
+            "configurable": true,
+            "enumerable": true,
+            "getterSource": null,
+            "hasGetter": false,
+            "hasSetter": false,
+            "setterSource": null,
+            "valueSource": "function forEach() { [native code] }",
+            "valueType": "function",
+            "writable": true
+          },
+          "has": {
+            "configurable": true,
+            "enumerable": true,
+            "getterSource": null,
+            "hasGetter": false,
+            "hasSetter": false,
+            "setterSource": null,
+            "valueSource": "function has() { [native code] }",
+            "valueType": "function",
+            "writable": true
+          },
+          "keys": {
+            "configurable": true,
+            "enumerable": true,
+            "getterSource": null,
+            "hasGetter": false,
+            "hasSetter": false,
+            "setterSource": null,
+            "valueSource": "function keys() { [native code] }",
+            "valueType": "function",
+            "writable": true
+          },
+          "load": {
+            "configurable": true,
+            "enumerable": true,
+            "getterSource": null,
+            "hasGetter": false,
+            "hasSetter": false,
+            "setterSource": null,
+            "valueSource": "function load() { [native code] }",
+            "valueType": "function",
+            "writable": true
+          },
+          "onloading": {
+            "configurable": true,
+            "enumerable": true,
+            "getterSource": "function get onloading() { [native code] }",
+            "hasGetter": true,
+            "hasSetter": true,
+            "setterSource": "function set onloading() { [native code] }",
+            "valueSource": null,
+            "valueType": null,
+            "writable": null
+          },
+          "onloadingdone": {
+            "configurable": true,
+            "enumerable": true,
+            "getterSource": "function get onloadingdone() { [native code] }",
+            "hasGetter": true,
+            "hasSetter": true,
+            "setterSource": "function set onloadingdone() { [native code] }",
+            "valueSource": null,
+            "valueType": null,
+            "writable": null
+          },
+          "onloadingerror": {
+            "configurable": true,
+            "enumerable": true,
+            "getterSource": "function get onloadingerror() { [native code] }",
+            "hasGetter": true,
+            "hasSetter": true,
+            "setterSource": "function set onloadingerror() { [native code] }",
+            "valueSource": null,
+            "valueType": null,
+            "writable": null
+          },
+          "ready": {
+            "configurable": true,
+            "enumerable": true,
+            "getterSource": "function get ready() { [native code] }",
+            "hasGetter": true,
+            "hasSetter": false,
+            "setterSource": null,
+            "valueSource": null,
+            "valueType": null,
+            "writable": null
+          },
+          "size": {
+            "configurable": true,
+            "enumerable": true,
+            "getterSource": "function get size() { [native code] }",
+            "hasGetter": true,
+            "hasSetter": false,
+            "setterSource": null,
+            "valueSource": null,
+            "valueType": null,
+            "writable": null
+          },
+          "status": {
+            "configurable": true,
+            "enumerable": true,
+            "getterSource": "function get status() { [native code] }",
+            "hasGetter": true,
+            "hasSetter": false,
+            "setterSource": null,
+            "valueSource": null,
+            "valueType": null,
+            "writable": null
+          },
+          "values": {
+            "configurable": true,
+            "enumerable": true,
+            "getterSource": null,
+            "hasGetter": false,
+            "hasSetter": false,
+            "setterSource": null,
+            "valueSource": "function values() { [native code] }",
+            "valueType": "function",
+            "writable": true
+          }
+        },
+        "prototypeEquality": true,
+        "prototypeProperties": [
+          "Symbol(Symbol.iterator)",
+          "Symbol(Symbol.toStringTag)",
+          "add",
+          "check",
+          "clear",
+          "constructor",
+          "delete",
+          "entries",
+          "forEach",
+          "has",
+          "keys",
+          "load",
+          "onloading",
+          "onloadingdone",
+          "onloadingerror",
+          "ready",
+          "size",
+          "status",
+          "values"
+        ],
+        "referenceStable": true,
+        "repeatedSize": 0,
+        "repeatedStatus": "loaded",
+        "size": 0,
+        "sizeStable": true,
+        "status": "loaded",
+        "statusStable": true,
+        "symbolToStringTag": {
+          "configurable": true,
+          "enumerable": false,
+          "getterSource": null,
+          "hasGetter": false,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": null,
+          "valueType": "string",
+          "writable": false
+        },
+        "typeof": "object"
+      },
+      "genericFamilies": {
+        "emoji": {
+          "fontCheck": true,
+          "fontFamily": true,
+          "fontShorthand": true
+        },
+        "fangsong": {
+          "fontCheck": true,
+          "fontFamily": true,
+          "fontShorthand": true
+        },
+        "math": {
+          "fontCheck": true,
+          "fontFamily": true,
+          "fontShorthand": true
+        },
+        "monospace": {
+          "fontCheck": true,
+          "fontFamily": true,
+          "fontShorthand": true
+        },
+        "sans-serif": {
+          "fontCheck": true,
+          "fontFamily": true,
+          "fontShorthand": true
+        },
+        "serif": {
+          "fontCheck": true,
+          "fontFamily": true,
+          "fontShorthand": true
+        },
+        "system-ui": {
+          "fontCheck": true,
+          "fontFamily": true,
+          "fontShorthand": true
+        }
+      }
+    },
+    "methods": {
+      "fontFace": {
+        "load": {
+          "available": true,
+          "descriptor": {
+            "configurable": true,
+            "enumerable": true,
+            "getterSource": null,
+            "hasGetter": false,
+            "hasSetter": false,
+            "setterSource": null,
+            "valueSource": "function load() { [native code] }",
+            "valueType": "function",
+            "writable": true
+          },
+          "illegalInvocation": {
+            "tested": true,
+            "throws": false
+          },
+          "length": 0,
+          "name": "load",
+          "nativeSource": true,
+          "source": "function load() { [native code] }"
+        }
+      },
+      "fontFaceSet": {
+        "check": {
+          "available": true,
+          "descriptor": {
+            "configurable": true,
+            "enumerable": true,
+            "getterSource": null,
+            "hasGetter": false,
+            "hasSetter": false,
+            "setterSource": null,
+            "valueSource": "function check() { [native code] }",
+            "valueType": "function",
+            "writable": true
+          },
+          "illegalInvocation": {
+            "error": {
+              "constructor": "TypeError",
+              "isDOMException": false,
+              "isError": true,
+              "isTypeError": true,
+              "message": "Illegal invocation",
+              "name": "TypeError"
+            },
+            "tested": true,
+            "throws": true
+          },
+          "length": 1,
+          "name": "check",
+          "nativeSource": true,
+          "source": "function check() { [native code] }"
+        },
+        "entries": {
+          "available": true,
+          "descriptor": {
+            "configurable": true,
+            "enumerable": true,
+            "getterSource": null,
+            "hasGetter": false,
+            "hasSetter": false,
+            "setterSource": null,
+            "valueSource": "function entries() { [native code] }",
+            "valueType": "function",
+            "writable": true
+          },
+          "illegalInvocation": {
+            "error": {
+              "constructor": "TypeError",
+              "isDOMException": false,
+              "isError": true,
+              "isTypeError": true,
+              "message": "Illegal invocation",
+              "name": "TypeError"
+            },
+            "tested": true,
+            "throws": true
+          },
+          "length": 0,
+          "name": "entries",
+          "nativeSource": true,
+          "source": "function entries() { [native code] }"
+        },
+        "forEach": {
+          "available": true,
+          "descriptor": {
+            "configurable": true,
+            "enumerable": true,
+            "getterSource": null,
+            "hasGetter": false,
+            "hasSetter": false,
+            "setterSource": null,
+            "valueSource": "function forEach() { [native code] }",
+            "valueType": "function",
+            "writable": true
+          },
+          "illegalInvocation": {
+            "error": {
+              "constructor": "TypeError",
+              "isDOMException": false,
+              "isError": true,
+              "isTypeError": true,
+              "message": "Illegal invocation",
+              "name": "TypeError"
+            },
+            "tested": true,
+            "throws": true
+          },
+          "length": 1,
+          "name": "forEach",
+          "nativeSource": true,
+          "source": "function forEach() { [native code] }"
+        },
+        "iterator": {
+          "available": true,
+          "descriptor": {
+            "configurable": true,
+            "enumerable": false,
+            "getterSource": null,
+            "hasGetter": false,
+            "hasSetter": false,
+            "setterSource": null,
+            "valueSource": "function values() { [native code] }",
+            "valueType": "function",
+            "writable": true
+          },
+          "illegalInvocation": {
+            "error": {
+              "constructor": "TypeError",
+              "isDOMException": false,
+              "isError": true,
+              "isTypeError": true,
+              "message": "Illegal invocation",
+              "name": "TypeError"
+            },
+            "tested": true,
+            "throws": true
+          },
+          "length": 0,
+          "name": "values",
+          "nativeSource": true,
+          "source": "function values() { [native code] }"
+        },
+        "keys": {
+          "available": true,
+          "descriptor": {
+            "configurable": true,
+            "enumerable": true,
+            "getterSource": null,
+            "hasGetter": false,
+            "hasSetter": false,
+            "setterSource": null,
+            "valueSource": "function keys() { [native code] }",
+            "valueType": "function",
+            "writable": true
+          },
+          "illegalInvocation": {
+            "error": {
+              "constructor": "TypeError",
+              "isDOMException": false,
+              "isError": true,
+              "isTypeError": true,
+              "message": "Illegal invocation",
+              "name": "TypeError"
+            },
+            "tested": true,
+            "throws": true
+          },
+          "length": 0,
+          "name": "keys",
+          "nativeSource": true,
+          "source": "function keys() { [native code] }"
+        },
+        "load": {
+          "available": true,
+          "descriptor": {
+            "configurable": true,
+            "enumerable": true,
+            "getterSource": null,
+            "hasGetter": false,
+            "hasSetter": false,
+            "setterSource": null,
+            "valueSource": "function load() { [native code] }",
+            "valueType": "function",
+            "writable": true
+          },
+          "illegalInvocation": {
+            "tested": true,
+            "throws": false
+          },
+          "length": 1,
+          "name": "load",
+          "nativeSource": true,
+          "source": "function load() { [native code] }"
+        },
+        "values": {
+          "available": true,
+          "descriptor": {
+            "configurable": true,
+            "enumerable": true,
+            "getterSource": null,
+            "hasGetter": false,
+            "hasSetter": false,
+            "setterSource": null,
+            "valueSource": "function values() { [native code] }",
+            "valueType": "function",
+            "writable": true
+          },
+          "illegalInvocation": {
+            "error": {
+              "constructor": "TypeError",
+              "isDOMException": false,
+              "isError": true,
+              "isTypeError": true,
+              "message": "Illegal invocation",
+              "name": "TypeError"
+            },
+            "tested": true,
+            "throws": true
+          },
+          "length": 0,
+          "name": "values",
+          "nativeSource": true,
+          "source": "function values() { [native code] }"
+        }
+      }
+    },
+    "metrics": {
+      "available": true,
+      "constructor": "TextMetrics",
+      "descriptors": {
+        "actualBoundingBoxAscent": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": "function get actualBoundingBoxAscent() { [native code] }",
+          "hasGetter": true,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": null,
+          "valueType": null,
+          "writable": null
+        },
+        "actualBoundingBoxDescent": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": "function get actualBoundingBoxDescent() { [native code] }",
+          "hasGetter": true,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": null,
+          "valueType": null,
+          "writable": null
+        },
+        "actualBoundingBoxLeft": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": "function get actualBoundingBoxLeft() { [native code] }",
+          "hasGetter": true,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": null,
+          "valueType": null,
+          "writable": null
+        },
+        "actualBoundingBoxRight": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": "function get actualBoundingBoxRight() { [native code] }",
+          "hasGetter": true,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": null,
+          "valueType": null,
+          "writable": null
+        },
+        "alphabeticBaseline": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": "function get alphabeticBaseline() { [native code] }",
+          "hasGetter": true,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": null,
+          "valueType": null,
+          "writable": null
+        },
+        "emHeightAscent": null,
+        "emHeightDescent": null,
+        "fontBoundingBoxAscent": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": "function get fontBoundingBoxAscent() { [native code] }",
+          "hasGetter": true,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": null,
+          "valueType": null,
+          "writable": null
+        },
+        "fontBoundingBoxDescent": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": "function get fontBoundingBoxDescent() { [native code] }",
+          "hasGetter": true,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": null,
+          "valueType": null,
+          "writable": null
+        },
+        "hangingBaseline": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": "function get hangingBaseline() { [native code] }",
+          "hasGetter": true,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": null,
+          "valueType": null,
+          "writable": null
+        },
+        "ideographicBaseline": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": "function get ideographicBaseline() { [native code] }",
+          "hasGetter": true,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": null,
+          "valueType": null,
+          "writable": null
+        },
+        "width": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": "function get width() { [native code] }",
+          "hasGetter": true,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": null,
+          "valueType": null,
+          "writable": null
+        }
+      },
+      "objectToString": {
+        "constructor": "TextMetrics",
+        "objectToString": "[object TextMetrics]",
+        "ownProperties": [],
+        "type": "object"
+      },
+      "prototype": "TextMetrics",
+      "repeatedWidth": 75.5908203125,
+      "values": {
+        "actualBoundingBoxAscent": 7,
+        "actualBoundingBoxDescent": 2,
+        "actualBoundingBoxLeft": 0,
+        "actualBoundingBoxRight": 76.5908203125,
+        "alphabeticBaseline": -0.0,
+        "emHeightAscent": null,
+        "emHeightDescent": null,
+        "fontBoundingBoxAscent": 9,
+        "fontBoundingBoxDescent": 2,
+        "hangingBaseline": 7.199999809265137,
+        "ideographicBaseline": -2,
+        "width": 75.5908203125
+      },
+      "widthStable": true
+    },
+    "prototype": {
+      "fontFace": {
+        "available": true,
+        "constructor": "FontFace",
+        "constructorEquality": true,
+        "constructorSource": "function FontFace() { [native code] }",
+        "instanceofObject": true,
+        "objectPrototype": "Object",
+        "ownProperties": [
+          "Symbol(Symbol.toStringTag)",
+          "ascentOverride",
+          "constructor",
+          "descentOverride",
+          "display",
+          "family",
+          "featureSettings",
+          "lineGapOverride",
+          "load",
+          "loaded",
+          "sizeAdjust",
+          "status",
+          "stretch",
+          "style",
+          "unicodeRange",
+          "variant",
+          "variationSettings",
+          "weight"
+        ],
+        "prototypeChain": [
+          "FontFace",
+          "Object"
+        ],
+        "prototypeEquality": true,
+        "symbolToStringTag": {
+          "configurable": true,
+          "enumerable": false,
+          "getterSource": null,
+          "hasGetter": false,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": null,
+          "valueType": "string",
+          "writable": false
+        }
+      },
+      "fontFaceSet": {
+        "available": true,
+        "constructor": "FontFaceSet",
+        "constructorEquality": true,
+        "constructorSource": "function FontFaceSet() { [native code] }",
+        "instanceofObject": true,
+        "objectPrototype": "EventTarget",
+        "ownProperties": [
+          "Symbol(Symbol.iterator)",
+          "Symbol(Symbol.toStringTag)",
+          "add",
+          "check",
+          "clear",
+          "constructor",
+          "delete",
+          "entries",
+          "forEach",
+          "has",
+          "keys",
+          "load",
+          "onloading",
+          "onloadingdone",
+          "onloadingerror",
+          "ready",
+          "size",
+          "status",
+          "values"
+        ],
+        "prototypeChain": [
+          "FontFaceSet",
+          "EventTarget",
+          "Object"
+        ],
+        "prototypeEquality": true,
+        "symbolToStringTag": {
+          "configurable": true,
+          "enumerable": false,
+          "getterSource": null,
+          "hasGetter": false,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": null,
+          "valueType": "string",
+          "writable": false
+        }
+      }
+    }
+  },
+  "capture_status": "SUCCESS",
+  "capture_error": null
+}

@@ -1,0 +1,182 @@
+{
+  "canvas": {
+    "height": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": "function get height() { [native code] }",
+      "hasGetter": true,
+      "hasSetter": true,
+      "setterSource": "function set height() { [native code] }",
+      "valueSource": null,
+      "valueType": null,
+      "writable": null
+    },
+    "toBlob": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": null,
+      "hasGetter": false,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": "function toBlob() { [native code] }",
+      "valueType": "function",
+      "writable": true
+    },
+    "toDataURL": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": null,
+      "hasGetter": false,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": "function toDataURL() { [native code] }",
+      "valueType": "function",
+      "writable": true
+    },
+    "width": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": "function get width() { [native code] }",
+      "hasGetter": true,
+      "hasSetter": true,
+      "setterSource": "function set width() { [native code] }",
+      "valueSource": null,
+      "valueType": null,
+      "writable": null
+    }
+  },
+  "context": {
+    "canvas": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": "function get canvas() { [native code] }",
+      "hasGetter": true,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": null,
+      "valueType": null,
+      "writable": null
+    },
+    "fillStyle": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": "function get fillStyle() { [native code] }",
+      "hasGetter": true,
+      "hasSetter": true,
+      "setterSource": "function set fillStyle() { [native code] }",
+      "valueSource": null,
+      "valueType": null,
+      "writable": null
+    },
+    "font": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": "function get font() { [native code] }",
+      "hasGetter": true,
+      "hasSetter": true,
+      "setterSource": "function set font() { [native code] }",
+      "valueSource": null,
+      "valueType": null,
+      "writable": null
+    },
+    "getImageData": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": null,
+      "hasGetter": false,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": "function getImageData() { [native code] }",
+      "valueType": "function",
+      "writable": true
+    },
+    "globalAlpha": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": "function get globalAlpha() { [native code] }",
+      "hasGetter": true,
+      "hasSetter": true,
+      "setterSource": "function set globalAlpha() { [native code] }",
+      "valueSource": null,
+      "valueType": null,
+      "writable": null
+    },
+    "isPointInPath": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": null,
+      "hasGetter": false,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": "function isPointInPath() { [native code] }",
+      "valueType": "function",
+      "writable": true
+    },
+    "isPointInStroke": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": null,
+      "hasGetter": false,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": "function isPointInStroke() { [native code] }",
+      "valueType": "function",
+      "writable": true
+    },
+    "lineWidth": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": "function get lineWidth() { [native code] }",
+      "hasGetter": true,
+      "hasSetter": true,
+      "setterSource": "function set lineWidth() { [native code] }",
+      "valueSource": null,
+      "valueType": null,
+      "writable": null
+    },
+    "measureText": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": null,
+      "hasGetter": false,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": "function measureText() { [native code] }",
+      "valueType": "function",
+      "writable": true
+    },
+    "strokeStyle": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": "function get strokeStyle() { [native code] }",
+      "hasGetter": true,
+      "hasSetter": true,
+      "setterSource": "function set strokeStyle() { [native code] }",
+      "valueSource": null,
+      "valueType": null,
+      "writable": null
+    },
+    "textAlign": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": "function get textAlign() { [native code] }",
+      "hasGetter": true,
+      "hasSetter": true,
+      "setterSource": "function set textAlign() { [native code] }",
+      "valueSource": null,
+      "valueType": null,
+      "writable": null
+    },
+    "textBaseline": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": "function get textBaseline() { [native code] }",
+      "hasGetter": true,
+      "hasSetter": true,
+      "setterSource": "function set textBaseline() { [native code] }",
+      "valueSource": null,
+      "valueType": null,
+      "writable": null
+    }
+  }
+}

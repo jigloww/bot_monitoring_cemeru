@@ -1,0 +1,31 @@
+{
+  "constructor": "HTMLCanvasElement",
+  "height": 80,
+  "instanceofHTMLCanvasElement": true,
+  "objectToString": "[object HTMLCanvasElement]",
+  "ownProperties": [],
+  "prototypeChain": [
+    "HTMLCanvasElement",
+    "HTMLCanvasElement",
+    "HTMLElement",
+    "Element",
+    "Node",
+    "EventTarget",
+    "Object"
+  ],
+  "prototypeEquality": true,
+  "supported": true,
+  "toStringTag": {
+    "configurable": true,
+    "enumerable": false,
+    "getterSource": null,
+    "hasGetter": false,
+    "hasSetter": false,
+    "setterSource": null,
+    "valueSource": null,
+    "valueType": "string",
+    "writable": false
+  },
+  "typeof": "object",
+  "width": 240
+}

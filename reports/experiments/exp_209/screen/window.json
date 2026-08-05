@@ -1,0 +1,60 @@
+{
+  "devicePixelRatio": 1,
+  "innerHeight": 720,
+  "innerWidth": 1280,
+  "outerHeight": 720,
+  "outerWidth": 1280,
+  "visualViewport": {
+    "available": true,
+    "constructor": "VisualViewport",
+    "constructorEquality": true,
+    "constructorSource": "function VisualViewport() { [native code] }",
+    "instanceof": true,
+    "objectToString": "[object VisualViewport]",
+    "ownProperties": [],
+    "prototype": "VisualViewport",
+    "prototypeChain": [
+      "VisualViewport",
+      "VisualViewport",
+      "EventTarget",
+      "Object"
+    ],
+    "prototypeEquality": true,
+    "prototypeProperties": [
+      "Symbol(Symbol.toStringTag)",
+      "constructor",
+      "height",
+      "offsetLeft",
+      "offsetTop",
+      "onresize",
+      "onscroll",
+      "onscrollend",
+      "pageLeft",
+      "pageTop",
+      "scale",
+      "width"
+    ],
+    "referenceStable": true,
+    "symbolToStringTag": {
+      "configurable": true,
+      "enumerable": false,
+      "getterSource": null,
+      "hasGetter": false,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": null,
+      "valueType": "string",
+      "writable": false
+    },
+    "typeof": "object"
+  },
+  "visualViewportValues": {
+    "height": 720,
+    "offsetLeft": 0,
+    "offsetTop": 0,
+    "pageLeft": 0,
+    "pageTop": 0,
+    "scale": 1,
+    "width": 1280
+  }
+}

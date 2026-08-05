@@ -1,0 +1,188 @@
+{
+  "canvas": {
+    "toBlob": {
+      "available": true,
+      "descriptor": {
+        "configurable": true,
+        "enumerable": true,
+        "getterSource": null,
+        "hasGetter": false,
+        "hasSetter": false,
+        "setterSource": null,
+        "valueSource": "function toBlob() { [native code] }",
+        "valueType": "function",
+        "writable": true
+      },
+      "illegalInvocation": {
+        "error": {
+          "constructor": "TypeError",
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "tested": true,
+        "throws": true
+      },
+      "length": 1,
+      "name": "toBlob",
+      "nativeSource": true,
+      "source": "function toBlob() { [native code] }"
+    },
+    "toDataURL": {
+      "available": true,
+      "descriptor": {
+        "configurable": true,
+        "enumerable": true,
+        "getterSource": null,
+        "hasGetter": false,
+        "hasSetter": false,
+        "setterSource": null,
+        "valueSource": "function toDataURL() { [native code] }",
+        "valueType": "function",
+        "writable": true
+      },
+      "illegalInvocation": {
+        "error": {
+          "constructor": "TypeError",
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "tested": true,
+        "throws": true
+      },
+      "length": 0,
+      "name": "toDataURL",
+      "nativeSource": true,
+      "source": "function toDataURL() { [native code] }"
+    }
+  },
+  "constructor": {
+    "CanvasRenderingContext2D": {
+      "length": 0,
+      "name": "CanvasRenderingContext2D",
+      "nativeSource": true,
+      "source": "function CanvasRenderingContext2D() { [native code] }"
+    },
+    "HTMLCanvasElement": {
+      "length": 0,
+      "name": "HTMLCanvasElement",
+      "nativeSource": true,
+      "source": "function HTMLCanvasElement() { [native code] }"
+    },
+    "OffscreenCanvas": {
+      "length": 2,
+      "name": "OffscreenCanvas",
+      "nativeSource": true,
+      "source": "function OffscreenCanvas() { [native code] }"
+    }
+  },
+  "context": {
+    "getImageData": {
+      "available": true,
+      "descriptor": {
+        "configurable": true,
+        "enumerable": true,
+        "getterSource": null,
+        "hasGetter": false,
+        "hasSetter": false,
+        "setterSource": null,
+        "valueSource": "function getImageData() { [native code] }",
+        "valueType": "function",
+        "writable": true
+      },
+      "illegalInvocation": {
+        "error": {
+          "constructor": "TypeError",
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "tested": true,
+        "throws": true
+      },
+      "length": 4,
+      "name": "getImageData",
+      "nativeSource": true,
+      "source": "function getImageData() { [native code] }"
+    },
+    "isPointInPath": {
+      "available": true,
+      "descriptor": {
+        "configurable": true,
+        "enumerable": true,
+        "getterSource": null,
+        "hasGetter": false,
+        "hasSetter": false,
+        "setterSource": null,
+        "valueSource": "function isPointInPath() { [native code] }",
+        "valueType": "function",
+        "writable": true
+      },
+      "illegalInvocation": {
+        "error": {
+          "constructor": "TypeError",
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "tested": true,
+        "throws": true
+      },
+      "length": 2,
+      "name": "isPointInPath",
+      "nativeSource": true,
+      "source": "function isPointInPath() { [native code] }"
+    },
+    "isPointInStroke": {
+      "available": true,
+      "descriptor": {
+        "configurable": true,
+        "enumerable": true,
+        "getterSource": null,
+        "hasGetter": false,
+        "hasSetter": false,
+        "setterSource": null,
+        "valueSource": "function isPointInStroke() { [native code] }",
+        "valueType": "function",
+        "writable": true
+      },
+      "illegalInvocation": {
+        "error": {
+          "constructor": "TypeError",
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "tested": true,
+        "throws": true
+      },
+      "length": 2,
+      "name": "isPointInStroke",
+      "nativeSource": true,
+      "source": "function isPointInStroke() { [native code] }"
+    },
+    "measureText": {
+      "available": true,
+      "descriptor": {
+        "configurable": true,
+        "enumerable": true,
+        "getterSource": null,
+        "hasGetter": false,
+        "hasSetter": false,
+        "setterSource": null,
+        "valueSource": "function measureText() { [native code] }",
+        "valueType": "function",
+        "writable": true
+      },
+      "illegalInvocation": {
+        "error": {
+          "constructor": "TypeError",
+          "message": "Illegal invocation",
+          "name": "TypeError"
+        },
+        "tested": true,
+        "throws": true
+      },
+      "length": 1,
+      "name": "measureText",
+      "nativeSource": true,
+      "source": "function measureText() { [native code] }"
+    }
+  }
+}

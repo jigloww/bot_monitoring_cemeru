@@ -1,0 +1,52 @@
+{
+  "cssAvailable": true,
+  "documentFontFamily": "\"Times New Roman\"",
+  "genericFamilies": {
+    "emoji": {
+      "fontCheck": true,
+      "fontFamily": true,
+      "fontShorthand": true
+    },
+    "fangsong": {
+      "fontCheck": true,
+      "fontFamily": true,
+      "fontShorthand": true
+    },
+    "math": {
+      "fontCheck": true,
+      "fontFamily": true,
+      "fontShorthand": true
+    },
+    "monospace": {
+      "fontCheck": true,
+      "fontFamily": true,
+      "fontShorthand": true
+    },
+    "sans-serif": {
+      "fontCheck": true,
+      "fontFamily": true,
+      "fontShorthand": true
+    },
+    "serif": {
+      "fontCheck": true,
+      "fontFamily": true,
+      "fontShorthand": true
+    },
+    "system-ui": {
+      "fontCheck": true,
+      "fontFamily": true,
+      "fontShorthand": true
+    }
+  },
+  "supportsDescriptors": {
+    "configurable": true,
+    "enumerable": false,
+    "getterSource": null,
+    "hasGetter": false,
+    "hasSetter": false,
+    "setterSource": null,
+    "valueSource": null,
+    "valueType": "object",
+    "writable": true
+  }
+}

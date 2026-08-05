@@ -1,0 +1,92 @@
+{
+  "fontFace": {
+    "available": true,
+    "constructor": "FontFace",
+    "constructorEquality": true,
+    "constructorSource": "function FontFace() { [native code] }",
+    "instanceofObject": true,
+    "objectPrototype": "Object",
+    "ownProperties": [
+      "Symbol(Symbol.toStringTag)",
+      "ascentOverride",
+      "constructor",
+      "descentOverride",
+      "display",
+      "family",
+      "featureSettings",
+      "lineGapOverride",
+      "load",
+      "loaded",
+      "sizeAdjust",
+      "status",
+      "stretch",
+      "style",
+      "unicodeRange",
+      "variant",
+      "variationSettings",
+      "weight"
+    ],
+    "prototypeChain": [
+      "FontFace",
+      "Object"
+    ],
+    "prototypeEquality": true,
+    "symbolToStringTag": {
+      "configurable": true,
+      "enumerable": false,
+      "getterSource": null,
+      "hasGetter": false,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": null,
+      "valueType": "string",
+      "writable": false
+    }
+  },
+  "fontFaceSet": {
+    "available": true,
+    "constructor": "FontFaceSet",
+    "constructorEquality": true,
+    "constructorSource": "function FontFaceSet() { [native code] }",
+    "instanceofObject": true,
+    "objectPrototype": "EventTarget",
+    "ownProperties": [
+      "Symbol(Symbol.iterator)",
+      "Symbol(Symbol.toStringTag)",
+      "add",
+      "check",
+      "clear",
+      "constructor",
+      "delete",
+      "entries",
+      "forEach",
+      "has",
+      "keys",
+      "load",
+      "onloading",
+      "onloadingdone",
+      "onloadingerror",
+      "ready",
+      "size",
+      "status",
+      "values"
+    ],
+    "prototypeChain": [
+      "FontFaceSet",
+      "EventTarget",
+      "Object"
+    ],
+    "prototypeEquality": true,
+    "symbolToStringTag": {
+      "configurable": true,
+      "enumerable": false,
+      "getterSource": null,
+      "hasGetter": false,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": null,
+      "valueType": "string",
+      "writable": false
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "experiment": "Experiment 055 - Permissions Comparator",
+  "experiment_id": "exp_207",
+  "created_at": "2026-08-05T09:09:39.251526+07:00",
+  "result": "PRODUCTION_READY",
+  "status": "PRODUCTION_READY",
+  "patch_required": false,
+  "certified": true,
+  "baseline_input": "D:\\bot_monitoring_cemeru\\reports\\experiments\\exp_206\\permissions",
+  "candidate_source": "BrowserSessionManager -> launch_browser",
+  "overall_similarity": 100.0,
+  "fingerprint_similarity": 100.0,
+  "remaining_differences": 0,
+  "critical_differences": 0,
+  "baseline_fingerprint": "e9487413999f6ffb21bb5de85af23d04c9df554018fa46482a0c57f039bf03e4",
+  "candidate_fingerprint": "e9487413999f6ffb21bb5de85af23d04c9df554018fa46482a0c57f039bf03e4",
+  "historical_artifacts_modified": false,
+  "browser_launches": 1,
+  "network_requests": 0,
+  "validation_valid": true
+}

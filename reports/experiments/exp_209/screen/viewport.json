@@ -1,0 +1,120 @@
+{
+  "devicePixelRatio": 1,
+  "documentClientHeight": 720,
+  "documentClientWidth": 1280,
+  "innerHeight": 720,
+  "innerWidth": 1280,
+  "matchMedia": {
+    "(min-height: 720px)": {
+      "available": true,
+      "constructor": "MediaQueryList",
+      "descriptor": {
+        "configurable": true,
+        "enumerable": true,
+        "getterSource": "function get matches() { [native code] }",
+        "hasGetter": true,
+        "hasSetter": false,
+        "setterSource": null,
+        "valueSource": null,
+        "valueType": null,
+        "writable": null
+      },
+      "matches": true,
+      "media": "(min-height: 720px)",
+      "objectToString": {
+        "constructor": "MediaQueryList",
+        "objectToString": "[object MediaQueryList]",
+        "ownProperties": [],
+        "type": "object"
+      },
+      "onchangeType": "object",
+      "prototype": "MediaQueryList"
+    },
+    "(min-width: 1280px)": {
+      "available": true,
+      "constructor": "MediaQueryList",
+      "descriptor": {
+        "configurable": true,
+        "enumerable": true,
+        "getterSource": "function get matches() { [native code] }",
+        "hasGetter": true,
+        "hasSetter": false,
+        "setterSource": null,
+        "valueSource": null,
+        "valueType": null,
+        "writable": null
+      },
+      "matches": true,
+      "media": "(min-width: 1280px)",
+      "objectToString": {
+        "constructor": "MediaQueryList",
+        "objectToString": "[object MediaQueryList]",
+        "ownProperties": [],
+        "type": "object"
+      },
+      "onchangeType": "object",
+      "prototype": "MediaQueryList"
+    },
+    "(orientation: landscape)": {
+      "available": true,
+      "constructor": "MediaQueryList",
+      "descriptor": {
+        "configurable": true,
+        "enumerable": true,
+        "getterSource": "function get matches() { [native code] }",
+        "hasGetter": true,
+        "hasSetter": false,
+        "setterSource": null,
+        "valueSource": null,
+        "valueType": null,
+        "writable": null
+      },
+      "matches": true,
+      "media": "(orientation: landscape)",
+      "objectToString": {
+        "constructor": "MediaQueryList",
+        "objectToString": "[object MediaQueryList]",
+        "ownProperties": [],
+        "type": "object"
+      },
+      "onchangeType": "object",
+      "prototype": "MediaQueryList"
+    },
+    "(orientation: portrait)": {
+      "available": true,
+      "constructor": "MediaQueryList",
+      "descriptor": {
+        "configurable": true,
+        "enumerable": true,
+        "getterSource": "function get matches() { [native code] }",
+        "hasGetter": true,
+        "hasSetter": false,
+        "setterSource": null,
+        "valueSource": null,
+        "valueType": null,
+        "writable": null
+      },
+      "matches": false,
+      "media": "(orientation: portrait)",
+      "objectToString": {
+        "constructor": "MediaQueryList",
+        "objectToString": "[object MediaQueryList]",
+        "ownProperties": [],
+        "type": "object"
+      },
+      "onchangeType": "object",
+      "prototype": "MediaQueryList"
+    }
+  },
+  "outerHeight": 720,
+  "outerWidth": 1280,
+  "visualViewport": {
+    "height": 720,
+    "offsetLeft": 0,
+    "offsetTop": 0,
+    "pageLeft": 0,
+    "pageTop": 0,
+    "scale": 1,
+    "width": 1280
+  }
+}

@@ -1,0 +1,289 @@
+{
+  "available": true,
+  "constructor": {
+    "descriptor": {
+      "configurable": true,
+      "enumerable": false,
+      "getterSource": null,
+      "hasGetter": false,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": "function FontFace() { [native code] }",
+      "valueType": "function",
+      "writable": true
+    },
+    "length": 2,
+    "name": "FontFace",
+    "nativeSource": true,
+    "source": "function FontFace() { [native code] }"
+  },
+  "methods": {
+    "load": {
+      "available": true,
+      "descriptor": {
+        "configurable": true,
+        "enumerable": true,
+        "getterSource": null,
+        "hasGetter": false,
+        "hasSetter": false,
+        "setterSource": null,
+        "valueSource": "function load() { [native code] }",
+        "valueType": "function",
+        "writable": true
+      },
+      "illegalInvocation": {
+        "tested": true,
+        "throws": false
+      },
+      "length": 0,
+      "name": "load",
+      "nativeSource": true,
+      "source": "function load() { [native code] }"
+    }
+  },
+  "prototype": {
+    "available": true,
+    "constructor": "FontFace",
+    "constructorEquality": false,
+    "constructorSource": "function FontFace() { [native code] }",
+    "instanceof": false,
+    "objectToString": "[object FontFace]",
+    "ownProperties": [
+      "Symbol(Symbol.toStringTag)",
+      "ascentOverride",
+      "constructor",
+      "descentOverride",
+      "display",
+      "family",
+      "featureSettings",
+      "lineGapOverride",
+      "load",
+      "loaded",
+      "sizeAdjust",
+      "status",
+      "stretch",
+      "style",
+      "unicodeRange",
+      "variant",
+      "variationSettings",
+      "weight"
+    ],
+    "prototype": "Object",
+    "prototypeChain": [
+      "FontFace",
+      "Object"
+    ],
+    "prototypeEquality": false,
+    "prototypeProperties": [
+      "__defineGetter__",
+      "__defineSetter__",
+      "__lookupGetter__",
+      "__lookupSetter__",
+      "__proto__",
+      "constructor",
+      "hasOwnProperty",
+      "isPrototypeOf",
+      "propertyIsEnumerable",
+      "toLocaleString",
+      "toString",
+      "valueOf"
+    ],
+    "referenceStable": true,
+    "symbolToStringTag": null,
+    "typeof": "object"
+  },
+  "prototypeChain": [
+    "FontFace",
+    "Object"
+  ],
+  "prototypeDescriptors": {
+    "Symbol(Symbol.toStringTag)": null,
+    "ascentOverride": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": "function get ascentOverride() { [native code] }",
+      "hasGetter": true,
+      "hasSetter": true,
+      "setterSource": "function set ascentOverride() { [native code] }",
+      "valueSource": null,
+      "valueType": null,
+      "writable": null
+    },
+    "constructor": {
+      "configurable": true,
+      "enumerable": false,
+      "getterSource": null,
+      "hasGetter": false,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": "function FontFace() { [native code] }",
+      "valueType": "function",
+      "writable": true
+    },
+    "descentOverride": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": "function get descentOverride() { [native code] }",
+      "hasGetter": true,
+      "hasSetter": true,
+      "setterSource": "function set descentOverride() { [native code] }",
+      "valueSource": null,
+      "valueType": null,
+      "writable": null
+    },
+    "display": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": "function get display() { [native code] }",
+      "hasGetter": true,
+      "hasSetter": true,
+      "setterSource": "function set display() { [native code] }",
+      "valueSource": null,
+      "valueType": null,
+      "writable": null
+    },
+    "family": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": "function get family() { [native code] }",
+      "hasGetter": true,
+      "hasSetter": true,
+      "setterSource": "function set family() { [native code] }",
+      "valueSource": null,
+      "valueType": null,
+      "writable": null
+    },
+    "featureSettings": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": "function get featureSettings() { [native code] }",
+      "hasGetter": true,
+      "hasSetter": true,
+      "setterSource": "function set featureSettings() { [native code] }",
+      "valueSource": null,
+      "valueType": null,
+      "writable": null
+    },
+    "lineGapOverride": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": "function get lineGapOverride() { [native code] }",
+      "hasGetter": true,
+      "hasSetter": true,
+      "setterSource": "function set lineGapOverride() { [native code] }",
+      "valueSource": null,
+      "valueType": null,
+      "writable": null
+    },
+    "load": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": null,
+      "hasGetter": false,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": "function load() { [native code] }",
+      "valueType": "function",
+      "writable": true
+    },
+    "loaded": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": "function get loaded() { [native code] }",
+      "hasGetter": true,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": null,
+      "valueType": null,
+      "writable": null
+    },
+    "sizeAdjust": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": "function get sizeAdjust() { [native code] }",
+      "hasGetter": true,
+      "hasSetter": true,
+      "setterSource": "function set sizeAdjust() { [native code] }",
+      "valueSource": null,
+      "valueType": null,
+      "writable": null
+    },
+    "status": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": "function get status() { [native code] }",
+      "hasGetter": true,
+      "hasSetter": false,
+      "setterSource": null,
+      "valueSource": null,
+      "valueType": null,
+      "writable": null
+    },
+    "stretch": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": "function get stretch() { [native code] }",
+      "hasGetter": true,
+      "hasSetter": true,
+      "setterSource": "function set stretch() { [native code] }",
+      "valueSource": null,
+      "valueType": null,
+      "writable": null
+    },
+    "style": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": "function get style() { [native code] }",
+      "hasGetter": true,
+      "hasSetter": true,
+      "setterSource": "function set style() { [native code] }",
+      "valueSource": null,
+      "valueType": null,
+      "writable": null
+    },
+    "unicodeRange": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": "function get unicodeRange() { [native code] }",
+      "hasGetter": true,
+      "hasSetter": true,
+      "setterSource": "function set unicodeRange() { [native code] }",
+      "valueSource": null,
+      "valueType": null,
+      "writable": null
+    },
+    "variant": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": "function get variant() { [native code] }",
+      "hasGetter": true,
+      "hasSetter": true,
+      "setterSource": "function set variant() { [native code] }",
+      "valueSource": null,
+      "valueType": null,
+      "writable": null
+    },
+    "variationSettings": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": "function get variationSettings() { [native code] }",
+      "hasGetter": true,
+      "hasSetter": true,
+      "setterSource": "function set variationSettings() { [native code] }",
+      "valueSource": null,
+      "valueType": null,
+      "writable": null
+    },
+    "weight": {
+      "configurable": true,
+      "enumerable": true,
+      "getterSource": "function get weight() { [native code] }",
+      "hasGetter": true,
+      "hasSetter": true,
+      "setterSource": "function set weight() { [native code] }",
+      "valueSource": null,
+      "valueType": null,
+      "writable": null
+    }
+  }
+}

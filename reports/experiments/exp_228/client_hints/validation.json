@@ -1,0 +1,20 @@
+{
+  "artifact_completeness": true,
+  "browser_launches": 1,
+  "browser_platform_verification": true,
+  "capture_error": null,
+  "descriptor_validation": false,
+  "deterministic_ordering": true,
+  "fingerprint_validation": true,
+  "historical_artifacts_immutable": true,
+  "json_validation": true,
+  "native_source_validation": true,
+  "network_requests": 0,
+  "playwright_status": "AVAILABLE",
+  "promise_validation": false,
+  "prototype_validation": false,
+  "python_compile": true,
+  "read_only_verification": true,
+  "registry_compatibility": true,
+  "valid": false
+}

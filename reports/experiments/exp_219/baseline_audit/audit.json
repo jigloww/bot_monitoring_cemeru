@@ -1,0 +1,101 @@
+{
+  "created_at": "2026-08-05T09:51:45.966903+07:00",
+  "experiment": "Experiment 060A - Browser Identity Baseline Audit",
+  "experiment_id": "exp_219",
+  "integrated_identity": {
+    "discovery_contract": {
+      "required_artifacts": [
+        "fingerprint.json"
+      ],
+      "selection_order": "successful, then complete, then any candidate; highest experiment number",
+      "successful_summary_result": "SUCCESS",
+      "successful_validation_valid": true,
+      "unverified_gate": "fingerprint.json top-level sha256 must be a non-empty string"
+    },
+    "expected_modules": [
+      "canvas",
+      "audio",
+      "client_hints"
+    ],
+    "load_contract": {
+      "data_type": "object",
+      "fingerprint_top_level_type": "object",
+      "required_fingerprint_fields": [
+        "sha256",
+        "data"
+      ],
+      "sha256_format": "64 hexadecimal characters",
+      "sha256_type": "string"
+    },
+    "module_artifacts": {
+      "audio": [
+        "fingerprint.json"
+      ],
+      "canvas": [
+        "fingerprint.json"
+      ],
+      "client_hints": [
+        "fingerprint.json"
+      ],
+      "fonts": [
+        "fingerprint.json"
+      ],
+      "navigator": [
+        "fingerprint.json"
+      ],
+      "permissions": [
+        "fingerprint.json"
+      ],
+      "plugins": [
+        "fingerprint.json"
+      ],
+      "screen": [
+        "fingerprint.json"
+      ],
+      "webrtc": [
+        "fingerprint.json"
+      ]
+    },
+    "parse_error": null,
+    "parseable": true,
+    "source_contract_evidence": {
+      "reads_fingerprint_data": "fingerprint.get(\"data\")",
+      "reads_fingerprint_sha256": "fingerprint.get(\"sha256\")",
+      "requires_summary_success": "summary.get(\"result\") == \"SUCCESS\"",
+      "requires_validation_valid": "validation.get(\"valid\") is True"
+    },
+    "source_exists": true,
+    "source_path": "D:\\bot_monitoring_cemeru\\experiments\\integrated_identity.py",
+    "source_sha256": "f0048713f2c2e7fa2689bd84462a83631c3e99999a4585dd74d462eb9010b077"
+  },
+  "scope": {
+    "browser_launches": 0,
+    "modules": [
+      "canvas",
+      "audio",
+      "client_hints"
+    ],
+    "network_requests": 0,
+    "read_only": true
+  },
+  "summary": {
+    "browser_launches": 0,
+    "created_at": "2026-08-05T09:51:45.966903+07:00",
+    "experiment": "Experiment 060A - Browser Identity Baseline Audit",
+    "experiment_id": "exp_219",
+    "historical_artifacts_modified": false,
+    "integrated_identity_experiment": "exp_218",
+    "missing_module_names": [],
+    "missing_modules": 0,
+    "modules_audited": 3,
+    "network_requests": 0,
+    "result": "PARTIAL",
+    "unverified_module_names": [
+      "canvas",
+      "audio",
+      "client_hints"
+    ],
+    "unverified_modules": 3,
+    "verified_modules": 0
+  }
+}

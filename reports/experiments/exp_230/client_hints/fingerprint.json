@@ -1,0 +1,138 @@
+{
+  "algorithm": "SHA-256",
+  "sha256": "27bb275e5ba78cbf76f0db9648bb09ad9cb12044573b3ed5e59169b733a98e4f",
+  "data": {
+    "availability": {
+      "constructor": null,
+      "navigatorUserAgentData": false,
+      "typeof": "undefined"
+    },
+    "browser": {
+      "browser": "chrome",
+      "engine": "chromium",
+      "headless": true,
+      "version": "151.0.7922.72"
+    },
+    "constructor": {},
+    "descriptors": {},
+    "errors": [],
+    "highEntropy": {
+      "availability": {
+        "architecture": {
+          "present": false,
+          "reason": "api_unavailable",
+          "resolved": false,
+          "type": null,
+          "value": null
+        },
+        "bitness": {
+          "present": false,
+          "reason": "api_unavailable",
+          "resolved": false,
+          "type": null,
+          "value": null
+        },
+        "brands": {
+          "present": false,
+          "reason": "api_unavailable",
+          "resolved": false,
+          "type": null,
+          "value": null
+        },
+        "fullVersionList": {
+          "present": false,
+          "reason": "api_unavailable",
+          "resolved": false,
+          "type": null,
+          "value": null
+        },
+        "mobile": {
+          "present": false,
+          "reason": "api_unavailable",
+          "resolved": false,
+          "type": null,
+          "value": null
+        },
+        "model": {
+          "present": false,
+          "reason": "api_unavailable",
+          "resolved": false,
+          "type": null,
+          "value": null
+        },
+        "platform": {
+          "present": false,
+          "reason": "api_unavailable",
+          "resolved": false,
+          "type": null,
+          "value": null
+        },
+        "platformVersion": {
+          "present": false,
+          "reason": "api_unavailable",
+          "resolved": false,
+          "type": null,
+          "value": null
+        },
+        "uaFullVersion": {
+          "present": false,
+          "reason": "api_unavailable",
+          "resolved": false,
+          "type": null,
+          "value": null
+        },
+        "wow64": {
+          "present": false,
+          "reason": "api_unavailable",
+          "resolved": false,
+          "type": null,
+          "value": null
+        }
+      },
+      "full": null,
+      "requestedHints": [
+        "architecture",
+        "bitness",
+        "brands",
+        "fullVersionList",
+        "mobile",
+        "model",
+        "platform",
+        "platformVersion",
+        "uaFullVersion",
+        "wow64"
+      ]
+    },
+    "identity": {
+      "available": false,
+      "constructorName": null,
+      "inheritedProperties": [],
+      "instanceofConstructor": false,
+      "instanceofObject": false,
+      "objectToString": null,
+      "ownProperties": [],
+      "prototypeEquality": false,
+      "symbolToStringTag": null
+    },
+    "immutable": {
+      "brandsExtensible": null,
+      "brandsFrozen": null,
+      "brandsReferenceStable": null,
+      "jsonBrandsFrozen": null,
+      "jsonFrozen": null,
+      "jsonReferenceStable": null,
+      "objectFrozen": null
+    },
+    "methods": {},
+    "promise": {
+      "asynchronous": null,
+      "isPromise": false,
+      "reason": "api_unavailable",
+      "supported": false,
+      "userAgentUnchanged": true
+    },
+    "prototype": {},
+    "userAgentData": {},
+    "values": {}
+  }
+}

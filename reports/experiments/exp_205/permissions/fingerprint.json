@@ -1,0 +1,1133 @@
+{
+  "algorithm": "SHA-256",
+  "sha256": "e9487413999f6ffb21bb5de85af23d04c9df554018fa46482a0c57f039bf03e4",
+  "data": {
+    "permissions": {
+      "available": true,
+      "constructor": "Permissions",
+      "constructorEquality": true,
+      "constructorSource": "function Permissions() { [native code] }",
+      "instanceofPermissions": true,
+      "navigatorDescriptor": {
+        "configurable": true,
+        "enumerable": true,
+        "getterSource": "function get permissions() { [native code] }",
+        "hasGetter": true,
+        "hasSetter": false,
+        "setterSource": null,
+        "valueSource": null,
+        "valueType": null,
+        "writable": null
+      },
+      "objectToString": "[object Permissions]",
+      "ownProperties": [],
+      "prototypeChain": [
+        "Permissions",
+        "Permissions",
+        "Object"
+      ],
+      "prototypeEquality": true,
+      "prototypeProperties": [
+        "Symbol(Symbol.toStringTag)",
+        "constructor",
+        "query"
+      ],
+      "referenceStable": true,
+      "symbolToStringTag": {
+        "configurable": true,
+        "enumerable": false,
+        "getterSource": null,
+        "hasGetter": false,
+        "hasSetter": false,
+        "setterSource": null,
+        "valueSource": null,
+        "valueType": "string",
+        "writable": false
+      },
+      "typeof": "object"
+    },
+    "prototype": {
+      "available": true,
+      "chain": [
+        "Permissions",
+        "Object"
+      ],
+      "constructor": {
+        "descriptor": {
+          "configurable": true,
+          "enumerable": false,
+          "getterSource": null,
+          "hasGetter": false,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": "function Permissions() { [native code] }",
+          "valueType": "function",
+          "writable": true
+        },
+        "length": 0,
+        "name": "Permissions",
+        "nativeSource": true,
+        "source": "function Permissions() { [native code] }"
+      },
+      "descriptors": {
+        "Symbol(Symbol.toStringTag)": null,
+        "constructor": {
+          "configurable": true,
+          "enumerable": false,
+          "getterSource": null,
+          "hasGetter": false,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": "function Permissions() { [native code] }",
+          "valueType": "function",
+          "writable": true
+        },
+        "query": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": null,
+          "hasGetter": false,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": "function query() { [native code] }",
+          "valueType": "function",
+          "writable": true
+        }
+      },
+      "instanceofObject": true,
+      "objectPrototype": "Object",
+      "ownProperties": [
+        "Symbol(Symbol.toStringTag)",
+        "constructor",
+        "query"
+      ],
+      "toStringTag": {
+        "configurable": true,
+        "enumerable": false,
+        "getterSource": null,
+        "hasGetter": false,
+        "hasSetter": false,
+        "setterSource": null,
+        "valueSource": null,
+        "valueType": "string",
+        "writable": false
+      }
+    },
+    "descriptors": {
+      "navigatorPermissions": {
+        "configurable": true,
+        "enumerable": true,
+        "getterSource": "function get permissions() { [native code] }",
+        "hasGetter": true,
+        "hasSetter": false,
+        "setterSource": null,
+        "valueSource": null,
+        "valueType": null,
+        "writable": null
+      },
+      "permissionStatusPrototype": {
+        "camera.Symbol(Symbol.toStringTag)": null,
+        "camera.constructor": {
+          "configurable": true,
+          "enumerable": false,
+          "getterSource": null,
+          "hasGetter": false,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": "function PermissionStatus() { [native code] }",
+          "valueType": "function",
+          "writable": true
+        },
+        "camera.name": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": "function get name() { [native code] }",
+          "hasGetter": true,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": null,
+          "valueType": null,
+          "writable": null
+        },
+        "camera.onchange": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": "function get onchange() { [native code] }",
+          "hasGetter": true,
+          "hasSetter": true,
+          "setterSource": "function set onchange() { [native code] }",
+          "valueSource": null,
+          "valueType": null,
+          "writable": null
+        },
+        "camera.state": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": "function get state() { [native code] }",
+          "hasGetter": true,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": null,
+          "valueType": null,
+          "writable": null
+        },
+        "clipboard-read.Symbol(Symbol.toStringTag)": null,
+        "clipboard-read.constructor": {
+          "configurable": true,
+          "enumerable": false,
+          "getterSource": null,
+          "hasGetter": false,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": "function PermissionStatus() { [native code] }",
+          "valueType": "function",
+          "writable": true
+        },
+        "clipboard-read.name": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": "function get name() { [native code] }",
+          "hasGetter": true,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": null,
+          "valueType": null,
+          "writable": null
+        },
+        "clipboard-read.onchange": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": "function get onchange() { [native code] }",
+          "hasGetter": true,
+          "hasSetter": true,
+          "setterSource": "function set onchange() { [native code] }",
+          "valueSource": null,
+          "valueType": null,
+          "writable": null
+        },
+        "clipboard-read.state": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": "function get state() { [native code] }",
+          "hasGetter": true,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": null,
+          "valueType": null,
+          "writable": null
+        },
+        "clipboard-write.Symbol(Symbol.toStringTag)": null,
+        "clipboard-write.constructor": {
+          "configurable": true,
+          "enumerable": false,
+          "getterSource": null,
+          "hasGetter": false,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": "function PermissionStatus() { [native code] }",
+          "valueType": "function",
+          "writable": true
+        },
+        "clipboard-write.name": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": "function get name() { [native code] }",
+          "hasGetter": true,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": null,
+          "valueType": null,
+          "writable": null
+        },
+        "clipboard-write.onchange": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": "function get onchange() { [native code] }",
+          "hasGetter": true,
+          "hasSetter": true,
+          "setterSource": "function set onchange() { [native code] }",
+          "valueSource": null,
+          "valueType": null,
+          "writable": null
+        },
+        "clipboard-write.state": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": "function get state() { [native code] }",
+          "hasGetter": true,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": null,
+          "valueType": null,
+          "writable": null
+        },
+        "geolocation.Symbol(Symbol.toStringTag)": null,
+        "geolocation.constructor": {
+          "configurable": true,
+          "enumerable": false,
+          "getterSource": null,
+          "hasGetter": false,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": "function PermissionStatus() { [native code] }",
+          "valueType": "function",
+          "writable": true
+        },
+        "geolocation.name": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": "function get name() { [native code] }",
+          "hasGetter": true,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": null,
+          "valueType": null,
+          "writable": null
+        },
+        "geolocation.onchange": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": "function get onchange() { [native code] }",
+          "hasGetter": true,
+          "hasSetter": true,
+          "setterSource": "function set onchange() { [native code] }",
+          "valueSource": null,
+          "valueType": null,
+          "writable": null
+        },
+        "geolocation.state": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": "function get state() { [native code] }",
+          "hasGetter": true,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": null,
+          "valueType": null,
+          "writable": null
+        },
+        "microphone.Symbol(Symbol.toStringTag)": null,
+        "microphone.constructor": {
+          "configurable": true,
+          "enumerable": false,
+          "getterSource": null,
+          "hasGetter": false,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": "function PermissionStatus() { [native code] }",
+          "valueType": "function",
+          "writable": true
+        },
+        "microphone.name": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": "function get name() { [native code] }",
+          "hasGetter": true,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": null,
+          "valueType": null,
+          "writable": null
+        },
+        "microphone.onchange": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": "function get onchange() { [native code] }",
+          "hasGetter": true,
+          "hasSetter": true,
+          "setterSource": "function set onchange() { [native code] }",
+          "valueSource": null,
+          "valueType": null,
+          "writable": null
+        },
+        "microphone.state": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": "function get state() { [native code] }",
+          "hasGetter": true,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": null,
+          "valueType": null,
+          "writable": null
+        },
+        "notifications.Symbol(Symbol.toStringTag)": null,
+        "notifications.constructor": {
+          "configurable": true,
+          "enumerable": false,
+          "getterSource": null,
+          "hasGetter": false,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": "function PermissionStatus() { [native code] }",
+          "valueType": "function",
+          "writable": true
+        },
+        "notifications.name": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": "function get name() { [native code] }",
+          "hasGetter": true,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": null,
+          "valueType": null,
+          "writable": null
+        },
+        "notifications.onchange": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": "function get onchange() { [native code] }",
+          "hasGetter": true,
+          "hasSetter": true,
+          "setterSource": "function set onchange() { [native code] }",
+          "valueSource": null,
+          "valueType": null,
+          "writable": null
+        },
+        "notifications.state": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": "function get state() { [native code] }",
+          "hasGetter": true,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": null,
+          "valueType": null,
+          "writable": null
+        }
+      },
+      "permissionsPrototype": {
+        "Symbol(Symbol.toStringTag)": null,
+        "constructor": {
+          "configurable": true,
+          "enumerable": false,
+          "getterSource": null,
+          "hasGetter": false,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": "function Permissions() { [native code] }",
+          "valueType": "function",
+          "writable": true
+        },
+        "query": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": null,
+          "hasGetter": false,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": "function query() { [native code] }",
+          "valueType": "function",
+          "writable": true
+        }
+      }
+    },
+    "methods": {
+      "query": {
+        "available": true,
+        "descriptor": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": null,
+          "hasGetter": false,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": "function query() { [native code] }",
+          "valueType": "function",
+          "writable": true
+        },
+        "length": 1,
+        "name": "query",
+        "nativeSource": true,
+        "source": "function query() { [native code] }"
+      },
+      "queryPrototype": {
+        "available": true,
+        "descriptor": {
+          "configurable": true,
+          "enumerable": true,
+          "getterSource": null,
+          "hasGetter": false,
+          "hasSetter": false,
+          "setterSource": null,
+          "valueSource": "function query() { [native code] }",
+          "valueType": "function",
+          "writable": true
+        },
+        "length": 1,
+        "name": "query",
+        "nativeSource": true,
+        "source": "function query() { [native code] }"
+      }
+    },
+    "behavior": {
+      "camera": {
+        "error": null,
+        "name": "camera",
+        "outcome": "resolved",
+        "promise": true,
+        "state": "denied",
+        "status": {
+          "constructor": "PermissionStatus",
+          "constructorSource": "function PermissionStatus() { [native code] }",
+          "descriptors": {
+            "Symbol(Symbol.toStringTag)": null,
+            "constructor": {
+              "configurable": true,
+              "enumerable": false,
+              "getterSource": null,
+              "hasGetter": false,
+              "hasSetter": false,
+              "setterSource": null,
+              "valueSource": "function PermissionStatus() { [native code] }",
+              "valueType": "function",
+              "writable": true
+            },
+            "name": {
+              "configurable": true,
+              "enumerable": true,
+              "getterSource": "function get name() { [native code] }",
+              "hasGetter": true,
+              "hasSetter": false,
+              "setterSource": null,
+              "valueSource": null,
+              "valueType": null,
+              "writable": null
+            },
+            "onchange": {
+              "configurable": true,
+              "enumerable": true,
+              "getterSource": "function get onchange() { [native code] }",
+              "hasGetter": true,
+              "hasSetter": true,
+              "setterSource": "function set onchange() { [native code] }",
+              "valueSource": null,
+              "valueType": null,
+              "writable": null
+            },
+            "state": {
+              "configurable": true,
+              "enumerable": true,
+              "getterSource": "function get state() { [native code] }",
+              "hasGetter": true,
+              "hasSetter": false,
+              "setterSource": null,
+              "valueSource": null,
+              "valueType": null,
+              "writable": null
+            }
+          },
+          "instanceofPermissionStatus": true,
+          "name": "video_capture",
+          "objectToString": "[object PermissionStatus]",
+          "onchangeType": "object",
+          "ownProperties": [],
+          "prototype": "PermissionStatus",
+          "prototypeChain": [
+            "PermissionStatus",
+            "PermissionStatus",
+            "EventTarget",
+            "Object"
+          ],
+          "prototypeProperties": [
+            "Symbol(Symbol.toStringTag)",
+            "constructor",
+            "name",
+            "onchange",
+            "state"
+          ],
+          "reference": {
+            "repeatedPrototypeEqual": true,
+            "repeatedStateEqual": true
+          },
+          "state": "denied",
+          "toStringTag": {
+            "configurable": true,
+            "enumerable": false,
+            "getterSource": null,
+            "hasGetter": false,
+            "hasSetter": false,
+            "setterSource": null,
+            "valueSource": null,
+            "valueType": "string",
+            "writable": false
+          }
+        },
+        "supported": true
+      },
+      "clipboard-read": {
+        "error": null,
+        "name": "clipboard-read",
+        "outcome": "resolved",
+        "promise": true,
+        "state": "denied",
+        "status": {
+          "constructor": "PermissionStatus",
+          "constructorSource": "function PermissionStatus() { [native code] }",
+          "descriptors": {
+            "Symbol(Symbol.toStringTag)": null,
+            "constructor": {
+              "configurable": true,
+              "enumerable": false,
+              "getterSource": null,
+              "hasGetter": false,
+              "hasSetter": false,
+              "setterSource": null,
+              "valueSource": "function PermissionStatus() { [native code] }",
+              "valueType": "function",
+              "writable": true
+            },
+            "name": {
+              "configurable": true,
+              "enumerable": true,
+              "getterSource": "function get name() { [native code] }",
+              "hasGetter": true,
+              "hasSetter": false,
+              "setterSource": null,
+              "valueSource": null,
+              "valueType": null,
+              "writable": null
+            },
+            "onchange": {
+              "configurable": true,
+              "enumerable": true,
+              "getterSource": "function get onchange() { [native code] }",
+              "hasGetter": true,
+              "hasSetter": true,
+              "setterSource": "function set onchange() { [native code] }",
+              "valueSource": null,
+              "valueType": null,
+              "writable": null
+            },
+            "state": {
+              "configurable": true,
+              "enumerable": true,
+              "getterSource": "function get state() { [native code] }",
+              "hasGetter": true,
+              "hasSetter": false,
+              "setterSource": null,
+              "valueSource": null,
+              "valueType": null,
+              "writable": null
+            }
+          },
+          "instanceofPermissionStatus": true,
+          "name": "clipboard_read",
+          "objectToString": "[object PermissionStatus]",
+          "onchangeType": "object",
+          "ownProperties": [],
+          "prototype": "PermissionStatus",
+          "prototypeChain": [
+            "PermissionStatus",
+            "PermissionStatus",
+            "EventTarget",
+            "Object"
+          ],
+          "prototypeProperties": [
+            "Symbol(Symbol.toStringTag)",
+            "constructor",
+            "name",
+            "onchange",
+            "state"
+          ],
+          "reference": {
+            "repeatedPrototypeEqual": true,
+            "repeatedStateEqual": true
+          },
+          "state": "denied",
+          "toStringTag": {
+            "configurable": true,
+            "enumerable": false,
+            "getterSource": null,
+            "hasGetter": false,
+            "hasSetter": false,
+            "setterSource": null,
+            "valueSource": null,
+            "valueType": "string",
+            "writable": false
+          }
+        },
+        "supported": true
+      },
+      "clipboard-write": {
+        "error": null,
+        "name": "clipboard-write",
+        "outcome": "resolved",
+        "promise": true,
+        "state": "denied",
+        "status": {
+          "constructor": "PermissionStatus",
+          "constructorSource": "function PermissionStatus() { [native code] }",
+          "descriptors": {
+            "Symbol(Symbol.toStringTag)": null,
+            "constructor": {
+              "configurable": true,
+              "enumerable": false,
+              "getterSource": null,
+              "hasGetter": false,
+              "hasSetter": false,
+              "setterSource": null,
+              "valueSource": "function PermissionStatus() { [native code] }",
+              "valueType": "function",
+              "writable": true
+            },
+            "name": {
+              "configurable": true,
+              "enumerable": true,
+              "getterSource": "function get name() { [native code] }",
+              "hasGetter": true,
+              "hasSetter": false,
+              "setterSource": null,
+              "valueSource": null,
+              "valueType": null,
+              "writable": null
+            },
+            "onchange": {
+              "configurable": true,
+              "enumerable": true,
+              "getterSource": "function get onchange() { [native code] }",
+              "hasGetter": true,
+              "hasSetter": true,
+              "setterSource": "function set onchange() { [native code] }",
+              "valueSource": null,
+              "valueType": null,
+              "writable": null
+            },
+            "state": {
+              "configurable": true,
+              "enumerable": true,
+              "getterSource": "function get state() { [native code] }",
+              "hasGetter": true,
+              "hasSetter": false,
+              "setterSource": null,
+              "valueSource": null,
+              "valueType": null,
+              "writable": null
+            }
+          },
+          "instanceofPermissionStatus": true,
+          "name": "clipboard_write",
+          "objectToString": "[object PermissionStatus]",
+          "onchangeType": "object",
+          "ownProperties": [],
+          "prototype": "PermissionStatus",
+          "prototypeChain": [
+            "PermissionStatus",
+            "PermissionStatus",
+            "EventTarget",
+            "Object"
+          ],
+          "prototypeProperties": [
+            "Symbol(Symbol.toStringTag)",
+            "constructor",
+            "name",
+            "onchange",
+            "state"
+          ],
+          "reference": {
+            "repeatedPrototypeEqual": true,
+            "repeatedStateEqual": true
+          },
+          "state": "denied",
+          "toStringTag": {
+            "configurable": true,
+            "enumerable": false,
+            "getterSource": null,
+            "hasGetter": false,
+            "hasSetter": false,
+            "setterSource": null,
+            "valueSource": null,
+            "valueType": "string",
+            "writable": false
+          }
+        },
+        "supported": true
+      },
+      "geolocation": {
+        "error": null,
+        "name": "geolocation",
+        "outcome": "resolved",
+        "promise": true,
+        "state": "denied",
+        "status": {
+          "constructor": "PermissionStatus",
+          "constructorSource": "function PermissionStatus() { [native code] }",
+          "descriptors": {
+            "Symbol(Symbol.toStringTag)": null,
+            "constructor": {
+              "configurable": true,
+              "enumerable": false,
+              "getterSource": null,
+              "hasGetter": false,
+              "hasSetter": false,
+              "setterSource": null,
+              "valueSource": "function PermissionStatus() { [native code] }",
+              "valueType": "function",
+              "writable": true
+            },
+            "name": {
+              "configurable": true,
+              "enumerable": true,
+              "getterSource": "function get name() { [native code] }",
+              "hasGetter": true,
+              "hasSetter": false,
+              "setterSource": null,
+              "valueSource": null,
+              "valueType": null,
+              "writable": null
+            },
+            "onchange": {
+              "configurable": true,
+              "enumerable": true,
+              "getterSource": "function get onchange() { [native code] }",
+              "hasGetter": true,
+              "hasSetter": true,
+              "setterSource": "function set onchange() { [native code] }",
+              "valueSource": null,
+              "valueType": null,
+              "writable": null
+            },
+            "state": {
+              "configurable": true,
+              "enumerable": true,
+              "getterSource": "function get state() { [native code] }",
+              "hasGetter": true,
+              "hasSetter": false,
+              "setterSource": null,
+              "valueSource": null,
+              "valueType": null,
+              "writable": null
+            }
+          },
+          "instanceofPermissionStatus": true,
+          "name": "geolocation",
+          "objectToString": "[object PermissionStatus]",
+          "onchangeType": "object",
+          "ownProperties": [],
+          "prototype": "PermissionStatus",
+          "prototypeChain": [
+            "PermissionStatus",
+            "PermissionStatus",
+            "EventTarget",
+            "Object"
+          ],
+          "prototypeProperties": [
+            "Symbol(Symbol.toStringTag)",
+            "constructor",
+            "name",
+            "onchange",
+            "state"
+          ],
+          "reference": {
+            "repeatedPrototypeEqual": true,
+            "repeatedStateEqual": true
+          },
+          "state": "denied",
+          "toStringTag": {
+            "configurable": true,
+            "enumerable": false,
+            "getterSource": null,
+            "hasGetter": false,
+            "hasSetter": false,
+            "setterSource": null,
+            "valueSource": null,
+            "valueType": "string",
+            "writable": false
+          }
+        },
+        "supported": true
+      },
+      "microphone": {
+        "error": null,
+        "name": "microphone",
+        "outcome": "resolved",
+        "promise": true,
+        "state": "denied",
+        "status": {
+          "constructor": "PermissionStatus",
+          "constructorSource": "function PermissionStatus() { [native code] }",
+          "descriptors": {
+            "Symbol(Symbol.toStringTag)": null,
+            "constructor": {
+              "configurable": true,
+              "enumerable": false,
+              "getterSource": null,
+              "hasGetter": false,
+              "hasSetter": false,
+              "setterSource": null,
+              "valueSource": "function PermissionStatus() { [native code] }",
+              "valueType": "function",
+              "writable": true
+            },
+            "name": {
+              "configurable": true,
+              "enumerable": true,
+              "getterSource": "function get name() { [native code] }",
+              "hasGetter": true,
+              "hasSetter": false,
+              "setterSource": null,
+              "valueSource": null,
+              "valueType": null,
+              "writable": null
+            },
+            "onchange": {
+              "configurable": true,
+              "enumerable": true,
+              "getterSource": "function get onchange() { [native code] }",
+              "hasGetter": true,
+              "hasSetter": true,
+              "setterSource": "function set onchange() { [native code] }",
+              "valueSource": null,
+              "valueType": null,
+              "writable": null
+            },
+            "state": {
+              "configurable": true,
+              "enumerable": true,
+              "getterSource": "function get state() { [native code] }",
+              "hasGetter": true,
+              "hasSetter": false,
+              "setterSource": null,
+              "valueSource": null,
+              "valueType": null,
+              "writable": null
+            }
+          },
+          "instanceofPermissionStatus": true,
+          "name": "audio_capture",
+          "objectToString": "[object PermissionStatus]",
+          "onchangeType": "object",
+          "ownProperties": [],
+          "prototype": "PermissionStatus",
+          "prototypeChain": [
+            "PermissionStatus",
+            "PermissionStatus",
+            "EventTarget",
+            "Object"
+          ],
+          "prototypeProperties": [
+            "Symbol(Symbol.toStringTag)",
+            "constructor",
+            "name",
+            "onchange",
+            "state"
+          ],
+          "reference": {
+            "repeatedPrototypeEqual": true,
+            "repeatedStateEqual": true
+          },
+          "state": "denied",
+          "toStringTag": {
+            "configurable": true,
+            "enumerable": false,
+            "getterSource": null,
+            "hasGetter": false,
+            "hasSetter": false,
+            "setterSource": null,
+            "valueSource": null,
+            "valueType": "string",
+            "writable": false
+          }
+        },
+        "supported": true
+      },
+      "notifications": {
+        "error": null,
+        "name": "notifications",
+        "outcome": "resolved",
+        "promise": true,
+        "state": "denied",
+        "status": {
+          "constructor": "PermissionStatus",
+          "constructorSource": "function PermissionStatus() { [native code] }",
+          "descriptors": {
+            "Symbol(Symbol.toStringTag)": null,
+            "constructor": {
+              "configurable": true,
+              "enumerable": false,
+              "getterSource": null,
+              "hasGetter": false,
+              "hasSetter": false,
+              "setterSource": null,
+              "valueSource": "function PermissionStatus() { [native code] }",
+              "valueType": "function",
+              "writable": true
+            },
+            "name": {
+              "configurable": true,
+              "enumerable": true,
+              "getterSource": "function get name() { [native code] }",
+              "hasGetter": true,
+              "hasSetter": false,
+              "setterSource": null,
+              "valueSource": null,
+              "valueType": null,
+              "writable": null
+            },
+            "onchange": {
+              "configurable": true,
+              "enumerable": true,
+              "getterSource": "function get onchange() { [native code] }",
+              "hasGetter": true,
+              "hasSetter": true,
+              "setterSource": "function set onchange() { [native code] }",
+              "valueSource": null,
+              "valueType": null,
+              "writable": null
+            },
+            "state": {
+              "configurable": true,
+              "enumerable": true,
+              "getterSource": "function get state() { [native code] }",
+              "hasGetter": true,
+              "hasSetter": false,
+              "setterSource": null,
+              "valueSource": null,
+              "valueType": null,
+              "writable": null
+            }
+          },
+          "instanceofPermissionStatus": true,
+          "name": "notifications",
+          "objectToString": "[object PermissionStatus]",
+          "onchangeType": "object",
+          "ownProperties": [],
+          "prototype": "PermissionStatus",
+          "prototypeChain": [
+            "PermissionStatus",
+            "PermissionStatus",
+            "EventTarget",
+            "Object"
+          ],
+          "prototypeProperties": [
+            "Symbol(Symbol.toStringTag)",
+            "constructor",
+            "name",
+            "onchange",
+            "state"
+          ],
+          "reference": {
+            "repeatedPrototypeEqual": true,
+            "repeatedStateEqual": true
+          },
+          "state": "denied",
+          "toStringTag": {
+            "configurable": true,
+            "enumerable": false,
+            "getterSource": null,
+            "hasGetter": false,
+            "hasSetter": false,
+            "setterSource": null,
+            "valueSource": null,
+            "valueType": "string",
+            "writable": false
+          }
+        },
+        "supported": true
+      }
+    },
+    "exceptions": {
+      "constructorCall": {
+        "error": {
+          "constructor": "TypeError",
+          "isDOMException": false,
+          "isError": true,
+          "isTypeError": true,
+          "message": "Illegal constructor",
+          "name": "TypeError"
+        },
+        "throws": true
+      },
+      "constructorReflect": {
+        "error": {
+          "constructor": "TypeError",
+          "isDOMException": false,
+          "isError": true,
+          "isTypeError": true,
+          "message": "Illegal constructor",
+          "name": "TypeError"
+        },
+        "throws": true
+      },
+      "detachedQuery": {
+        "error": {
+          "constructor": "TypeError",
+          "isDOMException": false,
+          "isError": true,
+          "isTypeError": true,
+          "message": "Failed to execute 'query' on 'Permissions': Illegal invocation",
+          "name": "TypeError"
+        },
+        "outcome": "rejected",
+        "promise": true,
+        "throws": true
+      },
+      "emptyDescriptor": {
+        "error": {
+          "constructor": "TypeError",
+          "isDOMException": false,
+          "isError": true,
+          "isTypeError": true,
+          "message": "Failed to execute 'query' on 'Permissions': Failed to read the 'name' property from 'PermissionDescriptor': Required member is undefined.",
+          "name": "TypeError"
+        },
+        "outcome": "rejected",
+        "promise": true,
+        "throws": true
+      },
+      "invalidReceiver": {
+        "error": {
+          "constructor": "TypeError",
+          "isDOMException": false,
+          "isError": true,
+          "isTypeError": true,
+          "message": "Failed to execute 'query' on 'Permissions': Illegal invocation",
+          "name": "TypeError"
+        },
+        "outcome": "rejected",
+        "promise": true,
+        "throws": true
+      },
+      "nullDescriptor": {
+        "error": {
+          "constructor": "TypeError",
+          "isDOMException": false,
+          "isError": true,
+          "isTypeError": true,
+          "message": "Failed to execute 'query' on 'Permissions': parameter 1 is not of type 'object'.",
+          "name": "TypeError"
+        },
+        "outcome": "rejected",
+        "promise": true,
+        "throws": true
+      },
+      "prototypeReceiver": {
+        "error": {
+          "constructor": "TypeError",
+          "isDOMException": false,
+          "isError": true,
+          "isTypeError": true,
+          "message": "Failed to execute 'query' on 'Permissions': Illegal invocation",
+          "name": "TypeError"
+        },
+        "outcome": "rejected",
+        "promise": true,
+        "throws": true
+      },
+      "unknownDescriptor": {
+        "error": {
+          "constructor": "TypeError",
+          "isDOMException": false,
+          "isError": true,
+          "isTypeError": true,
+          "message": "Failed to execute 'query' on 'Permissions': Failed to read the 'name' property from 'PermissionDescriptor': The provided value '__unknown_permission__' is not a valid enum value of type PermissionName.",
+          "name": "TypeError"
+        },
+        "outcome": "rejected",
+        "promise": true,
+        "throws": true
+      }
+    }
+  }
+}
